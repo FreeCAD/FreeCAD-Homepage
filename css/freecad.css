@@ -1,0 +1,78 @@
+html {
+    position: relative;
+    min-height: 100%;
+    background: url(../images/backgrounds/prusa.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 140px;
+    background: transparent;  
+}
+p {
+    text-align: justify;
+}
+.nav {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.navbar-brand {
+    padding: 10px;
+}
+.dropdown-menu {
+    background-color: #222;
+}
+.dropdown-menu li a {
+    color: #999;
+}
+.maincontent {
+    margin-top: 120px;
+    color: #000;
+    font-size: 1.1em;
+}
+.maincontent h4, .maincontent h1 {
+    margin: 25px 0;
+}
+.maincontent a {
+    color: #002E74;
+}
+.maincontent .nav {
+    margin-top: 100px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 140px;
+    background-color: #222;
+    padding-top: 20px;
+}     
+.footer a {
+    color: #555;
+}
+.footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.footer ul {
+    margin-top: 8px;
+    padding-left: 0;
+}
+.footer li {
+    list-style-type: none;
+}
+
+@media (max-width: 992px) {
+    body {
+        margin-bottom: 0;
+    }
+    .maincontent {
+        margin-top: 0;
+    }
+    .footer {
+        position: relative;
+    }
+}
