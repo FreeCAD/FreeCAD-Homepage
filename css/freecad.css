@@ -22,6 +22,13 @@ p {
 .navbar-brand {
     padding: 10px;
 }
+.nav-stacked > li {
+    text-align: right;
+}
+.nav-stacked li a:hover {
+    background: none;
+    text-decoration: underline;
+}
 .dropdown-menu {
     background-color: #222;
 }
@@ -37,7 +44,7 @@ p {
     margin: 25px 0;
 }
 .maincontent a {
-    color: #002E74;
+    color: #fff;
 }
 .maincontent .nav {
     margin-top: 100px;
@@ -65,7 +72,15 @@ p {
     list-style-type: none;
 }
 
+@media (max-width: 1681px) {
+    html {
+    background: url(../images/backgrounds/prusa.jpg) no-repeat 40% 80% fixed;
+    }
+}
 @media (max-width: 992px) {
+    html {
+    background: url(../images/backgrounds/prusa.jpg) no-repeat center right fixed;
+    }
     body {
         margin-bottom: 0;
     }
