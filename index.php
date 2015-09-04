@@ -39,7 +39,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
             <div id="navbar" class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
                     <li><a href="http://forum.freecadweb.org"><?php echo _('Forum'); ?></a></li>
-                    <li><a href="wiki/<?php echo _('title=Main_Page'); ?>"><?php echo _('Documentation'); ?></a></li>
+                    <li><a href="wiki/?<?php echo _('title=Main_Page'); ?>"><?php echo _('Documentation'); ?></a></li>
                     <li><a href="tracker/"><?php echo _('Bug tracker'); ?></a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
