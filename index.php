@@ -15,10 +15,9 @@ bind_textdomain_codeset("homepage", 'UTF-8');
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title><?php echo _('FreeCAD: An open-source parametric 3D CAD modeler'); ?></title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <link href='http://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap-3.3.5.min.css">
+        <link rel="stylesheet" href="css/font-awesome-4.4.0.min.css">
+        <link rel="stylesheet" href="css/google-fonts.css">
         <link rel="stylesheet" type="text/css" href="css/freecad.css">
         <link rel="shortcut icon" href="images/favicon.ico">
     </head>
@@ -145,8 +144,8 @@ bind_textdomain_codeset("homepage", 'UTF-8');
         </div>
     </footer>
     
-    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap-3.3.5.min.js"></script>
     
     </body>
     
