@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Regular.eot');
+    src: local('☺'), url('/fonts/FiraSans-Regular.woff') format('woff'), url('/fonts/FiraSans-Regular.ttf') format('truetype'), url('/fonts/FiraSans-Regular.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto.eot');
+    src: local('☺'), url('/fonts/Roboto.woff') format('woff'), url('/fonts/Roboto.ttf') format('truetype'), url('/fonts/Roboto.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -12,7 +28,11 @@ body {
     margin-bottom: 140px;
     background: transparent;  
 }
-p {
+body.mediawiki {
+    background: #fff;
+    padding-top: 80px;
+}
+p, .wiki-body-section {
     text-align: justify;
 }
 .nav {
@@ -20,13 +40,33 @@ p {
     text-transform: uppercase;
 }
 .navbar-brand {
+    font-size: 18px;
+    color: #fff !important;
+}
+.navbar-brand img {
+    margin-right: 0.5em;
+    max-height: 30px;
+    display: inline;
+}
+.nav .uls-trigger i {
+    font-size: 0;
+    margin-right: 10px;
+}
+#wiki-body .nav > li > a {
+    padding: 2px !important;
+}
+.navbar-brand {
     padding: 10px;
 }
 .nav-stacked > li {
     text-align: right;
+    padding-left: 3px;
 }
 .nav-stacked li a:hover {
     background: none;
+    text-decoration: underline;
+}
+.nav-stacked li.active a {
     text-decoration: underline;
 }
 .dropdown-menu {
@@ -35,10 +75,27 @@ p {
 .dropdown-menu li a {
     color: #999;
 }
+#wiki-body {
+    font-size: 1.15em;
+}
+#wiki-body img {
+    max-width: 100%;
+}
 .maincontent {
     margin-top: 120px;
     color: #000;
     font-size: 1.15em;
+}
+.mediawiki h2 {
+    margin-top: 35px;
+}
+h2 .mw-headline {
+    padding-top: 60px;
+    font-size: 24px;
+}
+h3 .mw-headline {
+    padding-top: 60px;
+    font-size: 18px;
 }
 .maincontent h4, .maincontent h1 {
     margin: 25px 0;
@@ -46,8 +103,32 @@ p {
 .maincontent a {
     color: #162766;
 }
+ #wiki-body a not #wiki-body a.new {
+    color: #226DB1;
+}
 .maincontent .nav {
     margin-top: 100px;
+}
+.affix {
+    text-align: right;
+    width: 230px;
+}
+.affix ul li {
+    list-style-type: none;
+    }
+.affix li ul li {
+    list-style-type: none;
+    font-size: 0.8em;
+    margin: 10px 0;
+}
+.commandRef {
+    margin-bottom: 30px;
+}
+.commandRef li {
+    font-size: 0.8em;
+}
+.mw-pt-languages {
+    margin-top: 30px;
 }
 .footer {
     position: fixed;
@@ -74,12 +155,12 @@ p {
 
 @media (max-width: 1681px) {
     html {
-    background: url(../images/backgrounds/prusa.jpg) no-repeat 40% 80% fixed;
+        background: url(../images/backgrounds/prusa.jpg) no-repeat 40% 80% fixed;
     }
 }
 @media (max-width: 992px) {
     html {
-    background: url(../images/backgrounds/prusa.jpg) no-repeat center right fixed;
+        background: url(../images/backgrounds/prusa.jpg) no-repeat center right fixed;
     }
     body {
         margin-bottom: 0;
@@ -89,5 +170,11 @@ p {
     }
     .footer {
         position: relative;
+    }
+    .affix {
+        position: static;
+        top: 0;
+        padding-top: 0;
+        width: auto;
     }
 }

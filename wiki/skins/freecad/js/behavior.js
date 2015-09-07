@@ -60,14 +60,18 @@ $(function() {
 			$('.toc-sidebar').remove();
 			$('.wiki-body-section').removeClass('col-md-9').addClass('col-md-12');
 		} else {
-			$('.toc-sidebar').append('<h3>Contents</h3>');
+			$('.toc-sidebar').append('<div class="affix toc-scrollspy"><h4>Contents</h4>');
 			$('#toc').each(function() {
 				$(this).find('ul:first').appendTo( '.toc-sidebar' );
 				$(this).remove();
 			});
-
+            $('.toc-sidebar').append('</div>');
 			$('.toc-sidebar').attr('id', 'toc');
 		}//end else
+        $('body').scrollspy({
+            target: '.toc-scrollspy',
+            offset: 120
+        });
 	} else {
 		$('#toc').each(function() {
 			var $toc = $(this);

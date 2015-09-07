@@ -17,7 +17,6 @@ bind_textdomain_codeset("homepage", 'UTF-8');
         <title><?php echo _('FreeCAD: An open-source parametric 3D CAD modeler'); ?></title>
         <link rel="stylesheet" href="css/bootstrap-3.3.5.min.css">
         <link rel="stylesheet" href="css/font-awesome-4.4.0.min.css">
-        <link rel="stylesheet" href="css/google-fonts.css">
         <link rel="stylesheet" type="text/css" href="css/freecad.css">
         <link rel="shortcut icon" href="images/favicon.ico">
     </head>
@@ -33,7 +32,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img alt="FreeCAD-logo" src="images/freecad-logo.png"/></a>
+                <a class="navbar-brand" href="#"><img alt="FreeCAD-logo" src="images/logo.png"/> FreeCAD</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">

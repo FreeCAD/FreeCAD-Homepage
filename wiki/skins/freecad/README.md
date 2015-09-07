@@ -1,4 +1,15 @@
-# Bootstrap Mediawiki
+# FreeCAD mediawiki skin
+
+This skin is based on Bootstrap-mediawiki by BorkWeb - see rest of the readme below. The only differences apart from the change of name (in order to allow both skins together), are the list below. All the functionality of the original bootstrap them (such as bootstrap: pages and config variables) continues to work.
+
+* Changed navbar to navbar-inverted
+* Changed "home" link
+* Added FreeCAD's master css file
+* Switched embedded bootsrap css to FreeCAD's master bootstrap
+* Enabled bootstrap's scrollspy behaviour in behavior.js
+* Changed the footer contents
+
+## Bootstrap Mediawiki
 
 This is a MediaWiki skin that uses Bootstrap 3 from Twitter!  The framework gives a boatload of features that play really nicely with a MediaWiki installation.  To get up and rolling, there's a few things that should be done.
 

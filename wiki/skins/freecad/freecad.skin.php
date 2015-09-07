@@ -241,9 +241,44 @@ class freecadTemplate extends QuickTemplate {
 			<div class="container">
 				<?php $this->includePage('Bootstrap:Footer'); ?>
 				<footer>
-					<p>&copy; <?php echo date('Y'); ?> by <a href="<?php echo (isset($wgCopyrightLink) ? $wgCopyrightLink : 'http://borkweb.com'); ?>"><?php echo (isset($wgCopyright) ? $wgCopyright : 'BorkWeb'); ?></a> 
-						&bull; Powered by <a href="http://mediawiki.org">MediaWiki</a> 
-					</p>
+
+        <div class="container text-muted">
+            <div class="row">
+                <div class="col-md-3">
+                    <?php echo _('Community'); ?>
+                    <ul>
+                        <li><a href="https://github.com/FreeCAD/FreeCAD">Github</a></li>
+                        <li><a href="https://www.facebook.com/FreeCAD">Facebook</a></li>
+                        <li><a href="https://plus.google.com/u/0/communities/103183769032333474646">Google+</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <?php echo _('Learn'); ?>
+                    <ul>
+                        <li><a href="wiki/?<?php echo _('title=Tutorials'); ?>"><?php echo _('Tutorials'); ?></a></li>
+                        <li><a href="https://www.youtube.com/results?search_query=freecad"><?php echo _('Youtube videos'); ?></a></li>
+                        <li><a href="http://area51.stackexchange.com/proposals/88434/freecad">Stack Exchange</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <?php echo _('Help the project'); ?>
+                    <ul>
+                        <li><a href="wiki/?<?php echo _('title=Help_FreeCAD'); ?>"><?php echo _('How can I help?'); ?></a></li>
+                        <li><a href="wiki/?<?php echo _('title=Donate'); ?>"><i class="fa fa-heart"></i> <?php echo _('Donate!'); ?></a></li>
+                        <li><a href="https://crowdin.com/project/freecad"><?php echo _('Translate'); ?></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <?php echo _('Code'); ?>
+                    <ul>
+                        <li><a href="wiki/?<?php echo _('title=Compiling'); ?>"><?php echo _('Building from source'); ?></a></li>
+                        <li><a href="api/"><?php echo _('C++ & Python API'); ?></a></li>
+                        <li><a href="wiki/?<?php echo _('title=Licence'); ?>"><?php echo _('License information'); ?></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
 				</footer>
 			</div><!-- container -->
 		</div><!-- bottom -->
