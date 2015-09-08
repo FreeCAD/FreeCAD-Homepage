@@ -30,7 +30,7 @@ body {
 }
 body.mediawiki {
     background: #fff;
-    padding-top: 80px;
+    padding-top: 60px;
 }
 p, .wiki-body-section {
     text-align: justify;
@@ -113,13 +113,15 @@ h3 .mw-headline {
     text-align: right;
     width: 230px;
 }
+.affix li {
+    margin-bottom: 0 !important;
+    }
 .affix ul li {
     list-style-type: none;
     }
 .affix li ul li {
     list-style-type: none;
     font-size: 0.8em;
-    margin: 10px 0;
 }
 .commandRef {
     margin-bottom: 30px;
@@ -128,9 +130,14 @@ h3 .mw-headline {
     font-size: 0.8em;
 }
 .mw-pt-languages {
-    margin-top: 30px;
+    margin: 30px 0 15px 0;
 }
-.footer {
+#wpTextbox1 {
+    background: #eee;
+    padding: 5px;
+    border: 1px solid #888;
+}
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -138,18 +145,18 @@ h3 .mw-headline {
     background-color: #222;
     padding-top: 20px;
 }     
-.footer a {
+footer a {
     color: #555;
 }
-.footer a:hover {
+footer a:hover {
     color: #fff;
     text-decoration: none;
 }
-.footer ul {
+footer ul {
     margin-top: 8px;
     padding-left: 0;
 }
-.footer li {
+footer li {
     list-style-type: none;
 }
 

@@ -62,16 +62,14 @@ $(function() {
 		} else {
 			$('.toc-sidebar').append('<div class="affix toc-scrollspy"><h4>Contents</h4>');
 			$('#toc').each(function() {
-				$(this).find('ul:first').appendTo( '.toc-sidebar' );
+				var $list = $(this).find('ul:first')
+                $list.appendTo( '.toc-scrollspy' );
+                $list.addClass( 'nav nav-stacked fixed' );
 				$(this).remove();
 			});
             $('.toc-sidebar').append('</div>');
 			$('.toc-sidebar').attr('id', 'toc');
 		}//end else
-        $('body').scrollspy({
-            target: '.toc-scrollspy',
-            offset: 120
-        });
 	} else {
 		$('#toc').each(function() {
 			var $toc = $(this);
@@ -107,4 +105,9 @@ $(function() {
 
 	$('#wiki-body .body a[title="Special:UserLogin"]').click();
 	$('.dropdown-toggle').dropdown();
+});
+
+$('body').scrollspy({
+    target: '.toc-scrollspy',
+    offset: 120
 });

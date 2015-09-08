@@ -24,7 +24,7 @@ if(file_exists('includes/SkinTemplate.php')){
  * @package MediaWiki
  * @subpackage Skins
  */
-class SkinBootstrapMediaWiki extends SkinTemplate {
+class Skinfreecad extends SkinTemplate {
 	/** Using Bootstrap */
 	public $skinname = 'freecad';
 	public $stylename = 'freecad';
@@ -52,7 +52,7 @@ class SkinBootstrapMediaWiki extends SkinTemplate {
 		$out->addModuleStyles( 'skins.freecad' );
 
 		// we need to include this here so the file pathing is right
-		$out->addStyle( 'freecad/font-awesome/css/font-awesome.min.css' );
+		$out->addStyle( '/css/font-awesome-4.4.0.min.css' );
 	}//end setupSkinUserCss
 }
 
@@ -237,8 +237,7 @@ class freecadTemplate extends QuickTemplate {
 				?>
 			</div><!-- container -->
 		</div>
-		<div class="bottom">
-			<div class="container">
+
 				<?php $this->includePage('Bootstrap:Footer'); ?>
 				<footer>
 
@@ -280,8 +279,6 @@ class freecadTemplate extends QuickTemplate {
         </div>
 
 				</footer>
-			</div><!-- container -->
-		</div><!-- bottom -->
 
 		<?php
 		$this->html('bottomscripts'); /* JS call to runBodyOnloadHook */

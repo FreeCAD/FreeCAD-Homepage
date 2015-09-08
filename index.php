@@ -105,7 +105,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
     </div>
 
 
-    <footer class="footer">
+    <footer>
         <div class="container text-muted">
             <div class="row">
                 <div class="col-md-3">
