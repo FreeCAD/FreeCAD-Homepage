@@ -31,6 +31,7 @@ body {
 body.mediawiki {
     background: #fff;
     padding-top: 60px;
+    margin-bottom: 0;
 }
 p, .wiki-body-section {
     text-align: justify;
@@ -144,7 +145,10 @@ footer {
     min-height: 140px;
     background-color: #222;
     padding-top: 20px;
-}     
+}
+.mediawiki footer {
+    position: relative;
+}
 footer a {
     color: #555;
 }
