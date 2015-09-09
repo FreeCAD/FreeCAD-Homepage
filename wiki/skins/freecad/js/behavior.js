@@ -60,7 +60,7 @@ $(function() {
 			$('.toc-sidebar').remove();
 			$('.wiki-body-section').removeClass('col-md-9').addClass('col-md-12');
 		} else {
-			$('.toc-sidebar').append('<div class="affix toc-scrollspy"><h4>Contents</h4>');
+			$('.toc-sidebar').append('<div class="affix toc-scrollspy"><h3>Contents</h3>');
 			$('#toc').each(function() {
 				var $list = $(this).find('ul:first')
                 $list.appendTo( '.toc-scrollspy' );
@@ -69,6 +69,9 @@ $(function() {
 			});
             $('.toc-sidebar').append('</div>');
 			$('.toc-sidebar').attr('id', 'toc');
+            if ( 1 === $('.fcinfobox').length ) {
+                $('.fcinfobox').prependTo('.toc-scrollspy');
+            }
 		}//end else
 	} else {
 		$('#toc').each(function() {

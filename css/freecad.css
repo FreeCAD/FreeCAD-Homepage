@@ -94,6 +94,9 @@ h2 .mw-headline {
     padding-top: 60px;
     font-size: 24px;
 }
+h3 {
+    color: #000;
+}
 h3 .mw-headline {
     padding-top: 60px;
     font-size: 18px;
@@ -137,6 +140,23 @@ h3 .mw-headline {
     background: #eee;
     padding: 5px;
     border: 1px solid #888;
+}
+table.wikitable {
+    background: #fff;
+    border: none;
+}
+table.wikitable .ctOdd {
+    padding: 2px;
+    font-size: 0.7em;
+    text-align: right;
+    border: none;
+    background: #fff;
+}
+table.wikitable .ctEven {
+    margin-bottom: 5px;
+}
+.fcinfobox .mw-editsection {
+    display: none;
 }
 footer {
     position: fixed;
