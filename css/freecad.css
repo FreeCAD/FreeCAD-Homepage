@@ -127,6 +127,12 @@ h3 .mw-headline {
     list-style-type: none;
     font-size: 0.8em;
 }
+#toc.toc-sidebar li li {
+    margin-left: 0;
+}
+#toc ul, .toc ul {
+    padding-left: 0;
+}
 .commandRef {
     margin-bottom: 30px;
 }
