@@ -101,12 +101,12 @@ class freecadTemplate extends QuickTemplate {
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="<?php echo $this->data['nav_urls']['mainpage']['href'] ?>" title="<?php echo $wgSitename ?>"><?php echo isset( $wgLogo ) && $wgLogo ? "<img src='{$wgLogo}' alt='Logo'/> " : ''; echo $wgSitenameshort ?: $wgSitename; ?></a>
+						<a class="navbar-brand" href="/" title="FreeCAD homepage"><?php echo isset( $wgLogo ) && $wgLogo ? "<img src='{$wgLogo}' alt='Logo'/> " : ''; echo "FreeCAD"; ?></a>
 					</div>
 
 					<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav">
-							<li><a href="/">Home</a></li>
+							<li><a href="<?php echo $this->data['nav_urls']['mainpage']['href'] ?>" title="Documentation wiki homepage">Index</a></li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <span class="caret"></span></a>
 								<ul class="dropdown-menu">
