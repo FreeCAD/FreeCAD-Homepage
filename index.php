@@ -3,6 +3,9 @@
 $localeMap = array(
     'en' => 'en_US',
     'fr' => 'fr_FR',
+    'it' => 'it_IT',
+    'ru' => 'ru_RU',
+    'ja' => 'ja_JP',
 );
 $lang = "en"; 
 if (isSet($_GET["lang"])) $lang = $_GET["lang"];
@@ -51,32 +54,32 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="/?lang=af"><img src="lang/af/flag.jpg"/> <?php echo _('Afrikaans'); ?></a></li>
-                            <li><a href="/?lang=zh_CN"><img src="lang/zh_CN/flag.jpg"/> <?php echo _('Chinese Simplified'); ?></a></li>
-                            <li><a href="/?lang=zh_TW"><img src="lang/zh_TW/flag.jpg"/> <?php echo _('Chinese Traditional'); ?></a></li>
-                            <li><a href="/?lang=hr"><img src="lang/hr/flag.jpg"/> <?php echo _('Croatian'); ?></a></li>
-                            <li><a href="/?lang=cs"><img src="lang/cs/flag.jpg"/> <?php echo _('Czech'); ?></a></li>
-                            <li><a href="/?lang=nl"><img src="lang/nl/flag.jpg"/> <?php echo _('Dutch'); ?></a></li>
-                            <li><a href="/?lang=fi"><img src="lang/fi/flag.jpg"/> <?php echo _('Finnish'); ?></a></li>
-                            <li><a href="/?lang=fr"><img src="lang/fr/flag.jpg"/> <?php echo _('French'); ?></a></li>
-                            <li><a href="/?lang=de"><img src="lang/de/flag.jpg"/> <?php echo _('German'); ?></a></li>
-                            <li><a href="/?lang=hu"><img src="lang/hu/flag.jpg"/> <?php echo _('Hungarian'); ?></a></li>
-                            <li><a href="/?lang=ja"><img src="lang/ja/flag.jpg"/> <?php echo _('Japanese'); ?></a></li>
-                            <li><a href="/?lang=no"><img src="lang/no/flag.jpg"/> <?php echo _('Norwegian'); ?></a></li>
-                            <li><a href="/?lang=pl"><img src="lang/pl/flag.jpg"/> <?php echo _('Polish'); ?></a></li>
-                            <li><a href="/?lang=pt_PT"><img src="lang/pt_PT/flag.jpg"/> <?php echo _('Portuguese'); ?></a></li>
-                            <li><a href="/?lang=ro"><img src="lang/ro/flag.jpg"/> <?php echo _('Romanian'); ?></a></li>
-                            <li><a href="/?lang=ru"><img src="lang/ru/flag.jpg"/> <?php echo _('Russian'); ?></a></li>
-                            <li><a href="/?lang=sr"><img src="lang/sr/flag.jpg"/> <?php echo _('Serbian (Cyrillic)'); ?></a></li>
-                            <li><a href="/?lang=es_ES"><img src="lang/es_ES/flag.jpg"/> <?php echo _('Spanish'); ?></a></li>
-                            <li><a href="/?lang=sv_SE"><img src="lang/sv_SE/flag.jpg"/> <?php echo _('Swedish'); ?></a></li>
-                            <li><a href="/?lang=uk"><img src="lang/uk/flag.jpg"/> <?php echo _('Ukrainian'); ?></a></li>
-                            <li><a href="/?lang=it"><img src="lang/it/flag.jpg"/> <?php echo _('Italian'); ?></a></li>
-                            <li><a href="/?lang=pt_BR"><img src="lang/pt_BR/flag.jpg"/> <?php echo _('Portuguese, Brazilian'); ?></a></li>
-                            <li><a href="/?lang=el"><img src="lang/el/flag.jpg"/> <?php echo _('Greek'); ?></a></li>
-                            <li><a href="/?lang=sk"><img src="lang/sk/flag.jpg"/> <?php echo _('Slovak'); ?></a></li>
-                            <li><a href="/?lang=tr"><img src="lang/tr/flag.jpg"/> <?php echo _('Turkish'); ?></a></li>
-                            <li><a href="/?lang=sl"><img src="lang/sl/flag.jpg"/> <?php echo _('Slovenian'); ?></a></li>
+                            <li><a href="/?lang=af"><img src="lang/af/flag.jpg"/> <?php echo 'Afrikaans'; ?></a></li>
+                            <li><a href="/?lang=zh_CN"><img src="lang/zh_CN/flag.jpg"/> <?php echo 'Chinese Simplified'; ?></a></li>
+                            <li><a href="/?lang=zh_TW"><img src="lang/zh_TW/flag.jpg"/> <?php echo 'Chinese Traditional'; ?></a></li>
+                            <li><a href="/?lang=hr"><img src="lang/hr/flag.jpg"/> <?php echo 'Croatian'; ?></a></li>
+                            <li><a href="/?lang=cs"><img src="lang/cs/flag.jpg"/> <?php echo 'Czech'; ?></a></li>
+                            <li><a href="/?lang=nl"><img src="lang/nl/flag.jpg"/> <?php echo 'Dutch'; ?></a></li>
+                            <li><a href="/?lang=fi"><img src="lang/fi/flag.jpg"/> <?php echo 'Finnish'; ?></a></li>
+                            <li><a href="/?lang=fr"><img src="lang/fr/flag.jpg"/> <?php echo 'French'; ?></a></li>
+                            <li><a href="/?lang=de"><img src="lang/de/flag.jpg"/> <?php echo 'German'; ?></a></li>
+                            <li><a href="/?lang=hu"><img src="lang/hu/flag.jpg"/> <?php echo 'Hungarian'; ?></a></li>
+                            <li><a href="/?lang=ja"><img src="lang/ja/flag.jpg"/> <?php echo 'Japanese'; ?></a></li>
+                            <li><a href="/?lang=no"><img src="lang/no/flag.jpg"/> <?php echo 'Norwegian'; ?></a></li>
+                            <li><a href="/?lang=pl"><img src="lang/pl/flag.jpg"/> <?php echo 'Polish'; ?></a></li>
+                            <li><a href="/?lang=pt_PT"><img src="lang/pt_PT/flag.jpg"/> <?php echo 'Portuguese'; ?></a></li>
+                            <li><a href="/?lang=ro"><img src="lang/ro/flag.jpg"/> <?php echo 'Romanian'; ?></a></li>
+                            <li><a href="/?lang=ru"><img src="lang/ru/flag.jpg"/> <?php echo 'Russian'; ?></a></li>
+                            <li><a href="/?lang=sr"><img src="lang/sr/flag.jpg"/> <?php echo 'Serbian (Cyrillic)'; ?></a></li>
+                            <li><a href="/?lang=es_ES"><img src="lang/es_ES/flag.jpg"/> <?php echo 'Spanish'; ?></a></li>
+                            <li><a href="/?lang=sv_SE"><img src="lang/sv_SE/flag.jpg"/> <?php echo 'Swedish'; ?></a></li>
+                            <li><a href="/?lang=uk"><img src="lang/uk/flag.jpg"/> <?php echo 'Ukrainian'; ?></a></li>
+                            <li><a href="/?lang=it"><img src="lang/it/flag.jpg"/> <?php echo 'Italian'; ?></a></li>
+                            <li><a href="/?lang=pt_BR"><img src="lang/pt_BR/flag.jpg"/> <?php echo 'Portuguese, Brazilian'; ?></a></li>
+                            <li><a href="/?lang=el"><img src="lang/el/flag.jpg"/> <?php echo 'Greek'; ?></a></li>
+                            <li><a href="/?lang=sk"><img src="lang/sk/flag.jpg"/> <?php echo 'Slovak'; ?></a></li>
+                            <li><a href="/?lang=tr"><img src="lang/tr/flag.jpg"/> <?php echo 'Turkish'; ?></a></li>
+                            <li><a href="/?lang=sl"><img src="lang/sl/flag.jpg"/> <?php echo 'Slovenian'; ?></a></li>
                         </ul>
                     </li>
                 </ul>

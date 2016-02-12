@@ -97,7 +97,7 @@ def doLanguage(lncode):
         print "saving flag to ",flagfile
         im.save(flagfile)
     lname = re.findall("<img.*?"+lncode.replace("_","-")+".png.*?Translate FreeCAD to (.*?) language",crowdinpage)[0]
-    return "<li><a href=\"/?lang="+lncode+"\"><img src=\"lang/"+lncode+"/flag.jpg\"/> <?php echo _('"+lname+"'); ?></a></li>\n"
+    return "<li><a href=\"/?lang="+lncode+"\"><img src=\"lang/"+lncode+"/flag.jpg\"/> <?php echo '"+lname+"'; ?></a></li>\n"
 
 
 if __name__ == "__main__":
