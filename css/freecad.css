@@ -117,8 +117,11 @@ h3 .mw-headline {
     margin-top: 100px;
 }
 .affix {
-    text-align: right;
+    /* text-align: right; */
     width: 230px;
+    max-height: 80%;
+    overflow-y: auto;
+    padding-right: 10px;
 }
 .affix li {
     margin-bottom: 0 !important;
@@ -156,13 +159,20 @@ table.wikitable {
 }
 table.wikitable .ctOdd {
     padding: 2px;
-    font-size: 0.7em;
-    text-align: right;
+    text-align: left;
+    font-weight: normal;
     border: none;
     background: #fff;
+    color: #555;
 }
 table.wikitable .ctEven {
+    text-align: left;
     margin-bottom: 5px;
+    background: #efefef;
+}
+.fcinfobox {
+    border: 1px solid #ccc;
+    padding: 5px;
 }
 .fcinfobox .mw-editsection {
     display: none;
