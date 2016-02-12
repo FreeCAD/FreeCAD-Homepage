@@ -57,13 +57,12 @@ You can also run the script without any language code, in which case all the
 languages contained in the archive or directory will be added.
 '''
 
-import sys, os, shutil, tempfile, zipfile, getopt, StringIO, re, urllib2, PIL
+import sys, os, shutil, tempfile, zipfile, getopt, StringIO, re, urllib2, Image
 
 crowdinpath = "http://crowdin.net/download/project/freecad.zip"
 
 
 default_languages = "af zh-CN zh-TW hr cs nl fi fr de hu ja no pl pt-PT ro ru sr es-ES sv-SE uk it pt-BR el sk tr sl"
-
 
 def doLanguage(lncode):
     " treats a single language"
@@ -71,35 +70,34 @@ def doLanguage(lncode):
         # never treat "english" translation... For now :)
         return
     basefilepath = tempfolder + os.sep + lncode + os.sep + "homepage.po"
+    lncode = lncode.replace("-","_")
     langpath = os.path.join(os.path.abspath("lang"),lncode)
     popath = os.path.join(langpath,"LC_MESSAGES")
     flagfile = os.path.join(langpath,"flag.jpg")
     print "language:",lncode
     print "language file:",basefilepath
-    print "target path:",langpath,lncode
+    print "target path:",langpath
     if not os.path.exists(langpath):
         print "creating folders"
-        os.path.mkdir(langpath)
-        os.path.mkdir(popath)
-    print "creating translation files"
-    shutil.copyfile(basefilepath,popath)
+        os.mkdir(langpath)
+        os.mkdir(popath)
+    print "copying translation file"
+    shutil.copyfile(basefilepath,os.path.join(popath,"homepage.po"))
+    print "compiling translation file"
     os.system("msgfmt -c -o "+os.path.join(popath,"homepage.mo")+" "+os.path.join(popath,"homepage.po"))
     if not os.path.exists(flagfile):
-        print "downloading flag"
         if "_" in lncode:
             lflag = lncode.split("_")[0]
         else:
             lflag = lncode
-        img = urllib2.urlopen("http://www.unilang.org/images/langicons/"+lflag+ ".png").read()
-        from PIL import Image
-        try:
-            im = Image.open(StringIO.StringIO(img))
-            im.verify()
-        except Exception, e:
-            print "invalid image"
-        else:
-            print "saving flag"
-            im.save(flagfile)
+        flagurl = "http://www.unilang.org/images/langicons/"+lflag+ ".png"
+        print "downloading flag from ",flagurl
+        im = Image.open(StringIO.StringIO(urllib2.urlopen(flagurl).read()))
+        im = im.convert("RGB")
+        print "saving flag to ",flagfile
+        im.save(flagfile)
+    lname = re.findall("<img.*?"+lncode.replace("_","-")+".png.*?Translate FreeCAD to (.*?) language",crowdinpage)[0]
+    return "<li><a href=\"/?lang="+lncode+"\"><img src=\"lang/"+lncode+"/flag.jpg\"/> <?php echo _('"+lname+"'); ?></a></li>\n"
 
 
 if __name__ == "__main__":
@@ -126,6 +124,8 @@ if __name__ == "__main__":
             inputzip = a
 
     global tempfolder
+    global crowdinpage
+    crowdinpage = urllib2.urlopen("https://crowdin.com/project/freecad").read()
     currentfolder = os.getcwd()
     if inputdir:
         tempfolder = os.path.realpath(inputdir)
@@ -160,9 +160,12 @@ if __name__ == "__main__":
         #args = [o for o in os.listdir(tempfolder) if o != "freecad.zip"]
         # do not treat all languages in the zip file. Some are not translated enough.
         args = default_languages.split()
+    phpcode = ""
     for ln in args:
         if not os.path.exists(tempfolder + os.sep + ln):
             print "ERROR: language path for " + ln + " not found!"
         else:
-            doLanguage(ln)
+            phpcode += doLanguage(ln)
+    print "\n\nPHP CODE:\n\n"
+    print phpcode
 
