@@ -1,8 +1,14 @@
-<?php 
-$lang = "en_US"; 
-if (isSet($_GET["lang"])) $lang = $_GET["lang"]; 
-putenv("LC_ALL=$lang"); 
-setlocale(LC_ALL, $lang); 
+<?php
+// idiot gettext cannot understand "en". it needs "en_GB"...
+$localeMap = array(
+    'en' => 'en_US',
+    'fr' => 'fr_FR',
+);
+$lang = "en"; 
+if (isSet($_GET["lang"])) $lang = $_GET["lang"];
+$locale = isset($localeMap[$lang]) ? $localeMap[$lang] : $lang;
+putenv("LC_ALL=$locale"); 
+setlocale(LC_ALL, $locale); 
 bindtextdomain("homepage", "lang"); 
 textdomain("homepage");
 bind_textdomain_codeset("homepage", 'UTF-8');
@@ -10,7 +16,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
-<html>
+<html lang="<?php echo $lang;?>">
     
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
