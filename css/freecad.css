@@ -28,7 +28,7 @@ body {
     margin-bottom: 140px;
     background: transparent;  
 }
-body.mediawiki {
+body.mediawiki, body#phpbb {
     background: #fff;
     padding-top: 60px;
     margin-bottom: 0;
@@ -185,7 +185,7 @@ footer {
     background-color: #222;
     padding-top: 20px;
 }
-.mediawiki footer {
+.mediawiki footer, #phpbb footer {
     position: relative;
 }
 footer a {
