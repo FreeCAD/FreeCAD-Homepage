@@ -76,6 +76,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                             <li><a href="/?lang=hr"><img src="lang/hr/flag.jpg"/> <?php echo 'Croatian'; ?></a></li>
                             <li><a href="/?lang=cs"><img src="lang/cs/flag.jpg"/> <?php echo 'Czech'; ?></a></li>
                             <li><a href="/?lang=nl"><img src="lang/nl/flag.jpg"/> <?php echo 'Dutch'; ?></a></li>
+                            <li><a href="/"><img src="lang/en/flag.jpg"/> <?php echo 'English'; ?></a></li>
                             <li><a href="/?lang=fi"><img src="lang/fi/flag.jpg"/> <?php echo 'Finnish'; ?></a></li>
                             <li><a href="/?lang=fr"><img src="lang/fr/flag.jpg"/> <?php echo 'French'; ?></a></li>
                             <li><a href="/?lang=de"><img src="lang/de/flag.jpg"/> <?php echo 'German'; ?></a></li>
