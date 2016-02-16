@@ -92,7 +92,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                             <li><a href="/?lang=sv_SE"><img src="lang/sv_SE/flag.jpg"/> <?php echo 'Swedish'; ?></a></li>
                             <li><a href="/?lang=uk"><img src="lang/uk/flag.jpg"/> <?php echo 'Ukrainian'; ?></a></li>
                             <li><a href="/?lang=it"><img src="lang/it/flag.jpg"/> <?php echo 'Italian'; ?></a></li>
-                            <li><a href="/?lang=pt_BR"><img src="lang/pt_BR/flag.jpg"/> <?php echo 'Portuguese, Brazilian'; ?></a></li>
+                            <!--<li><a href="/?lang=pt_BR"><img src="lang/pt_BR/flag.jpg"/> <?php echo 'Portuguese, Brazilian'; ?></a></li>-->
                             <li><a href="/?lang=el"><img src="lang/el/flag.jpg"/> <?php echo 'Greek'; ?></a></li>
                             <li><a href="/?lang=sk"><img src="lang/sk/flag.jpg"/> <?php echo 'Slovak'; ?></a></li>
                             <li><a href="/?lang=tr"><img src="lang/tr/flag.jpg"/> <?php echo 'Turkish'; ?></a></li>
