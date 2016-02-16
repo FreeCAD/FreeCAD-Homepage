@@ -254,25 +254,25 @@ class freecadTemplate extends QuickTemplate {
                 <div class="col-md-3">
                     <?php echo _('Learn'); ?>
                     <ul>
-                        <li><a href="wiki/?<?php echo _('title=Tutorials'); ?>"><?php echo _('Tutorials'); ?></a></li>
-                        <li><a href="https://www.youtube.com/results?search_query=freecad"><?php echo _('Youtube videos'); ?></a></li>
-                        <li><a href="http://area51.stackexchange.com/proposals/88434/freecad">Stack Exchange</a></li>
+                        <li><a href="/wiki/?<?php echo _('title=Tutorials'); ?>"><?php echo _('Tutorials'); ?></a></li>
+                        <li><a href="/https://www.youtube.com/results?search_query=freecad"><?php echo _('Youtube videos'); ?></a></li>
+                        <li><a href="/http://area51.stackexchange.com/proposals/88434/freecad">Stack Exchange</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
                     <?php echo _('Help the project'); ?>
                     <ul>
-                        <li><a href="wiki/?<?php echo _('title=Help_FreeCAD'); ?>"><?php echo _('How can I help?'); ?></a></li>
-                        <li><a href="wiki/?<?php echo _('title=Donate'); ?>"><i class="fa fa-heart"></i> <?php echo _('Donate!'); ?></a></li>
+                        <li><a href="/wiki/?<?php echo _('title=Help_FreeCAD'); ?>"><?php echo _('How can I help?'); ?></a></li>
+                        <li><a href="/wiki/?<?php echo _('title=Donate'); ?>"><i class="fa fa-heart"></i> <?php echo _('Donate!'); ?></a></li>
                         <li><a href="https://crowdin.com/project/freecad"><?php echo _('Translate'); ?></a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
                     <?php echo _('Code'); ?>
                     <ul>
-                        <li><a href="wiki/?<?php echo _('title=Compiling'); ?>"><?php echo _('Building from source'); ?></a></li>
-                        <li><a href="api/"><?php echo _('C++ & Python API'); ?></a></li>
-                        <li><a href="wiki/?<?php echo _('title=Licence'); ?>"><?php echo _('License information'); ?></a></li>
+                        <li><a href="/wiki/?<?php echo _('title=Compiling'); ?>"><?php echo _('Building from source'); ?></a></li>
+                        <li><a href="/api/"><?php echo _('C++ & Python API'); ?></a></li>
+                        <li><a href="/wiki/?<?php echo _('title=Licence'); ?>"><?php echo _('License information'); ?></a></li>
                     </ul>
                 </div>
             </div>
