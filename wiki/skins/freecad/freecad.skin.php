@@ -255,8 +255,8 @@ class freecadTemplate extends QuickTemplate {
                     <?php echo _('Learn'); ?>
                     <ul>
                         <li><a href="/wiki/?<?php echo _('title=Tutorials'); ?>"><?php echo _('Tutorials'); ?></a></li>
-                        <li><a href="/https://www.youtube.com/results?search_query=freecad"><?php echo _('Youtube videos'); ?></a></li>
-                        <li><a href="/http://area51.stackexchange.com/proposals/88434/freecad">Stack Exchange</a></li>
+                        <li><a href="https://www.youtube.com/results?search_query=freecad"><?php echo _('Youtube videos'); ?></a></li>
+                        <li><a href="http://area51.stackexchange.com/proposals/88434/freecad">Stack Exchange</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
