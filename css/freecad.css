@@ -17,6 +17,8 @@
 html {
     position: relative;
     min-height: 100%;
+}
+html.home {
     background: url(../images/backgrounds/prusa.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -209,12 +211,12 @@ textarea {
 }
 
 @media (max-width: 1681px) {
-    html {
+    html.home {
         background: url(../images/backgrounds/prusa.jpg) no-repeat 40% 80% fixed;
     }
 }
 @media (max-width: 992px) {
-    html {
+    html.home {
         background: url(../images/backgrounds/prusa.jpg) no-repeat center right fixed;
     }
     body {
