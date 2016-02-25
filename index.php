@@ -39,6 +39,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
     
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <title><?php echo _('FreeCAD: An open-source parametric 3D CAD modeler'); ?></title>
         <link rel="stylesheet" href="css/bootstrap-3.3.5.min.css">
         <link rel="stylesheet" href="css/font-awesome-4.4.0.min.css">
@@ -48,24 +49,24 @@ bind_textdomain_codeset("homepage", 'UTF-8');
     
     <body>
     
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only"><?php echo _('Toggle navigation'); ?></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img alt="FreeCAD-logo" src="images/logo.png"/> FreeCAD</a>
+                <a class="navbar-brand" href="/"><img alt="FreeCAD-logo" src="images/logo.png"/> FreeCAD</a>
             </div>
-            <div id="navbar" class="collapse navbar-collapse navbar-right">
-                <ul class="nav navbar-nav">
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
                     <li><a href="http://forum.freecadweb.org"><?php echo _('Forum'); ?></a></li>
                     <li><a href="wiki/?<?php echo _('title=Main_Page'); ?>"><?php echo _('Documentation'); ?></a></li>
                     <li><a href="tracker/"><?php echo _('Bug tracker'); ?></a></li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
                             <img src="lang/<?php echo $lang; ?>/flag.jpg"/>
                             <span class="caret"></span>
                         </a>
@@ -102,7 +103,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
-    </nav>
+    </div>
     
     <div class="container maincontent">
         <div class="row">

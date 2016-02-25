@@ -27,13 +27,15 @@ $skinDir = array_pop( $skinDirParts );
 
 $wgResourceModules['skins.freecad'] = array(
     'styles' => array(
-        $skinDir . '/bootstrap/css/bootstrap.min.css'            => array( 'media' => 'all' ),
+        //$skinDir . '/bootstrap/css/bootstrap.min.css'            => array( 'media' => 'all' ),
+        $skinDir . '/../../../css/bootstrap-3.3.5.min.css'       => array( 'media' => 'all' ),
         $skinDir . '/google-code-prettify/prettify.css'          => array( 'media' => 'all' ),
         $skinDir . '/style.css'                                  => array( 'media' => 'all' ),
         $skinDir . '/../../../css/freecad.css'                   => array( 'media' => 'all' ),
     ),
     'scripts' => array(
-        $skinDir . '/bootstrap/js/bootstrap.min.js',
+        //$skinDir . '/bootstrap/js/bootstrap.min.js',
+        $skinDir . '/../../../js/bootstrap-3.3.5.min.js',
         $skinDir . '/google-code-prettify/prettify.js',
         $skinDir . '/js/jquery.ba-dotimeout.min.js',
         $skinDir . '/js/behavior.js',
