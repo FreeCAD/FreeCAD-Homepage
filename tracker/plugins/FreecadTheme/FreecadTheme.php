@@ -59,11 +59,11 @@ class FreeCADThemePlugin extends MantisPlugin {
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Issues <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="my_view_page.php" title="Issues"><i class="fa fa-gear"></i> My view</a></li>
-                                <li><a href="view_all_bug_page.php" title="Issues"><i class="fa fa-cogs"></i> All issues</a></li>';
+                                <li><a href="my_view_page.php" title="Issues">My view</a></li>
+                                <li><a href="view_all_bug_page.php" title="Issues">All issues</a></li>';
         if( !current_user_is_anonymous() ) {
-            $t_return .='                                <li><a href="http://forum.freecadweb.org/viewtopic.php?f=3&t=5236"><i class="fa fa-exclamation-triangle"></i> Read this before reporting</a></li>
-                                <li><a href="bug_report_page.php"><i class="fa fa-play"></i> Report issue</a></li>';
+            $t_return .='                                <li><a href="http://forum.freecadweb.org/viewtopic.php?f=3&t=5236">Read this before reporting</a></li>
+                                <li><a href="bug_report_page.php">Report issue</a></li>';
         }
         $t_return .='                            </ul> 
                         </li>
@@ -85,6 +85,10 @@ class FreeCADThemePlugin extends MantisPlugin {
                                 
             if( access_has_global_level( config_get( 'manage_site_threshold' ) ) ) {
                 $t_return .= '                              <li><a href="manage_overview_page.php"><i class="fa fa-cogs"></i> Manage</a></li>';
+            }
+            if( access_has_global_level( config_get( 'handle_bug_threshold' ) ) ) {
+                $t_return .= '                              <li><a href="summary_page.php"><i class="fa fa-cogs"></i> Statistics</a></li>';
+
             }
             $t_return .='                               <li><a href="logout_page.php"><i class="fa fa-user"></i> Logout</a></li>
                             </ul>
