@@ -62,9 +62,6 @@ bind_textdomain_codeset("homepage", 'UTF-8');
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="http://forum.freecadweb.org"><?php echo _('Forum'); ?></a></li>
-                    <li><a href="wiki/?<?php echo _('title=Main_Page'); ?>"><?php echo _('Documentation'); ?></a></li>
-                    <li><a href="tracker/"><?php echo _('Bug tracker'); ?></a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
                             <img src="lang/<?php echo $lang; ?>/flag.jpg"/>
@@ -100,6 +97,20 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                             <li><a href="/?lang=sl"><img src="lang/sl/flag.jpg"/> <?php echo 'Slovenian'; ?></a></li>
                         </ul>
                     </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <form class="navbar-search navbar-form" action="http://duckduckgo.com/" id="searchform" role="search" method="get">
+                        <div>
+                            <input type="hidden" name="sites" value="freecadweb.org"/>
+                            <input type="text" name="q" class="form-control" placeholder="Search" title="Search FreeCAD documentation, forum and bugs" maxlength=300>
+                            <input type="submit" name="title" value="DuckDuckGo Search" style="width: 0; visibility: hidden;">
+                        </div>
+                    </form>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://forum.freecadweb.org"><?php echo _('Forum'); ?></a></li>
+                    <li><a href="wiki/?<?php echo _('title=Main_Page'); ?>"><?php echo _('Documentation'); ?></a></li>
+                    <li><a href="tracker/"><?php echo _('Bug tracker'); ?></a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
