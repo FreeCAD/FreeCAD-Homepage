@@ -1,0 +1,51 @@
+/* FreeCAD theme fixes for MantisBT */
+  
+body {
+    margin-bottom: 0;
+}
+   
+table.width100 {
+    border: none !important;
+}
+
+table.width75 {
+    width: 100%;
+    border: 0;
+}
+
+.hide {
+    display: block !important;
+}
+
+.maincontents {
+    margin-top: 50px;
+}
+
+.left a img {
+    display: none !important;
+}
+
+td {
+    padding: 5px !important;
+    border-bottom: 2px solid white;
+}
+
+div {
+    padding: 0;
+}
+
+.col-md-12 div a img {
+    display: none;
+}
+
+footer {
+    position: relative;
+}
+
+.menu {
+    display: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
