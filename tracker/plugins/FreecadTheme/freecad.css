@@ -3,8 +3,16 @@
 body {
     margin-bottom: 0;
 }
+
+td, span {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+span.small {
+    font-size: 1em;
+}
    
-table.width100 {
+table.width100, table.width50 {
     border: none !important;
 }
 
@@ -48,4 +56,8 @@ footer {
 
 a:hover {
     text-decoration: none;
+}
+
+.lwidth {
+    max-width: 250px;
 }

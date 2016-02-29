@@ -152,7 +152,8 @@ class FreeCADThemePlugin extends MantisPlugin {
         </div>
     </footer>
     <script src="/js/jquery-2.1.4.min.js"></script>
-    <script src="/js/bootstrap-3.3.5.min.js"></script>';
+    <script src="/js/bootstrap-3.3.5.min.js"></script>
+    <script src="/tracker/plugins/FreecadTheme/freecad.js"></script>';
         return $t_return;
     }
 }
