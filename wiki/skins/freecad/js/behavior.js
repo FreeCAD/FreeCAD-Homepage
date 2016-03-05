@@ -35,7 +35,6 @@ $(function() {
 	$('.editButtons').addClass('well');
 	$('input[type=submit],input[type=button],input[type=reset]').addClass('btn');
 	$('input[type=submit]').addClass('btn-primary');
-    $("input[type=text],input[type=password],textarea").addClass("form-control");
 
 	$('input[type=checkbox],input[type=radio]').each(function() {
 		var $el = $(this);
@@ -109,6 +108,11 @@ $(function() {
 
 	$('#wiki-body .body a[title="Special:UserLogin"]').click();
 	$('.dropdown-toggle').dropdown();
+    // misc fixes
+    $("textarea").addClass("form-control");
+    $("select").addClass("btn btn-default btn-sm");
+    $("#wpDestFile,#wpName2,#wpPassword2,#wpRetype,#wpEmail,#wpRealName,#wpReason,#wpSummary, #username").addClass("form-control");
+
 });
 
 $('body').scrollspy({
