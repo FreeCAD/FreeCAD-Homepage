@@ -111,6 +111,9 @@ class freecadTemplate extends QuickTemplate {
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="<?php echo $url_prefix; ?>Special:RecentChanges" class="recent-changes"><i class="fa fa-edit"></i> Recent Changes</a></li>
+                                    <?php if( $this->data['notspecialpage'] ) { ?>  
+                                        <li><a href="<?php echo $this->data['nav_urls']['whatlinkshere']['href'] ?>" class="what-links-here"><i class="fa fa-link"></i> What links here</a></li>
+                                    <?php } ?>
 									<li><a href="<?php echo $url_prefix; ?>Special:SpecialPages" class="special-pages"><i class="fa fa-star-o"></i> Special Pages</a></li>
 									<?php if ( $wgEnableUploads ) { ?>
 									<li><a href="<?php echo $url_prefix; ?>Special:Upload" class="upload-a-file"><i class="fa fa-upload"></i> Upload a File</a></li>
