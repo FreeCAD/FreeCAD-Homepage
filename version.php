@@ -7,8 +7,8 @@ $json = array();
 
 $bus = array(
     'major' => 0,
-    'minor' => 15,
-    'build' => 4671
+    'minor' => 16,
+    'build' => 6700
 );
 array_push($json, $bus);
 
