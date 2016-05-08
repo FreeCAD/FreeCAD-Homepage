@@ -48,6 +48,7 @@ $wgResourceModules['skins.freecad'] = array(
     ),
     'remoteBasePath' => &$GLOBALS['wgStylePath'],
     'localBasePath'  => &$GLOBALS['wgStyleDirectory'],
+    'position'=> 'top',
 );
 
 if ( isset( $wgSiteJS ) ) {
