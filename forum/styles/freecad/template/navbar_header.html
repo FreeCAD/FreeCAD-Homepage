@@ -1,0 +1,87 @@
+<!-- IF $FALSE -->
+
+<div class="navbar secondary{% if definition.SEARCH_IN_NAVBAR == 1 && definition.SEARCH_BOX %} with-search{% endif %}">
+	<ul role="menubar">
+		{% set secondary_links %}
+		<!-- EVENT secondary_navlinks_before -->
+		{% if definition.NAVLINKS|trim %}
+			{{ definition.NAVLINKS }}
+		{% endif %}
+		{% if !definition.NAVLINKS|trim || definition.NAVLINKS_SHOW_DEFAULT == 1 %}
+			<!-- IF U_WATCH_FORUM_LINK and not S_IS_BOT --><li class="small-icon icon-<!-- IF S_WATCHING_FORUM -->unsubscribe<!-- ELSE -->subscribe<!-- ENDIF -->" data-last-responsive="true"><a href="{U_WATCH_FORUM_LINK}" title="{S_WATCH_FORUM_TITLE}" data-ajax="toggle_link" data-toggle-class="small-icon icon-<!-- IF not S_WATCHING_FORUM -->unsubscribe<!-- ELSE -->subscribe<!-- ENDIF -->" data-toggle-text="{S_WATCH_FORUM_TOGGLE}" data-toggle-url="{U_WATCH_FORUM_TOGGLE}">{S_WATCH_FORUM_TITLE}</a></li><!-- ENDIF -->
+		{% endif %}
+		<!-- EVENT secondary_navlinks_after -->
+		{% endset %}
+		{% if secondary_links|trim %}
+			{{ secondary_links }}
+			<!-- IF $NAVLINKS_SHOW_DEFAULT && S_DISPLAY_SEARCH -->
+				<li class="small-icon icon-search{% if definition.SEARCH_IN_NAVBAR == 1 && definition.SEARCH_BOX %} responsive-hide{% endif %}"><a href="{U_SEARCH}">{L_SEARCH}</a></li>
+				<!-- IF S_USER_LOGGED_IN -->
+					<li class="small-icon icon-new-posts"><a href="{U_SEARCH_NEW}" role="menuitem">{L_SEARCH_NEW}</a></li>
+				<!-- ENDIF -->
+			<!-- ENDIF -->
+		{% else %}
+			<!-- IF S_DISPLAY_SEARCH -->
+				<li class="small-icon icon-search{% if definition.SEARCH_IN_NAVBAR == 1 && definition.SEARCH_BOX %} responsive-hide{% endif %}"><a href="{U_SEARCH}">{L_SEARCH}</a></li>
+				<!-- IF S_USER_LOGGED_IN -->
+					<li class="small-icon icon-new-posts"><a href="{U_SEARCH_NEW}" role="menuitem">{L_SEARCH_NEW}</a></li>
+				<!-- ENDIF -->
+			<!-- ENDIF -->
+			<!-- IF not S_REGISTERED_USER -->
+				<li class="small-icon icon-login"><a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}">{L_LOGIN_LOGOUT}</a></li>
+				<!-- IF S_REGISTER_ENABLED -->
+					<li class="small-icon icon-register"><a href="{U_REGISTER}">{L_REGISTER}</a></li>
+				<!-- ENDIF -->
+			<!-- ELSEIF not S_DISPLAY_SEARCH -->
+				<li><a href="{U_PROFILE}" class="small-icon icon-profile">{CURRENT_USERNAME_SIMPLE}</a></li>
+			<!-- ENDIF -->
+		{% endif %}
+
+		{% if definition.SEARCH_IN_NAVBAR == 1 && definition.SEARCH_BOX %}
+			<li class="search-box not-responsive">{$SEARCH_BOX}</li>
+		{% endif %}
+	</ul>
+</div>
+
+<!-- ENDIF -->
+
+<!-- DEFINE $BREADCRUMBS -->
+<div class="navbar nav-breadcrumbs">
+	<ul id="nav-breadcrumbs" class="linklist navlinks" role="menubar">
+		<!-- DEFINE $MICRODATA = ' itemtype="http://data-vocabulary.org/Breadcrumb" itemscope=""' -->
+		<!-- EVENT overall_header_breadcrumbs_before -->
+		<li class="small-icon icon-home breadcrumbs">
+			<!-- IF U_SITE_HOME --><span class="crumb" style="display: none;"><a href="{U_SITE_HOME}"{$MICRODATA} data-navbar-reference="home">{L_SITE_HOME}</a></span><!-- ENDIF -->
+			<!-- EVENT overall_header_breadcrumb_prepend -->
+			<span class="crumb"><a href="{U_INDEX}" accesskey="h"{$MICRODATA} data-navbar-reference="index">{L_INDEX}</a></span>
+			<!-- BEGIN navlinks -->
+				<!-- EVENT overall_header_navlink_prepend -->
+				<span class="crumb"><a href="{navlinks.U_VIEW_FORUM}"{$MICRODATA}<!-- IF navlinks.MICRODATA --> {navlinks.MICRODATA}<!-- ENDIF -->>{navlinks.FORUM_NAME}</a></span>
+				<!-- EVENT overall_header_navlink_append -->
+			<!-- END navlinks -->
+			<!-- EVENT overall_header_breadcrumb_append -->
+		</li>
+		<!-- EVENT overall_header_breadcrumbs_after -->
+
+		<!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
+			<li class="rightside responsive-search" style="display: none;"><a href="{U_SEARCH}" title="{L_SEARCH_ADV_EXPLAIN}" role="menuitem">{L_SEARCH}</a></li>
+		<!-- ENDIF -->
+        <!-- IF $FALSE -->
+		<li class="rightside dropdown-container icon-only">
+			<a href="#" class="dropdown-trigger time" title="{CURRENT_TIME}"><i class="fa fa-clock-o"></i></a>
+			<div class="dropdown fhidden">
+				<div class="pointer"><div class="pointer-inner"></div></div>
+				<ul class="dropdown-contents">
+					<li>{CURRENT_TIME}</li>
+					<li>{S_TIMEZONE}</li>
+				</ul>
+			</div>
+		</li>
+        <!-- ENDIF -->
+	</ul>
+</div>
+<!-- ENDDEFINE -->
+<!-- IF $WRAP_HEADER != 0 -->
+	{$BREADCRUMBS}
+	<!-- DEFINE $BREADCRUMBS = '' -->
+<!-- ENDIF -->
