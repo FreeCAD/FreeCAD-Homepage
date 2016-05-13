@@ -5626,3 +5626,7 @@ dt .list-inner { font-weight: normal !important; }
 #page-header .navbar, #page-body .navbar { min-height: 0 !important; }
 .small-icon.icon-subscribe::after, .small-icon.icon-unsubscribe::after { width: 45px !important; }
 .pagination { margin: 0 !important; }
+.navbar { margin-bottom: 0 !important; min-height: 0 !important; }
+dl { margin-bottom: 0 !important; }
+.topiclist .header dl { margin-bottom: 20px !important; }
+.unread-icon { font-size: 1.1em; color: #FF7263; }

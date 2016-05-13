@@ -80,7 +80,7 @@
                 <div class="collapse navbar-collapse">
                     
                     <ul class="nav navbar-nav">
-                        <li><a href="/" title="Forum homepage">Topics</a></li>
+                        <li><a href="/" title="Forum homepage">Forum index</a></li>
                         
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools<span class="caret"></span></a>
@@ -97,7 +97,7 @@
                                     <!-- ENDIF -->
                                         <li><a href="{U_SEARCH_UNANSWERED}" class="unanswered-topics"><i class="fa fa-life-saver"></i> Unanswered topics</a></li>
                                         <li><a href="{U_SEARCH_ACTIVE_TOPICS}" class="active-topics"><i class="fa fa-plane"></i> Active topics</a></li>
-                                        <li><a href="{U_SEARCH}" class="active-topics"><i class="fa fa-search"></i> Advanced search</a></li>
+                                         <li class="divider"></li>
                                     <!-- IF U_WATCH_FORUM_LINK and not S_IS_BOT -->
                                         <li class="small-icon icon-<!-- IF S_WATCHING_FORUM -->unsubscribe<!-- ELSE -->subscribe<!-- ENDIF -->" data-last-responsive="true"><a href="{U_WATCH_FORUM_LINK}" title="{S_WATCH_FORUM_TITLE}" data-ajax="toggle_link" data-toggle-class="small-icon icon-<!-- IF not S_WATCHING_FORUM -->unsubscribe<!-- ELSE -->subscribe<!-- ENDIF -->" data-toggle-text="{S_WATCH_FORUM_TOGGLE}" data-toggle-url="{U_WATCH_FORUM_TOGGLE}">{S_WATCH_FORUM_TITLE}</a></li>
                                     <!-- ENDIF -->
@@ -109,6 +109,14 @@
                                     <!-- IF U_BOOKMARK_TOPIC -->
                                         <li><a href="{U_BOOKMARK_TOPIC}" class="bookmark-link" title="{L_BOOKMARK_TOPIC}" data-ajax="alt_text" data-alt-text="{S_BOOKMARK_TOGGLE}" data-update-all=".bookmark-link"><i class="fa fa-bookmark"></i> {S_BOOKMARK_TOPIC}</a></li>
                                     <!-- ENDIF -->
+                                    <!-- IF S_HAS_SUBFORUM and U_MARK_FORUMS -->
+                                        <li class="mark-forum-read"><a href="{U_MARK_FORUMS}" data-ajax="mark_forums_read"><i class="fa fa-tag"></i> {L_MARK_SUBFORUMS_READ}</a></li>
+                                    <!-- ENDIF -->
+                                    <!-- IF not S_IS_BOT and U_MARK_TOPICS and .topicrow -->
+                                        <li class="mark-topic-read"><a href="{U_MARK_TOPICS}" accesskey="m" data-ajax="mark_topics_read"><i class="fa fa-tag"></i> {L_MARK_TOPICS_READ}</a></li>
+                                    <!-- ENDIF -->
+                                        <li class="divider"></li>
+                                        <li><a href="{U_SEARCH}" class="active-topics"><i class="fa fa-search"></i> Advanced search</a></li>
 
                                 <!-- ENDIF -->
                             </ul>
