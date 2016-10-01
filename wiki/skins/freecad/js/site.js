@@ -2021,7 +2021,7 @@ $(function() {
 			}//end if
 		});
 
-	$('pre').addClass('prettyprint linenums');
+	$('pre').addClass('prettyprint');
 
 	$('.editButtons').addClass('well');
 	$('input[type=submit],input[type=button],input[type=reset]').addClass('btn');
