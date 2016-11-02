@@ -157,6 +157,12 @@ class freecadTemplate extends QuickTemplate {
 							<input type="hidden" name="title" value="Special:Search">
 						</div>
 					</form>
+                    
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="http://forum.freecadweb.org"><i class="fa fa-address-card"></i></a></li>
+                        <li><a href="tracker/"><i class="fa fa-bug"></i></a></li>
+                    </ul>
+                    
 					</div>
 				</div>
 		</div><!-- topbar -->
