@@ -159,8 +159,8 @@ class freecadTemplate extends QuickTemplate {
 					</form>
                     
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="http://forum.freecadweb.org"><i class="fa fa-address-card"></i></a></li>
-                        <li><a href="tracker/"><i class="fa fa-bug"></i></a></li>
+                        <li><a href="http://forum.freecadweb.org"><i class="fa fa-commenting"></i></a></li>
+                        <li><a href="/tracker/"><i class="fa fa-bug"></i></a></li>
                     </ul>
                     
 					</div>

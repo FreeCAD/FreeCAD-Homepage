@@ -108,7 +108,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                     </form>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="http://forum.freecadweb.org"><i class="fa fa-address-card"></i> <?php echo _('Forum'); ?></a></li>
+                    <li><a href="http://forum.freecadweb.org"><i class="fa fa-commenting"></i> <?php echo _('Forum'); ?></a></li>
                     <li><a href="wiki/?<?php echo _('title=Main_Page'); ?>"><i class="fa fa-book"></i> <?php echo _('Documentation'); ?></a></li>
                     <li><a href="tracker/"><i class="fa fa-bug"></i> <?php echo _('Bug tracker'); ?></a></li>
                 </ul>

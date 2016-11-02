@@ -103,8 +103,8 @@ class FreeCADThemePlugin extends MantisPlugin {
                         </div>
                     </form>';
         $t_return .= '<ul class="nav navbar-nav navbar-right">
-                        <li><a href="http://forum.freecadweb.org"><i class="fa fa-address-card"></i></a></li>
-                        <li><a href="wiki/"><i class="fa fa-book"></i></a></li>
+                        <li><a href="http://forum.freecadweb.org"><i class="fa fa-commenting"></i></a></li>
+                        <li><a href="/wiki/"><i class="fa fa-book"></i></a></li>
                     </ul>';
         $t_return .='               </div>
             </div>
