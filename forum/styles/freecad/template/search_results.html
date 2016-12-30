@@ -27,7 +27,7 @@
 	<!-- ENDIF -->
 
 		<div class="pagination">
-			{SEARCH_MATCHES}
+			<!-- IF .searchresults --><a href='#' title="Open all results in tabs" onclick='open_all()'>{SEARCH_MATCHES}</a><!-- ELSE -->{SEARCH_MATCHES}<!-- ENDIF -->
 			<!-- IF .pagination -->
 				<!-- INCLUDE pagination.html -->
 			<!-- ELSE -->

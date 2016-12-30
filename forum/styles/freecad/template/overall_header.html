@@ -58,6 +58,22 @@
 
 <link rel="shortcut icon" href="http://www.freecadweb.org/images/favicon.ico" />
 
+<script language="Javascript">
+function open_all()
+{
+<!-- BEGIN searchresults -->
+var url1 = "{searchresults.U_VIEW_TOPIC}"
+var url2 = url1.replace(/&amp;/g,'&')
+var url3 = url2 + "&view=unread#unread"
+<!-- IF searchresults.S_ROW_COUNT > 0  -->
+window.open(url3);
+<!-- ELSE -->
+window.location.href = url3;
+<!-- ENDIF -->
+<!-- END searchresults -->
+}
+</script>
+
 </head>
 <body id="phpbb" class="nojs notouch section-{SCRIPT_NAME} {S_CONTENT_DIRECTION} {BODY_CLASS}" data-online-text="{LA_ONLINE}">
 
@@ -97,8 +113,8 @@
                                     <!-- ENDIF -->
                                         <li><a href="{U_SEARCH_UNANSWERED}" class="unanswered-topics"><i class="fa fa-life-saver"></i> Unanswered topics</a></li>
                                         <li><a href="{U_SEARCH_ACTIVE_TOPICS}" class="active-topics"><i class="fa fa-plane"></i> Active topics</a></li>
-                                         <li class="divider"></li>
                                     <!-- IF U_WATCH_FORUM_LINK and not S_IS_BOT -->
+                                        <li class="divider"></li>
                                         <li class="small-icon icon-<!-- IF S_WATCHING_FORUM -->unsubscribe<!-- ELSE -->subscribe<!-- ENDIF -->" data-last-responsive="true"><a href="{U_WATCH_FORUM_LINK}" title="{S_WATCH_FORUM_TITLE}" data-ajax="toggle_link" data-toggle-class="small-icon icon-<!-- IF not S_WATCHING_FORUM -->unsubscribe<!-- ELSE -->subscribe<!-- ENDIF -->" data-toggle-text="{S_WATCH_FORUM_TOGGLE}" data-toggle-url="{U_WATCH_FORUM_TOGGLE}">{S_WATCH_FORUM_TITLE}</a></li>
                                     <!-- ENDIF -->
                                     <!-- IF U_WATCH_TOPIC -->
