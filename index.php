@@ -99,7 +99,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <form class="navbar-search navbar-form" action="http://duckduckgo.com/" id="searchform" role="search" method="get">
+                    <form class="navbar-search navbar-form" action="https://duckduckgo.com/" id="searchform" role="search" method="get">
                         <div>
                             <input type="hidden" name="sites" value="freecadweb.org"/>
                             <input type="text" name="q" class="form-control" placeholder="Search" title="Search FreeCAD documentation, forum and bugs" maxlength=300>
