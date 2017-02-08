@@ -109,7 +109,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="http://forum.freecadweb.org"><i class="fa fa-commenting"></i> <?php echo _('Forum'); ?></a></li>
-                    <li><a href="wiki/?<?php echo _('title=Main_Page'); ?>"><i class="fa fa-book"></i> <?php echo _('Documentation'); ?></a></li>
+                    <li><a href="wiki/Main_Page"><i class="fa fa-book"></i> <?php echo _('Documentation'); ?></a></li>
                     <li><a href="tracker/"><i class="fa fa-bug"></i> <?php echo _('Bug tracker'); ?></a></li>
                 </ul>
             </div><!--/.nav-collapse -->
@@ -121,11 +121,11 @@ bind_textdomain_codeset("homepage", 'UTF-8');
             
             <div class="col-md-3" id="leftCol">
                 <ul class="nav nav-stacked" id="sidebar">
-                    <li><a href="wiki/?<?php echo _('title=About_FreeCAD'); ?>"><?php echo _('Overview'); ?></a></li>
-                    <li><a href="wiki/?<?php echo _('title=Feature_list'); ?>"><?php echo _('Features'); ?></a></li>
-                    <li><a href="wiki/?<?php echo _('title=Screenshots'); ?>"><?php echo _('Screenshots'); ?></a></li>
-                    <li><a href="wiki/?<?php echo _('title=Download'); ?>"><?php echo _('Download'); ?></a></li>
-                    <li><a href="wiki/?<?php echo _('title=Getting_started'); ?>"><?php echo _('Getting started'); ?></a></li>
+                    <li><a href="wiki/About_FreeCAD"><?php echo _('Overview'); ?></a></li>
+                    <li><a href="wiki/Feature_list"><?php echo _('Features'); ?></a></li>
+                    <li><a href="wiki/Screenshots"><?php echo _('Screenshots'); ?></a></li>
+                    <li><a href="wiki/Download"><?php echo _('Download'); ?></a></li>
+                    <li><a href="wiki/Getting_started"><?php echo _('Getting started'); ?></a></li>
                     <li><a href="http://forum.freecadweb.org/viewforum.php?f=24"><?php echo _('Users showcase'); ?></a></li>
                     <li><a href="http://forum.freecadweb.org/viewforum.php?f=3"><?php echo _('Get help'); ?></a></li>
                 </ul>
@@ -142,7 +142,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                     <?php echo _('FreeCAD is multiplatfom (Windows, Mac and Linux), and reads and writes many open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE and many others.'); ?>
                 </p>
                 <p>
-                    <a href="wiki/?<?php echo _('title=About_FreeCAD'); ?>"><?php echo _('Read more...'); ?></a>
+                    <a href="wiki/About_FreeCAD"><?php echo _('Read more...'); ?></a>
                 </p>
 
                 <h4><?php echo _('Who is FreeCAD for? A couple of user cases:'); ?></h4>
@@ -151,7 +151,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                     <?php echo _('The <b>home user/hobbyist</b>. Got yourself a project you want to build, have built, or 3D printed? Model it in FreeCAD. No previous CAD experience required. Our community will help you get the hang of it quickly!'); ?>
                 </p>
                 <p>
-                    <?php echo _('The <b>experienced CAD user</b>. If you use commercial CAD or BIM modeling software at work, you will find similar tools and workflow among the many <a href="wiki/?title=Workbenches">workbenches</a> of FreeCAD.'); ?>
+                    <?php echo _('The <b>experienced CAD user</b>. If you use commercial CAD or BIM modeling software at work, you will find similar tools and workflow among the many <a href="wiki/Workbenches">workbenches</a> of FreeCAD.'); ?>
                 </p>
                 <p>
                     <?php echo _('The <b>programmer</b>. Almost all of FreeCAD\'s functionality is accessible to <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Python</a>. You can easily extend FreeCAD\'s functionality, automatize it with scripts, build your own modules or even embed FreeCAD in your own application.'); ?>
@@ -179,7 +179,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                 <div class="col-md-3">
                     <?php echo _('Learn'); ?>
                     <ul>
-                        <li><a href="wiki/?<?php echo _('title=Tutorials'); ?>"><?php echo _('Tutorials'); ?></a></li>
+                        <li><a href="wiki/Tutorials"><?php echo _('Tutorials'); ?></a></li>
                         <li><a href="https://www.youtube.com/results?search_query=freecad"><?php echo _('Youtube videos'); ?></a></li>
                         <li><a href="http://area51.stackexchange.com/proposals/88434/freecad">Stack Exchange</a></li>
                     </ul>
@@ -187,17 +187,17 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                 <div class="col-md-3">
                     <?php echo _('Help the project'); ?>
                     <ul>
-                        <li><a href="wiki/?<?php echo _('title=Help_FreeCAD'); ?>"><?php echo _('How can I help?'); ?></a></li>
-                        <li><a href="wiki/?<?php echo _('title=Donate'); ?>"><i class="fa fa-heart"></i> <?php echo _('Donate!'); ?></a></li>
+                        <li><a href="wiki/Help_FreeCAD"><?php echo _('How can I help?'); ?></a></li>
+                        <li><a href="wiki/Donate"><i class="fa fa-heart"></i> <?php echo _('Donate!'); ?></a></li>
                         <li><a href="https://crowdin.com/project/freecad"><?php echo _('Translate'); ?></a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
                     <?php echo _('Code'); ?>
                     <ul>
-                        <li><a href="wiki/?<?php echo _('title=Compiling'); ?>"><?php echo _('Building from source'); ?></a></li>
+                        <li><a href="wiki/Compiling"><?php echo _('Building from source'); ?></a></li>
                         <li><a href="api/"><?php echo _('C++ & Python API'); ?></a></li>
-                        <li><a href="wiki/?<?php echo _('title=Licence'); ?>"><?php echo _('License information'); ?></a></li>
+                        <li><a href="wiki/Licence"><?php echo _('License information'); ?></a></li>
                     </ul>
                 </div>
             </div>
