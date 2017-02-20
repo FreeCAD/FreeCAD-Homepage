@@ -131,7 +131,7 @@ class FreeCADThemePlugin extends MantisPlugin {
                 <div class="col-md-3">
                     Learn
                     <ul>
-                        <li><a href="/wiki/?title=Tutorials">Tutorials</a></li>
+                        <li><a href="/wiki/Tutorials">Tutorials</a></li>
                         <li><a href="https://www.youtube.com/results?search_query=freecad">Youtube videos</a></li>
                         <li><a href="http://area51.stackexchange.com/proposals/88434/freecad">Stack Exchange</a></li>
                     </ul>
@@ -139,17 +139,17 @@ class FreeCADThemePlugin extends MantisPlugin {
                 <div class="col-md-3">
                     Help the project
                     <ul>
-                        <li><a href="/wiki/?Help_FreeCAD">How can I help?</a></li>
-                        <li><a href="/wiki/?title=Donate"><i class="fa fa-heart"></i> Donate!</a></li>
+                        <li><a href="/wiki/Help_FreeCAD">How can I help?</a></li>
+                        <li><a href="/wiki/Donate"><i class="fa fa-heart"></i> Donate!</a></li>
                         <li><a href="https://crowdin.com/project/freecad">Translate</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
                     Code
                     <ul>
-                        <li><a href="/wiki/?title=Compiling">Building from source</a></li>
+                        <li><a href="/wiki/Compiling">Building from source</a></li>
                         <li><a href="/api/">C++ & Python API</a></li>
-                        <li><a href="/wiki/?title=Licence">License information</a></li>
+                        <li><a href="/wiki/Licence">License information</a></li>
                     </ul>
                 </div>
             </div>
