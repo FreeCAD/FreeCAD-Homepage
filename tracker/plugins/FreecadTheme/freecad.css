@@ -1,5 +1,5 @@
-/* FreeCAD theme fixes for MantisBT */
-  
+/* FreeCAD theme fixes for MantisBT 2.x */
+
 body {
     margin-bottom: 0;
 }
@@ -44,9 +44,10 @@ div {
     padding: 0;
 }
 
-.col-md-12 div a img {
+/* Disabled because it is hiding inline image previews */
+/* .col-md-12 div a img {
     display: none;
-}
+}*/
 
 footer {
     position: relative;
@@ -62,4 +63,13 @@ a:hover {
 
 .lwidth {
     max-width: 250px;
+}
+
+.footer-content {
+    /*display: none;*/
+}
+
+.fc-header, .fc-footer {
+    z-index: 1050; 
+    background: #222;
 }
