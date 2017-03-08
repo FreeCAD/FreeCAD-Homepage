@@ -73,3 +73,8 @@ a:hover {
     z-index: 1050; 
     background: #222;
 }
+
+/* Remove if upstream ticket http://mantisbt.org/bugs/view.php?id=22492 is fixed */
+.resolved {
+    text-decoration: line-through;
+}
