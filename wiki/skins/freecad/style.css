@@ -770,3 +770,10 @@ table.list th {
 .list tbody > tr:nth-child(odd) > td {
   background-color: #f9f9f9;
 }
+
+#toc.toc-sidebar div ul li {
+        text-align: left !important;
+        text-transform: none !important;
+        /*font-variant: small-caps !important;*/
+        padding-left: 1em !important;
+}
