@@ -9,40 +9,44 @@ $(".button-small").addClass("btn btn-default btn-sm");
 $("select").addClass("btn btn-default btn-xs lwidth");
 */
 // update #summary, #description, #steps_to_reproduce, #additional_info
-function addPlaceholderText(el, txt) {
-  $(el).attr('placeholder', txt);
-}
 
 function addReportTemplate() {
   var summaryText = `Short description about the issue`;
 
-  var descText = `Explain the details of the bug/feature/patch. Make sure to \
-explain what you were doing when it happened, what you expected to happen, and \
-what actually was the result.`;
+  var descText = `Explain the details of the bug, feature, or patch.<br><br>
+What were you doing when it happened?<br>
+What did you expect to happen?<br>
+What was the actual result?`;
 
-  var stepsText = `Please produce a step-by-step list (as detailed as possible) \
-to help the devs and testers reproduce your issue.
-Ex:
-1. Launch FreeCAD
-2. Open Sketcher through the dropdown
-3. Open a New Document: File > New
-4. etc...
-Result: Summarize the result you see happening in FreeCAD`;
+  var stepsText = `Detailed step-by-step list to recreate the bug.
+We can't fix a bug we can't reproduce. A good example looks like:<br><br>
+<i>1. Launch FreeCAD<br>
+2. Open Sketcher through the dropdown<br>
+3. Open a New Document: File > New<br>
+4. etc...<br>
+Result: In summary what I saw happening in FreeCAD was...</i>`;
 
-  var infoText = `Please paste the contents of Help > About FreeCAD > "Copy to \
-clipboard"
+  var infoText = `Paste the contents of Help > About FreeCAD > "Copy to
+clipboard"<br>
+<br>
+Running a debug release? Publish a debugging backtrace.
+See: http://www.freecadweb.org/wiki/Debugging<br>
+<br>
+File too large?
+Upload to a cloud-based 3rd party service like Nextcloud or Dropbox,
+and paste the link here.`;
 
-If you are running a debug release you can also publish a debugging backtrace. \
-Please see: http://www.freecadweb.org/wiki/Debugging
+  var exclamationTriangle = '<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>';
+  
+  var summaryHtml = '<br>' + exclamationTriangle + ' <span class="red">' + summaryText + '</span>';
+  var descHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + descText + '</span>';
+  var stepsHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + stepsText + '</span>';
+  var infoHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + infoText + '</span>';
 
-If you have a file to share that is larger than the FreeCAD tracker allows, you \
-can upload the file to a cloud-based 3rd party service (like NextCloud, Dropbox, \
-etc.) and paste the link here.`;
-
-  addPlaceholderText('#summary', summaryText);
-  addPlaceholderText('#description', descText);
-  addPlaceholderText('#steps_to_reproduce', stepsText);
-  addPlaceholderText('#additional_info', infoText);
+  $('label[for=summary]').after(summaryHtml);
+  $('label[for=description]').after(descHtml);
+  $('label[for=steps_to_reproduce]').after(stepsHtml);
+  $('label[for=additional_info]').after(infoHtml);
 }
 
 $(document).ready(function () {
