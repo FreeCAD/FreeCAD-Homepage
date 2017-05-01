@@ -73,3 +73,16 @@ a:hover {
     z-index: 1050; 
     background: #222;
 }
+
+/* Disabling because InlineHistory plugin is now breaking user info page
+ * on MantisBT 2.3.x
+ * #history {
+    display: none;
+}
+*/
+
+.resolved  { 
+    /* Temp fix for MantisBT #22492 */
+    text-decoration: line-through;
+}
+
