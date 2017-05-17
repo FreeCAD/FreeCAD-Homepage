@@ -1,3 +1,11 @@
 <IfModule mod_headers.c>
     Header set Access-Control-Allow-Origin "*"
 </IfModule>
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
+RewriteRule ^/?wiki(/.*)?$ %{DOCUMENT_ROOT}/wiki/index.php [L]
