@@ -145,7 +145,7 @@ class freecadTemplate extends QuickTemplate {
 						?>
 						<ul class="nav navbar-nav navbar-right">
 							<li>
-							<?php echo Linker::linkKnown( SpecialPage::getTitleFor( 'Userlogin' ), wfMsg( 'login' ) ); ?>
+							<?php echo Linker::linkKnown( SpecialPage::getTitleFor( 'Userlogin' ), wfMessage( 'login' ) ); ?>
 							</li>
 						</ul>
 						<?php
@@ -263,7 +263,7 @@ class freecadTemplate extends QuickTemplate {
                 <div class="col-md-3">
                     <?php echo _('Learn'); ?>
                     <ul>
-                        <li><a href="/wiki/Tutorials"><?php echo _('Tutorials'); ?></a></li>
+                        <li><a href="/wiki/?<?php echo _('title=Tutorials'); ?>"><?php echo _('Tutorials'); ?></a></li>
                         <li><a href="https://www.youtube.com/results?search_query=freecad"><?php echo _('Youtube videos'); ?></a></li>
                         <li><a href="http://area51.stackexchange.com/proposals/88434/freecad">Stack Exchange</a></li>
                     </ul>
@@ -271,17 +271,17 @@ class freecadTemplate extends QuickTemplate {
                 <div class="col-md-3">
                     <?php echo _('Help the project'); ?>
                     <ul>
-                        <li><a href="/wiki/Help_FreeCAD"><?php echo _('How can I help?'); ?></a></li>
-                        <li><a href="/wiki/Donate"><i class="fa fa-heart"></i> <?php echo _('Donate!'); ?></a></li>
+                        <li><a href="/wiki/?<?php echo _('title=Help_FreeCAD'); ?>"><?php echo _('How can I help?'); ?></a></li>
+                        <li><a href="/wiki/?<?php echo _('title=Donate'); ?>"><i class="fa fa-heart"></i> <?php echo _('Donate!'); ?></a></li>
                         <li><a href="https://crowdin.com/project/freecad"><?php echo _('Translate'); ?></a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
                     <?php echo _('Code'); ?>
                     <ul>
-                        <li><a href="/wiki/Compiling"><?php echo _('Building from source'); ?></a></li>
+                        <li><a href="/wiki/?<?php echo _('title=Compiling'); ?>"><?php echo _('Building from source'); ?></a></li>
                         <li><a href="/api/"><?php echo _('C++ & Python API'); ?></a></li>
-                        <li><a href="/wiki/Licence"><?php echo _('License information'); ?></a></li>
+                        <li><a href="/wiki/?<?php echo _('title=Licence'); ?>"><?php echo _('License information'); ?></a></li>
                     </ul>
                 </div>
             </div>
@@ -505,7 +505,8 @@ class freecadTemplate extends QuickTemplate {
 			$wgParserOptions = new ParserOptions($wgUser);
 			// get the text as static wiki text, but with already expanded templates,
 			// which also e.g. to use {{#dpl}} (DPL third party extension) for dynamic menus.
-			$parserOutput = $wgParser->preprocess($article->getRawText(), $pageTitle, $wgParserOptions );
+			$content = $article->getContent( Revision::RAW );
+			$parserOutput = $wgParser->preprocess($content, $pageTitle, $wgParserOptions );
 			return $parserOutput;
 		}
 	}
@@ -518,7 +519,8 @@ class freecadTemplate extends QuickTemplate {
 		} else {
 			$article = new Article($pageTitle);
 			$wgParserOptions = new ParserOptions($wgUser);
-			$parserOutput = $wgParser->parse($article->getRawText(), $pageTitle, $wgParserOptions);
+			$content = $article->getContent( Revision::RAW );
+			$parserOutput = $wgParser->parse($content, $pageTitle, $wgParserOptions);
 			echo $parserOutput->getText();
 		}
 	}
