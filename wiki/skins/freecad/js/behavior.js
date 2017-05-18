@@ -119,6 +119,3 @@ $('body').scrollspy({
     target: '.toc-scrollspy',
     offset: 120
 });
-
-// workaround for navbar hiding anchors - https://github.com/twbs/bootstrap/issues/1768
-window.addEventListener("hashchange", function() { scrollBy(0, -50) })
