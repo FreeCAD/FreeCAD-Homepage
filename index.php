@@ -128,6 +128,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                     <li><a href="wiki/Getting_started"><?php echo _('Getting started'); ?></a></li>
                     <li><a href="http://forum.freecadweb.org/viewforum.php?f=24"><?php echo _('Users showcase'); ?></a></li>
                     <li><a href="http://forum.freecadweb.org/viewforum.php?f=3"><?php echo _('Get help'); ?></a></li>
+                    <li><a href="https://freecadweb.org/wiki/Help_FreeCAD"><?php echo _('Help FreeCAD'); ?></a></li>
                 </ul>
             </div>
             
