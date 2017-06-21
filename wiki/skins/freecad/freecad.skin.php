@@ -248,6 +248,7 @@ class freecadTemplate extends QuickTemplate {
 		</div>
 
 				<?php $this->includePage('Bootstrap:Footer'); ?>
+                <?php /*
 				<footer>
 
         <div class="container text-muted">
@@ -288,6 +289,7 @@ class freecadTemplate extends QuickTemplate {
         </div>
 
 				</footer>
+                */ ?>
 
 		<?php
 		$this->html('bottomscripts'); /* JS call to runBodyOnloadHook */
