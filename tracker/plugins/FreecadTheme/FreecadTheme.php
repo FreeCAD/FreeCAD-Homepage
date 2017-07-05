@@ -30,7 +30,6 @@ class FreeCADThemePlugin extends MantisPlugin {
     function include_resource() {
         $t_return = '';
         $t_return .= '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />';
-        $t_return .= '<meta http-equiv="Content-Security-Policy" content="img-src \'self\' data: ;" />';
         $t_return .= '<link rel="stylesheet" href="/css/bootstrap-3.3.5.min.css">';
         $t_return .= '<link rel="stylesheet" href="/css/font-awesome-4.4.0.min.css">';
         $t_return .= '<link rel="stylesheet" href="/css/freecad.css">';
