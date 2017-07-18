@@ -1,211 +1,251 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
-"POT-Creation-Date: 2015-09-07 20:53-0300\n"
-"PO-Revision-Date: 2017-06-26 10:13-0400\n"
+"POT-Creation-Date: 2017-07-18 11:51-0300\n"
+"PO-Revision-Date: 2017-07-18 11:51-0300\n"
 "Last-Translator: yorik <yorik.vanhavre@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: crowdin.com\n"
+"X-Generator: Poedit 2.0.2\n"
 "X-Poedit-Basepath: ../../..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-SearchPath-0: index.php\n"
 "X-Crowdin-Project: freecad\n"
 "X-Crowdin-Language: hu\n"
 "X-Crowdin-File: homepage.po\n"
+"X-Poedit-SearchPath-0: index.php\n"
 
-#: index.php:17
+#: index.php:43
 msgid "FreeCAD: An open-source parametric 3D CAD modeler"
 msgstr "FreeCAD: Egy nyílt forráskódú parametrikus 3D CAD modellező"
 
-#: index.php:30
+#: index.php:56
 msgid "Toggle navigation"
 msgstr "Navigáció kapcsoló"
 
-#: index.php:39
+#: index.php:111
 msgid "Forum"
 msgstr "Fórum"
 
-#: index.php:40
-msgid "title=Main_Page"
-msgstr "title=Main_Page"
-
-#: index.php:40
+#: index.php:112
 msgid "Documentation"
 msgstr "Dokumentáció"
 
-#: index.php:41
+#: index.php:113
 msgid "Bug tracker"
 msgstr "Hibakövető"
 
-#: index.php:48
-msgid "English"
-msgstr "Angol"
-
-#: index.php:49
-msgid "French"
-msgstr "Francia"
-
-#: index.php:50
-msgid "Portuguese (Brazil)"
-msgstr "Portugál (brazil)"
-
-#: index.php:51
-msgid "Spanish"
-msgstr "Spanyol"
-
-#: index.php:64 index.php:85
-msgid "title=About_FreeCAD"
-msgstr "title=About_FreeCAD"
-
-#: index.php:64
+#: index.php:124
 msgid "Overview"
 msgstr "Áttekintés"
 
-#: index.php:65
-msgid "title=Feature_list"
-msgstr "title=Feature_list"
-
-#: index.php:65
+#: index.php:125
 msgid "Features"
 msgstr "Funkciók"
 
-#: index.php:66
-msgid "title=Screenshots"
-msgstr "title=Screenshots"
-
-#: index.php:66
+#: index.php:126
 msgid "Screenshots"
 msgstr "Képernyőképek"
 
-#: index.php:67
-msgid "title=Download"
-msgstr "title=Download"
-
-#: index.php:67
+#: index.php:127
 msgid "Download"
 msgstr "Letöltés"
 
-#: index.php:68
-msgid "title=Getting_started"
-msgstr "title=Getting_started"
-
-#: index.php:68
+#: index.php:128
 msgid "Getting started"
 msgstr "Első lépések"
 
-#: index.php:69
+#: index.php:129
 msgid "Users showcase"
 msgstr "Felhasználói kirakat"
 
-#: index.php:70
+#: index.php:130
 msgid "Get help"
 msgstr "Segítség"
 
-#: index.php:76
+#: index.php:131
+#, fuzzy
+#| msgid "title=Help_FreeCAD"
+msgid "Help FreeCAD"
+msgstr "title=Help_FreeCAD"
+
+#: index.php:137
 msgid "Welcome!"
 msgstr "Üdvözöljük!"
 
-#: index.php:79
-msgid "FreeCAD is a parametric 3D modeler made primarily to design real-life objects of any size. <a href=\"http://en.wikipedia.org/wiki/Parametric_feature_based_modeler\">Parametric modeling</a> allows you to easily modify your design by going back into your model history and changing its parameters. FreeCAD is open-source and highly customizable, scriptable and extensible."
-msgstr "A FreeCAD egy parametrikus 3D modellező, amelyet elsősorban a való életben előforduló mindenféle méretű tárgyak tervezéséhez készítettek. A <a href=\"http://en.wikipedia.org/wiki/Parametric_feature_based_modeler\">parametrikus modellezés</a> lehetővé teszi, hogy egyszerűen módosítsa a tervét a modell történetben visszalépve, a paramétereket megváltoztatva. A FreeCAD nyílt-forrású és erősen testre szabható, parancsfájlokkal vezérlehető és bővíthető."
+#: index.php:140
+msgid ""
+"FreeCAD is a parametric 3D modeler made primarily to design real-life "
+"objects of any size. <a href=\"http://en.wikipedia.org/wiki/"
+"Parametric_feature_based_modeler\">Parametric modeling</a> allows you to "
+"easily modify your design by going back into your model history and changing "
+"its parameters. FreeCAD is open-source and highly customizable, scriptable "
+"and extensible."
+msgstr ""
+"A FreeCAD egy parametrikus 3D modellező, amelyet elsősorban a való életben "
+"előforduló mindenféle méretű tárgyak tervezéséhez készítettek. A <a href="
+"\"http://en.wikipedia.org/wiki/Parametric_feature_based_modeler"
+"\">parametrikus modellezés</a> lehetővé teszi, hogy egyszerűen módosítsa a "
+"tervét a modell történetben visszalépve, a paramétereket megváltoztatva. A "
+"FreeCAD nyílt-forrású és erősen testre szabható, parancsfájlokkal "
+"vezérlehető és bővíthető."
 
-#: index.php:82
-msgid "FreeCAD is multiplatfom (Windows, Mac and Linux), and reads and writes many open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE and many others."
-msgstr "A FreeCAD több rendszeren is futtatható (Windows, Mac és Linux), valamint számos nyílt fájlformátumot olvas és ír, mint például STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE és továbbiakat."
+#: index.php:143
+msgid ""
+"FreeCAD is multiplatfom (Windows, Mac and Linux), and reads and writes many "
+"open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE and many "
+"others."
+msgstr ""
+"A FreeCAD több rendszeren is futtatható (Windows, Mac és Linux), valamint "
+"számos nyílt fájlformátumot olvas és ír, mint például STEP, IGES, STL, SVG, "
+"DXF, OBJ, IFC, DAE és továbbiakat."
 
-#: index.php:85
+#: index.php:146
 msgid "Read more..."
 msgstr "Tudjon meg többet…"
 
-#: index.php:88
+#: index.php:149
 msgid "Who is FreeCAD for? A couple of user cases:"
 msgstr "Kinek való a FreeCAD? Egy pár felhasználói esettanulmány:"
 
-#: index.php:91
-msgid "The <b>home user/hobbyist</b>. Got yourself a project you want to build, have built, or 3D printed? Model it in FreeCAD. No previous CAD experience required. Our community will help you get the hang of it quickly!"
-msgstr "Az <b>otthoni/hobbi felhasználó</b>. Szeretne készíteni, készített magának vagy nyomtatott egy 3D modellt? Modellezzen FreeCAD programmal. CAD tapasztalat nem szükséges. A közösség segít, hogy gyorsan ráhangolódjon!"
+#: index.php:152
+msgid ""
+"The <b>home user/hobbyist</b>. Got yourself a project you want to build, "
+"have built, or 3D printed? Model it in FreeCAD. No previous CAD experience "
+"required. Our community will help you get the hang of it quickly!"
+msgstr ""
+"Az <b>otthoni/hobbi felhasználó</b>. Szeretne készíteni, készített magának "
+"vagy nyomtatott egy 3D modellt? Modellezzen FreeCAD programmal. CAD "
+"tapasztalat nem szükséges. A közösség segít, hogy gyorsan ráhangolódjon!"
 
-#: index.php:94
-msgid "The <b>experienced CAD user</b>. If you use commercial CAD or BIM modeling software at work, you will find similar tools and workflow among the many <a href=\"wiki/?title=Workbenches\">workbenches</a> of FreeCAD."
-msgstr "A <b>tapasztalt CAD felhasználó</b>. Ha kereskedelemben használ CAD vagy BIM modellező szoftvert a munkahelyén, hasonló eszközöket és a munkafolyamatokat talál a munkafelületek között <a href=\"wiki/?title=Workbenches\">munkafelületek</a>, a FreeCAD programban."
+#: index.php:155
+#, fuzzy
+#| msgid ""
+#| "The <b>experienced CAD user</b>. If you use commercial CAD or BIM "
+#| "modeling software at work, you will find similar tools and workflow among "
+#| "the many <a href=\"wiki/?title=Workbenches\">workbenches</a> of FreeCAD."
+msgid ""
+"The <b>experienced CAD user</b>. If you use commercial CAD or BIM modeling "
+"software at work, you will find similar tools and workflow among the many <a "
+"href=\"wiki/Workbenches\">workbenches</a> of FreeCAD."
+msgstr ""
+"A <b>tapasztalt CAD felhasználó</b>. Ha kereskedelemben használ CAD vagy BIM "
+"modellező szoftvert a munkahelyén, hasonló eszközöket és a munkafolyamatokat "
+"talál a munkafelületek között <a href=\"wiki/?title=Workbenches"
+"\">munkafelületek</a>, a FreeCAD programban."
 
-#: index.php:97
-msgid "The <b>programmer</b>. Almost all of FreeCAD's functionality is accessible to <a href=\"https://en.wikipedia.org/wiki/Python_%28programming_language%29\">Python</a>. You can easily extend FreeCAD's functionality, automatize it with scripts, build your own modules or even embed FreeCAD in your own application."
-msgstr "A <b>programozó</b>. Szinte összes FreeCAD funkció érhető a <a href=\"https://en.wikipedia.org/wiki/Python_%28programming_language%29\"> Python nyelvben</a>. Könnyen bővítheti a FreeCAD funkciókat, automatizálhatja parancsfájlokkal, építhet saját modulokat, vagy beágyazhatja a saját alkalmazásába a FreeCAD programot."
+#: index.php:158
+msgid ""
+"The <b>programmer</b>. Almost all of FreeCAD's functionality is accessible "
+"to <a href=\"https://en.wikipedia.org/wiki/Python_%28programming_language"
+"%29\">Python</a>. You can easily extend FreeCAD's functionality, automatize "
+"it with scripts, build your own modules or even embed FreeCAD in your own "
+"application."
+msgstr ""
+"A <b>programozó</b>. Szinte összes FreeCAD funkció érhető a <a href="
+"\"https://en.wikipedia.org/wiki/Python_%28programming_language%29\"> Python "
+"nyelvben</a>. Könnyen bővítheti a FreeCAD funkciókat, automatizálhatja "
+"parancsfájlokkal, építhet saját modulokat, vagy beágyazhatja a saját "
+"alkalmazásába a FreeCAD programot."
 
-#: index.php:100
-msgid "The <b>educator</b>. Teach your students a free software with no worry about license purchase. They can install the same version at home and continue using it after leaving school."
-msgstr "A <b>pedagógus</b>. Megtaníthatja a diákoknak egy szabad szoftverrel az engedélyek megvásárlásának aggodalma nélkül. Telepíthetik ugyanazt a verziót otthon, amit tovább használhatnak miután befejezték az iskolát."
+#: index.php:161
+msgid ""
+"The <b>educator</b>. Teach your students a free software with no worry about "
+"license purchase. They can install the same version at home and continue "
+"using it after leaving school."
+msgstr ""
+"A <b>pedagógus</b>. Megtaníthatja a diákoknak egy szabad szoftverrel az "
+"engedélyek megvásárlásának aggodalma nélkül. Telepíthetik ugyanazt a verziót "
+"otthon, amit tovább használhatnak miután befejezték az iskolát."
 
-#: index.php:112
+#: index.php:173
 msgid "Community"
 msgstr "Közösség"
 
-#: index.php:120
+#: index.php:181
 msgid "Learn"
 msgstr "Ismerje meg"
 
-#: index.php:122
-msgid "title=Tutorials"
-msgstr "title=Tutorials"
-
-#: index.php:122
+#: index.php:183
 msgid "Tutorials"
 msgstr "Oktatóanyagok"
 
-#: index.php:123
+#: index.php:184
 msgid "Youtube videos"
 msgstr "YouTube videók"
 
-#: index.php:128
+#: index.php:189
 msgid "Help the project"
 msgstr "Segítsen a projektben"
 
-#: index.php:130
-msgid "title=Help_FreeCAD"
-msgstr "title=Help_FreeCAD"
-
-#: index.php:130
+#: index.php:191
 msgid "How can I help?"
 msgstr "Hogyan segíthetek?"
 
-#: index.php:131
-msgid "title=Donate"
-msgstr "title=Donate"
-
-#: index.php:131
+#: index.php:192
 msgid "Donate!"
 msgstr "Támogasson!"
 
-#: index.php:132
+#: index.php:193
 msgid "Translate"
 msgstr "Fordítás"
 
-#: index.php:136
+#: index.php:197
 msgid "Code"
 msgstr "Kód"
 
-#: index.php:138
-msgid "title=Compiling"
-msgstr "title=Compiling"
-
-#: index.php:138
+#: index.php:199
 msgid "Building from source"
 msgstr "Elkészítés forrásból"
 
-#: index.php:139
+#: index.php:200
 msgid "C++ & Python API"
 msgstr "C++ és Python API"
 
-#: index.php:140
-msgid "title=Licence"
-msgstr "title=Licence"
-
-#: index.php:140
+#: index.php:201
 msgid "License information"
 msgstr "Licenc információ"
 
+#~ msgid "title=Main_Page"
+#~ msgstr "title=Main_Page"
+
+#~ msgid "English"
+#~ msgstr "Angol"
+
+#~ msgid "French"
+#~ msgstr "Francia"
+
+#~ msgid "Portuguese (Brazil)"
+#~ msgstr "Portugál (brazil)"
+
+#~ msgid "Spanish"
+#~ msgstr "Spanyol"
+
+#~ msgid "title=About_FreeCAD"
+#~ msgstr "title=About_FreeCAD"
+
+#~ msgid "title=Feature_list"
+#~ msgstr "title=Feature_list"
+
+#~ msgid "title=Screenshots"
+#~ msgstr "title=Screenshots"
+
+#~ msgid "title=Download"
+#~ msgstr "title=Download"
+
+#~ msgid "title=Getting_started"
+#~ msgstr "title=Getting_started"
+
+#~ msgid "title=Tutorials"
+#~ msgstr "title=Tutorials"
+
+#~ msgid "title=Donate"
+#~ msgstr "title=Donate"
+
+#~ msgid "title=Compiling"
+#~ msgstr "title=Compiling"
+
+#~ msgid "title=Licence"
+#~ msgstr "title=Licence"

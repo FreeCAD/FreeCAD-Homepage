@@ -1,211 +1,244 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
-"POT-Creation-Date: 2015-09-07 20:53-0300\n"
-"PO-Revision-Date: 2017-06-26 10:06-0400\n"
+"POT-Creation-Date: 2017-07-18 11:51-0300\n"
+"PO-Revision-Date: 2017-07-18 11:51-0300\n"
 "Last-Translator: yorik <yorik.vanhavre@gmail.com>\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: crowdin.com\n"
+"X-Generator: Poedit 2.0.2\n"
 "X-Poedit-Basepath: ../../..\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-SearchPath-0: index.php\n"
 "X-Crowdin-Project: freecad\n"
 "X-Crowdin-Language: zh-TW\n"
 "X-Crowdin-File: homepage.po\n"
+"X-Poedit-SearchPath-0: index.php\n"
 
-#: index.php:17
+#: index.php:43
 msgid "FreeCAD: An open-source parametric 3D CAD modeler"
 msgstr "FreeCAD：一個開放原始碼之參數式3D電腦輔助設計軟體"
 
-#: index.php:30
+#: index.php:56
 msgid "Toggle navigation"
 msgstr "開啟/關閉導航工具列"
 
-#: index.php:39
+#: index.php:111
 msgid "Forum"
 msgstr "討論區"
 
-#: index.php:40
-msgid "title=Main_Page"
-msgstr "title=Main_Page/zh-tw"
-
-#: index.php:40
+#: index.php:112
 msgid "Documentation"
 msgstr "文件"
 
-#: index.php:41
+#: index.php:113
 msgid "Bug tracker"
 msgstr "Bug 追蹤器"
 
-#: index.php:48
-msgid "English"
-msgstr "英文"
-
-#: index.php:49
-msgid "French"
-msgstr "法文"
-
-#: index.php:50
-msgid "Portuguese (Brazil)"
-msgstr "葡萄牙语（巴西）"
-
-#: index.php:51
-msgid "Spanish"
-msgstr "西班牙文"
-
-#: index.php:64 index.php:85
-msgid "title=About_FreeCAD"
-msgstr "title=About_FreeCAD/zh-tw"
-
-#: index.php:64
+#: index.php:124
 msgid "Overview"
 msgstr "概覽"
 
-#: index.php:65
-msgid "title=Feature_list"
-msgstr "title=Feature_list/zh-tw"
-
-#: index.php:65
+#: index.php:125
 msgid "Features"
 msgstr "功能"
 
-#: index.php:66
-msgid "title=Screenshots"
-msgstr "title=Screenshots/zh-tw"
-
-#: index.php:66
+#: index.php:126
 msgid "Screenshots"
 msgstr "螢幕截圖"
 
-#: index.php:67
-msgid "title=Download"
-msgstr "title=Download/zh-tw"
-
-#: index.php:67
+#: index.php:127
 msgid "Download"
 msgstr "下載"
 
-#: index.php:68
-msgid "title=Getting_started"
-msgstr "title=Getting_started/zh-tw"
-
-#: index.php:68
+#: index.php:128
 msgid "Getting started"
 msgstr "開始"
 
-#: index.php:69
+#: index.php:129
 msgid "Users showcase"
 msgstr "使用者展示區"
 
-#: index.php:70
+#: index.php:130
 msgid "Get help"
 msgstr "求助"
 
-#: index.php:76
+#: index.php:131
+#, fuzzy
+#| msgid "title=Help_FreeCAD"
+msgid "Help FreeCAD"
+msgstr "title=Help_FreeCAD/zh-tw"
+
+#: index.php:137
 msgid "Welcome!"
 msgstr "歡迎！"
 
-#: index.php:79
-msgid "FreeCAD is a parametric 3D modeler made primarily to design real-life objects of any size. <a href=\"http://en.wikipedia.org/wiki/Parametric_feature_based_modeler\">Parametric modeling</a> allows you to easily modify your design by going back into your model history and changing its parameters. FreeCAD is open-source and highly customizable, scriptable and extensible."
-msgstr "FreeCAD為一個參數式3D設計軟體，主要用於設計任意尺寸的現實生活物件。<a href=\"http://en.wikipedia.org/wiki/Parametric_feature_based_modeler\">參數式建模</a>允許您很容易的透過建模歷史來修改您的設計及參數。FreeCAD為開放原始碼以及高度可客製化、可使用腳本語言和可擴充功能。 "
+#: index.php:140
+msgid ""
+"FreeCAD is a parametric 3D modeler made primarily to design real-life "
+"objects of any size. <a href=\"http://en.wikipedia.org/wiki/"
+"Parametric_feature_based_modeler\">Parametric modeling</a> allows you to "
+"easily modify your design by going back into your model history and changing "
+"its parameters. FreeCAD is open-source and highly customizable, scriptable "
+"and extensible."
+msgstr ""
+"FreeCAD為一個參數式3D設計軟體，主要用於設計任意尺寸的現實生活物件。<a href="
+"\"http://en.wikipedia.org/wiki/Parametric_feature_based_modeler\">參數式建模"
+"</a>允許您很容易的透過建模歷史來修改您的設計及參數。FreeCAD為開放原始碼以及高"
+"度可客製化、可使用腳本語言和可擴充功能。 "
 
-#: index.php:82
-msgid "FreeCAD is multiplatfom (Windows, Mac and Linux), and reads and writes many open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE and many others."
-msgstr "FreeCAD為多平台軟體(Windows, Mac 及 Linux)，並且可讀取及儲存許多開放格式檔案，例如STEP、 IGES、STL、SVG、DXF、OBJ、IFC、DAE 及更多其他檔案格式。"
+#: index.php:143
+msgid ""
+"FreeCAD is multiplatfom (Windows, Mac and Linux), and reads and writes many "
+"open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE and many "
+"others."
+msgstr ""
+"FreeCAD為多平台軟體(Windows, Mac 及 Linux)，並且可讀取及儲存許多開放格式檔"
+"案，例如STEP、 IGES、STL、SVG、DXF、OBJ、IFC、DAE 及更多其他檔案格式。"
 
-#: index.php:85
+#: index.php:146
 msgid "Read more..."
 msgstr "了解更多..."
 
-#: index.php:88
+#: index.php:149
 msgid "Who is FreeCAD for? A couple of user cases:"
 msgstr "誰會使用FreeCAD？以下為一些使用者案例："
 
-#: index.php:91
-msgid "The <b>home user/hobbyist</b>. Got yourself a project you want to build, have built, or 3D printed? Model it in FreeCAD. No previous CAD experience required. Our community will help you get the hang of it quickly!"
-msgstr "<b>家庭使用者／業餘愛好者</b>。建立您自己想要的專案、已經建立好的專案或是以3D列印印出？請於FreeCAD中建立它，您不需要有CAD的使用經驗，因為我們的社群會協助您快速的學會它！"
+#: index.php:152
+msgid ""
+"The <b>home user/hobbyist</b>. Got yourself a project you want to build, "
+"have built, or 3D printed? Model it in FreeCAD. No previous CAD experience "
+"required. Our community will help you get the hang of it quickly!"
+msgstr ""
+"<b>家庭使用者／業餘愛好者</b>。建立您自己想要的專案、已經建立好的專案或是以3D"
+"列印印出？請於FreeCAD中建立它，您不需要有CAD的使用經驗，因為我們的社群會協助"
+"您快速的學會它！"
 
-#: index.php:94
-msgid "The <b>experienced CAD user</b>. If you use commercial CAD or BIM modeling software at work, you will find similar tools and workflow among the many <a href=\"wiki/?title=Workbenches\">workbenches</a> of FreeCAD."
-msgstr "<b>已有CAD經驗之使用者</b>。 若您於工作使用商業之CAD或BIM建模軟體，您亦可以於FreeCAD的許多<a href=\"wiki/?title=Workbenches/zh-tw\">工作臺</a>找到相似的工具及使用流程。"
+#: index.php:155
+#, fuzzy
+#| msgid ""
+#| "The <b>experienced CAD user</b>. If you use commercial CAD or BIM "
+#| "modeling software at work, you will find similar tools and workflow among "
+#| "the many <a href=\"wiki/?title=Workbenches\">workbenches</a> of FreeCAD."
+msgid ""
+"The <b>experienced CAD user</b>. If you use commercial CAD or BIM modeling "
+"software at work, you will find similar tools and workflow among the many <a "
+"href=\"wiki/Workbenches\">workbenches</a> of FreeCAD."
+msgstr ""
+"<b>已有CAD經驗之使用者</b>。 若您於工作使用商業之CAD或BIM建模軟體，您亦可以於"
+"FreeCAD的許多<a href=\"wiki/?title=Workbenches/zh-tw\">工作臺</a>找到相似的工"
+"具及使用流程。"
 
-#: index.php:97
-msgid "The <b>programmer</b>. Almost all of FreeCAD's functionality is accessible to <a href=\"https://en.wikipedia.org/wiki/Python_%28programming_language%29\">Python</a>. You can easily extend FreeCAD's functionality, automatize it with scripts, build your own modules or even embed FreeCAD in your own application."
-msgstr "<b>程式設計師</b>。幾乎所有FreeCAD的功能都可以由 <a href=\"https://en.wikipedia.org/wiki/Python_%28programming_language%29\">Python</a>來使用。 您可以很容易地擴充FreeCAD的功能、以腳本自動化、建立您自己模組或甚至將FreeCAD嵌入您自己的應用程式中。"
+#: index.php:158
+msgid ""
+"The <b>programmer</b>. Almost all of FreeCAD's functionality is accessible "
+"to <a href=\"https://en.wikipedia.org/wiki/Python_%28programming_language"
+"%29\">Python</a>. You can easily extend FreeCAD's functionality, automatize "
+"it with scripts, build your own modules or even embed FreeCAD in your own "
+"application."
+msgstr ""
+"<b>程式設計師</b>。幾乎所有FreeCAD的功能都可以由 <a href=\"https://en."
+"wikipedia.org/wiki/Python_%28programming_language%29\">Python</a>來使用。 您"
+"可以很容易地擴充FreeCAD的功能、以腳本自動化、建立您自己模組或甚至將FreeCAD嵌"
+"入您自己的應用程式中。"
 
-#: index.php:100
-msgid "The <b>educator</b>. Teach your students a free software with no worry about license purchase. They can install the same version at home and continue using it after leaving school."
-msgstr "<b>教育工作者</b>。自由軟體可不用擔心有關版權購買問題即可對學生教學。而學生亦可以於家中安裝相同版本，並且於畢業後持續使用。"
+#: index.php:161
+msgid ""
+"The <b>educator</b>. Teach your students a free software with no worry about "
+"license purchase. They can install the same version at home and continue "
+"using it after leaving school."
+msgstr ""
+"<b>教育工作者</b>。自由軟體可不用擔心有關版權購買問題即可對學生教學。而學生亦"
+"可以於家中安裝相同版本，並且於畢業後持續使用。"
 
-#: index.php:112
+#: index.php:173
 msgid "Community"
 msgstr "社群"
 
-#: index.php:120
+#: index.php:181
 msgid "Learn"
 msgstr "學習"
 
-#: index.php:122
-msgid "title=Tutorials"
-msgstr "title=Tutorials/zh-tw"
-
-#: index.php:122
+#: index.php:183
 msgid "Tutorials"
 msgstr "教學"
 
-#: index.php:123
+#: index.php:184
 msgid "Youtube videos"
 msgstr "Youtube 影片"
 
-#: index.php:128
+#: index.php:189
 msgid "Help the project"
 msgstr "幫助此專案"
 
-#: index.php:130
-msgid "title=Help_FreeCAD"
-msgstr "title=Help_FreeCAD/zh-tw"
-
-#: index.php:130
+#: index.php:191
 msgid "How can I help?"
 msgstr "我該如何幫助？"
 
-#: index.php:131
-msgid "title=Donate"
-msgstr "title=Donate/zh-tw"
-
-#: index.php:131
+#: index.php:192
 msgid "Donate!"
 msgstr "贊助！"
 
-#: index.php:132
+#: index.php:193
 msgid "Translate"
 msgstr "翻譯"
 
-#: index.php:136
+#: index.php:197
 msgid "Code"
 msgstr "原始碼"
 
-#: index.php:138
-msgid "title=Compiling"
-msgstr "title=Compiling/zh-tw"
-
-#: index.php:138
+#: index.php:199
 msgid "Building from source"
 msgstr "由原始碼安裝"
 
-#: index.php:139
+#: index.php:200
 msgid "C++ & Python API"
 msgstr "C++ 及 Python API"
 
-#: index.php:140
-msgid "title=Licence"
-msgstr "title=Licence/zh_tw"
-
-#: index.php:140
+#: index.php:201
 msgid "License information"
 msgstr "授權申明"
 
+#~ msgid "title=Main_Page"
+#~ msgstr "title=Main_Page/zh-tw"
+
+#~ msgid "English"
+#~ msgstr "英文"
+
+#~ msgid "French"
+#~ msgstr "法文"
+
+#~ msgid "Portuguese (Brazil)"
+#~ msgstr "葡萄牙语（巴西）"
+
+#~ msgid "Spanish"
+#~ msgstr "西班牙文"
+
+#~ msgid "title=About_FreeCAD"
+#~ msgstr "title=About_FreeCAD/zh-tw"
+
+#~ msgid "title=Feature_list"
+#~ msgstr "title=Feature_list/zh-tw"
+
+#~ msgid "title=Screenshots"
+#~ msgstr "title=Screenshots/zh-tw"
+
+#~ msgid "title=Download"
+#~ msgstr "title=Download/zh-tw"
+
+#~ msgid "title=Getting_started"
+#~ msgstr "title=Getting_started/zh-tw"
+
+#~ msgid "title=Tutorials"
+#~ msgstr "title=Tutorials/zh-tw"
+
+#~ msgid "title=Donate"
+#~ msgstr "title=Donate/zh-tw"
+
+#~ msgid "title=Compiling"
+#~ msgstr "title=Compiling/zh-tw"
+
+#~ msgid "title=Licence"
+#~ msgstr "title=Licence/zh_tw"

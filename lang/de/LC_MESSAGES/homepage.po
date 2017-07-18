@@ -1,212 +1,254 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
-"POT-Creation-Date: 2015-09-07 20:53-0300\n"
-"PO-Revision-Date: 2017-06-26 10:11-0400\n"
+"POT-Creation-Date: 2017-07-18 11:51-0300\n"
+"PO-Revision-Date: 2017-07-18 11:51-0300\n"
 "Last-Translator: yorik <yorik.vanhavre@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: crowdin.com\n"
+"X-Generator: Poedit 2.0.2\n"
 "X-Poedit-Basepath: ../../..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-SearchPath-0: index.php\n"
 "X-Crowdin-Project: freecad\n"
 "X-Crowdin-Language: de\n"
 "X-Crowdin-File: homepage.po\n"
+"X-Poedit-SearchPath-0: index.php\n"
 
-#: index.php:17
+#: index.php:43
 msgid "FreeCAD: An open-source parametric 3D CAD modeler"
-msgstr "FreeCAD: Ein Open-Source-Projekt zur parametrischen 3D-CAD-Modellierung"
+msgstr ""
+"FreeCAD: Ein Open-Source-Projekt zur parametrischen 3D-CAD-Modellierung"
 
-#: index.php:30
+#: index.php:56
 msgid "Toggle navigation"
 msgstr "Navigation ein-/ausschalten"
 
-#: index.php:39
+#: index.php:111
 msgid "Forum"
 msgstr "Forum"
 
-#: index.php:40
-msgid "title=Main_Page"
-msgstr "title=Main_Page/de"
-
-#: index.php:40
+#: index.php:112
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: index.php:41
+#: index.php:113
 msgid "Bug tracker"
 msgstr "Fehlernachverfolgung"
 
-#: index.php:48
-msgid "English"
-msgstr "Englisch"
-
-#: index.php:49
-msgid "French"
-msgstr "Französisch"
-
-#: index.php:50
-msgid "Portuguese (Brazil)"
-msgstr "Portugiesisch (Brasilien)"
-
-#: index.php:51
-msgid "Spanish"
-msgstr "Spanisch"
-
-#: index.php:64 index.php:85
-msgid "title=About_FreeCAD"
-msgstr "title=About_FreeCAD"
-
-#: index.php:64
+#: index.php:124
 msgid "Overview"
 msgstr "Übersicht"
 
-#: index.php:65
-msgid "title=Feature_list"
-msgstr "title=Feature_list"
-
-#: index.php:65
+#: index.php:125
 msgid "Features"
 msgstr "Funktionen"
 
-#: index.php:66
-msgid "title=Screenshots"
-msgstr "title=Screenshots"
-
-#: index.php:66
+#: index.php:126
 msgid "Screenshots"
 msgstr "Bildschirmfotos"
 
-#: index.php:67
-msgid "title=Download"
-msgstr "title=Download"
-
-#: index.php:67
+#: index.php:127
 msgid "Download"
 msgstr "Herunterladen"
 
-#: index.php:68
-msgid "title=Getting_started"
-msgstr "title=Getting_started"
-
-#: index.php:68
+#: index.php:128
 msgid "Getting started"
 msgstr "Erste Schritte"
 
-#: index.php:69
+#: index.php:129
 msgid "Users showcase"
 msgstr "Anwendungsbeispiele"
 
-#: index.php:70
+#: index.php:130
 msgid "Get help"
 msgstr "Hilfe erhalten"
 
-#: index.php:76
+#: index.php:131
+#, fuzzy
+#| msgid "title=Help_FreeCAD"
+msgid "Help FreeCAD"
+msgstr "title=Help_FreeCAD"
+
+#: index.php:137
 msgid "Welcome!"
 msgstr "Willkommen!"
 
-#: index.php:79
-msgid "FreeCAD is a parametric 3D modeler made primarily to design real-life objects of any size. <a href=\"http://en.wikipedia.org/wiki/Parametric_feature_based_modeler\">Parametric modeling</a> allows you to easily modify your design by going back into your model history and changing its parameters. FreeCAD is open-source and highly customizable, scriptable and extensible."
-msgstr "FreeCAD ist ein parametrisches 3D Konstruktionsprogramm, das zum Entwurf realer Objekte jeder Größe genutzt werden kann. Die <a href=\"https://de.wikipedia.org/wiki/Cad#Entwicklung_der_Modellierungsverfahren\">parametrische Modellierung</a> erlaubt Veränderungen der Konstruktion durch Änderung von Parametern in zurückliegenden Konstruktionsschritten.\n"
-"FreeCAD ist personalisierbar, skriptfähig, erweiterbar und sie basiert auf freier Software."
+#: index.php:140
+msgid ""
+"FreeCAD is a parametric 3D modeler made primarily to design real-life "
+"objects of any size. <a href=\"http://en.wikipedia.org/wiki/"
+"Parametric_feature_based_modeler\">Parametric modeling</a> allows you to "
+"easily modify your design by going back into your model history and changing "
+"its parameters. FreeCAD is open-source and highly customizable, scriptable "
+"and extensible."
+msgstr ""
+"FreeCAD ist ein parametrisches 3D Konstruktionsprogramm, das zum Entwurf "
+"realer Objekte jeder Größe genutzt werden kann. Die <a href=\"https://de."
+"wikipedia.org/wiki/Cad#Entwicklung_der_Modellierungsverfahren"
+"\">parametrische Modellierung</a> erlaubt Veränderungen der Konstruktion "
+"durch Änderung von Parametern in zurückliegenden Konstruktionsschritten.\n"
+"FreeCAD ist personalisierbar, skriptfähig, erweiterbar und sie basiert auf "
+"freier Software."
 
-#: index.php:82
-msgid "FreeCAD is multiplatfom (Windows, Mac and Linux), and reads and writes many open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE and many others."
-msgstr "FreeCAD ist erhältlich für viele Betriebssysteme (Windows, Mac, Linux). Es liest und speichert Dateien in vielen offenen Dateiformaten wie STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE und vielen weiteren."
+#: index.php:143
+msgid ""
+"FreeCAD is multiplatfom (Windows, Mac and Linux), and reads and writes many "
+"open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE and many "
+"others."
+msgstr ""
+"FreeCAD ist erhältlich für viele Betriebssysteme (Windows, Mac, Linux). Es "
+"liest und speichert Dateien in vielen offenen Dateiformaten wie STEP, IGES, "
+"STL, SVG, DXF, OBJ, IFC, DAE und vielen weiteren."
 
-#: index.php:85
+#: index.php:146
 msgid "Read more..."
 msgstr "Lesen Sie mehr..."
 
-#: index.php:88
+#: index.php:149
 msgid "Who is FreeCAD for? A couple of user cases:"
 msgstr "Für wen ist FreeCAD? Ein paar Anwendungsszenarien:"
 
-#: index.php:91
-msgid "The <b>home user/hobbyist</b>. Got yourself a project you want to build, have built, or 3D printed? Model it in FreeCAD. No previous CAD experience required. Our community will help you get the hang of it quickly!"
-msgstr "Der <b>Heimnutzer/Bastler</b>. Sie haben ein Projekt, dass sie bauen möchten, gebaut haben oder 3D-Drucken wollen? Modellieren Sie es in FreeCAD. Es ist keine CAD-Erfahrung nötig. Unsere Community hilft Ihnen gerne dabei den Bogen rauszubekommen!"
+#: index.php:152
+msgid ""
+"The <b>home user/hobbyist</b>. Got yourself a project you want to build, "
+"have built, or 3D printed? Model it in FreeCAD. No previous CAD experience "
+"required. Our community will help you get the hang of it quickly!"
+msgstr ""
+"Der <b>Heimnutzer/Bastler</b>. Sie haben ein Projekt, dass sie bauen "
+"möchten, gebaut haben oder 3D-Drucken wollen? Modellieren Sie es in FreeCAD. "
+"Es ist keine CAD-Erfahrung nötig. Unsere Community hilft Ihnen gerne dabei "
+"den Bogen rauszubekommen!"
 
-#: index.php:94
-msgid "The <b>experienced CAD user</b>. If you use commercial CAD or BIM modeling software at work, you will find similar tools and workflow among the many <a href=\"wiki/?title=Workbenches\">workbenches</a> of FreeCAD."
-msgstr "Der <b>erfahrene CAD-Benutzer</b>. Wenn Sie kommerzielle CAD oder BIM Software am Arbeitsplatz verwenden, finden Sie ähnliche Tools und Arbeitsabläufe unter den vielen <a href=\"wiki/?title=Workbenches\"> Werkzeugen</a> von FreeCAD."
+#: index.php:155
+#, fuzzy
+#| msgid ""
+#| "The <b>experienced CAD user</b>. If you use commercial CAD or BIM "
+#| "modeling software at work, you will find similar tools and workflow among "
+#| "the many <a href=\"wiki/?title=Workbenches\">workbenches</a> of FreeCAD."
+msgid ""
+"The <b>experienced CAD user</b>. If you use commercial CAD or BIM modeling "
+"software at work, you will find similar tools and workflow among the many <a "
+"href=\"wiki/Workbenches\">workbenches</a> of FreeCAD."
+msgstr ""
+"Der <b>erfahrene CAD-Benutzer</b>. Wenn Sie kommerzielle CAD oder BIM "
+"Software am Arbeitsplatz verwenden, finden Sie ähnliche Tools und "
+"Arbeitsabläufe unter den vielen <a href=\"wiki/?title=Workbenches\"> "
+"Werkzeugen</a> von FreeCAD."
 
-#: index.php:97
-msgid "The <b>programmer</b>. Almost all of FreeCAD's functionality is accessible to <a href=\"https://en.wikipedia.org/wiki/Python_%28programming_language%29\">Python</a>. You can easily extend FreeCAD's functionality, automatize it with scripts, build your own modules or even embed FreeCAD in your own application."
-msgstr "Der <b>Programmierer</b>. Fast alle FreeCAD Funktionen sind über <a href=\"https://de.wikipedia.org/wiki/Python_%28Programmiersprache%29\">Python</a> zugänglich. Die FreeCAD Funktionalität kann leicht erweitert und mit Skripts automatisiert werden. Sie können eigene Module erstellen und FreeCAD sogar in Ihrer eigenen Anwendung einbetten."
+#: index.php:158
+msgid ""
+"The <b>programmer</b>. Almost all of FreeCAD's functionality is accessible "
+"to <a href=\"https://en.wikipedia.org/wiki/Python_%28programming_language"
+"%29\">Python</a>. You can easily extend FreeCAD's functionality, automatize "
+"it with scripts, build your own modules or even embed FreeCAD in your own "
+"application."
+msgstr ""
+"Der <b>Programmierer</b>. Fast alle FreeCAD Funktionen sind über <a href="
+"\"https://de.wikipedia.org/wiki/Python_%28Programmiersprache%29\">Python</a> "
+"zugänglich. Die FreeCAD Funktionalität kann leicht erweitert und mit Skripts "
+"automatisiert werden. Sie können eigene Module erstellen und FreeCAD sogar "
+"in Ihrer eigenen Anwendung einbetten."
 
-#: index.php:100
-msgid "The <b>educator</b>. Teach your students a free software with no worry about license purchase. They can install the same version at home and continue using it after leaving school."
-msgstr "Der <b>Pädagoge</b>. Bringen Sie Ihren Schülern und Studenten den Umgang mit einer freien Software bei. Sie müssen sich nicht um die Lizenz sorgen. Jeder kann die gleiche Version von FreeCAD zu Hause installieren und auch nach Beendigung der Ausbildung weiter verwenden."
+#: index.php:161
+msgid ""
+"The <b>educator</b>. Teach your students a free software with no worry about "
+"license purchase. They can install the same version at home and continue "
+"using it after leaving school."
+msgstr ""
+"Der <b>Pädagoge</b>. Bringen Sie Ihren Schülern und Studenten den Umgang mit "
+"einer freien Software bei. Sie müssen sich nicht um die Lizenz sorgen. Jeder "
+"kann die gleiche Version von FreeCAD zu Hause installieren und auch nach "
+"Beendigung der Ausbildung weiter verwenden."
 
-#: index.php:112
+#: index.php:173
 msgid "Community"
 msgstr "Community"
 
-#: index.php:120
+#: index.php:181
 msgid "Learn"
 msgstr "Mehr erfahren"
 
-#: index.php:122
-msgid "title=Tutorials"
-msgstr "title=Tutorials"
-
-#: index.php:122
+#: index.php:183
 msgid "Tutorials"
 msgstr "Tutorien"
 
-#: index.php:123
+#: index.php:184
 msgid "Youtube videos"
 msgstr "Youtube-Videos"
 
-#: index.php:128
+#: index.php:189
 msgid "Help the project"
 msgstr "Das Projekt unterstützen"
 
-#: index.php:130
-msgid "title=Help_FreeCAD"
-msgstr "title=Help_FreeCAD"
-
-#: index.php:130
+#: index.php:191
 msgid "How can I help?"
 msgstr "Wie kann ich helfen?"
 
-#: index.php:131
-msgid "title=Donate"
-msgstr "title=Donate"
-
-#: index.php:131
+#: index.php:192
 msgid "Donate!"
 msgstr "Spenden Sie!"
 
-#: index.php:132
+#: index.php:193
 msgid "Translate"
 msgstr "Übersetzen"
 
-#: index.php:136
+#: index.php:197
 msgid "Code"
 msgstr "Quelltext"
 
-#: index.php:138
-msgid "title=Compiling"
-msgstr "title=Compiling"
-
-#: index.php:138
+#: index.php:199
 msgid "Building from source"
 msgstr "Aus Quellcode kompilieren"
 
-#: index.php:139
+#: index.php:200
 msgid "C++ & Python API"
 msgstr "C++ & Python-API"
 
-#: index.php:140
-msgid "title=Licence"
-msgstr "title=Licence"
-
-#: index.php:140
+#: index.php:201
 msgid "License information"
 msgstr "Lizenzinformationen"
 
+#~ msgid "title=Main_Page"
+#~ msgstr "title=Main_Page/de"
+
+#~ msgid "English"
+#~ msgstr "Englisch"
+
+#~ msgid "French"
+#~ msgstr "Französisch"
+
+#~ msgid "Portuguese (Brazil)"
+#~ msgstr "Portugiesisch (Brasilien)"
+
+#~ msgid "Spanish"
+#~ msgstr "Spanisch"
+
+#~ msgid "title=About_FreeCAD"
+#~ msgstr "title=About_FreeCAD"
+
+#~ msgid "title=Feature_list"
+#~ msgstr "title=Feature_list"
+
+#~ msgid "title=Screenshots"
+#~ msgstr "title=Screenshots"
+
+#~ msgid "title=Download"
+#~ msgstr "title=Download"
+
+#~ msgid "title=Getting_started"
+#~ msgstr "title=Getting_started"
+
+#~ msgid "title=Tutorials"
+#~ msgstr "title=Tutorials"
+
+#~ msgid "title=Donate"
+#~ msgstr "title=Donate"
+
+#~ msgid "title=Compiling"
+#~ msgstr "title=Compiling"
+
+#~ msgid "title=Licence"
+#~ msgstr "title=Licence"
