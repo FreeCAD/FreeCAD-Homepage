@@ -296,7 +296,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 				</div>
                 
                 <div class="col-lg-3 col-sm-6 footer-links">
-                    <h6><?php echo _('HELP THE PROJECT'); ?></h6>
+                    <h6><?php echo _('CONTRIBUTE'); ?></h6>
 					<a href="https://www.freecadweb.org/wiki/Help_FreeCAD"><?php echo _('How can I help?'); ?><br></a>
                     <a href="https://www.freecadweb.org/wiki/Donate"><?php echo _('Donate'); ?><br></a>
                     <a href="https://crowdin.com/project/freecad"><?php echo _('Translate'); ?><br></a>
