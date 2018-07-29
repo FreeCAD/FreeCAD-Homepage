@@ -22,7 +22,7 @@ html, body {
     height: 100%;
 	background: linear-gradient(90deg, #1f2932, #667d8e);
 	font-family: 'Roboto-Regular', sans-serif;
-    font-size: calc(10px + 1vmax);
+    font-size: calc(9px + 1vmax);
 }
 
 #main {
@@ -79,14 +79,14 @@ html, body {
 
 .home-title {
 	font-family: 'Montserrat-Black', sans-serif;
-	font-size: 15vmin;
+	font-size: 14vmin;
 	color: #FFFFFF;
     margin-top: 15vh;
 }
 
 .home-subtitle {
 	font-family: 'Montserrat-Regular', sans-serif;
-	font-size: 6vmin;
+	font-size: 5vmin;
 	color: #FFFFFF;
 }
 
@@ -105,7 +105,7 @@ a.btn.download {
 a.btn.download > .main {
     background-color: white;
 	font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
 	color: #1f2932;
     padding: 0.5em 1.5em 0.5em 1.5em;
     display: inline-block;
@@ -117,7 +117,7 @@ a.btn.download > .main {
 a.btn.download > .opt {
     background-color: #ff2f2f;
 	font-family: 'Montserrat-Bold', sans-serif;
-	font-size: 1.1em;
+	font-size: 1em;
 	color: white;
     display: inline-block;
     padding: 0.5em 0.5em 0.5em 0.5em;
@@ -133,7 +133,7 @@ a.btn.download > .opt {
 
 .section-title {
 	font-family: 'Montserrat-Bold', sans-serif;
-	font-size: 2em;
+	font-size: 1.8em;
 	color: #FFFFFF;
 }
 
@@ -144,7 +144,7 @@ a.btn.download > .opt {
 .section-button {
     width: 100%;
 	font-family: 'Montserrat-Bold', sans-serif;
-	font-size: 1.1em;
+	font-size: 1em;
 	color: #1f2932;
     border-radius: 0px;
     padding: 0.5em 1.5em 0.5em 1.5em;
