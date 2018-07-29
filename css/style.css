@@ -1,21 +1,21 @@
 @font-face {
     font-family: "Montserrat-Regular";
-    src: url("fonts/Montserrat-Regular.otf");
+    src: url("../fonts/Montserrat-Regular.otf");
 }
 
 @font-face {
     font-family: "Montserrat-Bold";
-    src: url("fonts/Montserrat-Bold.otf");
+    src: url("../fonts/Montserrat-Bold.otf");
 }
 
 @font-face {
     font-family: "Montserrat-Black";
-    src: url("fonts/Montserrat-Black.otf");
+    src: url("../fonts/Montserrat-Black.otf");
 }
 
 @font-face {
     font-family: "Roboto-Regular";
-    src: url("fonts/Roboto-Regular.ttf");
+    src: url("../fonts/Roboto-Regular.ttf");
 }
 
 html, body {
@@ -28,7 +28,7 @@ html, body {
 #main {
 	background-size: contain;
 	background-repeat: repeat-y;
-	background-image: url(svg/pattern-repeat.svg);
+	background-image: url(../svg/pattern-repeat.svg);
     padding: 8vw;
 }
 
@@ -174,8 +174,4 @@ a.btn.download > .opt {
     font-size: 0.8em;
 }
 
-.footer-links {
-    margin-bottom: 4vw;
-}
-
-
+.footer-
