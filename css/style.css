@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("fonts/Montserrat-Regular.otf");
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("fonts/Montserrat-Bold.otf");
+}
+
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url("fonts/Montserrat-Black.otf");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+html, body {
+    height: 100%;
+	background: linear-gradient(90deg, #1f2932, #667d8e);
+	font-family: 'Roboto-Regular', sans-serif;
+    font-size: calc(10px + 1vmax);
+}
+
+#main {
+	background-size: contain;
+	background-repeat: repeat-y;
+	background-image: url(svg/pattern-repeat.svg);
+    padding: 8vw;
+}
+
+.navbar-custom {
+    background-color: rgba(50, 50, 50, 0.7);
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    padding: 0.5vh 1.5vw 0.5vh;
+}
+
+.navbar .navbar-nav li a {
+	font-family: 'Montserrat-Bold', sans-serif;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 0.7em;
+    color: white;
+}
+
+/* change the color of active or hovered links */
+.navbar .nav-item.active .nav-link, .navbar .nav-item:hover .nav-link {
+    background-color: white;
+    color: #404040;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.section-cover {
+    height: 100%;
+    padding-bottom: 6vmax;
+}
+
+.section {
+    height: 100%;
+    padding-top: 6vmax;
+    padding-bottom: 6vmax;
+}
+
+.home-title {
+	font-family: 'Montserrat-Black', sans-serif;
+	font-size: 15vmin;
+	color: #FFFFFF;
+    margin-top: 15vh;
+}
+
+.home-subtitle {
+	font-family: 'Montserrat-Regular', sans-serif;
+	font-size: 6vmin;
+	color: #FFFFFF;
+}
+
+a.btn {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+}
+
+a.btn.download {
+    padding: 0px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+a.btn.download > .main {
+    background-color: white;
+	font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 1.1em;
+	color: #1f2932;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    float: left;
+}
+
+a.btn.download > .opt {
+    background-color: #ff2f2f;
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-size: 1.1em;
+	color: white;
+    display: inline-block;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 0px;
+}
+
+#floating-arrow{
+    width: 2vmin;
+    height: 2vmin;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title {
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-size: 2em;
+	color: #FFFFFF;
+}
+
+.section-paragraph {
+	color: #FFFFFF;
+}   
+
+.section-button {
+    width: 100%;
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-size: 1.1em;
+	color: #1f2932;
+    border-radius: 0px;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    background-color: white;
+}
+
+.screenshot {
+    width: 100%;
+    box-shadow: 0 0 10px;
+}
+
+.footer-custom {
+    align-items: center;
+    background-color: #404040;
+    padding: 6vw;
+}
+
+.footer-custom h6 {
+    color: white;
+	font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 1em;
+}
+
+.footer-custom a, .footer-custom span {
+    color: white;
+	font-family: 'Roboto-Regular', sans-serif;
+    font-size: 0.8em;
+}
+
+.footer-links {
+    margin-bottom: 4vw;
+}
+
+
