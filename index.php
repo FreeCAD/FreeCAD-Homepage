@@ -33,18 +33,22 @@ textdomain("homepage");
 bind_textdomain_codeset("homepage", 'UTF-8');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 
 <html lang="<?php echo $lang;?>" class="home">
-    
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <title><?php echo _('FreeCAD: An open-source parametric 3D CAD modeler'); ?></title>
-        <link rel="stylesheet" href="css/bootstrap-3.3.5.min.css">
-        <link rel="stylesheet" href="css/font-awesome-4.4.0.min.css">
-        <link rel="stylesheet" type="text/css" href="css/freecad.css">
-        <link rel="shortcut icon" href="images/favicon.ico">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width = device-width, initial-scale = 1">
+
+        <title><?php echo _('FreeCAD: Your Own 3D Parametric Modeler'); ?></title>
+
+		<!-- Include bootstrap CSS file -->
+		<link rel="stylesheet" href="css/bootstrap-4.1.2.min.css">
+		
+		<!-- Custom Styles -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        
         <!-- Piwik -->
         <script type="text/javascript">
           var _paq = _paq || [];
@@ -60,23 +64,27 @@ bind_textdomain_codeset("homepage", 'UTF-8');
           })();
         </script>
         <!-- End Piwik Code -->
-    </head>
-    
-    <body>
-    
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only"><?php echo _('Toggle navigation'); ?></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/"><img alt="FreeCAD-logo" src="images/logo.png"/> FreeCAD</a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
+	</head>
+
+	<body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom">
+            <a class="navbar-brand" href="#"><img src="svg/logo-freecad.svg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse mr-auto" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="https://www.freecadweb.org/wiki/Feature_list"><?php echo _('FEATURES'); ?></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.freecadweb.org/wiki/Download"><?php echo _('DOWNLOADS'); ?></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.freecadweb.org/wiki/Getting_started"><?php echo _('WIKI'); ?></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://forum.freecadweb.org/"><?php echo _('COMMUNITY'); ?></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/FreeCAD/FreeCAD/"><?php echo _('CONTRIBUTE'); ?></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.freecadweb.org/wiki/Donate"><?php echo _('DONATE'); ?></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://forum.freecadweb.org/viewforum.php?f=24"><?php echo _('SHOWCASE'); ?></a></li>
+                </ul>
+                
+                <ul class="navbar-nav ml-auto">
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
                             <img src="lang/<?php echo $lang; ?>/flag.jpg"/>
@@ -105,7 +113,9 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                             <li><a href="/?lang=sv_SE"><img src="lang/sv_SE/flag.jpg"/> <?php echo 'Swedish'; ?></a></li>
                             <li><a href="/?lang=uk"><img src="lang/uk/flag.jpg"/> <?php echo 'Ukrainian'; ?></a></li>
                             <li><a href="/?lang=it"><img src="lang/it/flag.jpg"/> <?php echo 'Italian'; ?></a></li>
-                            <!--<li><a href="/?lang=pt_BR"><img src="lang/pt_BR/flag.jpg"/> <?php echo 'Portuguese, Brazilian'; ?></a></li>-->
+                            <!--
+                            <li><a href="/?lang=pt_BR"><img src="lang/pt_BR/flag.jpg"/> <?php echo 'Portuguese, Brazilian'; ?></a></li>
+                            -->
                             <li><a href="/?lang=el"><img src="lang/el/flag.jpg"/> <?php echo 'Greek'; ?></a></li>
                             <li><a href="/?lang=sk"><img src="lang/sk/flag.jpg"/> <?php echo 'Slovak'; ?></a></li>
                             <li><a href="/?lang=tr"><img src="lang/tr/flag.jpg"/> <?php echo 'Turkish'; ?></a></li>
@@ -113,116 +123,201 @@ bind_textdomain_codeset("homepage", 'UTF-8');
                         </ul>
                     </li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <form class="navbar-search navbar-form" action="https://duckduckgo.com/" id="searchform" role="search" method="get">
-                        <div>
-                            <input type="hidden" name="sites" value="freecadweb.org"/>
-                            <input type="text" name="q" class="form-control" placeholder="Search" title="Search FreeCAD documentation, forum and bugs" maxlength=300>
-                            <input type="submit" name="title" value="DuckDuckGo Search" style="width: 0; visibility: hidden;">
-                        </div>
-                    </form>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="http://forum.freecadweb.org"><i class="fa fa-commenting"></i> <?php echo _('Forum'); ?></a></li>
-                    <li><a href="wiki/Main_Page"><i class="fa fa-book"></i> <?php echo _('Documentation'); ?></a></li>
-                    <li><a href="tracker/"><i class="fa fa-bug"></i> <?php echo _('Bug tracker'); ?></a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </div>
-    
-    <div class="container maincontent">
-        <div class="row">
-            
-            <div class="col-md-3" id="leftCol">
-                <ul class="nav nav-stacked" id="sidebar">
-                    <li><a href="wiki/About_FreeCAD"><?php echo _('Overview'); ?></a></li>
-                    <li><a href="wiki/Feature_list"><?php echo _('Features'); ?></a></li>
-                    <li><a href="wiki/Screenshots"><?php echo _('Screenshots'); ?></a></li>
-                    <li><a href="wiki/Download"><?php echo _('Download'); ?></a></li>
-                    <li><a href="wiki/Getting_started"><?php echo _('Getting started'); ?></a></li>
-                    <li><a href="http://forum.freecadweb.org/viewforum.php?f=24"><?php echo _('Users showcase'); ?></a></li>
-                    <li><a href="http://forum.freecadweb.org/viewforum.php?f=3"><?php echo _('Get help'); ?></a></li>
-                    <li><a href="https://freecadweb.org/wiki/Help_FreeCAD"><?php echo _('Help FreeCAD'); ?></a></li>
-                </ul>
             </div>
+        </nav>
+                     
+		<div id="main" class="container-fluid">
+			<div class="row section-cover vertical-align">
+				<div class="col-lg-7">
+					<h1 class="home-title"><?php echo _('FREECAD'); ?></h1>
+                    <h2 class="home-subtitle"><?php echo _('YOUR OWN 3D PARAMETRIC MODELER'); ?></h2>
+                    <a class="btn btn-default download" href="https://www.freecadweb.org/wiki/Download" role="button">
+                        <div class="main"><?php echo _('DOWNLOAD'); ?></div>
+                        <div class="opt"><?php echo _('0.17'); ?></div>
+                    </a>
+				</div>
+                
+				<div class="col-lg-5 d-none d-lg-block">
+					<img class="img-fluid" src="images/cover-photo.png" alt="Cover Photo"> 
+				</div>
+                
+                <div id="floating-arrow" class="d-none d-lg-block">
+                    <img src="svg/icon-down.svg">
+                </div>
+			</div>		
             
-            <div class="col-md-9" role="main">
-                
-                <h1><?php echo _('Welcome!'); ?></h1>
-                
-                <p>
-                    <?php echo _('FreeCAD is a parametric 3D modeler made primarily to design real-life objects of any size. <a href="http://en.wikipedia.org/wiki/Parametric_feature_based_modeler">Parametric modeling</a> allows you to easily modify your design by going back into your model history and changing its parameters. FreeCAD is open-source and highly customizable, scriptable and extensible.'); ?>
-                </p>
-                <p>
-                    <?php echo _('FreeCAD is multiplatfom (Windows, Mac and Linux), and reads and writes many open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE and many others.'); ?>
-                </p>
-                <p>
-                    <a href="wiki/About_FreeCAD"><?php echo _('Read more...'); ?></a>
-                </p>
+			<div id="section_first" class="row section vertical-align">
+				<div class="col-lg-8">
+					<img class="img-fluid screenshot" src="images/screenshot-01.jpg" alt="Screenshot 1"> 
+				</div>
 
-                <h4><?php echo _('Who is FreeCAD for? A couple of user cases:'); ?></h4>
+				<div class="col-lg-4 d-none d-lg-block">
+					<h3 class="section-title"><?php echo _('FREEDOM TO BUILD WHAT YOU WANT'); ?></h3>
+                    <p class="section-paragraph">
+                        <?php echo _('FreeCAD is an open-source parametric 3D modeler made primarily to design real-life objects of any size. Parametric modeling allows you to easily modify your design by going back into your model 
+                        history and changing its parameters.'); ?>
+                    </p>
+                    <!--<a class="btn btn-default btn-lg section-button" role="button" href="https://www.freecadweb.org/wiki/About_FreeCAD">LEARN MORE</a>-->
+				</div>
                 
-                <p>
-                    <?php echo _('The <b>home user/hobbyist</b>. Got yourself a project you want to build, have built, or 3D printed? Model it in FreeCAD. No previous CAD experience required. Our community will help you get the hang of it quickly!'); ?>
-                </p>
-                <p>
-                    <?php echo _('The <b>experienced CAD user</b>. If you use commercial CAD or BIM modeling software at work, you will find similar tools and workflow among the many <a href="wiki/Workbenches">workbenches</a> of FreeCAD.'); ?>
-                </p>
-                <p>
-                    <?php echo _('The <b>programmer</b>. Almost all of FreeCAD\'s functionality is accessible to <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Python</a>. You can easily extend FreeCAD\'s functionality, automatize it with scripts, build your own modules or even embed FreeCAD in your own application.'); ?>
-                </p>
-                <p>
-                    <?php echo _('The <b>educator</b>. Teach your students a free software with no worry about license purchase. They can install the same version at home and continue using it after leaving school.'); ?>
-                </p>
+                <div class="col-lg-4 d-lg-none" style="margin-top: 20px;">
+					<h3 class="section-title"><?php echo _('FREEDOM TO BUILD WHAT YOU WANT'); ?></h3>
+                    <p class="section-paragraph">
+                        <?php echo _('FreeCAD is an open-source parametric 3D modeler made primarily to design real-life objects of any size. Parametric modeling allows you to easily modify your design by going back into your model 
+                        history and changing its parameters.'); ?>
+                    </p>
+                    <!--<a class="btn btn-default btn-lg section-button" role="button" href="https://www.freecadweb.org/wiki/About_FreeCAD">LEARN MORE</a>-->
+				</div>
+			</div>
+			
+			<div class="row section vertical-align">
+				<div class="col-lg-4 d-none d-lg-block">
+					<h3 class="section-title"><?php echo _('CREATE 3D FROM 2D & BACK'); ?></h3>
+                    <p class="section-paragraph">
+                        <?php echo _('FreeCAD allows you to sketch geometry constrained 2D shapes and use them as a base to build other objects. It contains many components to adjust dimensions or extract design details from 3D models to create high quality production ready drawings.'); ?>
+                    </p>
+                    <!--<a class="btn btn-default btn-lg section-button" role="button" href="https://www.freecadweb.org/wiki/Sketcher_Workbench">LEARN MORE</a>-->
+				</div>
+				<div class="col-lg-8">
+					<img class="img-fluid screenshot" src="images/screenshot-02.jpg" alt="Screenshot 2"> 
+				</div>
                 
-            </div>
-        </div>
-    </div>
+                <div class="col-lg-4 d-lg-none" style="margin-top: 20px;">
+					<h3 class="section-title"><?php echo _('CREATE 3D FROM 2D & BACK'); ?></h3>
+                    <p class="section-paragraph">
+                        <?php echo _('FreeCAD allows you to sketch geometry constrained 2D shapes and use them as a base to build other objects. It contains many components to adjust dimensions or extract design details from 3D models to create high quality production ready drawings.'); ?>
+                    </p>
+                    <!--<a class="btn btn-default btn-lg section-button" role="button" href="https://www.freecadweb.org/wiki/Sketcher_Workbench">LEARN MORE</a>-->
+				</div>
+			</div>
+			
+			<div class="row section vertical-align">
+				<div class="col-lg-8">
+					<img class="img-fluid screenshot" src="images/screenshot-03.jpg" alt="Screenshot 3"> 
+				</div>
 
+				<div class="col-lg-4 d-none d-lg-block">
+					<h3 class="section-title"><?php echo _('ACCESSIBLE, FLEXIBLE & INTEGRATED'); ?></h3>
+                    <p class="section-paragraph"> 
+                        <?php echo _('FreeCAD is a multiplatfom (Windows, Mac and Linux), highly customizable and extensible software. It reads and writes to many open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE and many others, making it possible to seamlessly integrate it into your workflow.'); ?>
+                    </p>
+                    <!--<a class="btn btn-default btn-lg section-button" role="button" href="https://www.freecadweb.org/wiki/Fcstd_file_format">LEARN MORE</a>-->
+				</div>
+                
+                <div class="col-lg-4 d-lg-none" style="margin-top: 20px;">
+					<h3 class="section-title"><?php echo _('ACCESSIBLE, FLEXIBLE & INTEGRATED'); ?></h3>
+                    <p class="section-paragraph"> 
+                        <?php echo _('FreeCAD is a multiplatfom (Windows, Mac and Linux), highly customizable and extensible software. It reads and writes to many open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE and many others, making it possible to seamlessly integrate it into your workflow.'); ?>
+                    </p>
+                    <!--<a class="btn btn-default btn-lg section-button" role="button" href="https://www.freecadweb.org/wiki/Fcstd_file_format">LEARN MORE</a>-->
+				</div>
+			</div>
+			
+			<div class="row section vertical-align">
+				<div class="col-lg-4 d-none d-lg-block">
+					<h3 class="section-title"><?php echo _('DESIGNED FOR YOUR NEEDS'); ?></h3>
+                    <p class="section-paragraph">
+                        <?php echo _('FreeCAD is designed to fit a wide range of uses including product design, mechanical engineering and architecture. Whether you are a hobbyist, a programmer, an experienced CAD user, a student or a teacher, you will feel right at home with FreeCAD.'); ?>
+                    </p>
+                    <!--<a class="btn btn-default btn-lg section-button" role="button" href="https://www.freecadweb.org/wiki/Arch_Module">LEARN MORE</a>-->
+				</div>
+				<div class="col-lg-8">
+					<img class="img-fluid screenshot" src="images/screenshot-04.jpg" alt="Screenshot 4"> 
+				</div>
+                
+                <div class="col-lg-4 d-lg-none" style="margin-top: 20px;">
+					<h3 class="section-title"><?php echo _('DESIGNED FOR YOUR NEEDS'); ?></h3>
+                    <p class="section-paragraph">
+                        <?php echo _('FreeCAD is designed to fit a wide range of uses including product design, mechanical engineering and architecture. Whether you are a hobbyist, a programmer, an experienced CAD user, a student or a teacher, you will feel right at home with FreeCAD.'); ?>
+                    </p>
+                    <!--<a class="btn btn-default btn-lg section-button" role="button" href="https://www.freecadweb.org/wiki/Arch_Module">LEARN MORE</a>-->
+				</div>
+			</div>
+			
+			<div class="row section vertical-align">
+				<div class="col-lg-8">
+					<img class="img-fluid screenshot" src="images/screenshot-05.jpg" alt="Screenshot 5"> 
+				</div>
 
-    <footer>
-        <div class="container text-muted">
+				<div class="col-lg-4 d-none d-lg-block">
+					<h3 class="section-title"><?php echo _('AND MANY MORE GREAT FEATURES'); ?></h3>
+                    <p class="section-paragraph">
+                        <?php echo _('FreeCAD equips you with all the right tools for your needs. You get modern Finite Element Analysis (FEA) tools, experimental CFD, BIM, Geodata workbenches, Path workbench, a robot simulation module that allows you to study robot movements and many more features. FreeCAD really is a Swiss Army knife of general-purpose engineering toolkits.'); ?>
+                    </p>
+                    <a class="btn btn-default btn-lg section-button" role="button" href="https://www.freecadweb.org/wiki/Feature_list#General_features:"><?php echo _('LEARN MORE'); ?></a>
+				</div>
+                
+                <div class="col-lg-4 d-lg-none" style="margin-top: 20px;">
+					<h3 class="section-title"><?php echo _('AND MANY MORE GREAT FEATURES'); ?></h3>
+                    <p class="section-paragraph">
+                        <?php echo _('FreeCAD equips you with all the right tools for your needs. You get modern Finite Element Analysis (FEA) tools, experimental CFD, BIM, Geodata workbenches, Path workbench, a robot simulation module that allows you to study robot movements and many more features. FreeCAD really is a Swiss Army knife of general-purpose engineering toolkits.'); ?>
+                    </p>
+                    <a class="btn btn-default btn-lg section-button" role="button" href="https://www.freecadweb.org/wiki/Feature_list#General_features:"><?php echo _('LEARN MORE'); ?></a>
+				</div>
+			</div>
+			
+			<div class="row section vertical-align">
+				<div class="col-lg-4 d-none d-lg-block">
+					<h3 class="section-title"><?php echo _('WANT TO CONTRIBUTE TO FREECAD?'); ?></h3>
+                    <p class="section-paragraph">
+                        <?php echo _('FreeCAD is a truly open source project and if you would like to help fix bugs, implement new cool features or work on the documentation, we invite you to join us and create a software that benefits the whole community.'); ?>
+                    </p>
+                    <a class="btn btn-default btn-lg section-button" role="button" href="https://github.com/FreeCAD/FreeCAD/"><?php echo _('GET INVOLVED'); ?></a>
+				</div>
+                
+				<div class="col-lg-8">
+					<img class="img-fluid screenshot" src="images/screenshot-06.jpg" alt="Screenshot 6"> 
+				</div>
+                
+                <div class="col-lg-4 d-lg-none" style="margin-top: 20px;">
+					<h3 class="section-title"><?php echo _('WANT TO CONTRIBUTE TO FREECAD?'); ?></h3>
+                    <p class="section-paragraph">
+                        <?php echo _('FreeCAD is a truly open source project and if you would like to help fix bugs, implement new cool features or work on the documentation, we invite you to join us and create a software that benefits the whole community.'); ?>
+                    </p>
+                    <a class="btn btn-default btn-lg section-button" role="button" href="https://github.com/FreeCAD/FreeCAD/"><?php echo _('GET INVOLVED'); ?></a>
+				</div>
+			</div>
+		</div>
+        
+        <footer class="container-fluid footer-custom">
             <div class="row">
-                <div class="col-md-3">
-                    <?php echo _('Community'); ?>
-                    <ul>
-                        <li><a href="https://github.com/FreeCAD/FreeCAD">Github</a></li>
-                        <li><a href="https://www.facebook.com/FreeCAD">Facebook</a></li>
-                        <li><a href="https://plus.google.com/u/0/communities/103183769032333474646">Google+</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <?php echo _('Learn'); ?>
-                    <ul>
-                        <li><a href="wiki/Tutorials"><?php echo _('Tutorials'); ?></a></li>
-                        <li><a href="https://www.youtube.com/results?search_query=freecad"><?php echo _('Youtube videos'); ?></a></li>
-                        <li><a href="http://area51.stackexchange.com/proposals/88434/freecad">Stack Exchange</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <?php echo _('Help the project'); ?>
-                    <ul>
-                        <li><a href="wiki/Help_FreeCAD"><?php echo _('How can I help?'); ?></a></li>
-                        <li><a href="wiki/Donate"><i class="fa fa-heart"></i> <?php echo _('Donate!'); ?></a></li>
-                        <li><a href="https://crowdin.com/project/freecad"><?php echo _('Translate'); ?></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <?php echo _('Code'); ?>
-                    <ul>
-                        <li><a href="wiki/Compiling"><?php echo _('Building from source'); ?></a></li>
-                        <li><a href="api/"><?php echo _('C++ & Python API'); ?></a></li>
-                        <li><a href="wiki/Licence"><?php echo _('License information'); ?></a></li>
-                    </ul>
-                </div>
+                <div class="col-lg-3 col-sm-6 footer-links">
+                    <h6><?php echo _('COMMUNITY'); ?></h6>
+					<a href="https://github.com/FreeCAD/FreeCAD">Github<br></a>
+                    <a href="https://www.facebook.com/FreeCAD">Facebook<br></a>
+                    <a href="https://plus.google.com/u/0/communities/103183769032333474646">Google+<br></a>
+				</div>
+                
+                <div class="col-lg-3 col-sm-6 footer-links">
+                    <h6><?php echo _('LEARN'); ?></h6>
+					<a href="https://www.freecadweb.org/wiki/Tutorials"><?php echo _('Tutorials'); ?><br></a>
+                    <a href="https://www.youtube.com/results?search_query=freecad"><?php echo _('Youtube Videos'); ?><br></a>
+                    <a href="http://area51.stackexchange.com/proposals/88434/freecad">Stack Exchange<br></a>
+				</div>
+                
+                <div class="col-lg-3 col-sm-6 footer-links">
+                    <h6><?php echo _('HELP THE PROJECT'); ?></h6>
+					<a href="https://www.freecadweb.org/wiki/Help_FreeCAD"><?php echo _('How can I help?'); ?><br></a>
+                    <a href="https://www.freecadweb.org/wiki/Donate"><?php echo _('Donate'); ?><br></a>
+                    <a href="https://crowdin.com/project/freecad"><?php echo _('Translate'); ?><br></a>
+				</div>
+                
+                <div class="col-lg-3 col-sm-6 footer-links">
+                    <h6><?php echo _('CODE'); ?></h6>
+					<a  href="https://www.freecadweb.org/wiki/Compiling"><?php echo _('Building from source'); ?><br></a>
+                    <a href="https://www.freecadweb.org/api/"><?php echo _('C++ & Python API'); ?><br></a>
+                    <a href="https://www.freecadweb.org/wiki/Licence"><?php echo _('License information'); ?><br></a>
+				</div>
             </div>
-        </div>
-    </footer>
-    
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap-3.3.5.min.js"></script>
-    
-    </body>
-    
+            
+            <span>
+                <?php echo _('© The FreeCAD Team, 2018. Image Credits (Top to bottom): ppemawm, r-frank, epileftric, regis, rider_mortagnais, bejant'); ?>
+            </span>  
+        </footer>
+	
+		<!-- Include Bootstrap JS files -->
+		<script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper-1.14.3.min.js"></script>
+        <script src="js/bootstrap-4.1.2.min.js"></script>
+	</body>
 </html>
