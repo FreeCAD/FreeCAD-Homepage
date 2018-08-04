@@ -36,29 +36,57 @@ html, body {
     background-color: rgba(50, 50, 50, 0.7);
     padding-left: 6vw;
     padding-right: 6vw;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 /* change the link color */
-.navbar-custom .navbar-nav .nav-link {
-    color: white;
+.navbar-custom .navbar-nav .btn-default {
+    color: #FFFFFF;
+	font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 0.7em;
 }
 
 .navbar-brand {
-    padding: 0.5vh 1.5vw 0.5vh;
-}
-
-.navbar .navbar-nav li a {
-	font-family: 'Montserrat-Bold', sans-serif;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    font-size: 0.7em;
-    color: white;
+    padding: 0.4em;
 }
 
 /* change the color of active or hovered links */
-.navbar .nav-item.active .nav-link, .navbar .nav-item:hover .nav-link {
-    background-color: white;
+.navbar .nav-item .btn-default.active, .navbar .nav-item .btn-default:hover {
+    background-color: #FFFFFF;
     color: #404040;
+}
+
+.btn-default {
+    border-radius: 0px;
+}
+
+.navbar .btn-default:hover {
+    background-color: white;
+}
+
+.navbar .dropdown-toggle:after {
+    content: none;
+}
+
+.navbar .dropdown-menu {
+    height: 75vh;
+    overflow: auto;
+}
+
+.navbar .dropdown-menu a {
+    color: #404040;
+    font-size: 0.7em;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+.navbar .dropdown-menu a img {
+    padding-right: 1em;
+}
+
+.navbar .dropdown-menu a:hover, .navbar .dropdown-menu a.active {
+    background-color: #404040;
+    color: #FFFFFF;
 }
 
 .vertical-align {
@@ -94,38 +122,32 @@ html, body {
 	color: #FFFFFF;
 }
 
-a.btn {
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 0px;
-}
-
-a.btn.download {
+#btn-download {
     padding: 0px;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-}
-
-a.btn.download > .main {
-    background-color: white;
 	font-family: 'Montserrat-Bold', sans-serif;
     font-size: 1em;
-	color: #1f2932;
-    padding: 0.5em 1.5em 0.5em 1.5em;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 0px;
-    float: left;
 }
 
-a.btn.download > .opt {
+#btn-download .main {
+    background-color: #FFFFFF;
+	color: #404040;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    display: inline-block;
+    float: left;
+    transition: color 0.3s ease;
+}
+
+#btn-download .opt {
     background-color: #ff2f2f;
-	font-family: 'Montserrat-Bold', sans-serif;
-	font-size: 1em;
-	color: white;
+	color: #FFFFFF;
     display: inline-block;
     padding: 0.5em 0.5em 0.5em 0.5em;
-    border-radius: 0px;
+}
+
+#btn-download:hover .main {
+	color: #ff2f2f;
 }
 
 #floating-arrow{
@@ -149,7 +171,7 @@ a.btn.download > .opt {
     width: 100%;
 	font-family: 'Montserrat-Bold', sans-serif;
 	font-size: 1em;
-	color: #1f2932;
+	color: #404040;
     border-radius: 0px;
     padding: 0.5em 1.5em 0.5em 1.5em;
     background-color: white;
