@@ -42,6 +42,7 @@ html, body {
 
 /* change the link color */
 .navbar-custom .navbar-nav .btn-default {
+    background-color: rgba(0, 0, 0, 0);
     color: #FFFFFF;
 	font-family: 'Montserrat-Bold', sans-serif;
     font-size: 0.7em;
@@ -63,6 +64,10 @@ html, body {
 
 .navbar .btn-default:hover {
     background-color: white;
+}
+
+.navbar .dropdown-toggle {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .navbar .dropdown-toggle:after {
