@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('../fonts/Montserrat-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("../fonts/Roboto-Light.woff") format('woff');
+}
+
+html, body {
+    height: 100%;
+	background: linear-gradient(90deg, #1f2932, #667d8e);
+	font-family: 'Roboto-Regular';
+    font-size: calc(9px + 1vmax);
+    /* Fix jittery scroll in chrome */
+    -webkit-transform: translate3d(0,0,0);
+}
+
+#main {
+    background-image: url(../svg/pattern-repeat.svg);
+	background-size: contain;
+	background-repeat: repeat-y;
+    padding: 8vw;
+}
+
+.navbar-custom {
+    background-color: rgba(50, 50, 50, 0.7);
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .btn-default {
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+	font-family: 'Montserrat-Bold';
+    font-size: 0.7em;
+}
+
+.navbar-brand {
+    padding: 0.4em;
+}
+
+/* change the color of active or hovered links */
+.navbar .nav-item .btn-default.active, .navbar .nav-item .btn-default:hover {
+    background-color: #FFFFFF;
+    color: #404040;
+}
+
+.btn-default {
+    border-radius: 0px;
+}
+
+.navbar .btn-default:hover {
+    background-color: white;
+}
+
+.navbar .dropdown-toggle {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar .dropdown-toggle:after {
+    content: none;
+}
+
+.navbar .dropdown-menu {
+    height: 75vh;
+    overflow: auto;
+}
+
+.navbar .dropdown-menu a {
+    color: #404040;
+    font-size: 0.7em;
+    font-family: 'Roboto-Regular';
+}
+
+.navbar .dropdown-menu a img {
+    padding-right: 1em;
+}
+
+.navbar .dropdown-menu a:hover, .navbar .dropdown-menu a.active {
+    background-color: #404040;
+    color: #FFFFFF;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.section-cover {
+    height: 100%;
+    padding-bottom: 6vmax;
+}
+
+.section {
+    height: 100%;
+    padding-top: 6vmax;
+    padding-bottom: 6vmax;
+}
+
+.section-mobile {
+    margin-top: 20px;
+}
+
+.home-title {
+	font-family: 'Montserrat-Black';
+	font-size: 13vmin;
+	color: #FFFFFF;
+    margin-top: 15vh;
+}
+
+.home-subtitle {
+	font-family: 'Montserrat-Medium';
+	font-size: 5vmin;
+	color: #FFFFFF;
+}
+
+#btn-download {
+    padding: 0px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+	font-family: 'Montserrat-Bold';
+    font-size: 1em;
+}
+
+#btn-download .main {
+    background-color: #FFFFFF;
+	color: #404040;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    display: inline-block;
+    float: left;
+    transition: color 0.3s ease;
+}
+
+#btn-download .opt {
+    background-color: #ff2f2f;
+	color: #FFFFFF;
+    display: inline-block;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+#btn-download:hover .main {
+	color: #ff2f2f;
+}
+
+#floating-arrow{
+    width: 2vmin;
+    height: 2vmin;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title {
+	font-family: 'Montserrat-Bold';
+	font-size: 1.8em;
+	color: #FFFFFF;
+}
+
+.section-paragraph {
+	color: #FFFFFF;
+}
+
+.section-button {
+    width: 100%;
+	font-family: 'Montserrat-Bold';
+	font-size: 1em;
+	color: #404040;
+    border-radius: 0px;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    background-color: white;
+}
+
+.screenshot {
+    width: 100%;
+    box-shadow: 0 0 10px;
+}
+
+.footer-custom {
+    align-items: center;
+    background-color: #404040;
+    padding: 6vw;
+}
+
+.footer-custom h6 {
+    color: white;
+	font-family: 'Montserrat-Bold';
+    font-size: 1em;
+}
+
+.footer-custom a, .footer-custom span {
+    color: white;
+	font-family: 'Roboto-Regular';
+    font-size: 0.8em;
+}
+
+.footer-links {
+    margin-bottom: 4vw;
+}
+
+.footer-custom ul {
+    list-style: none;
+    padding-left: 0;
+}
