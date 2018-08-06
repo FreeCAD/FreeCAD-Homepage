@@ -38,12 +38,14 @@ html, body {
 	background: linear-gradient(90deg, #1f2932, #667d8e);
 	font-family: 'Roboto-Regular';
     font-size: calc(9px + 1vmax);
+    /* Fix jittery scroll in chrome */
+    -webkit-transform: translate3d(0,0,0);
 }
 
 #main {
+    background-image: url(../svg/pattern-repeat.svg);
 	background-size: contain;
 	background-repeat: repeat-y;
-	background-image: url(../svg/pattern-repeat.svg);
     padding: 8vw;
 }
 

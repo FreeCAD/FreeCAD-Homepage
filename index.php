@@ -66,7 +66,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 		</div>
 
 		<div class="dropdown ml-auto">
-			<a class="btn btn-default dropdown-toggle" href="#" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<a class="btn btn-default dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				<img src="lang/<?php echo $lang; ?>/flag.jpg"/>
 			</a>
 
