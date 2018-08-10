@@ -71,7 +71,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 			</a>
 
 			<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-				<a class="dropdown-item" href="/?lang=af"><img src="lang/af/flag.jpg"/><?php echo 'Afrikaans'; ?>Afrikaans</a>
+				<a class="dropdown-item" href="/?lang=af"><img src="lang/af/flag.jpg"/><?php echo 'Afrikaans'; ?></a>
 				<a class="dropdown-item" href="/?lang=zh_CN"><img src="lang/zh_CN/flag.jpg"/><?php echo 'Chinese Simplified'; ?></a>
 				<a class="dropdown-item" href="/?lang=zh_TW"><img src="lang/zh_TW/flag.jpg"/><?php echo 'Chinese Traditional'; ?></a>
 				<a class="dropdown-item" href="/?lang=hr"><img src="lang/hr/flag.jpg"/><?php echo 'Croatian'; ?></a>
@@ -279,7 +279,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 				<ul>
 					<li><a href="https://www.freecadweb.org/wiki/Tutorials"><?php echo _('Tutorials'); ?></a></li>
 					<li><a href="https://www.youtube.com/results?search_query=freecad"><?php echo _('Youtube Videos'); ?></a></li>
-					<li><a href="http://area51.stackexchange.com/proposals/88434/freecad">Stack Exchange</a></li>
+					<li><a href="https://stackexchange.com/search?q=freecad">Stack Exchange</a></li>
 				</ul>
 			</div>
 
@@ -303,7 +303,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 		</div>
 
 		<span>
-			<?php echo _('© The FreeCAD Team, 2018. Image Credits (Top to bottom): ppemawm, r-frank, epileftric, regis, rider_mortagnais, bejant'); ?>
+			<?php echo _('© The FreeCAD Team, 2018. Image Credits (Top to bottom): ppemawm, r-frank, epileftric, regis, rider_mortagnais, bejant. Homepage design by AR795.'); ?>
 		</span>
 	</footer>
 
