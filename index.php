@@ -47,6 +47,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 
 	<!-- Custom Styles -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="images/favicon.ico">
 </head>
 
 <body>
