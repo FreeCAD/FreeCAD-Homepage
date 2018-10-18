@@ -116,6 +116,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 					<div class="main"><?php echo _('Download'); ?></div>
 					<div class="opt"><?php echo _('0.17'); ?></div>
 				</a>
+				<a id="btn-features" href="https://www.youtube.com/watch?v=7iLOaL9z59k"><?php echo _("See what's new"); ?></a>
 			</div>
 
 			<div class="col-lg-5 d-none d-lg-block">
