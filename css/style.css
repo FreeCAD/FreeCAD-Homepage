@@ -34,19 +34,21 @@
 }
 
 html, body {
+    width: 100%;
     height: 100%;
 	background: linear-gradient(90deg, #1f2932, #667d8e);
 	font-family: 'Roboto-Regular';
-    font-size: calc(9px + 1vmax);
-    /* Fix jittery scroll in chrome */
-    -webkit-transform: translate3d(0,0,0);
+    /* Allow for font scaling (also supported in IE) */
+    font-size: calc(1vw + 1vh - 1vmin + 9px);
 }
 
 #main {
     background-image: url(../svg/pattern-repeat.svg);
-	background-size: contain;
-	background-repeat: repeat-y;
+    background-repeat: repeat-y;
+    background-size: contain;
     padding: 8vw;
+    /* Fix jittery scroll in chrome */
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .navbar-custom {
@@ -118,13 +120,15 @@ html, body {
 
 .section-cover {
     height: 100%;
-    padding-bottom: 6vmax;
+    /* Work-a-round for IE since it does not support vmax */
+    padding-bottom: calc(6 * (1vw + 1vh - 1vmin));
 }
 
 .section {
     height: 100%;
-    padding-top: 6vmax;
-    padding-bottom: 6vmax;
+    /* Work-a-round for IE since it does not support vmax */
+    padding-top: calc(6 * (1vw + 1vh - 1vmin));
+    padding-bottom: calc(6 * (1vw + 1vh - 1vmin));
 }
 
 .section-mobile {
