@@ -55,9 +55,18 @@ and extracted the build, or you can specify a single module to update with -m.
 
 You can also run the script without any language code, in which case all the
 languages contained in the archive or directory will be added.
+
+To generate the .pot file to be uploaded on crowdin:
+
+xgettext --from-code=UTF-8 -o lang/homepage.pot *.php
+
 '''
 
-import sys, os, shutil, tempfile, zipfile, getopt, StringIO, re, urllib2, Image
+import sys, os, shutil, tempfile, zipfile, getopt, StringIO, re, urllib2
+try:
+    import Image
+except:
+    from PIL import Image
 
 crowdinpath = "http://crowdin.net/download/project/freecad.zip"
 
