@@ -53,14 +53,14 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 <body>
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom">
 
-		<a class="navbar-brand" href="index.html">
+		<a class="navbar-brand" href="index.php">
 			<img class="img-fluid" src="svg/logo-freecad.svg">
 		</a>
 
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="nav nav-pills ml-auto">
 				<li class="nav-item"><a class="nav-link" href="https://www.freecadweb.org/wiki/Feature_list"><?php echo _('Features'); ?></a></li>
-				<li class="nav-item"><a class="nav-link" href="downloads.html"><?php echo _('Downloads'); ?></a></li>
+				<li class="nav-item"><a class="nav-link" href="downloads.php"><?php echo _('Downloads'); ?></a></li>
 				<li class="nav-item"><a class="nav-link" href="https://www.freecadweb.org/wiki/Getting_started"><?php echo _('Documentation'); ?></a></li>
 				<li class="nav-item"><a class="nav-link" href="https://forum.freecadweb.org/"><?php echo _('Forum'); ?></a></li>
 				<li class="nav-item"><a class="nav-link" href="https://github.com/FreeCAD/FreeCAD/"><?php echo _('Contribute'); ?></a></li>
@@ -117,7 +117,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 			<div class="col-lg-7">
 				<h1 class="home-title"><?php echo _('FreeCAD'); ?></h1>
 				<h2 class="home-subtitle"><?php echo _('Your Own 3D Parametric Modeler'); ?></h2>
-				<a class="btn btn-default btn-download" role="button" href="downloads.html">
+				<a class="btn btn-default btn-download" role="button" href="downloads.php">
 					<div class="btn-download-left"><?php echo _('Download'); ?></div>
 					<div class="btn-download-right"><?php echo _('0.17'); ?></div>
 				</a>
