@@ -1,180 +1,220 @@
 @font-face {
-    font-family: 'Montserrat-Regular';
-    src: url('../fonts/Montserrat-Regular.woff') format('woff');
+	font-family: 'Montserrat-Regular';
+	src: url('../fonts/Montserrat-Regular.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'Montserrat-Medium';
-    src: url('../fonts/Montserrat-Medium.woff') format('woff');
+	font-family: 'Montserrat-Medium';
+	src: url('../fonts/Montserrat-Medium.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'Montserrat-SemiBold';
-    src: url('../fonts/Montserrat-SemiBold.woff') format('woff');
+	font-family: 'Montserrat-SemiBold';
+	src: url('../fonts/Montserrat-SemiBold.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'Montserrat-Bold';
-    src: url('../fonts/Montserrat-Bold.woff') format('woff');
+	font-family: 'Montserrat-Bold';
+	src: url('../fonts/Montserrat-Bold.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'Montserrat-Black';
-    src: url('../fonts/Montserrat-Black.woff') format('woff');
+	font-family: 'Montserrat-Black';
+	src: url('../fonts/Montserrat-Black.woff') format('woff');
 }
 
 @font-face {
-    font-family: "Roboto-Regular";
-    src: url("../fonts/Roboto-Regular.woff") format('woff');
+	font-family: "Roboto-Light";
+	src: url("../fonts/Roboto-Light.woff") format('woff');
 }
 
 @font-face {
-    font-family: "Roboto-Light";
-    src: url("../fonts/Roboto-Light.woff") format('woff');
+	font-family: "Roboto-Regular";
+	src: url("../fonts/Roboto-Regular.woff") format('woff');
+}
+
+@font-face {
+	font-family: "Roboto-Bold";
+	src: url("../fonts/Roboto-Bold.woff") format('woff');
 }
 
 html, body {
-    width: 100%;
-    height: 100%;
-	background: linear-gradient(90deg, #1f2932, #667d8e);
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, #1F2932, #667D8E);
 	font-family: 'Roboto-Regular', sans-serif;
-    /* Allow for font scaling (also supported in IE) */
-    font-size: calc(1vw + 1vh - 1vmin + 9px);
+	/* Allow for font scaling (also supported in IE) */
+	font-size: calc(1vw + 1vh - 1vmin + 9px);
+}
+
+h1, h2, h3, h4, h5, h6, p, span, ul, ol, a {
+	color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat-Regular', sans-serif;
+}
+
+p, span, ul, ol, a {
+	font-family: 'Roboto-Regular', sans-serif;
 }
 
 #main {
-    background-image: url(../svg/pattern-repeat.svg);
-    background-repeat: repeat-y;
-    background-size: contain;
-    padding: 8vw;
-    /* Fix jittery scroll in chrome */
-    -webkit-transform: translate3d(0,0,0);
+	background-image: url(../svg/pattern-repeat.svg);
+	background-repeat: repeat-y;
+	background-size: contain;
+	padding: 8vw;
+	/* Fix jittery scroll in chrome */
+	-webkit-transform: translate3d(0,0,0);
 }
 
 .navbar-custom {
-    background-color: rgba(50, 50, 50, 0.7);
-    padding-left: 6vw;
-    padding-right: 6vw;
-    padding-top: 0;
-    padding-bottom: 0;
+	background-color: rgba(50, 50, 50, 0.7);
+	padding-left: 6vw;
+	padding-right: 6vw;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
-/* change the link color */
-.navbar-custom .navbar-nav .btn-default {
-    background-color: rgba(0, 0, 0, 0);
-    color: #FFFFFF;
+#navbar-logo {
+	background-color: #FFFFFF;
+	border-radius: 5em;
+}
+
+#navbar-logo .nav-item .nav-link {
+	font-family: 'Montserrat-Black', sans-serif;
+	font-size: 0.8em;
+	color: #1F2932;
+}
+
+.navbar-custom .nav-pills .nav-link {
+	color: #FFFFFF;
 	font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 0.7em;
-}
-
-.navbar-brand {
-    padding: 0.4em;
-}
-
-/* change the color of active or hovered links */
-.navbar .nav-item .btn-default.active, .navbar .nav-item .btn-default:hover {
-    background-color: #FFFFFF;
-    color: #404040;
+	font-size: 0.6em;
+	border-radius: 5em;
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+	transition: all 0.3s ease;
 }
 
 .btn-default {
-    border-radius: 0px;
+	border-radius: 5em;
 	font-family: 'Montserrat-Bold', sans-serif;
 }
 
-.navbar .btn-default:hover {
-    background-color: white;
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+	background-color:  rgba(255, 255, 255, 0.3);
+}
+
+.navbar .nav-link.active {
+	background-color: white;
+	color: #404040;
 }
 
 .navbar .dropdown-toggle {
-    background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
 }
 
 .navbar .dropdown-toggle:after {
-    content: none;
+	content: none;
 }
 
 .navbar .dropdown-menu {
-    height: 75vh;
-    overflow: auto;
+	height: 65vh;
+	overflow: auto;
 }
 
 .navbar .dropdown-menu a {
-    color: #404040;
-    font-size: 0.7em;
-    font-family: 'Roboto-Regular', sans-serif;
+	color: #404040;
+	font-size: 0.7em;
 }
 
 .navbar .dropdown-menu a img {
-    padding-right: 1em;
+	padding-right: 1em;
 }
 
 .navbar .dropdown-menu a:hover, .navbar .dropdown-menu a.active {
-    background-color: #404040;
-    color: #FFFFFF;
+	background-color: #404040;
+	color: #FFFFFF;
 }
 
 .vertical-align {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .section-cover {
-    height: 100%;
-    /* Work-a-round for IE since it does not support vmax */
-    padding-bottom: calc(6 * (1vw + 1vh - 1vmin));
+	height: 100%;
+	/* Work-a-round for IE since it does not support vmax */
+	padding-bottom: calc(6 * (1vw + 1vh - 1vmin));
 }
 
 .section {
-    height: 100%;
-    /* Work-a-round for IE since it does not support vmax */
-    padding-top: calc(6 * (1vw + 1vh - 1vmin));
-    padding-bottom: calc(6 * (1vw + 1vh - 1vmin));
+	height: 100%;
+	/* Work-a-round for IE since it does not support vmax */
+	padding-top: calc(6 * (1vw + 1vh - 1vmin));
+	padding-bottom: calc(6 * (1vw + 1vh - 1vmin));
 }
 
 .section-mobile {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .home-title {
 	font-family: 'Montserrat-Black', sans-serif;
-	font-size: 13vmin;
+	font-size: 3.5em;
 	color: #FFFFFF;
-    margin-top: 15vh;
+	margin-top: 15vh;
 }
 
 .home-subtitle {
 	font-family: 'Montserrat-Medium', sans-serif;
-	font-size: 5vmin;
+	font-size: 1.2em;
 	color: #FFFFFF;
 }
 
-#btn-download {
-    padding: 0px;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    margin-right: 1em;
-    font-size: 1em;
+.btn-download {
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+	margin-right: 1em;
+	margin-left: 0;
+	padding: 0;
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-size: 0.9em;
 }
 
-#btn-download .main {
-    background-color: #FFFFFF;
-	color: #404040;
-    padding: 0.5em 1.5em 0.5em 1.5em;
-    display: inline-block;
-    float: left;
-    transition: color 0.3s ease;
+.btn-download-left {
+	border-top-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	color: #1F2932;
+	background-color: #FFFFFF;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	transition: color 0.3s ease;
+	float: left;
 }
 
-#btn-download .opt {
-    background-color: #ff2f2f;
+.btn-download-right {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
 	color: #FFFFFF;
-    display: inline-block;
-    padding: 0.5em 0.5em 0.5em 0.5em;
+	background-color: #FF2A2A;
+	padding-left: 1em;
+	padding-right: 1.2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	float: left;
 }
 
-#btn-download:hover .main {
-	color: #ff2f2f;
+.btn-download:hover .btn-download-left, .btn-download:focus .btn-download-left{
+	color: #FF2A2A;
 }
 
 #btn-features {
@@ -184,10 +224,10 @@ html, body {
 }
 
 #floating-arrow{
-    width: 2vmin;
-    height: 2vmin;
-    margin-left: auto;
-    margin-right: auto;
+	width: 2vmin;
+	height: 2vmin;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .section-title {
@@ -198,44 +238,115 @@ html, body {
 
 .section-paragraph {
 	color: #FFFFFF;
+	font-size: 0.9em;
 }
 
 .section-button {
-    width: 100%;
-	font-size: 1em;
-	color: #404040;
-    padding: 0.5em 1.5em 0.5em 1.5em;
-    background-color: white;
+	width: 100%;
+	font-size: 0.9em;
+	color:#1F2932;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	background-color: white;
 }
 
 .screenshot {
-    width: 100%;
-    box-shadow: 0 0 10px;
+	width: 100%;
+	box-shadow: 0 0 10px;
 }
 
 .footer-custom {
-    align-items: center;
-    background-color: #404040;
-    padding: 6vw;
+	align-items: center;
+	background-color: #404040;
+	padding: 6vw;
 }
 
 .footer-custom h6 {
-    color: white;
+	color: white;
 	font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 1em;
+	font-size: 1em;
 }
 
 .footer-custom a, .footer-custom span {
-    color: white;
+	color: white;
 	font-family: 'Roboto-Regular', sans-serif;
-    font-size: 0.8em;
+	font-size: 0.8em;
 }
 
 .footer-links {
-    margin-bottom: 4vw;
+	margin-bottom: 4vw;
 }
 
 .footer-custom ul {
-    list-style: none;
-    padding-left: 0;
+	list-style: none;
+	padding-left: 0;
+}
+
+.allign-text-center {
+	text-align: center;
+}
+
+.downloads-select-platform {
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-size: 1.8em;
+	color: #FFFFFF;
+	margin-top: 1.2em;
+}
+
+.platform-select-text {
+	font-family: 'Roboto-Regular', sans-serif;
+	font-size: 0.8em;
+}
+
+.platform-icon {
+	padding: 1.4em;
+}
+
+.platform-card {
+	background-color: #FFFFFF;
+	border-radius: 1.6em;
+	padding: 1.8em;
+	margin: 1.8em;
+	text-align: center;
+}
+
+.platform-name {
+	color: #1F2932;
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-size: 1.1em;
+}
+
+.platform-download-btn {
+	border-radius: 0.8em;
+	font-family: 'Roboto-Bold', sans-serif;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	background-color:#FF2A2A;
+	margin-top: 0.3em;
+	transition: all 0.3s ease;
+}
+
+.platform-download-btn:hover, .platform-download-btn:focus {
+	color: #FFFFFF;
+	background-color: #007bd0;
+}
+
+.download-notes h6 {
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-size: 1.1em;
+	margin-top: 2.2em;
+}
+
+.download-notes ul,
+.download-notes p {
+	font-family: 'Roboto-Regular', sans-serif;
+	font-size: 0.8em;
+	color: #FFFFFF;
+}
+
+.download-notes p a {
+	font-family: 'Roboto-Bold', sans-serif;
+	color: #FFFFFF;
 }
