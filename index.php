@@ -69,7 +69,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 				<li class="nav-item dropdown ml-auto">
 					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" 
 					aria-haspopup="true" aria-expanded="false">
-						<img src="lang/en/flag.jpg"/>
+						<img src="lang/<?php echo $lang; ?>/flag.jpg"/>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
 						<a class="dropdown-item" href="/?lang=af"><img src="lang/af/flag.jpg"/><?php echo _('Afrikaans'); ?></a>
