@@ -60,7 +60,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="nav nav-pills ml-auto">
 				<li class="nav-item"><a class="nav-link" href="https://www.freecadweb.org/wiki/Feature_list"><?php echo _('Features'); ?></a></li>
-				<li class="nav-item"><a class="nav-link" href="downloads.php"><?php echo _('Downloads'); ?></a></li>
+				<li class="nav-item"><a class="nav-link active" href="downloads.php"><?php echo _('Downloads'); ?></a></li>
 				<li class="nav-item"><a class="nav-link" href="https://www.freecadweb.org/wiki/Getting_started"><?php echo _('Documentation'); ?></a></li>
 				<li class="nav-item"><a class="nav-link" href="https://forum.freecadweb.org/"><?php echo _('Forum'); ?></a></li>
 				<li class="nav-item"><a class="nav-link" href="https://github.com/FreeCAD/FreeCAD/"><?php echo _('Contribute'); ?></a></li>
