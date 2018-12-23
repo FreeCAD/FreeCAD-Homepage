@@ -1,244 +1,414 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
-"POT-Creation-Date: 2017-07-18 11:51-0300\n"
-"PO-Revision-Date: 2017-07-18 11:51-0300\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-10 10:36-0200\n"
+"PO-Revision-Date: 2018-12-23 13:59\n"
 "Last-Translator: yorik <yorik.vanhavre@gmail.com>\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.2\n"
-"X-Poedit-Basepath: ../../..\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: freecad\n"
 "X-Crowdin-Language: zh-TW\n"
 "X-Crowdin-File: homepage.po\n"
-"X-Poedit-SearchPath-0: index.php\n"
 
-#: index.php:43
-msgid "FreeCAD: An open-source parametric 3D CAD modeler"
-msgstr "FreeCAD：一個開放原始碼之參數式3D電腦輔助設計軟體"
+#: downloads.php:45
+msgid "FreeCAD: Select Your Platform"
+msgstr ""
 
-#: index.php:56
-msgid "Toggle navigation"
-msgstr "開啟/關閉導航工具列"
-
-#: index.php:111
-msgid "Forum"
-msgstr "討論區"
-
-#: index.php:112
-msgid "Documentation"
-msgstr "文件"
-
-#: index.php:113
-msgid "Bug tracker"
-msgstr "Bug 追蹤器"
-
-#: index.php:124
-msgid "Overview"
-msgstr "概覽"
-
-#: index.php:125
+#: downloads.php:65 index.php:65
 msgid "Features"
 msgstr "功能"
 
-#: index.php:126
-msgid "Screenshots"
-msgstr "螢幕截圖"
-
-#: index.php:127
-msgid "Download"
+#: downloads.php:71 index.php:71
+msgid "Downloads"
 msgstr "下載"
 
-#: index.php:128
-msgid "Getting started"
-msgstr "開始"
+#: downloads.php:77 index.php:77
+msgid "Documentation"
+msgstr "文件"
 
-#: index.php:129
-msgid "Users showcase"
-msgstr "使用者展示區"
+#: downloads.php:83 index.php:83
+msgid "Forum"
+msgstr "討論區"
 
-#: index.php:130
-msgid "Get help"
-msgstr "求助"
-
-#: index.php:131
-#, fuzzy
-#| msgid "title=Help_FreeCAD"
-msgid "Help FreeCAD"
-msgstr "title=Help_FreeCAD/zh-tw"
-
-#: index.php:137
-msgid "Welcome!"
-msgstr "歡迎！"
-
-#: index.php:140
-msgid ""
-"FreeCAD is a parametric 3D modeler made primarily to design real-life "
-"objects of any size. <a href=\"http://en.wikipedia.org/wiki/"
-"Parametric_feature_based_modeler\">Parametric modeling</a> allows you to "
-"easily modify your design by going back into your model history and changing "
-"its parameters. FreeCAD is open-source and highly customizable, scriptable "
-"and extensible."
+#: downloads.php:89 downloads.php:419 index.php:89 index.php:518
+msgid "Contribute"
 msgstr ""
-"FreeCAD為一個參數式3D設計軟體，主要用於設計任意尺寸的現實生活物件。<a href="
-"\"http://en.wikipedia.org/wiki/Parametric_feature_based_modeler\">參數式建模"
-"</a>允許您很容易的透過建模歷史來修改您的設計及參數。FreeCAD為開放原始碼以及高"
-"度可客製化、可使用腳本語言和可擴充功能。 "
 
-#: index.php:143
-msgid ""
-"FreeCAD is multiplatfom (Windows, Mac and Linux), and reads and writes many "
-"open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE and many "
-"others."
+#: downloads.php:95 downloads.php:430 index.php:95 index.php:529
+msgid "Donate"
 msgstr ""
-"FreeCAD為多平台軟體(Windows, Mac 及 Linux)，並且可讀取及儲存許多開放格式檔"
-"案，例如STEP、 IGES、STL、SVG、DXF、OBJ、IFC、DAE 及更多其他檔案格式。"
 
-#: index.php:146
-msgid "Read more..."
-msgstr "了解更多..."
-
-#: index.php:149
-msgid "Who is FreeCAD for? A couple of user cases:"
-msgstr "誰會使用FreeCAD？以下為一些使用者案例："
-
-#: index.php:152
-msgid ""
-"The <b>home user/hobbyist</b>. Got yourself a project you want to build, "
-"have built, or 3D printed? Model it in FreeCAD. No previous CAD experience "
-"required. Our community will help you get the hang of it quickly!"
+#: downloads.php:101 index.php:101
+msgid "Showcase"
 msgstr ""
-"<b>家庭使用者／業餘愛好者</b>。建立您自己想要的專案、已經建立好的專案或是以3D"
-"列印印出？請於FreeCAD中建立它，您不需要有CAD的使用經驗，因為我們的社群會協助"
-"您快速的學會它！"
 
-#: index.php:155
-#, fuzzy
-#| msgid ""
-#| "The <b>experienced CAD user</b>. If you use commercial CAD or BIM "
-#| "modeling software at work, you will find similar tools and workflow among "
-#| "the many <a href=\"wiki/?title=Workbenches\">workbenches</a> of FreeCAD."
-msgid ""
-"The <b>experienced CAD user</b>. If you use commercial CAD or BIM modeling "
-"software at work, you will find similar tools and workflow among the many <a "
-"href=\"wiki/Workbenches\">workbenches</a> of FreeCAD."
+#: downloads.php:113 index.php:113
+msgid "Afrikaans"
 msgstr ""
-"<b>已有CAD經驗之使用者</b>。 若您於工作使用商業之CAD或BIM建模軟體，您亦可以於"
-"FreeCAD的許多<a href=\"wiki/?title=Workbenches/zh-tw\">工作臺</a>找到相似的工"
-"具及使用流程。"
 
-#: index.php:158
-msgid ""
-"The <b>programmer</b>. Almost all of FreeCAD's functionality is accessible "
-"to <a href=\"https://en.wikipedia.org/wiki/Python_%28programming_language"
-"%29\">Python</a>. You can easily extend FreeCAD's functionality, automatize "
-"it with scripts, build your own modules or even embed FreeCAD in your own "
-"application."
+#: downloads.php:117 index.php:117
+msgid "Chinese Simplified"
 msgstr ""
-"<b>程式設計師</b>。幾乎所有FreeCAD的功能都可以由 <a href=\"https://en."
-"wikipedia.org/wiki/Python_%28programming_language%29\">Python</a>來使用。 您"
-"可以很容易地擴充FreeCAD的功能、以腳本自動化、建立您自己模組或甚至將FreeCAD嵌"
-"入您自己的應用程式中。"
 
-#: index.php:161
-msgid ""
-"The <b>educator</b>. Teach your students a free software with no worry about "
-"license purchase. They can install the same version at home and continue "
-"using it after leaving school."
+#: downloads.php:121 index.php:121
+msgid "Chinese Traditional"
 msgstr ""
-"<b>教育工作者</b>。自由軟體可不用擔心有關版權購買問題即可對學生教學。而學生亦"
-"可以於家中安裝相同版本，並且於畢業後持續使用。"
 
-#: index.php:173
+#: downloads.php:125 index.php:125
+msgid "Croatian"
+msgstr ""
+
+#: downloads.php:129 index.php:129
+msgid "Czech"
+msgstr ""
+
+#: downloads.php:133 index.php:133
+msgid "Dutch"
+msgstr ""
+
+#: downloads.php:137 index.php:137
+msgid "English"
+msgstr ""
+
+#: downloads.php:141 index.php:141
+msgid "Finnish"
+msgstr ""
+
+#: downloads.php:145 index.php:145
+msgid "French"
+msgstr ""
+
+#: downloads.php:149 index.php:149
+msgid "German"
+msgstr ""
+
+#: downloads.php:153 index.php:153
+msgid "Hungarian"
+msgstr ""
+
+#: downloads.php:157 index.php:157
+msgid "Japanese"
+msgstr ""
+
+#: downloads.php:161 index.php:161
+msgid "Norwegian"
+msgstr ""
+
+#: downloads.php:165 index.php:165
+msgid "Polish"
+msgstr ""
+
+#: downloads.php:169 index.php:169
+msgid "Portuguese"
+msgstr ""
+
+#: downloads.php:173 index.php:173
+msgid "Romanian"
+msgstr ""
+
+#: downloads.php:177 index.php:177
+msgid "Russian"
+msgstr ""
+
+#: downloads.php:181 index.php:181
+msgid "Serbian (Cyrillic)"
+msgstr ""
+
+#: downloads.php:185 index.php:185
+msgid "Spanish"
+msgstr ""
+
+#: downloads.php:189 index.php:189
+msgid "Swedish"
+msgstr ""
+
+#: downloads.php:193 index.php:193
+msgid "Ukrainian"
+msgstr ""
+
+#: downloads.php:197 index.php:197
+msgid "Italian"
+msgstr ""
+
+#: downloads.php:205 index.php:205
+msgid "Greek"
+msgstr ""
+
+#: downloads.php:209 index.php:209
+msgid "Slovak"
+msgstr ""
+
+#: downloads.php:213 index.php:213
+msgid "Turkish"
+msgstr ""
+
+#: downloads.php:217 index.php:217
+msgid "Slovenian"
+msgstr ""
+
+#: downloads.php:234
+msgid "Current stable version: 0.17"
+msgstr ""
+
+#: downloads.php:238
+msgid "Select your desired platform"
+msgstr ""
+
+#: downloads.php:288
+msgid "Notes"
+msgstr ""
+
+#: downloads.php:291
+msgid "Please note that FreeCAD has still not reached a version 1.0 status \n"
+"\t\t\t\tin our view, and might not be ready for production use. Nevertheless multitudes of \n"
+"\t\t\t\tusers use it. To find out if FreeCAD is appropriate for your project, please check \n"
+"\t\t\t\tout the "
+msgstr ""
+
+#: downloads.php:296
+msgid "FreeCAD forum."
+msgstr ""
+
+#: downloads.php:301
+msgid "The first 0.17 release of FreeCAD (0.17.13509) was published \n"
+"\t\t\t\ton 2018-04-06. Many bug fix releases have been published since then, the latest bug \n"
+"\t\t\t\tfix release 0.17.13541 was published on 2018-08-16. It might not be available to all \n"
+"\t\t\t\toperating systems at this time. To find out what's new, see the "
+msgstr ""
+
+#: downloads.php:306
+msgid "release notes."
+msgstr ""
+
+#: downloads.php:311
+msgid "You will find SHA256 checksums (to verify integrity of your download) \n"
+"\t\t\t\tand Windows portable versions on the "
+msgstr ""
+
+#: downloads.php:314
+msgid "0.17 Release page on GitHub"
+msgstr ""
+
+#: downloads.php:316
+msgid " (Older portable builds have been pruned. Availability will return in \n"
+"\t\t\t\tthe future)."
+msgstr ""
+
+#: downloads.php:320
+msgid "Notes for Windows users"
+msgstr ""
+
+#: downloads.php:323
+msgid "The 32-Bit installer (x86) supports the following versions of \n"
+"\t\t\t\tWindows: 7/8/10."
+msgstr ""
+
+#: downloads.php:325
+msgid "The 64-Bit installer (x64) supports the following versions of \n"
+"\t\t\t\tWindows: 7/8/10."
+msgstr ""
+
+#: downloads.php:329
+msgid "Notes for Mac OS X users"
+msgstr ""
+
+#: downloads.php:331
+msgid "Mac OS X 10.11 El Capitan is the minimum supported version."
+msgstr ""
+
+#: downloads.php:333
+msgid "Notes for GNU/Linux users"
+msgstr ""
+
+#: downloads.php:336
+msgid "FreeCAD can be installed from most Linux distributions official \n"
+"\t\t\t\trepositories, but the version they provide might be quite dated and be missing \n"
+"\t\t\t\tmany features. Instead you can download the linked AppImage above, mark it as \n"
+"\t\t\t\texecutable and launch it without installation. Please see the "
+msgstr ""
+
+#: downloads.php:341
+msgid "Install on Unix"
+msgstr ""
+
+#: downloads.php:343
+msgid " page for more installation options, including how to get up-to-date \n"
+"\t\t\t\tpackages for Ubuntu and derivatives."
+msgstr ""
+
+#: downloads.php:347
+msgid "Development Versions"
+msgstr ""
+
+#: downloads.php:350
+msgid "FreeCAD's development is always active! Do you want to check \n"
+"\t\t\t\tout the 0.18 development release? For MacOS, Windows, Linux (AppImage) and \n"
+"\t\t\t\tsource code, see the "
+msgstr ""
+
+#: downloads.php:353
+msgid "FreeCAD \n"
+"\t\t\t\treleases page."
+msgstr ""
+
+#: downloads.php:357
+msgid "Additional Modules and Macros"
+msgstr ""
+
+#: downloads.php:360
+msgid "The FreeCAD community provides a wealth of additional modules \n"
+"\t\t\t\tand macros. They can now easily be installed directly from within FreeCAD \n"
+"\t\t\t\tusing the "
+msgstr ""
+
+#: downloads.php:363
+msgid "Addon manager."
+msgstr ""
+
+#: downloads.php:371 index.php:470
 msgid "Community"
 msgstr "社群"
 
-#: index.php:181
-msgid "Learn"
-msgstr "學習"
-
-#: index.php:183
+#: downloads.php:400 index.php:499
 msgid "Tutorials"
 msgstr "教學"
 
-#: index.php:184
-msgid "Youtube videos"
-msgstr "Youtube 影片"
+#: downloads.php:406 index.php:505
+msgid "Youtube Videos"
+msgstr ""
 
-#: index.php:189
-msgid "Help the project"
-msgstr "幫助此專案"
-
-#: index.php:191
+#: downloads.php:424 index.php:523
 msgid "How can I help?"
 msgstr "我該如何幫助？"
 
-#: index.php:192
-msgid "Donate!"
-msgstr "贊助！"
-
-#: index.php:193
+#: downloads.php:436 index.php:535
 msgid "Translate"
 msgstr "翻譯"
 
-#: index.php:197
+#: downloads.php:443 index.php:542
 msgid "Code"
 msgstr "原始碼"
 
-#: index.php:199
+#: downloads.php:448 index.php:547
 msgid "Building from source"
 msgstr "由原始碼安裝"
 
-#: index.php:200
+#: downloads.php:454 index.php:553
 msgid "C++ & Python API"
 msgstr "C++ 及 Python API"
 
-#: index.php:201
+#: downloads.php:460 index.php:559
 msgid "License information"
 msgstr "授權申明"
 
-#~ msgid "title=Main_Page"
-#~ msgstr "title=Main_Page/zh-tw"
+#: downloads.php:468 index.php:567
+msgid "© The FreeCAD Team. Homepage Image Credits (Top to bottom): \n"
+"\t\t\tppemawm, r-frank, epileftric, regis, rider_mortagnais, bejant. \n"
+"\t\t\tHomepage design by AR795."
+msgstr ""
 
-#~ msgid "English"
-#~ msgstr "英文"
+#: index.php:45
+msgid "FreeCAD: Your Own 3D Parametric Modeler"
+msgstr ""
 
-#~ msgid "French"
-#~ msgstr "法文"
+#: index.php:234
+msgid "FreeCAD"
+msgstr ""
 
-#~ msgid "Portuguese (Brazil)"
-#~ msgstr "葡萄牙语（巴西）"
+#: index.php:236
+msgid "Your Own 3D Parametric Modeler"
+msgstr ""
 
-#~ msgid "Spanish"
-#~ msgstr "西班牙文"
+#: index.php:239
+msgid "Download"
+msgstr "下載"
 
-#~ msgid "title=About_FreeCAD"
-#~ msgstr "title=About_FreeCAD/zh-tw"
+#: index.php:241
+msgid "0.17"
+msgstr ""
 
-#~ msgid "title=Feature_list"
-#~ msgstr "title=Feature_list/zh-tw"
+#: index.php:245
+msgid "See what's new"
+msgstr ""
 
-#~ msgid "title=Screenshots"
-#~ msgstr "title=Screenshots/zh-tw"
+#: index.php:266 index.php:278
+msgid "Freedom to build what you want"
+msgstr ""
 
-#~ msgid "title=Download"
-#~ msgstr "title=Download/zh-tw"
+#: index.php:269 index.php:281
+msgid "FreeCAD is an open-source parametric 3D modeler made primarily \n"
+"\t\t\t\t\tto design real-life objects of any size. Parametric modeling allows you to \n"
+"\t\t\t\t\teasily modify your design by going back into your model history and changing \n"
+"\t\t\t\t\tits parameters."
+msgstr ""
 
-#~ msgid "title=Getting_started"
-#~ msgstr "title=Getting_started/zh-tw"
+#: index.php:292 index.php:309
+msgid "Create 3D from 2D & back"
+msgstr ""
 
-#~ msgid "title=Tutorials"
-#~ msgstr "title=Tutorials/zh-tw"
+#: index.php:295 index.php:312
+msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and \n"
+"\t\t\t\t\tuse them as a base to build other objects. It contains many components to \n"
+"\t\t\t\t\tadjust dimensions or extract design details from 3D models to create high \n"
+"\t\t\t\t\tquality production ready drawings."
+msgstr ""
 
-#~ msgid "title=Donate"
-#~ msgstr "title=Donate/zh-tw"
+#: index.php:328 index.php:340
+msgid "Accessible, flexible & integrated"
+msgstr ""
 
-#~ msgid "title=Compiling"
-#~ msgstr "title=Compiling/zh-tw"
+#: index.php:331 index.php:343
+msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly \n"
+"\t\t\t\t\tcustomizable and extensible software. It reads and writes to many open \n"
+"\t\t\t\t\tfile formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE and many \n"
+"\t\t\t\t\tothers, making it possible to seamlessly integrate it into your workflow."
+msgstr ""
 
-#~ msgid "title=Licence"
-#~ msgstr "title=Licence/zh_tw"
+#: index.php:354 index.php:371
+msgid "Designed for your needs"
+msgstr ""
+
+#: index.php:357 index.php:374
+msgid "FreeCAD is designed to fit a wide range of uses including \n"
+"\t\t\t\t\tproduct design, mechanical engineering and architecture. Whether you \n"
+"\t\t\t\t\tare a hobbyist, a programmer, an experienced CAD user, a student or \n"
+"\t\t\t\t\ta teacher, you will feel right at home with FreeCAD."
+msgstr ""
+
+#: index.php:390 index.php:408
+msgid "And many more great features"
+msgstr ""
+
+#: index.php:393 index.php:411
+msgid "FreeCAD equips you with all the right tools for your needs. \n"
+"\t\t\t\t\tYou get modern Finite Element Analysis (FEA) tools, experimental CFD, \n"
+"\t\t\t\t\tBIM, Geodata workbenches, Path workbench, a robot simulation module that \n"
+"\t\t\t\t\tallows you to study robot movements and many more features. FreeCAD \n"
+"\t\t\t\t\treally is a Swiss Army knife of general-purpose engineering toolkits."
+msgstr ""
+
+#: index.php:402 index.php:420
+msgid "Learn more"
+msgstr ""
+
+#: index.php:428 index.php:450
+msgid "Want to contribute to FreeCAD?"
+msgstr ""
+
+#: index.php:431 index.php:453
+msgid "FreeCAD is a truly open source project and if you would \n"
+"\t\t\t\t\tlike to help fix bugs, implement new cool features or work on the \n"
+"\t\t\t\t\tdocumentation, we invite you to join us and create a software that \n"
+"\t\t\t\t\tbenefits the whole community."
+msgstr ""
+
+#: index.php:439 index.php:461
+msgid "Get involved"
+msgstr ""
+

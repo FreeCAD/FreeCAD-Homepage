@@ -67,11 +67,12 @@ try:
     import Image
 except:
     from PIL import Image
+from PySide import QtCore,QtGui
 
 crowdinpath = "http://crowdin.net/download/project/freecad.zip"
 
 
-default_languages = "af zh-CN zh-TW hr cs nl fi fr de hu ja no pl pt-PT ro ru sr es-ES sv-SE uk it pt-BR el sk tr sl"
+default_languages = "af ar ca cs de el es-ES eu fi fil fr gl hr hu id it ja kab ko lt nl no pl pt-BR pt-PT ro ru sk sl sr sv-SE tr uk val-ES vi zh-CN zh-TW"
 
 def doLanguage(lncode):
     " treats a single language"
@@ -101,13 +102,15 @@ def doLanguage(lncode):
             lflag = lncode
         flagurl = "http://www.unilang.org/images/langicons/"+lflag+ ".png"
         print "downloading flag from ",flagurl
-        im = Image.open(StringIO.StringIO(urllib2.urlopen(flagurl).read()))
+        try:
+            im = Image.open(StringIO.StringIO(urllib2.urlopen(flagurl).read()))
+        except:
+            print("Unable to download image above. Please do it manually")
+            sys.exit()
         im = im.convert("RGB")
         print "saving flag to ",flagfile
         im.save(flagfile)
-    lname = re.findall("<img.*?"+lncode.replace("_","-")+".png.*?Translate FreeCAD to (.*?) language",crowdinpage)[0]
-    return "<li><a href=\"/?lang="+lncode+"\"><img src=\"lang/"+lncode+"/flag.jpg\"/> <?php echo '"+lname+"'; ?></a></li>\n"
-
+    return lncode
 
 if __name__ == "__main__":
     args = sys.argv[1:]
@@ -169,12 +172,19 @@ if __name__ == "__main__":
         #args = [o for o in os.listdir(tempfolder) if o != "freecad.zip"]
         # do not treat all languages in the zip file. Some are not translated enough.
         args = default_languages.split()
-    phpcode = ""
+    lcodes = []
     for ln in args:
         if not os.path.exists(tempfolder + os.sep + ln):
             print "ERROR: language path for " + ln + " not found!"
         else:
-            phpcode += doLanguage(ln)
+            lcodes.append(doLanguage(ln))
     print "\n\nPHP CODE:\n\n"
-    print phpcode
+    for lncode in lcodes:
+        ql = QtCore.QLocale(lncode)
+        lname = ql.languageToString(ql.language())
+        print "						<a class=\"dropdown-item\" href=\"/?lang="+lncode+"\"><img src=\"lang/"+lncode+"/flag.jpg\"/> <?php echo '"+lname+"'; ?></a>"
 
+    print "\n\nPHP GETTEXT ARRAY:\n\n"
+    for lncode in lcodes:
+        ql = QtCore.QLocale(lncode)
+        print "    '"+lncode.split("_")[0]+"' => '"+ql.name()+"'," #     'sl' => 'sl_SI',
