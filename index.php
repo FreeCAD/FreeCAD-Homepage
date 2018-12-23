@@ -160,7 +160,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 					<a class="dropdown-item" href="/?lang=sv_SE"><img src="lang/sv_SE/flag.jpg"/> <?php echo 'Swedish'; ?></a>
 					<a class="dropdown-item" href="/?lang=tr"><img src="lang/tr/flag.jpg"/> <?php echo 'Turkish'; ?></a>
 					<a class="dropdown-item" href="/?lang=uk"><img src="lang/uk/flag.jpg"/> <?php echo 'Ukrainian'; ?></a>
-					<a class="dropdown-item" href="/?lang=val_ES"><img src="lang/val_ES/flag.jpg"/> <?php echo 'C'; ?></a>
+					<a class="dropdown-item" href="/?lang=val_ES"><img src="lang/val_ES/flag.jpg"/> <?php echo 'Valencian'; ?></a>
 					<a class="dropdown-item" href="/?lang=vi"><img src="lang/vi/flag.jpg"/> <?php echo 'Vietnamese'; ?></a>
 					<a class="dropdown-item" href="/?lang=zh_CN"><img src="lang/zh_CN/flag.jpg"/> <?php echo 'Chinese'; ?></a>
 					<a class="dropdown-item" href="/?lang=zh_TW"><img src="lang/zh_TW/flag.jpg"/> <?php echo 'Chinese'; ?></a>
