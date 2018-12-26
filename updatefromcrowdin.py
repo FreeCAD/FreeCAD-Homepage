@@ -74,8 +74,14 @@ crowdinpath = "http://crowdin.net/download/project/freecad.zip"
 
 default_languages = "af ar ca cs de el es-ES eu fi fil fr gl hr hu id it ja kab ko lt nl no pl pt-BR pt-PT ro ru sk sl sr sv-SE tr uk val-ES vi zh-CN zh-TW"
 
+
+
 def doLanguage(lncode):
+
+
     " treats a single language"
+
+
     if lncode == "en":
         # never treat "english" translation... For now :)
         return
@@ -112,7 +118,45 @@ def doLanguage(lncode):
         im.save(flagfile)
     return lncode
 
+
+
+def generatePHP(lcodes):
+    
+
+    "generates translation.php file"
+    
+    phpfile = open("translation.php","w")
+    phpfile.write("<?php\n\n$localeMap = array(\n")
+    phpfile.write("    'en' => 'en_US',\n")
+    for lncode in lcodes:
+        ql = QtCore.QLocale(lncode)
+        phpfile.write("    '"+lncode.split("_")[0]+"' => '"+ql.name()+"',\n")
+
+    phpfile.write(");\n\n$lang = \"en\";\nif (isSet($_GET[\"lang\"])) $lang = $_GET[\"lang\"];\n")
+    phpfile.write("$locale = isset($localeMap[$lang]) ? $localeMap[$lang] : $lang;\nputenv(\"LC_ALL=$locale\");\n")
+    phpfile.write("setlocale(LC_ALL, $locale);\nbindtextdomain(\"homepage\", \"lang\");\n")
+    phpfile.write("textdomain(\"homepage\");\nbind_textdomain_codeset(\"homepage\", 'UTF-8');\n\n")
+    phpfile.write("function getFlags($href='/') {\n")
+    
+    phpfile.write("    echo('						<a class=\"dropdown-item\" href=\"'.$href.'\"><img src=\"lang/en/flag.jpg\"/>'._('English').'</a>');\n")
+    for lncode in lcodes:
+        ql = QtCore.QLocale(lncode)
+        lname = ql.languageToString(ql.language())
+        phpfile.write("    echo('						<a class=\"dropdown-item\" href=\"'.$href.'\"><img src=\"lang/"+lncode+"/flag.jpg\"/>'._('"+lname+"').'</a>');\n")
+
+    phpfile.write("}\n\nfunction getTranslatedDownloadLink() {\n")
+    phpfile.write("    $tr = \"\";\n")
+    phpfile.write("    if (isSet($_GET[\"lang\"])) {\n")
+    phpfile.write("        $tr = \"?lang=\".$_GET[\"lang\"];\n    }\n") 
+    phpfile.write("    echo(\"downloads.php\".$tr);\n")
+    phpfile.write("}\n?>")
+
+
+
 if __name__ == "__main__":
+    
+    
+    
     args = sys.argv[1:]
     if len(args) < 1:
         print __doc__
@@ -178,13 +222,4 @@ if __name__ == "__main__":
             print "ERROR: language path for " + ln + " not found!"
         else:
             lcodes.append(doLanguage(ln))
-    print "\n\nPHP CODE:\n\n"
-    for lncode in lcodes:
-        ql = QtCore.QLocale(lncode)
-        lname = ql.languageToString(ql.language())
-        print "						<a class=\"dropdown-item\" href=\"/?lang="+lncode+"\"><img src=\"lang/"+lncode+"/flag.jpg\"/> <?php echo '"+lname+"'; ?></a>"
-
-    print "\n\nPHP GETTEXT ARRAY:\n\n"
-    for lncode in lcodes:
-        ql = QtCore.QLocale(lncode)
-        print "    '"+lncode.split("_")[0]+"' => '"+ql.name()+"'," #     'sl' => 'sl_SI',
+    generatePHP(lcodes)

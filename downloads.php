@@ -1,37 +1,4 @@
-<?php
-// idiot gettext cannot understand "en". it needs "en_GB"...
-$localeMap = array(
-    'en' => 'en_US',
-    'fr' => 'fr_FR',
-    'it' => 'it_IT',
-    'ru' => 'ru_RU',
-    'ja' => 'ja_JP',
-    'af' => 'af_ZA',
-    'hr' => 'hr_HR',
-    'cs' => 'cs_CZ',
-    'nl' => 'nl_NL',
-    'fi' => 'fi_FI',
-    'de' => 'de_DE',
-    'hu' => 'hu_HU',
-    'no' => 'no_NO',
-    'pl' => 'pl_PL',
-    'ro' => 'ro_RO',
-    'sr' => 'sr_RS',
-    'uk' => 'uk_UA',
-    'el' => 'el_GR',
-    'sk' => 'sk_SK',
-    'tr' => 'tr_TR',
-    'sl' => 'sl_SI',
-);
-$lang = "en";
-if (isSet($_GET["lang"])) $lang = $_GET["lang"];
-$locale = isset($localeMap[$lang]) ? $localeMap[$lang] : $lang;
-putenv("LC_ALL=$locale");
-setlocale(LC_ALL, $locale);
-bindtextdomain("homepage", "lang");
-textdomain("homepage");
-bind_textdomain_codeset("homepage", 'UTF-8');
-?>
+<?php include("translation.php"); ?>
 
 <!DOCTYPE html>
 <html lang="<?php echo $lang;?>" class="home">
@@ -67,7 +34,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link active" href="downloads.php">
+					<a class="nav-link active" href="<?php getTranslatedDownloadLink(); ?>">
 						<?php echo _('Downloads'); ?>
 					</a>
 				</li>
@@ -109,113 +76,7 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 					</a>
 
 					<div class="dropdown-menu dropdown-menu-right">
-						<a class="dropdown-item" href="/?lang=af"><img src="lang/af/flag.jpg"/>
-							<?php echo _('Afrikaans'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=zh_CN"><img src="lang/zh_CN/flag.jpg"/>
-							<?php echo _('Chinese Simplified'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=zh_TW"><img src="lang/zh_TW/flag.jpg"/>
-							<?php echo _('Chinese Traditional'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=hr"><img src="lang/hr/flag.jpg"/>
-							<?php echo _('Croatian'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=cs"><img src="lang/cs/flag.jpg"/>
-							<?php echo _('Czech'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=nl"><img src="lang/nl/flag.jpg"/>
-							<?php echo _('Dutch'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/"><img src="lang/en/flag.jpg"/>
-							<?php echo _('English'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=fi"><img src="lang/fi/flag.jpg"/>
-							<?php echo _('Finnish'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=fr"><img src="lang/fr/flag.jpg"/>
-							<?php echo _('French'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=de"><img src="lang/de/flag.jpg"/>
-							<?php echo _('German'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=hu"><img src="lang/hu/flag.jpg"/>
-							<?php echo _('Hungarian'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=ja"><img src="lang/ja/flag.jpg"/>
-							<?php echo _('Japanese'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=no"><img src="lang/no/flag.jpg"/>
-							<?php echo _('Norwegian'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=pl"><img src="lang/pl/flag.jpg"/>
-							<?php echo _('Polish'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=pt_PT"><img src="lang/pt_PT/flag.jpg"/>
-							<?php echo _('Portuguese'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=ro"><img src="lang/ro/flag.jpg"/>
-							<?php echo _('Romanian'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=ru"><img src="lang/ru/flag.jpg"/>
-							<?php echo _('Russian'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=sr"><img src="lang/sr/flag.jpg"/>
-							<?php echo _('Serbian (Cyrillic)'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=es_ES"><img src="lang/es_ES/flag.jpg"/>
-							<?php echo _('Spanish'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=sv_SE"><img src="lang/sv_SE/flag.jpg"/>
-							<?php echo _('Swedish'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=uk"><img src="lang/uk/flag.jpg"/>
-							<?php echo _('Ukrainian'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=it"><img src="lang/it/flag.jpg"/>
-							<?php echo _('Italian'); ?>
-						</a>
-
-						<!-- <a class="dropdown-item" href="/?lang=pt_BR"><img src="lang/pt_BR/flag.jpg"/>
-							Portuguese, Brazilian
-						</a> -->
-
-						<a class="dropdown-item" href="/?lang=el"><img src="lang/el/flag.jpg"/>
-							<?php echo _('Greek'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=sk"><img src="lang/sk/flag.jpg"/>
-							<?php echo _('Slovak'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=tr"><img src="lang/tr/flag.jpg"/>
-							<?php echo _('Turkish'); ?>
-						</a>
-
-						<a class="dropdown-item" href="/?lang=sl"><img src="lang/sl/flag.jpg"/>
-							<?php echo _('Slovenian'); ?>
-						</a>
+<?php echo getFlags("/downloads.php"); ?>
 					</div>
 				</li>
 			</ul>
