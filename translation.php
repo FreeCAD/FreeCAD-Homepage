@@ -95,7 +95,7 @@ function getTranslatedDownloadLink() {
     $tr = "";
     if (isSet($_GET["lang"])) {
         $tr = "?lang=".$_GET["lang"];
-    } 
+    }
     echo("downloads.php".$tr);
 }
 ?>

@@ -130,7 +130,9 @@ def generatePHP(lcodes):
     phpfile.write("    'en' => 'en_US',\n")
     for lncode in lcodes:
         ql = QtCore.QLocale(lncode)
-        phpfile.write("    '"+lncode.split("_")[0]+"' => '"+ql.name()+"',\n")
+        lname = ql.name()
+        if lncode == "val_ES": lname = "val_ES" # fix qt bug
+        phpfile.write("    '"+lncode.split("_")[0]+"' => '"+lname+"',\n")
 
     phpfile.write(");\n\n$lang = \"en\";\nif (isSet($_GET[\"lang\"])) $lang = $_GET[\"lang\"];\n")
     phpfile.write("$locale = isset($localeMap[$lang]) ? $localeMap[$lang] : $lang;\nputenv(\"LC_ALL=$locale\");\n")
@@ -142,7 +144,8 @@ def generatePHP(lcodes):
     for lncode in lcodes:
         ql = QtCore.QLocale(lncode)
         lname = ql.languageToString(ql.language())
-        phpfile.write("    echo('						<a class=\"dropdown-item\" href=\"'.$href.'\"><img src=\"lang/"+lncode+"/flag.jpg\"/>'._('"+lname+"').'</a>');\n")
+        if lncode == "val_ES": lname = "Valencian" # fix qt bug
+        phpfile.write("    echo('						<a class=\"dropdown-item\" href=\"'.$href.'?lang="+lncode+"\"><img src=\"lang/"+lncode+"/flag.jpg\"/>'._('"+lname+"').'</a>');\n")
 
     phpfile.write("}\n\nfunction getTranslatedDownloadLink() {\n")
     phpfile.write("    $tr = \"\";\n")
