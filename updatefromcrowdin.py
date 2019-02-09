@@ -61,6 +61,7 @@ To generate the .pot file to be uploaded on crowdin:
 xgettext --from-code=UTF-8 -o lang/homepage.pot *.php
 
 '''
+from __future__ import print_function
 
 import sys, os, shutil, tempfile, zipfile, getopt, StringIO, re, urllib2
 try:
@@ -90,16 +91,16 @@ def doLanguage(lncode):
     langpath = os.path.join(os.path.abspath("lang"),lncode)
     popath = os.path.join(langpath,"LC_MESSAGES")
     flagfile = os.path.join(langpath,"flag.jpg")
-    print "language:",lncode
-    print "language file:",basefilepath
-    print "target path:",langpath
+    print("language:",lncode)
+    print("language file:",basefilepath)
+    print("target path:",langpath)
     if not os.path.exists(langpath):
-        print "creating folders"
+        print("creating folders")
         os.mkdir(langpath)
         os.mkdir(popath)
-    print "copying translation file"
+    print("copying translation file")
     shutil.copyfile(basefilepath,os.path.join(popath,"homepage.po"))
-    print "compiling translation file"
+    print("compiling translation file")
     os.system("msgfmt -c -o "+os.path.join(popath,"homepage.mo")+" "+os.path.join(popath,"homepage.po"))
     if not os.path.exists(flagfile):
         if "_" in lncode:
@@ -107,14 +108,14 @@ def doLanguage(lncode):
         else:
             lflag = lncode
         flagurl = "http://www.unilang.org/images/langicons/"+lflag+ ".png"
-        print "downloading flag from ",flagurl
+        print("downloading flag from ",flagurl)
         try:
             im = Image.open(StringIO.StringIO(urllib2.urlopen(flagurl).read()))
         except:
             print("Unable to download image above. Please do it manually")
             sys.exit()
         im = im.convert("RGB")
-        print "saving flag to ",flagfile
+        print("saving flag to ",flagfile)
         im.save(flagfile)
     return lncode
 
@@ -162,12 +163,12 @@ if __name__ == "__main__":
     
     args = sys.argv[1:]
     if len(args) < 1:
-        print __doc__
+        print(__doc__)
         sys.exit()
     try:
         opts, args = getopt.getopt(sys.argv[1:], "hd:z:", ["help", "directory=","zipfile="])
     except getopt.GetoptError:
-        print __doc__
+        print(__doc__)
         sys.exit()
         
     # checking on the options
@@ -175,7 +176,7 @@ if __name__ == "__main__":
     inputzip = ""
     for o, a in opts:
         if o in ("-h", "--help"):
-            print __doc__
+            print(__doc__)
             sys.exit()
         if o in ("-d", "--directory"):
             inputdir = a
@@ -189,30 +190,30 @@ if __name__ == "__main__":
     if inputdir:
         tempfolder = os.path.realpath(inputdir)
         if not os.path.exists(tempfolder):
-            print "ERROR: " + tempfolder + " not found"
+            print("ERROR: " + tempfolder + " not found")
             sys.exit()
     elif inputzip:
         tempfolder = tempfile.mkdtemp()
-        print "creating temp folder " + tempfolder
+        print("creating temp folder " + tempfolder)
         os.chdir(tempfolder)
         inputzip=os.path.realpath(inputzip)
         if not os.path.exists(inputzip):
-            print "ERROR: " + inputzip + " not found"
+            print("ERROR: " + inputzip + " not found")
             sys.exit()
         shutil.copy(inputzip,tempfolder)
         zfile=zipfile.ZipFile("freecad.zip")
-        print "extracting freecad.zip..."
+        print("extracting freecad.zip...")
         zfile.extractall()
     else:
         tempfolder = tempfile.mkdtemp()
-        print "creating temp folder " + tempfolder
+        print("creating temp folder " + tempfolder)
         os.chdir(tempfolder)
         os.system("wget "+crowdinpath)
         if not os.path.exists("freecad.zip"):
-            print "download failed!"
+            print("download failed!")
             sys.exit()
         zfile=zipfile.ZipFile("freecad.zip")
-        print "extracting freecad.zip..."
+        print("extracting freecad.zip...")
         zfile.extractall()
     os.chdir(currentfolder)
     if not args:
@@ -222,7 +223,7 @@ if __name__ == "__main__":
     lcodes = []
     for ln in args:
         if not os.path.exists(tempfolder + os.sep + ln):
-            print "ERROR: language path for " + ln + " not found!"
+            print("ERROR: language path for " + ln + " not found!")
         else:
             lcodes.append(doLanguage(ln))
     generatePHP(lcodes)
