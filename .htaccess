@@ -1,5 +1,12 @@
 <IfModule mod_headers.c>
     Header set Access-Control-Allow-Origin "*"
+    Header unset ETag
+</IfModule>
+FileETag None
+
+<IfModule mod_expires.c>
+    ExpiresActive On 
+    ExpiresDefault "access plus 2 months"
 </IfModule>
 
 RewriteEngine On
