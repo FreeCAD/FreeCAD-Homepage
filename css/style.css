@@ -223,10 +223,16 @@ p, span, ul, ol, a {
 	font-size: 0.9em;
 }
 
-.footer-custom a, .footer-custom span {
+.footer-custom span {
 	color: white;
 	font-family: 'Roboto-Regular', sans-serif;
 	font-size: 0.7em;
+}
+.footer-custom a {
+	font-family: 'Roboto-Regular', sans-serif;
+	font-size: 0.7em;
+	text-decoration: underline;
+	color:#f8d297;
 }
 
 .footer-links {
@@ -300,7 +306,12 @@ p, span, ul, ol, a {
 	color: #FFFFFF;
 }
 
-.download-notes p a {
+.download-notes p {
 	font-family: 'Roboto-Bold', sans-serif;
 	color: #FFFFFF;
+}
+.download-notes a {
+	font-family: 'Roboto-Bold', sans-serif;
+	text-decoration: underline;
+	color:#f8d297;
 }
