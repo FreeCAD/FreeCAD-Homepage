@@ -21,7 +21,7 @@
 
 <body>
 	<nav class="navbar fixed-top navbar-expand-xl navbar-dark py-1 navbar-custom">
-    <a class="navbar-brand" href="index.html">
+    <a class="navbar-brand" href="index.php">
       <img class="img-fluid" src="svg/logo-freecad.svg" alt="FreeCAD Logo"/>
     </a>
 
@@ -48,7 +48,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="downloads.html"><?php echo _('Downloads'); ?></a>
+          <a class="nav-link my-2 rounded-pill" href="downloads.php"><?php echo _('Downloads'); ?></a>
         </li>
 
         <li class="nav-item">

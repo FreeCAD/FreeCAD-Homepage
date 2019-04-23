@@ -21,7 +21,7 @@
 
 <body>
   <nav class="navbar fixed-top navbar-expand-xl navbar-dark py-1 navbar-custom">
-    <a class="navbar-brand" href="index.html">
+    <a class="navbar-brand" href="index.php">
       <img class="img-fluid" src="svg/logo-freecad.svg" alt="FreeCAD Logo"/>
     </a>
 
@@ -48,7 +48,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="downloads.html"><?php echo _('Downloads'); ?></a>
+          <a class="nav-link my-2 rounded-pill" href="downloads.php"><?php echo _('Downloads'); ?></a>
         </li>
 
         <li class="nav-item">
@@ -102,7 +102,7 @@
         <h1 class="home-title text-light mt-n5 mb-0 mt-lg-0"><?php echo _('FreeCAD'); ?></h1>
         <h2 class="home-subtitle text-light mb-4"><?php echo _('Your own 3D parametric modeler'); ?></h2>
         <div class="flex-column flex-lg-row">
-          <a class="btn btn-light rounded-pill mt-2" role="button" href="downloads.html"><?php echo _('Download now'); ?></a>
+          <a class="btn btn-light rounded-pill mt-2" role="button" href="downloads.php"><?php echo _('Download now'); ?></a>
           <a class="btn btn-outline-light rounded-pill mt-2" role="button" href="https://www.youtube.com/watch?v=85HlYXnaxbw"><?php echo _("See what's new"); ?></a>
         </div>
       </div>
