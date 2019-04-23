@@ -51,7 +51,7 @@ textdomain("homepage");
 bind_textdomain_codeset("homepage", 'UTF-8');
 
 function getFlags($href='/') {
-    echo('<a class="dropdown-item text-dark" href="'.$href.'"><img src="lang/en/flag.jpg"/>'._('English').'</a>');
+    echo('<a class="dropdown-item text-dark" href="'.$href.'"><img class="mr-3" src="lang/en/flag.jpg"/>'._('English').'</a>');
     echo('<a class="dropdown-item text-dark" href="'.$href.'?lang=af"><img class="mr-3" src="lang/af/flag.jpg"/>'._('Afrikaans').'</a>');
     echo('<a class="dropdown-item text-dark" href="'.$href.'?lang=ar"><img class="mr-3" src="lang/ar/flag.jpg"/>'._('Arabic').'</a>');
     echo('<a class="dropdown-item text-dark" href="'.$href.'?lang=ca"><img class="mr-3" src="lang/ca/flag.jpg"/>'._('Catalan').'</a>');
