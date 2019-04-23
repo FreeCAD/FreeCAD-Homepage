@@ -8,13 +8,13 @@
 	<meta name="viewport" content="width = device-width, initial-scale = 1">
 	<meta name="description" content="FreeCAD, the open source parametric modeler">
 	<meta name="keywords" content="FreeCAD, Open Source, Parametric Modeler, CAD">
-
+	
 	<title><?php echo _('FreeCAD: Your Own 3D Parametric Modeler'); ?></title>
 	<link rel="shortcut icon" href="images/favicon.ico">
-
+	
 	<!-- Include bootstrap CSS file -->
-	<link rel="stylesheet" href="css/bootstrap-4.1.2.min.css">
-
+	<link rel="stylesheet" href="css/bootstrap-4.3.1.min.css"/>
+	
 	<!-- Custom Styles -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -432,8 +432,8 @@
 	</footer>
 
 	<!-- Include Bootstrap JS files -->
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/popper-1.14.3.min.js"></script>
-	<script src="js/bootstrap-4.1.2.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper-1.14.7.min.js"></script>
+  <script src="js/bootstrap-4.3.1.min.js"></script>
 </body>
 </html>
