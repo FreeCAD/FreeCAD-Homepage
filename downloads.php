@@ -94,9 +94,12 @@
 
 	<div id="main" class="container-fluid">
 		<div class="download-notes text-center">
+      <!-- Major+Minor Version of FC Stable -->
 			<h2 class="downloads-notes-title"><?php echo _('Current stable version: 0.18'); ?></h2>
 			<p><?php echo _('Select your desired platform'); ?></p>
     </div>
+
+    <!-- Windows -->
 
     <div class="row mx-auto download-platform">
       <div class="col-sm-6 col-lg-4 my-4">
@@ -105,8 +108,8 @@
             <img class="w-100 p-4" src="svg/icon-windows.svg" alt="Windows">
             <h3 class="card-title download-platform-name m-0 pb-3">Windows</h3>
             <div class="flex-column flex-lg-row">
-              <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.18.1/FreeCAD-0.18.16110.f7dccfa-WIN-x32-installer.exe">32-Bit</a>
-              <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.18.1/FreeCAD-0.18.16110.f7dccfa-WIN-x64-installer.exe">64-Bit</a>
+              <!-- <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.18.1/FreeCAD-0.18.16110.f7dccfa-WIN-x32-installer.exe">32-Bit</a> -->
+              <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.18.2/FreeCAD-0.18.16117.dbb4cc6-WIN-x64-installer.exe">64-Bit</a>
             </div>
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
@@ -117,12 +120,15 @@
           </div>
         </div>
       </div>
+
+      <!-- MacOS -->
+
       <div class="col-sm-6 col-lg-4 my-4">
         <div class="card text-dark">
           <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
             <img class="w-100 p-4" src="svg/icon-apple.svg" alt="Mac">
             <h3 class="card-title download-platform-name m-0 pb-3">Mac</h3>
-            <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.18.1/FreeCAD_0.18-16110-OSX-x86_64-conda-Qt5-Py3.dmg">
+            <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.18.2/FreeCAD_0.18-16117-OSX-x86_64-conda-Qt5-Py3.dmg">
               64-Bit
             </a>
           </div>
@@ -134,12 +140,15 @@
           </div>
         </div>
       </div>
+
+    <!-- Linux/AppImage -->
+
       <div class="col-sm-6 col-lg-4 my-4">
         <div class="card text-dark">
           <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
             <img class="w-100 p-4" src="svg/icon-linux.svg" alt="Linux">
             <h3 class="card-title download-platform-name m-0 pb-3">Linux</h3>
-            <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.18.1/FreeCAD_0.18-16110-Linux-Conda_Py3Qt5_glibc2.12-x86_64.AppImage">
+            <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.18.2/FreeCAD_0.18-16117-Linux-Conda_Py3Qt5_glibc2.12-x86_64.AppImage">
               64-Bit AppImage
             </a>
           </div>
