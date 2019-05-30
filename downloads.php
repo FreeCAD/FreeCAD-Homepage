@@ -98,6 +98,8 @@
 			<p><?php echo _('Select your desired platform'); ?></p>
     </div>
 
+    <!-- Windows -->
+
     <div class="row mx-auto download-platform">
       <div class="col-sm-6 col-lg-4 my-4">
         <div class="card text-dark">
@@ -117,6 +119,9 @@
           </div>
         </div>
       </div>
+
+      <!-- MacOS -->
+
       <div class="col-sm-6 col-lg-4 my-4">
         <div class="card text-dark">
           <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
@@ -134,6 +139,9 @@
           </div>
         </div>
       </div>
+
+    <!-- Linux/AppImage -->
+
       <div class="col-sm-6 col-lg-4 my-4">
         <div class="card text-dark">
           <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
