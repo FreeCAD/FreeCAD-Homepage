@@ -94,6 +94,7 @@
 
 	<div id="main" class="container-fluid">
 		<div class="download-notes text-center">
+      <!-- Major+Minor Version of FC Stable -->
 			<h2 class="downloads-notes-title"><?php echo _('Current stable version: 0.18'); ?></h2>
 			<p><?php echo _('Select your desired platform'); ?></p>
     </div>
