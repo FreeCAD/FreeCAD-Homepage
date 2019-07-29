@@ -309,7 +309,7 @@ class freecadTemplate extends QuickTemplate {
 	}//end execute
 
 	/**
-	 * Render one or more navigations elements by name, automatically reveresed
+	 * Render one or more navigations elements by name, automatically reversed
 	 * when UI is in RTL mode
 	 */
 	private function nav( $nav ) {
@@ -349,7 +349,7 @@ class freecadTemplate extends QuickTemplate {
 	}//end nav
 
 	/**
-	 * Render one or more navigations elements by name, automatically reveresed
+	 * Render one or more navigations elements by name, automatically reversed
 	 * when UI is in RTL mode
 	 */
 	private function nav_select( $nav ) {
