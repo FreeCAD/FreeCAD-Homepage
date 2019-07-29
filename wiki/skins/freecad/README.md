@@ -5,7 +5,7 @@ This skin is based on Bootstrap-mediawiki by BorkWeb - see rest of the readme be
 * Changed navbar to navbar-inverted
 * Changed "home" link
 * Added FreeCAD's master css file
-* Switched embedded bootsrap css to FreeCAD's master bootstrap
+* Switched embedded bootstrap css to FreeCAD's master bootstrap
 * Enabled bootstrap's scrollspy behaviour in behavior.js
 * Changed the footer contents
 
