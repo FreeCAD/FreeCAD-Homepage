@@ -78,7 +78,7 @@
 
           <div class="dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark" href="https://www.freecadweb.org/wiki/Help_FreeCAD">How to help?</a>
-            <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pull">Pull requests</a>
+            <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls">Pull requests</a>
             <a class="dropdown-item text-dark" href="http://www.freecadweb.org/wiki/">Wiki</a>
             <a class="dropdown-item text-dark" href="http://www.freecadweb.org/tracker/">Bug Tracker</a>
           </div>
