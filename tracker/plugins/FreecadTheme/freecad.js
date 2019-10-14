@@ -6,23 +6,28 @@ function addReportTemplate() {
   var stepsText = `Include a detailed, step-by-step list for bugs.
 We can't fix a bug we can't reproduce.`;
 
-  var infoText = `Paste the contents of Help > About FreeCAD > "Copy to
-clipboard".
-<br><br>
-Running a debug release? Publish a <a href="http://www.freecadweb.org/wiki/Debugging">debugging backtrace</a>.
+  var infoText = `Running a debug release? Publish a <a href="http://www.freecadweb.org/wiki/Debugging">debugging backtrace</a>.
 <br><br>
 File too large? Upload to a cloud-based 3rd party service like Nextcloud or Dropbox,
 and paste the link here.`;
 
+  var fcinfoText = `Paste the contents of Help > About FreeCAD > "Copy to
+clipboard". <em>Note:</em> You must only post the complete snippet with nothing else.
+Or else the tracker will not accept the ticket.`;
+  
   var exclamationTriangle = '<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>';
   
   var descHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + descText + '</span>';
   var stepsHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + stepsText + '</span>';
   var infoHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + infoText + '</span>';
+  var fcinfoHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + infoText + '</span>';
+
 
   $('label[for=description]').after(descHtml);
   $('label[for=steps_to_reproduce]').after(stepsHtml);
   $('label[for=additional_info]').after(infoHtml);
+  $('label[for=custom_field_1]').after(fcinfoHtml);
+
 }
 
 function swapButtons() {
