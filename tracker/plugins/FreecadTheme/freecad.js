@@ -20,7 +20,7 @@ Or else the tracker will not accept the ticket.`;
   var descHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + descText + '</span>';
   var stepsHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + stepsText + '</span>';
   var infoHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + infoText + '</span>';
-  var fcinfoHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + infoText + '</span>';
+  var fcinfoHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + fcinfoText + '</span>';
 
 
   $('label[for=description]').after(descHtml);
