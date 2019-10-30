@@ -92,16 +92,21 @@
     </div>
   </nav>
 
-	<div id="main" class="container-fluid">
-		<div class="download-notes text-center">
+    <div id="main" class="container-fluid">
+      <div class="download-notes text-center">
 
+      <!-- -------------------------------- -->
       <!-- Major+Minor Version of FC Stable -->
-			<h2 class="downloads-notes-title"><?php echo _('Current stable version: 0.18.3'); ?></h2>
-			<p><?php echo _('Select your desired platform'); ?></p>
+      <!-- -------------------------------- -->
+
+      <h2 class="downloads-notes-title"><?php echo _('Current stable version: 0.18.3'); ?></h2>
+      <p><?php echo _('Select your desired platform'); ?></p>
 
     </div>
 
+    <!-- ------- -->
     <!-- Windows -->
+    <!-- ------- -->
 
     <div class="row mx-auto download-platform">
       <div class="col-sm-6 col-lg-4 my-4">
@@ -123,7 +128,9 @@
         </div>
       </div>
 
+      <!-- ----- -->
       <!-- MacOS -->
+      <!-- ----- -->
 
       <div class="col-sm-6 col-lg-4 my-4">
         <div class="card text-dark">
@@ -141,7 +148,9 @@
         </div>
       </div>
 
-    <!-- Linux/AppImage -->
+      <!-- -------------- -->
+      <!-- Linux/AppImage -->
+      <!-- -------------- -->
 
       <div class="col-sm-6 col-lg-4 my-4">
         <div class="card text-dark">
@@ -158,8 +167,12 @@
           </div>
         </div>
       </div>
-    </div>
-    
+    </div> <!-- class="row mx-auto download-platform" -->
+
+    <!-- -------------------- -->
+    <!-- DEVELOPMENT VERSIONS -->
+    <!-- -------------------- -->
+
     <div class="download-notes text-center">
       <h2 class="downloads-notes-title"><?php echo _('Development versions'); ?></h2>
       <p>
@@ -169,6 +182,10 @@
       </p>
     </div>
 
+    <!-- ----------------------------- -->
+    <!-- ADDITIONAL MODULES AND MACROS -->
+    <!-- ----------------------------- -->
+    
     <div class="download-notes text-center">
       <h2 class="downloads-notes-title"><?php echo _('Additional modules and macros'); ?></h2>
       <p>
@@ -177,7 +194,7 @@
         <a href="https://www.freecadweb.org/wiki/AddonManager" class="badge badge-light"><?php echo _('Addon manager.'); ?></a>
       </p>
     </div>
-	</div>
+    </div>
 
 	<footer class="container-fluid footer-custom bg-dark text-center text-light">
     <div class="row">
