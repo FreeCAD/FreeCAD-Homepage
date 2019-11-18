@@ -1,7 +1,4 @@
 script: /bin/true
 
-deploy:
-  provider: script
-  script: bash scripts/deploy.sh
-  on:
-    branch: master
+after_success:
+  - bash scripts/deploy.sh
