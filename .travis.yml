@@ -1,3 +1,5 @@
+dist: bionic
+
 before_install:
   - sudo apt-get update && sudo apt install -y wput
 
