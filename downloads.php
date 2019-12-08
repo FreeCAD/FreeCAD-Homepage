@@ -178,7 +178,7 @@
       <p>
         <?php echo _("FreeCAD's development is always active! Do you want to check out the latest development 
         release? For MacOS, Windows, Linux (AppImage) and source code, see the "); ?>
-        <a href="https://github.com/FreeCAD/FreeCAD/releases" class="badge badge-light"><?php echo _('FreeCAD releases page.'); ?></a>
+        <a href="https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre" class="badge badge-light"><?php echo _('FreeCAD releases page.'); ?></a>
       </p>
     </div>
 
