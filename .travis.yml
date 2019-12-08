@@ -1,4 +1,0 @@
-script: /bin/true
-
-after_success:
-  - bash scripts/deploy.sh
