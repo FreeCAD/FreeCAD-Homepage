@@ -33,8 +33,8 @@ class FreeCADThemePlugin extends MantisPlugin {
         $t_return .= '<link rel="stylesheet" href="/css/bootstrap-3.3.5.min.css">';
         $t_return .= '<link rel="stylesheet" href="/css/font-awesome-4.4.0.min.css">';
         $t_return .= '<link rel="stylesheet" href="/css/freecad.css">';
-        $t_return .= '<link rel="stylesheet" href="/tracker/plugins/FreecadTheme/freecad.css">';
-        $t_return .= '<script type="text/javascript" src="/tracker/plugins/FreecadTheme/freecad.js"></script>';
+        $t_return .= '<link rel="stylesheet" href="/plugins/FreecadTheme/freecad.css">';
+        $t_return .= '<script type="text/javascript" src="/plugins/FreecadTheme/freecad.js"></script>';
         return  $t_return;
     }
 
@@ -94,7 +94,7 @@ class FreeCADThemePlugin extends MantisPlugin {
                         </li>
                     </ul>';
         }
-	    $t_return .='                   <form class="navbar-search navbar-form navbar-right" action="/tracker/search.php" id="searchform" role="search" method="get">';
+	    $t_return .='                   <form class="navbar-search navbar-form navbar-right" action="/search.php" id="searchform" role="search" method="get">';
 	    $t_return .='                       <div>
                             <input class="form-control" type="search" name="search" placeholder="Search" title="Search issues" maxlength=300 style="border-radius: 4px !important;">
                             <input type="hidden" name="title">
