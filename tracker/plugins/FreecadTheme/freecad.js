@@ -6,7 +6,7 @@ function addReportTemplate() {
   var stepsText = `Include a detailed, step-by-step list for bugs.
 We can't fix a bug we can't reproduce.`;
 
-  var infoText = `Running a debug release? Publish a <a href="http://www.freecadweb.org/wiki/Debugging">debugging backtrace</a>.
+  var infoText = `Running a debug release? Publish a <a href="http://wiki.freecadweb.org/Debugging">debugging backtrace</a>.
 <br><br>
 File too large? Upload to a cloud-based 3rd party service like Nextcloud or Dropbox,
 and paste the link here.`;

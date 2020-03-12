@@ -44,7 +44,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="nav nav-pills ml-auto">
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="https://www.freecadweb.org/wiki/Feature_list"><?php echo _('Features'); ?></a>
+          <a class="nav-link my-2 rounded-pill" href="https://wiki.freecadweb.org/Feature_list"><?php echo _('Features'); ?></a>
         </li>
 
         <li class="nav-item">
@@ -52,7 +52,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="https://www.freecadweb.org/wiki/Getting_started"><?php echo _('Documentation'); ?></a>
+          <a class="nav-link my-2 rounded-pill" href="https://wiki.freecadweb.org/Getting_started"><?php echo _('Documentation'); ?></a>
         </li>
 
         <li class="nav-item dropdown">
@@ -77,15 +77,15 @@
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Contribute'); ?></a>
 
           <div class="dropdown-community dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item text-dark" href="https://www.freecadweb.org/wiki/Help_FreeCAD">How to help?</a>
+            <a class="dropdown-item text-dark" href="https://wiki.freecadweb.org/Help_FreeCAD">How to help?</a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls">Pull requests</a>
-            <a class="dropdown-item text-dark" href="http://www.freecadweb.org/wiki/">Wiki</a>
+            <a class="dropdown-item text-dark" href="http://wiki.freecadweb.org/">Wiki</a>
             <a class="dropdown-item text-dark" href="http://www.freecadweb.org/tracker/">Bug Tracker</a>
           </div>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="https://www.freecadweb.org/wiki/Donate"><?php echo _('Donate'); ?></a>
+          <a class="nav-link my-2 rounded-pill" href="https://wiki.freecadweb.org/Donate"><?php echo _('Donate'); ?></a>
         </li>
 
         <li class="nav-item">
@@ -193,7 +193,7 @@
           really is a Swiss Army knife of general-purpose engineering
           toolkits.'); ?>
         </p>
-        <a class="btn btn-light rounded-pill mt-3" role="button" href="https://www.freecadweb.org/wiki/Feature_list#General_features:">
+        <a class="btn btn-light rounded-pill mt-3" role="button" href="https://wiki.freecadweb.org/Feature_list#General_features:">
           <?php echo _('Learn more'); ?>
         </a>
       </div>
@@ -224,7 +224,7 @@
       <div class="col-md-4 col-sm-6 mb-3">
         <h4><?php echo _('Learn'); ?></h4>
         <ul class="list-unstyled">
-          <li><a class="text-light" href="https://www.freecadweb.org/wiki/Tutorials"><?php echo _('Tutorials'); ?></a></li>
+          <li><a class="text-light" href="https://wiki.freecadweb.org/Tutorials"><?php echo _('Tutorials'); ?></a></li>
           <li><a class="text-light" href="https://www.youtube.com/results?search_query=freecad"><?php echo _('Youtube videos'); ?></a></li>
           <li><a class="text-light" href="https://stackexchange.com/search?q=freecad">Stack Exchange</a></li>
         </ul>
@@ -233,8 +233,8 @@
       <div class="col-md-4 col-sm-6 mb-3">
         <h4><?php echo _('Contribute'); ?></h4>
         <ul class="list-unstyled">
-          <li><a class="text-light" href="https://www.freecadweb.org/wiki/Help_FreeCAD"><?php echo _('How can I help?'); ?></a></li>
-          <li><a class="text-light" href="https://www.freecadweb.org/wiki/Donate"><?php echo _('Donate'); ?></a></li>
+          <li><a class="text-light" href="https://wiki.freecadweb.org/Help_FreeCAD"><?php echo _('How can I help?'); ?></a></li>
+          <li><a class="text-light" href="https://wiki.freecadweb.org/Donate"><?php echo _('Donate'); ?></a></li>
           <li><a class="text-light" href="https://crowdin.com/project/freecad"><?php echo _('Translate'); ?></a></li>
         </ul>
       </div>
@@ -242,9 +242,9 @@
       <div class="col-md-4 col-sm-6 mb-3">
         <h4><?php echo _('Code'); ?></h4>
         <ul class="list-unstyled">
-          <li><a class="text-light" href="https://www.freecadweb.org/wiki/Compiling"><?php echo _('Building from source'); ?></a></li>
+          <li><a class="text-light" href="https://wiki.freecadweb.org/Compiling"><?php echo _('Building from source'); ?></a></li>
           <li><a class="text-light" href="https://www.freecadweb.org/api/"><?php echo _('C++ & Python API'); ?></a></li>
-          <li><a class="text-light" href="https://www.freecadweb.org/wiki/Licence"><?php echo _('License information'); ?></a></li>
+          <li><a class="text-light" href="https://wiki.freecadweb.org/Licence"><?php echo _('License information'); ?></a></li>
         </ul>
       </div>
     </div>

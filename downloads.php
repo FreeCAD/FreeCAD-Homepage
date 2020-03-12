@@ -44,7 +44,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="nav nav-pills ml-auto">
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="https://www.freecadweb.org/wiki/Feature_list"><?php echo _('Features'); ?></a>
+          <a class="nav-link my-2 rounded-pill" href="https://wiki.freecadweb.org/Feature_list"><?php echo _('Features'); ?></a>
         </li>
 
         <li class="nav-item">
@@ -52,7 +52,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="https://www.freecadweb.org/wiki/Getting_started"><?php echo _('Documentation'); ?></a>
+          <a class="nav-link my-2 rounded-pill" href="https://wiki.freecadweb.org/Getting_started"><?php echo _('Documentation'); ?></a>
         </li>
 
         <li class="nav-item dropdown">
@@ -76,13 +76,13 @@
 
           <div class="dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD">GitHub</a>
-            <a class="dropdown-item text-dark" href="http://www.freecadweb.org/wiki/">Wiki</a>
+            <a class="dropdown-item text-dark" href="http://wiki.freecadweb.org/">Wiki</a>
             <a class="dropdown-item text-dark" href="http://www.freecadweb.org/tracker/">Bug Tracker</a>
           </div>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="https://www.freecadweb.org/wiki/Donate"><?php echo _('Donate'); ?></a>
+          <a class="nav-link my-2 rounded-pill" href="https://wiki.freecadweb.org/Donate"><?php echo _('Donate'); ?></a>
         </li>
 
         <li class="nav-item">
@@ -122,7 +122,7 @@
           <div class="card-footer px-xl-5 py-xl-4">
             <small class="text-muted">
               <?php echo _('Windows 7 is the minimum supported version. For more info on installation, please check out the '); ?>
-              <a href="https://www.freecadweb.org/wiki/Install_on_Windows"><?php echo _('wiki'); ?></a>.
+              <a href="https://wiki.freecadweb.org/Install_on_Windows"><?php echo _('wiki'); ?></a>.
             </small>
           </div>
         </div>
@@ -142,7 +142,7 @@
           <div class="card-footer px-xl-5 py-xl-4">
             <small class="text-muted">
               <?php echo _('Mac OS X 10.11 El Capitan is the minimum supported version. For more info on installation, please check out the '); ?>
-              <a href="https://www.freecadweb.org/wiki/Install_on_Mac"><?php echo _('wiki'); ?></a>.
+              <a href="https://wiki.freecadweb.org/Install_on_Mac"><?php echo _('wiki'); ?></a>.
             </small>
           </div>
         </div>
@@ -162,7 +162,7 @@
           <div class="card-footer px-xl-5 py-xl-4">
             <small class="text-muted">
               <?php echo _('For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the '); ?>
-              <a href="https://www.freecadweb.org/wiki/Install_on_Unix"><?php echo _('wiki'); ?></a>.
+              <a href="https://wiki.freecadweb.org/Install_on_Unix"><?php echo _('wiki'); ?></a>.
             </small>
           </div>
         </div>
@@ -191,7 +191,7 @@
       <p>
         <?php echo _('The FreeCAD community provides a wealth of additional modules and macros. They can 
         now easily be installed directly from within FreeCAD using the  '); ?> 
-        <a href="https://www.freecadweb.org/wiki/AddonManager" class="badge badge-light"><?php echo _('Addon manager.'); ?></a>
+        <a href="https://wiki.freecadweb.org/AddonManager" class="badge badge-light"><?php echo _('Addon manager.'); ?></a>
       </p>
     </div>
     </div>
@@ -201,7 +201,7 @@
       <div class="col-md-4 col-sm-6 mb-3">
         <h4><?php echo _('Learn'); ?></h4>
         <ul class="list-unstyled">
-          <li><a class="text-light" href="https://www.freecadweb.org/wiki/Tutorials"><?php echo _('Tutorials'); ?></a></li>
+          <li><a class="text-light" href="https://wiki.freecadweb.org/Tutorials"><?php echo _('Tutorials'); ?></a></li>
           <li><a class="text-light" href="https://www.youtube.com/results?search_query=freecad"><?php echo _('Youtube videos'); ?></a></li>
           <li><a class="text-light" href="https://stackexchange.com/search?q=freecad">Stack Exchange</a></li>
         </ul>
@@ -210,8 +210,8 @@
       <div class="col-md-4 col-sm-6 mb-3">
         <h4><?php echo _('Contribute'); ?></h4>
         <ul class="list-unstyled">
-          <li><a class="text-light" href="https://www.freecadweb.org/wiki/Help_FreeCAD"><?php echo _('How can I help?'); ?></a></li>
-          <li><a class="text-light" href="https://www.freecadweb.org/wiki/Donate"><?php echo _('Donate'); ?></a></li>
+          <li><a class="text-light" href="https://wiki.freecadweb.org/Help_FreeCAD"><?php echo _('How can I help?'); ?></a></li>
+          <li><a class="text-light" href="https://wiki.freecadweb.org/Donate"><?php echo _('Donate'); ?></a></li>
           <li><a class="text-light" href="https://crowdin.com/project/freecad"><?php echo _('Translate'); ?></a></li>
         </ul>
       </div>
@@ -219,9 +219,9 @@
       <div class="col-md-4 col-sm-6 mb-3">
         <h4><?php echo _('Code'); ?></h4>
         <ul class="list-unstyled">
-          <li><a class="text-light" href="https://www.freecadweb.org/wiki/Compiling"><?php echo _('Building from source'); ?></a></li>
+          <li><a class="text-light" href="https://wiki.freecadweb.org/Compiling"><?php echo _('Building from source'); ?></a></li>
           <li><a class="text-light" href="https://www.freecadweb.org/api/"><?php echo _('C++ & Python API'); ?></a></li>
-          <li><a class="text-light" href="https://www.freecadweb.org/wiki/Licence"><?php echo _('License information'); ?></a></li>
+          <li><a class="text-light" href="https://wiki.freecadweb.org/Licence"><?php echo _('License information'); ?></a></li>
         </ul>
       </div>
     </div>
