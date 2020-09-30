@@ -225,7 +225,7 @@
         <h4><?php echo _('Learn'); ?></h4>
         <ul class="list-unstyled">
           <li><a class="text-light" href="https://wiki.freecadweb.org/Tutorials"><?php echo _('Tutorials'); ?></a></li>
-          <li><a class="text-light" href="https://www.youtube.com/results?search_query=freecad"><?php echo _('Youtube videos'); ?></a></li>
+          <li><a class="text-light" href="https://www.youtube.com/results?search_query=freecad"><?php echo _('Videos'); ?></a></li>
           <li><a class="text-light" href="https://stackexchange.com/search?q=freecad">Stack Exchange</a></li>
         </ul>
       </div>
