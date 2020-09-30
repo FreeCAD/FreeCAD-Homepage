@@ -1,0 +1,79 @@
+/* FreeCAD theme fixes for MantisBT 2.x */
+
+body {
+    margin-bottom: 0;
+}
+
+/*
+td, span {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+span.small {
+    font-size: 1em;
+}
+*/
+
+table.width100, table.width50 {
+    border: none !important;
+}
+
+table.width75, table.width90 {
+    width: 100%;
+    border: 0;
+}
+
+.hide {
+    display: block !important;
+}
+
+.maincontents {
+    margin-top: 50px;
+}
+
+.left a img {
+    display: none !important;
+}
+
+td {
+    padding: 5px !important;
+    border-bottom: 2px solid white;
+}
+
+div {
+    padding: 0;
+}
+
+/* Disabled because it is hiding inline image previews */
+/* .col-md-12 div a img {
+    display: none;
+}*/
+
+footer {
+    position: relative;
+}
+
+.menu {
+    display: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.lwidth {
+    max-width: 250px;
+}
+
+.footer-content {
+    /*display: none;*/
+}
+
+.fc-header, .fc-footer {
+    z-index: 1050; 
+    background: #222;
+}
+
+#history {
+ display: none;
+}
