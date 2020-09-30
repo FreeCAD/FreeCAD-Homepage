@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-10 10:36-0200\n"
-"PO-Revision-Date: 2020-03-05 13:54\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2020-07-24 11:23-0400\n"
+"PO-Revision-Date: 2020-09-30 12:19\n"
+"Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
 "MIME-Version: 1.0\n"
@@ -12,405 +12,377 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 "X-Crowdin-Project: freecad\n"
+"X-Crowdin-Project-ID: 286\n"
 "X-Crowdin-Language: ar\n"
 "X-Crowdin-File: homepage.po\n"
+"X-Crowdin-File-ID: 27908\n"
 
-#: downloads.php:45
-msgid "FreeCAD: Select Your Platform"
-msgstr "فري كاد: اختر منصتك"
+#: downloads.php:12
+msgid "FreeCAD: Select your platform"
+msgstr "أختر منصتك"
 
-#: downloads.php:65 index.php:65
+#: downloads.php:47 index.php:47
 msgid "Features"
 msgstr "الميزات"
 
-#: downloads.php:71 index.php:71
+#: downloads.php:51 index.php:51
 msgid "Downloads"
 msgstr "التحميلات"
 
-#: downloads.php:77 index.php:77
+#: downloads.php:55 index.php:55
 msgid "Documentation"
 msgstr "التّوثيق"
 
-#: downloads.php:83 index.php:83
-msgid "Forum"
-msgstr "المنتدى"
-
-#: downloads.php:89 downloads.php:419 index.php:89 index.php:518
-msgid "Contribute"
-msgstr "ساهم"
-
-#: downloads.php:95 downloads.php:430 index.php:95 index.php:529
-msgid "Donate"
-msgstr "تبرع"
-
-#: downloads.php:101 index.php:101
-msgid "Showcase"
-msgstr "عرض"
-
-#: downloads.php:113 index.php:113
-msgid "Afrikaans"
-msgstr "الأفريقانية"
-
-#: downloads.php:117 index.php:117
-msgid "Chinese Simplified"
-msgstr "الصينية المبسطة"
-
-#: downloads.php:121 index.php:121
-msgid "Chinese Traditional"
-msgstr "الصينية التقليدية"
-
-#: downloads.php:125 index.php:125
-msgid "Croatian"
-msgstr "الكرواتية"
-
-#: downloads.php:129 index.php:129
-msgid "Czech"
-msgstr "التشيكية"
-
-#: downloads.php:133 index.php:133
-msgid "Dutch"
-msgstr "الهولندية"
-
-#: downloads.php:137 index.php:137
-msgid "English"
-msgstr "الإنجليزية"
-
-#: downloads.php:141 index.php:141
-msgid "Finnish"
-msgstr "الفنلندية"
-
-#: downloads.php:145 index.php:145
-msgid "French"
-msgstr "الفرنسية"
-
-#: downloads.php:149 index.php:149
-msgid "German"
-msgstr "الألمانية"
-
-#: downloads.php:153 index.php:153
-msgid "Hungarian"
-msgstr "المجرية"
-
-#: downloads.php:157 index.php:157
-msgid "Japanese"
-msgstr "اليابانية"
-
-#: downloads.php:161 index.php:161
-msgid "Norwegian"
-msgstr "النرويجية"
-
-#: downloads.php:165 index.php:165
-msgid "Polish"
-msgstr "البولندية"
-
-#: downloads.php:169 index.php:169
-msgid "Portuguese"
-msgstr "البرتغالية"
-
-#: downloads.php:173 index.php:173
-msgid "Romanian"
-msgstr "الرومانية"
-
-#: downloads.php:177 index.php:177
-msgid "Russian"
-msgstr "الروسية"
-
-#: downloads.php:181 index.php:181
-msgid "Serbian (Cyrillic)"
-msgstr "الصربية (السيريلية)"
-
-#: downloads.php:185 index.php:185
-msgid "Spanish"
-msgstr "الاسبانية"
-
-#: downloads.php:189 index.php:189
-msgid "Swedish"
-msgstr "السويدية"
-
-#: downloads.php:193 index.php:193
-msgid "Ukrainian"
-msgstr "الاوكرانية"
-
-#: downloads.php:197 index.php:197
-msgid "Italian"
-msgstr "الايطالية"
-
-#: downloads.php:205 index.php:205
-msgid "Greek"
-msgstr "اليونانية"
-
-#: downloads.php:209 index.php:209
-msgid "Slovak"
-msgstr "السلوفاكية"
-
-#: downloads.php:213 index.php:213
-msgid "Turkish"
-msgstr "التركية"
-
-#: downloads.php:217 index.php:217
-msgid "Slovenian"
-msgstr "السلوفانية"
-
-#: downloads.php:234
-msgid "Current stable version: 0.17"
-msgstr "الاصدار الحالي المستقر: 0.17"
-
-#: downloads.php:238
-msgid "Select your desired platform"
-msgstr "اختر منصتك المفضلة"
-
-#: downloads.php:288
-msgid "Notes"
-msgstr "الملاحظات"
-
-#: downloads.php:291
-msgid "Please note that FreeCAD has still not reached a version 1.0 status \n"
-"\t\t\t\tin our view, and might not be ready for production use. Nevertheless multitudes of \n"
-"\t\t\t\tusers use it. To find out if FreeCAD is appropriate for your project, please check \n"
-"\t\t\t\tout the "
-msgstr "برجاء العلم أن فري كاد لم يصل بعد لحالة الإصدار 1.0 \n"
-"\t\t\t\t في نظرنا، وقد يكون غير جاهزا بعد للاستخدام في الانتاج. على الرغم من ذلك فإن أعدادا كثيرة من \n"
-"\t\t\t\t المستخدمين يستخدمونه. لكى تكتشف إذا كان فري كاد مناسب لمشروعك، برجاء معاينة \n"
-"\t\t\t\t "
-
-#: downloads.php:296
-msgid "FreeCAD forum."
-msgstr "منتدى فري كاد."
-
-#: downloads.php:301
-msgid "The first 0.17 release of FreeCAD (0.17.13509) was published \n"
-"\t\t\t\ton 2018-04-06. Many bug fix releases have been published since then, the latest bug \n"
-"\t\t\t\tfix release 0.17.13541 was published on 2018-08-16. It might not be available to all \n"
-"\t\t\t\toperating systems at this time. To find out what's new, see the "
-msgstr "تم إصدار أول إصدار (0.17) من برنامج فري كاد في 2018-04-06 ثم توالى نشر العديد من إصدارات إصلاح الأخطاء منذ ذلك الحين، تم نشر أحدث إصدار لإصلاح الأخطاء (0.17.13541) في 2018-08-16. قد لا يكون متاحًا لجميع أنظمة التشغيل في الوقت الحالي. لمعرفة ما الجديد ، انظر "
-
-#: downloads.php:306
-msgid "release notes."
-msgstr "ملخص الإصدارات."
-
-#: downloads.php:311
-msgid "You will find SHA256 checksums (to verify integrity of your download) \n"
-"\t\t\t\tand Windows portable versions on the "
-msgstr "ستجد كود SHA256 الإختبارى (للتأكد من سلامة التنزيل) وإصدارات الويندوز على "
-
-#: downloads.php:314
-msgid "0.17 Release page on GitHub"
-msgstr "صفحة الاصدارات على GitHub"
-
-#: downloads.php:316
-msgid " (Older portable builds have been pruned. Availability will return in \n"
-"\t\t\t\tthe future)."
-msgstr " (النسخ القديمة من portable يتم إعادة تنظيمها وستكون متاحة فى المستقبل)"
-
-#: downloads.php:320
-msgid "Notes for Windows users"
-msgstr "ملاحظات لمستخدمي الويندوز"
-
-#: downloads.php:323
-msgid "The 32-Bit installer (x86) supports the following versions of \n"
-"\t\t\t\tWindows: 7/8/10."
-msgstr "النسخة x86) 32-Bit) تدعم إصدارات الويندوز 7، 8، 10"
-
-#: downloads.php:325
-msgid "The 64-Bit installer (x64) supports the following versions of \n"
-"\t\t\t\tWindows: 7/8/10."
-msgstr "النسخة x64) 64-Bit) تدعم إصدارات الويندوز 7، 8، 10"
-
-#: downloads.php:329
-msgid "Notes for Mac OS X users"
-msgstr "ملاحظات لمستخدمي Mac OS X"
-
-#: downloads.php:331
-msgid "Mac OS X 10.11 El Capitan is the minimum supported version."
-msgstr "نظام التشغيل Mac OS X 10.11 El Capitan هو الحد الأدنى للإصدار المدعوم."
-
-#: downloads.php:333
-msgid "Notes for GNU/Linux users"
-msgstr "ملاحظات لمستخدمي لينكس / جنو"
-
-#: downloads.php:336
-msgid "FreeCAD can be installed from most Linux distributions official \n"
-"\t\t\t\trepositories, but the version they provide might be quite dated and be missing \n"
-"\t\t\t\tmany features. Instead you can download the linked AppImage above, mark it as \n"
-"\t\t\t\texecutable and launch it without installation. Please see the "
-msgstr "يمكن تثبيت فري كاد من معظم المستودعات الرسمية لتوزيعات لينكس، لكن ربما يكون الإصدار المتاح قديم ويفتقد العديد من الميزات لذلك يمكنك تنزيل AppImage الموجود بالاعلى وتحديده على أنه قابل للتنفيذ وتشغيله دون تثبيت. الرجاء مراجعة "
-
-#: downloads.php:341
-msgid "Install on Unix"
-msgstr "التنزيل على يونكس (Unix)"
-
-#: downloads.php:343
-msgid " page for more installation options, including how to get up-to-date \n"
-"\t\t\t\tpackages for Ubuntu and derivatives."
-msgstr " صفحة لمزيد من خيارات التثبيت، بما في ذلك كيفية الحصول على حزم محدثة للأوبونتو وباقى مشتقات اللينكس."
-
-#: downloads.php:347
-msgid "Development Versions"
-msgstr "إصدارات المطورين / المبرمجين"
-
-#: downloads.php:350
-msgid "FreeCAD's development is always active! Do you want to check \n"
-"\t\t\t\tout the 0.18 development release? For MacOS, Windows, Linux (AppImage) and \n"
-"\t\t\t\tsource code, see the "
-msgstr "فري كاد دائم التطوير!، هل تود الاطلاع على اصدار 0.18 للمطورين؟ لأنظمة الماك والويندوز واللينكس (AppImage) وكود المصدر رجاء زيارة "
-
-#: downloads.php:353
-msgid "FreeCAD \n"
-"\t\t\t\treleases page."
-msgstr "صفحة إصدارات فري كاد"
-
-#: downloads.php:357
-msgid "Additional Modules and Macros"
-msgstr "الإضافات/ الملحقات"
-
-#: downloads.php:360
-msgid "The FreeCAD community provides a wealth of additional modules \n"
-"\t\t\t\tand macros. They can now easily be installed directly from within FreeCAD \n"
-"\t\t\t\tusing the "
-msgstr "يوفر مجتمع فري كاد مجموعة كبيرة من الإضافات/الملحقات يمكنك بسهولة تثبيتها من خلال "
-
-#: downloads.php:363
-msgid "Addon manager."
-msgstr "مدير الملحقات"
-
-#: downloads.php:371 index.php:470
+#: downloads.php:59 index.php:59
 msgid "Community"
 msgstr "المجتمع"
 
-#: downloads.php:400 index.php:499
+#: downloads.php:75 downloads.php:211 index.php:77 index.php:234
+msgid "Contribute"
+msgstr "ساهم"
+
+#: downloads.php:85 downloads.php:214 index.php:88 index.php:237
+msgid "Donate"
+msgstr "تبرع"
+
+#: downloads.php:89 index.php:92
+msgid "Showcase"
+msgstr "عرض"
+
+#: downloads.php:102
+msgid "Current stable version: 0.18.4"
+msgstr "الأصدار الحالي المستقر: 0.18.4"
+
+#: downloads.php:103
+msgid "Select your desired platform"
+msgstr "اختر منصتك المفضلة"
+
+#: downloads.php:124
+msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
+msgstr "Windows 7 هو الحد الأدنى من الإصدار المدعوم. لمزيد من المعلومات عند التثبيت، يرجى التحقق من "
+
+#: downloads.php:125 downloads.php:145 downloads.php:165
+msgid "wiki"
+msgstr "الموسوعة الحرة، ويكيبيديا"
+
+#: downloads.php:144
+msgid "Mac OS X 10.11 El Capitan is the minimum supported version. For more info on installation, please check out the "
+msgstr "Mac OS X 10.11 El Caption هو الحد الأدنى من الإصدار المدعوم. لمزيد من المعلومات عند التثبيت، يرجى التحقق من "
+
+#: downloads.php:164
+msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
+msgstr "للحصول على تعليمات توزيعة محددة ، مثل Ubuntu PPA، وطرق أخرى للتثبيت على لينوكس، يرجى التحقق من "
+
+#: downloads.php:177
+msgid "Development versions"
+msgstr "إصدارات المطورين / المبرمجين"
+
+#: downloads.php:179
+msgid "FreeCAD's development is always active! Do you want to check out the latest development \n"
+"        release? For MacOS, Windows, Linux (AppImage) and source code, see the "
+msgstr "تطوير FreeCAD نشط دائمًا! هل تريد التحقق من أحدث إصدار للتطوير n/ ؟ \n"
+"بالنسبة لأنظمة ال (MacOS، Windows، Linux (AppImage ورمز المصدر، انظر "
+
+#: downloads.php:181
+msgid "FreeCAD releases page."
+msgstr "صفحة إصدارات FreeCAD."
+
+#: downloads.php:190
+msgid "Additional modules and macros"
+msgstr ""
+
+#: downloads.php:192
+msgid "The FreeCAD community provides a wealth of additional modules and macros. They can \n"
+"        now easily be installed directly from within FreeCAD using the  "
+msgstr ""
+
+#: downloads.php:194
+msgid "Addon manager."
+msgstr "مدير الملحقات"
+
+#: downloads.php:202 index.php:225
+msgid "Learn"
+msgstr ""
+
+#: downloads.php:204 index.php:227
 msgid "Tutorials"
 msgstr "دروس"
 
-#: downloads.php:406 index.php:505
-msgid "Youtube Videos"
-msgstr "فيديوهات اليوتيوب"
+#: downloads.php:205
+msgid "Youtube videos"
+msgstr ""
 
-#: downloads.php:424 index.php:523
+#: downloads.php:213 index.php:236
 msgid "How can I help?"
 msgstr "كيف يمكن أن أساعد؟"
 
-#: downloads.php:436 index.php:535
+#: downloads.php:215 index.php:238
 msgid "Translate"
 msgstr "ترجم"
 
-#: downloads.php:443 index.php:542
+#: downloads.php:220 index.php:243
 msgid "Code"
 msgstr "النص البرمجي"
 
-#: downloads.php:448 index.php:547
+#: downloads.php:222 index.php:245
 msgid "Building from source"
 msgstr "بناء من المصدر"
 
-#: downloads.php:454 index.php:553
+#: downloads.php:223 index.php:246
 msgid "C++ & Python API"
 msgstr "++C و واجهة بايثون"
 
-#: downloads.php:460 index.php:559
+#: downloads.php:224 index.php:247
 msgid "License information"
 msgstr "معلومات الترخيص"
 
-#: downloads.php:468 index.php:567
-msgid "© The FreeCAD Team. Homepage Image Credits (Top to bottom): \n"
-"\t\t\tppemawm, r-frank, epileftric, regis, rider_mortagnais, bejant. \n"
-"\t\t\tHomepage design by AR795."
-msgstr "© فريق فري كاد، صور الصفحة الرئيسية تُنسب إلى (من الأعلى إلى الاسفل) bejant ،rider_mortagnais ،regis ،epileftric ،r-frank ،ppemawm. الصفحة الرئيسية صُممت بواسطة AR795"
+#: downloads.php:242 index.php:265
+msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
+"      r-frank, epileftric, regis, rider_mortagnais, bejant."
+msgstr ""
 
-#: index.php:45
-msgid "FreeCAD: Your Own 3D Parametric Modeler"
-msgstr "فري كاد: مصمم نماذجك الثلاثى الأبعاد"
+#: index.php:12
+msgid "FreeCAD: Your own 3D parametric modeler"
+msgstr ""
 
-#: index.php:234
+#: index.php:105
 msgid "FreeCAD"
 msgstr "فري كاد"
 
-#: index.php:236
-msgid "Your Own 3D Parametric Modeler"
-msgstr "مصمم نماذجك الثلاثى الأبعاد"
+#: index.php:106
+msgid "Your own 3D parametric modeler"
+msgstr ""
 
-#: index.php:239
-msgid "Download"
-msgstr "تنزيل"
+#: index.php:108
+msgid "Download now"
+msgstr ""
 
-#: index.php:241
-msgid "0.17"
-msgstr "0.17"
-
-#: index.php:245
+#: index.php:109
 msgid "See what's new"
 msgstr "ما الجديد؟"
 
-#: index.php:266 index.php:278
+#: index.php:122
 msgid "Freedom to build what you want"
 msgstr "سهولة بناء ما تريد"
 
-#: index.php:269 index.php:281
-msgid "FreeCAD is an open-source parametric 3D modeler made primarily \n"
-"\t\t\t\t\tto design real-life objects of any size. Parametric modeling allows you to \n"
-"\t\t\t\t\teasily modify your design by going back into your model history and changing \n"
-"\t\t\t\t\tits parameters."
-msgstr "فري كاد هو مصمم نماذج ثلاثي الأبعاد مفتوح المصدر تم تصميمه فى الاساس لعمل نماذج حقيقة بأى حجم. كما تتيح لك بنية البرنامج تعديل تصميمك بسهولة من خلال الرجوع إلى سجل المحفوظات وتغيره."
+#: index.php:124
+msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
+"          design real-life objects of any size. Parametric modeling allows you\n"
+"          to easily modify your design by going back into your model history\n"
+"          and changing its parameters."
+msgstr ""
 
-#: index.php:292 index.php:309
+#: index.php:138
 msgid "Create 3D from 2D & back"
 msgstr "إنشاء مجسمات 3D من رسومات 2D"
 
-#: index.php:295 index.php:312
-msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and \n"
-"\t\t\t\t\tuse them as a base to build other objects. It contains many components to \n"
-"\t\t\t\t\tadjust dimensions or extract design details from 3D models to create high \n"
-"\t\t\t\t\tquality production ready drawings."
-msgstr "يسمح لك فري كاد برسم الأشكال الهندسية ثنائية الأبعاد واستخدامها كقاعدة لبناء كائنات أخرى. يحتوي على العديد من المكونات لضبط الأبعاد أو استخراج تفاصيل التصميم من النماذج ثلاثية الأبعاد لإنشاء رسومات جاهزة للإنتاج عالية الجودة."
+#: index.php:140
+msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
+"          them as a base to build other objects. It contains many components\n"
+"          to adjust dimensions or extract design details from 3D models to\n"
+"          create high quality production ready drawings."
+msgstr ""
 
-#: index.php:328 index.php:340
+#: index.php:154
 msgid "Accessible, flexible & integrated"
 msgstr "إمكانيه الوصول والمرونة والتكامل"
 
-#: index.php:331 index.php:343
-msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly \n"
-"\t\t\t\t\tcustomizable and extensible software. It reads and writes to many open \n"
-"\t\t\t\t\tfile formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE and many \n"
-"\t\t\t\t\tothers, making it possible to seamlessly integrate it into your workflow."
-msgstr "فري كاد برنامج متعدد المنصات (ويندوز، ماك، لينكس)، وهو برنامج قابل للتخصيص بدرجة كبيرة وقابل للتوسع. يحرر وينشئ العديد من تنسيقات الملفات مفتوحة المصدر مثل STEP و IGES و STL و SVG و DXF و OBJ و IFC و DAE والعديد من التنسيقات الأخرى، مما يجعل من الممكن دمجه بسلاسة في سير عملك."
+#: index.php:156
+msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly\n"
+"          customizable and extensible software. It reads and writes to many\n"
+"          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
+"          and many others, making it possible to seamlessly integrate it into\n"
+"          your workflow."
+msgstr ""
 
-#: index.php:354 index.php:371
+#: index.php:171
 msgid "Designed for your needs"
 msgstr "مصممه لتلبيه احتياجاتك"
 
-#: index.php:357 index.php:374
-msgid "FreeCAD is designed to fit a wide range of uses including \n"
-"\t\t\t\t\tproduct design, mechanical engineering and architecture. Whether you \n"
-"\t\t\t\t\tare a hobbyist, a programmer, an experienced CAD user, a student or \n"
-"\t\t\t\t\ta teacher, you will feel right at home with FreeCAD."
-msgstr "صُمم فري كاد ليناسب مجموعة واسعة من الاستخدامات بما في ذلك تصميم المنتجات والهندسة الميكانيكية والمعمارية. فسواء كنت هاوياً أو مبرمجًا أو من مستخدمي الكاد ذو الخبرة أو طالبًا أو معلماً فستشعر أنك في موطنك مع فري كاد."
+#: index.php:173
+msgid "FreeCAD is designed to fit a wide range of uses including product\n"
+"          design, mechanical engineering and architecture. Whether you are a\n"
+"          hobbyist, a programmer, an experienced CAD user, a student or a\n"
+"          teacher, you will feel right at home with FreeCAD."
+msgstr ""
 
-#: index.php:390 index.php:408
+#: index.php:187
 msgid "And many more great features"
 msgstr "والعديد من الميزات الرائعة"
 
-#: index.php:393 index.php:411
-msgid "FreeCAD equips you with all the right tools for your needs. \n"
-"\t\t\t\t\tYou get modern Finite Element Analysis (FEA) tools, experimental CFD, \n"
-"\t\t\t\t\tBIM, Geodata workbenches, Path workbench, a robot simulation module that \n"
-"\t\t\t\t\tallows you to study robot movements and many more features. FreeCAD \n"
-"\t\t\t\t\treally is a Swiss Army knife of general-purpose engineering toolkits."
-msgstr "فري كاد يزودك بجميع الأدوات المناسبة لاحتياجاتك. يمكنك الحصول على أدوات حديثة لتحليل عناصر FEA، وتجارب CFD ، و BIM ، و Geodata ، ومسار طاولة العمل، ومحاكاة الروبوتات التي تتيح لك دراسة حركات الروبوت والعديد من الميزات الأخرى. يعد فري كاد حقًا كسكين الجيش السويسري يضم مجموعة أدوات هندسية للأغراض العامة."
+#: index.php:189
+msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
+"          modern Finite Element Analysis (FEA) tools, experimental CFD, BIM,\n"
+"          Geodata workbenches, Path workbench, a robot simulation module that\n"
+"          allows you to study robot movements and many more features. FreeCAD\n"
+"          really is a Swiss Army knife of general-purpose engineering\n"
+"          toolkits."
+msgstr ""
 
-#: index.php:402 index.php:420
+#: index.php:197
 msgid "Learn more"
 msgstr "أعرف أكثر"
 
-#: index.php:428 index.php:450
+#: index.php:208
 msgid "Want to contribute to FreeCAD?"
 msgstr "هل تريد المساهمة فى مشروع فري كاد؟"
 
-#: index.php:431 index.php:453
-msgid "FreeCAD is a truly open source project and if you would \n"
-"\t\t\t\t\tlike to help fix bugs, implement new cool features or work on the \n"
-"\t\t\t\t\tdocumentation, we invite you to join us and create a software that \n"
-"\t\t\t\t\tbenefits the whole community."
-msgstr "يعد فري كاد مشروعًا مفتوح المصدر حقًا ، وإذا كنت ترغب في المساعدة في إصلاح الاخطاء أو إضافة ميزات جديدة أو العمل على الوثائق، فنحن ندعوك للانضمام إلينا لإنشاء برنامج يستفيد منه المجتمع ككل."
+#: index.php:210
+msgid "FreeCAD is a truly open source project and if you would like to help\n"
+"          fix bugs, implement new cool features or work on the documentation,\n"
+"          we invite you to join us and create a software that benefits the\n"
+"          whole community."
+msgstr ""
 
-#: index.php:439 index.php:461
+#: index.php:216
 msgid "Get involved"
 msgstr "اشترك معنا"
+
+#: index.php:228
+msgid "Videos"
+msgstr ""
+
+#: translation.php:54
+msgid "English"
+msgstr "الإنجليزية"
+
+#: translation.php:55
+msgid "Afrikaans"
+msgstr "الأفريقانية"
+
+#: translation.php:56
+msgid "Arabic"
+msgstr ""
+
+#: translation.php:57
+msgid "Catalan"
+msgstr ""
+
+#: translation.php:58
+msgid "Czech"
+msgstr "التشيكية"
+
+#: translation.php:59
+msgid "German"
+msgstr "الألمانية"
+
+#: translation.php:60
+msgid "Greek"
+msgstr "اليونانية"
+
+#: translation.php:61
+msgid "Spanish"
+msgstr "الاسبانية"
+
+#: translation.php:62
+msgid "Basque"
+msgstr ""
+
+#: translation.php:63
+msgid "Finnish"
+msgstr "الفنلندية"
+
+#: translation.php:64
+msgid "Filipino"
+msgstr ""
+
+#: translation.php:65
+msgid "French"
+msgstr "الفرنسية"
+
+#: translation.php:66
+msgid "Galician"
+msgstr ""
+
+#: translation.php:67
+msgid "Croatian"
+msgstr "الكرواتية"
+
+#: translation.php:68
+msgid "Hungarian"
+msgstr "المجرية"
+
+#: translation.php:69
+msgid "Indonesian"
+msgstr ""
+
+#: translation.php:70
+msgid "Italian"
+msgstr "الايطالية"
+
+#: translation.php:71
+msgid "Japanese"
+msgstr "اليابانية"
+
+#: translation.php:72
+msgid "Kabyle"
+msgstr ""
+
+#: translation.php:73
+msgid "Korean"
+msgstr ""
+
+#: translation.php:74
+msgid "Lithuanian"
+msgstr ""
+
+#: translation.php:75
+msgid "Dutch"
+msgstr "الهولندية"
+
+#: translation.php:76
+msgid "Norwegian"
+msgstr "النرويجية"
+
+#: translation.php:77
+msgid "Polish"
+msgstr "البولندية"
+
+#: translation.php:78 translation.php:79
+msgid "Portuguese"
+msgstr "البرتغالية"
+
+#: translation.php:80
+msgid "Romanian"
+msgstr "الرومانية"
+
+#: translation.php:81
+msgid "Russian"
+msgstr "الروسية"
+
+#: translation.php:82
+msgid "Slovak"
+msgstr "السلوفاكية"
+
+#: translation.php:83
+msgid "Slovenian"
+msgstr "السلوفانية"
+
+#: translation.php:84
+msgid "Serbian"
+msgstr ""
+
+#: translation.php:85
+msgid "Swedish"
+msgstr "السويدية"
+
+#: translation.php:86
+msgid "Turkish"
+msgstr "التركية"
+
+#: translation.php:87
+msgid "Ukrainian"
+msgstr "الاوكرانية"
+
+#: translation.php:88
+msgid "Valencian"
+msgstr ""
+
+#: translation.php:89
+msgid "Vietnamese"
+msgstr ""
+
+#: translation.php:90 translation.php:91
+msgid "Chinese"
+msgstr ""
 

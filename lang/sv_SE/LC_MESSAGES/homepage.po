@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-10 10:36-0200\n"
-"PO-Revision-Date: 2020-03-05 14:07\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2020-07-24 11:23-0400\n"
+"PO-Revision-Date: 2020-09-30 12:20\n"
+"Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
@@ -12,426 +12,396 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: freecad\n"
+"X-Crowdin-Project-ID: 286\n"
 "X-Crowdin-Language: sv-SE\n"
 "X-Crowdin-File: homepage.po\n"
+"X-Crowdin-File-ID: 27908\n"
 
-#: downloads.php:45
-msgid "FreeCAD: Select Your Platform"
-msgstr "FreeCAD: Välj plattform"
+#: downloads.php:12
+msgid "FreeCAD: Select your platform"
+msgstr "FreeCAD: Välj din plattform"
 
-#: downloads.php:65 index.php:65
+#: downloads.php:47 index.php:47
 msgid "Features"
 msgstr "Funktioner"
 
-#: downloads.php:71 index.php:71
+#: downloads.php:51 index.php:51
 msgid "Downloads"
 msgstr "Nedladdningar"
 
-#: downloads.php:77 index.php:77
+#: downloads.php:55 index.php:55
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: downloads.php:83 index.php:83
-msgid "Forum"
-msgstr "Forum"
-
-#: downloads.php:89 downloads.php:419 index.php:89 index.php:518
-msgid "Contribute"
-msgstr "Bidra"
-
-#: downloads.php:95 downloads.php:430 index.php:95 index.php:529
-msgid "Donate"
-msgstr "Donera"
-
-#: downloads.php:101 index.php:101
-msgid "Showcase"
-msgstr "Exempel"
-
-#: downloads.php:113 index.php:113
-msgid "Afrikaans"
-msgstr "Afrikaans"
-
-#: downloads.php:117 index.php:117
-msgid "Chinese Simplified"
-msgstr "Kinesiska (förenklad)"
-
-#: downloads.php:121 index.php:121
-msgid "Chinese Traditional"
-msgstr "Kinesiska (traditionell)"
-
-#: downloads.php:125 index.php:125
-msgid "Croatian"
-msgstr "Kroatiska"
-
-#: downloads.php:129 index.php:129
-msgid "Czech"
-msgstr "Tjeckiska"
-
-#: downloads.php:133 index.php:133
-msgid "Dutch"
-msgstr "Nederländska"
-
-#: downloads.php:137 index.php:137
-msgid "English"
-msgstr "Engelska"
-
-#: downloads.php:141 index.php:141
-msgid "Finnish"
-msgstr "Finska"
-
-#: downloads.php:145 index.php:145
-msgid "French"
-msgstr "Franska"
-
-#: downloads.php:149 index.php:149
-msgid "German"
-msgstr "Tyska"
-
-#: downloads.php:153 index.php:153
-msgid "Hungarian"
-msgstr "Ungerska"
-
-#: downloads.php:157 index.php:157
-msgid "Japanese"
-msgstr "Japanska"
-
-#: downloads.php:161 index.php:161
-msgid "Norwegian"
-msgstr "Norska"
-
-#: downloads.php:165 index.php:165
-msgid "Polish"
-msgstr "Polska"
-
-#: downloads.php:169 index.php:169
-msgid "Portuguese"
-msgstr "Portugisiska"
-
-#: downloads.php:173 index.php:173
-msgid "Romanian"
-msgstr "Rumänska"
-
-#: downloads.php:177 index.php:177
-msgid "Russian"
-msgstr "Ryska"
-
-#: downloads.php:181 index.php:181
-msgid "Serbian (Cyrillic)"
-msgstr "Serbiska (kyrillisk)"
-
-#: downloads.php:185 index.php:185
-msgid "Spanish"
-msgstr "Spanska"
-
-#: downloads.php:189 index.php:189
-msgid "Swedish"
-msgstr "Svenska"
-
-#: downloads.php:193 index.php:193
-msgid "Ukrainian"
-msgstr "Ukrainska"
-
-#: downloads.php:197 index.php:197
-msgid "Italian"
-msgstr "Italienska"
-
-#: downloads.php:205 index.php:205
-msgid "Greek"
-msgstr "Grekiska"
-
-#: downloads.php:209 index.php:209
-msgid "Slovak"
-msgstr "Slovakiska"
-
-#: downloads.php:213 index.php:213
-msgid "Turkish"
-msgstr "Turkiska"
-
-#: downloads.php:217 index.php:217
-msgid "Slovenian"
-msgstr "Slovenska"
-
-#: downloads.php:234
-msgid "Current stable version: 0.17"
-msgstr "Nuvarande stabil version: 0.17"
-
-#: downloads.php:238
-msgid "Select your desired platform"
-msgstr "Välj önskad plattform"
-
-#: downloads.php:288
-msgid "Notes"
-msgstr "Noteringar"
-
-#: downloads.php:291
-msgid "Please note that FreeCAD has still not reached a version 1.0 status \n"
-"\t\t\t\tin our view, and might not be ready for production use. Nevertheless multitudes of \n"
-"\t\t\t\tusers use it. To find out if FreeCAD is appropriate for your project, please check \n"
-"\t\t\t\tout the "
-msgstr "Vänligen lägg märke till att vi inte bedömer att FreeCAD har nått version 1.0-status och därför kanske inte är redo för användning i produktion. Oavsett det så används det redan av många användare. För att ta reda på om FreeCAD är lämpligt för ditt projekt, besök "
-
-#: downloads.php:296
-msgid "FreeCAD forum."
-msgstr "FreeCAD-forumet."
-
-#: downloads.php:301
-msgid "The first 0.17 release of FreeCAD (0.17.13509) was published \n"
-"\t\t\t\ton 2018-04-06. Many bug fix releases have been published since then, the latest bug \n"
-"\t\t\t\tfix release 0.17.13541 was published on 2018-08-16. It might not be available to all \n"
-"\t\t\t\toperating systems at this time. To find out what's new, see the "
-msgstr "Den första 0.17 utgåvan av FreeCAD (0.17.13509) släpptes \n"
-"\t\t\t\t 2018-04-06. Många felrättningar har släppts sen dess, den senaste\n"
-"\t\t\t\tutgåvan 0.17.13541 släpptes 2018-08-16. Den är kanske inte tillgänglig\n"
-"\t\t\t\tför alla operativsystems ännu. För att få reda på vad som är nytt se "
-
-#: downloads.php:306
-msgid "release notes."
-msgstr "noteringar för utgåva."
-
-#: downloads.php:311
-msgid "You will find SHA256 checksums (to verify integrity of your download) \n"
-"\t\t\t\tand Windows portable versions on the "
-msgstr "Du hittar SHA256-kontrollsummor (för att bekräfta din nerladdnings integritet) \n"
-"\t\t\t\toch Windows bärbara versioner på "
-
-#: downloads.php:314
-msgid "0.17 Release page on GitHub"
-msgstr "Utgåva 0.17 på GitHub"
-
-#: downloads.php:316
-msgid " (Older portable builds have been pruned. Availability will return in \n"
-"\t\t\t\tthe future)."
-msgstr " (Äldre portabla byggen har rensats bort. De kommer tillbaka i \n"
-"\t\t\t\tframtiden)."
-
-#: downloads.php:320
-msgid "Notes for Windows users"
-msgstr "Notiser för Windows-användare"
-
-#: downloads.php:323
-msgid "The 32-Bit installer (x86) supports the following versions of \n"
-"\t\t\t\tWindows: 7/8/10."
-msgstr "32-bitars-installationen (x86) stöder följande versioner av \n"
-"\t\t\t\tWindows: 7/8/10."
-
-#: downloads.php:325
-msgid "The 64-Bit installer (x64) supports the following versions of \n"
-"\t\t\t\tWindows: 7/8/10."
-msgstr "64 bitars-installationen (x64) stöder följande versioner av \n"
-"\t\t\t\tWindows: 7/8/10."
-
-#: downloads.php:329
-msgid "Notes for Mac OS X users"
-msgstr "Notiser för Mac OS X-användare"
-
-#: downloads.php:331
-msgid "Mac OS X 10.11 El Capitan is the minimum supported version."
-msgstr "Mac OS X 10.11 El Capitan eller senare krävs."
-
-#: downloads.php:333
-msgid "Notes for GNU/Linux users"
-msgstr "Notiser för GNU/Linux-användare"
-
-#: downloads.php:336
-msgid "FreeCAD can be installed from most Linux distributions official \n"
-"\t\t\t\trepositories, but the version they provide might be quite dated and be missing \n"
-"\t\t\t\tmany features. Instead you can download the linked AppImage above, mark it as \n"
-"\t\t\t\texecutable and launch it without installation. Please see the "
-msgstr "FreeCAD kan installeras från de flesta Linux distributioners \n"
-"\t\t\t\tofficiella förråd, men den tillgängliga versionen kan vara föråldrad och sakna många \n"
-"\t\t\t\tfunktioner. Du kan istället ladda ner en AppImage här, markera den som körbar och \n"
-"\t\t\t\tkör utan att installera. Se "
-
-#: downloads.php:341
-msgid "Install on Unix"
-msgstr "Installera i Unix"
-
-#: downloads.php:343
-msgid " page for more installation options, including how to get up-to-date \n"
-"\t\t\t\tpackages for Ubuntu and derivatives."
-msgstr " sidan för fler installationsalternativ, inklusive hur du får tag på aktuella \n"
-"\t\t\t\tUbuntupaket."
-
-#: downloads.php:347
-msgid "Development Versions"
-msgstr "Utvecklingsversioner"
-
-#: downloads.php:350
-msgid "FreeCAD's development is always active! Do you want to check \n"
-"\t\t\t\tout the 0.18 development release? For MacOS, Windows, Linux (AppImage) and \n"
-"\t\t\t\tsource code, see the "
-msgstr "FreeCAD utvecklas hela tiden! Vill du testa \n"
-"\t\t\t\tutvecklingsutgåvan 0.18? För MacOS, Windows, Linux (AppImage) eller \n"
-"\t\t\t\tsom källkod, se "
-
-#: downloads.php:353
-msgid "FreeCAD \n"
-"\t\t\t\treleases page."
-msgstr "FreeCAD \n"
-"\t\t\t\tsida för utgåvor."
-
-#: downloads.php:357
-msgid "Additional Modules and Macros"
-msgstr "Extra moduler och makron"
-
-#: downloads.php:360
-msgid "The FreeCAD community provides a wealth of additional modules \n"
-"\t\t\t\tand macros. They can now easily be installed directly from within FreeCAD \n"
-"\t\t\t\tusing the "
-msgstr "FreeCAD-gemenskapen erbjuder en stor bredd av extra moduler \n"
-"\t\t\t\toch makron. De kan lätt installeras direkt inifrån FreeCAD \n"
-"\t\t\t\tmed hjälp av "
-
-#: downloads.php:363
-msgid "Addon manager."
-msgstr "Tilläggshanterare."
-
-#: downloads.php:371 index.php:470
+#: downloads.php:59 index.php:59
 msgid "Community"
 msgstr "Gemenskap"
 
-#: downloads.php:400 index.php:499
+#: downloads.php:75 downloads.php:211 index.php:77 index.php:234
+msgid "Contribute"
+msgstr "Bidra"
+
+#: downloads.php:85 downloads.php:214 index.php:88 index.php:237
+msgid "Donate"
+msgstr "Donera"
+
+#: downloads.php:89 index.php:92
+msgid "Showcase"
+msgstr "Exempel"
+
+#: downloads.php:102
+msgid "Current stable version: 0.18.4"
+msgstr "Nuvarande stabil version: 0.18.4"
+
+#: downloads.php:103
+msgid "Select your desired platform"
+msgstr "Välj önskad plattform"
+
+#: downloads.php:124
+msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
+msgstr "Windows 7 är den äldsta versionen som stöds. För mer information om installationen, se "
+
+#: downloads.php:125 downloads.php:145 downloads.php:165
+msgid "wiki"
+msgstr "wiki"
+
+#: downloads.php:144
+msgid "Mac OS X 10.11 El Capitan is the minimum supported version. For more info on installation, please check out the "
+msgstr "Mac OS X 10.11 El Capitan är den äldsta versionen som stöds, För mer information om installationen, se "
+
+#: downloads.php:164
+msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
+msgstr "För distro-specifika instruktioner, såsom Ubuntu PPA, och andra sätt att installera på Linux, vänligen se "
+
+#: downloads.php:177
+msgid "Development versions"
+msgstr "Utvecklingsversioner"
+
+#: downloads.php:179
+msgid "FreeCAD's development is always active! Do you want to check out the latest development \n"
+"        release? For MacOS, Windows, Linux (AppImage) and source code, see the "
+msgstr "FreeCAD utvecklas hela tiden! Vill du testa utvecklingsutgåvan? \n"
+" För MacOS, Windows, Linux (AppImage) eller som källkod, se "
+
+#: downloads.php:181
+msgid "FreeCAD releases page."
+msgstr "FreeCAD sida för utgåvor."
+
+#: downloads.php:190
+msgid "Additional modules and macros"
+msgstr "Extra moduler och makron"
+
+#: downloads.php:192
+msgid "The FreeCAD community provides a wealth of additional modules and macros. They can \n"
+"        now easily be installed directly from within FreeCAD using the  "
+msgstr "FreeCAD-gemenskapen erbjuder en stor bredd av extra moduler och makron. De kan lätt installeras direkt inifrån FreeCAD \n"
+"med hjälp av  "
+
+#: downloads.php:194
+msgid "Addon manager."
+msgstr "Tilläggshanterare."
+
+#: downloads.php:202 index.php:225
+msgid "Learn"
+msgstr "Lär dig"
+
+#: downloads.php:204 index.php:227
 msgid "Tutorials"
 msgstr "Övningar"
 
-#: downloads.php:406 index.php:505
-msgid "Youtube Videos"
-msgstr "Youtube-videor"
+#: downloads.php:205
+msgid "Youtube videos"
+msgstr "YouTube-videor"
 
-#: downloads.php:424 index.php:523
+#: downloads.php:213 index.php:236
 msgid "How can I help?"
 msgstr "Hur kan jag hjälpa?"
 
-#: downloads.php:436 index.php:535
+#: downloads.php:215 index.php:238
 msgid "Translate"
 msgstr "Översätt"
 
-#: downloads.php:443 index.php:542
+#: downloads.php:220 index.php:243
 msgid "Code"
 msgstr "Kod"
 
-#: downloads.php:448 index.php:547
+#: downloads.php:222 index.php:245
 msgid "Building from source"
 msgstr "Att bygga från källkod"
 
-#: downloads.php:454 index.php:553
+#: downloads.php:223 index.php:246
 msgid "C++ & Python API"
 msgstr "C++ & Python API"
 
-#: downloads.php:460 index.php:559
+#: downloads.php:224 index.php:247
 msgid "License information"
 msgstr "Licensinformation"
 
-#: downloads.php:468 index.php:567
-msgid "© The FreeCAD Team. Homepage Image Credits (Top to bottom): \n"
-"\t\t\tppemawm, r-frank, epileftric, regis, rider_mortagnais, bejant. \n"
-"\t\t\tHomepage design by AR795."
-msgstr "© FreeCAD Teamet. Hemsidans bildkällor(Uppifrån och ned): \n"
-"\t\t\tppemawm, r-frank, epileftric, regis, rider_mortagnais, bejant. \n"
-"\t\t\tHemsidedesign av AR795."
+#: downloads.php:242 index.php:265
+msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
+"      r-frank, epileftric, regis, rider_mortagnais, bejant."
+msgstr "© FreeCAD Teamet. Hemsidans bildkällor(Uppifrån och ned): ppemawm,\n"
+" r-frank, epileftric, regis, rider_mortagnais, bejant."
 
-#: index.php:45
-msgid "FreeCAD: Your Own 3D Parametric Modeler"
+#: index.php:12
+msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Din egen parametriska 3D-modellerare"
 
-#: index.php:234
+#: index.php:105
 msgid "FreeCAD"
 msgstr "FreeCAD"
 
-#: index.php:236
-msgid "Your Own 3D Parametric Modeler"
+#: index.php:106
+msgid "Your own 3D parametric modeler"
 msgstr "Din egen parametriska 3D-modellerare"
 
-#: index.php:239
-msgid "Download"
-msgstr "Hämta"
+#: index.php:108
+msgid "Download now"
+msgstr "Ladda ner nu"
 
-#: index.php:241
-msgid "0.17"
-msgstr "0.17"
-
-#: index.php:245
+#: index.php:109
 msgid "See what's new"
 msgstr "Se vad som är nytt"
 
-#: index.php:266 index.php:278
+#: index.php:122
 msgid "Freedom to build what you want"
 msgstr "Frihet att bygga vad du vill"
 
-#: index.php:269 index.php:281
-msgid "FreeCAD is an open-source parametric 3D modeler made primarily \n"
-"\t\t\t\t\tto design real-life objects of any size. Parametric modeling allows you to \n"
-"\t\t\t\t\teasily modify your design by going back into your model history and changing \n"
-"\t\t\t\t\tits parameters."
-msgstr "FreeCAD är en parametrisk 3D-modellerare baserad på öppen källkod. Den är avsedd att användas för att \n"
-"\t\t\t\t\tdesigna verkliga föremål, oavsett storlek. Parametriskt modellerande låter dig \n"
-"\t\t\t\t\tenkelt förändra din design genom att gå tillbaka i modellens historik och ändra \n"
-"\t\t\t\t\tdess parametrar."
+#: index.php:124
+msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
+"          design real-life objects of any size. Parametric modeling allows you\n"
+"          to easily modify your design by going back into your model history\n"
+"          and changing its parameters."
+msgstr "FreeCAD är en parametrisk 3D-modellerare baserad på öppen källkod.\n"
+" Den är avsedd att användas för att designa verkliga föremål, oavsett storlek. Parametriskt modellerande låter dig \n"
+"enkelt förändra din design genom att gå tillbaka i modellens historik och ändra dess parametrar."
 
-#: index.php:292 index.php:309
+#: index.php:138
 msgid "Create 3D from 2D & back"
 msgstr "Skapa 3D från 2D och tillbaka"
 
-#: index.php:295 index.php:312
-msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and \n"
-"\t\t\t\t\tuse them as a base to build other objects. It contains many components to \n"
-"\t\t\t\t\tadjust dimensions or extract design details from 3D models to create high \n"
-"\t\t\t\t\tquality production ready drawings."
-msgstr "FreeCAD låter dig skapa geometribegränsade 2D-skisser och \n"
-"\t\t\t\t\tanvända dem som grund för andra objekt. FreeCAD innehåller flera funktioner för att \n"
-"\t\t\t\t\tjustera måttsättningar eller hämta designinformation från 3D-modeller för att skapa \n"
-"\t\t\t\t\thögkvalitativa ritningar som är redo för produktion."
+#: index.php:140
+msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
+"          them as a base to build other objects. It contains many components\n"
+"          to adjust dimensions or extract design details from 3D models to\n"
+"          create high quality production ready drawings."
+msgstr "FreeCAD låter dig skapa geometribegränsade 2D-skisser och använda\n"
+" dem som grund för andra objekt. Det innehåller flera funktioner för att \n"
+"justera måttsättningar eller hämta designinformation från 3D-modeller för att skapa \n"
+"högkvalitativa ritningar som är redo för produktion."
 
-#: index.php:328 index.php:340
+#: index.php:154
 msgid "Accessible, flexible & integrated"
 msgstr "Tillgängligt, flexibelt och integrerat"
 
-#: index.php:331 index.php:343
-msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly \n"
-"\t\t\t\t\tcustomizable and extensible software. It reads and writes to many open \n"
-"\t\t\t\t\tfile formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE and many \n"
-"\t\t\t\t\tothers, making it possible to seamlessly integrate it into your workflow."
-msgstr "FreeCAD finns tillgängligt för flera olika plattformar (Windows, Mac och Linux) och kan i hög grad anpassas och utökas. Det läser och skriver till många öppna filformat, såsom STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE och många fler. Därigenom kan det sömlöst bli en del av ditt arbetsflöde."
+#: index.php:156
+msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly\n"
+"          customizable and extensible software. It reads and writes to many\n"
+"          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
+"          and many others, making it possible to seamlessly integrate it into\n"
+"          your workflow."
+msgstr "FreeCAD finns tillgängligt för flera olika plattformar (Windows, Mac och Linux) \n"
+"och kan i hög grad anpassas och utökas. Det läser och skriver till många öppna filformat,\n"
+"såsom STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE och många fler. Därigenom kan det sömlöst \n"
+"bli en del av ditt arbetsflöde."
 
-#: index.php:354 index.php:371
+#: index.php:171
 msgid "Designed for your needs"
 msgstr "Designat utifrån dina behov"
 
-#: index.php:357 index.php:374
-msgid "FreeCAD is designed to fit a wide range of uses including \n"
-"\t\t\t\t\tproduct design, mechanical engineering and architecture. Whether you \n"
-"\t\t\t\t\tare a hobbyist, a programmer, an experienced CAD user, a student or \n"
-"\t\t\t\t\ta teacher, you will feel right at home with FreeCAD."
-msgstr "FreeCAD är designat för att passa flera olika användningsområden, till exempel produktutveckling, maskinteknik och arkitektur. Vare sig du är en hobbyist, en programmerare, en erfaren CAD-användare, en student eller en lärare så kommer du att känna dig som hemma med FreeCAD."
+#: index.php:173
+msgid "FreeCAD is designed to fit a wide range of uses including product\n"
+"          design, mechanical engineering and architecture. Whether you are a\n"
+"          hobbyist, a programmer, an experienced CAD user, a student or a\n"
+"          teacher, you will feel right at home with FreeCAD."
+msgstr "FreeCAD är designat för att passa flera olika användningsområden,\n"
+"till exempel produktutveckling, maskinteknik och arkitektur. Vare sig du är en hobbyist, \n"
+"en programmerare, en erfaren CAD-användare, en student eller en \n"
+"lärare så kommer du att känna dig som hemma med FreeCAD."
 
-#: index.php:390 index.php:408
+#: index.php:187
 msgid "And many more great features"
 msgstr "Och många andra funktioner"
 
-#: index.php:393 index.php:411
-msgid "FreeCAD equips you with all the right tools for your needs. \n"
-"\t\t\t\t\tYou get modern Finite Element Analysis (FEA) tools, experimental CFD, \n"
-"\t\t\t\t\tBIM, Geodata workbenches, Path workbench, a robot simulation module that \n"
-"\t\t\t\t\tallows you to study robot movements and many more features. FreeCAD \n"
-"\t\t\t\t\treally is a Swiss Army knife of general-purpose engineering toolkits."
-msgstr "FreeCAD förser dig med rätt verktyg för dina behov. Du får bland mycket annat moderna verktyg för analys med finita elementmetoden (FEA), experimentell CFD, BIM, arbetsbänkar för geodata och för att skapa CNC-instruktioner samt en modul för robotsimulering som låter dig studera robotars rörelser. FreeCAD är verkligen som en schweizisk armékniv när det kommer till verktyg för ingenjörsteknik."
+#: index.php:189
+msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
+"          modern Finite Element Analysis (FEA) tools, experimental CFD, BIM,\n"
+"          Geodata workbenches, Path workbench, a robot simulation module that\n"
+"          allows you to study robot movements and many more features. FreeCAD\n"
+"          really is a Swiss Army knife of general-purpose engineering\n"
+"          toolkits."
+msgstr "FreeCAD förser dig med rätt verktyg för dina behov. Du får bland \n"
+"mycket annat moderna verktyg för analys med finita elementmetoden (FEA), experimentell CFD, BIM, \n"
+"arbetsbänkar för geodata och för att skapa CNC-instruktioner samt en modul för robotsimulering som låter dig studera robotars rörelser. \\mFreeCAD är verkligen som en schweizisk armékniv när det kommer till verktyg för \n"
+"ingenjörsteknik."
 
-#: index.php:402 index.php:420
+#: index.php:197
 msgid "Learn more"
 msgstr "Läs mer"
 
-#: index.php:428 index.php:450
+#: index.php:208
 msgid "Want to contribute to FreeCAD?"
 msgstr "Vill du bidra till FreeCAD?"
 
-#: index.php:431 index.php:453
-msgid "FreeCAD is a truly open source project and if you would \n"
-"\t\t\t\t\tlike to help fix bugs, implement new cool features or work on the \n"
-"\t\t\t\t\tdocumentation, we invite you to join us and create a software that \n"
-"\t\t\t\t\tbenefits the whole community."
-msgstr "FreeCAD är ett projekt med verkligt öppen källkod. Om du vill hjälpa till att fixa buggar, implementera nya häftiga funktioner eller arbeta med dokumentationen är du välkommen att vara med oss och skapa en mjukvara som är till nytta för alla människor."
+#: index.php:210
+msgid "FreeCAD is a truly open source project and if you would like to help\n"
+"          fix bugs, implement new cool features or work on the documentation,\n"
+"          we invite you to join us and create a software that benefits the\n"
+"          whole community."
+msgstr "FreeCAD är ett projekt med verkligt öppen källkod. Om du vill hjälpa till \n"
+"att fixa buggar, implementera nya häftiga funktioner eller arbeta med \n"
+"dokumentationen är du välkommen att vara med oss och skapa en mjukvara \n"
+"som är till nytta för alla människor."
 
-#: index.php:439 index.php:461
+#: index.php:216
 msgid "Get involved"
 msgstr "Engagera dig"
+
+#: index.php:228
+msgid "Videos"
+msgstr "Videor"
+
+#: translation.php:54
+msgid "English"
+msgstr "Engelska"
+
+#: translation.php:55
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: translation.php:56
+msgid "Arabic"
+msgstr ""
+
+#: translation.php:57
+msgid "Catalan"
+msgstr ""
+
+#: translation.php:58
+msgid "Czech"
+msgstr "Tjeckiska"
+
+#: translation.php:59
+msgid "German"
+msgstr "Tyska"
+
+#: translation.php:60
+msgid "Greek"
+msgstr "Grekiska"
+
+#: translation.php:61
+msgid "Spanish"
+msgstr "Spanska"
+
+#: translation.php:62
+msgid "Basque"
+msgstr ""
+
+#: translation.php:63
+msgid "Finnish"
+msgstr "Finska"
+
+#: translation.php:64
+msgid "Filipino"
+msgstr ""
+
+#: translation.php:65
+msgid "French"
+msgstr "Franska"
+
+#: translation.php:66
+msgid "Galician"
+msgstr ""
+
+#: translation.php:67
+msgid "Croatian"
+msgstr "Kroatiska"
+
+#: translation.php:68
+msgid "Hungarian"
+msgstr "Ungerska"
+
+#: translation.php:69
+msgid "Indonesian"
+msgstr ""
+
+#: translation.php:70
+msgid "Italian"
+msgstr "Italienska"
+
+#: translation.php:71
+msgid "Japanese"
+msgstr "Japanska"
+
+#: translation.php:72
+msgid "Kabyle"
+msgstr ""
+
+#: translation.php:73
+msgid "Korean"
+msgstr ""
+
+#: translation.php:74
+msgid "Lithuanian"
+msgstr ""
+
+#: translation.php:75
+msgid "Dutch"
+msgstr "Nederländska"
+
+#: translation.php:76
+msgid "Norwegian"
+msgstr "Norska"
+
+#: translation.php:77
+msgid "Polish"
+msgstr "Polska"
+
+#: translation.php:78 translation.php:79
+msgid "Portuguese"
+msgstr "Portugisiska"
+
+#: translation.php:80
+msgid "Romanian"
+msgstr "Rumänska"
+
+#: translation.php:81
+msgid "Russian"
+msgstr "Ryska"
+
+#: translation.php:82
+msgid "Slovak"
+msgstr "Slovakiska"
+
+#: translation.php:83
+msgid "Slovenian"
+msgstr "Slovenska"
+
+#: translation.php:84
+msgid "Serbian"
+msgstr "Serbiska"
+
+#: translation.php:85
+msgid "Swedish"
+msgstr "Svenska"
+
+#: translation.php:86
+msgid "Turkish"
+msgstr "Turkiska"
+
+#: translation.php:87
+msgid "Ukrainian"
+msgstr "Ukrainska"
+
+#: translation.php:88
+msgid "Valencian"
+msgstr ""
+
+#: translation.php:89
+msgid "Vietnamese"
+msgstr ""
+
+#: translation.php:90 translation.php:91
+msgid "Chinese"
+msgstr "Kinesiska"
 
