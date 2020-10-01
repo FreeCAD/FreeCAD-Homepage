@@ -48,7 +48,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="downloads.php"><?php echo _('Downloads'); ?></a>
+          <a class="nav-link my-2 rounded-pill" href="<?php echo _('downloads.php'); ?>"><?php echo _('Downloads'); ?></a>
         </li>
 
         <li class="nav-item">
