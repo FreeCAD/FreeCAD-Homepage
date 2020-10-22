@@ -137,7 +137,7 @@
           <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
             <img class="w-100 p-4" src="svg/icon-apple.svg" alt="Mac">
             <h3 class="card-title download-platform-name m-0 pb-3">Mac</h3>
-            <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD_0.18-16146-OSX-x86_64-conda-Qt5-Py3.dmg">64-Bit</a>
+            <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD_0.18-16146-rev1-OSX-x86_64-conda-Qt5-Py3.dmg">64-Bit</a>
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
             <small class="text-muted">
@@ -157,7 +157,7 @@
           <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
             <img class="w-100 p-4" src="svg/icon-linux.svg" alt="Linux">
             <h3 class="card-title download-platform-name m-0 pb-3">Linux</h3>
-            <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD_0.18-16146-Linux-Conda_Py3Qt5_glibc2.12-x86_64.AppImage">64-Bit AppImage</a>
+            <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD_0.18-16146-rev1-Linux-Conda_Py3Qt5_glibc2.12-x86_64.AppImage">64-Bit AppImage</a>
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
             <small class="text-muted">
