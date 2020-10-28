@@ -32,7 +32,7 @@
         </a>
 
         <div class="dropdown-lang dropdown-menu dropdown-menu-right">
-          <?php echo getFlags("/"); ?>
+          <?php echo getFlags("/downloads.php"); ?>
         </div>
       </li>
     </ul>
