@@ -21,7 +21,13 @@
 
 <body>
 	<nav class="navbar fixed-top navbar-expand-xl navbar-dark py-1 navbar-custom">
-    <a class="navbar-brand" href="index.php">
+    <?php
+        $indexurl = "index.php";
+        if ($_GET["lang"] != "") {
+            $indexurl = $indexurl."?lang=".$_GET["lang"];
+        }
+    ?>
+    <a class="navbar-brand" href="<?php echo $indexurl; ?>">
       <img class="img-fluid" src="svg/logo-freecad.svg" alt="FreeCAD Logo"/>
     </a>
 
