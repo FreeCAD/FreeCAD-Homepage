@@ -48,7 +48,13 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="<?php echo _('downloads.php'); ?>"><?php echo _('Downloads'); ?></a>
+          <?php
+            $downloadurl = "downloads.php";
+            if ($_GET["lang"] != "") {
+                $downloadurl = $downloadurl."?lang=".$_GET["lang"];
+            }
+          ?>
+          <a class="nav-link my-2 rounded-pill" href="<?php echo $downloadurl; ?>"><?php echo _('Downloads'); ?></a>
         </li>
 
         <li class="nav-item">
