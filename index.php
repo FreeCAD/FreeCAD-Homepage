@@ -193,8 +193,8 @@
         <h3 class="section-title mt-4 mt-lg-0"><?php echo _('And many more great features'); ?></h3>
         <p class="section-body">
           <?php echo _('FreeCAD equips you with all the right tools for your needs. You get
-          modern Finite Element Analysis (FEA) tools, experimental CFD, BIM,
-          Geodata workbenches, Path workbench, a robot simulation module that
+          modern Finite Element Analysis (FEA) tools, experimental CFD, dedicated BIM,
+          Geodata or CAM/CNC workbenches, a robot simulation module that
           allows you to study robot movements and many more features. FreeCAD
           really is a Swiss Army knife of general-purpose engineering
           toolkits.'); ?>
