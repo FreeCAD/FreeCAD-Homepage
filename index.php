@@ -1,4 +1,10 @@
-<?php include("translation.php"); ?>
+<?php 
+    include("translation.php");
+    $downloadurl = "downloads.php";
+    if ($_GET["lang"] != "") {
+        $downloadurl = $downloadurl."?lang=".$_GET["lang"];
+    }
+?>
 
 <!DOCTYPE html>
 <html lang="<?php echo $lang;?>" class="home">
@@ -48,12 +54,6 @@
         </li>
 
         <li class="nav-item">
-          <?php
-            $downloadurl = "downloads.php";
-            if ($_GET["lang"] != "") {
-                $downloadurl = $downloadurl."?lang=".$_GET["lang"];
-            }
-          ?>
           <a class="nav-link my-2 rounded-pill" href="<?php echo $downloadurl; ?>"><?php echo _('Downloads'); ?></a>
         </li>
 
@@ -83,10 +83,10 @@
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Contribute'); ?></a>
 
           <div class="dropdown-community dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item text-dark" href="https://wiki.freecadweb.org/Help_FreeCAD">How to help?</a>
-            <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls">Pull requests</a>
-            <a class="dropdown-item text-dark" href="http://wiki.freecadweb.org/">Wiki</a>
-            <a class="dropdown-item text-dark" href="http://www.freecadweb.org/tracker/">Bug Tracker</a>
+            <a class="dropdown-item text-dark" href="https://wiki.freecadweb.org/Help_FreeCAD"><?php echo _('How to help?'); ?></a>
+            <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls"><?php echo _('Pull requests'); ?></a>
+            <a class="dropdown-item text-dark" href="http://wiki.freecadweb.org/"><?php echo _('Wiki'); ?></a>
+            <a class="dropdown-item text-dark" href="http://www.freecadweb.org/tracker/"><?php echo _('Bug Tracker'); ?></a>
           </div>
         </li>
 
@@ -111,7 +111,7 @@
         <h1 class="home-title text-light mt-n5 mb-0 mt-lg-0"><?php echo _('FreeCAD'); ?></h1>
         <h2 class="home-subtitle text-light mb-4"><?php echo _('Your own 3D parametric modeler'); ?></h2>
         <div class="flex-column flex-lg-row">
-          <a class="btn btn-light rounded-pill mt-2" role="button" href="downloads.php"><?php echo _('Download now'); ?></a>
+          <a class="btn btn-light rounded-pill mt-2" role="button" href="<?php echo $downloadurl; ?>"><?php echo _('Download now'); ?></a>
           <a class="btn btn-outline-light rounded-pill mt-2" role="button" href="https://www.youtube.com/watch?v=85HlYXnaxbw"><?php echo _("See what's new"); ?></a>
         </div>
       </div>
