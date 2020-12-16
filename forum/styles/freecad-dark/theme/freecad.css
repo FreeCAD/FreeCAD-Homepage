@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Regular.eot');
+    src: local('☺'), url('/fonts/FiraSans-Regular.woff') format('woff'), url('/fonts/FiraSans-Regular.ttf') format('truetype'), url('/fonts/FiraSans-Regular.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto.eot');
+    src: local('☺'), url('/fonts/Roboto.woff') format('woff'), url('/fonts/Roboto.ttf') format('truetype'), url('/fonts/Roboto.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+html.home {
+    background: url(../images/backgrounds/prusa.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 140px;
+    background: transparent;
+    color: #ddd;
+}
+body.mediawiki, body#phpbb {
+    background: #fff;
+    padding-top: 60px;
+    margin-bottom: 0;
+}
+body#phpbb {
+    background: #111;
+}
+p, .wiki-body-section {
+    text-align: justify;
+}
+.nav {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.navbar-brand {
+    font-size: 18px;
+    color: #fff !important;
+}
+.navbar-brand img {
+    margin-right: 0.5em;
+    max-height: 30px;
+    display: inline;
+}
+.nav .uls-trigger i {
+    font-size: 0;
+    margin-right: 10px;
+}
+#wiki-body .nav > li > a {
+    padding: 2px !important;
+}
+.navbar-brand {
+    padding: 10px;
+}
+.nav-stacked > li {
+    text-align: right;
+    padding-left: 3px;
+}
+.nav-stacked li a:hover {
+    background: none;
+    text-decoration: underline;
+}
+.nav-stacked li.active a {
+    text-decoration: underline;
+}
+.dropdown-menu {
+    background-color: #222;
+}
+.dropdown-menu li a {
+    color: #999;
+}
+.dropdown img {
+    max-width: 16px !important;
+}
+#wiki-body {
+    font-size: 1.15em;
+}
+#wiki-body img {
+    max-width: 100%;
+    /*width: auto;
+    height: auto;*/
+}
+.maincontent {
+    margin-top: 120px;
+    color: #000;
+    font-size: 1.15em;
+}
+.mediawiki h2 {
+    margin-top: 35px;
+}
+h2 .mw-headline {
+    padding-top: 40px;
+    font-size: 24px;
+}
+h3 {
+    color: #fff;
+}
+h3 .mw-headline {
+    padding-top: 30px;
+    font-size: 18px;
+}
+.maincontent h4, .maincontent h1 {
+    margin: 25px 0;
+}
+.maincontent a {
+    color: #162766;
+}
+ #wiki-body a not #wiki-body a.new {
+    color: #226DB1;
+}
+.maincontent .nav {
+    margin-top: 100px;
+}
+.affix {
+    /* text-align: right; */
+    width: 230px;
+    max-height: 80%;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+.affix li {
+    margin-bottom: 0 !important;
+    }
+.affix ul li {
+    list-style-type: none;
+    }
+.affix li ul li {
+    list-style-type: none;
+    font-size: 0.8em;
+}
+#toc.toc-sidebar li li {
+    margin-left: 0;
+}
+#toc ul, .toc ul {
+    padding-left: 0;
+}
+.commandRef {
+    margin-bottom: 30px;
+}
+.commandRef li {
+    font-size: 0.8em;
+}
+.mw-pt-languages {
+    margin: 30px 0 15px 0;
+}
+.mw-code {
+    background: #efefef;
+    padding: 5px;
+    margin: 0 0 10px 0;
+}
+#wpTextbox1 {
+    background: #eee;
+    padding: 5px;
+    border: 1px solid #888;
+}
+table.wikitable {
+    background: #fff;
+    border: none;
+}
+table.wikitable .ctOdd {
+    padding: 2px;
+    text-align: left;
+    font-weight: normal;
+    border: none;
+    background: #fff;
+    color: #555;
+}
+table.wikitable .ctEven {
+    text-align: left;
+    margin-bottom: 5px;
+    background: #efefef;
+}
+.fcinfobox {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100% !important;
+}
+.fcinfobox .mw-editsection {
+    display: none;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 140px;
+    background-color: #222;
+    padding-top: 20px;
+}
+.mediawiki footer, #phpbb footer {
+    position: relative;
+}
+
+footer a {
+    color: #555;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+footer ul {
+    margin-top: 8px;
+    padding-left: 0;
+}
+footer li {
+    list-style-type: none;
+}
+textarea {
+    background: #eee;
+    color: #111;
+}
+
+pre {
+    color: #000;
+    background-color: #333;
+    border: 1px solid #444;
+}
+
+@media (max-width: 1681px) {
+    html.home {
+        background: url(../images/backgrounds/prusa.jpg) no-repeat 40% 80% fixed;
+    }
+}
+@media (max-width: 992px) {
+    html.home {
+        background: url(../images/backgrounds/prusa.jpg) no-repeat center right fixed;
+    }
+    body {
+        margin-bottom: 0;
+    }
+    .maincontent {
+        margin-top: 0;
+    }
+    footer {
+        position: relative;
+    }
+    .affix {
+        position: static;
+        top: 0;
+        padding-top: 0;
+        width: auto;
+    }
+}

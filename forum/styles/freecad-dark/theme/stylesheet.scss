@@ -1,0 +1,27 @@
+//
+//	stylesheet.css replacement
+//
+//	This file requires SASS compiler.
+//	You can find instructions here: http://www.artodia.com/phpbb-31-tutorials/compile-theme/
+//
+//	If you have any questions please visit support forum at:
+//		http://www.artodia.com/forums/
+//
+/*!
+	DO NOT EDIT stylesheet.css!
+
+	Edit .scss files instead. See http://www.artodia.com/phpbb-31-tutorials/compile-theme/
+	If you have any questions, please ask on support forum at http://www.artodia.com/forums/
+*/
+@import "_style_config";
+@import "common";
+@import "links";
+@import "content";
+@import "buttons";
+@import "cp";
+@import "forms";
+@import "imageset";
+@media (max-width: 700px) {
+	@import "responsive";
+}
+@import "colours";

@@ -1,0 +1,456 @@
+// Blank FontAwesome replacement
+%imageset-glyph {
+	position: relative;
+	text-indent: 999px;
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		text-align: center;
+		font-size: 13px;
+		line-height: 13px;
+		vertical-align: baseline;
+		font-weight: normal;
+		font-style: normal;
+		text-transform: none;
+		text-indent: 0;
+		pointer-events: none;
+	}
+}
+
+%imageset-fa {
+	@extend %imageset-glyph;
+	&:after {
+		font-family: FontAwesome;
+	}
+}
+
+%imageset-gi {
+	@extend %imageset-glyph;
+	&:after {
+		font-family: 'Glyphicons Regular', 'Glyphicons';
+	}
+}
+
+%imageset-16 {
+	width: 16px;
+	height: 16px;
+	&:after {
+		top: 50%;
+		bottom: auto;
+		margin-top: -8px;
+		height: 16px;
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
+
+%imageset-12 {
+	width: 12px;
+	height: 12px;
+	&:after {
+		top: 50%;
+		bottom: auto;
+		margin-top: -6px;
+		height: 12px;
+		font-size: 10px;
+		line-height: 12px;
+	}
+}
+
+%imageset-arrow {
+	// For latest topic arrows
+	width: 11px;
+	height: 10px;
+	&:after {
+		top: 50%;
+		bottom: auto;
+		margin-top: -5px;
+		height: 10px;
+		font-size: 10px;
+		line-height: 10px;
+	}
+}
+
+// Former imageset
+span.imageset {
+	display: inline-block !important;
+	background: transparent none 0 0 no-repeat;
+	margin: 0;
+	padding: 0;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+// Global imageset items
+// .imageset.icon_post_target {
+// 	@extend %imageset-fa;
+// 	margin-top: -3px;
+// 	top: 2px;
+// 	width: 12px;
+// 	height: 13px;
+// 	&:after {
+// 		top: 50%;
+// 		bottom: auto;
+// 		margin-top: -6px;
+// 		height: 13px;
+// 		font-size: 11px;
+// 		line-height: 13px;
+// 		content: '\f18e';	// fa-arrow-circle-o-right
+// 		text-align: left;
+// 	}
+// 	.rtl &:after {
+// 		content: '\f190';	// fa-arrow-circle-o-left
+// 	}
+// }
+// .imageset.icon_post_target_unread {
+// 	@extend .imageset.icon_post_target;
+// 	&:after {
+// 		content: '\f0a9';	// fa-arrow-circle-right
+// 	}
+// 	.rtl &:after {
+// 		content: '\f0a8';	// fa-arrow-circle-left
+// 	}
+// }
+.imageset.icon_post_target, .imageset.icon_post_target_unread {
+	background-size: 11px 9px;
+	padding-left: 11px;
+	padding-top: 9px;
+}
+.imageset.icon_topic_attach {
+	@extend %imageset-gi;
+	@extend %imageset-12;
+	&:after {
+		content: '\E063';	// glyphicons-paperclip
+	}
+}
+.imageset.icon_topic_latest {
+	@extend %imageset-fa;
+	@extend %imageset-arrow;
+	&:after {
+		content: '\f061';	// fa-arrow-right
+	}
+}
+.imageset.icon_topic_newest {
+	@extend .imageset.icon_topic_latest;
+	@extend %imageset-secondary-color;
+}
+.imageset.icon_topic_reported {
+	@extend %imageset-fa;
+	@extend %imageset-16;
+	@extend %imageset-secondary-color;
+	&:after {
+		content: '\f071';	// fa-exclamation-triangle
+	}
+}
+.imageset.icon_topic_deleted {
+	@extend %imageset-fa;
+	@extend %imageset-16;
+	@extend %imageset-secondary-color;
+	&:after {
+		content: '\f057';	// fa-times-circle
+	}
+}
+.imageset.icon_topic_unapproved {
+	@extend %imageset-fa;
+	@extend %imageset-16;
+	@extend %imageset-secondary-color;
+	&:after {
+		content: '\f059';	// fa-question-circle
+	}
+}
+.imageset.icon_topic_poll {
+	@extend %imageset-gi;
+	@extend %imageset-12;
+	&:after {
+		content: '\E042';	// glyphicons-charts
+	}
+}
+
+.imageset.icon_contact {
+	@extend %imageset-gi;
+	@extend %imageset-12;
+	&:after {
+		content: '\E188';	// glyphicons-more
+	}
+	&:hover:after {
+		content: '\E602';	// glyphicons-chevron-down
+	}
+	.dropdown-up &:hover:after {
+		content: '\E601';	// glyphicons-chevron-up
+	}
+}
+
+
+// Icon images
+// ----------------------------------------
+%icon-image {
+	position: relative;
+	background-image: none;
+	&:after {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 0;
+		height: 14px;
+		margin-top: -7px;
+		text-align: center;
+		font-size: 12px;
+		line-height: 14px;
+		vertical-align: baseline;
+		font-weight: normal;
+		font-style: normal;
+		text-transform: none;
+		text-indent: 0;
+		pointer-events: none;
+	}
+	&.small-icon:after {
+		width: 18px;
+		text-align: center;
+	}
+}
+
+%icon-image-fa {
+	@extend %icon-image;
+	&:after {
+		font-family: FontAwesome;
+	}
+}
+
+%icon-image-gi {
+	@extend %icon-image;
+	&:after {
+		font-family: 'Glyphicons Regular', 'Glyphicons';
+	}
+}
+
+%icon-search-old {
+	@extend %icon-image-gi;
+	&:after {
+		content: '\E028';	// glyphicons-search
+	}
+}
+
+%icon-search-new {
+	@extend %icon-search-old;
+}
+
+%icon-search-misc {
+	@extend %icon-search-old;
+}
+
+.icon-acp {
+	@extend %icon-image-gi;
+	&:after {
+		content: '\E271';	// glyphicons-shield
+	}
+}
+.icon-bookmark {
+	@extend %icon-image-gi;
+	&:after {
+		content: '\E073';	// glyphicons-bookmark
+		margin-left: -1px;
+		margin-right: -1px;
+	}
+}
+.icon-bump {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f079';	// fa-retweet
+	}
+}
+.icon-contact {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f0e0';	// fa-envelope
+	}
+}
+.icon-delete-cookies {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f014';	// fa-trash-o
+	}
+}
+.icon-download {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f019';	// fa-download
+	}
+}
+.icon-faq {
+	@extend %icon-image-gi;
+	&:after {
+		content: '\E195';	// glyphicons-circle-question-mark
+	}
+}
+.icon-home {
+	@extend %icon-image-gi;
+	&:after {
+		content: '\E021';	// glyphicons-home
+	}
+	&.breadcrumbs:after {
+		text-align: left;
+	}
+}
+.icon-logout {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f08b';	// fa-sign-out
+	}
+}
+.icon-login {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f090';	// fa-sign-in
+	}
+}
+.icon-mark {
+	@extend %icon-image-gi;
+	&:after {
+		content: '\E153';	// glyphicons-check
+		margin-top: -8px;
+	}
+}
+.icon-mcp {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f0e3';	// fa-gavel
+	}
+}
+.icon-members {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f007';	// fa-user
+	}
+	&:before {
+		@extend .icon-members:after;
+		display: block;
+		font-size: 10px;
+		padding: 0;
+		padding-left: 4px;
+		padding-top: 1px;
+		opacity: .7;
+	}
+}
+ul.linklist.bulletin > li.small-icon.icon-members:before { 
+	@extend .icon-members:before; 
+}
+.icon-notification {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f0a2';	// fa-bell-o
+	}
+	&.non-zero:after {
+		content: '\f0f3';	// fa-bell
+	}
+}
+.icon-pages {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f0c5';	// fa-copy
+	}
+}
+.icon-pm {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f003';	// fa-envelope-o
+	}
+	&.non-zero:after {
+		content: '\f0e0';	// fa-envelope
+	}
+}
+.icon-print {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f02f';	// fa-print
+	}
+}
+.icon-profile {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f007';	// fa-user
+	}
+}
+.icon-register{
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f234';	// fa-user-plus
+	}
+}
+.icon-search, .responsive-search a	{ @extend %icon-search-old; }
+.icon-search-active			{ @extend %icon-search-old; }
+.icon-search-advanced		{ @extend %icon-search-old; }
+.icon-search-new			{ @extend %icon-search-new; }
+.icon-search-self			{ @extend %icon-search-misc; }
+.icon-search-unanswered		{ @extend %icon-search-new; }
+.icon-search-unread			{ @extend %icon-search-new; }
+.icon-sendemail {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f003';	// fa-envelope-o
+	}
+}
+.icon-subscribe {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f05d';	// fa-check-circle-o
+	}
+}
+.icon-team {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f007';	// fa-user
+	}
+	&:before {
+		@extend .icon-team:after;
+		display: block;
+		font-size: 10px;
+		padding: 0;
+		white-space: nowrap;
+		padding-top: 1px;
+		opacity: .7;
+		content: '\f007\f007';	// fa-user fa-user
+	}
+}
+ul.linklist.bulletin > li.small-icon.icon-team:before { @extend .icon-team:before; }
+.icon-ucp {
+	@extend %icon-image-gi;
+	&:after {
+		content: '\E281';	// glyphicons-settings
+	}
+}
+.icon-unsubscribe {
+	@extend %icon-image-fa;
+	&:after {
+		content: '\f05c';	// times-circle-o
+	}
+}
+.icon-new-posts {
+	@extend %icon-image-gi;
+	&:after {
+		content: '\E245';	// glyphicons-conversation
+	}
+}
+.icon-forums {
+	@extend %icon-image-gi;
+	&:after {
+		content: '\E245';	// glyphicons-conversation
+	}
+}
+.icon-chat {
+	@extend %icon-image-gi;
+	&:after {
+		content: '\E246';	// glyphicons-chat
+	}
+}
+.icon-time {
+	@extend %icon-image-fa;
+	&:after {
+		// content: '\E055';	// glyphicons-clock
+		content: '\f017';	// fa-clock-o
+	}
+}

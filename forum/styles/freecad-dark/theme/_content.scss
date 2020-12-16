@@ -1,0 +1,1245 @@
+// Content Styles
+// ----------------------------------------
+
+ul.topiclist {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+}
+
+ul.topiclist li {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	.forabg &.header,
+	.forumbg &.header {
+		@include section-heading-forum;
+		position: relative;
+		.forum-toggle {
+			position: absolute;
+			right: 5px;
+			top: 50%;
+			margin-top: -8px;
+			height: 16px;
+			width: 16px;
+			text-decoration: none !important;
+			outline-style: none !important;
+			color: inherit;
+			transition: opacity 0.3s ease;
+			opacity: .5;
+			&:after {
+				content: '\E192';	// glyphicons-circle-minus
+				font-family: 'Glyphicons Regular', 'Glyphicons';
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 16px;
+				height: 16px;
+				font-size: 12px;
+				line-height: 16px;
+			}
+			&.toggled:after {
+				content: '\E191';	// glyphicons-circle-plus
+			}
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+ul.topiclist dl {
+	position: relative;
+}
+
+ul.topiclist li.row dl {
+	padding: 2px 0;
+}
+
+ul.topiclist dt, ul.topiclist dd {
+	display: block;
+	float: left;
+}
+
+ul.topiclist dt {
+	width: 100%;
+	margin-right: -440px;
+	font-size: $font-size;
+}
+
+ul.topiclist.missing-column dt {
+	margin-right: -345px;
+}
+
+dl.elegant-row dt,
+ul.topiclist.two-long-columns dt {
+	margin-right: -250px;
+}
+
+ul.topiclist.two-columns dt {
+	margin-right: -80px;
+}
+
+ul.topiclist dt .list-inner {
+	margin-right: 440px;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: relative;
+}
+
+ul.topiclist.missing-column dt .list-inner {
+	margin-right: 345px;
+}
+
+dl.elegant-row dt .list-inner,
+ul.topiclist.two-long-columns dt .list-inner {
+	margin-right: 250px;
+}
+
+ul.topiclist.two-columns dt .list-inner {
+	margin-right: 80px;
+}
+
+ul.topiclist dd {
+	border-left: 1px solid transparent;
+	padding: 4px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ul.topiclist dfn {
+	// Labels for post/view counts
+	display: none;
+	position: absolute;
+	left: -999px;
+	width: 990px;
+}
+
+ul.topiclist li.row dt a.subforum {
+	background-image: none;
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	position: relative;
+	white-space: nowrap;
+	padding: 0 0 0 12px;
+}
+
+.forum-image {
+	float: left;
+	padding-top: 5px;
+	margin-right: 5px;
+}
+
+li.row {
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	&:first-child {
+		border-top-width: 0;
+		padding-top: 0;
+	}
+	&:last-child {
+		border-bottom-width: 0;
+		padding-bottom: 0;
+	}
+
+	@if $split-forums == true {
+		ul.topiclist & {
+			.forabg &, .forumbg & {
+				@include section-forum;
+				margin: 5px 0;
+				padding: 0;
+				&.reported {
+					background-color: $block-background-reported;
+				}
+			}
+		}
+	}
+
+	.forum-description {
+
+	}
+	.subforums-list {
+		ul {
+			list-style-type: none;
+			display: inline;
+			margin: 0;
+		}
+		li {
+			display: inline;
+			& > span {
+				display: inline;
+			}
+		}
+	}
+	.forum-mcplink {
+		position: absolute;
+		right: 4px;
+		top: 4px;
+		.rtl & {
+			right: auto;
+			left: 4px;
+		}
+	}
+}
+
+li.row strong {
+	font-weight: normal;
+}
+
+li.header dt, li.header dd {
+	border-left-width: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: $list-heading-font-size;
+	font-family: $list-heading-font-family;
+	line-height: $list-heading-line-height;
+}
+
+li.header dt {
+	.forabg & {
+		font-family: $forum-heading-font-family;
+		font-weight: $forum-heading-font-weight;
+		font-size: $forum-heading-font-size;
+	}
+	width: 100%;
+	margin-right: -440px;
+	.list-inner {
+		margin-right: 440px;
+		text-indent: 5px;
+	}
+	.forabg &, 
+	.forabg & .list-inner {
+		margin: 0;
+		width: auto;
+		float: none;
+	}
+}
+
+li.header dd {
+	padding-left: 1px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	.forabg & {
+		display: none;
+	}
+}
+
+li.header dl.icon dt, li.header dl.icon dd {
+	min-height: 0;
+}
+
+li.header dl.icon dt .list-inner {
+	// Tweak for headers alignment when folder icon used
+	.forabg & {
+		padding-left: 0;
+		padding-right: 50px;
+	}
+}
+
+// Forum list column styles
+dl.icon {
+	background-position: 10px 50%;		// Position of folder icon
+	background-repeat: no-repeat;
+}
+
+dl.icon dt {
+	background-repeat: no-repeat;
+	background-position: 5px 95%;		// Position of topic icon
+}
+
+dl.icon dt .list-inner {
+	padding-left: 55px;					// Space for folder icon
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	li.header & {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+dl.icon dt .list-inner .topic-status {
+	position: absolute;
+	right: 4px;
+	top: 3px;
+	font-size: 14px;
+	pointer-events: none;
+	.rtl & {
+		right: auto;
+		left: 4px;
+	}
+}
+
+dl.icon dt .list-inner .topic-status + .topic-status {
+	right: 20px;
+}
+
+dl.icon dt, dl.icon dd {
+	min-height: 42px;
+}
+
+dl.icon.with-description dt, dl.icon.with-description dd {
+	min-height: 50px;
+}
+
+dl a.icon-link {						// topic row icon links
+	display: block;
+	width: 36px;
+	height: 36px;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -15px;
+	margin-left: 9px;
+}
+
+dd.posts, dd.topics, dd.views, dd.extra, dd.mark {
+	width: 80px;
+	text-align: center;
+}
+
+dd.posts, dd.topics, dd.views, dd.extra, dd.mark, dd.lastpost.empty {
+	line-height: 34px;
+	font-size: $forum-list-column-font-size;
+	.with-description & {
+		line-height: 42px;
+	}
+}
+
+dd.lastpost.empty br {
+	display: none;
+}
+
+dd.posts, dd.topics, dd.views {
+	width: 95px;
+	.elegant-row & {
+		display: none;
+	}
+}
+
+// List in forum description
+dl.icon dt ol,
+dl.icon dt ul {
+	list-style-position: inside;
+	margin-left: 1em;
+}
+
+dl.icon dt li {
+	display: list-item;
+	list-style-type: inherit;
+}
+
+dd.lastpost, dd.redirect, dd.moderation, dd.time, dd.info {
+	width: 250px;
+	font-size: $forum-list-last-column-font-size;
+}
+
+dd.redirect {
+	line-height: 2.5em;
+}
+
+dd.time {
+	line-height: 200%;
+}
+
+dd.lastpost > span, ul.topiclist dd.info > span, ul.topiclist dd.time > span, dd.redirect > span, dd.moderation > span {
+	display: block;
+	padding-left: 5px;
+}
+
+dd.extra, dd.mark {
+	line-height: 200%;
+}
+
+dd.option {
+	width: 125px;
+	line-height: 200%;
+	text-align: center;
+	font-size: $font-size;
+}
+
+// Forums list layout
+// ----------------------
+.forum-description {
+	font-size: $forum-list-description-font-size;
+	padding-top: 2px;
+}
+
+.forum-statistics {
+	font-size: $font-size;
+	padding-top: 2px;
+	.value {
+	}
+}
+
+.forum-lastpost {
+	display: none;
+	@media (max-width: 550px) {
+		display: table-row !important;
+		padding-top: 2px;
+		table-layout: fixed;
+	}
+	strong, span {
+		display: table-cell;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	strong, span, a.lastsubject {
+		font-weight: normal;
+	}
+	strong {
+		padding-right: 5px;
+		.rtl & {
+			padding-right: 0;
+			padding-left: 5px;
+		}
+	}
+	span {
+		max-width: 200px;
+		text-overflow: ellipsis;
+		&:before {
+			content: '|';
+			display: inline-block;
+			text-align: center;
+			width: 12px;
+		}
+		&:first-of-type:before {
+			display: none;
+		}
+		@media (max-width: 500px) {
+			max-width: 125px;
+		}
+		@media (max-width: 400px) {
+			max-width: 100px;
+		}
+	}
+}
+
+.subforums-list {
+	padding-top: 2px;
+}
+
+.forum-description.toggle {
+	display: none;
+	position: absolute;
+	font-size: $font-size;
+	border-radius: 4px;
+	padding: 4px 9px;
+	max-width: 500px;
+	cursor: pointer;
+	a.forumtitle + & {
+		left: 55px;
+		top: 25px;
+		z-index: 30;
+		.rtl & {
+			left: auto;
+			right: 55px;
+		}
+	}
+	a {
+		background: none !important;
+		text-decoration: underline !important;
+		border-width: 0 !important;
+	}
+	span.arrow {
+		position: absolute;
+		line-height: 0;
+		width: 0;
+		height: 0;
+		border: 6px solid transparent;
+		border-left: 1px none transparent;
+		top: 6px;
+		left: -6px;
+		bottom: auto;
+	}
+	.rtl & span.arrow {
+		border-left: 6px solid transparent;
+		border-right: 1px none transparent;
+		left: auto;
+		right: -6px;
+	}
+	&.no-arrow span.arrow {
+		display: none;
+	}
+}
+
+// Post body styles
+// ----------------------------------------
+.postbody {
+	padding: 0;
+	font-size: $font-size;
+	line-height: $line-height;
+	.postprofile + & {
+		float: $post-side;
+		margin-#{$profile-side}: -#{$post-margin};
+		.rtl & {
+			margin-#{$profile-side}: 0;
+			margin-#{$post-side}: -#{$post-margin};
+		}
+		width: 100%;
+		position: relative;
+		.search & {
+			margin-#{$profile-side}: (-100px - $post-margin);
+			.rtl & {
+				margin-#{$profile-side}: 0;
+				margin-#{$post-side}: (-100px - $post-margin);
+			}
+		}
+	}
+}
+
+.postprofile + .postbody > div {
+	margin-#{$profile-side}: $post-margin;
+	&:only-child:after {
+		content: ' ';
+		display: table;
+		clear: both;
+	}
+	.rtl & {
+		margin-#{$profile-side}: 0;
+		margin-#{$post-side}: $post-margin;
+	}
+	.search & {
+		margin-#{$profile-side}: ($post-margin + 100px);
+		.rtl & {
+			margin-#{$profile-side}: 0;
+			margin-#{$post-side}: ($post-margin + 100px);
+		}
+	}
+}
+
+.postbody .ignore {
+	font-size: $post-content-font-size;
+	line-height: $post-content-line-height;
+}
+
+.postbody h3.first {
+	// The first post on the page uses this
+}
+
+.postbody h3 {
+	// Postbody requires a different h3 format - so change it here
+	float: left;
+	font-size: $post-title-font-size;
+	padding: 2px 0 0 0;
+	margin-top: 0 !important;
+	margin-bottom: 0.3em !important;
+	text-transform: none;
+	border: none;
+	font-family: $post-title-font-family;
+	line-height: $post-title-line-height;
+	.rtl & {
+		float: right;
+	}
+}
+
+.postbody h3 img {
+	vertical-align: bottom;
+}
+
+.has-profile .postbody h3 {
+	// If there is a post-profile, we position the post-buttons differently
+	float: none !important;
+	margin-right: 180px;
+	.rtl & {
+		margin-right: 0;
+		margin-left: 180px;
+	}
+}
+
+.postbody .content {
+	font-size: $post-content-font-size;
+	line-height: $post-content-line-height;
+	overflow-x: auto;
+}
+
+.postbody img.postimage {
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+// Topic review panel
+// ----------------------------------------
+#review {
+	margin-top: 2em;
+}
+
+#topicreview {
+	padding-right: 5px;
+	overflow: auto;
+	height: 300px;
+}
+
+#topicreview .postbody {
+	width: auto;
+	float: none;
+	margin: 0;
+	height: auto;
+}
+
+#topicreview .post {
+	height: auto;
+}
+
+#topicreview h2 {
+	border-bottom-width: 0;
+}
+
+.post-ignore .postbody {
+	display: none;
+}
+
+// MCP Post details
+// ----------------------------------------
+#post_details {
+	overflow: auto;
+	max-height: 300px;
+}
+
+// Content container styles
+// ----------------------------------------
+.content {
+	clear: both;
+	min-height: 3em;
+	overflow: hidden;
+	line-height: $post-content-line-height;
+	font-family: $post-content-font-family;
+	font-size: $post-content-font-size;
+	padding-bottom: 1px;
+}
+
+.content h2, .panel h2 {
+	font-weight: $panel-heading-line-height;
+	border-bottom: 1px solid transparent;
+	font-size: $panel-heading-font-size;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
+	&.faq-title {
+		margin-top: 5px;
+	}
+}
+
+.panel h3 {
+	margin: 0.5em 0;
+}
+
+$panel-font-size:		$font-size + 2px !default;
+$panel-line-height:		$line-height !default;
+
+.panel p {
+	font-size: $panel-font-size;
+	margin-bottom: 1em;
+	line-height: $panel-line-height;
+}
+
+.content p {
+	font-family: $post-content-font-family;
+	font-size: $post-content-font-size;
+	margin-bottom: 1em;
+	line-height: $post-content-line-height;
+}
+
+dl.faq {
+	font-family: $post-content-font-family;
+	font-size: $post-content-font-size;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	line-height: $post-content-line-height;
+}
+
+dl.faq dt {
+	font-family: $post-title-font-family;
+	font-size: $post-title-font-size;
+	line-height: $post-title-line-height;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+.content dl.faq {
+	@extend dl.faq;
+	margin-bottom: 0.5em;
+}
+
+.content li {
+	list-style-type: inherit;
+}
+
+.content ul, .content ol {
+	margin-bottom: 1em;
+	margin-left: 3em;
+}
+
+.posthilit {
+	padding: 0 2px 1px 2px;
+}
+
+// Post author
+p.author {
+	margin-bottom: 0.3em;
+	padding: 0 0 5px 0;
+	font-family: $font-family;
+	font-size: $font-size;
+	line-height: $line-height;
+	clear: both;
+}
+
+// Post signature
+.signature {
+	margin-top: 1.5em;
+	padding-top: 0.2em;
+	font-size: $post-signature-font-size;
+	border-top: 1px solid transparent;
+	clear: left;
+	font-family: $post-content-font-family;
+	line-height: $post-content-line-height;
+	overflow: hidden;
+	width: 100%;
+}
+
+.signature.standalone {
+	border-top-width: 0;
+	margin-top: 0;
+}
+
+dd .signature {
+	margin: 0;
+	padding: 0;
+	clear: none;
+	border: none;
+}
+
+.signature li {
+	list-style-type: inherit;
+}
+
+.signature ul, .signature ol {
+	margin-bottom: 1em;
+	margin-left: 3em;
+}
+
+// Post noticies
+.notice {
+	font-family: $post-content-font-family;
+	width: auto;
+	margin-top: 1.5em;
+	padding-top: 0.2em;
+	font-size: $post-content-font-size;
+	border-top: 1px dashed transparent;
+	clear: left;
+	line-height: $post-content-line-height;
+}
+
+// Jump to post link for now
+ul.searchresults {
+	list-style: none;
+	text-align: right;
+	clear: both;
+	@if $profile-side == right {
+		margin-right: ($post-margin + 100px);
+	}
+	.rtl & {
+		text-align: left;
+		@if $profile-side == right {
+			margin-right: 0;
+			margin-left: ($post-margin + 100px);
+		}
+	}
+}
+
+// BB Code styles
+// ----------------------------------------
+// Quote block
+blockquote {
+	border: 1px solid transparent;
+	border-radius: $bbcode-border-radius;
+	font-size: $post-quote-font-size;
+	margin: 8px 12px;
+	overflow: hidden;
+	padding: 5px;
+	position: relative;
+}
+
+blockquote:before {
+	content: '\201C';
+	position: absolute;
+	font-family: 'Trebuchet MS';
+	top: 5px;
+	left: 4px;
+	height: 16px;
+	font-size: 30px;
+	line-height: 30px;
+	pointer-events: none;
+}
+
+blockquote blockquote {
+	// Nested quotes
+	margin: 5px;
+}
+
+blockquote cite {
+	// Username/source of quoter
+	font-style: normal;
+	font-weight: 500;
+	margin-left: 20px;
+	display: block;
+	font-family: $post-block-title-font-family;
+	font-size: $post-block-title-font-size;
+	line-height: $post-block-title-line-height;
+}
+
+blockquote cite cite {
+}
+
+blockquote.uncited {
+	padding-top: 25px;
+}
+
+// Code block
+$post-code-line-height:		1.3 !default;
+
+.codebox {
+	border: 1px solid transparent;
+	border-radius: $bbcode-border-radius;
+	margin: 8px 12px;
+	padding: 3px;
+	font-size: $post-code-font-size;
+}
+
+.codebox p {
+	// text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	margin-bottom: 3px;
+	font-family: $post-block-title-font-family;
+	font-size: $post-block-title-font-size !important;
+	line-height: $post-block-title-line-height;
+	font-weight: 500;
+	display: block;
+}
+
+blockquote .codebox {
+	margin-left: 0;
+}
+
+.codebox code {
+	overflow: auto;
+	display: block;
+	height: auto;
+	max-height: 200px;
+	white-space: normal;
+	padding-top: 5px;
+	font-family: Monaco, "Andale Mono","Courier New", Courier, mono;
+	font-size: $post-code-font-size;
+	line-height: $post-code-line-height;
+	margin: 2px 0;
+}
+
+// Attachments
+// ----------------------------------------
+.attachbox {
+	float: left;
+	width: auto;
+	max-width: 100%;
+	margin: 5px 5px 5px 0;
+	padding: 6px;
+	border: 1px solid transparent;
+	border-radius: $bbcode-border-radius;
+	clear: left;
+	box-sizing: border-box;
+}
+
+.attachbox dt {
+	font-family: $post-block-title-font-family;
+	font-size: $post-block-title-font-size;
+	line-height: $post-block-title-line-height;
+	font-weight: 500;
+}
+
+.attachbox dd {
+	margin-top: 4px;
+	padding-top: 4px;
+	clear: left;
+	border-top: 1px solid transparent;
+	overflow-x: auto;
+}
+
+.attachbox dd dd {
+	border: none;
+}
+
+.attachbox p, .attachbox p.stats {
+	line-height: $post-content-line-height;
+	font-weight: normal;
+	clear: left;
+}
+
+.attach-image {
+	margin: 3px 0;
+	max-width: 100%;
+}
+
+.attach-image img {
+	// border: 1px solid transparent;
+//	cursor: move;
+	cursor: default;
+}
+
+// Inline image thumbnails
+div.inline-attachment dl.thumbnail, div.inline-attachment dl.file {
+	display: block;
+	margin-bottom: 4px;
+}
+
+div.inline-attachment p {
+	font-size: $post-quote-font-size;
+}
+
+dl.file {
+	font-family: $post-block-title-font-family;
+	display: block;
+}
+
+dl.file dt {
+	text-transform: none;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-family: $post-block-title-font-family;
+	font-size: $post-block-title-font-size;
+	line-height: $post-block-title-line-height;
+}
+
+dl.file dd {
+	margin: 0;
+	padding: 0;
+}
+
+dl.thumbnail img {
+	padding: 3px;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+}
+
+dl.thumbnail dd {
+	font-style: italic;
+	font-family: $font-family;
+}
+
+.attachbox dl.thumbnail dd {
+	font-size: 100%;
+}
+
+dl.thumbnail dt a:hover img {
+	border: 1px solid transparent;
+}
+
+// Post poll styles
+// ----------------------------------------
+fieldset.polls {
+	font-family: $post-content-font-family;
+	font-size: $post-content-font-size;
+}
+
+fieldset.polls dl {
+	margin: 0;
+	border: 1px solid transparent;
+	border-width: 1px 0;
+	padding: 5px 0;
+	line-height: $post-content-line-height;
+	&:first-child {
+		border-top-width: 0;
+	}
+	&:last-child {
+		border-bottom-width: 0;
+	}
+}
+
+fieldset.polls dl.voted {
+	font-weight: bold;
+}
+
+fieldset.polls dt {
+	text-align: left;
+	float: left;
+	display: block;
+	width: 30%;
+	border-right: none;
+	padding: 0;
+	margin: 0;
+	font-size: $post-content-font-size;
+}
+
+fieldset.polls dd {
+	float: left;
+	width: 10%;
+	border-left: none;
+	padding: 0 5px;
+	margin-left: 0;
+	font-size: $post-content-font-size;
+}
+
+fieldset.polls dd.resultbar {
+	width: 50%;
+}
+
+fieldset.polls dd input {
+	margin: 2px 0;
+}
+
+fieldset.polls dd div {
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: .9em;
+	padding: 0 3px;
+	overflow: visible;
+	min-width: 8px;
+	border-radius: max(min($border-radius, 5px) - 1px, 0);
+}
+
+.vote-submitted {
+	font-size: $post-content-font-family + 2px;
+	font-weight: bold;
+	text-align: center;
+}
+
+// Poster profile block
+// ----------------------------------------
+.postprofile {
+	margin: 0;
+	padding: 5px 0;
+	min-height: 80px;
+	border: 0px solid transparent;
+	border-#{$post-side}-width: 1px;
+	width: $profile-width;
+	float: $profile-side;
+	position: relative;
+	box-sizing: border-box;
+	z-index: 2;
+	.rtl & {
+		float: $post-side;
+		border-width: 0;
+		border-#{$profile-side}-width: 1px;
+	}
+	.search & {
+		width: ($profile-width + 100px);
+	}
+}
+
+.postprofile dd, .postprofile dt {
+	font-size: $post-profile-font-size;
+	line-height: $post-profile-line-height;
+	margin-#{$post-side}: 8px;
+	.rtl & {
+		margin-#{$profile-side}: 8px;
+	}
+}
+
+.postprofile dd {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.postprofile strong {
+	font-weight: normal;
+}
+
+.postprofile dt.no-profile-rank, .postprofile dd.profile-rank, .postprofile .search-result-date {
+	margin-bottom: 10px;
+}
+
+// Post-profile avatars
+.postprofile .has-avatar .avatar-container {
+	margin-bottom: 3px;
+	overflow: hidden;
+}
+
+.postprofile .avatar {
+	display: block;
+	float: left;
+	max-width: 100%;
+	.rtl & {
+		float: right;
+	}
+}
+
+.postprofile .avatar img {
+	display: block;
+	height: auto !important;
+	max-width: 100%;
+}
+
+.postprofile .profile-posts a {
+	font-weight: normal;
+}
+
+dd.profile-warnings {
+	font-weight: bold;
+}
+
+dd.profile-contact {
+	overflow: visible;
+}
+
+.profile-contact .dropdown-container {
+	display: inline-block;
+}
+
+.profile-contact .icon_contact {
+	vertical-align: middle;
+}
+
+.profile-contact .dropdown {
+	margin-right: -14px;
+}
+
+.online-ribbon {
+	display: block;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	overflow: hidden;
+	top: -3px;
+	#{$profile-side}: -3px;
+	pointer-events: none;
+
+	.rtl & {
+		#{$profile-side}: auto;
+		#{$post-side}: -3px;
+	}
+
+	span {
+		display: block;
+		font-weight: 500;
+		font-style: normal;
+		width: 100px;
+		font-size: 11px;
+		line-height: 18px;
+		height: 18px;
+		text-align: center;
+		position: absolute;
+		top: 17px;
+		white-space: nowrap;
+		#{$profile-side}: -25px;
+
+		@if $profile-side == left {
+			-webkit-transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+		}
+		@else {
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+
+		+ span {
+			opacity: .75;
+			z-index: 29;
+		}
+
+		.rtl & {
+			#{$profile-side}: auto;
+			#{$post-side}: -25px;
+
+			@if $profile-side == right {
+				-webkit-transform: rotate(-45deg);
+				-ms-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+			}
+			@else {
+				-webkit-transform: rotate(45deg);
+				-ms-transform: rotate(45deg);
+				transform: rotate(45deg);
+			}
+		}
+	}
+}
+
+.panel.online > .inner {
+	position: relative;
+	z-index: 2;
+}
+
+.no-avatar .avatar-container {
+	display: block;
+	width: 92px;
+	height: 92px;
+	background: transparent none 50% 50% no-repeat;
+	background-size: cover;
+}
+
+// Profile used on view-profile
+.profile-avatar img {
+	max-width: 100%;
+}
+
+// pm list in compose message if mass pm is enabled
+dl.pmlist dt {
+	width: 60% !important;
+}
+
+dl.pmlist dt textarea {
+	width: 95%;
+}
+
+dl.pmlist dd {
+	margin-left: 61% !important;
+	margin-bottom: 2px;
+}
+
+.action-bar div.dl_links {
+	padding: 10px 0 0 10px;
+}
+
+div.dl_links {
+	display: inline-block;
+	text-transform: none;
+}
+
+.dl_links strong {
+	font-weight: bold;
+}
+
+.dl_links ul {
+	list-style-type: none;
+	margin: 0;
+	display: inline-block;
+}
+
+.dl_links li {
+	display: inline-block;
+}
+
+.attachment-filename {
+	width: 100%;
+}
+
+.ellipsis-text {
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+table.fixed-width-table {
+	table-layout: fixed;
+}
+
+// Show scrollbars for items with overflow on iOS devices
+// ----------------------------------------
+.postbody .content::-webkit-scrollbar, #topicreview::-webkit-scrollbar, #post_details::-webkit-scrollbar, .codebox code::-webkit-scrollbar, .attachbox dd::-webkit-scrollbar, .attach-image::-webkit-scrollbar, .dropdown-extended ul::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	-webkit-appearance: none;
+	border-radius: 3px;
+}
+
+.postbody .content::-webkit-scrollbar-thumb, #topicreview::-webkit-scrollbar-thumb, #post_details::-webkit-scrollbar-thumb, .codebox code::-webkit-scrollbar-thumb, .attachbox dd::-webkit-scrollbar-thumb, .attach-image::-webkit-scrollbar-thumb, .dropdown-extended ul::-webkit-scrollbar-thumb {
+	border-radius: 3px;
+}

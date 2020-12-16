@@ -1,0 +1,483 @@
+// Button Styles
+// ----------------------------------------
+
+$button-inner-height:	$button-line-height + $button-top-padding * 2;
+$button-outer-height:	$button-inner-height + $button-border-width * 2;
+
+.button {
+	cursor: pointer;
+	display: inline-block;
+	height: $button-line-height;
+	line-height: $button-line-height;
+	font-size: $button-font-size;
+	white-space: nowrap;
+	border: $button-border-width solid transparent;
+	border-radius: $big-button-border-radius;
+	background: transparent none 0 0 repeat-x;
+	padding: $button-top-padding $button-side-padding;
+	font-family: "Open Sans", "Droid Sans", Verdana, Arial, Helvetica;
+	position: relative;
+	text-decoration: none !important;
+	outline-style: none !important;
+	vertical-align: bottom;
+
+	.buttons > & {
+		border-width: 0;
+		padding: ($button-top-padding + $button-border-width) ($button-side-padding + $button-border-width);
+	}
+
+	& > strong {
+		font-weight: 600;
+	}
+}
+
+.dropdown-select {
+	padding-right: 24px;
+	.dropdown-down.dropdown-visible & {
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	.dropdown-up.dropdown-visible & {
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+}
+
+.icon-button:before {
+	background: transparent !important;
+	font-family: FontAwesome;
+	content: '\f013';	// fa-cog
+	display: inline-block;
+	float: right;
+	height: $button-glyph-font-size + 2px;
+	margin: 3px 0 0 2px;
+	width: $button-glyph-font-size + 2px;
+	font-family: FontAwesome;
+	font-size: $button-glyph-font-size;
+	line-height: $button-glyph-font-size + 2px;
+	text-align: center;
+	font-weight: normal;
+	text-indent: 0;
+	font-style: normal;
+	text-transform: none;
+	.buttons > & {
+		position: relative;
+		top: -1px;
+		right: -1px;
+		.rtl & {
+			right: auto;
+			right: -1px;
+		}
+	}
+}
+
+%icon-button {
+	font-family: FontAwesome;
+	&:hover {
+	}
+}
+
+%icon-button-gi {
+	font-family: 'Glyphicons Regular', 'Glyphicons';
+}
+
+%icon-button-visible {
+	.dropdown-visible &,
+	.nojs .dropdown-container:hover & {
+	}
+}
+
+.dropdown-select.icon-button:before {
+	margin-right: 4px;
+}
+
+.dropdown-select:after {
+	@extend .icon-button:before;
+	@extend %icon-button;
+	@extend %icon-button-visible;
+	border-left: 1px solid transparent;
+	content: '\f0d7';	// fa-caret-down
+	position: absolute;
+	float: none;
+	margin: 0;
+	top: 0;
+	right: 0;
+	line-height: $button-inner-height;
+	height: $button-inner-height;
+	width: 16px;
+	vertical-align: baseline;
+}
+
+.buttons, .buttons .button {
+	float: left;
+}
+
+.buttons .button, .dropdown-select {
+	margin-right: 5px;
+}
+
+#jumpbox .dropdown-select {
+	margin: 0;
+}
+
+// Big button images
+.reply-icon:before, .pmreply-icon:before {
+	@extend %icon-button;
+	content: '\f112';	// fa-mail-reply
+	margin-left: 4px;
+	margin-top: 4px;
+}
+
+.post-icon:before, .newpm-icon:before {
+	@extend %icon-button;
+	@extend %icon-button-gi;
+	content: '\E151';	// glyphicons-edit
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.reply-all:before {
+	@extend %icon-button;
+	content: '\f122';	// fa-mail-reply-all
+	margin-left: 4px;
+}
+
+.locked-icon:before {
+	@extend %icon-button;
+	@extend %icon-button-gi;
+	content: '\E204';	// glyphicons-lock
+	margin-left: 5px;
+	.buttons > & {
+		top: 0;
+	}
+}
+
+.forwardpm-icon:before {
+	@extend %icon-button;
+	content: '\f064';	// fa-share
+	margin-left: 4px;
+	margin-top: 4px;
+}
+
+.modtools-icon {
+	width: 22px;
+	text-indent: 999px;
+	overflow: hidden;
+}
+
+.tools-icon:before, .modtools-icon:before, .search-icon:before, .search-adv-icon:before {
+	@extend %icon-button;
+	@extend %icon-button-visible;
+	content: '\f0ad';	// fa-wrench
+	font-size: 14px;
+	height: $button-line-height;
+	margin-top: 0;
+	width: 16px;
+	line-height: $button-line-height;
+}
+
+.search-icon:before {
+	@extend %icon-button-gi;
+	content: '\E028';	// glyphicons-search
+	font-size: 13px;
+	width: 15px;
+	padding-right: 1px;
+}
+
+.search-adv-icon:before {
+	@extend %icon-button-gi;
+	content: '\E137';	// glyphicons-cogwheel
+	font-size: 13px;
+}
+
+.modtools-icon:before {
+	content: '\f0e3';	// fa-gavel
+}
+
+// Icon images
+// ----------------------------------------
+.small-icon {
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	background-image: none;
+}
+
+.small-icon > a {
+	display: inline-block;
+	padding: 0 0 0 18px;
+}
+
+ul.linklist.bulletin > li.small-icon:before {
+	display: none;
+}
+
+.dropdown .small-icon > a {
+	display: block;
+}
+
+// Poster contact icons
+// ----------------------------------------
+.contact-icons.dropdown-contents {
+	min-width: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.contact-icon {
+	position: relative;
+	display: block;
+	height: 16px;
+	width: 16px;
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		text-align: center;
+		font-family: FontAwesome;
+		font-size: 14px;
+		line-height: 16px;
+		vertical-align: baseline;
+		font-weight: normal;
+		font-style: normal;
+		text-transform: none;
+		text-indent: 0;
+		pointer-events: none;
+	}
+}
+.contact-icons a {
+	border-bottom: 1px dotted;
+	border-right: 1px dotted;
+	display: block;
+	float: left;
+	padding: 8px;
+}
+
+%contact-icon-gi {
+	font-family: 'Glyphicons Regular', 'Glyphicons';
+}
+
+.contact-icons .last-cell {
+	border-right: none;
+}
+
+.contact-icons div:last-child a {
+	border-bottom: none;
+}
+
+.contact-icons div {
+	clear: left;
+}
+
+// Profile icons
+.pm-icon:after {
+	@extend %contact-icon-gi;
+	content: '\E245';	// glyphicons-conversation
+}
+.email-icon:after {
+	@extend %contact-icon-gi;
+	content: '\2709';	// glyphicons-envelope
+}
+.jabber-icon:after {
+	content: '\f0eb';	// fa-lightbulb-o
+	font-size: 16px;
+}
+.phpbb_icq-icon:after {
+	@extend %contact-icon-gi;
+	content: '\2698';	// glyphicons-flower
+}
+.phpbb_wlm-icon:after {
+	content: '\f007';	// fa-user
+}
+.phpbb_aol-icon:after {
+	@extend %contact-icon-gi;
+	content: '\E563';	// glyphicons-person-walking
+}
+.phpbb_website-icon:after {
+	content: '\f08e';	// fa-external-link
+}
+.phpbb_youtube-icon:after {
+	content: '\f16a';	// fa-youtube-play
+}
+.phpbb_facebook-icon:after {
+	content: '\f230';	// fa-facebook-official
+}
+.phpbb_googleplus-icon:after {
+	content: '\f0d5';	// fa-google-plus
+}
+.phpbb_skype-icon:after {
+	content: '\f17e';	// fa-skype
+}
+.phpbb_twitter-icon:after {
+	content: '\f099';	// fa-twitter
+}
+.phpbb_yahoo-icon:after {
+	content: '\f19e';	// fa-yahoo
+}
+
+// Post control buttons
+// ---------------------------------------------
+.post-buttons {
+	float: right;
+	list-style: none;
+	margin-top: 2px;
+	.rtl & {
+		float: left;
+	}
+}
+
+.has-profile .post-buttons {
+	float: none;
+	position: absolute;
+	margin: 0;
+	top: 5px;
+
+	@if $profile-side == left {
+		right: 0;
+		.rtl & {
+			left: 0;
+		}
+	}
+	@else {
+		right: $post-margin;
+		.rtl & {
+			left: $post-margin;
+		}
+	}
+
+	.rtl & {
+		right: auto;
+	}
+}
+
+.post-buttons > li {
+	float: left;
+	margin-right: 3px;
+}
+
+.post-buttons .icon-button {
+	padding: 0 5px;
+	&.delete-icon, &.report-icon {
+		border-width: 0;
+		padding: 1px 6px;
+	}
+}
+
+// .hastouch .post-buttons .icon-button {
+// 	padding: 2px 8px;
+// }
+
+.post-buttons .icon-button span {
+	display: block;
+	height: 0;
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+}
+
+.post-buttons .icon-button:before {
+	margin-left: 0;
+}
+
+.quote-icon:before {
+	@extend %icon-button;
+	content: '\f10d';	// fa-quote-left
+}
+.edit-icon:before {
+	@extend %icon-button;
+	@extend %icon-button-gi;
+	content: '\E151';	// glyphicons-edit
+	margin-right: -2px;
+	font-size: 11px;
+	margin-top: 2px;
+}
+.warn-icon:before {
+	@extend %icon-button;
+	@extend %icon-button-gi;
+	content: '\E525';	// glyphicons-user-alert
+	padding-right: 1px;
+}
+.delete-icon:before {
+	@extend %icon-button;
+	content: '\f00d';	// fa-close
+	font-size: 12px;
+}
+.report-icon:before {
+	@extend %icon-button;
+	content: '\f06a';	// fa-exclamation-circle
+	font-size: 12px;
+	margin-top: 3px;
+}
+.info-icon:before {
+	@extend %icon-button;
+	content: '\f128';	// fa-question
+	font-size: 13px;
+}
+.button.responsive-menu-link {
+	@extend .icon-button;
+	width: 12px;
+	&:before {
+		@extend %icon-button;
+		content: '\f0c9';	// fa-reorder
+		font-size: 11px;
+		margin-top: 3px;
+	}
+}
+
+.post-buttons > #expand > a {
+	@extend .button;
+	@extend .icon-button;
+	width: 12px;
+	overflow: hidden;
+	text-indent: 999px;
+	&:before {
+		@extend %icon-button;
+		content: '\f078';	// fa-chevron-down
+	}
+	&.expanded:before {
+		content: '\f077';	// fa-chevron-up
+	}
+}
+
+// Responsive buttons in post body
+.post-buttons .dropdown {
+	top: 20px;
+}
+
+$post-dropdown-glyphs-font-size:	floor($dropdown-content-font-size / 2) * 2;
+
+.post-buttons .dropdown a {
+	display: block;
+	font-size: $dropdown-content-font-size;
+	line-height: $dropdown-content-line-height;
+	text-align: left;
+	margin-left: 18px;
+	position: relative;
+	&:before {
+		position: absolute;
+		left: -16px;
+		top: 50%;
+		height: $post-dropdown-glyphs-font-size;
+		line-height: $post-dropdown-glyphs-font-size + 2px;
+		margin: -#{$post-dropdown-glyphs-font-size / 2} 0 0;
+		pointer-events: none;
+	}
+	&:hover:before {
+		color: inherit;
+	}
+	.rtl & {
+		text-align: right;
+	}
+}
+
+.hasjs .postbody .post-buttons {
+	max-width: 40%;
+}
+
+// Browser-specific tweaks
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0
+}

@@ -1,0 +1,443 @@
+// Control Panel Styles
+// ----------------------------------------
+
+
+// Main CP box
+// ----------------------------------------
+#cp-menu {
+	float:left;
+	width: 19%;
+	margin: 0 -2px;
+	padding-right: 7px;
+	box-sizing: border-box;
+	.rtl & {
+		float: right;
+		padding-left: 7px;
+		padding-right: 0;
+	}
+}
+
+#cp-main {
+	float: left;
+	width: 81%;
+	.rtl & {
+		float: right;
+	}
+}
+
+#cp-main .content {
+	padding: 0;
+}
+
+.panel-container .panel {
+	margin-bottom: 10px;
+}
+
+.panel-container .panel p {
+	font-size: $panel-font-size;
+	line-height: $panel-line-height;
+}
+
+.panel-container .panel ol {
+	margin-left: 2em;
+	font-size: $panel-font-size;
+}
+
+.panel-container .panel li.row {
+	border-bottom: 1px solid transparent;
+	border-top: 1px solid transparent;
+}
+
+ul.cplist {
+	margin-bottom: 5px;
+	border-top: 1px solid transparent;
+}
+
+.panel-container .panel li.header dd, .panel-container .panel li.header dt {
+	margin-bottom: 2px;
+}
+
+.panel-container table.table1 {
+	margin-bottom: 1em;
+}
+
+.panel-container table.table1 thead th {
+	@include table-heading-transparent;
+	padding: 5px;
+	font-weight: bold;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.panel-container table.table1 tbody th {
+	font-style: italic;
+	background-color: transparent !important;
+	border-bottom: none;
+}
+
+#cp-main .pm-message {
+	border: 1px solid transparent;
+	margin: 10px 0;
+	width: auto;
+	float: none;
+}
+
+.pm-message h2 {
+	padding-bottom: 5px;
+}
+
+#cp-main .postbody h3, #cp-main .box2 h3 {
+	margin-top: 0;
+}
+
+.panel-container .postbody p.author {
+	font-size: $font-size;
+}
+
+#cp-main .buttons {
+	margin-left: 0;
+}
+
+#cp-main ul.linklist {
+	margin: 0;
+}
+
+// MCP Specific tweaks
+.mcp-main .postbody {
+	width: 100%;
+}
+
+.tabs-container h2 {
+	float: left;
+	margin-bottom: 0px;
+}
+
+// CP tabs shared
+// ----------------------------------------
+#tabs, #minitabs {
+	line-height: normal;
+}
+
+#tabs > ul, #minitabs > ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#tabs .tab, #minitabs .tab {
+	display: block;
+	float: left;
+	font-size: $tab-font-size;
+	font-weight: bold;
+	line-height: $tab-line-height;
+}
+
+#tabs .tab > a, #minitabs .tab > a {
+	display: block;
+	padding: 0 9px;
+	position: relative;
+	text-decoration: none;
+	white-space: nowrap;
+	cursor: pointer;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+// CP tabbed menu
+// ----------------------------------------
+#tabs {
+	margin: 20px 0 0 7px;
+}
+
+#tabs .tab > a {
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+	margin: 1px 1px 0 0;
+}
+
+#tabs .activetab > a {
+	margin-top: 0;
+	padding-bottom: 2px;
+}
+
+// Mini tabbed menu used in MCP
+// ----------------------------------------
+#minitabs {
+	float: right;
+	margin: 15px 7px 0 0;
+	max-width: 50%;
+}
+
+#minitabs .tab {
+	float: right;
+}
+
+#minitabs .tab > a {
+	border-radius: 5px 5px 0 0;
+	margin-left: 2px;
+}
+
+#minitabs .tab > a:hover {
+	text-decoration: none;
+}
+
+// Responsive tabs
+// ----------------------------------------
+.responsive-tab {
+	position: relative;
+}
+
+a.responsive-tab-link {
+	.responsive-tab > & {
+		display: block;
+		font-size: 16px;
+		position: relative;
+		width: 16px;
+		line-height: 14px;
+		text-decoration: none;
+	}
+	.responsive-tab > &:before {
+		// content: '\f0c9';	// fa-bars
+		// font-family: FontAwesome;
+		content: '\E159';	// glyphicons-show-lines
+		font-family: 'Glyphicons Regular', 'Glyphicons';
+		position: absolute;
+		left: 10px;
+		top: 50%;
+		margin-top: -7px;
+		width: 14px;
+		font-size: 13px;
+		line-height: 15px;
+		height: 15px;
+		text-align: center;
+		font-weight: normal;
+		font-style: normal;
+		text-indent: 0;
+	}
+	.dropdown-visible.responsive-tab > &:before,
+	.responsive-tab > &:hover:before {
+		// font-family: 'Glyphicons Regular', 'Glyphicons';
+		content: '\E602';	// glyphicons-chevron-down
+	}
+}
+
+#tabs .dropdown, #minitabs .dropdown {
+	top: $tab-line-height + 2px;
+	margin-right: -2px;
+	font-size: $dropdown-content-font-size;
+	line-height: $dropdown-content-line-height;
+	font-weight: normal;
+}
+
+#minitabs .dropdown {
+	margin-right: -4px;
+}
+
+#tabs .dropdown-up .dropdown, #minitabs .dropdown-up .dropdown {
+	bottom: $tab-line-height + 2px;
+	top: auto;
+}
+
+#tabs .dropdown li {
+	text-align: right;
+}
+
+#minitabs .dropdown li {
+	text-align: left;
+}
+
+// UCP navigation menu
+// ----------------------------------------
+// Container for sub-navigation list
+#navigation {
+	width: 100%;
+	hr {
+		display: none;
+		+ ul {
+			margin-top: 10px;
+		}
+	}
+}
+
+#navigation ul {
+	list-style: none;
+}
+
+// Default list state
+#navigation li {
+	display: inline;
+	font-weight: bold;
+	margin: 1px 0;
+	padding: 0;
+}
+
+// Link styles for the sub-section links
+#navigation a {
+	display: block;
+	padding: 5px;
+	margin: 2px 0;
+	border-radius: max(0px, $border-radius - 2px);
+	text-decoration: none;
+	font-size: $font-size;
+	line-height: $line-height;
+}
+
+#navigation a:hover {
+	text-decoration: none;
+}
+
+// Preferences pane layout
+// ----------------------------------------
+#cp-main h2 {
+	border-bottom: none;
+	padding: 0;
+	margin-left: 10px;
+}
+
+// Friends list
+.cp-mini {
+	margin: 10px 15px 10px 5px;
+	max-height: 200px;
+	overflow-y: auto;
+	padding: 5px 10px;
+	border-radius: $border-radius;
+}
+
+dl.mini dt {
+	font-weight: bold;
+}
+
+dl.mini dd {
+	padding-top: 4px;
+}
+
+.friend-online {
+	font-weight: bold;
+}
+
+.friend-offline {
+	font-style: italic;
+}
+
+// PM Styles
+// ----------------------------------------
+#pm-menu {
+	line-height: 2.5em;
+}
+
+// Defined rules list for PM options
+ol.def-rules {
+	padding-left: 0;
+}
+
+ol.def-rules li {
+	line-height: 180%;
+	padding: 1px;
+}
+
+// PM marking colours
+.pmlist li.bg1 {
+	padding: 0 3px;
+}
+
+.pmlist li.bg2 {
+	padding: 0 3px;
+}
+
+.pmlist li.pm_message_reported_colour, .pm_message_reported_colour {
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+
+.pmlist li.pm_marked_colour, .pm_marked_colour,
+.pmlist li.pm_replied_colour, .pm_replied_colour,
+.pmlist li.pm_friend_colour, .pm_friend_colour,
+.pmlist li.pm_foe_colour, .pm_foe_colour {
+	padding: 0;
+	border: solid 3px transparent;
+	border-width: 0 3px;
+}
+
+.pm-legend {
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-right-width: 0;
+	margin-bottom: 3px;
+	padding-left: 3px;
+}
+
+// Avatar gallery
+#gallery label {
+	position: relative;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+	width: auto;
+	border: 1px solid transparent;
+	text-align: center;
+}
+
+// Responsive *CP navigation
+// ----------------------------------------
+@media (max-width: 900px)
+{
+	.nojs #tabs a span, .nojs #minitabs a span {
+		max-width: 40px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		letter-spacing: -.5px;
+	}
+
+	#cp-menu, #navigation, #cp-main {
+		float: none;
+		width: auto;
+		margin: 0;
+	}
+
+	#cp-menu:after {
+		content: ' ';
+		display: table;
+		clear: both;
+	}
+
+	#navigation {
+		padding: 0;
+		max-width: 320px;
+		#cp-menu & {
+			margin: 0 10px;
+			float: left;
+			@media (max-width: 450px) {
+				float: none;
+				margin: 0 auto;
+			}
+		}
+		&, #cp-menu &:only-child {
+			float: none;
+			margin: 0 auto;
+		}
+		#cp-menu & + .cp-mini {
+			float: left;
+			margin: 0 10px;
+			max-width: 220px;
+			@media (max-width: 450px) {
+				float: none;
+				margin: 10px auto 0;
+			}
+		}
+	}
+
+	#navigation a {
+		background-image: none;
+	}
+
+	#navigation li:first-child a {
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+
+	#navigation li:last-child a {
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+}

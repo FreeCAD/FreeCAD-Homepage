@@ -1,0 +1,34 @@
+<div class="navbar nav-breadcrumbs">
+	<ul id="nav-breadcrumbs" class="linklist navlinks" role="menubar">
+		<!-- DEFINE $MICRODATA = ' itemtype="http://data-vocabulary.org/Breadcrumb" itemscope=""' -->
+		<!-- EVENT overall_header_breadcrumbs_before -->
+		<li class="small-icon icon-home breadcrumbs">
+			<!-- IF U_SITE_HOME --><span class="crumb" style="display: none;"><a href="{U_SITE_HOME}"{$MICRODATA} data-navbar-reference="home">{L_SITE_HOME}</a></span><!-- ENDIF -->
+			<!-- EVENT overall_header_breadcrumb_prepend -->
+			<span class="crumb"><a href="{U_INDEX}" accesskey="h"{$MICRODATA} data-navbar-reference="index">{L_INDEX}</a></span>
+			<!-- BEGIN navlinks -->
+				<!-- EVENT overall_header_navlink_prepend -->
+				<span class="crumb"><a href="{navlinks.U_VIEW_FORUM}"{$MICRODATA}<!-- IF navlinks.MICRODATA --> {navlinks.MICRODATA}<!-- ENDIF -->>{navlinks.FORUM_NAME}</a></span>
+				<!-- EVENT overall_header_navlink_append -->
+			<!-- END navlinks -->
+			<!-- EVENT overall_header_breadcrumb_append -->
+		</li>
+		<!-- EVENT overall_header_breadcrumbs_after -->
+
+		<!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
+			<li class="rightside responsive-search" style="display: none;"><a href="{U_SEARCH}" title="{L_SEARCH_ADV_EXPLAIN}" role="menuitem">{L_SEARCH}</a></li>
+		<!-- ENDIF -->
+        <!-- IF $FALSE -->
+		<li class="rightside dropdown-container icon-only">
+			<a href="#" class="dropdown-trigger time" title="{CURRENT_TIME}"><i class="fa fa-clock-o"></i></a>
+			<div class="dropdown fhidden">
+				<div class="pointer"><div class="pointer-inner"></div></div>
+				<ul class="dropdown-contents">
+					<li>{CURRENT_TIME}</li>
+					<li>{S_TIMEZONE}</li>
+				</ul>
+			</div>
+		</li>
+        <!-- ENDIF -->
+	</ul>
+</div>
