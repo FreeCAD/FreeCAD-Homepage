@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-01 11:06+0200\n"
-"PO-Revision-Date: 2020-10-28 10:04\n"
+"POT-Creation-Date: 2020-11-13 11:21+0100\n"
+"PO-Revision-Date: 2020-12-23 13:52\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -21,157 +21,169 @@ msgstr ""
 msgid "FreeCAD: Select your platform"
 msgstr "FreeCAD：选择您的平台"
 
-#: downloads.php:47 index.php:47
+#: downloads.php:53 index.php:53
 msgid "Features"
 msgstr "功能"
 
-#: downloads.php:51 index.php:51
+#: downloads.php:57 index.php:57
 msgid "Downloads"
 msgstr "下载"
 
-#: downloads.php:55 index.php:55
+#: downloads.php:61 index.php:61
 msgid "Documentation"
 msgstr "文档"
 
-#: downloads.php:59 index.php:59
+#: downloads.php:65 index.php:65
 msgid "Community"
 msgstr "社区"
 
-#: downloads.php:75 downloads.php:211 index.php:77 index.php:234
+#: downloads.php:83 downloads.php:220 index.php:83 index.php:240
 msgid "Contribute"
 msgstr "贡献"
 
-#: downloads.php:85 downloads.php:214 index.php:88 index.php:237
+#: downloads.php:86 index.php:86
+msgid "How to help?"
+msgstr ""
+
+#: downloads.php:87 index.php:87
+msgid "Pull requests"
+msgstr ""
+
+#: downloads.php:88 index.php:88
+msgid "Wiki"
+msgstr ""
+
+#: downloads.php:89 index.php:89
+msgid "Bug Tracker"
+msgstr ""
+
+#: downloads.php:94 downloads.php:223 index.php:94 index.php:243
 msgid "Donate"
 msgstr "赞助"
 
-#: downloads.php:89 index.php:92
+#: downloads.php:98 index.php:98
 msgid "Showcase"
 msgstr "示例"
 
-#: downloads.php:102
+#: downloads.php:111
 msgid "Current stable version: 0.18.4"
 msgstr "当前稳定版本：0.18.4"
 
-#: downloads.php:103
+#: downloads.php:112
 msgid "Select your desired platform"
 msgstr "选择您期望的平台"
 
-#: downloads.php:124
+#: downloads.php:133
 msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
 msgstr "Windows 7 是支持的最低版本。要了解更多安装信息，请查看 "
 
-#: downloads.php:125 downloads.php:145 downloads.php:165
+#: downloads.php:134 downloads.php:154 downloads.php:174
 msgid "wiki"
 msgstr "维基"
 
-#: downloads.php:144
+#: downloads.php:153
 msgid "Mac OS X 10.11 El Capitan is the minimum supported version. For more info on installation, please check out the "
 msgstr "Mac OS X 10.11 El Capitan 是支持的最低版本。要了解更多安装信息，请查看 "
 
-#: downloads.php:164
+#: downloads.php:173
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
 msgstr "若要在 Linux 上安装诸如 Ubuntu PPA 等特定的发行版，请查看 "
 
-#: downloads.php:177
+#: downloads.php:186
 msgid "Development versions"
 msgstr "开发中版本"
 
-#: downloads.php:179
+#: downloads.php:188
 msgid "FreeCAD's development is always active! Do you want to check out the latest development \n"
 "        release? For MacOS, Windows, Linux (AppImage) and source code, see the "
 msgstr "FreeCAD 的开发一直是活跃的！您想要查看最新的开发版本吗？我们提供MacOS、Windows、\n"
 "Linux(AppImage)，以及源代码，请参考： "
 
-#: downloads.php:181
+#: downloads.php:190
 msgid "FreeCAD releases page."
 msgstr "FreeCAD 发布页面。"
 
-#: downloads.php:190
+#: downloads.php:199
 msgid "Additional modules and macros"
 msgstr "附加模块和宏包"
 
-#: downloads.php:192
+#: downloads.php:201
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can \n"
 "        now easily be installed directly from within FreeCAD using the  "
 msgstr "FreeCAD 社区提供了大量额外的模块和宏。\n"
 "        现在他们可以很容易地在 FreeCAD 内直接安装 "
 
-#: downloads.php:194
+#: downloads.php:203
 msgid "Addon manager."
 msgstr "插件管理器。"
 
-#: downloads.php:202 index.php:225
+#: downloads.php:211 index.php:231
 msgid "Learn"
 msgstr "了解"
 
-#: downloads.php:204 index.php:227
+#: downloads.php:213 index.php:233
 msgid "Tutorials"
 msgstr "教程"
 
-#: downloads.php:205
+#: downloads.php:214
 msgid "Youtube videos"
 msgstr "Youtube 视频"
 
-#: downloads.php:213 index.php:236
+#: downloads.php:222 index.php:242
 msgid "How can I help?"
 msgstr "如何帮忙？"
 
-#: downloads.php:215 index.php:238
+#: downloads.php:224 index.php:244
 msgid "Translate"
 msgstr "翻译"
 
-#: downloads.php:220 index.php:243
+#: downloads.php:229 index.php:249
 msgid "Code"
 msgstr "代码"
 
-#: downloads.php:222 index.php:245
+#: downloads.php:231 index.php:251
 msgid "Building from source"
 msgstr "从源代码构建"
 
-#: downloads.php:223 index.php:246
+#: downloads.php:232 index.php:252
 msgid "C++ & Python API"
 msgstr "C + + & Python API"
 
-#: downloads.php:224 index.php:247
+#: downloads.php:233 index.php:253
 msgid "License information"
 msgstr "许可证信息"
 
-#: downloads.php:242 index.php:265
+#: downloads.php:251 index.php:271
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
 "      r-frank, epileftric, regis, rider_mortagnais, bejant."
 msgstr "© FreeCAD 团队。主页图片贡献者 （从上至下）: ppemawm,\n"
 "      r-frank, epileftric, regis, rider_mortagnais, bejant."
 
-#: index.php:12
+#: index.php:18
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD：你自己的三维参数化建模软件"
 
-#: index.php:51
-msgid "downloads.php"
-msgstr ""
-
-#: index.php:105
+#: index.php:111
 msgid "FreeCAD"
 msgstr "FreeCAD"
 
-#: index.php:106
+#: index.php:112
 msgid "Your own 3D parametric modeler"
 msgstr "你自己的三维参数化建模软件"
 
-#: index.php:108
+#: index.php:114
 msgid "Download now"
 msgstr "立即下载"
 
-#: index.php:109
+#: index.php:115
 msgid "See what's new"
 msgstr "查看新功能"
 
-#: index.php:122
+#: index.php:128
 msgid "Freedom to build what you want"
 msgstr "自由地构建你想要的东西"
 
-#: index.php:124
+#: index.php:130
 msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
@@ -181,11 +193,11 @@ msgstr "FreeCAD 是一个开源的参数化 3D 建模软件，\n"
 "          的现实生活对象。参数化建模允许你轻松地通过模型历史来修改你的\n"
 "          设计及参数。"
 
-#: index.php:138
+#: index.php:144
 msgid "Create 3D from 2D & back"
 msgstr "从 2D 创建 3D，反之亦可"
 
-#: index.php:140
+#: index.php:146
 msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
@@ -195,11 +207,11 @@ msgstr "FreeCAD 允许您草绘受几何约束的 2D 形状并使用\n"
 "          调整尺寸或从 3D 模型中提取设计细节到\n"
 "          创建高质量的生产就绪图纸。"
 
-#: index.php:154
+#: index.php:160
 msgid "Accessible, flexible & integrated"
 msgstr "易用、灵活和集成"
 
-#: index.php:156
+#: index.php:162
 msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly\n"
 "          customizable and extensible software. It reads and writes to many\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
@@ -212,11 +224,11 @@ msgstr "FreeCAD 是一个多平台(Windows、Mac 和 Linux)，\n"
 "          以及许多其他功能，使其可以无缝地集成到。\n"
 "          您的工作流程。"
 
-#: index.php:171
+#: index.php:177
 msgid "Designed for your needs"
 msgstr "专为你的需求而设计"
 
-#: index.php:173
+#: index.php:179
 msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
@@ -227,35 +239,28 @@ msgstr "FreeCAD 的设计适合广泛的用途，包括产品。\n"
 "          业余爱好者、程序员、有经验的 CAD 用户、学生或。\n"
 "          老师，使用 FreeCAD 您会有宾至如归的感觉。"
 
-#: index.php:187
+#: index.php:193
 msgid "And many more great features"
 msgstr "和很多更伟大的特性"
 
-#: index.php:189
+#: index.php:195
 msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
-"          modern Finite Element Analysis (FEA) tools, experimental CFD, BIM,\n"
-"          Geodata workbenches, Path workbench, a robot simulation module that\n"
+"          modern Finite Element Analysis (FEA) tools, experimental CFD, dedicated BIM,\n"
+"          Geodata or CAM/CNC workbenches, a robot simulation module that\n"
 "          allows you to study robot movements and many more features. FreeCAD\n"
 "          really is a Swiss Army knife of general-purpose engineering\n"
 "          toolkits."
-msgstr "FreeCAD 为您配备了满足您需求的所有正确工具。\n"
-"          你得到。\n"
-"          现代有限元分析(FEA)工具、实验 CFD、BIM、。\n"
-"          地理数据工作台、路径工作台、机器人模拟模块。\n"
-"          允许您研究机器人运动和更多功能。\n"
-"          FreeCAD。\n"
-"真的是通用工程的瑞士军刀。\n"
-"工具包。"
+msgstr ""
 
-#: index.php:197
+#: index.php:203
 msgid "Learn more"
 msgstr "了解详情"
 
-#: index.php:208
+#: index.php:214
 msgid "Want to contribute to FreeCAD?"
 msgstr "想一起创造 FreeCAD 吗？"
 
-#: index.php:210
+#: index.php:216
 msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
@@ -265,11 +270,11 @@ msgstr "FreeCAD 是一个真正的开源项目，如果您愿意帮助。\n"
 "          我们邀请您加入我们，并创建一款让。\n"
 "          整个社区。"
 
-#: index.php:216
+#: index.php:222
 msgid "Get involved"
 msgstr "参与其中"
 
-#: index.php:228
+#: index.php:234
 msgid "Videos"
 msgstr "视频"
 

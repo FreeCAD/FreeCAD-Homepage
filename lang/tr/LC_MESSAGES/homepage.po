@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-01 11:06+0200\n"
-"PO-Revision-Date: 2020-11-10 13:51\n"
+"POT-Creation-Date: 2020-11-13 11:21+0100\n"
+"PO-Revision-Date: 2020-12-23 13:54\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -21,157 +21,169 @@ msgstr ""
 msgid "FreeCAD: Select your platform"
 msgstr "FreeCAD: Platformunuzu Seçin"
 
-#: downloads.php:47 index.php:47
+#: downloads.php:53 index.php:53
 msgid "Features"
 msgstr "Özellikler"
 
-#: downloads.php:51 index.php:51
+#: downloads.php:57 index.php:57
 msgid "Downloads"
 msgstr "İndirmeler"
 
-#: downloads.php:55 index.php:55
+#: downloads.php:61 index.php:61
 msgid "Documentation"
 msgstr "Dökümanlar"
 
-#: downloads.php:59 index.php:59
+#: downloads.php:65 index.php:65
 msgid "Community"
 msgstr "Topluluk"
 
-#: downloads.php:75 downloads.php:211 index.php:77 index.php:234
+#: downloads.php:83 downloads.php:220 index.php:83 index.php:240
 msgid "Contribute"
 msgstr "Katkıda bulun"
 
-#: downloads.php:85 downloads.php:214 index.php:88 index.php:237
+#: downloads.php:86 index.php:86
+msgid "How to help?"
+msgstr "Nasıl yardım edilir?"
+
+#: downloads.php:87 index.php:87
+msgid "Pull requests"
+msgstr "İstekleri Çek"
+
+#: downloads.php:88 index.php:88
+msgid "Wiki"
+msgstr "Viki"
+
+#: downloads.php:89 index.php:89
+msgid "Bug Tracker"
+msgstr "Hata kaydı"
+
+#: downloads.php:94 downloads.php:223 index.php:94 index.php:243
 msgid "Donate"
 msgstr "Bağış Yap"
 
-#: downloads.php:89 index.php:92
+#: downloads.php:98 index.php:98
 msgid "Showcase"
 msgstr "Vitrin"
 
-#: downloads.php:102
+#: downloads.php:111
 msgid "Current stable version: 0.18.4"
 msgstr "Güncel kararlı sürüm: 0.18.4"
 
-#: downloads.php:103
+#: downloads.php:112
 msgid "Select your desired platform"
 msgstr "İstediğiniz platformu seçin"
 
-#: downloads.php:124
+#: downloads.php:133
 msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
 msgstr "Desteklenen en düşük işletim sistemi Windows 7'dir. Daha fazla bilgi için lütfen şuraya bakın "
 
-#: downloads.php:125 downloads.php:145 downloads.php:165
+#: downloads.php:134 downloads.php:154 downloads.php:174
 msgid "wiki"
 msgstr "wiki"
 
-#: downloads.php:144
+#: downloads.php:153
 msgid "Mac OS X 10.11 El Capitan is the minimum supported version. For more info on installation, please check out the "
 msgstr "Desteklenen en düşük işletim sistemi Mac OS X 10.11 El Capitan'dır. Daha fazla bilgi için lütfen şuraya bakın "
 
-#: downloads.php:164
+#: downloads.php:173
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
 msgstr "Dağıtıma özel talimatlar, Ubuntu PPA gibi, ve Linux'a özgü diğer kurulum yöntemleri için lütfen şuraya bakın "
 
-#: downloads.php:177
+#: downloads.php:186
 msgid "Development versions"
 msgstr "Geliştirme Sürümleri"
 
-#: downloads.php:179
+#: downloads.php:188
 msgid "FreeCAD's development is always active! Do you want to check out the latest development \n"
 "        release? For MacOS, Windows, Linux (AppImage) and source code, see the "
 msgstr "FreeCAD'in gelişimi her zaman aktiftir!  En son geliştirme sürümünü kontrol etmek \n"
 "        ister misiniz? MacOS, Windows, Linux (Appımage) ve kaynak kodu için bakınız "
 
-#: downloads.php:181
+#: downloads.php:190
 msgid "FreeCAD releases page."
 msgstr "FreeCAD sürümleri sayfası."
 
-#: downloads.php:190
+#: downloads.php:199
 msgid "Additional modules and macros"
 msgstr "Ek modüller ve makrolar"
 
-#: downloads.php:192
+#: downloads.php:201
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can \n"
 "        now easily be installed directly from within FreeCAD using the  "
 msgstr "FreeCAD topluluğu ek modül ve makro zenginliği sağlar. FreeCAD üzerinden şu program \n"
 "        kullanılarak kolayca doğrudan yüklenebilirler  "
 
-#: downloads.php:194
+#: downloads.php:203
 msgid "Addon manager."
 msgstr "Eklenti Yöneticisi."
 
-#: downloads.php:202 index.php:225
+#: downloads.php:211 index.php:231
 msgid "Learn"
 msgstr "Öğren"
 
-#: downloads.php:204 index.php:227
+#: downloads.php:213 index.php:233
 msgid "Tutorials"
 msgstr "Öğreticiler"
 
-#: downloads.php:205
+#: downloads.php:214
 msgid "Youtube videos"
 msgstr "YouTube videoları"
 
-#: downloads.php:213 index.php:236
+#: downloads.php:222 index.php:242
 msgid "How can I help?"
 msgstr "Nasıl yardımcı olabiliriz?"
 
-#: downloads.php:215 index.php:238
+#: downloads.php:224 index.php:244
 msgid "Translate"
 msgstr "Tercüme"
 
-#: downloads.php:220 index.php:243
+#: downloads.php:229 index.php:249
 msgid "Code"
 msgstr "Kod"
 
-#: downloads.php:222 index.php:245
+#: downloads.php:231 index.php:251
 msgid "Building from source"
 msgstr "Kaynaktan yapım"
 
-#: downloads.php:223 index.php:246
+#: downloads.php:232 index.php:252
 msgid "C++ & Python API"
 msgstr "C++ ve Python API"
 
-#: downloads.php:224 index.php:247
+#: downloads.php:233 index.php:253
 msgid "License information"
 msgstr "Lisans Bildirgesi"
 
-#: downloads.php:242 index.php:265
+#: downloads.php:251 index.php:271
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
 "      r-frank, epileftric, regis, rider_mortagnais, bejant."
 msgstr "© FreeCAD Ekibi. Ana sayfa resimlerine katkıda bulunanlar (Yukarıdan aşağıya): ppemawm,\n"
 "     r-frank, epileftric, regis, rider_mortagnais, bejant."
 
-#: index.php:12
+#: index.php:18
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Kendi 3D parametrik modelleyiciniz"
 
-#: index.php:51
-msgid "downloads.php"
-msgstr "downloads.php"
-
-#: index.php:105
+#: index.php:111
 msgid "FreeCAD"
 msgstr "FreeCAD"
 
-#: index.php:106
+#: index.php:112
 msgid "Your own 3D parametric modeler"
 msgstr "Kendi 3D parametrik modelleyiciniz"
 
-#: index.php:108
+#: index.php:114
 msgid "Download now"
 msgstr "Şimdi indir"
 
-#: index.php:109
+#: index.php:115
 msgid "See what's new"
 msgstr "Yenilikleri görün"
 
-#: index.php:122
+#: index.php:128
 msgid "Freedom to build what you want"
 msgstr "İstediğin şeyi inşa etme özgürlüğü"
 
-#: index.php:124
+#: index.php:130
 msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
@@ -181,11 +193,11 @@ msgstr "FreeCAD, öncelikle herhangi bir boyuttaki gerçek hayattaki\n"
 "         geçmişine geri dönerek ve parametrelerini değiştirerek tasarımınızı\n"
 "         kolayca değiştirmenizi sağlar."
 
-#: index.php:138
+#: index.php:144
 msgid "Create 3D from 2D & back"
 msgstr "2B'den ve öncesinden 3B oluşturun"
 
-#: index.php:140
+#: index.php:146
 msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
@@ -195,11 +207,11 @@ msgstr "FreeCAD, geometri kısıtlı 2D şekilleri çizmenize ve bunları başka
 "         kaliteli üretim hazır çizimleri oluşturmak için boyutları ayarlamak\n"
 "         veya 3D modellerden tasarım detaylarını çıkarmak için birçok bileşen içerir."
 
-#: index.php:154
+#: index.php:160
 msgid "Accessible, flexible & integrated"
 msgstr "Erişilebilir, esnek ve entegre"
 
-#: index.php:156
+#: index.php:162
 msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly\n"
 "          customizable and extensible software. It reads and writes to many\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
@@ -211,11 +223,11 @@ msgstr "FreeCAD çokplatformlu (Windows, Mac ve Linux), son derece\n"
 "          okur ve yazar, böylece iş akışınıza sorunsuzca entegre\n"
 "          edilebilirler."
 
-#: index.php:171
+#: index.php:177
 msgid "Designed for your needs"
 msgstr "İhtiyaçlarınız için tasarlandı"
 
-#: index.php:173
+#: index.php:179
 msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
@@ -225,14 +237,14 @@ msgstr "FreeCAD, ürün tasarımı, makine mühendisliği ve mimarlık\n"
 "         İster bir hobici, ister programcı, deneyimli bir CAD kullanıcısı, bir\n"
 "         öğrenci ya da öğretmen olun, FreeCAD ile kendinizi evde hissedeceksiniz."
 
-#: index.php:187
+#: index.php:193
 msgid "And many more great features"
 msgstr "Ve daha birçok harika özellik"
 
-#: index.php:189
+#: index.php:195
 msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
-"          modern Finite Element Analysis (FEA) tools, experimental CFD, BIM,\n"
-"          Geodata workbenches, Path workbench, a robot simulation module that\n"
+"          modern Finite Element Analysis (FEA) tools, experimental CFD, dedicated BIM,\n"
+"          Geodata or CAM/CNC workbenches, a robot simulation module that\n"
 "          allows you to study robot movements and many more features. FreeCAD\n"
 "          really is a Swiss Army knife of general-purpose engineering\n"
 "          toolkits."
@@ -243,15 +255,15 @@ msgstr "FreeCAD ihtiyaçlarınız için size en doğru araçları sunar. Modern 
 "         gerçekten genel amaçlı mühendislik araçlarının İsviçre Çakısı\n"
 "         gibidir."
 
-#: index.php:197
+#: index.php:203
 msgid "Learn more"
 msgstr "Daha fazlasını öğren"
 
-#: index.php:208
+#: index.php:214
 msgid "Want to contribute to FreeCAD?"
 msgstr "FreeCAD'e katkıda bulunmak ister misiniz?"
 
-#: index.php:210
+#: index.php:216
 msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
@@ -261,11 +273,11 @@ msgstr "FreeCAD gerçekten açık kaynak kodlu bir projedir ve hataların\n"
 "         belgelendirme üzerinde çalışmak istiyorsanız, sizi bize katılmaya ve\n"
 "         tüm topluma yarar sağlayan bir yazılım oluşturmaya davet ediyoruz."
 
-#: index.php:216
+#: index.php:222
 msgid "Get involved"
 msgstr "Dahil olun"
 
-#: index.php:228
+#: index.php:234
 msgid "Videos"
 msgstr "Videolar"
 
@@ -279,11 +291,11 @@ msgstr "Afrika dili"
 
 #: translation.php:56
 msgid "Arabic"
-msgstr ""
+msgstr "Arapça"
 
 #: translation.php:57
 msgid "Catalan"
-msgstr ""
+msgstr "Katalanca"
 
 #: translation.php:58
 msgid "Czech"
@@ -303,7 +315,7 @@ msgstr "İspanyolca"
 
 #: translation.php:62
 msgid "Basque"
-msgstr ""
+msgstr "Baskça"
 
 #: translation.php:63
 msgid "Finnish"
@@ -311,7 +323,7 @@ msgstr "Fince"
 
 #: translation.php:64
 msgid "Filipino"
-msgstr ""
+msgstr "Filipince"
 
 #: translation.php:65
 msgid "French"
@@ -319,7 +331,7 @@ msgstr "Fransızca"
 
 #: translation.php:66
 msgid "Galician"
-msgstr ""
+msgstr "Galiçya Dili"
 
 #: translation.php:67
 msgid "Croatian"
@@ -331,7 +343,7 @@ msgstr "Macarca"
 
 #: translation.php:69
 msgid "Indonesian"
-msgstr ""
+msgstr "Endonezce"
 
 #: translation.php:70
 msgid "Italian"
@@ -343,15 +355,15 @@ msgstr "Japonca"
 
 #: translation.php:72
 msgid "Kabyle"
-msgstr ""
+msgstr "Berberice"
 
 #: translation.php:73
 msgid "Korean"
-msgstr ""
+msgstr "Korece"
 
 #: translation.php:74
 msgid "Lithuanian"
-msgstr ""
+msgstr "Litvanyaca"
 
 #: translation.php:75
 msgid "Dutch"
@@ -403,11 +415,11 @@ msgstr "Ukraynaca"
 
 #: translation.php:88
 msgid "Valencian"
-msgstr ""
+msgstr "Valensiya Dili"
 
 #: translation.php:89
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamca"
 
 #: translation.php:90 translation.php:91
 msgid "Chinese"
