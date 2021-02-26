@@ -137,7 +137,7 @@
 
     <section class="row section d-flex align-items-center justify-content-around">
       <div class="col-lg-7 order-lg-last">
-        <img class="img-fluid rounded shadow" src="images/screenshot-02.jpg" alt="Screenshot 2"/>
+        <img class="img-fluid rounded shadow" src="images/screenshot-07.jpg" alt="Screenshot 7"/>
       </div>
 
       <div class="col-lg-4 text-light text-center text-lg-left px-md-4">
@@ -170,7 +170,7 @@
 
     <section class="row section d-flex align-items-center justify-content-around">
       <div class="col-lg-7 order-lg-last">
-        <img class="img-fluid rounded shadow" src="images/screenshot-04.jpg" alt="Screenshot 4"/>
+        <img class="img-fluid rounded shadow" src="images/screenshot-08.jpg" alt="Screenshot 8"/>
       </div>
 
       <div class="col-lg-4 text-light text-center text-lg-left px-md-4">
