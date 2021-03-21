@@ -124,7 +124,7 @@
             <img class="w-100 p-4" src="svg/icon-windows.svg" alt="Windows">
             <h3 class="card-title download-platform-name m-0 pb-3">Windows</h3>
             <div class="flex-column flex-lg-row">
-              <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.19.1/FreeCAD-0.19.1.a88db11-WIN-x64-installer.exe">64-Bit</a>
+              <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.19.1/FreeCAD-0.19.1.a88db11-WIN-x64-installer-1.exe">64-Bit</a>
             </div>
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
