@@ -3,24 +3,24 @@
 <!DOCTYPE html>
 <html lang="<?php echo $lang;?>" class="home">
 <head>
-	<meta charset="UTF-8"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta name="viewport" content="width = device-width, initial-scale = 1"/>
-	<meta name="description" content="FreeCAD, the open source parametric modeler"/>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width = device-width, initial-scale = 1"/>
+    <meta name="description" content="FreeCAD, the open source parametric modeler"/>
   <meta name="keywords" content="freecad, engineering, open-source, opencascade, architecture, cad, bim, fem, 3d, 3d-printing, mac-osx, linux, windows, coin, parametric-modeler"/>
 
-	<title><?php echo _('FreeCAD: Select your platform'); ?></title>
-	<link rel="shortcut icon" href="images/favicon.ico"/>
+    <title><?php echo _('FreeCAD: Select your platform'); ?></title>
+    <link rel="shortcut icon" href="images/favicon.ico"/>
 
-	<!-- Include bootstrap CSS file -->
-	<link rel="stylesheet" href="css/bootstrap-4.3.1.min.css"/>
+    <!-- Include bootstrap CSS file -->
+    <link rel="stylesheet" href="css/bootstrap-4.3.1.min.css"/>
 
-	<!-- Custom Styles -->
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 
 <body>
-	<nav class="navbar fixed-top navbar-expand-xl navbar-dark py-1 navbar-custom">
+    <nav class="navbar fixed-top navbar-expand-xl navbar-dark py-1 navbar-custom">
     <?php
         $indexurl = "index.php";
         if ($_GET["lang"] != "") {
@@ -186,7 +186,7 @@
       <p>
         <?php echo _("FreeCAD's development is always active! Do you want to check out the latest development 
         release? For MacOS, Windows, Linux (AppImage) and source code, see the "); ?>
-        <a href="https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre" class="badge badge-light"><?php echo _('FreeCAD releases page.'); ?></a>
+        <a href="https://github.com/FreeCAD/FreeCAD/releases/tag/0.20_pre" class="badge badge-light"><?php echo _('FreeCAD releases page.'); ?></a>
       </p>
     </div>
 
@@ -204,7 +204,7 @@
     </div>
     </div>
 
-	<footer class="container-fluid footer-custom bg-dark text-center text-light">
+    <footer class="container-fluid footer-custom bg-dark text-center text-light">
     <div class="row">
       <div class="col-md-4 col-sm-6 mb-3">
         <h4><?php echo _('Learn'); ?></h4>
