@@ -70,7 +70,7 @@
             <a class="dropdown-item text-dark" href="https://gitlab.com/freecad/FreeCAD">GitLab</a>
             <a class="dropdown-item text-dark" href="https://codeberg.org/FreeCAD/FreeCAD">Codeberg</a>
             <a class="dropdown-item text-dark" href="https://fosstodon.org/@FreeCAD">Mastodon</a>
-            <a class="dropdown-item text-dark" href="https://app.element.io/#/room/#gitter_FreeCAD=2FFreeCAD:matrix.org">Matrix</a>
+            <a class="dropdown-item text-dark" href="https://matrix.to/#/#FreeCAD_FreeCAD:gitter.im">Matrix</a>
             <a class="dropdown-item text-dark" href="irc://chat.freenode.net/freecad">IRC</a>
             <a class="dropdown-item text-dark" href="https://gitter.im/FreeCAD/FreeCAD">Gitter.im</a>
             <a class="dropdown-item text-dark" href="https://www.reddit.com/r/freecad">Reddit</a>
@@ -259,7 +259,7 @@
       <a href="https://forum.freecadweb.org/"><img class="icon-social m-2" src="svg/icon-forum-light.svg" alt="Forum"/></a>
       <a href="https://github.com/FreeCAD/FreeCAD"><img class="icon-social m-2" src="svg/icon-github-light.svg" alt="GitHub"/></a>
       <a href="https://fosstodon.org/@FreeCAD"><img class="icon-social m-2" src="svg/icon-mastodon-light.svg" alt="Mastodon"/></a>
-      <a href="https://riot.im/app/#/room/#gitter_FreeCAD=2FFreeCAD:matrix.org"><img class="icon-social m-2" src="svg/icon-matrix-light.svg" alt="Matrix"/></a>
+      <a href="https://matrix.to/#/#FreeCAD_FreeCAD:gitter.im"><img class="icon-social m-2" src="svg/icon-matrix-light.svg" alt="Matrix"/></a>
       <a href="irc://chat.freenode.net/freecad"><img class="icon-social m-2" src="svg/icon-irc-light.svg" alt="IRC" /></a>
       <a href="https://gitter.im/FreeCAD/FreeCAD"><img class="icon-social m-2" src="svg/icon-gitter-light.svg" alt="Gitter.im"/></a>
       <a href="https://www.reddit.com/r/freecad"><img class="icon-social m-2" src="svg/icon-reddit-light.svg" alt="Reddit"/></a>
