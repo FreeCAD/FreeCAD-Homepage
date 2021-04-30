@@ -150,7 +150,7 @@
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
             <small class="text-muted">
-              <?php echo _('Mac OS X 10.11 El Capitan is the minimum supported version. For more info on installation, please check out the '); ?>
+              <?php echo _('Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the '); ?>
               <a href="https://wiki.freecadweb.org/Install_on_Mac"><?php echo _('wiki'); ?></a>.
             </small>
           </div>
