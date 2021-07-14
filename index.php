@@ -73,8 +73,8 @@
             <a class="dropdown-item text-dark" href="https://codeberg.org/FreeCAD/FreeCAD">Codeberg</a>
             <a class="dropdown-item text-dark" href="https://fosstodon.org/@FreeCAD">Mastodon</a>
             <a class="dropdown-item text-dark" href="https://matrix.to/#/#FreeCAD_FreeCAD:gitter.im">Matrix</a>
-            <a class="dropdown-item text-dark" href="irc://chat.freenode.net/freecad">IRC</a>
-            <a class="dropdown-item text-dark" href="https://webchat.freenode.net/#freecad">IRC via Webchat</a>
+            <a class="dropdown-item text-dark" href="irc://irc.libera.chat/freecad">IRC</a>
+            <a class="dropdown-item text-dark" href="https://web.libera.chat/#freecad">IRC via Webchat</a>
             <a class="dropdown-item text-dark" href="https://gitter.im/FreeCAD/FreeCAD">Gitter.im</a>
             <a class="dropdown-item text-dark" href="https://www.reddit.com/r/freecad">Reddit</a>
             <a class="dropdown-item text-dark" href="https://twitter.com/FreeCADNews">Twitter</a>
