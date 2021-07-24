@@ -87,8 +87,8 @@
           <div class="dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark" href="https://wiki.freecadweb.org/Help_FreeCAD"><?php echo _('How to help?'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls"><?php echo _('Pull requests'); ?></a>
-            <a class="dropdown-item text-dark" href="http://wiki.freecadweb.org/"><?php echo _('Wiki'); ?></a>
-            <a class="dropdown-item text-dark" href="http://www.freecadweb.org/tracker/"><?php echo _('Bug Tracker'); ?></a>
+            <a class="dropdown-item text-dark" href="https://wiki.freecadweb.org/"><?php echo _('Wiki'); ?></a>
+            <a class="dropdown-item text-dark" href="https://www.freecadweb.org/tracker/"><?php echo _('Bug Tracker'); ?></a>
           </div>
         </li>
 
@@ -141,12 +141,12 @@
             <h3><?php echo _('A powerful solid-based geometry kernel'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD features an advanced geometry engine based on 
-              <a href=http://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>. It supports solids,
-              <a href=https://en.wikipedia.org/wiki/Boundary_representation>Boundary Representation</a> (BRep) objects,
-              and <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>Non-uniform rational basis spline</a> (NURBS) 
+              <a href="https://en.wikipedia.org/wiki/Open_CASCADE">Open CASCADE Technology</a>. It supports solids,
+              <a href="https://en.wikipedia.org/wiki/Boundary_representation">Boundary Representation</a> (BRep) objects, and
+              <a href="https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline">Non-uniform rational basis spline</a> (NURBS) 
               curves and surfaces, and offers a wide range of tools to create and modify these objects, including complex
-              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations, 
-              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and 
+              <a href="https://en.wikipedia.org/wiki/Boolean_operations_on_polygons">Boolean</a> operations, 
+              <a href="https://en.wikipedia.org/wiki/Fillet_(mechanics)">fillets</a>, shape cleaning and 
               <a href="https://wiki.freecadweb.org/OpenCASCADE">much more</a>.'); ?>
             </p>
           </div>
@@ -203,21 +203,21 @@
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD allows you to import and export models and many other kinds of data from your models such as
               analyses results or quantities data to dozens of different <a href="https://wiki.freecadweb.org/Category:File_Formats">file formats</a> such as 
-              <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/ISO_10303">STEP</a>, 
-              <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/IGES">IGES</a>, 
-              <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/Obj">OBJ</a>, 
-              <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/STL_%28file_format%29">STL</a>, 
-              <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/.dwg">DWG</a>, 
-              <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/Dxf">DXF</a>,
-              <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/Svg">SVG</a>,
-              <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/Shapefile">SHP</a>, 
-              <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/STL_(file_format)">STL</a>, 
-              <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/COLLADA">DAE</a>, 
-              <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/Industry_Foundation_Classes">IFC</a> or 
-              <a rel="nofollow" class="external text" href="http://people.sc.fsu.edu/~jburkardt/data/off/off.html">OFF</a>, 
-              <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/NASTRAN">NASTRAN</a>, 
-              <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/VRML">VRML</a>,
-              <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/OpenSCAD">OpenSCAD CSG</a>
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/ISO_10303">STEP</a>, 
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/IGES">IGES</a>, 
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Obj">OBJ</a>, 
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/STL_%28file_format%29">STL</a>, 
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/.dwg">DWG</a>, 
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Dxf">DXF</a>,
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Svg">SVG</a>,
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Shapefile">SHP</a>, 
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/STL_(file_format)">STL</a>, 
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/COLLADA">DAE</a>, 
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Industry_Foundation_Classes">IFC</a> or 
+              <a rel="nofollow" class="external text" href="https://people.sc.fsu.edu/~jburkardt/data/off/off.html">OFF</a>, 
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/NASTRAN">NASTRAN</a>, 
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/VRML">VRML</a>,
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/OpenSCAD">OpenSCAD CSG</a>
               and many more, in addition to FreeCAD&apos;s native 
               <a href="/File_Format_FCStd" title="File Format FCStd">FCStd</a> file format. Add-on workbenches can also add more
               file formats.'); ?>
@@ -240,7 +240,7 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
             <h3><?php echo _('A parametric constraints-based 2D sketcher'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _('FreeCAD features a state-of-the-art <a href="https://wiki.freecadweb.org/Sketcher_Workbench">Sketcher</a>a> 
+              <?php echo _('FreeCAD features a state-of-the-art <a href="https://wiki.freecadweb.org/Sketcher_Workbench">Sketcher</a> 
                   with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. Sketches are the main 
                   building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other 
                   objects throughout FreeCAD, be it either with the 
