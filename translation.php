@@ -3,7 +3,7 @@
 $localeMap = array(
     'en' => 'en_US',
     'af' => 'af_ZA',
-    'ar' => 'ar_SA',
+    'ar' => 'ar_EG',
     'ca' => 'ca_ES',
     'cs' => 'cs_CZ',
     'de' => 'de_DE',
@@ -27,11 +27,11 @@ $localeMap = array(
     'pl' => 'pl_PL',
     'pt' => 'pt_BR',
     'pt' => 'pt_PT',
-    'ro' => 'ro_MD',
+    'ro' => 'ro_RO',
     'ru' => 'ru_RU',
     'sk' => 'sk_SK',
     'sl' => 'sl_SI',
-    'sr' => 'sr_CS',
+    'sr' => 'sr_RS',
     'sv' => 'sv_SE',
     'tr' => 'tr_TR',
     'uk' => 'uk_UA',
@@ -73,7 +73,7 @@ function getFlags($href='/') {
     echo('						<a class="dropdown-item" href="'.$href.'?lang=ko"><img src="lang/ko/flag.jpg"/>'._('Korean').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=lt"><img src="lang/lt/flag.jpg"/>'._('Lithuanian').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=nl"><img src="lang/nl/flag.jpg"/>'._('Dutch').'</a>');
-    echo('						<a class="dropdown-item" href="'.$href.'?lang=no"><img src="lang/no/flag.jpg"/>'._('Norwegian').'</a>');
+    echo('						<a class="dropdown-item" href="'.$href.'?lang=no"><img src="lang/no/flag.jpg"/>'._('Norwegian Bokmal').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=pl"><img src="lang/pl/flag.jpg"/>'._('Polish').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=pt_BR"><img src="lang/pt_BR/flag.jpg"/>'._('Portuguese').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=pt_PT"><img src="lang/pt_PT/flag.jpg"/>'._('Portuguese').'</a>');

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-13 11:21+0100\n"
-"PO-Revision-Date: 2020-12-23 13:53\n"
+"PO-Revision-Date: 2021-08-26 12:46\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: downloads.php:12
 msgid "FreeCAD: Select your platform"
-msgstr "Selectați platforma"
+msgstr "FreeCAD: Selectați platforma"
 
 #: downloads.php:53 index.php:53
 msgid "Features"
@@ -43,19 +43,19 @@ msgstr "Contribuiți"
 
 #: downloads.php:86 index.php:86
 msgid "How to help?"
-msgstr ""
+msgstr "Cum să ajuţi?"
 
 #: downloads.php:87 index.php:87
 msgid "Pull requests"
-msgstr ""
+msgstr "Extrage solicitările"
 
 #: downloads.php:88 index.php:88
 msgid "Wiki"
-msgstr ""
+msgstr "Wiki"
 
 #: downloads.php:89 index.php:89
 msgid "Bug Tracker"
-msgstr ""
+msgstr "Evidenta erorilor"
 
 #: downloads.php:94 downloads.php:223 index.php:94 index.php:243
 msgid "Donate"
@@ -87,29 +87,31 @@ msgstr "MAC OS X 10.11 El Calitan este versiunea minimală suportată. Pentru ma
 
 #: downloads.php:173
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr ""
+msgstr "Pentru instrucțiuni specifice pentru distro, cum ar fi Ubuntu PPA și alte modalități de instalare pe Linux, vă rugăm să verificați "
 
 #: downloads.php:186
 msgid "Development versions"
-msgstr ""
+msgstr "Versiuni aflate în developare"
 
 #: downloads.php:188
 msgid "FreeCAD's development is always active! Do you want to check out the latest development \n"
 "        release? For MacOS, Windows, Linux (AppImage) and source code, see the "
-msgstr ""
+msgstr "Dezvoltarea FreeCAD este întotdeauna activă! Doriți să verificați cea mai recentă versiune de \n"
+"        dezvoltare? Pentru MacOS, Windows, Linux (AppImage) și codul sursă, vedeți "
 
 #: downloads.php:190
 msgid "FreeCAD releases page."
-msgstr ""
+msgstr "Pagina versiunilor FreeCAD."
 
 #: downloads.php:199
 msgid "Additional modules and macros"
-msgstr ""
+msgstr "Module suplimentare și macro-uri"
 
 #: downloads.php:201
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can \n"
 "        now easily be installed directly from within FreeCAD using the  "
-msgstr ""
+msgstr "Comunitatea FreeCAD oferă o bogăție de module suplimentare și macrouri. Ele pot \n"
+"        fi acum instalate ușor direct din interiorul FreeCAD folosind  "
 
 #: downloads.php:203
 msgid "Addon manager."
@@ -117,7 +119,7 @@ msgstr "Manager de addon."
 
 #: downloads.php:211 index.php:231
 msgid "Learn"
-msgstr ""
+msgstr "Învață"
 
 #: downloads.php:213 index.php:233
 msgid "Tutorials"
@@ -154,11 +156,12 @@ msgstr "Informații licență"
 #: downloads.php:251 index.php:271
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
 "      r-frank, epileftric, regis, rider_mortagnais, bejant."
-msgstr ""
+msgstr "© Echipa FreeCAD, 2018. Credite imagine Homepage(de sus în jos): ppemawm, r-frank, epileftric, regis, rider_mortagnais, bejant. \n"
+"\\Designul paginii principale de AR795."
 
 #: index.php:18
 msgid "FreeCAD: Your own 3D parametric modeler"
-msgstr ""
+msgstr "FreeCAD: propriul dvs. modelator parametric 3D"
 
 #: index.php:111
 msgid "FreeCAD"
@@ -166,11 +169,11 @@ msgstr "FreeCAD"
 
 #: index.php:112
 msgid "Your own 3D parametric modeler"
-msgstr ""
+msgstr "FreeCAD: propriul dvs. modelator parametric 3D"
 
 #: index.php:114
 msgid "Download now"
-msgstr ""
+msgstr "Descarcă acum"
 
 #: index.php:115
 msgid "See what's new"
@@ -185,7 +188,10 @@ msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
 "          and changing its parameters."
-msgstr ""
+msgstr "FreeCAD este un modelator 3D parametric open-source făcut în principal pentru a\n"
+"          proiecta obiecte din viața reală de orice dimensiune. Modelarea parametrică vă permite\n"
+"          să vă modificați cu ușurință design-ul revenind în istoricul modelului dvs\n"
+"          și schimbându-i parametrii."
 
 #: index.php:144
 msgid "Create 3D from 2D & back"
@@ -196,7 +202,10 @@ msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
 "          create high quality production ready drawings."
-msgstr ""
+msgstr "FreeCAD vă permite să schițați geometria constrânsă de forme 2D și să le folosiți\n"
+"          ca bază pentru a construi alte obiecte. Conține multe componente\n"
+"          pentru a ajusta dimensiunile sau pentru a extrage detalii de design din modele 3D la\n"
+"          a crea desene gata de producție de înaltă calitate."
 
 #: index.php:160
 msgid "Accessible, flexible & integrated"
@@ -208,7 +217,11 @@ msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
 "          and many others, making it possible to seamlessly integrate it into\n"
 "          your workflow."
-msgstr ""
+msgstr "FreeCAD este un software multiplatfom (Windows, Mac și Linux), foarte\n"
+"          personalizabil și extensibil. Citește și scrie către multe\n"
+"          formate de fișiere deschise, cum ar fi STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
+"          și multe altele, făcând posibilă integrarea perfectă în\n"
+"          fluxul tău de lucru."
 
 #: index.php:177
 msgid "Designed for your needs"
@@ -219,7 +232,10 @@ msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
 "          teacher, you will feel right at home with FreeCAD."
-msgstr ""
+msgstr "FreeCAD este conceput pentru a satisface o gamă largă de utilizări, cum ar fi \n"
+" proiectarea produselor, ingineria mecanică și arhitectura. Fie că sunteți un \n"
+" amator, un programator, un utilizator CAD experimentat, un student sau un \n"
+" profesor, vă veți simți ca acasă cu FreeCAD."
 
 #: index.php:193
 msgid "And many more great features"
@@ -232,7 +248,12 @@ msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          allows you to study robot movements and many more features. FreeCAD\n"
 "          really is a Swiss Army knife of general-purpose engineering\n"
 "          toolkits."
-msgstr ""
+msgstr "FreeCAD te echipează cu toate instrumentele potrivite nevoilor tale. Primești\n"
+"          instrumente moderne de analiză finită a elementelor (FEA) CFD-uri experimentale, BIM,\n"
+"          Geodata sau CAM/CNC, un modul de simulare a roboților care\n"
+"          vă permite să studiați mișcările roboților și multe alte caracteristici. FreeCAD\n"
+"          chiar este un cuţit al Armatei Elveţiene de inginerie generală\n"
+"          seturi de instrumente."
 
 #: index.php:203
 msgid "Learn more"
@@ -247,7 +268,10 @@ msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
 "          whole community."
-msgstr ""
+msgstr "FreeCAD este un proiect cu adevărat open source și dacă doriți să ajutați\n"
+"          rezolvarea problemelor, să pună în aplicare noi elemente interesante sau să lucreze la documentație;\n"
+"          Vă invităm să vă alăturați nouă și să creați un software care să aducă beneficii întregii\n"
+"          comunități."
 
 #: index.php:222
 msgid "Get involved"
@@ -255,7 +279,7 @@ msgstr "Implicați-vă"
 
 #: index.php:234
 msgid "Videos"
-msgstr ""
+msgstr "Videoclipuri"
 
 #: translation.php:54
 msgid "English"
@@ -267,11 +291,11 @@ msgstr "Afrikaans"
 
 #: translation.php:56
 msgid "Arabic"
-msgstr ""
+msgstr "Arabă"
 
 #: translation.php:57
 msgid "Catalan"
-msgstr ""
+msgstr "Catalană"
 
 #: translation.php:58
 msgid "Czech"
@@ -291,7 +315,7 @@ msgstr "Spaniolă"
 
 #: translation.php:62
 msgid "Basque"
-msgstr ""
+msgstr "Bască"
 
 #: translation.php:63
 msgid "Finnish"
@@ -299,7 +323,7 @@ msgstr "Finlandeză"
 
 #: translation.php:64
 msgid "Filipino"
-msgstr ""
+msgstr "Filipineză"
 
 #: translation.php:65
 msgid "French"
@@ -307,7 +331,7 @@ msgstr "Franceză"
 
 #: translation.php:66
 msgid "Galician"
-msgstr ""
+msgstr "Galiciană"
 
 #: translation.php:67
 msgid "Croatian"
@@ -319,7 +343,7 @@ msgstr "Maghiară"
 
 #: translation.php:69
 msgid "Indonesian"
-msgstr ""
+msgstr "Indoneziană"
 
 #: translation.php:70
 msgid "Italian"
@@ -331,15 +355,15 @@ msgstr "Japoneză"
 
 #: translation.php:72
 msgid "Kabyle"
-msgstr ""
+msgstr "Kabyle"
 
 #: translation.php:73
 msgid "Korean"
-msgstr ""
+msgstr "Coreeană"
 
 #: translation.php:74
 msgid "Lithuanian"
-msgstr ""
+msgstr "Lituaniană"
 
 #: translation.php:75
 msgid "Dutch"
@@ -375,7 +399,7 @@ msgstr "Slovenă"
 
 #: translation.php:84
 msgid "Serbian"
-msgstr ""
+msgstr "Sârbă"
 
 #: translation.php:85
 msgid "Swedish"
@@ -391,13 +415,13 @@ msgstr "Ucrainiană"
 
 #: translation.php:88
 msgid "Valencian"
-msgstr ""
+msgstr "Valenciană"
 
 #: translation.php:89
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnameză"
 
 #: translation.php:90 translation.php:91
 msgid "Chinese"
-msgstr ""
+msgstr "Chineză"
 

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-13 11:21+0100\n"
-"PO-Revision-Date: 2020-12-23 13:53\n"
+"PO-Revision-Date: 2021-08-26 12:46\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -43,19 +43,19 @@ msgstr "기여"
 
 #: downloads.php:86 index.php:86
 msgid "How to help?"
-msgstr ""
+msgstr "어떻게 도와 드릴까요?"
 
 #: downloads.php:87 index.php:87
 msgid "Pull requests"
-msgstr ""
+msgstr "요청사항"
 
 #: downloads.php:88 index.php:88
 msgid "Wiki"
-msgstr ""
+msgstr "위키"
 
 #: downloads.php:89 index.php:89
 msgid "Bug Tracker"
-msgstr ""
+msgstr "오류 추적기"
 
 #: downloads.php:94 downloads.php:223 index.php:94 index.php:243
 msgid "Donate"
@@ -75,7 +75,7 @@ msgstr "원하는 플랫폼 선택"
 
 #: downloads.php:133
 msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
-msgstr ""
+msgstr "최소 Windows 7이 필요합니다. 설치에 대한 자세한 내용은 다음 항목을 참조하십시오 "
 
 #: downloads.php:134 downloads.php:154 downloads.php:174
 msgid "wiki"
@@ -83,11 +83,11 @@ msgstr "위키"
 
 #: downloads.php:153
 msgid "Mac OS X 10.11 El Capitan is the minimum supported version. For more info on installation, please check out the "
-msgstr ""
+msgstr "최소 Mac OS X 10.11 El Capitan이 필요합니다. 설치에 대한 자세한 내용은 다음 항목을 참조하십시오 "
 
 #: downloads.php:173
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr ""
+msgstr "Ubuntu PPA와 같은 리눅스 배포판 및 Linux에 설치하는 다른 방법은 다음을 참조하십시오 "
 
 #: downloads.php:186
 msgid "Development versions"
@@ -96,7 +96,8 @@ msgstr "개발 버전"
 #: downloads.php:188
 msgid "FreeCAD's development is always active! Do you want to check out the latest development \n"
 "        release? For MacOS, Windows, Linux (AppImage) and source code, see the "
-msgstr ""
+msgstr "FreeCAD의 개발은 항상 진행되고 있습니다! 최신 개발 버전을 확인하시겠습니까?\n"
+" MacOS, Windows, Linux(AppImage) 버전과 소스 코드는 다음을 확인하세요 "
 
 #: downloads.php:190
 msgid "FreeCAD releases page."
@@ -109,11 +110,12 @@ msgstr "추가 모듈 및 매크로"
 #: downloads.php:201
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can \n"
 "        now easily be installed directly from within FreeCAD using the  "
-msgstr ""
+msgstr "FreeCAD 커뮤니티는 다양한 추가 모듈과 매크로를 제공합니다. 이제 다음을 사용하여 \n"
+"을 FreeCAD 내에서 직접 설치할 수 있습니다.  "
 
 #: downloads.php:203
 msgid "Addon manager."
-msgstr "추가 기능 관리"
+msgstr "에드온 매니저"
 
 #: downloads.php:211 index.php:231
 msgid "Learn"
@@ -141,7 +143,7 @@ msgstr "코드"
 
 #: downloads.php:231 index.php:251
 msgid "Building from source"
-msgstr "소스코드로 부터 만들기"
+msgstr "소스코드로부터 빌드하기"
 
 #: downloads.php:232 index.php:252
 msgid "C++ & Python API"
@@ -159,7 +161,7 @@ msgstr "© The FreeCAD 팀. 홈페이지 이미지 기여자 (위에서 아래�
 
 #: index.php:18
 msgid "FreeCAD: Your own 3D parametric modeler"
-msgstr "FreeCAD: 당신만의 3D 파라메트릭 모델링 프로그램"
+msgstr "FreeCAD: 당신을 위한 3D 파라메트릭 모델링 프로그램"
 
 #: index.php:111
 msgid "FreeCAD"
@@ -167,7 +169,7 @@ msgstr "FreeCAD"
 
 #: index.php:112
 msgid "Your own 3D parametric modeler"
-msgstr "당신만의 3D 파라메트릭 모델링 프로그램"
+msgstr "당신을 위한 3D 파라메트릭 모델링 프로그램"
 
 #: index.php:114
 msgid "Download now"
@@ -175,7 +177,7 @@ msgstr "지금 다운로드"
 
 #: index.php:115
 msgid "See what's new"
-msgstr "새로운 내용보기"
+msgstr "새로운 내용 보기"
 
 #: index.php:128
 msgid "Freedom to build what you want"
@@ -186,9 +188,9 @@ msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
 "          and changing its parameters."
-msgstr "FreeCAD는 기본적으로 모든 크기의 실제 객체를 디자인하기 위해 만들어진 오픈 소스 파라 메트릭 3D 모델러입니다. 파라 메트릭 모델링을 사용하면 \n"
-"매개 변수를 변경하고 \n\n"
-"모델 기록으로 돌아가 설계를 수정할 수 있습니다."
+msgstr "FreeCAD는 기본적으로 크기에 상관없이 현실에 존재하는 것들을 \n"
+"설계하기 위해 만들어진 오픈 소스 파라메트릭 3D 모델러입니다. 파라메트릭 모델링은 \n"
+"모델 이력으로 돌아가 설계 파라메터를 변경함으로써 간단하게 설계를 수정할 수 있습니다."
 
 #: index.php:144
 msgid "Create 3D from 2D & back"
@@ -199,7 +201,9 @@ msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
 "          create high quality production ready drawings."
-msgstr ""
+msgstr "FreeCAD를 사용하면 기하학적인 2D 도형을 스케치하고\n"
+" 도형을 기준으로 사용하여 다른 객체를 작성할 수 있습니다. 이 제품에는 많은 구성 요소\n"
+"이 포함되어 있어 치수를 조정하거나 3D 모델에서 설계 세부 정보를 추출하여 고품질 제작 준비 도면을 만들 수 있습니다."
 
 #: index.php:160
 msgid "Accessible, flexible & integrated"
@@ -211,18 +215,23 @@ msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
 "          and many others, making it possible to seamlessly integrate it into\n"
 "          your workflow."
-msgstr ""
+msgstr "FreeCAD는 멀티플랫폼(Windows, Mac 및 Linux)으로, 사용자 지정이 가능하고 확장성이 뛰어난 소프트웨어입니다. STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
+" 등 많은\n"
+" 열린 파일 형식을 읽고 쓸 수 있기 때문에 워크플로우에 원활하게 통합할 수 있습니다."
 
 #: index.php:177
 msgid "Designed for your needs"
-msgstr "귀하의 필요에 맞게 설계"
+msgstr "당신이 원하는 설계"
 
 #: index.php:179
 msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
 "          teacher, you will feel right at home with FreeCAD."
-msgstr ""
+msgstr "FreeCAD는 제품\n"
+" 디자인, 기계 엔지니어링 및 아키텍처 등 다양한 용도에 적합하도록 설계되었습니다. 여러분이 \n"
+"취미주의자든, 프로그래머든, 경험이 풍부한 CAD 사용자든, 학생이든, 또는\n"
+" 선생님이든 간에, 여러분은 FreeCAD를 통해 편안함을 느낄 것입니다."
 
 #: index.php:193
 msgid "And many more great features"
@@ -235,7 +244,11 @@ msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          allows you to study robot movements and many more features. FreeCAD\n"
 "          really is a Swiss Army knife of general-purpose engineering\n"
 "          toolkits."
-msgstr ""
+msgstr "FreeCAD는 사용자의 요구에 맞는 모든 도구를 제공합니다. 현대 유한 요소 분석(FEA) 도구, 실험용 CFD, 전용 BIM,\n"
+" Geodata 또는 CAM/CNC 워크벤치, 로봇 시뮬레이션 모듈(\n"
+"을 통해 로봇 이동 및 기타 여러 기능을 연구할 수 있습니다. FreeCAD\n"
+"은 정말로 범용 엔지니어링\n"
+" 툴킷입니다."
 
 #: index.php:203
 msgid "Learn more"
@@ -250,7 +263,8 @@ msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
 "          whole community."
-msgstr ""
+msgstr "FreeCAD는 진정한 오픈 소스 프로젝트이며, 버그를 수정하거나, 새로운 멋진 기능을 구현하거나 설명서를 작성하기를 원하신다면, \n"
+" 커뮤니티 전체에 도움이 되는 소프트웨어를 만들어 주시기 바랍니다."
 
 #: index.php:222
 msgid "Get involved"

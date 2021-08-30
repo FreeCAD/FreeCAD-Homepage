@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-13 11:21+0100\n"
-"PO-Revision-Date: 2020-12-23 13:53\n"
+"PO-Revision-Date: 2021-05-27 12:47\n"
 "Last-Translator: \n"
 "Language-Team: Norwegian\n"
 "Language: no_NO\n"
@@ -43,7 +43,7 @@ msgstr "Bidra"
 
 #: downloads.php:86 index.php:86
 msgid "How to help?"
-msgstr ""
+msgstr "Hvordan hjelpe?"
 
 #: downloads.php:87 index.php:87
 msgid "Pull requests"
@@ -51,11 +51,11 @@ msgstr ""
 
 #: downloads.php:88 index.php:88
 msgid "Wiki"
-msgstr ""
+msgstr "Wiki"
 
 #: downloads.php:89 index.php:89
 msgid "Bug Tracker"
-msgstr ""
+msgstr "Feilsporing"
 
 #: downloads.php:94 downloads.php:223 index.php:94 index.php:243
 msgid "Donate"
@@ -87,7 +87,7 @@ msgstr "Mac OS X 10.11 El Capitan er den eldste versjonen som støttes. For mer 
 
 #: downloads.php:173
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr "For distribusjonsspesifikke instruksjoner (som Ubuntu PPA) og andre måter å installere under Linux, vennligst sjekk "
+msgstr "For distribusjonsspesifikke instruksjoner (for eksempel Ubuntu PPA) og andre måter å installere under Linux, vennligst sjekk "
 
 #: downloads.php:186
 msgid "Development versions"
@@ -109,7 +109,7 @@ msgstr "Tilleggsmoduler og makroer"
 #: downloads.php:201
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can \n"
 "        now easily be installed directly from within FreeCAD using the  "
-msgstr "FreeCAD-fellesskapet tilbyr et bredt utvalg tilleggsmoduler og makroer. De kan enkelt installeres direkte fra FreeCAD ve d å benytte  "
+msgstr "FreeCAD-fellesskapet tilbyr et bredt utvalg tilleggsmoduler og makroer. De kan enkelt installeres direkte fra FreeCAD ved å benytte  "
 
 #: downloads.php:203
 msgid "Addon manager."
@@ -232,7 +232,12 @@ msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          allows you to study robot movements and many more features. FreeCAD\n"
 "          really is a Swiss Army knife of general-purpose engineering\n"
 "          toolkits."
-msgstr ""
+msgstr "FreeCAD gir deg alle de riktige verktøyene for dine behov. Du får\n"
+"          moderne  verktøy for elementanalyse(FEA), eksperimentell CFD, dedikert BIM,\n"
+"          Geodata eller CAM/CNC arbeidsbenker, en robot simuleringsmodul\n"
+"          lar deg studere robotbevegelser og mange flere funksjoner. FreeCAD\n"
+"          er som en lommekniv med \n"
+"         konstruksjonsverktøy."
 
 #: index.php:203
 msgid "Learn more"
@@ -247,7 +252,10 @@ msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
 "          whole community."
-msgstr "FreeCAD er et prosjekt med åpen kildekode. Hvis du vil hjelpe til med feilretting, implementere nyttige detaljer eller jobbe med dokumentasjon inviterer vi deg til å bli med å lage programvare som er til nytte for alle."
+msgstr "FreeCAD er et prosjekt med åpen kildekode. Hvis du vil hjelpe til med\n"
+" feilretting, implementere nyttige detaljer eller jobbe med dokumentasjon\n"
+" inviterer vi deg til å bli med å lage programvare som er til nytte\n"
+" for alle."
 
 #: index.php:222
 msgid "Get involved"
@@ -383,7 +391,7 @@ msgstr "Svensk"
 
 #: translation.php:86
 msgid "Turkish"
-msgstr "Turkisk"
+msgstr "Tyrkisk"
 
 #: translation.php:87
 msgid "Ukrainian"

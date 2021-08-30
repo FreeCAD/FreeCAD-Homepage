@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-13 11:21+0100\n"
-"PO-Revision-Date: 2020-12-23 13:52\n"
+"PO-Revision-Date: 2021-08-26 12:45\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -43,19 +43,19 @@ msgstr "Zapojte se"
 
 #: downloads.php:86 index.php:86
 msgid "How to help?"
-msgstr ""
+msgstr "Jak pomoci?"
 
 #: downloads.php:87 index.php:87
 msgid "Pull requests"
-msgstr ""
+msgstr "Podat požadavek"
 
 #: downloads.php:88 index.php:88
 msgid "Wiki"
-msgstr ""
+msgstr "Wiki"
 
 #: downloads.php:89 index.php:89
 msgid "Bug Tracker"
-msgstr ""
+msgstr "Sledování chyb"
 
 #: downloads.php:94 downloads.php:223 index.php:94 index.php:243
 msgid "Donate"
@@ -87,7 +87,7 @@ msgstr "Je požadován Mac OS X 10.11 El Capitan. Pro více info o instalaci nav
 
 #: downloads.php:173
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr ""
+msgstr "Pro pokyny pro specifické distribuce, jako je Ubuntu PPA a další způsoby instalace na Linux, prosím navštivte "
 
 #: downloads.php:186
 msgid "Development versions"
@@ -96,7 +96,8 @@ msgstr "Verze pro vývojáře"
 #: downloads.php:188
 msgid "FreeCAD's development is always active! Do you want to check out the latest development \n"
 "        release? For MacOS, Windows, Linux (AppImage) and source code, see the "
-msgstr ""
+msgstr "Vývoj FreeCADu je stále aktivní! Chcete zkusit vývojovou verzi?\n"
+" Pro MacOS, Windows, Linux (AppImage) a zdrojový kód se podívejte na "
 
 #: downloads.php:190
 msgid "FreeCAD releases page."
@@ -109,7 +110,8 @@ msgstr "Rozšíření"
 #: downloads.php:201
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can \n"
 "        now easily be installed directly from within FreeCAD using the  "
-msgstr ""
+msgstr "Komunita FreeCADu spravuje spoustu doplňkových modulů a make, které mohou být \n"
+" snadno instalovány přímo z FreeCADu za pomoci  "
 
 #: downloads.php:203
 msgid "Addon manager."
@@ -154,7 +156,8 @@ msgstr "Informace o licenci"
 #: downloads.php:251 index.php:271
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
 "      r-frank, epileftric, regis, rider_mortagnais, bejant."
-msgstr ""
+msgstr "© Tým FreeCADu. Autorství obrázků úvodní stránky (od zhora dolů):  ppemawm,\n"
+"      r-frank, epileftric, regis, rider_mortagnais, bejant."
 
 #: index.php:18
 msgid "FreeCAD: Your own 3D parametric modeler"
@@ -185,7 +188,9 @@ msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
 "          and changing its parameters."
-msgstr ""
+msgstr "FreeCAD je open-source parametrický 3D CAD vytvořený primárně k návrhu objektů libovolné velikosti z reálného života. Parametrické modelování vám umožní \n"
+" snadno modifikovat váš návrh pomocí kroků zpět v historii modelu a změnou \n\n"
+" jeho parametrů."
 
 #: index.php:144
 msgid "Create 3D from 2D & back"
@@ -196,7 +201,9 @@ msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
 "          create high quality production ready drawings."
-msgstr ""
+msgstr "FreeCAD vám umožní načrtnout geometrii provázaných 2D tvarů a použít je jako základ pro další objekty. Obsahuje řadu částí \n"
+" k nastavení kót nebo k extrakci detailů návrhu z 3D modelů pro vytváření \n\n"
+" produkčních výkresů vysoké kvality."
 
 #: index.php:160
 msgid "Accessible, flexible & integrated"
@@ -219,7 +226,10 @@ msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
 "          teacher, you will feel right at home with FreeCAD."
-msgstr ""
+msgstr "FreeCAD je navržený pro široké použití zahrnující\n"
+"          produkční design, strojní inženýrství a architekturu. \n"
+"          Ať už jste kutil, programátor, zkušený uživatel CADu, \n"
+"          student nebo učitel, budete ve FreeCADem cítit jako doma."
 
 #: index.php:193
 msgid "And many more great features"
@@ -232,7 +242,12 @@ msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          allows you to study robot movements and many more features. FreeCAD\n"
 "          really is a Swiss Army knife of general-purpose engineering\n"
 "          toolkits."
-msgstr ""
+msgstr "FreeCAD vás vybaví těmi pravými nástroji, které potřebujete. \n"
+"          Získáte nástroje pro moderní analýzu metodou konečných prvků (MKP), \n"
+"          experimentální CFD, speciální BIM, Geodata pracovní \n"
+"          prostředí, pracovní prostředí pro obrábění, modul pro simulaci robota, který vám umožní \n"
+"          studovat jeho kinematiku a mnoho dalších funkcí. FreeCAD je opravdu jako \n"
+"          švýcarák pro obecné inženýrské použití."
 
 #: index.php:203
 msgid "Learn more"
@@ -247,7 +262,10 @@ msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
 "          whole community."
-msgstr ""
+msgstr "FreeCAD je skutečně open source projekt a pokud byste rádi pomohli \n"
+"          s odstraňováním chyb, implementací nových zajímavých funkcí nebo \n"
+"          zapracovali na dokumentaci, pak jste vřele zváni k vývoji softwaru, \n"
+"          ze kterého má prospěch celá komunita."
 
 #: index.php:222
 msgid "Get involved"
@@ -267,11 +285,11 @@ msgstr "Afrikánština"
 
 #: translation.php:56
 msgid "Arabic"
-msgstr ""
+msgstr "Arabština"
 
 #: translation.php:57
 msgid "Catalan"
-msgstr ""
+msgstr "Katalánština"
 
 #: translation.php:58
 msgid "Czech"
@@ -291,7 +309,7 @@ msgstr "Španělština"
 
 #: translation.php:62
 msgid "Basque"
-msgstr ""
+msgstr "Baskičtina"
 
 #: translation.php:63
 msgid "Finnish"
@@ -299,7 +317,7 @@ msgstr "Finština"
 
 #: translation.php:64
 msgid "Filipino"
-msgstr ""
+msgstr "Filipínština"
 
 #: translation.php:65
 msgid "French"
@@ -307,7 +325,7 @@ msgstr "Francouzština"
 
 #: translation.php:66
 msgid "Galician"
-msgstr ""
+msgstr "Galicijština"
 
 #: translation.php:67
 msgid "Croatian"
@@ -319,7 +337,7 @@ msgstr "Maďarština"
 
 #: translation.php:69
 msgid "Indonesian"
-msgstr ""
+msgstr "Indonéština"
 
 #: translation.php:70
 msgid "Italian"
@@ -331,15 +349,15 @@ msgstr "Japonština"
 
 #: translation.php:72
 msgid "Kabyle"
-msgstr ""
+msgstr "Kabylština"
 
 #: translation.php:73
 msgid "Korean"
-msgstr ""
+msgstr "Korejština"
 
 #: translation.php:74
 msgid "Lithuanian"
-msgstr ""
+msgstr "Litevština"
 
 #: translation.php:75
 msgid "Dutch"
@@ -375,7 +393,7 @@ msgstr "Slovinština"
 
 #: translation.php:84
 msgid "Serbian"
-msgstr ""
+msgstr "Srbština"
 
 #: translation.php:85
 msgid "Swedish"
@@ -391,11 +409,11 @@ msgstr "Ukrajinština"
 
 #: translation.php:88
 msgid "Valencian"
-msgstr ""
+msgstr "Valencijština"
 
 #: translation.php:89
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamština"
 
 #: translation.php:90 translation.php:91
 msgid "Chinese"
