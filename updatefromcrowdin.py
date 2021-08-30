@@ -63,12 +63,14 @@ xgettext --from-code=UTF-8 -o lang/homepage.pot *.php
 '''
 from __future__ import print_function
 
-import sys, os, shutil, tempfile, zipfile, getopt, StringIO, re, urllib2
+import sys, os, shutil, tempfile, zipfile, getopt, re
+from urllib.request import urlopen
+from io import StringIO
 try:
     import Image
 except:
     from PIL import Image
-from PySide import QtCore,QtGui
+from PySide2 import QtCore,QtGui
 
 crowdinpath = "http://crowdin.net/download/project/freecad.zip"
 
@@ -110,7 +112,7 @@ def doLanguage(lncode):
         flagurl = "http://www.unilang.org/images/langicons/"+lflag+ ".png"
         print("downloading flag from ",flagurl)
         try:
-            im = Image.open(StringIO.StringIO(urllib2.urlopen(flagurl).read()))
+            im = Image.open(StringIO(urlopen(flagurl).read()))
         except:
             print("Unable to download image above. Please do it manually")
             sys.exit()
@@ -185,7 +187,7 @@ if __name__ == "__main__":
 
     global tempfolder
     global crowdinpage
-    crowdinpage = urllib2.urlopen("https://crowdin.com/project/freecad").read()
+    crowdinpage = urlopen("https://crowdin.com/project/freecad").read()
     currentfolder = os.getcwd()
     if inputdir:
         tempfolder = os.path.realpath(inputdir)
