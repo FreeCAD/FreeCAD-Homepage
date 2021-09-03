@@ -225,7 +225,7 @@
           </div>
 
           <div class="col-lg-4">
-            <img class="img-fluid rounded shadow" src="images/feature-03.jpg" alt="Feature 03"/>
+            <img class="img-fluid rounded shadow" src="images/feature-08.jpg" alt="Feature 08"/>
           </div>
 
         </section>
@@ -282,6 +282,26 @@
           </div>
 
         </section>
+
+
+        <section class="row section d-flex justify-content-around">
+
+          <div class="col-lg-4">
+            <img class="img-fluid rounded shadow" src="images/feature-07.png" alt="Feature 07"/>
+          </div>
+
+          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
+            <h3><?php echo _('Developed by a community'); ?></h3>
+            <p class="section-body whitelinks">
+              <?php echo _('FreeCAD is made for everybody, by everybody. It is developed and maintained
+              by a community of developers, users, moderators, translators, all united by their wish make 
+              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no
+              urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or
+              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever.'); ?>
+            </p>
+          </div>
+        </section>
+
 
 
         <h2 class="features-title"><?php echo _('Release notes'); ?></h2>
