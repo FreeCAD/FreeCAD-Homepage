@@ -40,7 +40,7 @@
         </a>
 
         <div class="dropdown-lang dropdown-menu dropdown-menu-right">
-          <?php echo getFlags("/downloads.php"); ?>
+          <?php echo getFlags("/features.php"); ?>
         </div>
       </li>
     </ul>
