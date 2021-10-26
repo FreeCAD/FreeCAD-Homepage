@@ -60,14 +60,14 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="https://wiki.freecadweb.org/Getting_started"><?php echo _('Documentation'); ?></a>
+          <a class="nav-link my-2 rounded-pill" href="https://wiki.freecad.org/Getting_started"><?php echo _('Documentation'); ?></a>
         </li>
 
         <li class="nav-item dropdown">
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Community'); ?></a>
 
           <div class="dropdown-community dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item text-dark font-weight-bold" href="https://forum.freecadweb.org/">Forum</a>
+            <a class="dropdown-item text-dark font-weight-bold" href="https://forum.freecad.org/">Forum</a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD">GitHub</a>
             <a class="dropdown-item text-dark" href="https://gitlab.com/freecad/FreeCAD">GitLab</a>
             <a class="dropdown-item text-dark" href="https://codeberg.org/FreeCAD/FreeCAD">Codeberg</a>
@@ -87,19 +87,19 @@
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Contribute'); ?></a>
 
           <div class="dropdown-community dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item text-dark" href="https://wiki.freecadweb.org/Help_FreeCAD"><?php echo _('How to help?'); ?></a>
+            <a class="dropdown-item text-dark" href="https://wiki.freecad.org/Help_FreeCAD"><?php echo _('How to help?'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls"><?php echo _('Pull requests'); ?></a>
-            <a class="dropdown-item text-dark" href="http://wiki.freecadweb.org/"><?php echo _('Wiki'); ?></a>
-            <a class="dropdown-item text-dark" href="http://www.freecadweb.org/tracker/"><?php echo _('Bug Tracker'); ?></a>
+            <a class="dropdown-item text-dark" href="http://wiki.freecad.org/"><?php echo _('Wiki'); ?></a>
+            <a class="dropdown-item text-dark" href="http://www.freecad.org/tracker/"><?php echo _('Bug Tracker'); ?></a>
           </div>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="https://wiki.freecadweb.org/Donate"><?php echo _('Donate'); ?></a>
+          <a class="nav-link my-2 rounded-pill" href="https://wiki.freecad.org/Donate"><?php echo _('Donate'); ?></a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="https://forum.freecadweb.org/viewforum.php?f=24"><?php echo _('Showcase'); ?></a>
+          <a class="nav-link my-2 rounded-pill" href="https://forum.freecad.org/viewforum.php?f=24"><?php echo _('Showcase'); ?></a>
         </li>
       </ul>
     </div>
@@ -116,7 +116,7 @@
         <h2 class="home-subtitle text-light mb-4"><?php echo _('Your own 3D parametric modeler'); ?></h2>
         <div class="flex-column flex-lg-row">
           <a class="btn btn-light rounded-pill mt-2" role="button" href="<?php echo $downloadurl; ?>"><?php echo _('Download now'); ?></a>
-          <a class="btn btn-outline-light rounded-pill mt-2" role="button" href="https://wiki.freecadweb.org/Release_notes_0.19"><?php echo _("See what's new"); ?></a>
+          <a class="btn btn-outline-light rounded-pill mt-2" role="button" href="https://wiki.freecad.org/Release_notes_0.19"><?php echo _("See what's new"); ?></a>
         </div>
       </div>
     </section>
