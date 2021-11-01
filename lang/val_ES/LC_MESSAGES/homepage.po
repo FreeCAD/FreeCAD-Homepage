@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 11:03+0200\n"
-"PO-Revision-Date: 2021-09-06 13:36\n"
+"PO-Revision-Date: 2021-11-01 17:01\n"
 "Last-Translator: \n"
 "Language-Team: Valencian\n"
 "Language: val_ES\n"
@@ -43,19 +43,19 @@ msgstr "Contribuïu"
 
 #: downloads.php:89 features.php:88 index.php:89
 msgid "How to help?"
-msgstr ""
+msgstr "Com ajudar?"
 
 #: downloads.php:90 features.php:89 index.php:90
 msgid "Pull requests"
-msgstr ""
+msgstr "Peticions de validació"
 
 #: downloads.php:91 features.php:90 index.php:91
 msgid "Wiki"
-msgstr ""
+msgstr "Wiki"
 
 #: downloads.php:92 features.php:91 index.php:92
 msgid "Bug Tracker"
-msgstr ""
+msgstr "Seguiment d'errors"
 
 #: downloads.php:97 features.php:96 footer.php:21 index.php:97
 msgid "Donate"
@@ -67,7 +67,7 @@ msgstr "Aparador"
 
 #: downloads.php:114
 msgid "Current stable version: 0.19.2"
-msgstr ""
+msgstr "Versió estable actual: 0.19.2"
 
 #: downloads.php:115
 msgid "Select your desired platform"
@@ -83,7 +83,7 @@ msgstr "wiki"
 
 #: downloads.php:155
 msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
-msgstr ""
+msgstr "Mac OS X 10.12 Sierra és la versió mínima suportada. Per a obtindre més informació sobre l'instal·lació, consulteu el "
 
 #: downloads.php:175
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
@@ -101,7 +101,7 @@ msgstr "El desenvolupament de FreeCAD sempre està actiu. Voleu provar l'última
 
 #: downloads.php:192
 msgid "FreeCAD weekly builds page."
-msgstr ""
+msgstr "Pàgina de compilacions semanals de FreeCAD."
 
 #: downloads.php:201
 msgid "Additional modules and macros"
@@ -119,26 +119,29 @@ msgstr "Administrador de complements."
 
 #: features.php:12
 msgid "FreeCAD: Features"
-msgstr ""
+msgstr "FreeCAD: Característiques"
 
 #: features.php:110
 msgid "Key FreeCAD Features"
-msgstr ""
+msgstr "Característiques principals de FreeCAD"
 
 #: features.php:117
 msgid "Made to build for the real world"
-msgstr ""
+msgstr "Fet per a construir el món real"
 
 #: features.php:119
 msgid "FreeCAD is made primarily to design objects for the real world. Everything you do in FreeCAD uses real-world\n"
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers tools to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr ""
+msgstr "FreeCAD està concebut principalment per a dissenyar objectes per al món real. Tot el que faces en FreeCAD utilitza\n"
+" unitats del món real, ja siguen microns, kilòmetres, polzades o peus, o inclús qualsevol combinació d'unitats. FreeCAD ofereix ferramentes per a produir, exportar i\n"
+" editar sòlids, models d'alta precisió, exportar-los per a la seua impressió 3D o fabricació amb una màquina de control numèric, crear dibuixos 2D i vistes dels teus models,\n"
+" realitzar diverses anàlisis com L'Anàlisi d'Elements Finits, o exportar dades del model com quantitats o llistes de materials."
 
 #: features.php:141
 msgid "A powerful solid-based geometry kernel"
-msgstr ""
+msgstr "Un potent nucli basat en geometria de sòlids"
 
 #: features.php:143
 msgid "FreeCAD features an advanced geometry engine based on \n"
@@ -149,11 +152,18 @@ msgid "FreeCAD features an advanced geometry engine based on \n"
 "              <a href=\"https://en.wikipedia.org/wiki/Boolean_operations_on_polygons\">Boolean</a> operations, \n"
 "              <a href=\"https://en.wikipedia.org/wiki/Fillet_(mechanics)\">fillets</a>, shape cleaning and \n"
 "              <a href=\"https://wiki.freecadweb.org/OpenCASCADE\">much more</a>."
-msgstr ""
+msgstr "FreeCAD es caracteritza per ser un avançat motor de geometria basada en \n"
+"              <a href=\"https://en.wikipedia.org/wiki/Open_CASCADE\">Tecnologia Open CASCADE </a>. Suporta sòlids,\n"
+"              <a href=\"https://en.wikipedia.org/wiki/Boundary_representation\">Representació de límits</a> objectes (BRep), i\n"
+"              <a href=\"https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline\">Splines de base racional no uniforme</a> (NURBS) \n"
+"              curves i superfícies, i ofereix un ampli rang de ferramentes per a crear i modificar estos objectes, incloent complexes \n"
+"              <a href=\"https://en.wikipedia.org/wiki/Boolean_operations_on_polygons\"> operacions Booleanes</a>, \n"
+"              <a href=\"https://en.wikipedia.org/wiki/Fillet_(mechanics)\">arrodoniments</a>, neteja de formes i \n"
+"              <a href=\"https://wiki.freecadweb.org/OpenCASCADE\">molt més</a>."
 
 #: features.php:159
 msgid "A wi(l)dly parametric environment"
-msgstr ""
+msgstr "Un entorn extensament paramètric"
 
 #: features.php:161
 msgid "All FreeCAD objects are natively parametric, meaning their shape can be based on \n"
@@ -166,7 +176,7 @@ msgstr ""
 
 #: features.php:184
 msgid "Python everywhere"
-msgstr ""
+msgstr "Python per tot arreu"
 
 #: features.php:186
 msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance, \n"
@@ -180,7 +190,7 @@ msgstr ""
 
 #: features.php:202
 msgid "File formats frenzy"
-msgstr ""
+msgstr "Bogeria de formats d'arxiu"
 
 #: features.php:204
 msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
@@ -207,7 +217,7 @@ msgstr ""
 
 #: features.php:241
 msgid "A parametric constraints-based 2D sketcher"
-msgstr ""
+msgstr "Un bocetador 2D basat en restriccions paramètriques"
 
 #: features.php:243
 msgid "FreeCAD features a state-of-the-art <a href=\"https://wiki.freecadweb.org/Sketcher_Workbench\">Sketcher</a> \n"
@@ -219,7 +229,7 @@ msgstr ""
 
 #: features.php:257
 msgid "A large (and growing) multi-specialty ecosystem"
-msgstr ""
+msgstr "Un ampli ecosistema multi-especialitat (i en creixement)"
 
 #: features.php:259
 msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecadweb.org/Workbench_Concept\">workbenches</a> for a variety of purposes\n"
@@ -245,7 +255,7 @@ msgstr "Per saber-ne més"
 
 #: features.php:294
 msgid "Developed by a community"
-msgstr ""
+msgstr "Desenvolupat per una comunitat"
 
 #: features.php:296
 msgid "FreeCAD is made for everybody, by everybody. It is developed and maintained\n"
@@ -257,48 +267,49 @@ msgstr ""
 
 #: features.php:307
 msgid "Release notes"
-msgstr ""
+msgstr "Notes de la versió"
 
 #: features.php:316
 msgid "Find here the release notes for current and previous FreeCAD versions. \n"
 "                  Release notes describe what&apos;s new in each release:"
-msgstr ""
+msgstr "Troba ací les notes de les versions actual i prèvies de FreeCAD. \n"
+"                  Les notes de la versió descriuen que&apos;s noves en cada publicació:"
 
 #: features.php:323
 msgid "Release 0.11 - March 2011"
-msgstr ""
+msgstr "Versió 0.11 - Març 2011"
 
 #: features.php:324
 msgid "Release 0.12 - December 2011"
-msgstr ""
+msgstr "Versió 0.12 - Decembre 2011"
 
 #: features.php:325
 msgid "Release 0.13 - January 2013"
-msgstr ""
+msgstr "Versió 0.13 - Gener 2013"
 
 #: features.php:326
 msgid "Release 0.14 - March 2014"
-msgstr ""
+msgstr "Versió 0.14 - Març 2014"
 
 #: features.php:327
 msgid "Release 0.15 - March 2015"
-msgstr ""
+msgstr "Versió 0.15 - Març 2015"
 
 #: features.php:328
 msgid "Release 0.16 - April 2016"
-msgstr ""
+msgstr "Versió 0.16 - Abril 2016"
 
 #: features.php:329
 msgid "Release 0.17 - April 2018"
-msgstr ""
+msgstr "Versió 0.17 - Abril 2018"
 
 #: features.php:330
 msgid "Release 0.18 - March 2019"
-msgstr ""
+msgstr "Versió 0.18 - Març 2019"
 
 #: features.php:331
 msgid "Release 0.19 - March 2021"
-msgstr ""
+msgstr "Versió 0.19 - Març 2021"
 
 #: footer.php:9
 msgid "Learn"
@@ -310,7 +321,7 @@ msgstr "Tutorials"
 
 #: footer.php:12
 msgid "Videos"
-msgstr ""
+msgstr "Vídeos"
 
 #: footer.php:20
 msgid "How can I help?"
@@ -541,7 +552,7 @@ msgstr "Holandés"
 
 #: translation.php:76
 msgid "Norwegian Bokmal"
-msgstr ""
+msgstr "Bokmal noruec"
 
 #: translation.php:77
 msgid "Polish"

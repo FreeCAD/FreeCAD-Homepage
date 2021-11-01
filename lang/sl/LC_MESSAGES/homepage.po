@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 11:03+0200\n"
-"PO-Revision-Date: 2021-09-06 13:35\n"
+"PO-Revision-Date: 2021-11-01 17:00\n"
 "Last-Translator: \n"
 "Language-Team: Slovenian\n"
 "Language: sl_SI\n"
@@ -63,7 +63,7 @@ msgstr "Darujte"
 
 #: downloads.php:101 features.php:100 index.php:101
 msgid "Showcase"
-msgstr "Predstavitev"
+msgstr "Izložba"
 
 #: downloads.php:114
 msgid "Current stable version: 0.19.2"
@@ -75,7 +75,7 @@ msgstr "Izberi svoje želeno okolje"
 
 #: downloads.php:135
 msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
-msgstr "Windows 7 je najnižja podprta različica. Za več informacij glede namestitve, prosimo preveri "
+msgstr "Windows 7 je najnižja podprta različica. Za več podatkov o namestitvi preverite "
 
 #: downloads.php:136 downloads.php:156 downloads.php:176
 msgid "wiki"
@@ -100,7 +100,7 @@ msgstr "Razvoj FreeCADa je vedno živ! Želite preveriti  najnovejšo razvojno r
 
 #: downloads.php:192
 msgid "FreeCAD weekly builds page."
-msgstr ""
+msgstr "FreeCAD tedenske gradnje."
 
 #: downloads.php:201
 msgid "Additional modules and macros"
@@ -133,7 +133,10 @@ msgid "FreeCAD is made primarily to design objects for the real world. Everythin
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers tools to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr ""
+msgstr "FreeCAD je v prvi vrsti ustvarjen za oblikovanje objektov za resnični svet. Vse kar počnete v FreeCAD-u uporablja\n"
+"              prave enote, najsibo mikrone, kilometre, palce ali čevlje in celo kombinacije enot. FreeCAD ponuja orodja za izdelavo, izvoz in \n"
+"              urejanje polnih, natačnih modelov, njihov izvoz za 3D tiskanje ali CNC obdelavo, ustvarjanje 2D risb in prikazov modelam,\n"
+"              izvajanje analiz, kot je analiza zaključenosti modela, pa tudi izvažanje podatkov modela, kot so količine ali izračuni materiala."
 
 #: features.php:141
 msgid "A powerful solid-based geometry kernel"
@@ -148,7 +151,14 @@ msgid "FreeCAD features an advanced geometry engine based on \n"
 "              <a href=\"https://en.wikipedia.org/wiki/Boolean_operations_on_polygons\">Boolean</a> operations, \n"
 "              <a href=\"https://en.wikipedia.org/wiki/Fillet_(mechanics)\">fillets</a>, shape cleaning and \n"
 "              <a href=\"https://wiki.freecadweb.org/OpenCASCADE\">much more</a>."
-msgstr ""
+msgstr "FreeCAD se ponaša z naprednim geometrijskim pogonom, \n"
+"              ki temelji na <a href=\"https://en.wikipedia.org/wiki/Open_CASCADE\">tehnolgiji Open CASCADE</a>. Podpira polna telesa,\n"
+"             PzO predmete <a href=\"https://en.wikipedia.org/wiki/Boundary_representation\">Predstavitev z ovojnico</a>(BRep) in\n"
+"              <a href=\"https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline\">neenakomerne racionalne osnovne zlepke</a>(NURBS)\n"
+"               krivulje in površine ter ponuja širok nabor orodji za ustvarjanje in spreminjanje teh predmetov, vključno z zapletenimi\n"
+"              <a href=\"https://en.wikipedia.org/wiki/Boolean_operations_on_polygons\">boolovimi</a> operacijami,\n"
+"              <a href=\"https://en.wikipedia.org/wiki/Fillet_(mechanics)\">zaobljenimi robovi</a>, čiščenje oblik in \n"
+"              <a href=\"https://wiki.freecadweb.org/OpenCASCADE\">še mnogo več</a>."
 
 #: features.php:159
 msgid "A wi(l)dly parametric environment"

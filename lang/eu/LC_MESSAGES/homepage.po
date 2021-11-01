@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 11:03+0200\n"
-"PO-Revision-Date: 2021-09-06 13:33\n"
+"PO-Revision-Date: 2021-11-01 16:57\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -100,7 +100,7 @@ msgstr "FreeCADen garapena aktibo dago beti!  bertsioaren garapena nola doan iku
 
 #: downloads.php:192
 msgid "FreeCAD weekly builds page."
-msgstr ""
+msgstr "FreeCADen asteroko bertsioen orria."
 
 #: downloads.php:201
 msgid "Additional modules and macros"
@@ -133,11 +133,14 @@ msgid "FreeCAD is made primarily to design objects for the real world. Everythin
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers tools to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr ""
+msgstr "FreeCAD mundu errealeko objektuak diseinatzeko sortutako aplikazioa da. FreeCADen egindako guztiak munduko\n"
+"              unitateak erabiltzen ditu, bai mikroiak, kilometroak, hazbeteak edo oinak, baita unitateen konbinazioak ere. FreeCADek zehaztasun osoko eredu solidoak sortu,\n"
+"              esportatu eta editatzeko tresnak ditu, eredu horiek gero 3D inprimaketan edo CNC makinetan erabili ahal izateko,\n"
+"              ereduen 2D marrazkiak eta bistak sortzeko, elementu finituen analisiak eta haren antzekoak gauzatzeko edo eredu-datuak materialen kantitate edo faktura gisa esportatzeko."
 
 #: features.php:141
 msgid "A powerful solid-based geometry kernel"
-msgstr ""
+msgstr "Solidoetan oinarritutako geometria-kernel ahaltsua"
 
 #: features.php:143
 msgid "FreeCAD features an advanced geometry engine based on \n"
@@ -148,11 +151,18 @@ msgid "FreeCAD features an advanced geometry engine based on \n"
 "              <a href=\"https://en.wikipedia.org/wiki/Boolean_operations_on_polygons\">Boolean</a> operations, \n"
 "              <a href=\"https://en.wikipedia.org/wiki/Fillet_(mechanics)\">fillets</a>, shape cleaning and \n"
 "              <a href=\"https://wiki.freecadweb.org/OpenCASCADE\">much more</a>."
-msgstr ""
+msgstr "FreeCADek geometria-motor aurreratu bat darabil, \n"
+"              <a href=\"https://en.wikipedia.org/wiki/Open_CASCADE\">Open CASCADE teknologian</a> oinarritutakoa. Solidoak,\n"
+"              <a href=\"https://en.wikipedia.org/wiki/Boundary_representation\">Boundary Representation</a> (BRep) objektuak eta\n"
+"              <a href=\"https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline\">NURBS</a> \n"
+"              kurbak eta gainazalak onartzen ditu, eta objektu horiek sortu eta aldatzeko hainbat tresna eskaintzen ditu, eragiketa\n"
+"              <a href=\"https://en.wikipedia.org/wiki/Boolean_operations_on_polygons\">boolear</a> konplexuak, \n"
+"              <a href=\"https://en.wikipedia.org/wiki/Fillet_(mechanics)\">biribiltzeak</a>, formen garbiketa eta \n"
+"              <a href=\"https://wiki.freecadweb.org/OpenCASCADE\">asko gehiago</a> egiteko erabili daitezkeenak barne."
 
 #: features.php:159
 msgid "A wi(l)dly parametric environment"
-msgstr ""
+msgstr "Eginbide anitzeko ingurune parametrikoa"
 
 #: features.php:161
 msgid "All FreeCAD objects are natively parametric, meaning their shape can be based on \n"
@@ -165,7 +175,7 @@ msgstr ""
 
 #: features.php:184
 msgid "Python everywhere"
-msgstr ""
+msgstr "Python edonon"
 
 #: features.php:186
 msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance, \n"
@@ -179,7 +189,7 @@ msgstr ""
 
 #: features.php:202
 msgid "File formats frenzy"
-msgstr ""
+msgstr "Fitxategi-formatuen frenesia"
 
 #: features.php:204
 msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
@@ -202,11 +212,30 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              and many more, in addition to FreeCAD&apos;s native \n"
 "              <a href=\"/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
 "              file formats."
-msgstr ""
+msgstr "FreeCADen hamaika <a href=\"https://wiki.freecadweb.org/Category:File_Formats\">fitxategi-formatu</a> erabili daitezke ereduak eta beste datu mota asko\n"
+"              , esaterako analisien emaitzak edo kantitateen datuak, inportatu eta esportatzeko, adibidez\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>, \n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>, \n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Obj\">OBJ</a>, \n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>, \n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>, \n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>, \n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_(file_format)\">STL</a>, \n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>, \n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> or \n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://people.sc.fsu.edu/~jburkardt/data/off/off.html\">OFF</a>, \n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>, \n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
+"              eta beste hainbat, FreeCAD beraren jatorrizko \n"
+"              <a href=\"/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> fitxategi-formatuaz gain. Gainera, gehigarrien lan-mahaiek fitxategi-formatu gehiago\n"
+"              gehitu ditzakete."
 
 #: features.php:241
 msgid "A parametric constraints-based 2D sketcher"
-msgstr ""
+msgstr "Murrizketetan oinarritutako 2D krokisgile parametrikoa"
 
 #: features.php:243
 msgid "FreeCAD features a state-of-the-art <a href=\"https://wiki.freecadweb.org/Sketcher_Workbench\">Sketcher</a> \n"
@@ -218,7 +247,7 @@ msgstr ""
 
 #: features.php:257
 msgid "A large (and growing) multi-specialty ecosystem"
-msgstr ""
+msgstr "Espezialitate anitzeko ekosistema handia, gero eta gehiago hazten ari dena"
 
 #: features.php:259
 msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecadweb.org/Workbench_Concept\">workbenches</a> for a variety of purposes\n"

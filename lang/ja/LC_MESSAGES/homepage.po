@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 11:03+0200\n"
-"PO-Revision-Date: 2021-09-06 13:34\n"
+"PO-Revision-Date: 2021-11-01 16:59\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -67,7 +67,7 @@ msgstr "事例"
 
 #: downloads.php:114
 msgid "Current stable version: 0.19.2"
-msgstr ""
+msgstr "現在の安定版：0.19.2"
 
 #: downloads.php:115
 msgid "Select your desired platform"
@@ -83,11 +83,11 @@ msgstr "wiki"
 
 #: downloads.php:155
 msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
-msgstr ""
+msgstr "Mac OS X 10.12 Sierra がサポートされる最小のバージョンです。インストールの詳細については以下を参照するようお願いします。 "
 
 #: downloads.php:175
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr "Ubuntu PPAなどのディストロビジョン固有の手順や、Linuxへのインストール方法については、 "
+msgstr "Ubuntu PPAなどのディストリビューション固有の手順や、Linuxへのインストール方法については以下を参考にするようお願いします。 "
 
 #: downloads.php:188
 msgid "Development versions"
@@ -123,18 +123,21 @@ msgstr ""
 
 #: features.php:110
 msgid "Key FreeCAD Features"
-msgstr ""
+msgstr "FreeCAD の主な特徴"
 
 #: features.php:117
 msgid "Made to build for the real world"
-msgstr ""
+msgstr "現実世界に合わせて作成"
 
 #: features.php:119
 msgid "FreeCAD is made primarily to design objects for the real world. Everything you do in FreeCAD uses real-world\n"
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers tools to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr ""
+msgstr "FreeCADは主に現実世界の物体をデザインするために作られています。FreeCAD 上で行うすべての作業はミクロン、キロメートル、\n"
+"              インチ、フィートなど現実世界の単位を使用しており、あらゆる単位を組み合わせられます。高精度で信頼性が高いモデルを作成、\n"
+"              編集し、それを3DプリントやCNC加工のためにエクスポートすることができます。また、モデルの2D図面やビューの作成、有限要素\n"
+"              解析などの解析の実行、数量や部品表のエクスポートなどの機能をもった便利なツールもあります。"
 
 #: features.php:141
 msgid "A powerful solid-based geometry kernel"
@@ -245,7 +248,7 @@ msgstr "詳しく見る"
 
 #: features.php:294
 msgid "Developed by a community"
-msgstr ""
+msgstr "コミュニティによる開発"
 
 #: features.php:296
 msgid "FreeCAD is made for everybody, by everybody. It is developed and maintained\n"
@@ -253,52 +256,57 @@ msgid "FreeCAD is made for everybody, by everybody. It is developed and maintain
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
 "              urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or\n"
 "              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
-msgstr ""
+msgstr "FreeCAD はみんなのためにみんなで作ったものです。開発、メンテナンスはFreeCAD を自由で\n"
+"              パワフルなツールにしたいと思う開発者、利用者、管理者、翻訳者などを始めとするコミュニティに\n"
+"              よって行われています。決定の裏には営利目的は一切ありません。バージョンを強制的に\n"
+"              アップグレードさせたり、特定のワークフローやエコシステムで囲い込もうとしたりすること\n"
+"              もありません。FreeCAD と、FreeCAD で作成したファイルやデータは永久にあなたのものです。"
 
 #: features.php:307
 msgid "Release notes"
-msgstr ""
+msgstr "リリースノート"
 
 #: features.php:316
 msgid "Find here the release notes for current and previous FreeCAD versions. \n"
 "                  Release notes describe what&apos;s new in each release:"
-msgstr ""
+msgstr "FreeCADの現在のバージョンと過去のバージョンのリリースノートはここにあります。 \n"
+"                  リリースノートでは、各リリースでの変更点について説明しています。"
 
 #: features.php:323
 msgid "Release 0.11 - March 2011"
-msgstr ""
+msgstr "Release 0.11 - 2011年3月"
 
 #: features.php:324
 msgid "Release 0.12 - December 2011"
-msgstr ""
+msgstr "Release 0.12 - 2011 年 12 月"
 
 #: features.php:325
 msgid "Release 0.13 - January 2013"
-msgstr ""
+msgstr "Release 0.13 - 2013年1月"
 
 #: features.php:326
 msgid "Release 0.14 - March 2014"
-msgstr ""
+msgstr "Release 0.14 - 2014年3月"
 
 #: features.php:327
 msgid "Release 0.15 - March 2015"
-msgstr ""
+msgstr "Release 0.15 - 2015年3月"
 
 #: features.php:328
 msgid "Release 0.16 - April 2016"
-msgstr ""
+msgstr "Release 0.16 - 2016年4月"
 
 #: features.php:329
 msgid "Release 0.17 - April 2018"
-msgstr ""
+msgstr "Release 0.17 - 2018年4月"
 
 #: features.php:330
 msgid "Release 0.18 - March 2019"
-msgstr ""
+msgstr "Release 0.18 - 2019年3月"
 
 #: features.php:331
 msgid "Release 0.19 - March 2021"
-msgstr ""
+msgstr "Release 0.19 - 2021年3月"
 
 #: footer.php:9
 msgid "Learn"
@@ -525,7 +533,7 @@ msgstr "オランダ語"
 
 #: translation.php:76
 msgid "Norwegian Bokmal"
-msgstr ""
+msgstr "ブークモール・ノルウェー語"
 
 #: translation.php:77
 msgid "Polish"
