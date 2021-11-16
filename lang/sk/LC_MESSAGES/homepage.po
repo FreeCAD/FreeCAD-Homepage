@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 11:03+0200\n"
-"PO-Revision-Date: 2021-11-01 17:00\n"
+"PO-Revision-Date: 2021-11-16 16:26\n"
 "Last-Translator: \n"
 "Language-Team: Slovak\n"
 "Language: sk_SK\n"
@@ -83,7 +83,7 @@ msgstr "wiki"
 
 #: downloads.php:155
 msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
-msgstr ""
+msgstr "Mac OS X 10.12 Sierra je minimálna podporovaná verzia. Pre viac informácii si prosím pozrite "
 
 #: downloads.php:175
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
@@ -101,7 +101,7 @@ msgstr "Vývoj FreeCADu je stále aktívny! Chcete vyskúšať  posledné vývoj
 
 #: downloads.php:192
 msgid "FreeCAD weekly builds page."
-msgstr ""
+msgstr "stránku týždenných zostáv FreeCADu."
 
 #: downloads.php:201
 msgid "Additional modules and macros"
@@ -119,26 +119,29 @@ msgstr "Správca prídavných modulov."
 
 #: features.php:12
 msgid "FreeCAD: Features"
-msgstr ""
+msgstr "FreeCAD: Vlastnosti"
 
 #: features.php:110
 msgid "Key FreeCAD Features"
-msgstr ""
+msgstr "Kľúčové vlastnosti FreeCADu"
 
 #: features.php:117
 msgid "Made to build for the real world"
-msgstr ""
+msgstr "Stvorený na tvorbu pre skutočný svet"
 
 #: features.php:119
 msgid "FreeCAD is made primarily to design objects for the real world. Everything you do in FreeCAD uses real-world\n"
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers tools to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr ""
+msgstr "FreeCAD je vytvorený predovšetkým na návrh objektov zo skutočného sveta. Všetko, čo vo FreeCADe robíte, používa reálne\n"
+" jednotky, či už mikróny, kilometre, palce či stopy, alebo dokonca ich kombináciu. FreeCAD ponúka nástroje na tvorbu, export a\n"
+" úpravu presných pevných modelov, ich výstup pre 3D tlač alebo CNC frézovanie, tvorbu 2D náčrtov a zobrazení vašich modelov,\n"
+" vykonanie analýzy, ako napríklad Metóda konečných prvkov, alebo export modelových dát vrátane množstiev alebo rozpisu materiálu."
 
 #: features.php:141
 msgid "A powerful solid-based geometry kernel"
-msgstr ""
+msgstr "Výkonné jadro na tvorbu geometrie telies"
 
 #: features.php:143
 msgid "FreeCAD features an advanced geometry engine based on \n"
@@ -153,7 +156,7 @@ msgstr ""
 
 #: features.php:159
 msgid "A wi(l)dly parametric environment"
-msgstr ""
+msgstr "Rozsiahle parametrické prostredie"
 
 #: features.php:161
 msgid "All FreeCAD objects are natively parametric, meaning their shape can be based on \n"
@@ -166,7 +169,7 @@ msgstr ""
 
 #: features.php:184
 msgid "Python everywhere"
-msgstr ""
+msgstr "Všade samý Python"
 
 #: features.php:186
 msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance, \n"
@@ -180,7 +183,7 @@ msgstr ""
 
 #: features.php:202
 msgid "File formats frenzy"
-msgstr ""
+msgstr "Smršť súborových formátov"
 
 #: features.php:204
 msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
@@ -253,7 +256,11 @@ msgid "FreeCAD is made for everybody, by everybody. It is developed and maintain
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
 "              urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or\n"
 "              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
-msgstr "FreeCAD je vytvorený všetkými pre všetkých. Je vyvíjaný a udržovaný komunitou vývojárov, úžívateľov, moderátorov a prekladateľov, všetkých združených ich prianím urobiť FreCAD volne dostupným a silným nástrojom. Za všetkými rozhodnutiami nie je žiaden komerčný úmysel, žiadne nútenie k upgradeovaniu verzie FreeCADu alebo nútenie k určitému pracovnému postupu alebo ekosystému  pri jeho používaní. FreeCAD a súbory a dáta vami vytvorené jeho použitím sú skutočne vaše, navždy."
+msgstr "FreeCAD je vytvorený všetkými a pre všetkých. Je vyvíjaný a udržiavaný\n"
+" komunitou vývojárov, úžívateľov, moderátorov a prekladateľov so spoločným prianím urobiť\n"
+" FreeCAD volne dostupným a silným nástrojom. Za žiadnym z rozhodnutím nestojí komerčný úmysel,\n"
+" nie ste nútení aktualizovať svoju verziu FreeCADu, nikto vám nediktuje správny pracovný postup alebo\n"
+" ekosystém. FreeCAD, jeho súbory a dáta, ktoré v ňom vytvoríte, sú skutočne vaše, a to navždy."
 
 #: features.php:307
 msgid "Release notes"
@@ -326,7 +333,7 @@ msgstr "Kód"
 
 #: footer.php:29
 msgid "Building from source"
-msgstr "Vytvára sa zo zdroja"
+msgstr "Tvorba zo zdroja"
 
 #: footer.php:30
 msgid "C++ & Python API"
@@ -339,12 +346,12 @@ msgstr "Informácie o licencii"
 #: footer.php:49
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
 "      r-frank, epileftric, regis, rider_mortagnais, bejant."
-msgstr "© FreeCAD tím. Zásluhy pre obrázky na domovskej stránke (Zhora dole): ppemawm, r-frank, epileftric, regis, rider_mortagnais, bejant. \n"
-"Dizajn domovskej stránky AR."
+msgstr "© FreeCAD tím. Autori obrázkov na domovskej stránke (zhora nadol): ppemawm,\n"
+" r-frank, epileftric, regis, rider_mortagnais, bejant."
 
 #: index.php:20
 msgid "FreeCAD: Your own 3D parametric modeler"
-msgstr "FreeCAD: Váš vlastný 3D parametrický modelár"
+msgstr "FreeCAD: Váš vlastný 3D parametrický modelovací software"
 
 #: index.php:114
 msgid "FreeCAD"
@@ -352,7 +359,7 @@ msgstr "FreeCAD"
 
 #: index.php:115
 msgid "Your own 3D parametric modeler"
-msgstr "Váš vlastný 3D parametrický modelár"
+msgstr "Váš vlastný 3D parametrický modelovací sotfware"
 
 #: index.php:117
 msgid "Download now"
@@ -364,16 +371,17 @@ msgstr "Zobraziť novinky"
 
 #: index.php:131
 msgid "Freedom to build what you want"
-msgstr "Sloboda stavať, čo len chcete"
+msgstr "Možnosť tvoriť, čo len chcete"
 
 #: index.php:133
 msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
 "          and changing its parameters."
-msgstr "FreeCAD je open-source parametrický 3D modelovací nástroj určený hlavne k tvorbe reálnych objektov všetkých veľkostí. Parametrické modelovanie umožňuje \n"
-"jednoducho upravovať Váš návrh vrátením sa do akéhokoľvek bodu v histórii modelu \n\n"
-"a zmenou jeho parametrov."
+msgstr "FreeCAD je open-source parametrický 3D modelovací nástroj určený hlavne\n"
+" na tvorbu reálnych objektov akejkoľvek veľkosti. Parametrické modelovanie umožňuje \n"
+"jednoducho upravovať váš návrh vrátením sa do akéhokoľvek bodu v histórii modelu \n"
+"\\a zmenou jeho parametrov."
 
 #: index.php:147
 msgid "Create 3D from 2D & back"
@@ -384,13 +392,14 @@ msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
 "          create high quality production ready drawings."
-msgstr "FreeCAD vám umožňuje skicovať zaväzbené geometrické 2D tvary a  použiť ich ako základ pre modelovanie iných objektov. Obsahuje množstvo prvkov pre \n"
-"úpravu rozmerov alebo použitie detailov dizajnu z 3D modelov, pre vytvorenie vysoko \n\n"
-"kvalitných a pre výrobu pripravených technických výkresov."
+msgstr "FreeCAD vám umožňuje načrtnúť zaväzbené geometrické 2D tvary a\n"
+" použiť ich ako základ pre modelovanie iných objektov. Obsahuje množstvo prvkov\n"
+" pre úpravu rozmerov alebo použitie detailov dizajnu z 3D modelov na tvorbu vysoko\n"
+" kvalitných a pre výrobu pripravených technických výkresov."
 
 #: index.php:163
 msgid "Accessible, flexible & integrated"
-msgstr "Prístupné, flexibilné a integrované"
+msgstr "Prístupný, flexibilný a integrovaný"
 
 #: index.php:165
 msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly\n"
@@ -398,22 +407,25 @@ msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
 "          and many others, making it possible to seamlessly integrate it into\n"
 "          your workflow."
-msgstr "FreeCAD je multiplatformový (Windows, Mac and Linux), vysoko prispôsobiteľný a rozšíriteľný softvér. Číta a zapisuje z a do rôznych \n\n"
-"súborových formátov ako STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE a mnoho \n\n"
-"ďalších, robiac ho bezproblémovo zlúčiteľným s vašim pracovným návykom."
+msgstr "FreeCAD je multiplatformový (Windows, Mac a Linux),\n"
+" vysoko prispôsobiteľný a rozšíriteľný softvér. Číta a zapisuje z a do rôznych\n"
+" súborových formátov, ako STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
+" a mnoho ďalších, takže sa dokáže ľahko prispôsobiť\n"
+" vašim pracovným návykom a štýlu práce."
 
 #: index.php:180
 msgid "Designed for your needs"
-msgstr "Navrhnuté pre vaše potreby"
+msgstr "Navrhnutý pre vaše potreby"
 
 #: index.php:182
 msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
 "          teacher, you will feel right at home with FreeCAD."
-msgstr "FreeCAD je vytvorený tak aby bol vhodný pre široký rozsah použitia, vrátane produktového dizajnu, strojného inžinierstva a architektúry. Či už ste \n"
-"kutil, programátor, skúsený CAD používateľ, študent alebo \n\n"
-"učiteľ, s FreeCADom sa budete cítiť ako doma."
+msgstr "FreeCAD je vytvorený tak aby bol vhodný pre široký rozsah použitia, vrátane\n"
+" produktového dizajnu, strojného inžinierstva a architektúry. Či už ste\n"
+" nadšenec, programátor, skúsený CAD používateľ, študent alebo\n"
+" učiteľ, vo FreeCADe sa budete cítiť ako doma."
 
 #: index.php:196
 msgid "And many more great features"
@@ -437,9 +449,10 @@ msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
 "          whole community."
-msgstr "FreeCAD je skutočným projektom s otvoreným kódom a ak by ste radi  pomohli opraviť chyby, implementovať nové úžasné funkcie alebo pracovali na \n"
-"dokumentácii, tak vás pozývame, aby ste sa k nám pripojili a vytvárali softvér, ktorý \n\n"
-"ponúka výhody celej komunite."
+msgstr "FreeCAD je skutočným projektom s otvoreným kódom a ak chcete\n"
+" pomôcť opraviť chyby, implementovať nové úžasné funkcie alebo pracovať\n"
+" na dokumentácii, tak vás pozývame, aby ste sa k nám pripojili a vytvárali softvér, ktorý\n"
+" bude prospešný celej komunite."
 
 #: index.php:225
 msgid "Get involved"
