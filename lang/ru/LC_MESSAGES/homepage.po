@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 11:03+0200\n"
-"PO-Revision-Date: 2021-11-16 16:26\n"
+"PO-Revision-Date: 2021-12-29 11:11\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -172,7 +172,12 @@ msgid "All FreeCAD objects are natively parametric, meaning their shape can be b
 "                a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing\n"
 "                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are \n"
 "                <a href=\"https://wiki.freecadweb.org/Scripted_objects\">easy to code</a>."
-msgstr ""
+msgstr "Все объекты FreeCAD являются параметрическими, в том смысле, что их форма может основываться на \n"
+"                <a href=\"https://wiki.freecadweb.org/Property\" title=\"Property\">свойствах </a> , таких как числовые значения, тексты, вкл/выкл кнопки,\n"
+"                или даже другие объекты. Все изменения формы пересчитываются по требованию, записываются в стек отменить/вернуть, и позволяют поддерживать\n"
+"                точную историю моделирования. Свойства одного объекта могут управлять значением свойств других объектов, разрешено\n"
+"                сложно, пользовательские параметрические цепи, которые могут существовать только в ваших самых диких мечтах. Новые параметрические объекты - \n"
+"                <a href=\"https://wiki.freecadweb.org/Scripted_objects\">прост в коде</a>."
 
 #: features.php:184
 msgid "Python everywhere"
@@ -186,7 +191,7 @@ msgid "While the FreeCAD core functionality is coded in C++ for robustness and p
 "                  do just <a href=\"https://wiki.freecadweb.org/Power_users_hub\">anything in FreeCAD</a>, from simple one-line \n"
 "                  commands in the integrated Python console to recording macros, coding your own tools up to \n"
 "                  full custom workbenches."
-msgstr ""
+msgstr "Хотя основные функции FreeCAD написаны на C++ для обеспечения надёжности и производительности, большая часть внешних слоёв,  рабочие места и почти все связи между ядром и пользовательским интерфейсом написаны на <a href=\"https://python.org\">Python</a>. Это гибкий, удобный, легкий в изучении язык программирования. Благодаря Python вы можете реализовать <a href=\"https://wiki.freecadweb.org/Power_users_hub\">что угодно в FreeCAD</a>: от простых однострочных команд в интегрированной консоли Python до записи макросов, написания собственных инструментов и до полноценных настраиваемых рабочих мест."
 
 #: features.php:202
 msgid "File formats frenzy"
