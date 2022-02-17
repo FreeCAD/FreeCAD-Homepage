@@ -89,7 +89,7 @@
             <a class="dropdown-item text-dark" href="https://wiki.freecad.org/Help_FreeCAD"><?php echo _('How to help?'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls"><?php echo _('Pull requests'); ?></a>
             <a class="dropdown-item text-dark" href="http://wiki.freecad.org/"><?php echo _('Wiki'); ?></a>
-            <a class="dropdown-item text-dark" href="http://www.freecad.org/tracker/"><?php echo _('Bug Tracker'); ?></a>
+            <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/issues"><?php echo _('Issues Tracker'); ?></a>
           </div>
         </li>
 
