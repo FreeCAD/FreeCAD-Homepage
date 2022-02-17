@@ -140,14 +140,14 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
             <h3><?php echo _('A powerful solid-based geometry kernel'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _('FreeCAD features an advanced geometry engine based on 
-              <a href="https://en.wikipedia.org/wiki/Open_CASCADE">Open CASCADE Technology</a>. It supports solids,
-              <a href="https://en.wikipedia.org/wiki/Boundary_representation">Boundary Representation</a> (BRep) objects, and
-              <a href="https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline">Non-uniform rational basis spline</a> (NURBS) 
+              <?php echo _('FreeCAD features an advanced geometry engine based on
+              <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>. It supports solids,
+              <a href=https://en.wikipedia.org/wiki/Boundary_representation>Boundary Representation</a> (BRep) objects, and
+              <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>Non-uniform rational basis spline</a> (NURBS)
               curves and surfaces, and offers a wide range of tools to create and modify these objects, including complex
-              <a href="https://en.wikipedia.org/wiki/Boolean_operations_on_polygons">Boolean</a> operations, 
-              <a href="https://en.wikipedia.org/wiki/Fillet_(mechanics)">fillets</a>, shape cleaning and 
-              <a href="https://wiki.freecad.org/OpenCASCADE">much more</a>.'); ?>
+              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,
+              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and
+              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>.'); ?>
             </p>
           </div>
         </section>
@@ -158,12 +158,12 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
             <h3><?php echo _('A wi(l)dly parametric environment'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _('All FreeCAD objects are natively parametric, meaning their shape can be based on 
+              <?php echo _('All FreeCAD objects are natively parametric, meaning their shape can be based on
                 <a href="https://wiki.freecad.org/Property" title="Property">properties</a> such as numeric values, texts, on/off buttons,
                 or even other objects. All shape changes are recalculated on demand, recorded by an undo/redo stack, and allow to maintain
                 a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing
-                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are 
-                <a href="https://wiki.freecad.org/Scripted_objects">easy to code</a>.'); ?>
+                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are
+                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>.'); ?>
             </p>
           </div>
 
@@ -183,12 +183,12 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
             <h3><?php echo _('Python everywhere'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _('While the FreeCAD core functionality is coded in C++ for robustness and performance, 
-                  large parts of the external layers,  workbenches and and almost all the communication between 
-                  the core and the user interface is coded in <a href="https://python.org">Python</a>, 
+              <?php echo _('While the FreeCAD core functionality is coded in C++ for robustness and performance,
+                  large parts of the external layers,  workbenches and and almost all the communication between
+                  the core and the user interface is coded in <a href=https://python.org>Python</a>,
                   a flexible, user-friendly, easy to learn programming language. From Python code, you are able to
-                  do just <a href="https://wiki.freecad.org/Power_users_hub">anything in FreeCAD</a>, from simple one-line 
-                  commands in the integrated Python console to recording macros, coding your own tools up to 
+                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line
+                  commands in the integrated Python console to recording macros, coding your own tools up to
                   full custom workbenches.'); ?>
             </p>
           </div>
@@ -202,23 +202,23 @@
             <h3><?php echo _('File formats frenzy'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD allows you to import and export models and many other kinds of data from your models such as
-              analyses results or quantities data to dozens of different <a href="https://wiki.freecad.org/Category:File_Formats">file formats</a> such as 
-              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/ISO_10303">STEP</a>, 
-              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/IGES">IGES</a>, 
-              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Obj">OBJ</a>, 
-              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/STL_%28file_format%29">STL</a>, 
-              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/.dwg">DWG</a>, 
+              analyses results or quantities data to dozens of different <a href="https://wiki.freecad.org/Category:File_Formats">file formats</a> such as
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/ISO_10303">STEP</a>,
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/IGES">IGES</a>,
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Obj">OBJ</a>,
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/STL_%28file_format%29">STL</a>,
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/.dwg">DWG</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Dxf">DXF</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Svg">SVG</a>,
-              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Shapefile">SHP</a>, 
-              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/STL_(file_format)">STL</a>, 
-              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/COLLADA">DAE</a>, 
-              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Industry_Foundation_Classes">IFC</a> or 
-              <a rel="nofollow" class="external text" href="https://people.sc.fsu.edu/~jburkardt/data/off/off.html">OFF</a>, 
-              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/NASTRAN">NASTRAN</a>, 
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Shapefile">SHP</a>,
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/STL_(file_format)">STL</a>,
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/COLLADA">DAE</a>,
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Industry_Foundation_Classes">IFC</a> or
+              <a rel="nofollow" class="external text" href="https://people.sc.fsu.edu/~jburkardt/data/off/off.html">OFF</a>,
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/NASTRAN">NASTRAN</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/VRML">VRML</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/OpenSCAD">OpenSCAD CSG</a>
-              and many more, in addition to FreeCAD&apos;s native 
+              and many more, in addition to FreeCAD&apos;s native
               <a href="/File_Format_FCStd" title="File Format FCStd">FCStd</a> file format. Add-on workbenches can also add more
               file formats.'); ?>
             </p>
@@ -240,11 +240,11 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
             <h3><?php echo _('A parametric constraints-based 2D sketcher'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _('FreeCAD features a state-of-the-art <a href="https://wiki.freecad.org/Sketcher_Workbench">Sketcher</a> 
-                  with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. Sketches are the main 
-                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other 
-                  objects throughout FreeCAD, be it either with the 
-                  dedicated <a href="https://wiki.freecad.org/PartDesign_Workbench">Part Design workbench</a> or any other workbench.'); ?>
+              <?php echo _('FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>
+                  with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. Sketches are the main
+                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other
+                  objects throughout FreeCAD, be it either with the
+                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench.'); ?>
             </p>
           </div>
         </section>
@@ -257,11 +257,11 @@
             <h3><?php echo _('A large (and growing) multi-specialty ecosystem'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD offers dedicated <a href="https://wiki.freecad.org/Workbench_Concept">workbenches</a> for a variety of purposes
-              such as 
-              <a href="https://wiki.freecad.org/Part_Workbench">CSG modeling</a>, 
-              simple <a href="https://wiki.freecad.org/Draft_Workbench">2D CAD drafting</a>, 
-              <a href="https://wiki.freecad.org/Surface_Module">NURBS surfaces</a>, 
-              <a href="https://wiki.freecad.org/Arch_Module">architectural or BIM modeling</a>, 
+              such as
+              <a href="https://wiki.freecad.org/Part_Workbench">CSG modeling</a>,
+              simple <a href="https://wiki.freecad.org/Draft_Workbench">2D CAD drafting</a>,
+              <a href="https://wiki.freecad.org/Surface_Module">NURBS surfaces</a>,
+              <a href="https://wiki.freecad.org/Arch_Module">architectural or BIM modeling</a>,
               <a href="https://wiki.freecad.org/Path_Workbench">3D printing, CAM and CNC</a>,
               <a href="https://wiki.freecad.org/Points_Module">point clouds</a>,
               working with <a href="https://wiki.freecad.org/OpenSCAD_Module">OpenSCAD files</a>,
@@ -294,7 +294,7 @@
             <h3><?php echo _('Developed by a community'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD is made for everybody, by everybody. It is developed and maintained
-              by a community of developers, users, moderators, translators, all united by their wish make 
+              by a community of developers, users, moderators, translators, all united by their wish make
               FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no
               urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or
               ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever.'); ?>
@@ -313,7 +313,7 @@
 
           <div class="col-lg-4">
             <p class="section-body whitelinks">
-              <?php echo _('Find here the release notes for current and previous FreeCAD versions. 
+              <?php echo _('Find here the release notes for current and previous FreeCAD versions.
                   Release notes describe what&apos;s new in each release:'); ?>
             </p>
           </div>
