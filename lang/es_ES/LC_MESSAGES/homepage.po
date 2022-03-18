@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-03 11:03+0200\n"
-"PO-Revision-Date: 2021-12-29 11:11\n"
+"POT-Creation-Date: 2022-02-17 13:10+0100\n"
+"PO-Revision-Date: 2022-03-14 11:16\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -37,37 +37,37 @@ msgstr "Documentación"
 msgid "Community"
 msgstr "Comunidad"
 
-#: downloads.php:86 features.php:85 footer.php:18 index.php:86
+#: downloads.php:86 features.php:85 footer.php:18 index.php:87
 msgid "Contribute"
 msgstr "Contribuir"
 
-#: downloads.php:89 features.php:88 index.php:89
+#: downloads.php:89 features.php:88 index.php:90
 msgid "How to help?"
 msgstr "¿Cómo puedo ayudar?"
 
-#: downloads.php:90 features.php:89 index.php:90
+#: downloads.php:90 features.php:89 index.php:91
 msgid "Pull requests"
 msgstr "Solicitudes de extracción"
 
-#: downloads.php:91 features.php:90 index.php:91
+#: downloads.php:91 features.php:90 index.php:92
 msgid "Wiki"
 msgstr "Wiki"
 
-#: downloads.php:92 features.php:91 index.php:92
-msgid "Bug Tracker"
-msgstr "Rastreador de errores"
+#: downloads.php:92 features.php:91 index.php:93
+msgid "Issues Tracker"
+msgstr "Rastreador de Incidencias"
 
-#: downloads.php:97 features.php:96 footer.php:21 index.php:97
+#: downloads.php:97 features.php:96 footer.php:21 index.php:98
 msgid "Donate"
 msgstr "Donar"
 
-#: downloads.php:101 features.php:100 index.php:101
+#: downloads.php:101 features.php:100 index.php:102
 msgid "Showcase"
 msgstr "Ejemplos"
 
 #: downloads.php:114
-msgid "Current stable version: 0.19.2"
-msgstr "Versión estable actual: 0.19.2"
+msgid "Current stable version: 0.19.3"
+msgstr "Versión estable actual: 0.19.3"
 
 #: downloads.php:115
 msgid "Select your desired platform"
@@ -144,60 +144,60 @@ msgid "A powerful solid-based geometry kernel"
 msgstr "Un poderoso núcleo para geometría basada en sólidos"
 
 #: features.php:143
-msgid "FreeCAD features an advanced geometry engine based on \n"
-"              <a href=\"https://en.wikipedia.org/wiki/Open_CASCADE\">Open CASCADE Technology</a>. It supports solids,\n"
-"              <a href=\"https://en.wikipedia.org/wiki/Boundary_representation\">Boundary Representation</a> (BRep) objects, and\n"
-"              <a href=\"https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline\">Non-uniform rational basis spline</a> (NURBS) \n"
+msgid "FreeCAD features an advanced geometry engine based on\n"
+"              <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>. It supports solids,\n"
+"              <a href=https://en.wikipedia.org/wiki/Boundary_representation>Boundary Representation</a> (BRep) objects, and\n"
+"              <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>Non-uniform rational basis spline</a> (NURBS)\n"
 "              curves and surfaces, and offers a wide range of tools to create and modify these objects, including complex\n"
-"              <a href=\"https://en.wikipedia.org/wiki/Boolean_operations_on_polygons\">Boolean</a> operations, \n"
-"              <a href=\"https://en.wikipedia.org/wiki/Fillet_(mechanics)\">fillets</a>, shape cleaning and \n"
-"              <a href=\"https://wiki.freecadweb.org/OpenCASCADE\">much more</a>."
-msgstr "FreeCAD cuenta con un avanzado motor que soporta geometría \n"
-"              <a href=\"https://en.wikipedia.org/wiki/Open_CASCADE\">Open CASCADE Technology</a>. basada en sólidos,\n"
-"              <a href=\"https://en.wikipedia.org/wiki/Boundary_representation\">Representación de límites de objetos </a> (BRep) y\n"
-"              <a href=\"https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline\">splines racionales no-uniformes</a> (NURBS) \n"
-"              de curvas y superficies y ofrece una amplia gama de herramientas para crear y modificar estos objetos, incluyendo operaciones\n"
-"              <a href=\"https://en.wikipedia.org/wiki/Boolean_operations_on_polygons\">Booleanas</a> complejas, \n"
-"              <a href=\"https://en.wikipedia.org/wiki/Fillet_(mechanics)\">limpieza</a>, de forma con fillet y \n"
-"              <a href=\"https://wiki.freecadweb.org/OpenCASCADE\">mucho más</a>."
+"              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
+"              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
+"              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
+msgstr "FreeCAD cuenta con un motor avanzado de geometría basado en\n"
+"              <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>. Soporta sólidos,\n"
+"              <a href=https://en.wikipedia.org/wiki/Boundary_representation>Representación de límites</a> (BRep) objetos, y\n"
+"              <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>curvas y superficies de base racional no uniformes</a> (NURBS)\n"
+"              y ofrece una amplia gama de herramientas para crear y modificar estos objetos, incluyendo complejas\n"
+"              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Operaciones Booleanas</a>,\n"
+"              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>redondeados</a>, limpieza de forma y\n"
+"              <a href=https://wiki.freecad.org/OpenCASCADE>más</a>."
 
 #: features.php:159
 msgid "A wi(l)dly parametric environment"
 msgstr "Un tremendo entorno paramétrico"
 
 #: features.php:161
-msgid "All FreeCAD objects are natively parametric, meaning their shape can be based on \n"
-"                <a href=\"https://wiki.freecadweb.org/Property\" title=\"Property\">properties</a> such as numeric values, texts, on/off buttons,\n"
+msgid "All FreeCAD objects are natively parametric, meaning their shape can be based on\n"
+"                <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">properties</a> such as numeric values, texts, on/off buttons,\n"
 "                or even other objects. All shape changes are recalculated on demand, recorded by an undo/redo stack, and allow to maintain\n"
 "                a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing\n"
-"                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are \n"
-"                <a href=\"https://wiki.freecadweb.org/Scripted_objects\">easy to code</a>."
-msgstr "Todos los objetos FreeCAD son nativos paramétricos, resultando su forma puede estar basada en \n"
-"                <a href=\"https://wiki.freecadweb.org/Property\" title=\"Property\">propiedades</a> tales como valores numéricos, textos, botones on/off,\n"
-"                o incluso otros objetos. Todos los cambios de formas son recalculadas bajo demanda, registrados por un montón de deshacer/rehacer, y permitir para mantener\n"
-"                un historial de modelado preciso. Las propiedades de un objeto pueden manejar los valores de las propiedades de otros objetos, permitiéndose\n"
-"                los complejos, cadenas paramétricas personalizadas que sólo podrían existir en sus sueños más salvajes. Los nuevos objetos paramétricos son \n"
-"                <a href=\"https://wiki.freecadweb.org/Scripted_objects\">fáciles de programar</a>."
+"                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are\n"
+"                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>."
+msgstr "Todos los objetos de FreeCAD son nativamente paramétricos, significa que su forma puede estar basada en\n"
+"                <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">propiedades</a> como valores numéricos, textos, botones on/off,\n"
+"                o incluso otros objetos. Todos los cambios de forma se recalculan bajo demanda, registrados por una pila de deshacer/rehacer, y permitir mantener\n"
+"                un historial de modelado preciso. Las propiedades de un objeto pueden manejar el valor de las propiedades de otros objetos, permitiendo\n"
+"                complejas, cadenas paramétricas personalizadas que sólo podrían existir en sus sueños más salvajes. Los nuevos objetos paramétricos son\n"
+"                <a href=https://wiki.freecad.org/Scripted_objects>fáciles de programar</a>."
 
 #: features.php:184
 msgid "Python everywhere"
 msgstr "Python por todos lados"
 
 #: features.php:186
-msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance, \n"
-"                  large parts of the external layers,  workbenches and and almost all the communication between \n"
-"                  the core and the user interface is coded in <a href=\"https://python.org\">Python</a>, \n"
+msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance,\n"
+"                  large parts of the external layers,  workbenches and and almost all the communication between\n"
+"                  the core and the user interface is coded in <a href=https://python.org>Python</a>,\n"
 "                  a flexible, user-friendly, easy to learn programming language. From Python code, you are able to\n"
-"                  do just <a href=\"https://wiki.freecadweb.org/Power_users_hub\">anything in FreeCAD</a>, from simple one-line \n"
-"                  commands in the integrated Python console to recording macros, coding your own tools up to \n"
+"                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line\n"
+"                  commands in the integrated Python console to recording macros, coding your own tools up to\n"
 "                  full custom workbenches."
-msgstr "Mientras que la funcionalidad central de FreeCAD está programada en C++ para robustez y rendimiento, \n"
-"                  grandes partes de las capas externas, los bancos de trabajo y casi toda la comunicación entre \n"
-"                  el núcleo y la interfaz de usuario está realizada en <a href=\"https://python.org\">Python</a>, \n"
-"                  lenguaje de programación flexible, fácil de usar, fácil de aprender. Desde el código Python, puede\n"
-"                  hacer <a href=\"https://wiki.freecadweb.org/Power_users_hub\">cualquier cosa en FreeCAD</a>, desde simples comandos de una línea \n"
-"                  en la consola integrada de Python hasta grabar macros, programando tus propias herramientas hasta \n"
-"                  bancos de trabajo completamente personalizados."
+msgstr "Mientras que la funcionalidad principal de FreeCAD está escrita en C++ para robustez y rendimiento,\n"
+"                  las partes grandes de las capas externas, los bancos de trabajo y casi toda la comunicación entre\n"
+"                  el núcleo y la interfaz de usuario está programada en <a href=https://python.org>Python</a>,\n"
+"                  un flexible, fácil de usar, fácil de aprender lenguaje de programación. Desde código Python, puedes\n"
+"                  hacer solo <a href=https://wiki.freecad.org/Power_users_hub>cualquier cosa en FreeCAD</a>, desde simples comandos de línea\n"
+"                  en la consola integrada de Python hasta grabar macros, programando tus propias herramientas hasta\n"
+"                  bancos de trabajo personalizados."
 
 #: features.php:202
 msgid "File formats frenzy"
@@ -205,44 +205,44 @@ msgstr "Furia de formatos de archivo"
 
 #: features.php:204
 msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
-"              analyses results or quantities data to dozens of different <a href=\"https://wiki.freecadweb.org/Category:File_Formats\">file formats</a> such as \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Obj\">OBJ</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>, \n"
+"              analyses results or quantities data to dozens of different <a href=\"https://wiki.freecad.org/Category:File_Formats\">file formats</a> such as\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Obj\">OBJ</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_(file_format)\">STL</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> or \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://people.sc.fsu.edu/~jburkardt/data/off/off.html\">OFF</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>, \n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_(file_format)\">STL</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> or\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://people.sc.fsu.edu/~jburkardt/data/off/off.html\">OFF</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
-"              and many more, in addition to FreeCAD&apos;s native \n"
+"              and many more, in addition to FreeCAD&apos;s native\n"
 "              <a href=\"/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
 "              file formats."
-msgstr "FreeCAD le permite importar y exportar modelos y muchos otros tipos de datos de sus modelos, tales como\n"
-"              analiza resultados o cantidades de datos a docenas de diferentes <a href=\"https://wiki.freecadweb.org/Category:File_Formats\">formatos de archivo</a> tales como \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Obj\">OBJ</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>, \n"
+msgstr "FreeCAD le permite importar y exportar modelos y muchos otros tipos de datos de sus modelos, como\n"
+"              análisis de resultados o cantidades de datos a docenas de diferentes <a href=\"https://wiki.freecad.org/Category:File_Formats\">formatos de archivos</a> como\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Obj\">OBJ</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_(file_format)\">STL</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> o \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://people.sc.fsu.edu/~jburkardt/data/off/off.html\">OFF</a>, \n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>, \n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_(file_format)\">STL</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DÍA</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> o\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://people.sc.fsu.edu/~jburkardt/data/off/off.html\">OFF</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
-"              y muchos más, además de FreeCAD&apos;s nativo \n"
-"              <a href=\"/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> formato de archivo. Las Extensiones de bancos de trabajo también pueden agregar más\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">CSG OpenSCAD</a>\n"
+"              y muchos más, además de FreeCAD&apos; nativo\n"
+"              formato de archivo <a href=\"/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a>. Los bancos de trabajo adicionales también pueden añadir más\n"
 "              formatos de archivo."
 
 #: features.php:241
@@ -250,54 +250,54 @@ msgid "A parametric constraints-based 2D sketcher"
 msgstr "Un dibujante limitado a 2D paramétricos"
 
 #: features.php:243
-msgid "FreeCAD features a state-of-the-art <a href=\"https://wiki.freecadweb.org/Sketcher_Workbench\">Sketcher</a> \n"
-"                  with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. Sketches are the main \n"
-"                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other \n"
-"                  objects throughout FreeCAD, be it either with the \n"
-"                  dedicated <a href=\"https://wiki.freecadweb.org/PartDesign_Workbench\">Part Design workbench</a> or any other workbench."
-msgstr "FreeCAD cuenta <a href=\"https://wiki.freecadweb.org/Sketcher_Workbench\">Dibujante</a> \n"
-"                  con un solucionador de restricciones integrado de última generación, permitiéndole dibujar formas geométricas 2D. Los croquis son el bloque principal \n"
-"                  de construcción de FreeCAD, y las formas 2D restringidas construidas con él pueden ser utilizadas como base para construir otros \n"
-"                  objetos a través de FreeCAD, ya sea con el banco de trabajo \n"
-"                  dedicado <a href=\"https://wiki.freecadweb.org/PartDesign_Workbench\">Part Design</a> o cualquier otro banco de trabajo."
+msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
+"                  with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. Sketches are the main\n"
+"                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
+"                  objects throughout FreeCAD, be it either with the\n"
+"                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
+msgstr "FreeCAD cuenta con un estado de arte<a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
+"                  con un resolutor de restricciones integrado, que le permite dibujar formas 2D restringidas a la geometría. Los bocetos son el bloque principal\n"
+"                  de construcción de FreeCAD, y las formas 2D restringidas construidas con él pueden ser utilizadas como base para construir otros\n"
+"                  objetos a través de FreeCAD, ya sea con el banco de trabajo\n"
+"                  dedicado <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design</a> o cualquier otro banco de trabajo."
 
 #: features.php:257
 msgid "A large (and growing) multi-specialty ecosystem"
 msgstr "Un gran (y creciente) ecosistema multi especialidad"
 
 #: features.php:259
-msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecadweb.org/Workbench_Concept\">workbenches</a> for a variety of purposes\n"
-"              such as \n"
-"              <a href=\"https://wiki.freecadweb.org/Part_Workbench\">CSG modeling</a>, \n"
-"              simple <a href=\"https://wiki.freecadweb.org/Draft_Workbench\">2D CAD drafting</a>, \n"
-"              <a href=\"https://wiki.freecadweb.org/Surface_Module\">NURBS surfaces</a>, \n"
-"              <a href=\"https://wiki.freecadweb.org/Arch_Module\">architectural or BIM modeling</a>, \n"
-"              <a href=\"https://wiki.freecadweb.org/Path_Workbench\">3D printing, CAM and CNC</a>,\n"
-"              <a href=\"https://wiki.freecadweb.org/Points_Module\">point clouds</a>,\n"
-"              working with <a href=\"https://wiki.freecadweb.org/OpenSCAD_Module\">OpenSCAD files</a>,\n"
-"              designing <a href=\"https://wiki.freecadweb.org/Robot_Workbench\">industrial robot trajectories</a>,\n"
-"              doing <a href=\"https://wiki.freecadweb.org/FEM_Module\">Finite Element Analyses</a>,\n"
+msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbench_Concept\">workbenches</a> for a variety of purposes\n"
+"              such as\n"
+"              <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG modeling</a>,\n"
+"              simple <a href=\"https://wiki.freecad.org/Draft_Workbench\">2D CAD drafting</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Surface_Module\">NURBS surfaces</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Arch_Module\">architectural or BIM modeling</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Path_Workbench\">3D printing, CAM and CNC</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Points_Module\">point clouds</a>,\n"
+"              working with <a href=\"https://wiki.freecad.org/OpenSCAD_Module\">OpenSCAD files</a>,\n"
+"              designing <a href=\"https://wiki.freecad.org/Robot_Workbench\">industrial robot trajectories</a>,\n"
+"              doing <a href=\"https://wiki.freecad.org/FEM_Module\">Finite Element Analyses</a>,\n"
 "              and much more. FreeCAD also provides easy tools to install and manage\n"
-"              <a href=\"https://wiki.freecadweb.org/External_workbenches\">add-on workbenches</a> and\n"
-"              <a href=\"https://wiki.freecadweb.org/Macros_recipes\">macros</a> developed by the users\n"
+"              <a href=\"https://wiki.freecad.org/External_workbenches\">add-on workbenches</a> and\n"
+"              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> developed by the users\n"
 "              community."
-msgstr "FreeCAD ofrece bancos de trabajo <a href=\"https://wiki.freecadweb.org/Workbench_Concept\">dedicados</a> para una variedad de propósitos\n"
-"              tales como \n"
-"              <a href=\"https://wiki.freecadweb.org/Part_Workbench\">CSG modelado</a>, \n"
-"              simple <a href=\"https://wiki.freecadweb.org/Draft_Workbench\">2D CAD drafting</a>, \n"
-"              <a href=\"https://wiki.freecadweb.org/Surface_Module\">NURBS superficies</a>, \n"
-"              <a href=\"https://wiki.freecadweb.org/Arch_Module\">modelado arquitectural o BIM </a>, \n"
-"              <a href=\"https://wiki.freecadweb.org/Path_Workbench\">impresión 3D, CAM y CNC</a>,\n"
-"              <a href=\"https://wiki.freecadweb.org/Points_Module\">nubes de pontos</a>,\n"
-"              trabajar con <a href=\"https://wiki.freecadweb.org/OpenSCAD_Module\">archivos OpenSCAD</a>,\n"
-"              diseño de <a href=\"https://wiki.freecadweb.org/Robot_Workbench\">trayectorias robotizadas industriales</a>,\n"
-"              haciendo <a href=\"https://wiki.freecadweb.org/FEM_Module\">Análisis de Elementos Finitos</a>,\n"
-"              y mucho más. FreeCAD también provee herremienta fáciles de instalar y administrar\n"
-"              <a href=\"https://wiki.freecadweb.org/External_workbenches\">bancos de trabajo adicionales</a> y\n"
-"              <a href=\"https://wiki.freecadweb.org/Macros_recipes\">macros</a> desarrollados por la comunidad\n"
-"              de usuarios."
+msgstr "FreeCAD ofrece <a href=\"https://wiki.freecad.org/Workbench_Concept\">bancos de trabajo</a> dedicados para una variedad de propósitos\n"
+"              como\n"
+"              <a href=\"https://wiki.freecad.org/Part_Workbench\">modelado CSG</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Draft_Workbench\">borrador 2D CAD</a> simple,\n"
+"              <a href=\"https://wiki.freecad.org/Surface_Module\">superficies NURBS</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Arch_Module\">modelado arquitectónico o BIM</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Path_Workbench\">impresión 3D, CAM y CNC</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Points_Module\">nubes puntero</a>,\n"
+"              trabajando con <a href=\"https://wiki.freecad.org/OpenSCAD_Module\">archivos OpenSCAD</a>,\n"
+"              diseñando <a href=\"https://wiki.freecad.org/Robot_Workbench\">trayectorias de robots industriales</a>,\n"
+"              haciendo <a href=\"https://wiki.freecad.org/FEM_Module\">Análisis del Elemento Finito</a>,\n"
+"              y mucho más. FreeCAD también provee de herramientas fáciles de instalar y de administrar\n"
+"              <a href=\"https://wiki.freecad.org/External_workbenches\">extensiones de banco de trabajo</a> y\n"
+"              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> desarrollado por la\n"
+"              comunidad."
 
-#: features.php:276 index.php:206
+#: features.php:276 index.php:207
 msgid "Learn more"
 msgstr "Aprende más"
 
@@ -307,12 +307,12 @@ msgstr "Desarrollado por una comunidad"
 
 #: features.php:296
 msgid "FreeCAD is made for everybody, by everybody. It is developed and maintained\n"
-"              by a community of developers, users, moderators, translators, all united by their wish make \n"
+"              by a community of developers, users, moderators, translators, all united by their wish make\n"
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
 "              urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or\n"
 "              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
 msgstr "FreeCAD está hecho para todos, por todos. Es desarrollado y mantenido\n"
-"              por una comunidad de desarrolladores, usuarios, moderadores, traductores, todos unidos por su deseo hacen de \n"
+"              por una comunidad de desarrolladores, usuarios, moderadores, traductores, todos unidos por su deseo hacen de\n"
 "              FreeCAD una herramienta libre y potente. No hay un objetivo comercial detrás de las decisiones que se toman, no\n"
 "              insta a que actualice su versión de FreeCAD o a que lo haga en un flujo de trabajo específico o\n"
 "              ecosistema. FreeCAD y los archivos y datos que produce con FreeCAD son realmente tuyos, para siempre."
@@ -322,10 +322,10 @@ msgid "Release notes"
 msgstr "Notas de lanzamiento"
 
 #: features.php:316
-msgid "Find here the release notes for current and previous FreeCAD versions. \n"
+msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
-msgstr "Encuentre aquí las notas de lanzamiento para las actuales y anteriores versiones de FreeCAD. \n"
-"                  Las notas de lanzamiento describen qué&apos; es nuevo en cada versión:"
+msgstr "Encuentre aquí las notas de publicación para las versiones actuales y anteriores de FreeCAD.\n"
+"                  Las notas de publicación describen qué&apos; hay de nuevo en cada versión:"
 
 #: features.php:323
 msgid "Release 0.11 - March 2011"
@@ -399,7 +399,7 @@ msgstr "C++ y Python API"
 msgid "License information"
 msgstr "Información de la licencia"
 
-#: footer.php:49
+#: footer.php:50
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
 "      r-frank, epileftric, regis, rider_mortagnais, bejant."
 msgstr "© El equipo de FreeCAD. Créditos de imagen de la página principal (de arriba a abajo): ppemawm,\n"
@@ -409,27 +409,27 @@ msgstr "© El equipo de FreeCAD. Créditos de imagen de la página principal (de
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Tu propio modelador paramétrico 3D"
 
-#: index.php:114
+#: index.php:115
 msgid "FreeCAD"
 msgstr "FreeCAD"
 
-#: index.php:115
+#: index.php:116
 msgid "Your own 3D parametric modeler"
 msgstr "Tu propio modelador paramétrico 3D"
 
-#: index.php:117
+#: index.php:118
 msgid "Download now"
 msgstr "Descargar ahora"
 
-#: index.php:118
+#: index.php:119
 msgid "See what's new"
 msgstr "Ver novedades"
 
-#: index.php:131
+#: index.php:132
 msgid "Freedom to build what you want"
 msgstr "Libertad para construir lo que quieras"
 
-#: index.php:133
+#: index.php:134
 msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
@@ -439,22 +439,22 @@ msgstr "FreeCAD es un modelador 3D paramétrico de código abierto hecho princip
 "          modificar fácilmente su diseño volviendo atràs en el historial del modelo\n"
 "          y cambiando sus parámetros."
 
-#: index.php:147
+#: index.php:148
 msgid "Create 3D from 2D & back"
 msgstr "Crea 3D desde 2D y viceversa"
 
-#: index.php:149
+#: index.php:150
 msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
 "          create high quality production ready drawings."
 msgstr "FreeCAD te permite dibujar formas 2D con restricciones de geometría y usarlas como base para construir otros objetos. Contiene muchos componentes para ajustar las dimensiones o extraer detalles de diseño de modelos 3D para crear dibujos listos para producción de alta calidad."
 
-#: index.php:163
+#: index.php:164
 msgid "Accessible, flexible & integrated"
 msgstr "Accesible, flexible e integrado"
 
-#: index.php:165
+#: index.php:166
 msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly\n"
 "          customizable and extensible software. It reads and writes to many\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
@@ -463,22 +463,22 @@ msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly\n"
 msgstr "FreeCAD es un software multiplataforma (Windows, Mac y Linux), altamente  personalizable y extensible Lee y escribe en muchos         formatos de archivo abiertos como STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n\n"
 "  y muchos otros, haciendo posible integrarlo sin problemas en su flujo de trabajo."
 
-#: index.php:180
+#: index.php:181
 msgid "Designed for your needs"
 msgstr "Diseñado para sus necesidades"
 
-#: index.php:182
+#: index.php:183
 msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
 "          teacher, you will feel right at home with FreeCAD."
 msgstr "FreeCAD está diseñado para adaptarse a una amplia gama de usos, incluyendo el diseño del producto ingeniería mecánica y arquitectura. Si usted es un hobbyist, un programador, un usuario experimentado en CAD, un estudiante o un profesor, te sentirás como en casa con FreeCAD."
 
-#: index.php:196
+#: index.php:197
 msgid "And many more great features"
 msgstr "Y muchas más características geniales"
 
-#: index.php:198
+#: index.php:199
 msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          modern Finite Element Analysis (FEA) tools, experimental CFD, dedicated BIM,\n"
 "          Geodata or CAM/CNC workbenches, a robot simulation module that\n"
@@ -492,11 +492,11 @@ msgstr "FreeCAD cuenta con todas las herramientas adecuadas para tus necesidades
 "          es realmente una navaja suiza de herramientas de ingeniería de uso general\n"
 "."
 
-#: index.php:217
+#: index.php:218
 msgid "Want to contribute to FreeCAD?"
 msgstr "¿Quieres contribuir en FreeCAD?"
 
-#: index.php:219
+#: index.php:220
 msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
@@ -506,7 +506,7 @@ msgstr "FreeCAD es un proyecto real de código abierto y si desea ayudar\n"
 "          te invitamos a unirte a nosotros y crear un software que beneficie a toda la comunidad\n"
 "."
 
-#: index.php:225
+#: index.php:226
 msgid "Get involved"
 msgstr "Involúcrate"
 
