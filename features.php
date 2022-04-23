@@ -211,7 +211,6 @@
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Dxf">DXF</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Svg">SVG</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Shapefile">SHP</a>,
-              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/STL_(file_format)">STL</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/COLLADA">DAE</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Industry_Foundation_Classes">IFC</a> or
               <a rel="nofollow" class="external text" href="https://people.sc.fsu.edu/~jburkardt/data/off/off.html">OFF</a>,
