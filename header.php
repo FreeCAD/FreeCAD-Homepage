@@ -62,7 +62,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="https://wiki.freecad.org/Getting_started"><?php echo _('Documentation'); ?></a>
+          <a class="nav-link my-2 rounded-pill" href="<?php echo _('https://wiki.freecad.org/Getting_started'); ?>"><?php echo _('Documentation'); ?></a>
         </li>
 
         <li class="nav-item dropdown">
