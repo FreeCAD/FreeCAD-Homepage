@@ -18,6 +18,12 @@
   src: url("../fonts/Roboto-Bold.woff") format("woff");
 }
 
+@font-face {
+    font-family: 'Evolventa';
+    src: url('/fonts/Evolventa-Regular.woff') format('woff'),
+}
+
+
 html, body {
   height: 100%;
   font-family: 'Roboto-Regular', sans-serif;
@@ -86,8 +92,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3em;
 }
 
+.home-image {
+  width: 430px;
+  max-width: 100%;
+}
+
 .home-subtitle {
   font-size: 1.2em;
+  font-family: "Evolventa", sans-serif;
 }
 
 .btn {
@@ -133,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 3em;
 }
 
-.downloads-notes-title {
+.downloads-notes-title, features-title {
   font-size: 2em;
   margin-bottom: 0.5em;
 }
