@@ -10,7 +10,7 @@
       </div>
 
       <div class="col-lg-7 text-center text-lg-left align-content-center order-lg-first">
-        <h1 class="home-title text-light mt-n5 mb-0 mt-lg-0"><?php echo _('FreeCAD'); ?></h1>
+        <h1 class="home-title text-light mt-n5 mb-0 mt-lg-0"><img class="home-image" src="svg/freecad-home.svg"/></h1>
         <h2 class="home-subtitle text-light mb-4"><?php echo _('Your own 3D parametric modeler'); ?></h2>
         <div class="flex-column flex-lg-row">
           <a class="btn btn-light rounded-pill mt-2" role="button" href="<?php echo $downloadurl; ?>"><?php echo _('Download now'); ?></a>

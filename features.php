@@ -5,10 +5,9 @@
 
     <div id="main" class="container-fluid">
 
-
-
-        <h2 class="features-title"><?php echo _('Key FreeCAD Features'); ?></h2>
-
+        <div class="download-notes text-center">
+            <h2 class="features-title"><?php echo _('Key FreeCAD Features'); ?></h2>
+        </div>
 
 
         <section class="row section d-flex justify-content-around">
@@ -203,7 +202,10 @@
 
 
 
-        <h2 class="features-title"><?php echo _('Release notes'); ?></h2>
+
+        <div class="download-notes text-center">
+            <h2 class="features-title"><?php echo _('Release notes'); ?></h2>
+        </div>
 
 
 
