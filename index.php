@@ -116,7 +116,7 @@
         <h2 class="home-subtitle text-light mb-4"><?php echo _('Your own 3D parametric modeler'); ?></h2>
         <div class="flex-column flex-lg-row">
           <a class="btn btn-light rounded-pill mt-2" role="button" href="<?php echo $downloadurl; ?>"><?php echo _('Download now'); ?></a>
-          <a class="btn btn-outline-light rounded-pill mt-2" role="button" href="https://wiki.freecad.org/Release_notes_0.19"><?php echo _("See what's new"); ?></a>
+          <a class="btn btn-outline-light rounded-pill mt-2" role="button" href="https://wiki.freecad.org/Release_notes_0.20"><?php echo _("See what's new"); ?></a>
         </div>
       </div>
     </section>
