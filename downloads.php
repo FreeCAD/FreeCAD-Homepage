@@ -111,7 +111,7 @@
       <!-- Major+Minor Version of FC Stable -->
       <!-- -------------------------------- -->
 
-      <h2 class="downloads-notes-title"><?php echo _('Current stable version: 0.19.3'); ?></h2>
+      <h2 class="downloads-notes-title"><?php echo _('Current stable version: 0.20.0'); ?></h2>
       <p><?php echo _('Select your desired platform'); ?></p>
 
     </div>
