@@ -5,11 +5,11 @@
 
   <div id="main" class="container-fluid">
     <section class="row section-cover d-flex align-items-center">
-      <div class="col-lg-5">
+      <div class="col-lg-8">
         <img class="img-fluid" src="images/cover-photo.png" alt="Cover Photo"/>
       </div>
 
-      <div class="col-lg-7 text-center text-lg-left align-content-center order-lg-first">
+      <div class="col-lg-4 text-center text-lg-left align-content-center order-lg-first">
         <h1 class="home-title text-light mt-n5 mb-0 mt-lg-0"><img class="home-image" src="svg/freecad-home.svg"/></h1>
         <h2 class="home-subtitle text-light mb-4"><?php echo _('Your own 3D parametric modeler'); ?></h2>
         <div class="flex-column flex-lg-row">
