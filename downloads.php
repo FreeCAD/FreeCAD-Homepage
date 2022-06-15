@@ -1,4 +1,4 @@
-<?php 
+<?php
     $currentpage = "downloads.php";
     include("header.php");
 ?>
@@ -87,7 +87,7 @@
     <div class="download-notes text-center">
       <h2 class="downloads-notes-title"><?php echo _('Development versions'); ?></h2>
       <p>
-        <?php echo _("FreeCAD's development is always active! Do you want to check out the latest development 
+        <?php echo _("FreeCAD's development is always active! Do you want to check out the latest development
         release? For MacOS, Windows, Linux (AppImage) and source code, see the "); ?>
         <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo _('FreeCAD weekly builds page.'); ?></a>
       </p>
@@ -96,15 +96,35 @@
     <!-- ----------------------------- -->
     <!-- ADDITIONAL MODULES AND MACROS -->
     <!-- ----------------------------- -->
-    
+
     <div class="download-notes text-center">
       <h2 class="downloads-notes-title"><?php echo _('Additional modules and macros'); ?></h2>
       <p>
-        <?php echo _('The FreeCAD community provides a wealth of additional modules and macros. They can 
-        now easily be installed directly from within FreeCAD using the  '); ?> 
+        <?php echo _('The FreeCAD community provides a wealth of additional modules and macros. They can
+        now easily be installed directly from within FreeCAD using the '); ?>
         <a href="https://wiki.freecad.org/AddonManager" class="badge badge-light"><?php echo _('Addon manager.'); ?></a>
       </p>
     </div>
+
+
+    <!-- ----------------------------- -->
+    <!-- SOURCE CODE -->
+    <!-- ----------------------------- -->
+
+    <div class="download-notes text-center">
+      <h2 class="downloads-notes-title"><?php echo _('Source code'); ?></h2>
+      <p>
+        <?php echo _('The source code of FreeCAD is hosted mainly on '); ?>
+        <a href="https://github.com/FreeCAD/FreeCAD" class="badge badge-light">GitHub</a>
+        <?php echo _('and mirrored on '); ?>
+        <a href="https://gitlab.com/FreeCAD/FreeCAD" class="badge badge-light">GitLab</a>,
+        <a href="https://codeberg.org/FreeCAD/FreeCAD" class="badge badge-light">Codeberg</a>
+        <?php echo _('and '); ?>
+        <a href="https://sourceforge.net/projects/free-cad/" class="badge badge-light">Sourceforge</a>
+      </p>
+    </div>
+
+
     </div>
 
 <?php include 'footer.php'; ?>

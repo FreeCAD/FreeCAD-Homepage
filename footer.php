@@ -24,8 +24,7 @@
       r-frank, epileftric, regis, rider_mortagnais, bejant.'); ?>
     </p>
 
-    <p><?php echo _('This project is supported by:'); ?></p>
-    <p>
+    <p><?php echo _('This project is supported by:'); ?>
       <a href="https://www.digitalocean.com/?utm_medium=opensource&utm_source=FreeCAD">
         <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="180px">
       </a>

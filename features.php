@@ -16,7 +16,7 @@
             <h3><?php echo _('Made to build for the real world'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD is made primarily to design objects for the real world. Everything you do in FreeCAD uses real-world
-              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers tools to produce, export and
+              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and
               edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,
               perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials.'); ?>
             </p>
