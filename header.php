@@ -92,7 +92,7 @@
 
           <div class="dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark font-weight-bold" href="https://forum.freecad.org/">Forum</a>
-            <a class="dropdown-item text-dark" href="fpa.php">The FPA</a>
+            <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FPA">The FPA</a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD">GitHub</a>
             <a class="dropdown-item text-dark" href="https://gitlab.com/freecad/FreeCAD">GitLab</a>
             <a class="dropdown-item text-dark" href="https://codeberg.org/FreeCAD/FreeCAD">Codeberg</a>
