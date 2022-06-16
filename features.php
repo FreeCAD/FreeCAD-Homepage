@@ -327,7 +327,8 @@
                 <li><a href="https://wiki.freecad.org/Release_notes_0.16" title="Release notes 0.16"><?php echo _('Release 0.16 - April 2016'); ?></a></li>
                 <li><a href="https://wiki.freecad.org/Release_notes_0.17" title="Release notes 0.17"><?php echo _('Release 0.17 - April 2018'); ?></a></li>
                 <li><a href="https://wiki.freecad.org/Release_notes_0.18" title="Release notes 0.18"><?php echo _('Release 0.18 - March 2019'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_0.19" title="Release notes 0.19"><?php echo _('Release 0.19 - March 2021'); ?></a> (current stable release)</li>
+                <li><a href="https://wiki.freecad.org/Release_notes_0.19" title="Release notes 0.19"><?php echo _('Release 0.19 - March 2021'); ?></a></li>
+                <li><a href="https://wiki.freecad.org/Release_notes_0.20" title="Release notes 0.20"><?php echo _('Release 0.20 - June 2022'); ?></a> (current stable release)</li>
               </ul>
           </div>
         </section>
