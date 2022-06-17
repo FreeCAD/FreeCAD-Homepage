@@ -43,35 +43,34 @@
     
 <form id="<?php echo $formid; ?>" class="donation">
     <fieldset>
-      <label for="amount">Amount:</label>
+      <label for="amount"><?php echo _('Amount'); ?>:</label>
       <input name="amount" type="text" placeholder="5.00" autofocus />
       <select id="currency" name="currency">
              <option value="usd" selected>USD</option>
              <!--<option value="eur">EUR</option>-->
       </select>
       <br/>
-      <label for="method">Donation method:</label>
+      <label for="method"><?php echo _('Donation method'); ?>:</label>
       <select id="method" name="method" onClick="process(this)">
-             <option value="null" selected>Please choose...</option>
-             <option value="sepa">SEPA bank transfer</option>
-             <option value="paypal">Credit card/Paypal</option>
-             <option value="github">Github sponsoring</option>
-             <option value="opencollective">OpenCollective</option>
+             <option value="null" selected><?php echo _('Please choose'); ?>...</option>
+             <option value="sepa"><?php echo _('SEPA bank transfer'); ?></option>
+             <option value="paypal"><?php echo _('Credit card/Paypal'); ?></option>
+             <option value="github"><?php echo _('Github sponsoring'); ?></option>
+             <option value="opencollective"><?php echo _('OpenCollective'); ?></option>
       </select>
       <br/>
       <input type="Button" value="Submit" class="submit" onCLick="send(this)" />
       <div class="sepainfo hidden">
-          <b>SEPA Information</b><br/>
-          Please set up your SEPA bank transfer to:<br/>
+          <b><?php echo _('SEPA Information'); ?></b><br/>
+          <?php echo _('Please set up your SEPA bank transfer to'); ?>:<br/>
           The FreeCAD project association<br/>
           IBAN: <b>BE04 0019 2896 4531</b><br/>
           BIC/SWIFT code: GEBABEBBXXX<br/>
-          Bank agency: BNP Paribas Fortis<br/>
-          Address: Rue de la Station 64, 1360 Perwez, Belgium<br/>
-          Please inform your forum name or twitter handle as note 
-          in your transfer, or 
-          <a href="mailto:fpa@freecad.org" class="badge badge-light">reach to us</a>
-          , so we can give you proper credits!
+          <?php echo _('Bank agency'); ?>: BNP Paribas Fortis<br/>
+          <?php echo _('Address'); ?>: Rue de la Station 64, 1360 Perwez, Belgium<br/>
+          <?php echo _('Please inform your forum name or twitter handle as note 
+          in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, 
+          so we can give you proper credits!'); ?>
       </div>
     </fieldset>
 </form>

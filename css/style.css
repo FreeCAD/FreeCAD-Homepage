@@ -174,21 +174,27 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 8px;
 }
 
-.sponsor img {
-  max-width: 64px;
-  float: left;
-  margin-right: 16px;
+.sponsortitle b {
+  font-size: 1.1em;
+  padding: 2px 8px;
+  border-radius: 4px;
 }
 
 .sponsor {
   width: 340px;
   max-width: 100%;
   float: left;
-  background: #ddd;
+  background: rgba(255,255,255,0.3);
   color: #444;
   border-radius: 3px;
   margin: 8px;
   padding: 8px;
+}
+
+.sponsor img {
+  max-width: 64px;
+  float: left;
+  margin-right: 16px;
 }
 
 .sponsor .title {
