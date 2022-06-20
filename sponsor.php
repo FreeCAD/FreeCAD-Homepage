@@ -3,14 +3,14 @@
     include("header.php");
 ?>
 
-    <div id="main" class="container-fluid">
+    <div id="main" class="container-fluid whitelinks">
 
         <div class="download-notes text-center">
             <h2 class="downloads-notes-title"><?php echo _('Donating and sponsoring'); ?></h2>
         </div>
         
 
-        <section class="row section d-flex justify-content-around">
+        <section class="row section d-flex justify-content-around whitelinks">
             
           <div class="col-lg-4">
             <h3><?php echo _('Donating to FreeCAD'); ?></h3>
