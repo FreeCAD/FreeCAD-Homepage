@@ -29,7 +29,11 @@
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 
+<?php if ($currentpage == "thankyou.php") { ?>
+<body onload="startDownload()">
+<?php } else { ?>
 <body>
+<?php } ?>
   <nav class="navbar fixed-top navbar-expand-xl navbar-dark py-1 navbar-custom">
     <a class="navbar-brand" href="<?php echo $homeurl; ?>">
       <img class="img-fluid" src="svg/logo-freecad.svg" alt="FreeCAD Logo"/>

@@ -68,9 +68,9 @@
           BIC/SWIFT code: GEBABEBBXXX<br/>
           <?php echo _('Bank agency'); ?>: BNP Paribas Fortis<br/>
           <?php echo _('Address'); ?>: Rue de la Station 64, 1360 Perwez, Belgium<br/>
-          <?php echo _('Please inform your forum name or twitter handle as note 
-          in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, 
-          so we can give you proper credits!'); ?>
       </div>
     </fieldset>
+    <?php echo _('Please inform your forum name or twitter handle as a note 
+    in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, 
+    so we can give you proper credits!'); ?>
 </form>

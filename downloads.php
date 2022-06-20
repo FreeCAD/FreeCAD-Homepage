@@ -3,6 +3,16 @@
     include("header.php");
 ?>
 
+    <script>
+        function thankyou(e) {
+            // redirects to the thankyou page, which takes care of the download
+            dlink = e.target.href;
+            durl = "thankyou.php?url=" + encodeURIComponent(dlink);
+            e.preventDefault();
+            window.location = durl;
+            return false;
+        }
+    </script>
 
     <div id="main" class="container-fluid">
       <div class="download-notes text-center">
@@ -27,7 +37,7 @@
             <img class="w-100 p-4" src="svg/icon-windows.svg" alt="Windows">
             <h3 class="card-title download-platform-name m-0 pb-3">Windows</h3>
             <div class="flex-column flex-lg-row">
-              <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-WIN-x64-installer-1.exe">64-Bit installer</a>
+              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-WIN-x64-installer-1.exe">64-Bit installer</a>
             </div>
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
@@ -48,7 +58,7 @@
           <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
             <img class="w-100 p-4" src="svg/icon-apple.svg" alt="Mac">
             <h3 class="card-title download-platform-name m-0 pb-3">Mac</h3>
-            <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-OSX-i386.dmg">64-Bit dmg</a>
+            <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-OSX-i386.dmg">64-Bit dmg</a>
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
             <small class="text-muted">
@@ -68,7 +78,7 @@
           <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
             <img class="w-100 p-4" src="svg/icon-linux.svg" alt="Linux">
             <h3 class="card-title download-platform-name m-0 pb-3">Linux</h3>
-            <a class="btn btn-primary rounded-pill my-1" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-Linux-x86_64.AppImage">64-Bit AppImage</a>
+            <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-Linux-x86_64.AppImage">64-Bit AppImage</a>
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
             <small class="text-muted">
