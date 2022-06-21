@@ -10,7 +10,7 @@
             form.querySelector(".submit").classList.remove("hidden");
         }
     }
-    
+
     function send (button) {
         form = button.parentElement.parentElement;
         method = form.method.value;
@@ -37,10 +37,12 @@
             }
         } else if (method == "paypal") {
             window.location = "https://www.paypal.com/donate/?hosted_button_id=M3Z8BGW6DB69Q";
+        } else if (method == "stripe") {
+            window.location = "https://buy.stripe.com/fZe0263vA809dpu5kk";
         }
     }
 </script>
-    
+
 <form id="<?php echo $formid; ?>" class="donation">
     <fieldset>
       <label for="amount"><?php echo _('Amount'); ?>:</label>
@@ -53,13 +55,14 @@
       <label for="method"><?php echo _('Donation method'); ?>:</label>
       <select id="method" name="method" onClick="process(this)">
              <option value="null" selected><?php echo _('Please choose'); ?>...</option>
-             <option value="sepa"><?php echo _('SEPA bank transfer'); ?></option>
-             <option value="paypal"><?php echo _('Credit card/Paypal'); ?></option>
-             <option value="github"><?php echo _('Github sponsoring'); ?></option>
-             <option value="opencollective"><?php echo _('OpenCollective'); ?></option>
+             <option value="sepa" title="<?php echo _('Direct SEPA bank transfer using your own bank apps'); ?>"><?php echo _('SEPA bank transfer'); ?></option>
+             <!-- apparently stripe doens't let you specify a custom amount... -->
+             <!-- <option value="stripe" title="<?php echo _('SEPA bank transfer or credit card via Stripe'); ?>"><?php echo _('Stripe transfer'); ?></option> -->
+             <option value="paypal" title="<?php echo _('Paypal allows to donate using your Paypal account, or a credit card') ?>"><?php echo _('Paypal'); ?></option>
+             <option value="github" title="<?php echo _('Github allows you to sponsor your favorite projects using your github account, and a credit card') ?>"><?php echo _('Github'); ?></option>
+             <option value="opencollective" title="<?php echo _('OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account') ?>"><?php echo _('OpenCollective'); ?></option>
       </select>
       <br/>
-      <input type="Button" value="Submit" class="submit" onCLick="send(this)" />
       <div class="sepainfo hidden">
           <b><?php echo _('SEPA Information'); ?></b><br/>
           <?php echo _('Please set up your SEPA bank transfer to'); ?>:<br/>
@@ -69,8 +72,12 @@
           <?php echo _('Bank agency'); ?>: BNP Paribas Fortis<br/>
           <?php echo _('Address'); ?>: Rue de la Station 64, 1360 Perwez, Belgium<br/>
       </div>
+      <?php echo _('Please inform your forum name or twitter handle as a note
+      in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>,
+      so we can give you proper credits! More information about the donation
+      options on the
+      <a href=https://wiki.freecad.org/donate>donations</a> page.'); ?>
+      <br/>
+      <input type="Button" value="Submit" class="submit" onCLick="send(this)" />
     </fieldset>
-    <?php echo _('Please inform your forum name or twitter handle as a note 
-    in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, 
-    so we can give you proper credits!'); ?>
 </form>
