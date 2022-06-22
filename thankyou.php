@@ -78,7 +78,7 @@
 
 
           <div class="col-lg-4">
-            <h3><?php echo _('Help needed?'); ?></h3>
+            <h3><?php echo _('Need help?'); ?></h3>
           </div>
 
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
