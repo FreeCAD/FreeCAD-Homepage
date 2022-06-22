@@ -3,6 +3,12 @@
     include("header.php");
 ?>
 
+  <script>
+    function onClickArrow() {
+        document.getElementById('belowArrow').scrollIntoView();
+    }
+  </script>
+
   <div id="main" class="container-fluid">
     <section class="row section-cover d-flex align-items-center">
       <div class="col-lg-8">
@@ -19,7 +25,9 @@
       </div>
     </section>
 
-    <div class="d-flex justify-content-center"><img id="floating-arrow" src="svg/icon-down.svg"/></div>
+    <div class="d-flex justify-content-center"><img id="floating-arrow" src="svg/icon-down.svg" onClick="onClickArrow()"/></div>
+
+    <a id="belowArrow"></a>
 
     <section class="row section d-flex align-items-center justify-content-around">
       <div class="col-lg-7">
