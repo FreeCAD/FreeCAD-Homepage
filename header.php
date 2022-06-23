@@ -3,10 +3,14 @@
     $homeurl = "index.php";
     $downloadurl = "downloads.php";
     $featuresurl = "features.php";
+    $sponsorurl = "sponsor.php";
+    $langattrib = "";
     if ($_GET["lang"] != "") {
         $homeurl = $homeurl."?lang=".$_GET["lang"];
         $downloadurl = $downloadurl."?lang=".$_GET["lang"];
         $featuresurl = $featuresurl."?lang=".$_GET["lang"];
+        $sponsorurl = $sponsorurl."?lang=".$_GET["lang"];
+        $langattrib = "&lang=".$_GET["lang"];
     }
 ?>
 
@@ -85,7 +89,7 @@
 
           <div class="dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark" href="https://wiki.freecad.org/Help_FreeCAD"><?php echo _('How to help'); ?></a>
-            <a class="dropdown-item text-dark" href="sponsor.php"><?php echo _('Donate / Sponsor'); ?></a>
+            <a class="dropdown-item text-dark" href="<?php echo $sponsorurl; ?>"><?php echo _('Donate / Sponsor'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/issues"><?php echo _('Report a bug'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls"><?php echo _('Make a pull request'); ?></a>
           </div>

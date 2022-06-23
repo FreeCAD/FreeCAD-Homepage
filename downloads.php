@@ -7,7 +7,7 @@
         function thankyou(e) {
             // redirects to the thankyou page, which takes care of the download
             dlink = e.target.href;
-            durl = "thankyou.php?url=" + encodeURIComponent(dlink);
+            durl = "thankyou.php?url=" + encodeURIComponent(dlink) + "<?php echo $langattrib; ?>";
             e.preventDefault();
             window.location = durl;
             return false;
