@@ -18,6 +18,12 @@
   src: url("../fonts/Roboto-Bold.woff") format("woff");
 }
 
+@font-face {
+    font-family: 'Evolventa';
+    src: url('/fonts/Evolventa-Regular.woff') format('woff'),
+}
+
+
 html, body {
   height: 100%;
   font-family: 'Roboto-Regular', sans-serif;
@@ -35,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main {
-  padding: 8vw;
+  padding: 4vw 8vw 8vw 8vw;
   background-image: url(../svg/pattern-background.svg);
   background-repeat: repeat-y;
   background-size: 100% auto;
@@ -86,8 +92,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3em;
 }
 
+.home-image {
+  width: 430px;
+  max-width: 100%;
+}
+
 .home-subtitle {
   font-size: 1.2em;
+  font-family: "Evolventa", sans-serif;
 }
 
 .btn {
@@ -130,10 +142,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .icon-social {
-  width: 3em;
+  width: 1.8em;
 }
 
-.downloads-notes-title {
+.downloads-notes-title, .features-title {
   font-size: 2em;
   margin-bottom: 0.5em;
 }
@@ -155,6 +167,58 @@ h1, h2, h3, h4, h5, h6 {
 .download-notes {
   margin-top: 3em;
   margin-bottom: 4em;
+}
+
+.donation input, .donation select {
+  float: right;
+  margin-right: 8px;
+}
+
+.sponsortitle b {
+  font-size: 1.1em;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.sponsor {
+  width: 340px;
+  max-width: 100%;
+  float: left;
+  background: rgba(255,255,255,0.3);
+  color: #444;
+  border-radius: 3px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.sponsor img {
+  max-width: 64px;
+  float: left;
+  margin-right: 16px;
+}
+
+.sponsor .title {
+  clear: right;
+}
+
+.gold .title {
+  font-size: 1.3em;
+}
+
+.silver .title {
+  font-size: 1.1em;
+}
+
+.sepainfo {
+  margin-top: 24px;
+}
+
+.hidden {
+  display: none;
+}
+
+.donation {
+  margin: 16px 0 40px;
 }
 
 @media (min-width: 400px) {
@@ -210,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #main .section-cover {
-    margin-top: 4em;
+    margin-top: 0;
   }
 
   #main .section {

@@ -1,114 +1,13 @@
-<?php include("translation.php"); ?>
-
-<!DOCTYPE html>
-<html lang="<?php echo $lang;?>" class="home">
-<head>
-	<meta charset="UTF-8"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta name="viewport" content="width = device-width, initial-scale = 1"/>
-	<meta name="description" content="FreeCAD, the open source parametric modeler"/>
-  <meta name="keywords" content="freecad, engineering, open-source, opencascade, architecture, cad, bim, fem, 3d, 3d-printing, mac-osx, linux, windows, coin, parametric-modeler"/>
-
-	<title><?php echo _('FreeCAD: Features'); ?></title>
-	<link rel="shortcut icon" href="images/favicon.ico"/>
-
-	<!-- Include bootstrap CSS file -->
-	<link rel="stylesheet" href="css/bootstrap-4.3.1.min.css"/>
-
-	<!-- Custom Styles -->
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-</head>
-
-<body>
-	<nav class="navbar fixed-top navbar-expand-xl navbar-dark py-1 navbar-custom">
-    <?php
-        $indexurl = "index.php";
-        $downloadurl = "downloads.php";
-        if ($_GET["lang"] != "") {
-            $indexurl = $indexurl."?lang=".$_GET["lang"];
-            $downloadurl = $downloadurl."?lang=".$_GET["lang"];
-        }
-    ?>
-    <a class="navbar-brand" href="<?php echo $indexurl; ?>">
-      <img class="img-fluid" src="svg/logo-freecad.svg" alt="FreeCAD Logo"/>
-    </a>
-
-    <ul class="nav nav-pills ml-auto order-xl-last">
-      <li class="nav-item dropdown">
-        <a class="nav-link text-light rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-          <img src="lang/<?php echo $lang; ?>/flag.jpg"/>
-        </a>
-
-        <div class="dropdown-lang dropdown-menu dropdown-menu-right">
-          <?php echo getFlags("/features.php"); ?>
-        </div>
-      </li>
-    </ul>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="nav nav-pills ml-auto">
-        <li class="nav-item">
-          <a class="nav-link active my-2 rounded-pill" href="#"><?php echo _('Features'); ?></a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="<?php echo $downloadurl; ?>"><?php echo _('Downloads'); ?></a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="https://wiki.freecad.org/Getting_started"><?php echo _('Documentation'); ?></a>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Community'); ?></a>
-
-          <div class="dropdown-community dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item text-dark font-weight-bold" href="https://forum.freecad.org/">Forum</a>
-            <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD">GitHub</a>
-            <a class="dropdown-item text-dark" href="https://gitlab.com/freecad/FreeCAD">GitLab</a>
-            <a class="dropdown-item text-dark" href="https://codeberg.org/FreeCAD/FreeCAD">Codeberg</a>
-            <a class="dropdown-item text-dark" href="https://fosstodon.org/@FreeCAD">Mastodon</a>
-            <a class="dropdown-item text-dark" href="https://app.element.io/#/room/#gitter_FreeCAD=2FFreeCAD:matrix.org">Matrix</a>
-            <a class="dropdown-item text-dark" href="irc://irc.libera.chat/freecad">IRC</a>
-            <a class="dropdown-item text-dark" href="https://gitter.im/FreeCAD/FreeCAD">Gitter.im</a>
-            <a class="dropdown-item text-dark" href="https://www.reddit.com/r/freecad">Reddit</a>
-            <a class="dropdown-item text-dark" href="https://twitter.com/FreeCADNews">Twitter</a>
-            <a class="dropdown-item text-dark" href="https://www.facebook.com/FreeCAD">Facebook</a>
-          </div>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Contribute'); ?></a>
-
-          <div class="dropdown-community dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item text-dark" href="https://wiki.freecad.org/Help_FreeCAD"><?php echo _('How to help?'); ?></a>
-            <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls"><?php echo _('Pull requests'); ?></a>
-            <a class="dropdown-item text-dark" href="https://wiki.freecad.org/"><?php echo _('Wiki'); ?></a>
-            <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/issues"><?php echo _('Issues Tracker'); ?></a>
-          </div>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="https://wiki.freecad.org/Donate"><?php echo _('Donate'); ?></a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="https://forum.freecad.org/viewforum.php?f=24"><?php echo _('Showcase'); ?></a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<?php 
+    $currentpage = "features.php";
+    include("header.php");
+?>
 
     <div id="main" class="container-fluid">
 
-
-
-        <h2 class="features-title"><?php echo _('Key FreeCAD Features'); ?></h2>
-
+        <div class="download-notes text-center">
+            <h2 class="features-title"><?php echo _('Key FreeCAD Features'); ?></h2>
+        </div>
 
 
         <section class="row section d-flex justify-content-around">
@@ -117,7 +16,7 @@
             <h3><?php echo _('Made to build for the real world'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD is made primarily to design objects for the real world. Everything you do in FreeCAD uses real-world
-              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers tools to produce, export and
+              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and
               edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,
               perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials.'); ?>
             </p>
@@ -303,7 +202,10 @@
 
 
 
-        <h2 class="features-title"><?php echo _('Release notes'); ?></h2>
+
+        <div class="download-notes text-center">
+            <h2 class="features-title"><?php echo _('Release notes'); ?></h2>
+        </div>
 
 
 
@@ -318,17 +220,17 @@
           </div>
 
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
-              <ul class="d-block whitelinks">
-                <li><a href="https://wiki.freecad.org/Release_notes_011" title="Release notes 011"><?php echo _('Release 0.11 - March 2011'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_012" title="Release notes 012"><?php echo _('Release 0.12 - December 2011'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_013" title="Release notes 013"><?php echo _('Release 0.13 - January 2013'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_0.14" title="Release notes 0.14"><?php echo _('Release 0.14 - March 2014'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_0.15" title="Release notes 0.15"><?php echo _('Release 0.15 - March 2015'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_0.16" title="Release notes 0.16"><?php echo _('Release 0.16 - April 2016'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_0.17" title="Release notes 0.17"><?php echo _('Release 0.17 - April 2018'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_0.18" title="Release notes 0.18"><?php echo _('Release 0.18 - March 2019'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_0.19" title="Release notes 0.19"><?php echo _('Release 0.19 - March 2021'); ?></a></li>
+              <ul class="d-block whitelinks releases">
                 <li><a href="https://wiki.freecad.org/Release_notes_0.20" title="Release notes 0.20"><?php echo _('Release 0.20 - June 2022'); ?></a> (current stable release)</li>
+                <li><a href="https://wiki.freecad.org/Release_notes_0.19" title="Release notes 0.19"><?php echo _('Release 0.19 - March 2021'); ?></a></li>
+                <li><a href="https://wiki.freecad.org/Release_notes_0.18" title="Release notes 0.18"><?php echo _('Release 0.18 - March 2019'); ?></a></li>
+                <li><a href="https://wiki.freecad.org/Release_notes_0.17" title="Release notes 0.17"><?php echo _('Release 0.17 - April 2018'); ?></a></li>
+                <li><a href="https://wiki.freecad.org/Release_notes_0.16" title="Release notes 0.16"><?php echo _('Release 0.16 - April 2016'); ?></a></li>
+                <li><a href="https://wiki.freecad.org/Release_notes_0.15" title="Release notes 0.15"><?php echo _('Release 0.15 - March 2015'); ?></a></li>
+                <li><a href="https://wiki.freecad.org/Release_notes_0.14" title="Release notes 0.14"><?php echo _('Release 0.14 - March 2014'); ?></a></li>
+                <li><a href="https://wiki.freecad.org/Release_notes_013" title="Release notes 013"><?php echo _('Release 0.13 - January 2013'); ?></a></li>
+                <li><a href="https://wiki.freecad.org/Release_notes_012" title="Release notes 012"><?php echo _('Release 0.12 - December 2011'); ?></a></li>
+                <li><a href="https://wiki.freecad.org/Release_notes_011" title="Release notes 011"><?php echo _('Release 0.11 - March 2011'); ?></a></li>
               </ul>
           </div>
         </section>

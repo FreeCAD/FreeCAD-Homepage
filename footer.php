@@ -4,36 +4,9 @@
     <!-- ------ -->
 
   <footer class="container-fluid footer-custom bg-dark text-center text-light">
-    <div class="row">
-      <div class="col-md-4 col-sm-6 mb-3">
-        <h4><?php echo _('Learn'); ?></h4>
-        <ul class="list-unstyled">
-          <li><a class="text-light" href="https://wiki.freecad.org/Tutorials"><?php echo _('Tutorials'); ?></a></li>
-          <li><a class="text-light" href="https://www.youtube.com/results?search_query=freecad"><?php echo _('Videos'); ?></a></li>
-          <li><a class="text-light" href="https://stackexchange.com/search?q=freecad">Stack Exchange</a></li>
-        </ul>
-      </div>
-
-      <div class="col-md-4 col-sm-6 mb-3">
-        <h4><?php echo _('Contribute'); ?></h4>
-        <ul class="list-unstyled">
-          <li><a class="text-light" href="https://wiki.freecad.org/Help_FreeCAD"><?php echo _('How can I help?'); ?></a></li>
-          <li><a class="text-light" href="https://wiki.freecad.org/Donate"><?php echo _('Donate'); ?></a></li>
-          <li><a class="text-light" href="https://crowdin.com/project/freecad"><?php echo _('Translate'); ?></a></li>
-        </ul>
-      </div>
-
-      <div class="col-md-4 col-sm-6 mb-3">
-        <h4><?php echo _('Code'); ?></h4>
-        <ul class="list-unstyled">
-          <li><a class="text-light" href="https://wiki.freecad.org/Compiling"><?php echo _('Building from source'); ?></a></li>
-          <li><a class="text-light" href="https://www.freecad.org/api/"><?php echo _('C++ & Python API'); ?></a></li>
-          <li><a class="text-light" href="https://wiki.freecad.org/Licence"><?php echo _('License information'); ?></a></li>
-        </ul>
-      </div>
-    </div>
 
     <div class="justify-content-center my-3 my-md-5">
+      <?php echo _('Get in touch!'); ?><br/>
       <a href="https://forum.freecad.org/"><img class="icon-social m-2" src="svg/icon-forum-light.svg" alt="Forum"/></a>
       <a href="https://github.com/FreeCAD/FreeCAD"><img class="icon-social m-2" src="svg/icon-github-light.svg" alt="GitHub"/></a>
       <a href="https://fosstodon.org/@FreeCAD"><img class="icon-social m-2" src="svg/icon-mastodon-light.svg" alt="Mastodon"/></a>
@@ -51,10 +24,9 @@
       r-frank, epileftric, regis, rider_mortagnais, bejant.'); ?>
     </p>
 
-    <p>This project is supported by:</p>
-    <p>
+    <p><?php echo _('This project is supported by:'); ?>
       <a href="https://www.digitalocean.com/?utm_medium=opensource&utm_source=FreeCAD">
-        <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="201px">
+        <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="180px">
       </a>
       - 
       <a href="https://www.kipro-pcb.com/">

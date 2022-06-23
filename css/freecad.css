@@ -1,17 +1,33 @@
 @font-face {
     font-family: 'Fira Sans';
-    src: url('../fonts/FiraSans-Regular.eot');
-    src: local('☺'), url('/fonts/FiraSans-Regular.woff') format('woff'), url('/fonts/FiraSans-Regular.ttf') format('truetype'), url('/fonts/FiraSans-Regular.svg') format('svg');
+    src: url('../fonts/FiraSans-Regular.eot') format('eot'),
+         url('/fonts/FiraSans-Regular.woff') format('woff'), 
+         url('/fonts/FiraSans-Regular.ttf') format('truetype'), 
+         url('/fonts/FiraSans-Regular.svg') format('svg');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto.eot');
-    src: local('☺'), url('/fonts/Roboto.woff') format('woff'), url('/fonts/Roboto.ttf') format('truetype'), url('/fonts/Roboto.svg') format('svg');
-    font-weight: 400;
+    font-family: 'Evolventa';
+    src: url('/fonts/Evolventa-Regular.woff2') format('woff2'),
+         url('/fonts/Evolventa-Regular.woff') format('woff'),
+         url('/fonts/Evolventa-Regular.ttf') format('truetype'),
+         url('/fonts/Evolventa-Regular.svg#Evolventa-Regular') format('svg');
+    font-weight: normal;
     font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Evolventa';
+    src: url('/fonts/Evolventa-Bold.woff2') format('woff2'),
+         url('/fonts/Evolventa-Bold.woff') format('woff'),
+         url('/fonts/Evolventa-Bold.ttf') format('truetype'),
+         url('/fonts/Evolventa-Bold.svg#Evolventa-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 html {
@@ -42,7 +58,7 @@ p, .wiki-body-section {
     text-align: justify;
 }
 .nav {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     text-transform: uppercase;
 }
 .navbar-brand {
