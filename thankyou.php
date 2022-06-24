@@ -7,6 +7,12 @@
     ini_set('display_startup_errors', '1');
     error_reporting(E_ALL);
 
+    if ( !function_exists('str_starts_with') ) {
+        function str_starts_with ( $haystack, $needle ) {
+            return strpos( $haystack , $needle ) === 0;
+        }
+    }
+
     $url = "#";
     if (isset($_GET['url']) ) {
         $url = urldecode($_GET['url']);
