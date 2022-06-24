@@ -11,7 +11,7 @@
     if (isset($_GET['url']) ) {
         $url = urldecode($_GET['url']);
         // Only allow downloads from trusted source
-        if ( !str_starts_with($url,"https://github.com/FreeCAD/FreeCAD/releases") ) {
+        if ( !str_starts_with($url, "https://github.com/FreeCAD/FreeCAD/releases") ) {
             $url = "#";
         }
     }
@@ -19,7 +19,7 @@
 
     <script>
         function startDownload() {
-            window.location = "<?php echo($url); ?>";
+            window.location = "<?php echo $url; ?>";
         }
     </script>
 
@@ -30,7 +30,7 @@
 
             <p>
             <?php echo _('Your download should start automatically.
-            If not, click') ?> <a href="<?php echo($url); ?>"><?php echo _('here'); ?></a>
+            If not, click') ?> <a href="<?php echo $url; ?>"><?php echo _('here'); ?></a>
             <?php echo _('to download the file.'); ?>
             </p>
 
