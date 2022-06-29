@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 13:10+0100\n"
-"PO-Revision-Date: 2022-03-23 09:26\n"
+"PO-Revision-Date: 2022-06-12 09:50\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -51,7 +51,7 @@ msgstr "拉取请求"
 
 #: downloads.php:91 features.php:90 index.php:92
 msgid "Wiki"
-msgstr "维基"
+msgstr "维基百科"
 
 #: downloads.php:92 features.php:91 index.php:93
 msgid "Issues Tracker"
@@ -101,7 +101,7 @@ msgstr "FreeCAD 的开发一直是活跃的！您想要查看最新的开发版�
 
 #: downloads.php:192
 msgid "FreeCAD weekly builds page."
-msgstr "FreeCAD 周更页面"
+msgstr "FreeCAD 每周版本页面。"
 
 #: downloads.php:201
 msgid "Additional modules and macros"
@@ -127,17 +127,17 @@ msgstr "FreeCAD：关键功能"
 
 #: features.php:117
 msgid "Made to build for the real world"
-msgstr "为了建立真正的世界而生"
+msgstr "为了建造一个真实的世界"
 
 #: features.php:119
 msgid "FreeCAD is made primarily to design objects for the real world. Everything you do in FreeCAD uses real-world\n"
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers tools to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr "FreeCAD 主要用于为设计现实世界的物体。 您在 FreeCAD 中所做的一切都使用现实世界\n"
-"              单位，无论是微米、公里、英寸或英尺，甚至是任何单位组合。 FreeCAD 提供工具来生成、导出和\n"
-"              编辑实体、全精度模型，将它们导出以进行 3D 打印或 CNC 加工，创建模型的 2D 图纸和视图，\n"
-"              执行有限元分析等分析，或导出模型数据 例如数量或物料清单。"
+msgstr "FreeCAD 主要用于设计真实世界中的物体。 您在 FreeCAD 中做的一切都使用了真实世界的\n"
+"              单元， 无论是微量元素、公里、英寸或英尺，还是任何单位组合。 FreeCAD 提供了制作、导出和\n"
+"              编辑固体的工具， 全精度模型，导出它们用于3D印刷或CNC机器， 创建您模型的2D绘图和视图\n"
+"              执行诸如有限元分析等分析， 或导出模型数据，如数量或物料清单。"
 
 #: features.php:141
 msgid "A powerful solid-based geometry kernel"
@@ -318,7 +318,7 @@ msgstr "FreeCAD是为每个人制作的，由每个人制作。它的开发和�
 
 #: features.php:307
 msgid "Release notes"
-msgstr "更新日志"
+msgstr "版本说明"
 
 #: features.php:316
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
@@ -336,31 +336,31 @@ msgstr "0.12 版本发布 - 2011年12月"
 
 #: features.php:325
 msgid "Release 0.13 - January 2013"
-msgstr "0.13 版本发布 - 2013年1月"
+msgstr "0.13 正式版 - 2013年1月"
 
 #: features.php:326
 msgid "Release 0.14 - March 2014"
-msgstr "0.14 版本发布 - 2014年3月"
+msgstr "0.14 正式版- - 2014年3月"
 
 #: features.php:327
 msgid "Release 0.15 - March 2015"
-msgstr "0.15 版本发布 - 2015年3月"
+msgstr "0.15 版 - 2015年3月"
 
 #: features.php:328
 msgid "Release 0.16 - April 2016"
-msgstr "0.16 版本发布 - 2016年4月"
+msgstr "0.16 正式版 - 2016年4月"
 
 #: features.php:329
 msgid "Release 0.17 - April 2018"
-msgstr "0.17 版本发布 - 2018年4月"
+msgstr "0.17 版 - 2018年4月"
 
 #: features.php:330
 msgid "Release 0.18 - March 2019"
-msgstr "0.18 版本发布 - 2019年3月"
+msgstr "0.18 正式版 - 2019年3月"
 
 #: features.php:331
 msgid "Release 0.19 - March 2021"
-msgstr "0.19 版本发布 - 2021年3月"
+msgstr "0.19 版 - 2021年3月"
 
 #: footer.php:9
 msgid "Learn"
@@ -392,7 +392,7 @@ msgstr "从源代码构建"
 
 #: footer.php:30
 msgid "C++ & Python API"
-msgstr "C + + & Python API"
+msgstr "C++& Python API"
 
 #: footer.php:31
 msgid "License information"

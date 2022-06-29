@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 13:10+0100\n"
-"PO-Revision-Date: 2022-03-23 09:28\n"
+"PO-Revision-Date: 2022-06-07 07:13\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -152,11 +152,18 @@ msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
 "              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
-msgstr ""
+msgstr "FreeCAD는 \n"
+"<ahref=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCAD Technology</a>를 기반으로 하는 고급 지오메트리 엔진을 갖추고 있습니다. Solid를 지원합니다.\n"
+" <a href=https://en.wikipedia.org/wiki/Boundary_representation>경계 표현</a>(BREP) 객체 및 \n"
+"<ahref=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline> 비균일 합리적 기준 스플라인</a>(NURBS)\n"
+" 곡선과 표면을 제공하며, 복합체\n"
+"<ahref=를 포함하여 이러한 객체를 만들고 수정하는 광범위한 도구를 제공합니다.https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean </a>즉각적인 작업,\n"
+"<ahref=https://en.wikipedia.org/wiki/Fillet_(mechanics)> 필릿, 형상 정리 및\n"
+"<ahref=https://wiki.freecad.org/OpenCASCADE> 그리고 더 많은 작업을 수행할 수 있습니다.</a>"
 
 #: features.php:159
 msgid "A wi(l)dly parametric environment"
-msgstr ""
+msgstr "광범위한 파라메트릭 환경"
 
 #: features.php:161
 msgid "All FreeCAD objects are natively parametric, meaning their shape can be based on\n"
@@ -169,7 +176,7 @@ msgstr ""
 
 #: features.php:184
 msgid "Python everywhere"
-msgstr "Python을 어디서든"
+msgstr "Python을 어디서나"
 
 #: features.php:186
 msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance,\n"
@@ -183,7 +190,7 @@ msgstr ""
 
 #: features.php:202
 msgid "File formats frenzy"
-msgstr ""
+msgstr "다양한 파일형식 지원"
 
 #: features.php:204
 msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
@@ -210,7 +217,7 @@ msgstr ""
 
 #: features.php:241
 msgid "A parametric constraints-based 2D sketcher"
-msgstr ""
+msgstr "파라메트릭 구속 기반의 2D 스케쳐"
 
 #: features.php:243
 msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
@@ -222,7 +229,7 @@ msgstr ""
 
 #: features.php:257
 msgid "A large (and growing) multi-specialty ecosystem"
-msgstr ""
+msgstr "다양한(그리고 성장하는) 여러 전문분야 지원"
 
 #: features.php:259
 msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbench_Concept\">workbenches</a> for a variety of purposes\n"
@@ -240,7 +247,13 @@ msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbench_Con
 "              <a href=\"https://wiki.freecad.org/External_workbenches\">add-on workbenches</a> and\n"
 "              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> developed by the users\n"
 "              community."
-msgstr ""
+msgstr "FreeCAD는 <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG 모델링</a>, 간단한 <a href=\"https://wiki.freecad.org/Draft_Workbench\">2D 캐드 제도</a>, <a href=\"https://wiki.freecad.org/Surface_Module\">NURBS 곡면</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Arch_Module\">건축 또는 BIM 모델링</a>, <a href=\"https://wiki.freecad.org/Path_Workbench\">3D 프린팅, CAM과 CNC</a>, <a href=\"https://wiki.freecad.org/Points_Module\">point clouds</a>,x<a href=\"https://wiki.freecad.org/OpenSCAD_Module\">OpenSCAD 파일</a> 작업, <a href=\"https://wiki.freecad.org/Robot_Workbench\">산업용 로봇 궤적</a> 설계, <a href=\"https://wiki.freecad.org/FEM_Module\">유한요소해석</a> 등등 \n"
+"              \n"
+"과 같이 다양한 목적을 위한 전용 <a href=\"https://wiki.freecad.org/Workbench_Concept\">워크벤치</a>를 \n"
+"              제공합니다.  또한 FreeCAD는 사용자 커뮤니티에서 개발한 \n"
+"              <a href=\"https://wiki.freecad.org/External_workbenches\">추가 워크벤치</a> 및 <a href=\"https://wiki.freecad.org/Macros_recipes\">매크로</a>를 설치하고 관리할 수 있는 \n"
+"              쉬운 도구를 제공합니다."
 
 #: features.php:276 index.php:207
 msgid "Learn more"
@@ -248,7 +261,7 @@ msgstr "더 알아보기"
 
 #: features.php:294
 msgid "Developed by a community"
-msgstr "커뮤니티에 의해 개발되었다."
+msgstr "커뮤니티에 의한 개발"
 
 #: features.php:296
 msgid "FreeCAD is made for everybody, by everybody. It is developed and maintained\n"
@@ -265,7 +278,8 @@ msgstr "릴리즈 정보"
 #: features.php:316
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
-msgstr ""
+msgstr "여기에서 현재 또는 이전 버전의 FreeCAD를 찾으세요.\n"
+"                  릴리즈 정보에서 각 릴리즈 버전의 새로운 기능에 대해 설명합니다:"
 
 #: features.php:323
 msgid "Release 0.11 - March 2011"

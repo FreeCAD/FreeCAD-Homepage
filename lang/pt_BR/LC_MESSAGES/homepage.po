@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 13:10+0100\n"
-"PO-Revision-Date: 2022-03-23 09:28\n"
+"PO-Revision-Date: 2022-06-12 09:50\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -246,7 +246,8 @@ msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sket
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
 "                  objects throughout FreeCAD, be it either with the\n"
 "                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
-msgstr ""
+msgstr "FreeCAD possuí um <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
+"                  topo de linha, com um calculador de restrições integrado, que permite desenhar formas 2D restringidas. Sketches são os componentes principais de um modelo no FreeCAD, e as formas 2D restringidas produzidas com ele podem ser usadas como base para construir outros objetos, seja com a própria <a href=https://wiki.freecad.org/PartDesign_Workbench>bancada Part Design</a> ou qualquer outra bancada."
 
 #: features.php:257
 msgid "A large (and growing) multi-specialty ecosystem"
@@ -268,7 +269,18 @@ msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbench_Con
 "              <a href=\"https://wiki.freecad.org/External_workbenches\">add-on workbenches</a> and\n"
 "              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> developed by the users\n"
 "              community."
-msgstr ""
+msgstr "FreeCAD oferece diversas <a href=\"https://wiki.freecad.org/Workbench_Concept\">bancadas</a> para vários usos como  <a href=\"https://wiki.freecad.org/Part_Workbench\">modelagem CSG</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Draft_Workbench\">desenho CAD 2D</a> tradicional,\n"
+"              <a href=\"https://wiki.freecad.org/Surface_Module\">superficies NURBS</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Arch_Module\">modelagem BIM e arquitetura</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Path_Workbench\">impressão 3D, CAM e CNC</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Points_Module\">nuvens de pontos</a>,\n"
+"              o trabalho com  <a href=\"https://wiki.freecad.org/OpenSCAD_Module\">arquivos OpenSCAD</a>,\n"
+"              o desenho de <a href=\"https://wiki.freecad.org/Robot_Workbench\">trajetórias de robôs industriais</a>,\n"
+"              doing <a href=\"https://wiki.freecad.org/FEM_Module\">Análise de Elementos Finitos</a>,\n"
+"              e muito mais. O FreeCAD fornece também ferramentas fáceis para instalação e gerenciamento de\n"
+"              <a href=\"https://wiki.freecad.org/External_workbenches\">bancadas adicionais</a> e\n"
+"              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> desenvolvidas pela comunidade de usuários."
 
 #: features.php:276 index.php:207
 msgid "Learn more"
@@ -284,7 +296,11 @@ msgid "FreeCAD is made for everybody, by everybody. It is developed and maintain
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
 "              urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or\n"
 "              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
-msgstr ""
+msgstr "FreeCAD é feito para todos, por todos. É desenvolvido e mantido\n"
+"              por uma comunidade de desenvolvedores, usuários, moderadores, tradutores, todos unidos por seu desejo em fazer do \n"
+"              FreeCAD uma ferramenta livre e poderosa. Não há qualquer objetivo comercial por trás das decisões tomadas, nenhum\n"
+"              empurro para que você faça o upgrade da sua versão do FreeCAD ou encurralá-lo em um fluxo de trabalho ou um\n"
+"              ecossistema específico. O FreeCAD, assim como os arquivos e dados que você produz com ele, são realmente seus, para sempre."
 
 #: features.php:307
 msgid "Release notes"
@@ -293,7 +309,8 @@ msgstr "Notas de versão"
 #: features.php:316
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
-msgstr ""
+msgstr "Encontre aqui as notas de lançamento para versões atuais e anteriores do FreeCAD. \n"
+"                  As notas de lançamento descrevem as novidades em cada versão:"
 
 #: features.php:323
 msgid "Release 0.11 - March 2011"

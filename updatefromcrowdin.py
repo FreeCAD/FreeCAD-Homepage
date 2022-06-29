@@ -2,7 +2,7 @@
 
 #***************************************************************************
 #*                                                                         *
-#*   Copyright (c) 2009 Yorik van Havre <yorik@uncreated.net>              *  
+#*   Copyright (c) 2009 Yorik van Havre <yorik@uncreated.net>              *
 #*                                                                         *
 #*   This program is free software; you can redistribute it and/or modify  *
 #*   it under the terms of the GNU Library General Public License (LGPL)   *
@@ -37,7 +37,7 @@ Options:
     -h or --help : prints this help text
     -d or --directory : specifies a directory containing unzipped translation folders
     -z or --zipfile : specifies a path to the freecad.zip file
-    
+
 This script will update the translation files of the FreeCAD homepage.
 
 This command must be run from its current source tree location
@@ -74,8 +74,7 @@ from PySide2 import QtCore,QtGui
 
 crowdinpath = "http://crowdin.net/download/project/freecad.zip"
 
-
-default_languages = "af ar ca cs de el es-ES eu fi fil fr gl hr hu id it ja kab ko lt nl no pl pt-BR pt-PT ro ru sk sl sr sv-SE tr uk val-ES vi zh-CN zh-TW"
+default_languages = "af ar ca cs de el es-AR es-ES eu fi fil fr gl hr hu id it ja kab ko lt nl no pl pt-BR pt-PT ro ru sk sl sr sv-SE tr uk val-ES vi zh-CN zh-TW"
 
 
 
@@ -124,17 +123,18 @@ def doLanguage(lncode):
 
 
 def generatePHP(lcodes):
-    
+
 
     "generates translation.php file"
-    
+
     phpfile = open("translation.php","w")
     phpfile.write("<?php\n\n$localeMap = array(\n")
     phpfile.write("    'en' => 'en_US',\n")
     for lncode in lcodes:
         ql = QtCore.QLocale(lncode)
         lname = ql.name()
-        if lncode == "val_ES": lname = "val_ES" # fix qt bug
+        if lncode == "val_ES":
+            lname = "val_ES" # fix qt bug
         phpfile.write("    '"+lncode.split("_")[0]+"' => '"+lname+"',\n")
 
     phpfile.write(");\n\n$lang = \"en\";\nif (isSet($_GET[\"lang\"])) $lang = $_GET[\"lang\"];\n")
@@ -142,7 +142,7 @@ def generatePHP(lcodes):
     phpfile.write("setlocale(LC_ALL, $locale);\nbindtextdomain(\"homepage\", \"lang\");\n")
     phpfile.write("textdomain(\"homepage\");\nbind_textdomain_codeset(\"homepage\", 'UTF-8');\n\n")
     phpfile.write("function getFlags($href='/') {\n")
-    
+
     phpfile.write("    echo('						<a class=\"dropdown-item\" href=\"'.$href.'\"><img src=\"lang/en/flag.jpg\"/>'._('English').'</a>');\n")
     for lncode in lcodes:
         ql = QtCore.QLocale(lncode)
@@ -153,16 +153,16 @@ def generatePHP(lcodes):
     phpfile.write("}\n\nfunction getTranslatedDownloadLink() {\n")
     phpfile.write("    $tr = \"\";\n")
     phpfile.write("    if (isSet($_GET[\"lang\"])) {\n")
-    phpfile.write("        $tr = \"?lang=\".$_GET[\"lang\"];\n    }\n") 
+    phpfile.write("        $tr = \"?lang=\".$_GET[\"lang\"];\n    }\n")
     phpfile.write("    echo(\"downloads.php\".$tr);\n")
     phpfile.write("}\n?>")
 
 
 
 if __name__ == "__main__":
-    
-    
-    
+
+
+
     args = sys.argv[1:]
     if len(args) < 1:
         print(__doc__)
@@ -172,7 +172,7 @@ if __name__ == "__main__":
     except getopt.GetoptError:
         print(__doc__)
         sys.exit()
-        
+
     # checking on the options
     inputdir = ""
     inputzip = ""
