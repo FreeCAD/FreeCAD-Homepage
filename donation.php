@@ -78,6 +78,10 @@
       options on the
       <a href=https://wiki.freecad.org/donate>donations</a> page.'); ?>
       <br/>
+      <b>Note</b>: Paypal is currently disabled because the Paypal platform arbitrarily
+      suspended our account (30 june 2022). We are working on it as fast as possible. 
+      Please choose another payment platform instead for the time being, or come 
+      back here in a few days. Thanks!!
       <input type="Button" value="Submit" class="submit" onCLick="send(this)" />
     </fieldset>
 </form>
