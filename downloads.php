@@ -97,8 +97,8 @@
     <div class="download-notes text-center">
       <h2 class="downloads-notes-title"><?php echo _('Development versions'); ?></h2>
       <p>
-        <?php echo _("FreeCAD's development happens daily!
-        Check out our dev builds:"); >?
+        <?php echo _("FreeCAD's development happens daily! Therefore we generate builds that are based on <i>bleeding edge</i> FreeCAD development in order for testers to test bugfixes/regressions along with new features. We recommend more savvy users to run dev builds and help spur FreeCAD's progress. We also recommend backing up files before working in a dev build.  
+        The following are dev buils available for different platforms/distributions:"); >?
         <br />
         <?php echo _("Windows: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo _('Conda'); ?></a> "); ?>
         <br />
