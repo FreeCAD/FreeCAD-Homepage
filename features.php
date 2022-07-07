@@ -117,7 +117,7 @@
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/VRML">VRML</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/OpenSCAD">OpenSCAD CSG</a>
               and many more, in addition to FreeCAD&apos;s native
-              <a href="/File_Format_FCStd" title="File Format FCStd">FCStd</a> file format. Add-on workbenches can also add more
+              <a href="https://wiki.freecad.org/File_Format_FCStd" title="File Format FCStd">FCStd</a> file format. Add-on workbenches can also add more
               file formats.'); ?>
             </p>
           </div>
