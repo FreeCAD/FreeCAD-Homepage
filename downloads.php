@@ -97,10 +97,19 @@
     <div class="download-notes text-center">
       <h2 class="downloads-notes-title"><?php echo _('Development versions'); ?></h2>
       <p>
-        <?php echo _("FreeCAD's development is always active! Do you want to check out the latest development
-        release? For MacOS, Windows, Linux (AppImage) and source code, see the "); ?>
-        <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo _('FreeCAD weekly builds page.'); ?></a>
+        <?php echo _("FreeCAD's development happens daily! Therefore we generate builds that are based on <i>bleeding edge</i> FreeCAD development in order for testers to test bugfixes/regressions along with new features. We recommend more savvy users to run dev builds and help spur FreeCAD's progress. We also recommend backing up files before working in a dev build.  
+        The following are dev buils available for different platforms/distributions:"); >?
+        <br />
+        <?php echo _("Windows: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo _('Conda'); ?></a> "); ?>
+        <br />
+        <?php echo _("macOS: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo _('Conda'); ?></a> "); ?>
+        <?php echo _("macOS: <a href="https://github.com/FreeCAD/homebrew-freecad" class="badge badge-light"><?php echo _('Homebrew'); ?></a> "); ?>
+        <br />
+        <?php echo _("Linux: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo _('Conda'); ?></a> "); ?>
+        <?php echo _("Linux: <a href="https://wiki.freecad.org/Snap" class="badge badge-light"><?php echo _('Snap'); ?></a> "); ?>
+        <?php echo _("Linux: <a href="https://wiki.freecad.org/Flatpak" class="badge badge-light"><?php echo _('Flatpak'); ?></a> "); ?>
       </p>
+
     </div>
 
     <!-- ----------------------------- -->
