@@ -8,8 +8,8 @@ $localeMap = array(
     'cs' => 'cs_CZ',
     'de' => 'de_DE',
     'el' => 'el_GR',
-    'es' => 'es_ES',
     'es' => 'es_AR',
+    'es' => 'es_ES',
     'eu' => 'eu_ES',
     'fi' => 'fi_FI',
     'fil' => 'fil_PH',
@@ -59,8 +59,8 @@ function getFlags($href='/') {
     echo('						<a class="dropdown-item" href="'.$href.'?lang=cs"><img src="lang/cs/flag.jpg"/>'._('Czech').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=de"><img src="lang/de/flag.jpg"/>'._('German').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=el"><img src="lang/el/flag.jpg"/>'._('Greek').'</a>');
-    echo('						<a class="dropdown-item" href="'.$href.'?lang=es_ES"><img src="lang/es_ES/flag.jpg"/>'._('Spanish').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=es_AR"><img src="lang/es_AR/flag.jpg"/>'._('Spanish').'</a>');
+    echo('						<a class="dropdown-item" href="'.$href.'?lang=es_ES"><img src="lang/es_ES/flag.jpg"/>'._('Spanish').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=eu"><img src="lang/eu/flag.jpg"/>'._('Basque').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=fi"><img src="lang/fi/flag.jpg"/>'._('Finnish').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=fil"><img src="lang/fil/flag.jpg"/>'._('Filipino').'</a>');

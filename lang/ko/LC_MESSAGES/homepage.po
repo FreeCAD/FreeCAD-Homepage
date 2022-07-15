@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-17 13:10+0100\n"
-"PO-Revision-Date: 2022-06-07 07:13\n"
+"POT-Creation-Date: 2022-06-23 13:57+0200\n"
+"PO-Revision-Date: 2022-07-15 11:59\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -17,121 +17,161 @@ msgstr ""
 "X-Crowdin-File: homepage.po\n"
 "X-Crowdin-File-ID: 27908\n"
 
-#: downloads.php:12
-msgid "FreeCAD: Select your platform"
-msgstr "FreeCAD: 플랫폼 선택"
+#: donation.php:48
+msgid "Amount"
+msgstr "수량"
 
-#: downloads.php:55 features.php:55 index.php:55
-msgid "Features"
-msgstr "특징"
+#: donation.php:55
+msgid "Donation method"
+msgstr "기부 수단"
 
-#: downloads.php:59 features.php:59 index.php:59
-msgid "Downloads"
-msgstr "다운로드"
+#: donation.php:57
+msgid "Please choose"
+msgstr "선택해주세요"
 
-#: downloads.php:63 features.php:63 index.php:63
-msgid "Documentation"
-msgstr "문서"
+#: donation.php:58
+msgid "Direct SEPA bank transfer using your own bank apps"
+msgstr "Direct SPEA 은행은 소유하고 있는 은행 앱에 바로 송금합니다."
 
-#: downloads.php:67 features.php:67 index.php:67
-msgid "Community"
-msgstr "커뮤니티"
+#: donation.php:58
+msgid "SEPA bank transfer"
+msgstr "SEPA 은행 계좌 이체"
 
-#: downloads.php:86 features.php:85 footer.php:18 index.php:87
-msgid "Contribute"
-msgstr "기여"
+#: donation.php:60
+msgid "SEPA bank transfer or credit card via Stripe"
+msgstr "SEPA 은행 송금 또는 Stripe를 통한 신용카드"
 
-#: downloads.php:89 features.php:88 index.php:90
-msgid "How to help?"
-msgstr "어떻게 도와 드릴까요?"
+#: donation.php:60
+msgid "Stripe transfer"
+msgstr "Stripe 송금"
 
-#: downloads.php:90 features.php:89 index.php:91
-msgid "Pull requests"
-msgstr "요청사항"
+#: donation.php:61
+msgid "Paypal allows to donate using your Paypal account, or a credit card"
+msgstr "PayPal은 PayPal 계좌 및 신용카드를 사용하여 기부하는 것을 허용합니다."
 
-#: downloads.php:91 features.php:90 index.php:92
-msgid "Wiki"
-msgstr "위키"
+#: donation.php:61
+msgid "Paypal"
+msgstr "Paypal"
 
-#: downloads.php:92 features.php:91 index.php:93
-msgid "Issues Tracker"
-msgstr "이슈 트래커"
+#: donation.php:62
+msgid "Github allows you to sponsor your favorite projects using your github account, and a credit card"
+msgstr "Github는 귀하가 당신이 좋아하는 프로젝트를 Github 계좌, 신용카드로 스폰서 하도록 허용합니다."
 
-#: downloads.php:97 features.php:96 footer.php:21 index.php:98
-msgid "Donate"
-msgstr "기부"
+#: donation.php:62
+msgid "Github"
+msgstr "깃허브"
 
-#: downloads.php:101 features.php:100 index.php:102
-msgid "Showcase"
-msgstr "쇼케이스"
+#: donation.php:63
+msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account"
+msgstr "OpenCollective는 오픈 소스 프로젝트를 재정 주체자에게 제공합니다. 이를 크레딧 카드 또는 은행 계좌 이체를 통해 기부가 가능합니다."
 
-#: downloads.php:114
-msgid "Current stable version: 0.19.3"
-msgstr "현재 안정 버전: 0.19.3"
+#: donation.php:63
+msgid "OpenCollective"
+msgstr "OpenColllective"
 
-#: downloads.php:115
+#: donation.php:67
+msgid "SEPA Information"
+msgstr "SEPA 정보"
+
+#: donation.php:68
+msgid "Please set up your SEPA bank transfer to"
+msgstr "SEPA 은행을 은행 에이전시로 이체하도록"
+
+#: donation.php:72
+msgid "Bank agency"
+msgstr "설정해 주십시오."
+
+#: donation.php:73
+msgid "Address"
+msgstr "주소"
+
+#: donation.php:75
+msgid "Please inform your forum name or twitter handle as a note\n"
+"      in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>,\n"
+"      so we can give you proper credits! More information about the donation\n"
+"      options on the\n"
+"      <a href=https://wiki.freecad.org/donate>donations</a> page."
+msgstr ""
+
+#: downloads.php:24
+msgid "Current stable version: 0.20"
+msgstr "현재 안정 버전: 0.20"
+
+#: downloads.php:25
 msgid "Select your desired platform"
 msgstr "원하는 플랫폼 선택"
 
-#: downloads.php:135
+#: downloads.php:45
 msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
 msgstr "최소 Windows 7이 필요합니다. 설치에 대한 자세한 내용은 다음 항목을 참조하십시오 "
 
-#: downloads.php:136 downloads.php:156 downloads.php:176
+#: downloads.php:46 downloads.php:66 downloads.php:86
 msgid "wiki"
 msgstr "위키"
 
-#: downloads.php:155
+#: downloads.php:65
 msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
 msgstr "최소 Mac OS X 10.12 El Capitan이 필요합니다. 설치에 대한 자세한 내용은 다음 항목을 참조하십시오 "
 
-#: downloads.php:175
+#: downloads.php:85
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
 msgstr "Ubuntu PPA와 같은 리눅스 배포판 및 Linux에 설치하는 다른 방법은 다음을 참조하십시오 "
 
-#: downloads.php:188
+#: downloads.php:98
 msgid "Development versions"
 msgstr "개발 버전"
 
-#: downloads.php:190
-msgid "FreeCAD's development is always active! Do you want to check out the latest development \n"
+#: downloads.php:100
+msgid "FreeCAD's development is always active! Do you want to check out the latest development\n"
 "        release? For MacOS, Windows, Linux (AppImage) and source code, see the "
 msgstr "FreeCAD의 개발은 항상 진행되고 있습니다! 최신 개발 버전을 확인하시겠습니까?\n"
 " MacOS, Windows, Linux(AppImage) 버전과 소스 코드는 다음을 확인하세요 "
 
-#: downloads.php:192
+#: downloads.php:102
 msgid "FreeCAD weekly builds page."
 msgstr "FreeCAD 주간 빌드 페이지."
 
-#: downloads.php:201
+#: downloads.php:111
 msgid "Additional modules and macros"
 msgstr "추가 모듈 및 매크로"
 
-#: downloads.php:203
-msgid "The FreeCAD community provides a wealth of additional modules and macros. They can \n"
-"        now easily be installed directly from within FreeCAD using the  "
+#: downloads.php:113
+msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
+"        now easily be installed directly from within FreeCAD using the "
 msgstr "FreeCAD 커뮤니티는 다양한 추가 모듈과 매크로를 제공합니다. 이제 다음을 사용하여 \n"
-"을 FreeCAD 내에서 직접 설치할 수 있습니다.  "
+"을 FreeCAD 내에서 직접 설치할 수 있습니다. "
 
-#: downloads.php:205
+#: downloads.php:115
 msgid "Addon manager."
 msgstr "에드온 매니저"
 
-#: features.php:12
-msgid "FreeCAD: Features"
-msgstr "FreeCAD: 특징"
+#: downloads.php:125
+msgid "Source code"
+msgstr "소스 코드"
 
-#: features.php:110
+#: downloads.php:127
+msgid "The source code of FreeCAD is hosted mainly on "
+msgstr "FreeCAD의 소스 코드는 주로 다음에서 호스팅됩니다 "
+
+#: downloads.php:129
+msgid "and mirrored on "
+msgstr "그리고 미러됩니다 "
+
+#: downloads.php:132
+msgid "and "
+msgstr "및 "
+
+#: features.php:9
 msgid "Key FreeCAD Features"
 msgstr "Key FreeCAD: 특징"
 
-#: features.php:117
+#: features.php:16
 msgid "Made to build for the real world"
 msgstr "현실을 위해 만들다"
 
-#: features.php:119
+#: features.php:18
 msgid "FreeCAD is made primarily to design objects for the real world. Everything you do in FreeCAD uses real-world\n"
-"              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers tools to produce, export and\n"
+"              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
 msgstr "FreeCAD는 주로 실제 환경을 위한 객체를 설계하기 위해 만들어졌습니다. 미크론, 킬로미터, 인치, 피트, 심지어 어떤 조합의 유닛이든 FreeCAD에서 하는 모든 작업은 실제\n"
@@ -139,11 +179,11 @@ msgstr "FreeCAD는 주로 실제 환경을 위한 객체를 설계하기 위해 
 "  편집, 3D 인쇄 또는 CNC 가공을 위해 내보내기,\n"
 "  모델의 2D 도면 및 미리보기 작성, 유한 요소 분석과 같은 분석 수행, 수량 또는 BOM과 같은 모델 데이터 내보내기 도구를 제공합니다."
 
-#: features.php:141
+#: features.php:40
 msgid "A powerful solid-based geometry kernel"
 msgstr "강력한 솔리드 기반 지오메트리 커널"
 
-#: features.php:143
+#: features.php:42
 msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>. It supports solids,\n"
 "              <a href=https://en.wikipedia.org/wiki/Boundary_representation>Boundary Representation</a> (BRep) objects, and\n"
@@ -161,24 +201,27 @@ msgstr "FreeCAD는 \n"
 "<ahref=https://en.wikipedia.org/wiki/Fillet_(mechanics)> 필릿, 형상 정리 및\n"
 "<ahref=https://wiki.freecad.org/OpenCASCADE> 그리고 더 많은 작업을 수행할 수 있습니다.</a>"
 
-#: features.php:159
+#: features.php:58
 msgid "A wi(l)dly parametric environment"
 msgstr "광범위한 파라메트릭 환경"
 
-#: features.php:161
+#: features.php:60
 msgid "All FreeCAD objects are natively parametric, meaning their shape can be based on\n"
 "                <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">properties</a> such as numeric values, texts, on/off buttons,\n"
 "                or even other objects. All shape changes are recalculated on demand, recorded by an undo/redo stack, and allow to maintain\n"
 "                a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing\n"
 "                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are\n"
 "                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>."
-msgstr ""
+msgstr "모든 FreeCAD 개체는 기본적으로 매개 변수입니다. 즉, 숫자 값, 텍스트, 켜기/끄기 버튼,\n"
+" 또는 다른 개체와 같은 속성</a>에 따라 모양이 달라질 수 있습니다. 모든 형상 변경은 필요에 따라 다시 계산되고, 취소/재실행 스택에 의해 기록되며, 정확한 모델링 기록을 유지할 수 있다. 한 객체의 속성은 다른 객체의 속성 값을 구동하여\n"
+"당신의 가장 엉뚱한 꿈에서만 존재할 수 있는 복잡한 사용자 지정 매개 변수 체인을 사용할 수 있도록 허용합니다. 새 매개 변수 객체는\n"
+"<ahref=https://wiki.freecad.org/Scripted_objects>쉽게 코드할 수 있도로 변환됩니다."
 
-#: features.php:184
+#: features.php:83
 msgid "Python everywhere"
 msgstr "Python을 어디서나"
 
-#: features.php:186
+#: features.php:85
 msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance,\n"
 "                  large parts of the external layers,  workbenches and and almost all the communication between\n"
 "                  the core and the user interface is coded in <a href=https://python.org>Python</a>,\n"
@@ -186,13 +229,16 @@ msgid "While the FreeCAD core functionality is coded in C++ for robustness and p
 "                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line\n"
 "                  commands in the integrated Python console to recording macros, coding your own tools up to\n"
 "                  full custom workbenches."
-msgstr ""
+msgstr "FreeCAD 핵심 기능은 안정성과 성능을 위해 C++로 코딩되어 있지만, 외부 계층, 워크벤치 및\n"
+"코어와 사용자 인터페이스 사이의 거의 모든 통신의 대부분은 <ahref=https://python.org> Python<a>\n"
+"유연하고 사용자 친화적이며 쉬운 코드로 코딩되어 있습니다. 프로그래밍 언어를 배우기 위해. Python 코드에서 통합 Python 콘솔의 간단한 한 줄 명령에서 매크로 기록까지 FreeCAD </a>에서 <ahref=https://wiki.freecad.org/Power_users_hub>만 수행할 수 있으며, 최대 \n"
+"개의 완전한 사용자 지정 작업 벤치까지 자체 도구를 코딩할 수 있습니다."
 
-#: features.php:202
+#: features.php:101
 msgid "File formats frenzy"
 msgstr "다양한 파일형식 지원"
 
-#: features.php:204
+#: features.php:103
 msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
 "              analyses results or quantities data to dozens of different <a href=\"https://wiki.freecad.org/Category:File_Formats\">file formats</a> such as\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
@@ -203,7 +249,6 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_(file_format)\">STL</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> or\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://people.sc.fsu.edu/~jburkardt/data/off/off.html\">OFF</a>,\n"
@@ -215,11 +260,11 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              file formats."
 msgstr ""
 
-#: features.php:241
+#: features.php:139
 msgid "A parametric constraints-based 2D sketcher"
 msgstr "파라메트릭 구속 기반의 2D 스케쳐"
 
-#: features.php:243
+#: features.php:141
 msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
 "                  with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. Sketches are the main\n"
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
@@ -227,11 +272,11 @@ msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sket
 "                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
 msgstr ""
 
-#: features.php:257
+#: features.php:155
 msgid "A large (and growing) multi-specialty ecosystem"
 msgstr "다양한(그리고 성장하는) 여러 전문분야 지원"
 
-#: features.php:259
+#: features.php:157
 msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbench_Concept\">workbenches</a> for a variety of purposes\n"
 "              such as\n"
 "              <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG modeling</a>,\n"
@@ -255,15 +300,15 @@ msgstr "FreeCAD는 <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG 모�
 "              <a href=\"https://wiki.freecad.org/External_workbenches\">추가 워크벤치</a> 및 <a href=\"https://wiki.freecad.org/Macros_recipes\">매크로</a>를 설치하고 관리할 수 있는 \n"
 "              쉬운 도구를 제공합니다."
 
-#: features.php:276 index.php:207
+#: features.php:174 index.php:113
 msgid "Learn more"
 msgstr "더 알아보기"
 
-#: features.php:294
+#: features.php:192
 msgid "Developed by a community"
 msgstr "커뮤니티에 의한 개발"
 
-#: features.php:296
+#: features.php:194
 msgid "FreeCAD is made for everybody, by everybody. It is developed and maintained\n"
 "              by a community of developers, users, moderators, translators, all united by their wish make\n"
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
@@ -271,119 +316,175 @@ msgid "FreeCAD is made for everybody, by everybody. It is developed and maintain
 "              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
 msgstr ""
 
-#: features.php:307
+#: features.php:207
 msgid "Release notes"
 msgstr "릴리즈 정보"
 
-#: features.php:316
+#: features.php:217
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
 msgstr "여기에서 현재 또는 이전 버전의 FreeCAD를 찾으세요.\n"
 "                  릴리즈 정보에서 각 릴리즈 버전의 새로운 기능에 대해 설명합니다:"
 
-#: features.php:323
-msgid "Release 0.11 - March 2011"
-msgstr "릴리즈 0.11 - 2011년 3월"
+#: features.php:224
+msgid "Release 0.20 - June 2022"
+msgstr "릴리즈 0.20 - 2022년 6월"
 
-#: features.php:324
-msgid "Release 0.12 - December 2011"
-msgstr "릴리즈 0.12 - 2011년 12월"
-
-#: features.php:325
-msgid "Release 0.13 - January 2013"
-msgstr "릴리즈 0.13 - 2013년 3월"
-
-#: features.php:326
-msgid "Release 0.14 - March 2014"
-msgstr "릴리즈 0.14 - 2014년 3월"
-
-#: features.php:327
-msgid "Release 0.15 - March 2015"
-msgstr "릴리즈 0.15 - 2015년 3월"
-
-#: features.php:328
-msgid "Release 0.16 - April 2016"
-msgstr "릴리즈 0.16 - 2016년 3월"
-
-#: features.php:329
-msgid "Release 0.17 - April 2018"
-msgstr "릴리즈 0.17 - 2018년 3월"
-
-#: features.php:330
-msgid "Release 0.18 - March 2019"
-msgstr "릴리즈 0.18 - 2019년 3월"
-
-#: features.php:331
+#: features.php:225
 msgid "Release 0.19 - March 2021"
 msgstr "릴리즈 0.19 - 2021년 3월"
 
+#: features.php:226
+msgid "Release 0.18 - March 2019"
+msgstr "릴리즈 0.18 - 2019년 3월"
+
+#: features.php:227
+msgid "Release 0.17 - April 2018"
+msgstr "릴리즈 0.17 - 2018년 3월"
+
+#: features.php:228
+msgid "Release 0.16 - April 2016"
+msgstr "릴리즈 0.16 - 2016년 3월"
+
+#: features.php:229
+msgid "Release 0.15 - March 2015"
+msgstr "릴리즈 0.15 - 2015년 3월"
+
+#: features.php:230
+msgid "Release 0.14 - March 2014"
+msgstr "릴리즈 0.14 - 2014년 3월"
+
+#: features.php:231
+msgid "Release 0.13 - January 2013"
+msgstr "릴리즈 0.13 - 2013년 3월"
+
+#: features.php:232
+msgid "Release 0.12 - December 2011"
+msgstr "릴리즈 0.12 - 2011년 12월"
+
+#: features.php:233
+msgid "Release 0.11 - March 2011"
+msgstr "릴리즈 0.11 - 2011년 3월"
+
 #: footer.php:9
-msgid "Learn"
-msgstr "학습하기"
+msgid "Get in touch!"
+msgstr "연락하기!"
 
-#: footer.php:11
-msgid "Tutorials"
-msgstr "자습서"
-
-#: footer.php:12
-msgid "Videos"
-msgstr "동영상"
-
-#: footer.php:20
-msgid "How can I help?"
-msgstr "어떻게 도와 드릴까요?"
-
-#: footer.php:22
-msgid "Translate"
-msgstr "번역하기"
-
-#: footer.php:27
-msgid "Code"
-msgstr "코드"
-
-#: footer.php:29
-msgid "Building from source"
-msgstr "소스코드로부터 빌드하기"
-
-#: footer.php:30
-msgid "C++ & Python API"
-msgstr "C++ 및 Python API"
-
-#: footer.php:31
-msgid "License information"
-msgstr "사용권 정보"
-
-#: footer.php:50
+#: footer.php:23
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
 "      r-frank, epileftric, regis, rider_mortagnais, bejant."
 msgstr "© The FreeCAD 팀. 홈페이지 이미지 기여자 (위에서 아래로): ppemawm,\n"
 "r-frank, epileftric, regis, rider_mortagnais, bejant."
 
-#: index.php:20
+#: footer.php:27
+msgid "This project is supported by:"
+msgstr "이 프로젝트는 이들에 의해 지원되었습니다:"
+
+#: header.php:26
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: 당신을 위한 3D 파라메트릭 모델링 프로그램"
 
-#: index.php:115
-msgid "FreeCAD"
-msgstr "FreeCAD"
+#: header.php:66
+msgid "Features"
+msgstr "특징"
 
-#: index.php:116
+#: header.php:70
+msgid "Download"
+msgstr "다운로드"
+
+#: header.php:74
+msgid "Documentation"
+msgstr "문서"
+
+#: header.php:77
+msgid "https://wiki.freecad.org"
+msgstr "https://wiki.freecad.org"
+
+#: header.php:77
+msgid "Documentation index"
+msgstr "도큐먼트 인덱스"
+
+#: header.php:78
+msgid "https://wiki.freecad.org/Getting_started"
+msgstr "https://wiki.freecad.org/Getting_started"
+
+#: header.php:78
+msgid "Getting started"
+msgstr "시작하기"
+
+#: header.php:79
+msgid "https://wiki.freecad.org/User_hub"
+msgstr "https://wiki.freecad.org/User_hub"
+
+#: header.php:79
+msgid "Users documentation"
+msgstr ""
+
+#: header.php:80
+msgid "https://wiki.freecad.org/Manual"
+msgstr "https://wiki.freecad.org/Manual"
+
+#: header.php:80
+msgid "The FreeCAD manual"
+msgstr "FreeCAD 매뉴얼"
+
+#: header.php:81
+msgid "https://wiki.freecad.org/Power_users_hub"
+msgstr "https://wiki.freecad.org/Power_users_hub"
+
+#: header.php:81
+msgid "Python coding documentation"
+msgstr "파이썬(Python) 코딩 도큐먼트"
+
+#: header.php:82
+msgid "https://wiki.freecad.org/Tutorials"
+msgstr "https://wiki.freecad.org/Tutorials"
+
+#: header.php:82 thankyou.php:127
+msgid "Tutorials"
+msgstr "자습서"
+
+#: header.php:88
+msgid "Contribute"
+msgstr "기여"
+
+#: header.php:91
+msgid "How to help"
+msgstr "어떻게 도와 드릴까요"
+
+#: header.php:92
+msgid "Donate / Sponsor"
+msgstr "기부 / 스폰서"
+
+#: header.php:93
+msgid "Report a bug"
+msgstr ""
+
+#: header.php:94
+msgid "Make a pull request"
+msgstr "풀 생성 요청"
+
+#: header.php:99
+msgid "Community"
+msgstr "커뮤니티"
+
+#: index.php:20
 msgid "Your own 3D parametric modeler"
 msgstr "당신을 위한 3D 파라메트릭 모델링 프로그램"
 
-#: index.php:118
+#: index.php:22
 msgid "Download now"
 msgstr "지금 다운로드"
 
-#: index.php:119
+#: index.php:23
 msgid "See what's new"
 msgstr "새로운 내용 보기"
 
-#: index.php:132
+#: index.php:38
 msgid "Freedom to build what you want"
 msgstr "원하는 것을 자유롭게 빌드"
 
-#: index.php:134
+#: index.php:40
 msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
@@ -392,11 +493,11 @@ msgstr "FreeCAD는 기본적으로 크기에 상관없이 현실에 존재하는
 "설계하기 위해 만들어진 오픈 소스 파라메트릭 3D 모델러입니다. 파라메트릭 모델링은 \n"
 "모델 이력으로 돌아가 설계 파라메터를 변경함으로써 간단하게 설계를 수정할 수 있습니다."
 
-#: index.php:148
+#: index.php:54
 msgid "Create 3D from 2D & back"
 msgstr "2D에서 3D 생성 (그 반대의 경우도 가능)"
 
-#: index.php:150
+#: index.php:56
 msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
@@ -405,11 +506,11 @@ msgstr "FreeCAD를 사용하면 기하학적인 2D 도형을 스케치하고\n"
 " 도형을 기준으로 사용하여 다른 객체를 작성할 수 있습니다. 이 제품에는 많은 구성 요소\n"
 "이 포함되어 있어 치수를 조정하거나 3D 모델에서 설계 세부 정보를 추출하여 고품질 제작 준비 도면을 만들 수 있습니다."
 
-#: index.php:164
+#: index.php:70
 msgid "Accessible, flexible & integrated"
 msgstr "접근성, 유연성 및 통합성"
 
-#: index.php:166
+#: index.php:72
 msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly\n"
 "          customizable and extensible software. It reads and writes to many\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
@@ -419,11 +520,11 @@ msgstr "FreeCAD는 멀티플랫폼(Windows, Mac 및 Linux)으로, 사용자 지�
 " 등 많은\n"
 " 열린 파일 형식을 읽고 쓸 수 있기 때문에 워크플로우에 원활하게 통합할 수 있습니다."
 
-#: index.php:181
+#: index.php:87
 msgid "Designed for your needs"
 msgstr "당신이 원하는 설계"
 
-#: index.php:183
+#: index.php:89
 msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
@@ -433,11 +534,11 @@ msgstr "FreeCAD는 제품\n"
 "취미주의자든, 프로그래머든, 경험이 풍부한 CAD 사용자든, 학생이든, 또는\n"
 " 선생님이든 간에, 여러분은 FreeCAD를 통해 편안함을 느낄 것입니다."
 
-#: index.php:197
+#: index.php:103
 msgid "And many more great features"
 msgstr "그리고 더 많은 훌륭한 기능"
 
-#: index.php:199
+#: index.php:105
 msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          modern Finite Element Analysis (FEA) tools, experimental CFD, dedicated BIM,\n"
 "          Geodata or CAM/CNC workbenches, a robot simulation module that\n"
@@ -450,11 +551,11 @@ msgstr "FreeCAD는 사용자의 요구에 맞는 모든 도구를 제공합니�
 "은 정말로 범용 엔지니어링\n"
 " 툴킷입니다."
 
-#: index.php:218
+#: index.php:124
 msgid "Want to contribute to FreeCAD?"
 msgstr "FreeCAD에 기여하고 싶습니까?"
 
-#: index.php:220
+#: index.php:126
 msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
@@ -462,9 +563,317 @@ msgid "FreeCAD is a truly open source project and if you would like to help\n"
 msgstr "FreeCAD는 진정한 오픈 소스 프로젝트이며, 버그를 수정하거나, 새로운 멋진 기능을 구현하거나 설명서를 작성하기를 원하신다면, \n"
 " 커뮤니티 전체에 도움이 되는 소프트웨어를 만들어 주시기 바랍니다."
 
-#: index.php:226
+#: index.php:132
 msgid "Get involved"
 msgstr "참여하기"
+
+#: sponsor.php:9
+msgid "Donating and sponsoring"
+msgstr "기부와 스폰서 하기"
+
+#: sponsor.php:16
+msgid "Donating to FreeCAD"
+msgstr "FreeCAD에 기부"
+
+#: sponsor.php:21
+msgid "Thanks for your interest in helping the FreeCAD\n"
+"              project with donations."
+msgstr ""
+
+#: sponsor.php:25
+msgid "FreeCAD is a fast-growing project, developed by a\n"
+"              community of developers and users working mostly on a voluntary\n"
+"              basis, motivated mainly by their will to build a great, free 3D\n"
+"              parametric modeller. The development of FreeCAD happens mostly\n"
+"              because of the energy of all these people, without the need for\n"
+"              money."
+msgstr ""
+
+#: sponsor.php:33
+msgid "However, money can help the project to achieve many\n"
+"              other goals. It can help some of its developers to work more\n"
+"              frequently or more regularly on the project, by paying for their\n"
+"              time so they can dedicate more of it to FreeCAD, or it can help\n"
+"              the community to send people to CAD-related events, so we can\n"
+"              showcase FreeCAD and interest professional users. It can also help\n"
+"              to organize events ourselves so community members can meet, pay for\n"
+"              server space and web services, and many other things."
+msgstr ""
+
+#: sponsor.php:43
+msgid "There are several ways you can donate money and help\n"
+"              the FreeCAD project, being an individual, a company or an\n"
+"              institution, depending on your preferences. The money you donate\n"
+"              to the FreeCAD project will be received and handled by the\n"
+"              <a href=https://github.com/FreeCAD/FPA>FreeCAD Project Association</a>\n"
+"              (FPA), a non-profit association created by FreeCAD administrators\n"
+"              and core developers. The FPA will redistribute the money it gathers\n"
+"              to FreeCAD developers and sponsor itself several projects, efforts\n"
+"              and ideas to fuel the development of FreeCAD."
+msgstr ""
+
+#: sponsor.php:54
+msgid "Remember, however: FreeCAD is free, and will always\n"
+"              be free. You are not required, and never will be, to donate anything\n"
+"              in order to use FreeCAD, neither to modify or distribute it. Your\n"
+"              donation will be welcome, and can help a lot, but you will never\n"
+"              be required to pay anything to access any of the FreeCAD features."
+msgstr "기억하세요, 하지만: FreeCAD는 무료이고, 앞으로도 무료\n"
+" 일 것입니다. 사용자는 꼭 기부할 필요가 없고,\n"
+" FreeCAD를 사용하려면 수정하거나 배포하지 마십시오. 기부는 언제나 환영할 것이며, 그러나 FreeCAD 기능에 액세스하기 위해 비용을 지불할 필요는 없습니다."
+
+#: sponsor.php:69
+msgid "One-time donation"
+msgstr "한 번만 기부하기"
+
+#: sponsor.php:74
+msgid "If you are not sure or not able to commit to a regular\n"
+"              donation, but still want to help the project, you can do a one-time\n"
+"              donation, of any amount."
+msgstr ""
+
+#: sponsor.php:79
+msgid "Choose freely the amount you wish to donate one\n"
+"              time only:"
+msgstr ""
+
+#: sponsor.php:94
+msgid "Sponsoring"
+msgstr "스폰서"
+
+#: sponsor.php:99
+msgid "We call sponsoring the act of donating money\n"
+"              recurrently to the FreeCAD project. You can do that as an\n"
+"              individual or as a company or institution, through different\n"
+"              channels or platforms, depending on your preferences."
+msgstr ""
+
+#: sponsor.php:105
+msgid "Sponsoring FreeCAD allows its developers to count on\n"
+"              a steady flow of income, so it allows the FPA to plan things ahead,\n"
+"              and the FreeCAD developers to invest themselves more seriously\n"
+"              into FreeCAD."
+msgstr "FreeCAD를 후원함으로써\n"
+" 개발자는 꾸준한 수익 흐름을 기대할 수 있으므로 FPA는 미리 계획을 세우고\n"
+" FreeCAD 개발자는 보다 진지하게\n"
+" FreeCAD에 투자할 수 있습니다."
+
+#: sponsor.php:111
+msgid "To encourage persons and companies to sponsor the\n"
+"              FreeCAD project, we have created different sponsoring tiers. By\n"
+"              donating regularly to the project, you will have the possibility\n"
+"              to have your name, company name and/or logo to be featured on this\n"
+"              website, depending on the tier you fit into:"
+msgstr "직원과 기업이 FreeCAD 프로젝트를 후원하도록 장려하기 위해 다양한 후원 창구를 만들었습니다. \n"
+"프로젝트에 정기적으로 기부하면\n"
+"대상 계층에 따라 이름, 회사 이름 및/또는 로고를 이 웹 사이트에 표시할 수 있습니다.\n"
+
+#: sponsor.php:118
+msgid "Normal sponsor"
+msgstr "일반 스폰서"
+
+#: sponsor.php:119
+msgid "from 1 USD / 1 EUR per month. You will not have your\n"
+"                name displayed here, but you will have helped the project a lot\n"
+"                anyway. Together, normal sponsors maintain the project on its\n"
+"                feet as much as the bigger sponsors."
+msgstr "한달 1 USD / 1 EUR 시작. 여기에 당신의\n"
+" 이름이 표시되지 않았어도 프로젝트에 많은 도움이 되었을 것입니다.\n"
+" 함께, 후원자들은 더 큰 후원자들만큼 이 프로젝트를 유지하고 있답니다.\n"
+
+#: sponsor.php:123
+msgid "Bronze sponsor"
+msgstr "브론즈 스폰서"
+
+#: sponsor.php:124
+msgid "from 25 USD / 25 EUR per month. Allows you to have\n"
+"                your name or company name displayed on this page."
+msgstr "한달 25 USD / 25 EUR 부터 시작. 이 페이지에\n"
+" 사용자 이름 또는 회사 이름을 표시할 수 있도록 허용합니다."
+
+#: sponsor.php:126
+msgid "Silver sponsor"
+msgstr "실버 스폰서"
+
+#: sponsor.php:127
+msgid "from 100 USD / 100 EUR per month. Allows you to have\n"
+"                your name or company name displayed on this page, with a link to\n"
+"                your website, and a one-line description text."
+msgstr "한달 100 USD / 100 EUR 부터 시작. 이 페이지에\n"
+" 이름 또는 회사 이름을 표시할 수 있으며, 웹 사이트에 대한 링크와\n"
+" 한 줄의 설명 텍스트가 있도록 허용합니다."
+
+#: sponsor.php:130
+msgid "Gold sponsor"
+msgstr "골드 스폰서"
+
+#: sponsor.php:131
+msgid "from 200 USD / 200 EUR per month. Allows you to\n"
+"                have your name or company name and logo displayed on this page,\n"
+"                with a link to your website and a custom description text.\n"
+"                Companies that have helped FreeCAD early on will also appear\n"
+"                under Gold sponsors."
+msgstr "한달 200 USD / 200 EUR 부터 시작. 이 페이지에 이름 또는 회사 이름 및 로고를 표시할 수 있습니다.\n\n"
+"웹 사이트 링크와 사용자 정의 설명 텍스트가 표시됩니다.\n"
+"일찍 FreeCAD를 도왔던 기업들도 골드 스폰서 아래 표시될 것입니다."
+
+#: sponsor.php:138
+msgid "Choose freely the amount you wish to donate each\n"
+"              month:"
+msgstr "매월 기부하고자 하는 금액을 자유롭게 선택하십시오\n"
+" :"
+
+#: sponsor.php:149
+msgid "Gold sponsors"
+msgstr "골드 스폰서"
+
+#: sponsor.php:190
+msgid "Silver sponsors"
+msgstr "실버 스폰서"
+
+#: sponsor.php:208
+msgid "Bronze sponsors"
+msgstr "브론즈 스폰서"
+
+#: thankyou.php:29
+msgid "Thank you!"
+msgstr "감사합니다!"
+
+#: thankyou.php:32
+msgid "Your download should start automatically.\n"
+"            If not, click"
+msgstr "다운로드가 자동으로 시작됩니다.\n"
+" 만일 제대로 되지 않는다면, 클릭해주십시오."
+
+#: thankyou.php:33
+msgid "here"
+msgstr "여기"
+
+#: thankyou.php:34
+msgid "to download the file."
+msgstr "으로 파일 다운로드"
+
+#: thankyou.php:43
+msgid "Support FreeCAD!"
+msgstr "FreeCAD 돕기!"
+
+#: thankyou.php:49
+msgid "If you are happy with FreeCAD, and would like to help\n"
+"            it thrive, why not donate a bit of money to the project? Being\n"
+"            open-source, paying to use FreeCAD will never be required, and\n"
+"            FreeCAD does not need money to survive, but donations help us to go\n"
+"            faster, further."
+msgstr ""
+
+#: thankyou.php:57
+msgid "If you are in, choose the amount and method of your\n"
+"            choice below. If you are interested in supporting the project better\n"
+"            with a recurring donation, check the <a href=sponsor.php>sponsoring\n"
+"            page</a> to  more options."
+msgstr ""
+
+#: thankyou.php:66
+msgid "There are also many other ways to help FreeCAD. For\n"
+"            example, you can write code, help writing documentation, translate\n"
+"            the FreeCAD interface and documentation, help new users, etc. See\n"
+"            all you need to know on the\n"
+"            <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a>\n"
+"            page."
+msgstr "또한 FreeCAD를 지원하는 많은 다른 방법이 있습니다. 예를 들어, 코드 작성, 문서 작성 도움말, FreeCAD 인터페이스 및 문서 한국어로 번역, 새 사용자 도움말 등을 사용할 수 있습니다. 필요한 모든 정보는 \n"
+" <a href= https://wiki.freecad.org/Help_FreeCAD>에서 확인하십시오.FreeCAD 도움말 페이지</a>\n"
+
+#: thankyou.php:81
+msgid "Need help?"
+msgstr "도움이 필요한가요?"
+
+#: thankyou.php:87
+msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
+"            have you covered! FreeCAD features an\n"
+"            <a href=https://wiki.freecad.org>extensive documentation</a>, which\n"
+"            is available online but also directly within the FreeCAD application.\n"
+"            It covers everything from installing and launching FreeCAD, using it\n"
+"            and its different workbenches, up to creating Python scripts to\n"
+"            automate it and developing your own tools and extensions."
+msgstr "FreeCAD 또는 3D CAD 모델링을 처음 사용하시는 고객에게는 해당 서비스가 제공됩니다. FreeCAD는 \n"
+"<ahref=https://wiki.freecad.org>의 문서</a>를 특징으로 하며, 이는 온라인으로 제공되지만 FreeCAD 애플리케이션 내에서 직접 제공되기도 합니다.\n\n"
+"FreeCAD 설치 및 시작부터\n"
+"작업 벤치 사용, 자동화를 위한 Python 스크립트 생성 및 자체 툴 및 확장 개발에 이르기까지 모든 것을 다룹니다."
+
+#: thankyou.php:97
+msgid "Below are some pages of this documentation that could\n"
+"            be useful to you:"
+msgstr "이 설명서의 일부 페이지는 다음과 같습니다.\n"
+" 사용자에게 유용할 수 있습니다."
+
+#: thankyou.php:102
+msgid "Installing FreeCAD on Windows"
+msgstr "Windows에서 FreeCAD 설치"
+
+#: thankyou.php:103
+msgid "Installing FreeCAD on Linux"
+msgstr "Linux에서 FreeCAD 설치"
+
+#: thankyou.php:104
+msgid "Installing FreeCAD on MacOS"
+msgstr "macOS에서 FreeCAD 설치"
+
+#: thankyou.php:105
+msgid "Installing additional components"
+msgstr "추가 구성 요소 설치"
+
+#: thankyou.php:106
+msgid "Getting started with FreeCAD"
+msgstr "FreeCAD로 시작하기"
+
+#: thankyou.php:107
+msgid "Migrating from other software?"
+msgstr "다른 소프트웨어에서 이사하셨어요?"
+
+#: thankyou.php:108
+msgid "Workbenches documentation"
+msgstr "워크 벤치 문서"
+
+#: thankyou.php:109
+msgid "Frequently asked questions"
+msgstr "자주 묻는 질문"
+
+#: thankyou.php:113
+msgid "FreeCAD also offers a complete user manual, that can\n"
+"            be downloaded as a pdf or epub file or printed:"
+msgstr "또한 FreeCAD는 Pdf 또는 epub 파일로 다운로드하거나 인쇄할 수 있는\n"
+" 전체 사용자 설명서를 제공합니다:"
+
+#: thankyou.php:118
+msgid "The FreeCAD user manual"
+msgstr "FreeCAd 사용자 매뉴얼"
+
+#: thankyou.php:122
+msgid "and many tutorials, in written or video form, created by\n"
+"            the FreeCAD community:"
+msgstr "그리고 많은 튜토리얼, 영상 폼 작성, FreeCAD 커뮤니티\n"
+"에 의해 제작됨:"
+
+#: thankyou.php:131
+msgid "On behalf of all of the worldwide community of users,\n"
+"            developers, translators, editors, writers, testers who work hard to\n"
+"            make FreeCAD the best CAD modeller out there, we thank you for\n"
+"            downloading our baby! We hope you will like it as much as we do."
+msgstr "FreeCAD를 최고의 CAD 모델로 만들기 위해 열심히 일하는\n"
+" 개발자, 번역가, 편집자, 작가, 테스터 등 전 세계 사용자 커뮤니티를 대표하여\n"
+" 저희 제품을 다운로드해 주셔서\n"
+" 감사합니다! 저희 제품을 많이 좋아해주셨으면 좋겠습니다."
+
+#: thankyou.php:138
+msgid "If you encounter issues with FreeCAD, or would like to\n"
+"            meet and discuss topics with other users, pay a visit to the the\n"
+"            <a href=https://forum.freecad.org>FreeCAD forum</a>. The forum is the\n"
+"            main meetng point for FreeCAD users of all parts of the world and all\n"
+"            skill levels. There you can seek advice of more advanced users, find\n"
+"            ways to solve a particular problem, or discuss ideas about and around\n"
+"            the FreeCAD world."
+msgstr "FreeCAD와 관련하여 문제가 발생했거나\n"
+"다른 사용자와 만나 주제에 대해 논의하고 싶은 경우\n"
+" <a href=https://forum.freecad.org>FreeCAD 포럼</a>를 방문하십시오. 이 포럼은 전 세계 모든 지역과 모든 기술 수준의 FreeCAD 사용자를 위한 주요 미팅 포인트입니다. 전문적인 사용자에게 조언을 구하거나, 특정 문제를 해결할 방법을 찾거나, FreeCAD와 관련된 아이디어를 논의할 수 있답니다."
 
 #: translation.php:54
 msgid "English"
