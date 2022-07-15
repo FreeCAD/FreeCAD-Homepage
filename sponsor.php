@@ -192,11 +192,20 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
                 <div class="silver sponsor">
+                    <img class="logo" src="images/sponsors/epiray.svg">
+                    <a class="title" href="http://www.epiray.de/">Epiray</a>
+                    manufactures equipment for 
+                    <a href="https://en.wikipedia.org/wiki/Thermal_laser_epitaxy">thermal laser epitaxy</a>
+                </div>
+
+                <div class="silver sponsor">
+                    <img class="logo" src="images/sponsors/packt.png">
                     <a class="title" href="https://www.packtpub.com/">Packt Publishing</a>
                     is a publisher of books about open-source software
                 </div>
 
                 <div class="silver sponsor">
+                    <img class="logo" src="images/sponsors/pcbway.png">
                     <a class="title" href="https://pcbway.com">PCBWay</a>
                     is a manufacturer of PCB boards, 3D-printed and CNC-produced parts
                 </div>
@@ -207,8 +216,13 @@
           <div class="col-lg-4">
             <h3><?php echo _('Bronze sponsors'); ?></h3>
           </div>
+          
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
+          
+              <div class="bronze sponsor">Lukas Alberts</div>
+          
           </div>
+          
         </section>
 
     </div>

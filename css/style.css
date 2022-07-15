@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sponsor {
-  width: 340px;
+  width: 47%;
   max-width: 100%;
   float: left;
   background: rgba(255,255,255,0.3);
@@ -211,6 +211,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .silver .title {
   font-size: 1.1em;
+}
+
+.silver img {
+  display: none;
 }
 
 .sepainfo {
