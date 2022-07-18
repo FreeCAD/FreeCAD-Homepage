@@ -38,10 +38,22 @@
         } else if (method == "paypal") {
             window.location = "https://www.paypal.com/donate/?hosted_button_id=M3Z8BGW6DB69Q";
         } else if (method == "stripe") {
-            window.location = "https://buy.stripe.com/fZe0263vA809dpu5kk";
+            // window.location = "https://buy.stripe.com/fZe0263vA809dpu5kk";
+            window.location = "https://donate.stripe.com/14k3ei9TYgwFclq145";
+            //key = 'pk_live_51LBbBhG41gbfoxVMdipYZmLiMEFcvny3hRbWLp6uJ3JrTNEelJgZiPcSeQZLYaubp4FsmNj5ErUzaNdgzAnFLoJZ00sJo45QgI'
+            //stripe.redirectToCheckout({
+            //    items: [{
+            //        sku: 'price_1LMtrnG41gbfoxVMqiuZsJg4',
+            //        quantity: amount,
+            //    }],
+            //    successUrl: 'https://example.com/success',
+            //    cancelUrl: 'https://example.com/cancel',
+            //});
         }
     }
 </script>
+
+<!--<script src="https://js.stripe.com/v3/"></script>-->
 
 <form id="<?php echo $formid; ?>" class="donation">
     <fieldset>
@@ -56,8 +68,7 @@
       <select id="method" name="method" onClick="process(this)">
              <option value="null" selected><?php echo _('Please choose'); ?>...</option>
              <option value="sepa" title="<?php echo _('Direct SEPA bank transfer using your own bank apps'); ?>"><?php echo _('SEPA bank transfer'); ?></option>
-             <!-- apparently stripe doens't let you specify a custom amount... -->
-             <!-- <option value="stripe" title="<?php echo _('SEPA bank transfer or credit card via Stripe'); ?>"><?php echo _('Stripe transfer'); ?></option> -->
+             <option value="stripe" title="<?php echo _('Credit card payment via Stripe'); ?>"><?php echo _('Credit card (Stripe)'); ?></option>
              <option value="paypal" title="<?php echo _('Paypal allows to donate using your Paypal account, or a credit card') ?>"><?php echo _('Paypal'); ?></option>
              <option value="github" title="<?php echo _('Github allows you to sponsor your favorite projects using your github account, and a credit card') ?>"><?php echo _('Github'); ?></option>
              <option value="opencollective" title="<?php echo _('OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account') ?>"><?php echo _('OpenCollective'); ?></option>
