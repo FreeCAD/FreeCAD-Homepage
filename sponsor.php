@@ -198,6 +198,9 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
                 <div class="silver sponsor">
+                    Anonymous user
+                </div>
+                <div class="silver sponsor">
                     <img class="logo" src="images/sponsors/epiray.svg">
                     <a class="title" href="http://www.epiray.de/">Epiray</a>
                     manufactures equipment for 
@@ -214,7 +217,7 @@
                     <img class="logo" src="images/sponsors/pcbway.png">
                     <a class="title" href="https://pcbway.com">PCBWay</a>
                     is a manufacturer of PCB boards, 3D-printed and CNC-produced parts
-                </div>
+                </div>                
           </div>
         </section>
 
