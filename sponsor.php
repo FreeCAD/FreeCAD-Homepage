@@ -135,6 +135,12 @@
                 under Gold sponsors.'); ?></li>
               </ul>
               <p>
+              <?php echo _("Instead of donating each month, you might find it 
+              more comfortable to make a one-time donation that, when divided by 
+              twelve, would give you right to enter a sponsoring tier. Don't 
+              hesitate to do so!"); ?>
+              </p>
+              <p>
               <?php echo _('Choose freely the amount you wish to donate each
               month:'); ?>
               </p>

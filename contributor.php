@@ -1,6 +1,6 @@
 <?php
 
-    $currentpage = "thankyou-donation.php";
+    $currentpage = "contributor.php";
     include("header.php");
 ?>
 
