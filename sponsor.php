@@ -228,6 +228,7 @@
           
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
           
+              <div class="bronze sponsor">Ian Rees</div>
               <div class="bronze sponsor">Ton Roosendaal</div>
               <div class="bronze sponsor">Lukas Alberts</div>
           
