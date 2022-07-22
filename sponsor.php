@@ -157,6 +157,13 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
                 <div class="gold sponsor">
+                    <img class="logo" src="images/sponsors/3bm.png">
+                    <a class="title" href="https://3bm.co.nl/">3BM</a>
+                    Ingenieursbureau is a cooperative with practical engineers 
+                    in construction
+                </div>
+
+                <div class="gold sponsor">
                     <img class="logo" src="images/sponsors/aleph.svg">
                     <a class="title" href="https://www.lulzbot.com/">Aleph Objects</a>
                     was a small manufacturing company based in Loveland, Colorado.
