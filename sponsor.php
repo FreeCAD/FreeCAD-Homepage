@@ -135,9 +135,9 @@
                 under Gold sponsors.'); ?></li>
               </ul>
               <p>
-              <?php echo _("Instead of donating each month, you might find it 
-              more comfortable to make a one-time donation that, when divided by 
-              twelve, would give you right to enter a sponsoring tier. Don't 
+              <?php echo _("Instead of donating each month, you might find it
+              more comfortable to make a one-time donation that, when divided by
+              twelve, would give you right to enter a sponsoring tier. Don't
               hesitate to do so!"); ?>
               </p>
               <p>
@@ -157,10 +157,16 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
                 <div class="gold sponsor">
+                    <img class="logo" src="images/sponsors/epiray.svg">
+                    <a class="title" href="http://www.epiray.de/">Epiray</a>
+                    manufactures equipment for
+                    <a href="https://en.wikipedia.org/wiki/Thermal_laser_epitaxy">thermal laser epitaxy</a>
+                </div>
+
+                <div class="gold sponsor">
                     <img class="logo" src="images/sponsors/3bm.png">
-                    <a class="title" href="https://3bm.co.nl/">3BM</a>
-                    Ingenieursbureau is a cooperative with practical engineers 
-                    in construction
+                    <a class="title" href="https://3bm.co.nl/">3BM Ingenieursbureau</a>
+                    is a cooperative of practical engineers acting in construction
                 </div>
 
                 <div class="gold sponsor">
@@ -207,12 +213,6 @@
                 <div class="silver sponsor">
                     Anonymous user
                 </div>
-                <div class="silver sponsor">
-                    <img class="logo" src="images/sponsors/epiray.svg">
-                    <a class="title" href="http://www.epiray.de/">Epiray</a>
-                    manufactures equipment for 
-                    <a href="https://en.wikipedia.org/wiki/Thermal_laser_epitaxy">thermal laser epitaxy</a>
-                </div>
 
                 <div class="silver sponsor">
                     <img class="logo" src="images/sponsors/packt.png">
@@ -224,7 +224,7 @@
                     <img class="logo" src="images/sponsors/pcbway.png">
                     <a class="title" href="https://pcbway.com">PCBWay</a>
                     is a manufacturer of PCB boards, 3D-printed and CNC-produced parts
-                </div>                
+                </div>
           </div>
         </section>
 
@@ -232,15 +232,15 @@
           <div class="col-lg-4">
             <h3><?php echo _('Bronze sponsors'); ?></h3>
           </div>
-          
+
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
-          
+
               <div class="bronze sponsor">Ian Rees</div>
               <div class="bronze sponsor">Ton Roosendaal</div>
               <div class="bronze sponsor">Lukas Alberts</div>
-          
+
           </div>
-          
+
         </section>
 
     </div>
