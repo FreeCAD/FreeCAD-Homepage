@@ -109,7 +109,7 @@
                 <li><a href="https://wiki.freecad.org/Installing_on_Linux"><?php echo _('Installing FreeCAD on Linux'); ?></a></li>
                 <li><a href="https://wiki.freecad.org/Installing_on_Mac"><?php echo _('Installing FreeCAD on MacOS'); ?></a></li>
                 <li><a href="https://wiki.freecad.org/Installing_additional_components"><?php echo _('Installing additional components'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Getting_Started"><?php echo _('Getting started with FreeCAD'); ?></a></li>
+                <li><a href="https://wiki.freecad.org/Getting_started"><?php echo _('Getting started with FreeCAD'); ?></a></li>
                 <li><a href="https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"><?php echo _('Migrating from other software?'); ?></a></li>
                 <li><a href="https://wiki.freecad.org/Workbenches"><?php echo _('Workbenches documentation'); ?></a></li>
                 <li><a href="https://wiki.freecad.org/Frequently_asked_questions"><?php echo _('Frequently asked questions'); ?></a></li>
