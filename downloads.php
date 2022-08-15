@@ -21,7 +21,7 @@
       <!-- Major+Minor Version of FC Stable -->
       <!-- -------------------------------- -->
 
-      <h2 class="downloads-notes-title"><?php echo _('Current stable version: 0.20'); ?></h2>
+      <h2 class="downloads-notes-title"><?php echo _('Current stable version: 0.20.1'); ?></h2>
       <p><?php echo _('Select your desired platform'); ?></p>
 
     </div>
@@ -37,7 +37,7 @@
             <img class="w-100 p-4" src="svg/icon-windows.svg" alt="Windows">
             <h3 class="card-title download-platform-name m-0 pb-3">Windows</h3>
             <div class="flex-column flex-lg-row">
-              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-WIN-x64-installer-1.exe">64-Bit installer</a>
+              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.20.1/FreeCAD-0.20.1-WIN-x64-installer-1.exe">64-Bit installer</a>
             </div>
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
