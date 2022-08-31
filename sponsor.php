@@ -145,6 +145,11 @@
               month:'); ?>
               </p>
               <?php $formid = "sponsor"; include("donation.php"); ?>
+              <p>
+              <?php echo _('Please inform your forum name or twitter handle as a note
+              in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>,
+              so we can give you proper credits!'); ?>
+              </p>
           </div>
 
         </section>
