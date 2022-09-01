@@ -50,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-custom {
   background-color: rgba(52, 58, 64, 0.7);
   padding: 0 6vw 0 6vw;
+  backdrop-filter: saturate(180%) blur(10px);
 }
 
 .navbar-custom .nav-pills .nav-link {
