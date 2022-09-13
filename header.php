@@ -109,7 +109,7 @@
             <a class="dropdown-item text-dark" href="irc://irc.libera.chat/freecad">IRC</a>
             <a class="dropdown-item text-dark" href="https://web.libera.chat/#freecad">IRC via Webchat</a>
             <a class="dropdown-item text-dark" href="https://gitter.im/FreeCAD/FreeCAD">Gitter</a>
-            <a class="dropdown-item text-dark" href="https://discord.gg/NpMefpXWFT">Discord</a>
+            <a class="dropdown-item text-dark" href="https://discord.gg/w2cTKGzccC">Discord</a>
             <a class="dropdown-item text-dark" href="https://www.reddit.com/r/freecad">Reddit</a>
             <a class="dropdown-item text-dark" href="https://twitter.com/FreeCADNews">Twitter</a>
             <a class="dropdown-item text-dark" href="https://www.facebook.com/FreeCAD">Facebook</a>
