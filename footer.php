@@ -13,7 +13,7 @@
       <a href="https://matrix.to/#/#FreeCAD_FreeCAD:gitter.im"><img class="icon-social m-2" src="svg/icon-matrix-light.svg" alt="Matrix"/></a>
       <a href="irc://irc.libera.chat/freecad"><img class="icon-social m-2" src="svg/icon-irc-light.svg" alt="IRC" /></a>
       <a href="https://gitter.im/FreeCAD/FreeCAD"><img class="icon-social m-2" src="svg/icon-gitter-light.svg" alt="Gitter.im"/></a>
-      <a href="https://discord.gg/NpMefpXWFT"><img class="icon-social m-2" src="svg/icon-discord-light.svg" alt="Discord"/></a>
+      <a href="https://discord.com/invite/w2cTKGzccC"><img class="icon-social m-2" src="svg/icon-discord-light.svg" alt="Discord"/></a>
       <a href="https://www.reddit.com/r/freecad"><img class="icon-social m-2" src="svg/icon-reddit-light.svg" alt="Reddit"/></a>
       <a href="https://twitter.com/FreeCADNews"><img class="icon-social m-2" src="svg/icon-twitter-light.svg" alt="Twitter"/></a>
       <a href="https://www.facebook.com/FreeCAD"><img class="icon-social m-2" src="svg/icon-facebook-light.svg" alt="Facebook"/></a>
