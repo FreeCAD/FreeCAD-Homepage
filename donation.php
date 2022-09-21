@@ -83,9 +83,9 @@
           <?php echo _('Bank agency'); ?>: BNP Paribas Fortis<br/>
           <?php echo _('Address'); ?>: Rue de la Station 64, 1360 Perwez, Belgium<br/>
       </div>
-      <?php echo _('More information about the donation options on the
-      <a href=https://wiki.freecad.org/donate>donations</a> page.'); ?>
-      <br/>
       <input type="Button" value="Submit" class="submit" onCLick="send(this)" />
+      <br/>
+      <?php echo _('More information about the different donation methods and options on the
+      <a href=https://wiki.freecad.org/donate>donations</a> page.'); ?>
     </fieldset>
 </form>
