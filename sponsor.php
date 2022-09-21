@@ -109,10 +109,10 @@
               </p>
               <p>
               <?php echo _('To encourage persons and companies to sponsor the
-              FreeCAD project, we have created different sponsoring tiers. By
-              donating regularly to the project, you will have the possibility
-              to have your name, company name and/or logo to be featured on this
-              website, depending on the tier you fit into:'); ?>
+              FreeCAD project, we have created different sponsoring tiers. When
+              donating regularly to the project, unless you prefer to stay
+              anonymous, your name, company name and/or logo will be featured
+              on this website, depending on the tier you fit into:'); ?>
               </p>
               <ul class="sponsortitle">
                 <li>♥ <b class="normal"><?php echo _('Normal sponsor'); ?></b>:
@@ -121,17 +121,17 @@
                 anyway. Together, normal sponsors maintain the project on its
                 feet as much as the bigger sponsors.'); ?></li>
                 <li><b class="bronze">🥉 <?php echo _('Bronze sponsor'); ?></b>:
-                <?php echo _('from 25 USD / 25 EUR per month. Allows you to have
-                your name or company name displayed on this page.'); ?></li>
+                <?php echo _('from 25 USD / 25 EUR per month. Your name or
+                company name is displayed on this page.'); ?></li>
                 <li><b class="silver">🥈 <?php echo _('Silver sponsor'); ?></b>:
-                <?php echo _('from 100 USD / 100 EUR per month. Allows you to have
-                your name or company name displayed on this page, with a link to
+                <?php echo _('from 100 USD / 100 EUR per month. Your name or
+                company name is displayed on this page, with a link to
                 your website, and a one-line description text.'); ?></li>
                 <li><b class="gold">🥇 <?php echo _('Gold sponsor'); ?></b>:
-                <?php echo _('from 200 USD / 200 EUR per month. Allows you to
-                have your name or company name and logo displayed on this page,
+                <?php echo _('from 200 USD / 200 EUR per month. Your name
+                or company name and logo displayed on this page,
                 with a link to your website and a custom description text.
-                Companies that have helped FreeCAD early on will also appear
+                Companies that have helped FreeCAD early on also appear
                 under Gold sponsors.'); ?></li>
               </ul>
               <p>
@@ -162,6 +162,10 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
                 <div class="gold sponsor">
+                    <a class="title" href="https://spacecruft.org/">Spacecruft</a>
+                </div>
+
+                <div class="gold sponsor">
                     <img class="logo" src="images/sponsors/epiray.svg">
                     <a class="title" href="http://www.epiray.de/">Epiray</a>
                     manufactures equipment for
@@ -173,6 +177,15 @@
                     <a class="title" href="https://3bm.co.nl/">3BM Ingenieursbureau</a>
                     is a cooperative of practical engineers acting in construction
                 </div>
+
+          </div>
+        </section>
+
+        <section class="row section d-flex justify-content-around">
+          <div class="col-lg-4">
+            <h3><?php echo _('Early sponsors'); ?></h3>
+          </div>
+          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
                 <div class="gold sponsor">
                     <img class="logo" src="images/sponsors/aleph.svg">
@@ -206,6 +219,7 @@
                     <a class="title" href="https://www.wetpaintdesigns.com/">Wetpaint Designs</a>
                     is a small scale manufacturer and product design firm
                 </div>
+
           </div>
         </section>
 
@@ -230,6 +244,7 @@
                     <a class="title" href="https://pcbway.com">PCBWay</a>
                     is a manufacturer of PCB boards, 3D-printed and CNC-produced parts
                 </div>
+
           </div>
         </section>
 
@@ -245,7 +260,6 @@
               <div class="bronze sponsor">Lukas Alberts</div>
 
           </div>
-
         </section>
 
     </div>
