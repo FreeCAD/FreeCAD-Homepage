@@ -113,6 +113,7 @@
             <a class="dropdown-item text-dark" href="https://www.reddit.com/r/freecad">Reddit</a>
             <a class="dropdown-item text-dark" href="https://twitter.com/FreeCADNews">Twitter</a>
             <a class="dropdown-item text-dark" href="https://www.facebook.com/FreeCAD">Facebook</a>
+            <a class="dropdown-item text-dark" href="https://www.linkedin.com/groups/4295230">LinkedIn</a>
           </div>
         </li>
 

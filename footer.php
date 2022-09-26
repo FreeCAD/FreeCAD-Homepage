@@ -17,6 +17,7 @@
       <a href="https://www.reddit.com/r/freecad"><img class="icon-social m-2" src="svg/icon-reddit-light.svg" alt="Reddit"/></a>
       <a href="https://twitter.com/FreeCADNews"><img class="icon-social m-2" src="svg/icon-twitter-light.svg" alt="Twitter"/></a>
       <a href="https://www.facebook.com/FreeCAD"><img class="icon-social m-2" src="svg/icon-facebook-light.svg" alt="Facebook"/></a>
+      <a href="https://www.linkedin.com/groups/4295230"><img class="icon-social m-2" src="svg/icon-linkedin-light.svg" alt="LinkedIn"/></a>
     </div>
 
     <p class="footer-credits mt-3">
