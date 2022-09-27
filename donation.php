@@ -58,7 +58,7 @@
 <form id="<?php echo $formid; ?>" class="donation">
     <fieldset>
       <label for="amount"><?php echo _('Amount'); ?>:</label>
-      <input name="amount" type="text" placeholder="5.00" autofocus />
+      <input name="amount" type="text" placeholder="5.00" />
       <select id="currency" name="currency">
              <option value="usd" selected>USD</option>
              <!--<option value="eur">EUR</option>-->
