@@ -44,7 +44,7 @@
               the FreeCAD project, being an individual, a company or an
               institution, depending on your preferences. The money you donate
               to the FreeCAD project will be received and handled by the
-              <a href=https://github.com/FreeCAD/FPA>FreeCAD Project Association</a>
+              <a href=https://github.com/FreeCAD/FPA#readme>FreeCAD Project Association</a>
               (FPA), a non-profit association created by FreeCAD administrators
               and core developers. The FPA will redistribute the money it gathers
               to FreeCAD developers and sponsor itself several projects, efforts
