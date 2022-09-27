@@ -236,7 +236,22 @@
         </section>
 
 
+        <section class="row section d-flex justify-content-around">
 
+
+          <div class="col-lg-4">
+            <p class="section-body whitelinks">
+              <?php echo _('Follow the official FreeCAD channels for fresh news:'); ?>
+            </p>
+          </div>
+
+          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
+              <ul class="d-block whitelinks releases">
+                <li><a href="https://blog.freecad.org" title="FreeCAD official blog"><?php echo _('Official blog'); ?></a></li>
+                <li><a href="https://twitter.com/FreeCADNews" title="FreeCAD twitter account"><?php echo _('Twitter account'); ?></a></li>
+              </ul>
+          </div>
+        </section>
 
 
     </div>
