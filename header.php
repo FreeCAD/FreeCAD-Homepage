@@ -60,7 +60,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="nav nav-pills ml-auto">
+      <ul class="nav nav-pills ml-auto" style="gap: 0.5rem;">
 
         <li class="nav-item">
           <a class="nav-link my-2 rounded-pill" href="<?php echo $featuresurl; ?>"><?php echo _('Features'); ?></a>
