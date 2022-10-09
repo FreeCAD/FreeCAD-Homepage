@@ -19,14 +19,14 @@
 }
 
 @font-face {
-    font-family: 'Evolventa';
-    src: url('/fonts/Evolventa-Regular.woff') format('woff'),
+  font-family: "Evolventa";
+  src: url("/fonts/Evolventa-Regular.woff") format("woff");
 }
 
-
-html, body {
+html,
+body {
   height: 100%;
-  font-family: 'Roboto-Regular', sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
 }
 
 body {
@@ -36,7 +36,12 @@ body {
   /* font-size: calc(1vw + 1vh - 1vmin + 16px); */
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat-Bold", sans-serif;
 }
 
@@ -82,7 +87,15 @@ h1, h2, h3, h4, h5, h6 {
 /* .navbar .dropdown-community a img {
   width: 2em;
 } */
-
+@media all and (max-width: 650px) {
+  /* dropdown-menu-mobile-right */
+  .dropdown-menu.show {
+    right: unset;
+  }
+  .dropdown-menu-mobile-left {
+    right: 0 !important;
+  }
+}
 .navbar .dropdown-menu a:hover,
 .navbar .dropdown-menu a.active {
   background-color: #e4e4e4;
@@ -154,7 +167,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 1.8em;
 }
 
-.downloads-notes-title, .features-title {
+.downloads-notes-title,
+.features-title {
   font-size: 2em;
   margin-bottom: 0.5em;
 }
@@ -178,7 +192,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 4em;
 }
 
-.donation input, .donation select {
+.donation input,
+.donation select {
   float: right;
   margin-right: 8px;
 }
@@ -193,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 47%;
   max-width: 100%;
   float: left;
-  background: rgba(255,255,255,0.3);
+  background: rgba(255, 255, 255, 0.3);
   color: #444;
   border-radius: 3px;
   margin: 8px;
@@ -274,7 +289,6 @@ h1, h2, h3, h4, h5, h6 {
   .btn {
     font-size: 0.8em;
   }
-
 }
 
 @media (min-width: 1200px) {
@@ -297,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
   .home-title {
     font-size: 3.6em;
   }
-  
+
   .home-subtitle {
     font-size: 1.2em;
   }
@@ -311,11 +325,11 @@ h1, h2, h3, h4, h5, h6 {
   .home-title {
     font-size: 4em;
   }
-  
+
   .home-subtitle {
     font-size: 1.4em;
   }
-  
+
   /* .btn {
     font-size: 1em;
   } */
@@ -356,7 +370,7 @@ h1, h2, h3, h4, h5, h6 {
   .home-title {
     font-size: 6em;
   }
-  
+
   .home-subtitle {
     font-size: 1.8em;
   }
