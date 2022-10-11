@@ -29,10 +29,12 @@
       <a href="https://www.digitalocean.com/?utm_medium=opensource&utm_source=FreeCAD">
         <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="180px">
       </a>
-      - 
+      ,
       <a href="https://www.kipro-pcb.com/">
           KiCad Services Corp.
       </a>
+      <?php echo _('and'); ?>
+      <a href="<?php echo $sponsorurl; ?>"><?php echo _('other sponsors'); ?></a>
     </p>
   </footer>
 
