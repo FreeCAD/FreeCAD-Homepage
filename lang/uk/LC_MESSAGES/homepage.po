@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-23 13:57+0200\n"
-"PO-Revision-Date: 2022-07-15 11:59\n"
+"PO-Revision-Date: 2022-10-10 08:21\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -27,7 +27,7 @@ msgstr "Спосіб пожертвування"
 
 #: donation.php:57
 msgid "Please choose"
-msgstr "Будь ласка, виберіть"
+msgstr "Будь ласка, оберіть"
 
 #: donation.php:58
 msgid "Direct SEPA bank transfer using your own bank apps"
@@ -43,7 +43,7 @@ msgstr "Банківський переказ SEPA або кредитна ка�
 
 #: donation.php:60
 msgid "Stripe transfer"
-msgstr "Характер переказу"
+msgstr "Переказ Stripe"
 
 #: donation.php:61
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
@@ -134,7 +134,7 @@ msgstr "Сторінка збірки FreeCAD щотижня."
 
 #: downloads.php:111
 msgid "Additional modules and macros"
-msgstr "Додаткові модулі і макроси"
+msgstr "Додаткові модулі та макроси"
 
 #: downloads.php:113
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
@@ -144,7 +144,7 @@ msgstr "Спільнота FreeCAD надає безліч додаткових 
 
 #: downloads.php:115
 msgid "Addon manager."
-msgstr "Менеджера додатків."
+msgstr "Менеджер розширень."
 
 #: downloads.php:125
 msgid "Source code"
@@ -217,7 +217,7 @@ msgstr ""
 
 #: features.php:83
 msgid "Python everywhere"
-msgstr "Python всюди"
+msgstr "Python усюди"
 
 #: features.php:85
 msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance,\n"
@@ -422,7 +422,7 @@ msgstr "https://wiki.freecad.org/Getting_started"
 
 #: header.php:78
 msgid "Getting started"
-msgstr "З чого почати"
+msgstr "Перші кроки"
 
 #: header.php:79
 msgid "https://wiki.freecad.org/User_hub"
@@ -446,7 +446,7 @@ msgstr "https://wiki.freecad.org/Power_users_hub"
 
 #: header.php:81
 msgid "Python coding documentation"
-msgstr "Документація зі сценаріїв Python"
+msgstr "Документація Python"
 
 #: header.php:82
 msgid "https://wiki.freecad.org/Tutorials"
@@ -665,7 +665,8 @@ msgstr "Якщо ви не впевнені, або не можете взяти
 #: sponsor.php:79
 msgid "Choose freely the amount you wish to donate one\n"
 "              time only:"
-msgstr ""
+msgstr "Оберіть суму, яку Ви хочете пожертвувати тільки \n"
+"              один раз:"
 
 #: sponsor.php:94
 msgid "Sponsoring"
@@ -695,7 +696,7 @@ msgstr ""
 
 #: sponsor.php:118
 msgid "Normal sponsor"
-msgstr ""
+msgstr "Звичайний спонсор"
 
 #: sponsor.php:119
 msgid "from 1 USD / 1 EUR per month. You will not have your\n"
@@ -706,7 +707,7 @@ msgstr ""
 
 #: sponsor.php:123
 msgid "Bronze sponsor"
-msgstr ""
+msgstr "Бронзовий спонсор"
 
 #: sponsor.php:124
 msgid "from 25 USD / 25 EUR per month. Allows you to have\n"
@@ -715,7 +716,7 @@ msgstr ""
 
 #: sponsor.php:126
 msgid "Silver sponsor"
-msgstr ""
+msgstr "Срібний спонсор"
 
 #: sponsor.php:127
 msgid "from 100 USD / 100 EUR per month. Allows you to have\n"
@@ -725,7 +726,7 @@ msgstr ""
 
 #: sponsor.php:130
 msgid "Gold sponsor"
-msgstr ""
+msgstr "Золотий спонсор"
 
 #: sponsor.php:131
 msgid "from 200 USD / 200 EUR per month. Allows you to\n"
@@ -738,19 +739,20 @@ msgstr ""
 #: sponsor.php:138
 msgid "Choose freely the amount you wish to donate each\n"
 "              month:"
-msgstr ""
+msgstr "Оберіть суму, яку Ви хочете жертвувати кожного з\n"
+"              місяця:"
 
 #: sponsor.php:149
 msgid "Gold sponsors"
-msgstr ""
+msgstr "Золоті спонсори"
 
 #: sponsor.php:190
 msgid "Silver sponsors"
-msgstr ""
+msgstr "Срібні спонсори"
 
 #: sponsor.php:208
 msgid "Bronze sponsors"
-msgstr ""
+msgstr "Бронзові спонсори"
 
 #: thankyou.php:29
 msgid "Thank you!"
@@ -759,7 +761,8 @@ msgstr "Дякуємо!"
 #: thankyou.php:32
 msgid "Your download should start automatically.\n"
 "            If not, click"
-msgstr ""
+msgstr "Завантаження почнеться автоматично.\n"
+"            Якщо ні, натисніть на кнопку"
 
 #: thankyou.php:33
 msgid "here"

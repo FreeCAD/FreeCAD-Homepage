@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-23 13:57+0200\n"
-"PO-Revision-Date: 2022-07-22 14:15\n"
+"PO-Revision-Date: 2022-10-10 08:20\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -31,55 +31,56 @@ msgstr "Si us plau, seleccioneu"
 
 #: donation.php:58
 msgid "Direct SEPA bank transfer using your own bank apps"
-msgstr ""
+msgstr "Transferencia bancaria Directa SEPA\n"
+"Mitgançan les teves propies App"
 
 #: donation.php:58
 msgid "SEPA bank transfer"
-msgstr ""
+msgstr "Transferència bancària SEPA"
 
 #: donation.php:60
 msgid "SEPA bank transfer or credit card via Stripe"
-msgstr ""
+msgstr "Transferencia bancaria SEPA o tarjeta de crèdit via STRIPE"
 
 #: donation.php:60
 msgid "Stripe transfer"
-msgstr ""
+msgstr "Transferencia de Stripe"
 
 #: donation.php:61
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
-msgstr ""
+msgstr "PayPal li permet donar mitjançant la seva compte PayPal o amb targeta de crèdit"
 
 #: donation.php:61
 msgid "Paypal"
-msgstr ""
+msgstr "Paypal"
 
 #: donation.php:62
 msgid "Github allows you to sponsor your favorite projects using your github account, and a credit card"
-msgstr ""
+msgstr "Github li permet patrocinar els seus projectes favorits fen servir el seu compte Github i una targeta de crèdit"
 
 #: donation.php:62
 msgid "Github"
-msgstr ""
+msgstr "Github"
 
 #: donation.php:63
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account"
-msgstr ""
+msgstr "OpenCollective actua com amfitrió fiscal per projectes de codi obert. Li permet donar amb targeta de crèdit o compte bancari"
 
 #: donation.php:63
 msgid "OpenCollective"
-msgstr ""
+msgstr "OpenCollective"
 
 #: donation.php:67
 msgid "SEPA Information"
-msgstr ""
+msgstr "Info de SEPA"
 
 #: donation.php:68
 msgid "Please set up your SEPA bank transfer to"
-msgstr ""
+msgstr "Configurar transferencia bancaria SEPA a"
 
 #: donation.php:72
 msgid "Bank agency"
-msgstr ""
+msgstr "Agencia bancaria"
 
 #: donation.php:73
 msgid "Address"
@@ -91,11 +92,15 @@ msgid "Please inform your forum name or twitter handle as a note\n"
 "      so we can give you proper credits! More information about the donation\n"
 "      options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr ""
+msgstr "Si us plau, indiqueu el nom del vostre fòrum o l'adreça de Twitter com a nota\n"
+" a la vostra transferència, o bé <a href=mailto:fpa@freecad.org>conscriu-nos</a>,\n"
+" perquè puguem donar-te els crèdits adequats! Més informació sobre les opcions de donació\n"
+" a la pàgina de\n"
+" <a href=https://wiki.freecad.org/donate>donacions</a>."
 
 #: downloads.php:24
 msgid "Current stable version: 0.20"
-msgstr ""
+msgstr "Actual versió estable: 0.20"
 
 #: downloads.php:25
 msgid "Select your desired platform"
@@ -124,7 +129,8 @@ msgstr "Versions de desenvolupament"
 #: downloads.php:100
 msgid "FreeCAD's development is always active! Do you want to check out the latest development\n"
 "        release? For MacOS, Windows, Linux (AppImage) and source code, see the "
-msgstr ""
+msgstr "El desenvolupament de FreeCAD sempre està actiu. Voleu provar l'última versió \n"
+"  de desenvolupament? Per a MacOS, Windows, Linux (AppImage) i el codi font, vegeu "
 
 #: downloads.php:102
 msgid "FreeCAD weekly builds page."
@@ -137,7 +143,7 @@ msgstr "Mòduls addicionals i macros"
 #: downloads.php:113
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
-msgstr ""
+msgstr "La comunitat FreeCAD ofereix una gran quantitat de mòduls i macros addicionals. Ara es poden instal·lar fàcilment directament des de FreeCAD mitjançant l' "
 
 #: downloads.php:115
 msgid "Addon manager."
@@ -145,19 +151,19 @@ msgstr "Gestió d'afegits."
 
 #: downloads.php:125
 msgid "Source code"
-msgstr ""
+msgstr "Codi font"
 
 #: downloads.php:127
 msgid "The source code of FreeCAD is hosted mainly on "
-msgstr ""
+msgstr "El codi Font de FreeCAD està allotjat principalment a "
 
 #: downloads.php:129
 msgid "and mirrored on "
-msgstr ""
+msgstr "i emmirallat "
 
 #: downloads.php:132
 msgid "and "
-msgstr ""
+msgstr "i "
 
 #: features.php:9
 msgid "Key FreeCAD Features"
@@ -172,7 +178,10 @@ msgid "FreeCAD is made primarily to design objects for the real world. Everythin
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr ""
+msgstr "FreeCAD està creat principalment per dissenyar objectes per al món real. Tot el que feu a FreeCAD utilitza unitats\n"
+" del món real, ja siguin micres, quilòmetres, polzades o peus, o fins i tot qualsevol combinació d'unitats. FreeCAD ofereix <a href=https://wiki.freecad.org/Workbenches>eines</a> per produir, exportar i\n"
+"      editar models sòlids i de precisió, exportar-los per a impressió 3D o mecanitzat CNC, crear dibuixos 2D i vistes dels vostres models,\n"
+"      feu anàlisis com ara anàlisis d'elements finits o exporteu dades del model, com ara quantitats o llistats de materials."
 
 #: features.php:40
 msgid "A powerful solid-based geometry kernel"
@@ -240,7 +249,25 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              and many more, in addition to FreeCAD&apos;s native\n"
 "              <a href=\"/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
 "              file formats."
-msgstr ""
+msgstr "FreeCAD us permet importar i exportar models i molts altres tipus de dades dels vostres models, com ara\n"
+" anàlisi de resultats o dades de quantitats a desenes de diferents <a href=\"https://wiki.freecad.org/Category:File_Formats\"> formats de fitxer</a> com ara\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
+" < a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
+" <a rel=\"nofollow\" class=\"external text \" href=\"https://en.wikipedia.org/wiki/Obj\">OBJ</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg \">DWG</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
+" < a rel=\"nofollow\" class=\"text extern\" href=\"https://en.wikipedia.org /wiki/Svg\">SVG</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
+" <a rel=\"nofollow\" classe =\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> o\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https:/ /people.sc.fsu.edu/~jburkardt/data/off/off.html\">DESACTIVAT</a>,\n"
+" <a rel=\"nofollow\" class=\"text extern\" href=\"https://ca.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML </a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
+" i molts més, a més del format de fitxer\n"
+" <a href=\"/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> natiu de FreeCAD. Els bancs de treball addicionals també poden afegir més\n"
+" formats de fitxer."
 
 #: features.php:139
 msgid "A parametric constraints-based 2D sketcher"
@@ -303,7 +330,7 @@ msgstr ""
 
 #: features.php:224
 msgid "Release 0.20 - June 2022"
-msgstr ""
+msgstr "Versiò 0.20 - Juny 2022"
 
 #: features.php:225
 msgid "Release 0.19 - March 2021"
@@ -343,7 +370,7 @@ msgstr ""
 
 #: footer.php:9
 msgid "Get in touch!"
-msgstr ""
+msgstr "Contacta amb nosaltres!"
 
 #: footer.php:23
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
@@ -353,7 +380,7 @@ msgstr "© L'equip FreeCAD. Crèdits de la imatge de la pàgina d'inici (De dalt
 
 #: footer.php:27
 msgid "This project is supported by:"
-msgstr ""
+msgstr "Projecte amb el soport de:"
 
 #: header.php:26
 msgid "FreeCAD: Your own 3D parametric modeler"
@@ -373,7 +400,7 @@ msgstr "Documentació"
 
 #: header.php:77
 msgid "https://wiki.freecad.org"
-msgstr ""
+msgstr "https://wiki.freecad.org"
 
 #: header.php:77
 msgid "Documentation index"
@@ -433,7 +460,7 @@ msgstr ""
 
 #: header.php:93
 msgid "Report a bug"
-msgstr ""
+msgstr "Notificar un error"
 
 #: header.php:94
 msgid "Make a pull request"

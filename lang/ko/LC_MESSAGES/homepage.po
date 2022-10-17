@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-23 13:57+0200\n"
-"PO-Revision-Date: 2022-07-15 11:59\n"
+"PO-Revision-Date: 2022-10-10 08:20\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: donation.php:48
 msgid "Amount"
-msgstr "수량"
+msgstr "금액"
 
 #: donation.php:55
 msgid "Donation method"
-msgstr "기부 수단"
+msgstr "기부 방법"
 
 #: donation.php:57
 msgid "Please choose"
@@ -31,15 +31,15 @@ msgstr "선택해주세요"
 
 #: donation.php:58
 msgid "Direct SEPA bank transfer using your own bank apps"
-msgstr "Direct SPEA 은행은 소유하고 있는 은행 앱에 바로 송금합니다."
+msgstr "자체 은행 앱을 사용하여 SEPA 은행 송금을 직접 수행합니다."
 
 #: donation.php:58
 msgid "SEPA bank transfer"
-msgstr "SEPA 은행 계좌 이체"
+msgstr "SEPA 은행 이체"
 
 #: donation.php:60
 msgid "SEPA bank transfer or credit card via Stripe"
-msgstr "SEPA 은행 송금 또는 Stripe를 통한 신용카드"
+msgstr "SEPA 은행 이체 또는 Stripe를 통한 신용카드"
 
 #: donation.php:60
 msgid "Stripe transfer"
@@ -55,11 +55,11 @@ msgstr "Paypal"
 
 #: donation.php:62
 msgid "Github allows you to sponsor your favorite projects using your github account, and a credit card"
-msgstr "Github는 귀하가 당신이 좋아하는 프로젝트를 Github 계좌, 신용카드로 스폰서 하도록 허용합니다."
+msgstr "Github는 당신의 github 계정과 신용카드를 사용하여 당신이 좋아하는 프로젝트를 후원할 수 있게 해줍니다."
 
 #: donation.php:62
 msgid "Github"
-msgstr "깃허브"
+msgstr "Github"
 
 #: donation.php:63
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account"
@@ -91,7 +91,9 @@ msgid "Please inform your forum name or twitter handle as a note\n"
 "      so we can give you proper credits! More information about the donation\n"
 "      options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr ""
+msgstr "송금시 포럼 이름 및 트위터 핸들을 메모로 알려주시거나, 적절한 요금이 제공되도록 당사에 <a href=mailto:fpa@freecad.org>연락해 주시기 바랍니다!</a>\n"
+"기부에 대한 더 많은 자세한 내용은\n\n"
+"<a href=https://wiki.freecad.org/donate>기부</a>페이지를 참고해 주시기 바랍니다. 설정된 언어인 한국에서는 일정한 수수료가 카드사에 의해 부과될 수 있습니다."
 
 #: downloads.php:24
 msgid "Current stable version: 0.20"
@@ -258,7 +260,24 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              and many more, in addition to FreeCAD&apos;s native\n"
 "              <a href=\"/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
 "              file formats."
-msgstr ""
+msgstr "FreeCAD는  모델의 모델과 분석 결과 또는 수량 데이터와 같은 기타 여러 종류의 데이터를 다른 <a href=\"https://wiki.freecad.org/Category:File_Formats\">파일 포맷으로</a>\n"
+"<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
+"<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
+"<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Obj\">OBJ</a>,\n"
+"<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>,\n"
+"<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>,\n"
+"<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
+"<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>,\n"
+"<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
+"<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
+"<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> 혹은 \n"
+"<a rel=\"nofollow\" class=\"external text\" href=\"https://people.sc.fsu.edu/~jburkardt/data/off/off.html\">OFF</a>,\n"
+"<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
+"<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
+"<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
+" 등을 가져오고 내보내기가 가능합니다. 이 외에도 FreeCAD&apos;의 \n"
+"<a href=\"/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> 파일 포맷이 제공됩니다. 추가 기능 워크벤치에서는 \n"
+" 파일 형식을 더 추가할 수도 있습니다."
 
 #: features.php:139
 msgid "A parametric constraints-based 2D sketcher"
@@ -270,7 +289,11 @@ msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sket
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
 "                  objects throughout FreeCAD, be it either with the\n"
 "                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
-msgstr ""
+msgstr "FreeCAD는 제약 조건 검사가 통합된 최첨단 <a href=https://wiki.freecad.org/Sketcher_Workbench>스케쳐</a>\n"
+"가 내장되어 있어 기하학적인 요소를 만들때 제약이 있는 2D 형상 스케칭이\n"
+" 가능합니다. 스케치는 FreeCAD의 주요 구성 요소이며, 이를 통해\n"
+" 구축된 제약된 2D 모양은 전용 <a href=https://wiki.freecad.org/PartDesign_Workbench>파트 디자인 워크벤치 (Part Design workbench)</a> 또는 기타 작업을 통해 FreeCAD 전반에 걸쳐 다른\n"
+"개의 객체를 구축하는 기준으로 사용될 수 있습니다."
 
 #: features.php:155
 msgid "A large (and growing) multi-specialty ecosystem"
@@ -314,7 +337,12 @@ msgid "FreeCAD is made for everybody, by everybody. It is developed and maintain
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
 "              urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or\n"
 "              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
-msgstr ""
+msgstr "FreeCAD는 모든 사람을 위해 제작되었습니다\n"
+". 개발자, 사용자, 진행자, 번역자 커뮤니티에 의해 개발 및 유지 관리되며,\n"
+" 이들의 소망에 의해 통합된 FreeCAD는 자유롭고 강력한 도구가 됩니다.\n"
+" 의사 결정의 배경에는 상업적 목적이 없으며, FreeCAD 버전을 업그레이드하거나 특정 워크플로우 또는\n"
+"생태계를 구축하도록 강요할 필요가 없습니다.\n"
+" FreeCAD와 FreeCAD로 생성하는 파일 및 데이터는 영원히 여러분의 것입니다."
 
 #: features.php:207
 msgid "Release notes"
@@ -578,7 +606,7 @@ msgstr "FreeCAD에 기부"
 #: sponsor.php:21
 msgid "Thanks for your interest in helping the FreeCAD\n"
 "              project with donations."
-msgstr ""
+msgstr "FreeCAD 프로젝트에 후원하는 것에 대해 관심을 가져수셔서 진심으로 감사드립니다."
 
 #: sponsor.php:25
 msgid "FreeCAD is a fast-growing project, developed by a\n"
@@ -587,7 +615,12 @@ msgid "FreeCAD is a fast-growing project, developed by a\n"
 "              parametric modeller. The development of FreeCAD happens mostly\n"
 "              because of the energy of all these people, without the need for\n"
 "              money."
-msgstr ""
+msgstr "FreeCAD는 주로 무료 3D\n"
+"파라미터 모델을 구축하려는 의지에 따라 자발적으로 활동하는\n"
+"개발자와 사용자 커뮤니티에 의해 개발된 빠르게 성장하는 \n"
+"프로젝트입니다. FreeCAD의 개발은 대부분 이러한 \n"
+"사람들의 에너지로 인해 돈이 필요 없기\n"
+" 때문입니다."
 
 #: sponsor.php:33
 msgid "However, money can help the project to achieve many\n"
@@ -598,7 +631,13 @@ msgid "However, money can help the project to achieve many\n"
 "              showcase FreeCAD and interest professional users. It can also help\n"
 "              to organize events ourselves so community members can meet, pay for\n"
 "              server space and web services, and many other things."
-msgstr ""
+msgstr "하지만, 후원금은 이 프로젝트가 더 많은\n"
+" 목표를 달성하는 데 도움이 될 수 있습니다. 일부 개발자가 FreeCAD에 더 많은 시간을 할애할 수 있도록\n"
+" 비용을 지불함으로써 프로젝트에 더 자주 또는 더 정기적으로\n"
+" 작업할 수 있도록 지원하거나 커뮤니티에서 CAD 관련 이벤트에 사람들을 보내\n"
+" FreeCAD 및 관심 있는 전문 사용자를 소개하는 데 도움이 될 수 있습니다. 또한 커뮤니티 구성원들이 직접 만나 서버 공간 및 웹 서비스 비용을 지불하고\n"
+" 기타 많은 것들을 이용할 수 있도록 이벤트를\n"
+" 구성하는 데 도움이 될 수 있습니다."
 
 #: sponsor.php:43
 msgid "There are several ways you can donate money and help\n"
@@ -610,7 +649,14 @@ msgid "There are several ways you can donate money and help\n"
 "              and core developers. The FPA will redistribute the money it gathers\n"
 "              to FreeCAD developers and sponsor itself several projects, efforts\n"
 "              and ideas to fuel the development of FreeCAD."
-msgstr ""
+msgstr "개인, 회사 또는 기관에 따라 FreeCAD 프로젝트를 후원하고 도울 수 있는 \n"
+"여러 가지 방법이 있습니다. FreeCAD 프로젝트에 기부하는 금액은\n"
+" FreeCAD 관리자 및 핵심 개발자가 만든 비영리 단체인 \n"
+"<a href=https://github.com/FreeCAD/FPA>FreeCAD 프로젝트 모금</a>\n"
+"에서 받고 처리됩니다. FPA(약칭)는 모금한 자금을\n"
+" FreeCAD 개발자에게 재분배하고 FreeCAD 개발을 더 빠르게 하기 위한\n"
+" 여러 프로젝트, 노력 및 아이디어를\n"
+" 제공할 것입니다."
 
 #: sponsor.php:54
 msgid "Remember, however: FreeCAD is free, and will always\n"
@@ -630,12 +676,14 @@ msgstr "한 번만 기부하기"
 msgid "If you are not sure or not able to commit to a regular\n"
 "              donation, but still want to help the project, you can do a one-time\n"
 "              donation, of any amount."
-msgstr ""
+msgstr "정기적인 후원을 확신할 수 없거나 할 수 없지만\n"
+" 프로젝트를 돕고 싶다면, 어떤 금액이든 일회성 기부를 할 수 있습니다.\n"
 
 #: sponsor.php:79
 msgid "Choose freely the amount you wish to donate one\n"
 "              time only:"
-msgstr ""
+msgstr "매월 기부하고자 하는 금액을 자유롭게 선택하십시오\n"
+":"
 
 #: sponsor.php:94
 msgid "Sponsoring"
@@ -646,7 +694,10 @@ msgid "We call sponsoring the act of donating money\n"
 "              recurrently to the FreeCAD project. You can do that as an\n"
 "              individual or as a company or institution, through different\n"
 "              channels or platforms, depending on your preferences."
-msgstr ""
+msgstr "저희는 \n"
+"FreeCAD 프로젝트에 여러번 기부하는 것을 후원이라고 부릅니다. \n"
+"개인 또는 회사 또는 기관으로서 \n"
+"채널 또는 플랫폼을 통해 원하는 대로 가능합니다."
 
 #: sponsor.php:105
 msgid "Sponsoring FreeCAD allows its developers to count on\n"
@@ -763,14 +814,16 @@ msgid "If you are happy with FreeCAD, and would like to help\n"
 "            open-source, paying to use FreeCAD will never be required, and\n"
 "            FreeCAD does not need money to survive, but donations help us to go\n"
 "            faster, further."
-msgstr ""
+msgstr "FreeCAD가 만족스러우시며 FreeCAD을 돕고 싶으시다면 프로젝트에 돈을 조금 기부해 보시는 것은 어떨까요? 오픈 소스이기 때문에 FreeCAD를 사용하기 위해 비용을 지불할 필요가 없으며, FreeCAD의 프로젝트가 지속적으로 진행하기 위해서라고 하더라도 이를 위해 돈이 필요한 것은 아닙니다만 기부를 통해 더 빠르게, 더 멀리 나아갈 수 있습니다."
 
 #: thankyou.php:57
 msgid "If you are in, choose the amount and method of your\n"
 "            choice below. If you are interested in supporting the project better\n"
 "            with a recurring donation, check the <a href=sponsor.php>sponsoring\n"
 "            page</a> to  more options."
-msgstr ""
+msgstr "가입하신 경우 아래에서 선택한 금액과 방법을 선택하십시오. 여러번 기부로 프로젝트를 더 잘 지원하는 데 관심이 있다면 \n"
+"<ahref=>를 확인하십시오.php>\n"
+"페이지/a>를 더 많은 옵션을 통해 후원이 가능합니다."
 
 #: thankyou.php:66
 msgid "There are also many other ways to help FreeCAD. For\n"
