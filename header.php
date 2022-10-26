@@ -70,6 +70,10 @@
           <a class="nav-link my-2 rounded-pill" href="<?php echo $downloadurl; ?>"><?php echo _('Download'); ?></a>
         </li>
 
+        <li class="nav-item">
+          <a class="nav-link my-2 rounded-pill" href="https://blog.freecad.org"><?php echo _('Blog'); ?></a>
+        </li>
+
         <li class="nav-item dropdown">
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Documentation'); ?></a>
 
@@ -100,7 +104,6 @@
 
           <div class="dropdown-menu-mobile-right dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark font-weight-bold" href="https://forum.freecad.org/">Forum</a>
-            <a class="dropdown-item text-dark" href="https://blog.freecad.org">Official blog</a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FPA#readme">The FPA</a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD">GitHub</a>
             <a class="dropdown-item text-dark" href="https://gitlab.com/freecad/FreeCAD">GitLab</a>

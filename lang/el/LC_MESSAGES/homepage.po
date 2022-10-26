@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-23 13:57+0200\n"
-"PO-Revision-Date: 2022-07-22 14:15\n"
+"PO-Revision-Date: 2022-10-10 08:20\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -91,8 +91,8 @@ msgid "Please inform your forum name or twitter handle as a note\n"
 "      so we can give you proper credits! More information about the donation\n"
 "      options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr "Παρακαλούμε ενημερώστε το όνομα φόρουμ ή το twitter σας ως σημείωση\n"
-"      στη μεταφορά σας, ή <a href=mailto:fpa@freecad.org>φτάσετε σε εμάς</a>,\n"
+msgstr "Παρακαλούμε ενημερώστε το όνομα του φόρουμ ή το twitter σας ως σημείωση\n"
+"      στη πλρωμή σας, ή <a href=mailto:fpa@freecad.org>φτάσετε σε εμάς</a>,\n"
 "      ώστε να σας δώσουμε τις κατάλληλες πιστώσεις! Περισσότερες πληροφορίες σχετικά με τις επιλογές της δωρεάς\n"
 "      στη σελίδα\n"
 "      <a href=https://wiki.freecad.org/donate>δωρεές</a>."
@@ -128,8 +128,8 @@ msgstr "Αναπτυσσόμενη έκδοση"
 #: downloads.php:100
 msgid "FreeCAD's development is always active! Do you want to check out the latest development\n"
 "        release? For MacOS, Windows, Linux (AppImage) and source code, see the "
-msgstr "Η ανάπτυξη του FreeCAD είναι πάντα ενεργή! Θέλετε να ελέγξετε έξω την τελευταία εξέλιξη\n"
-"        έκδοση? Για MacOS, Windows, Linux (AppImage) και πηγαίο κώδικα, δείτε το "
+msgstr "Η ανάπτυξη του FreeCAD είναι πάντα ενεργή! Θέλετε να ελέγξετε για την τελευταία εξέλιξη\n"
+"        έκδοση; Για MacOS, Windows, Linux (AppImage) και πηγαίο κώδικα, δείτε το "
 
 #: downloads.php:102
 msgid "FreeCAD weekly builds page."
@@ -177,7 +177,7 @@ msgid "FreeCAD is made primarily to design objects for the real world. Everythin
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr "Το FreeCAD έχει κατασκευαστεί κυρίως για να σχεδιάζει αντικείμενα για τον πραγματικό κόσμο. Ό,τι κάνετε στο FreeCAD χρησιμοποιεί μονάδες πραγματικού κόσμου, είτε είναι μικρά, χιλιόμετρα, ίντσες ή πόδια, ή ακόμα και οποιοσδήποτε συνδυασμός μονάδων. Το FreeCAD προσφέρει <a href=https://wiki.freecad.org/Workbenches>εργαλεία</a> για την παραγωγή, την εξαγωγή και την επεξεργασία στερεών μοντέλων πλήρους ακρίβειας, την εξαγωγή τους για τρισδιάστατη εκτύπωση ή μηχανική κατεργασία CNC, τη δημιουργία 2D σχεδίων και προβολών των μοντέλων σας, πραγματοποιούν αναλύσεις όπως π.χ\n"
+msgstr "Το FreeCAD έχει κατασκευαστεί κυρίως για να σχεδιάζει αντικείμενα για τον πραγματικό κόσμο.Το FreeCAD χρησιμοποιεί μονάδες πραγματικού κόσμου, είτε είναι χιλιοστά, εκατοστά, χιλιόμετρα, ίντσες ή πόδια, ή ακόμα και οποιοσδήποτε συνδυασμός μονάδων. Το FreeCAD προσφέρει <a href=https://wiki.freecad.org/Workbenches>εργαλεία</a> για την παραγωγή, την εξαγωγή και την επεξεργασία στερεών μοντέλων πλήρους ακρίβειας, την εξαγωγή τους για τρισδιάστατη εκτύπωση ή μηχανική κατεργασία CNC, τη δημιουργία 2D σχεδίων και προβολών των μοντέλων σας, πραγματοποιούν αναλύσεις όπως π.χ\n"
 "Αναλύσεις πεπερασμένων στοιχείων (είναι μια αριθμητική μέθοδος δηλ. μέθοδος υπολογισμού με χρήση Η/Υ για τον υπολογισμό προσεγγιστικών λύσεων μερικών διαφορικών εξισώσεων)ή εξαγωγή δεδομένων μοντέλου, όπως ποσότητες ή τιμολόγια υλικών."
 
 #: features.php:40
@@ -213,12 +213,12 @@ msgid "All FreeCAD objects are natively parametric, meaning their shape can be b
 "                a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing\n"
 "                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are\n"
 "                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>."
-msgstr "Όλα τα FreeCAD αντικείμενα είναι εγγενώς παραμετρικά, που σημαίνει ότι το σχήμα τους μπορεί να βασίζεται σε\n"
-"                <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">ιδιότητες</a> όπως αριθμητικές τιμές, κείμενα, κουμπιά on/off,\n"
-"                ή ακόμα και άλλα αντικείμενα. Όλες οι αλλαγές σχήματος υπολογίζονται εκ νέου κατόπιν ζήτησης, που καταγράφονται από μια στοίβα αναίρεσης/αναίρεσης, και επιτρέπουν τη διατήρηση\n"
-"                ακριβούς ιστορικού μοντελοποίησης. Ιδιότητες ενός αντικειμένου μπορούν να οδηγήσουν την τιμή των ιδιοτήτων των άλλων αντικειμένων, επιτρέποντας το συγκρότημα\n"
-", προσαρμοσμένες παραμετρικές αλυσίδες που θα μπορούσαν να υπάρχουν μόνο στα πιο άγρια όνειρά σας. Νέα παραμετρικά αντικείμενα είναι\n"
-"                <a href=https://wiki.freecad.org/Scripted_objects>εύκολο να κωδικοποιηθούν</a>."
+msgstr "Όλα τα αντικείμενα του FreeCAD είναι εγγενώς παραμετρικά, που σημαίνει ότι το σχήμα τους μπορεί να βασίζεται σε\n"
+" <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">ιδιότητες</a> όπως αριθμητικές τιμές, κείμενα, κουμπιά ενεργοποίησης/απενεργοποίησης,\n"
+" ή ακόμα και άλλων αντικειμένων. Όλες οι αλλαγές σχήματος υπολογίζονται εκ νέου κατ' απαίτηση, καταγράφονται σε ένα αποθετήριο αναίρεσης/επανάληψης, και επιτρέπουν\n"
+" να διατηρηθεί ένα ακριβές ιστορικό μοντελοποίησης. Οι ιδιότητες ενός αντικειμένου μπορεί αλυσιδωτά να επεκτείνουν τις ιδιότητες άλλων αντικειμένων, επιτρέποντας\n"
+" σύνθετες, προσαρμοσμένες παραμετρικές αλλαγές που θα μπορούσαν να υπάρχουν μόνο στα πιο τρελά σας όνειρα. Τα νέα παραμετρικά αντικείμενα είναι\n"
+" <a href=https://wiki.freecad.org/Scripted_objects>εύκολα στον κώδικα</a>."
 
 #: features.php:83
 msgid "Python everywhere"
@@ -242,7 +242,7 @@ msgstr "Ενώ η λειτουργικότητα του πυρήνα του Free
 
 #: features.php:101
 msgid "File formats frenzy"
-msgstr "Τρέλα μορφής αρχείου"
+msgstr "Οργάνωση Αρχείων"
 
 #: features.php:103
 msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
@@ -286,9 +286,7 @@ msgstr "Το FreeCAD σας επιτρέπει να εισάγετε και να
 
 #: features.php:139
 msgid "A parametric constraints-based 2D sketcher"
-msgstr "Βασισμένο σε παραμετρικούς περιορισμούς\n"
-"δισδιάστατο σκίτσο\n"
-"(παραμετρικός πολυμορφισμός είναι ένας τρόπος να κάνουμε μια γλώσσα πιο εκφραστική, διατηρώντας ταυτόχρονα την στατική ασφάλεια τύπων)"
+msgstr "Βασισμένο σε παραμετρικούς περιορισμούς για 2D δισδιάστατο σκίτσο"
 
 #: features.php:141
 msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
@@ -353,10 +351,8 @@ msgid "FreeCAD is made for everybody, by everybody. It is developed and maintain
 "              urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or\n"
 "              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
 msgstr "Το FreeCAD κατασκευάζεται για όλους, από όλους. Αναπτύσσεται και συντηρείται\n"
-"              από μια κοινότητα προγραμματιστών, χρήστες, συντονιστές, μεταφραστές, όλοι ενωμένοι από την επιθυμία τους κάνουν το\n"
-"              FreeCAD ένα ελεύθερο και ισχυρό εργαλείο. Δεν υπάρχει εμπορικός στόχος πίσω από τη λήψη αποφάσεων, no\n"
-"              urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or\n"
-"              οικοσύστημα. Το FreeCAD και τα αρχεία και τα δεδομένα που παράγετε με το FreeCAD είναι για πάντα δικά σας."
+"              από μια κοινότητα προγραμματιστών, χρήστες, συντονιστές, μεταφραστές, και όλοι ενωμένοι από την επιθυμία τους να κάνουν το\n"
+"              FreeCAD ένα ελεύθερο και ισχυρό εργαλείο. Δεν υπάρχει εμπορικός στόχος πίσω από τη λήψη αποφάσεων, δεν σας παροτρύνουμε να αναβαθμίσετε την έκδοση του FreeCAD ή να σας οδηγήσουμε σε μια συγκεκριμένη ροή εργασίας. Στο FreeCAD τα αρχεία και τα δεδομένα που δημιουργείτε με το FreeCAD είναι για πάντα δικά σας."
 
 #: features.php:207
 msgid "Release notes"
@@ -365,8 +361,8 @@ msgstr "Σημειώσεις έκδοσης"
 #: features.php:217
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
-msgstr "Βρείτε εδώ τις σημειώσεις έκδοσης για τις τρέχουσες και τις προηγούμενες εκδόσεις του FreeCAD.\n"
-"                  Οι σημειώσεις έκδοσης περιγράφουν τι&apos;s νέα σε κάθε έκδοση:"
+msgstr "Βρείτε εδώ σημειώσεις για τις τρέχουσες εκδόσεις  και τις προηγούμενες εκδόσεις του FreeCAD.\n"
+"                  Οι σημειώσεις περιγράφουν τι&apos;s νέα σε κάθε έκδοση:"
 
 #: features.php:224
 msgid "Release 0.20 - June 2022"
@@ -415,8 +411,8 @@ msgstr "Ελάτε σε επαφή!"
 #: footer.php:23
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
 "      r-frank, epileftric, regis, rider_mortagnais, bejant."
-msgstr "© Η ομάδα του FreeCAD. Αρχική σελίδα πιστώσεις εικόνας (πάνω προς τα κάτω): ppemawm,\n"
-"      r-frank, epileftric, regis, rider_mortagnais, bejant."
+msgstr "© Η ομάδα του FreeCAD. Πιστώσεις εικόνων αρχικής σελίδας (από πάνω προς τα κάτω): ppemawm,\n"
+" r-frank, epileftric, regis, rider_mortgage, bejant."
 
 #: footer.php:27
 msgid "This project is supported by:"
@@ -444,7 +440,7 @@ msgstr "https://wiki.freecad.org"
 
 #: header.php:77
 msgid "Documentation index"
-msgstr "Ευρετήριο εγγράφων (Εγχειρίδια, βιβλία οδηγιών και προγράμματα ή μενού βοηθείας που καθοδηγούν έναν χρήστη)"
+msgstr "Ευρετήριο εγγράφων"
 
 #: header.php:78
 msgid "https://wiki.freecad.org/Getting_started"
@@ -460,7 +456,7 @@ msgstr "https://wiki.freecad.org/User_hub"
 
 #: header.php:79
 msgid "Users documentation"
-msgstr "Τεκμηρίωση για χρήστες"
+msgstr "Έγγραφα βοήθειας για τους χρήστες"
 
 #: header.php:80
 msgid "https://wiki.freecad.org/Manual"
@@ -484,7 +480,7 @@ msgstr "https://wiki.freecad.org/Tutorials"
 
 #: header.php:82 thankyou.php:127
 msgid "Tutorials"
-msgstr "Οδηγοί"
+msgstr "Επιδείξεις/Σεμηνάρια"
 
 #: header.php:88
 msgid "Contribute"
@@ -500,7 +496,7 @@ msgstr "Δωρεά / Χορηγός"
 
 #: header.php:93
 msgid "Report a bug"
-msgstr ""
+msgstr "Αναφορά Σφάλματος"
 
 #: header.php:94
 msgid "Make a pull request"
@@ -531,9 +527,9 @@ msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
 "          and changing its parameters."
-msgstr "Το FreeCAD είναι ένα παραμετρικό 3D μοντέλο ανοιχτού κώδικα που κατασκευάζεται κυρίως για\n"
-"          σχεδιασμό αντικειμένων πραγματικής ζωής οποιουδήποτε μεγέθους. Η παραμετρική μοντελοποίηση σας επιτρέπει\n"
-"          να τροποποιήσετε εύκολα το σχέδιό σας πηγαίνοντας πίσω στο ιστορικό μοντέλου σας\n"
+msgstr "Το FreeCAD είναι ένα παραμετρικό 3D πρόγραμμα ανοιχτού κώδικα που χρησημοποιήτε   κυρίως για\n"
+"          το σχεδιασμό αντικειμένων  οποιουδήποτε μεγέθους. Η παραμετρική μοντελοποίηση σας επιτρέπει\n"
+"          να τροποποιήσετε εύκολα το σχέδιό σας πηγαίνοντας πίσω στο ιστορικό του μοντέλου σας\n"
 "          και αλλάζοντας τις παραμέτρους της."
 
 #: index.php:54
@@ -545,10 +541,10 @@ msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
 "          create high quality production ready drawings."
-msgstr "Το FreeCAD σας επιτρέπει να σκιαγραφήσετε τη γεωμετρία περιόρισε τα δισδιάστατα σχήματα και να τα χρησιμοποιήσετε\n"
-"          ως βάση για την κατασκευή άλλων αντικειμένων. Περιέχει πολλά εξαρτήματα\n"
-"          για να ρυθμίσετε τις διαστάσεις ή να εξαγάγετε λεπτομέρειες σχεδιασμού από 3D μοντέλα έως\n"
-"          δημιουργούν υψηλής ποιότητας παραγωγή έτοιμα σχέδια."
+msgstr "Το FreeCAD σάς επιτρέπει να σχεδιάζετε διάφορα γεωμετρικά σχήματα και να τα χρησιμοποιείτε\n"
+"  ως βάση για την κατασκευή άλλων αντικειμένων. Περιέχει πολλά εξαρτήματα\n"
+"  για την προσαρμογή των διαστάσεων ή την εξαγωγή λεπτομερειών σχεδίασης από τρισδιάστατα μοντέλα για\n"
+" τη δημιουργία σχεδίων έτοιμα για παραγωγή υψηλής ποιότητας."
 
 #: index.php:70
 msgid "Accessible, flexible & integrated"
@@ -563,8 +559,8 @@ msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly\n"
 msgstr "Το FreeCAD είναι ένα λογισμικό πολλαπλών πλατφορμών (Windows, Mac και Linux), πολύ\n"
 "          προσαρμόσιμο και επεκτάσιμο. Διαβάζει και γράφει σε πολλές\n"
 "          ανοιχτές μορφές αρχείων όπως το STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
-"          και πολλά άλλα, καθιστώντας δυνατή την απρόσκοπτη ενσωμάτωσή του στο\n"
-"          ροή εργασίας σας."
+"          και πολλά άλλα, καθιστώντας δυνατή την απρόσκοπτη ενσωμάτωσή του στην\n"
+"         εργασίας σας."
 
 #: index.php:87
 msgid "Designed for your needs"
@@ -594,9 +590,8 @@ msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 msgstr "Το FreeCAD σας εξοπλίζει με όλα τα κατάλληλα εργαλεία για τις ανάγκες σας. Παίρνετε\n"
 "          σύγχρονα εργαλεία ανάλυσης πεπερασμένων στοιχείων (FEA), πειραματικά CFD, ειδικά BIM,\n"
 "          Γεωδεδομένα ή πάγκους εργασίας CAM/CNC, μια μονάδα προσομοίωσης ρομπότ που\n"
-"          σας επιτρέπει να μελετήσετε κινήσεις ρομπότ και πολλά άλλα χαρακτηριστικά. FreeCAD\n"
-"          είναι πραγματικά ένα ελβετικό μαχαίρι του στρατού της μηχανικής γενικής χρήσης\n"
-"          εργαλειοθήκες."
+"          σας επιτρέπει να μελετήσετε κινήσεις ρομπότ και πολλά άλλα χαρακτηριστικά. Το FreeCAD\n"
+"          είναι πραγματικά ένα ελβετικό μαχαίρι του στρατού."
 
 #: index.php:124
 msgid "Want to contribute to FreeCAD?"
@@ -607,14 +602,14 @@ msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
 "          whole community."
-msgstr "Το FreeCAD είναι ένα πραγματικά ανοικτού κώδικα έργο και αν θέλετε να βοηθήσετε\n"
-"          να διορθώσετε τα σφάλματα, να εφαρμόσει νέα δροσερά χαρακτηριστικά ή να εργαστούν στην τεκμηρίωση,\n"
-"          σας προσκαλούμε να συμμετάσχετε και να δημιουργήσετε ένα λογισμικό που θα ωφελήσει ολόκληρη την κοινότητα\n"
+msgstr "Το FreeCAD είναι ένα πρόγραμμα ανοικτού κώδικα και αν θέλετε να βοηθήσετε\n"
+"  στο να διορθώσετε τα σφάλματα, ή να εφαρμόσετε νέα χαρακτηριστικά ή να εργαστείτε με τις οδηγίες χρήσης,\n"
+"          σας προσκαλούμε να συμμετάσχετε στη δημιουργία ενός λογισμικού που θα ωφελήσει ολόκληρη την κοινότητα\n"
 "."
 
 #: index.php:132
 msgid "Get involved"
-msgstr "Εμπλακείτε"
+msgstr "Συμμετέχετε"
 
 #: sponsor.php:9
 msgid "Donating and sponsoring"
@@ -639,7 +634,7 @@ msgid "FreeCAD is a fast-growing project, developed by a\n"
 "              money."
 msgstr "Το FreeCAD είναι ένα ταχέως αναπτυσσόμενο έργο, αναπτύχθηκε από μια\n"
 "              κοινότητα προγραμματιστών και χρηστών που εργάζονται κυρίως σε εθελοντική\n"
-"              βάση, κίνητρο κυρίως από τη θέλησή τους να οικοδομήσουν μια μεγάλη, δωρεάν 3D\n"
+"              βάση. Κίνητρο κυρίως είναι η θέλησή τους να οικοδομήσουν μια μεγάλη, ένα δωρεάν 3D\n"
 "              παραμετρικό μοντέλο. Η ανάπτυξη του FreeCAD συμβαίνει κυρίως\n"
 "              λόγω της ενέργειας όλων αυτών των ανθρώπων, χωρίς την ανάγκη για\n"
 "              χρήματα."
@@ -654,12 +649,12 @@ msgid "However, money can help the project to achieve many\n"
 "              to organize events ourselves so community members can meet, pay for\n"
 "              server space and web services, and many other things."
 msgstr "Ωστόσο, τα χρήματα μπορούν να βοηθήσουν το έργο να επιτύχει πολλούς\n"
-"              άλλους στόχους. Μπορεί να βοηθήσει μερικούς από τους προγραμματιστές του να εργάζονται περισσότερο\n"
-"              συχνά ή πιο τακτικά στο έργο, πληρώνοντας για το χρόνο\n"
-"              ώστε να μπορούν να αφιερώσουν περισσότερο από αυτό στο FreeCAD, ή μπορεί να βοηθήσει\n"
+"              άλλους στόχους. Μπορεί να βοηθήσει μερικούς από τους προγραμματιστές του να εργάζονται\n"
+"              πιο τακτικά στο έργο, καθώς θα πληρώνονται για το χρόνο τους\n"
+"              ώστε να μπορούν να αφιερώσουν περισσότερο χρόνο για το FreeCAD, ή μπορεί να βοηθήσει\n"
 "              την κοινότητα να στείλει ανθρώπους σε συμβάντα που σχετίζονται με το CAD, έτσι μπορούμε\n"
 "              να παρουσιάσουμε το FreeCAD και τους επαγγελματίες χρήστες. Μπορεί επίσης να βοηθήσει\n"
-"              για να οργανώσουμε εκδηλώσεις μόνοι μας, ώστε τα μέλη της κοινότητας να μπορούν να συναντηθούν, πληρώστε για\n"
+"              για να οργανώσουμε εκδηλώσεις μόνοι μας, ώστε τα μέλη της κοινότητας να μπορούν να συναντηθούν, να πληρώνουμε για\n"
 "              υπηρεσίες διακομιστή και διαδικτύου, και πολλά άλλα πράγματα."
 
 #: sponsor.php:43
@@ -673,14 +668,14 @@ msgid "There are several ways you can donate money and help\n"
 "              to FreeCAD developers and sponsor itself several projects, efforts\n"
 "              and ideas to fuel the development of FreeCAD."
 msgstr "Υπάρχουν διάφοροι τρόποι με τους οποίους μπορείτε να δωρίσετε χρήματα και να βοηθήσετε\n"
-"              το έργο FreeCAD, είναι ένα άτομο, μια εταιρεία ή ένα\n"
-"              ίδρυμα, ανάλογα με τις προτιμήσεις σας. Τα χρήματα που δωρίσατε\n"
-"              στο έργο FreeCAD θα ληφθούν και θα αντιμετωπιστούν από την\n"
+"              το έργο FreeCAD, είτε μεμονομένα, είτε σαν εταιρεία ή ένα\n"
+"              ίδρυμα, ανάλογα με τις προτιμήσεις σας. Τα χρήματα που θα δωρίσατε\n"
+"              στο έργο FreeCAD θα ληφθούν και θα διαχειριστούν από την\n"
 "              <a href=https://github.com/FreeCAD/FPA>Ένωση Έργου FreeCAD</a>\n"
-"              (FPA), μια μη κερδοσκοπική ένωση που δημιουργήθηκε από διαχειριστές του FreeCAD\n"
-"              και βασικούς προγραμματιστές. Το FPA θα αναδιανείμει τα χρήματα που συγκεντρώνει\n"
+"              (FPA), μια μη κερδοσκοπική ένωση που δημιουργήθηκε από τους διαχειριστές \n"
+"              και βασικούς προγραμματιστές του FreeCAD. Το FPA θα αναδιανείμει τα χρήματα που συγκεντρώνει\n"
 "              σε προγραμματιστές του FreeCAD και θα χρηματοδοτήσει η ίδια πολλά έργα. προσπάθειες\n"
-"              και ιδέες για να τροφοδοτήσει την ανάπτυξη του FreeCAD."
+"              και ιδέες για την ανάπτυξη του FreeCAD."
 
 #: sponsor.php:54
 msgid "Remember, however: FreeCAD is free, and will always\n"
@@ -688,11 +683,11 @@ msgid "Remember, however: FreeCAD is free, and will always\n"
 "              in order to use FreeCAD, neither to modify or distribute it. Your\n"
 "              donation will be welcome, and can help a lot, but you will never\n"
 "              be required to pay anything to access any of the FreeCAD features."
-msgstr "Θυμηθείτε, ωστόσο: FreeCAD είναι δωρεάν, και πάντα\n"
-"              να είναι δωρεάν. Δεν απαιτείται, και ποτέ δεν θα είναι, για να δωρίσετε οτιδήποτε\n"
-"              για να χρησιμοποιήσετε το FreeCAD, ούτε να τροποποιήσει ή να διανείμει το.\n"
-"              δωρεά σας θα είναι ευπρόσδεκτη, και μπορεί να βοηθήσει πολλά, αλλά ποτέ\n"
-"              δεν θα χρειαστεί να πληρώσετε τίποτα για να αποκτήσετε πρόσβαση σε οποιαδήποτε από τις δυνατότητες του FreeCAD."
+msgstr "Θυμηθείτε, ωστόσο: Το FreeCAD είναι δωρεάν, και πάντα\n"
+"              θα είναι δωρεάν. Δεν θα απαιτηθεί, ποτέ να πληρώσετε οτιδήποτε\n"
+"              για να χρησιμοποιήσετε το FreeCAD.\n"
+"              Η δωρεά σας θα είναι ευπρόσδεκτη, και μπορεί να βοηθήσει πολύ, αλλά ποτέ\n"
+"              δεν θα χρειαστεί να πληρώσετε τίποτα για να αποκτήσετε πρόσβαση σε οποιεσδήποτε από τις δυνατότητες του FreeCAD."
 
 #: sponsor.php:69
 msgid "One-time donation"
@@ -702,15 +697,15 @@ msgstr "Δωρεά μόνο μία φορά"
 msgid "If you are not sure or not able to commit to a regular\n"
 "              donation, but still want to help the project, you can do a one-time\n"
 "              donation, of any amount."
-msgstr "Εάν δεν είστε σίγουροι ή δεν είμαστε σε θέση να δεσμευτούμε σε μια κανονική\n"
-"              δωρεά, αλλά εξακολουθεί να θέλει να βοηθήσει το έργο, μπορείτε να κάνετε μια εφάπαξ δωρεά\n"
-", οποιουδήποτε ποσού."
+msgstr "Εάν δεν είστε βέβαιοι ή δεν μπορείτε να δεσμευτείτε για μια τακτική\n"
+" δωρεά, αλλά εξακολουθείτε να θέλετε να βοηθήσετε το έργο, μπορείτε να κάνετε μια εφάπαξ\n"
+" δωρεά, οποιουδήποτε ποσού."
 
 #: sponsor.php:79
 msgid "Choose freely the amount you wish to donate one\n"
 "              time only:"
 msgstr "Επιλέξτε ελεύθερα το ποσό που θέλετε να δωρίσετε ένα\n"
-"              μόνο φορά:"
+"              μια φορά:"
 
 #: sponsor.php:94
 msgid "Sponsoring"
@@ -721,17 +716,16 @@ msgid "We call sponsoring the act of donating money\n"
 "              recurrently to the FreeCAD project. You can do that as an\n"
 "              individual or as a company or institution, through different\n"
 "              channels or platforms, depending on your preferences."
-msgstr "Καλούμε να χορηγήσουμε την πράξη της δωρεάς χρημάτων\n"
-"              επαναλαμβανόμενα στο έργο FreeCAD. Μπορείτε να το κάνετε αυτό ως άτομο\n"
-"              ή ως εταιρεία ή ίδρυμα, μέσω διαφορετικών\n"
-"              καναλιών ή πλατφορμών, ανάλογα με τις προτιμήσεις σας."
+msgstr "Αποκαλούμε χορηγία την πράξη της δωρεάς χρημάτων\n"
+" στο έργο FreeCAD. Μπορείτε να το κάνετε αυτό ως άτομο, ως εταιρεία ή ίδρυμα, μέσω διαφορετικών\n"
+" καναλιών ή πλατφορμών, ανάλογα με τις προτιμήσεις σας."
 
 #: sponsor.php:105
 msgid "Sponsoring FreeCAD allows its developers to count on\n"
 "              a steady flow of income, so it allows the FPA to plan things ahead,\n"
 "              and the FreeCAD developers to invest themselves more seriously\n"
 "              into FreeCAD."
-msgstr "Χορηγώντας FreeCAD επιτρέπει στους προγραμματιστές του να υπολογίζουν σε\n"
+msgstr "Κάνοντας χορηγίες στο FreeCAD επιτρέπει στους προγραμματιστές του να υπολογίζουν σε\n"
 "              μια σταθερή ροή του εισοδήματος, έτσι επιτρέπει στο FPA να σχεδιάσει τα πράγματα στο μέλλον,\n"
 "              και οι προγραμματιστές του FreeCAD να επενδύσουν πιο σοβαρά\n"
 "              στο FreeCAD."
@@ -834,7 +828,7 @@ msgstr "εδώ"
 
 #: thankyou.php:34
 msgid "to download the file."
-msgstr "λήψη του αρχείου."
+msgstr "Λήψη του αρχείου."
 
 #: thankyou.php:43
 msgid "Support FreeCAD!"
@@ -846,11 +840,11 @@ msgid "If you are happy with FreeCAD, and would like to help\n"
 "            open-source, paying to use FreeCAD will never be required, and\n"
 "            FreeCAD does not need money to survive, but donations help us to go\n"
 "            faster, further."
-msgstr "Αν είστε ευχαριστημένοι με το FreeCAD, and would like to help\n"
-"            it thrive, why not donate a bitκομμάτι of money to the projectέργο? Όντας\n"
-"            ανοιχτού κώδικα, η πληρωμή για χρήση του FreeCAD δεν θα απαιτηθεί ποτέ, και\n"
-"            Το FreeCAD δεν χρειάζεται χρήματα για να επιβιώσει, αλλά οι δωρεές μας βοηθούν να πάμε\n"
-"            πιο γρήγορα, περαιτέρω."
+msgstr "Εάν είστε ευχαριστημένοι με το FreeCAD και θέλετε να το βοηθήσετε\n"
+" να ευδοκιμήσει, γιατί να μην δώσετε λίγα χρήματα για το έργο; Όντας\n"
+" ανοιχτού κώδικα, δεν θα απαιτηθεί ποτέ η πληρωμή για τη χρήση του FreeCAD και\n"
+" Το FreeCAD δεν χρειάζεται χρήματα για να επιβιώσει, αλλά οι δωρεές μας βοηθούν να πάμε\n"
+" μακριά και πιο γρήγορα."
 
 #: thankyou.php:57
 msgid "If you are in, choose the amount and method of your\n"
@@ -870,8 +864,8 @@ msgid "There are also many other ways to help FreeCAD. For\n"
 "            <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a>\n"
 "            page."
 msgstr "Υπάρχουν επίσης πολλοί άλλοι τρόποι για να βοηθήσετε το FreeCAD. Για\n"
-"            παράδειγμα, μπορείτε να γράψετε κώδικα, να βοηθήσετε στο γράψιμο τεκμηρίωσης, μεταφράστε\n"
-"            το περιβάλλον εργασίας και τεκμηρίωσης του FreeCAD, βοηθήστε νέους χρήστες κλπ. Δείτε\n"
+"            παράδειγμα, μπορείτε να γράψετε κώδικα, να βοηθήσετε στις οδηγίες χρήσης, μεταφράστε\n"
+"            το περιβάλλον εργασίας και τις οδηγίες χρήσης του FreeCAD, βοηθήστε νέους χρήστες κλπ. Δείτε\n"
 "            το μόνο που χρειάζεται να ξέρετε στην\n"
 "            <a href=https://wiki.freecad.org/Help_FreeCAD>Βοήθεια FreeCAD</a>\n"
 "            σελίδα."
@@ -889,17 +883,17 @@ msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
 "            and its different workbenches, up to creating Python scripts to\n"
 "            automate it and developing your own tools and extensions."
 msgstr "Εάν είστε νέοι στο FreeCAD, ή σε 3D CAD μοντελοποίηση, εμείς\n"
-"            σας καλύπτουμε! Το FreeCAD διαθέτει μια\n"
-"            <a href=https://wiki.freecad.org>εκτενή τεκμηρίωση</a>, το οποίο\n"
-"            είναι διαθέσιμο στο διαδίκτυο, αλλά και απευθείας στο πλαίσιο της εφαρμογής FreeCAD.\n"
-"            Καλύπτει τα πάντα, από την εγκατάσταση και την έναρξη του FreeCAD, χρησιμοποιώντας το\n"
+"            σας καλύπτουμε! Το FreeCAD διαθέτει \n"
+"            <a href=https://wiki.freecad.org>εκτενές Οδηγίες</a>, οι  οποίες\n"
+"            είναι διαθέσιμες στο διαδίκτυο, αλλά και απευθείας στην εφαρμογή του  FreeCAD.\n"
+"            Καλύπτει τα πάντα, από την εγκατάσταση και την έναρξη του FreeCAD, χρησιμοποιώντας \n"
 "            και τους διαφορετικούς πάγκους εργασίας του, μέχρι να δημιουργήσετε Python scripts για να\n"
 "            αυτοματοποιήστε και αναπτύξτε τα δικά σας εργαλεία και επεκτάσεις."
 
 #: thankyou.php:97
 msgid "Below are some pages of this documentation that could\n"
 "            be useful to you:"
-msgstr "Παρακάτω είναι μερικές σελίδες αυτής της τεκμηρίωσης που θα μπορούσαν\n"
+msgstr "Παρακάτω είναι μερικές σελίδες με τις οδηγίες χρήσης που θα μπορούσαν\n"
 "            να είναι χρήσιμες σε εσάς:"
 
 #: thankyou.php:102
@@ -928,7 +922,7 @@ msgstr "Μετεγκατάσταση από άλλο λογισμικό;"
 
 #: thankyou.php:108
 msgid "Workbenches documentation"
-msgstr "Τεκμηρίωση Εργαλειοθηκών"
+msgstr "Οδηγίες χρήσης προγραμμάτων Εργαλειοθήκης"
 
 #: thankyou.php:109
 msgid "Frequently asked questions"
@@ -968,13 +962,10 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            skill levels. There you can seek advice of more advanced users, find\n"
 "            ways to solve a particular problem, or discuss ideas about and around\n"
 "            the FreeCAD world."
-msgstr "Αν αντιμετωπίσετε προβλήματα με το FreeCAD, or would like to\n"
-"            meetingσυναντώνται and discuss themesθέματα with other usersχρήστες πληρώστε μια επίσκεψη στο\n"
-"            <a href=https://forum.freecad.org>forum του FreeCAD</a>. Το φόρουμ είναι το\n"
-"            κύριο σημείο συνάντησης για τους χρήστες του FreeCAD από όλα τα μέρη του κόσμου και όλα τα\n"
-"            επίπεδα δεξιοτήτων. Εκεί μπορείτε να αναζητήσετε συμβουλές για πιο προχωρημένους χρήστες, βρείτε\n"
-"            τρόπους για να λύσετε ένα συγκεκριμένο πρόβλημα, ή συζητήστε ιδέες για και γύρω από\n"
-"            τον κόσμο του FreeCAD."
+msgstr "Εάν αντιμετωπίζετε προβλήματα με το FreeCAD ή θέλετε να\n"
+" συναντήσετε και να συζητήσετε θέματα με άλλους χρήστες, επισκεφθείτε το\n"
+" <a href=https://forum.freecad.org>φόρουμ του FreeCAD</a>. Το φόρουμ είναι το κύριο σημείο συνάντησης για χρήστες FreeCAD από όλα τα μέρη του κόσμου και όλα τα επίπεδα δεξιοτήτων. Εκεί μπορείτε να ζητήσετε συμβουλές από πιο προχωρημένους χρήστες, να βρείτε\n"
+" τρόπους επίλυσης ενός συγκεκριμένου προβλήματος ή να συζητήσετε ιδέες για και γύρω από τον κόσμο του FreeCAD."
 
 #: translation.php:54
 msgid "English"
