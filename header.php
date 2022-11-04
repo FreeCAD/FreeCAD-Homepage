@@ -49,7 +49,7 @@
           <img src="lang/<?php echo $lang; ?>/flag.jpg"/>
         </a>
 
-        <div class="dropdown-lang dropdown-menu dropdown-menu-right">
+        <div class="dropdown-menu-mobile-left dropdown-lang dropdown-menu dropdown-menu-right">
           <?php echo getFlags($currentpage); ?>
         </div>
       </li>
@@ -77,7 +77,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Documentation'); ?></a>
 
-          <div class="dropdown-community dropdown-menu dropdown-menu-right">
+          <div class="dropdown-menu-mobile-right dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org'); ?>"><?php echo _('Documentation index'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Getting_started'); ?>"><?php echo _('Getting started'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/User_hub'); ?>"><?php echo _('Users documentation'); ?></a>
@@ -91,7 +91,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Contribute'); ?></a>
 
-          <div class="dropdown-community dropdown-menu dropdown-menu-right">
+          <div class="dropdown-menu-mobile-left dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark" href="https://wiki.freecad.org/Help_FreeCAD"><?php echo _('How to help'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo $sponsorurl; ?>"><?php echo _('Donate / Sponsor'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/issues"><?php echo _('Report a bug'); ?></a>
@@ -102,7 +102,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Community'); ?></a>
 
-          <div class="dropdown-community dropdown-menu dropdown-menu-right">
+          <div class="dropdown-menu-mobile-right dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark font-weight-bold" href="https://forum.freecad.org/">Forum</a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FPA#readme">The FPA</a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD">GitHub</a>
