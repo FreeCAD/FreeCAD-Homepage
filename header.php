@@ -96,6 +96,7 @@
             <a class="dropdown-item text-dark" href="<?php echo $sponsorurl; ?>"><?php echo _('Donate / Sponsor'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/issues"><?php echo _('Report a bug'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls"><?php echo _('Make a pull request'); ?></a>
+            <a class="dropdown-item text-dark" href="https://blog.freecad.org/jobs"><?php echo _('Jobs'); ?></a>
           </div>
         </li>
 
