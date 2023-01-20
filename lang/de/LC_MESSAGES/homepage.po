@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-23 13:57+0200\n"
-"PO-Revision-Date: 2022-10-10 08:20\n"
+"PO-Revision-Date: 2023-01-17 08:26\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -91,7 +91,11 @@ msgid "Please inform your forum name or twitter handle as a note\n"
 "      so we can give you proper credits! More information about the donation\n"
 "      options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr ""
+msgstr "Bitte nennen Sie Ihren Forum-Namen oder Twitter-Nutzernamen als Notiz\n"
+"      in Ihrer Überweisung oder <a href=mailto:fpa@freecad.org>kontaktieren Sie uns</a>,\n"
+"      , damit wir Ihren Beitrag entsprechend würdigen können! Weitere Informationen über Spenden\n"
+"      und Spendeoptionen finden Sie auf der\n"
+"      <a href=https://wiki.freecad.org/donate>Spenden</a> Seite."
 
 #: downloads.php:24
 msgid "Current stable version: 0.20"
@@ -262,7 +266,25 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              and many more, in addition to FreeCAD&apos;s native\n"
 "              <a href=\"/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
 "              file formats."
-msgstr ""
+msgstr "FreeCAD erlaubt Modelle und andere Arten von Daten aus Modellen zu importieren und zu exportieren, z. B.\n"
+"              Ergebnisse von Analysen oder Mengendaten von zahlreichen verschiedenen <a href=\"https://wiki.freecad.org/Category:File_Formats\">Dateiformaten</a> wie\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Obj\">AB</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> oder\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://people.sc.fsu.edu/~jburkardt/data/off/off.html\">AUS</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
+"              und vielen weiteren Formaten - neben FreeCAD&apos;s nativem\n"
+"              <a href=\"/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> Dateiformat. Über Add-on-Arbeitsbereiche können auch weitere\n"
+"              Dateiformate hinzufügt werden."
 
 #: features.php:139
 msgid "A parametric constraints-based 2D sketcher"
@@ -412,7 +434,7 @@ msgstr "Inhaltsverzeichnis"
 
 #: header.php:78
 msgid "https://wiki.freecad.org/Getting_started"
-msgstr ""
+msgstr "https://wiki.freecad.org/Getting_started/de"
 
 #: header.php:78
 msgid "Getting started"
@@ -420,7 +442,7 @@ msgstr "Erste Schritte"
 
 #: header.php:79
 msgid "https://wiki.freecad.org/User_hub"
-msgstr ""
+msgstr "https://wiki.freecad.org/User_hub/de"
 
 #: header.php:79
 msgid "Users documentation"
@@ -428,7 +450,7 @@ msgstr "Benutzerdokumentation"
 
 #: header.php:80
 msgid "https://wiki.freecad.org/Manual"
-msgstr ""
+msgstr "https://wiki.freecad.org/Manual/de"
 
 #: header.php:80
 msgid "The FreeCAD manual"
@@ -585,12 +607,13 @@ msgstr "Spenden und Sponsern"
 
 #: sponsor.php:16
 msgid "Donating to FreeCAD"
-msgstr "Spende an FreeCAD"
+msgstr "An FreeCAD spenden"
 
 #: sponsor.php:21
 msgid "Thanks for your interest in helping the FreeCAD\n"
 "              project with donations."
-msgstr ""
+msgstr "Vielen Dank fürs Interesse, dem FreeCAD-Projekt\n"
+"              mit Spenden zu helfen."
 
 #: sponsor.php:25
 msgid "FreeCAD is a fast-growing project, developed by a\n"
@@ -650,7 +673,8 @@ msgstr ""
 #: sponsor.php:79
 msgid "Choose freely the amount you wish to donate one\n"
 "              time only:"
-msgstr ""
+msgstr "Wähle frei den Betrag, den du nur ein\n"
+"              Mal spenden möchtest:"
 
 #: sponsor.php:94
 msgid "Sponsoring"
@@ -661,14 +685,20 @@ msgid "We call sponsoring the act of donating money\n"
 "              recurrently to the FreeCAD project. You can do that as an\n"
 "              individual or as a company or institution, through different\n"
 "              channels or platforms, depending on your preferences."
-msgstr ""
+msgstr "Wir nennen Sponsoring die Aktion  immer wieder\n"
+"              für das FreeCAD-Projekt zu spenden. Das kann als\n"
+"              Person oder als Unternehmen oder Institution geschehen auf verschiedenen\n"
+"              Kanälen oder Plattformen, je nach Präferenz."
 
 #: sponsor.php:105
 msgid "Sponsoring FreeCAD allows its developers to count on\n"
 "              a steady flow of income, so it allows the FPA to plan things ahead,\n"
 "              and the FreeCAD developers to invest themselves more seriously\n"
 "              into FreeCAD."
-msgstr ""
+msgstr "Das Sponsoring von FreeCAD ermöglicht es seinen Entwicklern\n"
+"               auf einen stetigen Einkommensfluss zu bauen,\n"
+"               so dass die FPA die Dinge vorausschauend planen kann,\n"
+"              und die FreeCAD-Entwickler sich stärker dem Projekt widmen können."
 
 #: sponsor.php:111
 msgid "To encourage persons and companies to sponsor the\n"
@@ -799,7 +829,8 @@ msgstr ""
 #: thankyou.php:97
 msgid "Below are some pages of this documentation that could\n"
 "            be useful to you:"
-msgstr ""
+msgstr "Nachfolgend findest Du einige Seiten dieser Dokumentation, die Dir\n"
+"            nützlich sein können:"
 
 #: thankyou.php:102
 msgid "Installing FreeCAD on Windows"
@@ -823,7 +854,7 @@ msgstr "Erste Schritte mit FreeCAD"
 
 #: thankyou.php:107
 msgid "Migrating from other software?"
-msgstr "Migration von anderer Software?"
+msgstr "Migration von anderer CAD-Software?"
 
 #: thankyou.php:108
 msgid "Workbenches documentation"
@@ -856,7 +887,7 @@ msgid "On behalf of all of the worldwide community of users,\n"
 "            downloading our baby! We hope you will like it as much as we do."
 msgstr "Im Namen der gesamten weltweiten Gemeinschaft der Nutzer\n"
 "            Entwickler, Übersetzer, Editoren, Autoren, Tester, die hart daran\n"
-"            arbeiten, FreeCAD zum besten CAD-Modeller zu machen, danken wir Ihnen dafür, dass Sie unser Baby\n"
+"            arbeiten, FreeCAD zum besten CAD-Modellierer zu machen, danken wir Ihnen dafür, dass Sie unser Baby\n"
 "            heruntergeladen haben! Wir hoffen, dass es Ihnen genauso gut gefällt wie uns."
 
 #: thankyou.php:138
