@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-23 13:57+0200\n"
-"PO-Revision-Date: 2023-01-09 12:29\n"
+"PO-Revision-Date: 2023-02-13 13:27\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -19,67 +19,67 @@ msgstr ""
 
 #: donation.php:48
 msgid "Amount"
-msgstr ""
+msgstr "Montante"
 
 #: donation.php:55
 msgid "Donation method"
-msgstr ""
+msgstr "Método de doação"
 
 #: donation.php:57
 msgid "Please choose"
-msgstr ""
+msgstr "Escolha por favor"
 
 #: donation.php:58
 msgid "Direct SEPA bank transfer using your own bank apps"
-msgstr ""
+msgstr "Transferência bancária directa SEPA utilizando as suas próprias aplicações bancárias"
 
 #: donation.php:58
 msgid "SEPA bank transfer"
-msgstr ""
+msgstr "Transferência bancária SEPA"
 
 #: donation.php:60
 msgid "SEPA bank transfer or credit card via Stripe"
-msgstr ""
+msgstr "Transferência bancária ou cartão de crédito SEPA via Stripe"
 
 #: donation.php:60
 msgid "Stripe transfer"
-msgstr ""
+msgstr "Transferência de bandas"
 
 #: donation.php:61
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
-msgstr ""
+msgstr "Paypal permite doar usando a sua conta Paypal, ou um cartão de crédito"
 
 #: donation.php:61
 msgid "Paypal"
-msgstr ""
+msgstr "Paypal"
 
 #: donation.php:62
 msgid "Github allows you to sponsor your favorite projects using your github account, and a credit card"
-msgstr ""
+msgstr "Github permite-lhe patrocinar os seus projectos favoritos usando a sua conta github, e um cartão de crédito"
 
 #: donation.php:62
 msgid "Github"
-msgstr ""
+msgstr "GitHub"
 
 #: donation.php:63
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account"
-msgstr ""
+msgstr "OpenCollective actua como um anfitrião fiscal para projectos de código aberto. Pode doar com um cartão de crédito ou conta bancária"
 
 #: donation.php:63
 msgid "OpenCollective"
-msgstr ""
+msgstr "OpenCollective"
 
 #: donation.php:67
 msgid "SEPA Information"
-msgstr ""
+msgstr "Informação SEPA"
 
 #: donation.php:68
 msgid "Please set up your SEPA bank transfer to"
-msgstr ""
+msgstr "Por favor, configure a sua transferência bancária SEPA para"
 
 #: donation.php:72
 msgid "Bank agency"
-msgstr ""
+msgstr "Agência bancária"
 
 #: donation.php:73
 msgid "Address"
@@ -91,11 +91,14 @@ msgid "Please inform your forum name or twitter handle as a note\n"
 "      so we can give you proper credits! More information about the donation\n"
 "      options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr ""
+msgstr "Por favor, indique na nota\n"
+" de transferência qual o seu  nome no  fórum ou o utilizador do twitter,  ou contacte-nos\n"
+" através do fpa@freecad.org>, para que possamos dar-lhe os devidos créditos! Mais informações sobre as opções de doação\n"
+" na página de doações https://wiki.freecad.org/."
 
 #: downloads.php:24
 msgid "Current stable version: 0.20"
-msgstr ""
+msgstr "Versão actual estável: 0.20"
 
 #: downloads.php:25
 msgid "Select your desired platform"
@@ -124,7 +127,7 @@ msgstr "Versões em desenvolvimento"
 #: downloads.php:100
 msgid "FreeCAD's development is always active! Do you want to check out the latest development\n"
 "        release? For MacOS, Windows, Linux (AppImage) and source code, see the "
-msgstr ""
+msgstr "O desenvolvimento do FreeCAD está sempre activo! Quer verificar o último lançamento do desenvolvimento? Para MacOS, Windows, Linux (AppImage) e código fonte, veja o "
 
 #: downloads.php:102
 msgid "FreeCAD weekly builds page."
@@ -137,7 +140,7 @@ msgstr "Macros e módulos adicionais"
 #: downloads.php:113
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
-msgstr ""
+msgstr "A comunidade FreeCAD fornece uma riqueza de módulos e macros adicionais. Podem agora ser facilmente instalados directamente de dentro do FreeCAD, utilizando o "
 
 #: downloads.php:115
 msgid "Addon manager."
@@ -145,19 +148,19 @@ msgstr "Gestor de Add-ons."
 
 #: downloads.php:125
 msgid "Source code"
-msgstr ""
+msgstr "Código fonte"
 
 #: downloads.php:127
 msgid "The source code of FreeCAD is hosted mainly on "
-msgstr ""
+msgstr "O código fonte do FreeCAD está principalmente alojado em "
 
 #: downloads.php:129
 msgid "and mirrored on "
-msgstr ""
+msgstr "e espelhado em "
 
 #: downloads.php:132
 msgid "and "
-msgstr ""
+msgstr "e "
 
 #: features.php:9
 msgid "Key FreeCAD Features"
@@ -172,11 +175,15 @@ msgid "FreeCAD is made primarily to design objects for the real world. Everythin
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr ""
+msgstr "O FreeCAD foi concebido principalmente para desenhar objectos para o mundo real. Tudo o que se faz no FreeCAD utiliza unidades do mundo\n"
+" real, sejam microns, quilómetros, polegadas ou pés, ou mesmo qualquer combinação de unidades. \n"
+"As ofertas do FreeCAD <a href=https://wiki.freecad.org/Workbenches>tools</a> para produzir, exportar e\n"
+" editar modelos sólidos e de precisão total, exportá-los para impressão 3D ou máquinas com controlador CNC, “Controlo Numérico Computorizado”, criar desenhos 2D e vistas dos seus modelos,\n"
+" realizar análises tais como análises de elementos finitos, ou exportar dados de modelos tais como quantidades ou listas de materiais."
 
 #: features.php:40
 msgid "A powerful solid-based geometry kernel"
-msgstr ""
+msgstr "Um poderoso núcleo geométrico de base sólida"
 
 #: features.php:42
 msgid "FreeCAD features an advanced geometry engine based on\n"
@@ -187,7 +194,16 @@ msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
 "              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
-msgstr ""
+msgstr "FreeCAD dispõe de um motor de geometria avançada baseado na\n"
+" tecnologia Open CASCADE https://en.wikipedia.org/wiki/Open_CASCADE>. Suporta sólidos,\n"
+"  <a href=https://en.wikipedia./wiki/Boundary_representation> \n"
+"Objectos de Representação Fronteiriça (BRep), e\n"
+" <a href=https://en.wikipedia.org/wiki/ Non-uniform_rational_B-spline>  \n"
+"Estrias de base racional não uniforme (NURBS) \n"
+" curvas e superfícies, e oferece uma vasta gama de ferramentas para criar e modificar esses objetos, incluindo complexas\n"
+"              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Booleana</a> operações,\n"
+"              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>arquivos</a>, limpeza de forma e\n"
+"              <a href=https://wiki.freecad.org/OpenCASCADE>muito mais</a>."
 
 #: features.php:58
 msgid "A wi(l)dly parametric environment"
