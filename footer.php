@@ -9,7 +9,7 @@
       <?php echo _('Get in touch!'); ?><br/>
       <a href="https://forum.freecad.org/"><img class="icon-social m-2" src="svg/icon-forum-light.svg" alt="Forum"/></a>
       <a href="https://github.com/FreeCAD/FreeCAD"><img class="icon-social m-2" src="svg/icon-github-light.svg" alt="GitHub"/></a>
-      <a href="https://fosstodon.org/@FreeCAD"><img class="icon-social m-2" src="svg/icon-mastodon-light.svg" alt="Mastodon"/></a>
+      <a href="https://fosstodon.org/@FreeCAD" rel="me"><img class="icon-social m-2" src="svg/icon-mastodon-light.svg" alt="Mastodon"/></a>
       <a href="https://matrix.to/#/#FreeCAD_FreeCAD:gitter.im"><img class="icon-social m-2" src="svg/icon-matrix-light.svg" alt="Matrix"/></a>
       <a href="irc://irc.libera.chat/freecad"><img class="icon-social m-2" src="svg/icon-irc-light.svg" alt="IRC" /></a>
       <a href="https://gitter.im/FreeCAD/FreeCAD"><img class="icon-social m-2" src="svg/icon-gitter-light.svg" alt="Gitter.im"/></a>
