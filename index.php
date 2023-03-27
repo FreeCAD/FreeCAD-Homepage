@@ -25,7 +25,7 @@
       </div>
     </section>
 
-    <div class="d-flex justify-content-center"><img id="floating-arrow" src="svg/icon-down.svg" onClick="onClickArrow()"/></div>
+    <div class="d-flex justify-content-center"><img id="floating-arrow" src="svg/icon-down.svg" onClick="onClickArrow()" onmouseover="" style="cursor: pointer;"/></div>
 
     <a id="belowArrow"></a>
 
