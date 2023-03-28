@@ -56,7 +56,7 @@
             it thrive, why not donate a bit of money to the project? Being
             open-source, paying to use FreeCAD will never be required, and
             FreeCAD does not need money to survive, but donations help us to go
-            faster, further.'); ?>
+            further, faster.'); ?>
             </p>
 
             <p>
