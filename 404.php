@@ -12,7 +12,7 @@
   <div id="main" class="container-fluid">
     <section class="row section-cover d-flex align-items-center">
       <div class="col-lg-8">
-        <img class="img-fluid" src="svg/404.svg" alt="Cover Photo"/>
+        <img class="img-fluid" src="svg/WhatsThis.svg" alt="Error Photo"/>
       </div>
 
       <div class="col-lg-4 text-center text-lg-left align-content-center order-lg-first">
