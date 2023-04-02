@@ -24,3 +24,5 @@ RewriteRule ^(.*)$ $1.php [NC,L]
 
 RedirectPermanent /download.php /downloads
 RedirectPermanent /download /downloads
+
+ErrorDocument 404 /404.php
