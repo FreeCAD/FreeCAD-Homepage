@@ -82,9 +82,11 @@
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Getting_started'); ?>"><?php echo _('Getting started'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/User_hub'); ?>"><?php echo _('Users documentation'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Manual'); ?>"><?php echo _('The FreeCAD manual'); ?></a>
+            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Workbenches'); ?>"><?php echo _('Workbenches documentation'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Power_users_hub'); ?>"><?php echo _('Python coding documentation'); ?></a>
+            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Developer_hub'); ?>"><?php echo _('C++ coding documentation'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Tutorials'); ?>"><?php echo _('Tutorials'); ?></a>
-
+            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Frequently_asked_questions'); ?>"><?php echo _('Frequently asked questions'); ?></a>
           </div>
         </li>
 
