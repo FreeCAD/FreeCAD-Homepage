@@ -83,7 +83,7 @@
             <h3><?php echo _('Python everywhere'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('While the FreeCAD core functionality is coded in C++ for robustness and performance,
-                  large parts of the external layers,  workbenches and and almost all the communication between
+                  large parts of the external layers,  workbenches and almost all the communication between
                   the core and the user interface is coded in <a href=https://python.org>Python</a>,
                   a flexible, user-friendly, easy to learn programming language. From Python code, you are able to
                   do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line
