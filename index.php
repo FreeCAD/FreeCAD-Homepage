@@ -69,7 +69,7 @@
       <div class="col-lg-4 text-light text-center text-lg-left px-md-4">
         <h3 class="section-title mt-4 mt-lg-0"><?php echo _('Accessible, flexible & integrated'); ?></h3>
         <p class="section-body">
-          <?php echo _('FreeCAD is a multiplatfom (Windows, Mac and Linux), highly
+          <?php echo _('FreeCAD is a multiplatform (Windows, Mac and Linux), highly
           customizable and extensible software. It reads and writes to many
           open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE
           and many others, making it possible to seamlessly integrate it into
