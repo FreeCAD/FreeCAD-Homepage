@@ -31,6 +31,15 @@
 
   <!-- Custom Styles -->
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+  <!-- Social networks -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@FreeCADNews" />
+  <meta name="twitter:creator" content="@FreeCADNews" />
+  <meta property="og:title" content="<?php echo _('FreeCAD: Your own 3D parametric modeler'); ?>" />
+  <meta property="og:description" content="FreeCAD, the open source 3D parametric modeler" />
+  <meta property="og:image" content="https://freecad.orf/images/banner.jpg" />
+
 </head>
 
 <?php if ($currentpage == "thankyou.php") { ?>
