@@ -258,6 +258,7 @@
               <div class="bronze sponsor">Ian Rees</div>
               <div class="bronze sponsor">Ton Roosendaal</div>
               <div class="bronze sponsor">Lukas Alberts</div>
+              <div class="bronze sponsor">Marius Grunca</div>
 
           </div>
         </section>
