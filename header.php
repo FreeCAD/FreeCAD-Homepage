@@ -105,10 +105,11 @@
           <div class="dropdown-menu-mobile-left dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark" href="https://wiki.freecad.org/Help_FreeCAD"><?php echo _('How to help'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo $sponsorurl; ?>"><?php echo _('Donate / Sponsor'); ?></a>
-            <a class="dropdown-item text-dark" href="https://freecad.github.io/DevelopersHandbook/"><?php echo _('Developers handbook'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/issues"><?php echo _('Report a bug'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls"><?php echo _('Make a pull request'); ?></a>
             <a class="dropdown-item text-dark" href="https://blog.freecad.org/jobs"><?php echo _('Jobs'); ?></a>
+            <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/blob/master/CONTRIBUTING.md"><?php echo _('Contribution guidelines'); ?></a>
+            <a class="dropdown-item text-dark" href="https://freecad.github.io/DevelopersHandbook/"><?php echo _('Developers handbook'); ?></a>
           </div>
         </li>
 
@@ -116,6 +117,7 @@
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Community'); ?></a>
 
           <div class="dropdown-menu-mobile-right dropdown-community dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/blob/master/CODE_OF_CONDUCT.md">Code of conduct</a>
             <a class="dropdown-item text-dark font-weight-bold" href="https://forum.freecad.org/">Forum</a>
             <a class="dropdown-item text-dark" href="https://fpa.freecad.org">The FPA</a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD">GitHub</a>
