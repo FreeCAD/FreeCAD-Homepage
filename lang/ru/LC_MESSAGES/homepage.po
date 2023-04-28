@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-23 13:57+0200\n"
-"PO-Revision-Date: 2023-02-27 14:43\n"
+"POT-Creation-Date: 2023-04-27 16:47-0500\n"
+"PO-Revision-Date: 2023-04-28 09:38\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -17,89 +17,125 @@ msgstr ""
 "X-Crowdin-File: homepage.po\n"
 "X-Crowdin-File-ID: 27908\n"
 
-#: donation.php:48
+#: 404.php:23
+msgid "Home"
+msgstr "Домой"
+
+#: 404.php:24 index.php:23
+msgid "See what's new"
+msgstr "Просмотреть нововведения"
+
+#: contributor.php:11
+msgid "Thank you for your contribution!"
+msgstr "Благодарим вас за ваш вклад!"
+
+#: contributor.php:15
+msgid "Thank you for supporting FreeCAD!\n"
+"            Whether you donated a little or a lot, all efforts contribute to \n"
+"            make FreeCAD development go further and faster."
+msgstr "Спасибо за поддержку FreeCAD!\n"
+"            Вне зависимости от того, пожертвовали ли вы немного или много, все усилия направлены на то, чтобы \n"
+"            сделать развитие FreeCAD стало еще более быстрым."
+
+#: contributor.php:20
+msgid "If you have made a recurring donation above 25 USD/EUR \n"
+"            per month (or a one-time donation above 300 USD/EUR), you are \n"
+"            eligible to become a bronze, silver or gold sponsor and can have \n"
+"            your name, company name or logo displayed on the FreeCAD website, \n"
+"            depending on the tier you fit in. If you have not yet informed us of \n"
+"            the name you wish to see displayed, please reach to us at"
+msgstr "Если вы сделали регулярное пожертвование на сумму более 25 долларов США/евро \n"
+" в месяц (или единовременное пожертвование на сумму более 300 долларов США/евро), вы \n"
+" имеете право стать бронзовым, серебряным или золотым спонсором и можете иметь \n"
+" имя, название компании или логотип, отображаемые на веб-сайте FreeCAD, \n"
+" в зависимости от того, к какому уровню вы относитесь. Если вы еще не сообщили нам \n"
+" имя, которое хотите отображать, свяжитесь с нами по адресу"
+
+#: contributor.php:29
+msgid "Thanks!"
+msgstr "Спасибо!"
+
+#: contributor.php:32
+msgid "The FreeCAD project association"
+msgstr "Ассоциация проектов FreeCAD"
+
+#: donation.php:60
 msgid "Amount"
 msgstr "Сумма"
 
-#: donation.php:55
+#: donation.php:67
 msgid "Donation method"
 msgstr "Способ перечисления пожертвования"
 
-#: donation.php:57
+#: donation.php:69
 msgid "Please choose"
 msgstr "Пожалуйста, выберите"
 
-#: donation.php:58
+#: donation.php:70
 msgid "Direct SEPA bank transfer using your own bank apps"
 msgstr "Прямой банковский перевод SEPA с помощью собственных банковских приложений"
 
-#: donation.php:58
+#: donation.php:70
 msgid "SEPA bank transfer"
 msgstr "Банковский перевод SEPA"
 
-#: donation.php:60
-msgid "SEPA bank transfer or credit card via Stripe"
-msgstr "Банковский перевод SEPA или кредитной картой через Stripe"
+#: donation.php:71
+msgid "Credit card payment via Stripe"
+msgstr "Оплата кредитной картой через Stripe"
 
-#: donation.php:60
-msgid "Stripe transfer"
-msgstr "Перевод Stripe"
+#: donation.php:71
+msgid "Credit card (Stripe)"
+msgstr "Кредитная карта (Stripe)"
 
-#: donation.php:61
+#: donation.php:72
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
 msgstr "Paypal позволяет отправлять пожертвования с помощью вашего счета Paypal или кредитной карты"
 
-#: donation.php:61
+#: donation.php:72
 msgid "Paypal"
 msgstr "PayPal"
 
-#: donation.php:62
+#: donation.php:73
 msgid "Github allows you to sponsor your favorite projects using your github account, and a credit card"
 msgstr "Github позволяет вам спонсировать ваши любимые проекты, используя ваш аккаунт на Github и кредитную карту"
 
-#: donation.php:62
+#: donation.php:73
 msgid "Github"
 msgstr "Github"
 
-#: donation.php:63
-msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account"
-msgstr "OpenCollective выступает в роли фискального представителя для проектов с открытым исходным кодом. Вы можете сделать пожертвование с помощью кредитной карты или банковского счета"
+#: donation.php:74
+msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
+msgstr "OpenCollective выступает в качестве финансового хоста для проектов с открытым исходным кодом. Вы можете сделать пожертвование с помощью кредитной карты или банковского счета. OpenCollective является организацией 501 (c) 3 и предоставляет налоговые вычеты в США."
 
-#: donation.php:63
-msgid "OpenCollective"
-msgstr "OpenCollective"
+#: donation.php:74
+msgid "OpenCollective (501(c)3)"
+msgstr "OpenCollective (501(c)3)"
 
-#: donation.php:67
+#: donation.php:78
 msgid "SEPA Information"
 msgstr "Информация о SEPA"
 
-#: donation.php:68
+#: donation.php:79
 msgid "Please set up your SEPA bank transfer to"
 msgstr "Пожалуйста, настройте банковский перевод SEPA"
 
-#: donation.php:72
+#: donation.php:83
 msgid "Bank agency"
 msgstr "Банковское агентство"
 
-#: donation.php:73
+#: donation.php:84
 msgid "Address"
 msgstr "Адрес"
 
-#: donation.php:75
-msgid "Please inform your forum name or twitter handle as a note\n"
-"      in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>,\n"
-"      so we can give you proper credits! More information about the donation\n"
-"      options on the\n"
+#: donation.php:88
+msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr "Пожалуйста, укажите имя вашего форума или дескриптор твиттера в качестве заметки\n"
-"      в вашем передаче, или <a href=mailto:fpa@freecad.org>свяжитесь с нами</a>,\n"
-"      чтобы мы могли предоставить вам соответствующие кредиты! Дополнительная информация об опциях пожертвования\n"
-"      на странице\n"
-"      <a href=https://wiki.freecad.org/donate>пожертвования</a> </a>."
+msgstr "Более подробная информация о различных методах и вариантах пожертвований представлена на\n"
+" странице <a href=https://wiki.freecad.org/donate>пожертвования</a>."
 
 #: downloads.php:24
-msgid "Current stable version: 0.20"
-msgstr "Текущая стабильная версия: 0.20"
+msgid "Current stable version: 0.20.2"
+msgstr "Текущая стабильная версия: 0.20.2"
 
 #: downloads.php:25
 msgid "Select your desired platform"
@@ -126,42 +162,80 @@ msgid "Development versions"
 msgstr "Разрабатываемые версии"
 
 #: downloads.php:100
-msgid "FreeCAD's development is always active! Do you want to check out the latest development\n"
-"        release? For MacOS, Windows, Linux (AppImage) and source code, see the "
-msgstr "Развитие FreeCAD никогда не останавливается! Хотите проверить последнюю версию\n"
-"        для разработчиков? Для MacOS, Windows, Linux (AppImage) и исходного кода смотрите "
+msgid "FreeCAD's development happens daily!"
+msgstr "Развитие FreeCAD происходит ежедневно!"
+
+#: downloads.php:101
+msgid "Therefore we generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
+msgstr "Поэтому мы создаем сборки, основанные на <i>передовом</i> коде FreeCAD, чтобы пользователи могли тестировать исправления/регрессии наряду с новыми функциями."
 
 #: downloads.php:102
-msgid "FreeCAD weekly builds page."
-msgstr "Страница с еженедельными сборками FreeCAD."
+msgid "We recommend more savvy users to run dev builds and help spur FreeCAD's progress."
+msgstr "Мы рекомендуем более опытным пользователям запускать сборки для разработчиков и способствовать прогрессу FreeCAD."
+
+#: downloads.php:103
+msgid "We also recommend backing up files before working with a dev build."
+msgstr "Мы также рекомендуем создавать резервные копии файлов перед работой со сборкой для разработчиков."
+
+#: downloads.php:104
+msgid "The following dev builds are available for different platforms/distributions:"
+msgstr "Следующие dev сборки доступны для различных платформ/дистрибутивов:"
+
+#: downloads.php:106
+msgid "Windows"
+msgstr "Окна"
+
+#: downloads.php:106 downloads.php:107 downloads.php:109
+msgid "Conda"
+msgstr "Conda"
+
+#: downloads.php:107
+msgid "macOS"
+msgstr "macOS"
+
+#: downloads.php:108
+msgid "Homebrew"
+msgstr "Доморощенный"
+
+#: downloads.php:109
+msgid "Linux"
+msgstr "Linux"
+
+#: downloads.php:110
+msgid "Snap"
+msgstr "Привязка"
 
 #: downloads.php:111
+msgid "Flatpak"
+msgstr "Flatpak"
+
+#: downloads.php:121
 msgid "Additional modules and macros"
 msgstr "Дополнительные модули и макросы"
 
-#: downloads.php:113
+#: downloads.php:123
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr "Сообщество FreeCAD предоставляет богатое разнообразие дополнительных модулей и макросов.\n"
 "        Теперь вы можете легко установить их прямо из FreeCAD, используя "
 
-#: downloads.php:115
+#: downloads.php:125
 msgid "Addon manager."
 msgstr "Менеджер дополнений."
 
-#: downloads.php:125
+#: downloads.php:135
 msgid "Source code"
 msgstr "Исходный код"
 
-#: downloads.php:127
-msgid "The source code of FreeCAD is hosted mainly on "
+#: downloads.php:137
+msgid "The source code of FreeCAD is hosted primarily on "
 msgstr "Исходный код FreeCAD размещён, в основном, на "
 
-#: downloads.php:129
+#: downloads.php:139
 msgid "and mirrored on "
 msgstr "и зеркалируется на "
 
-#: downloads.php:132
+#: downloads.php:142
 msgid "and "
 msgstr "и "
 
@@ -229,15 +303,15 @@ msgstr "Python повсюду"
 
 #: features.php:85
 msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance,\n"
-"                  large parts of the external layers,  workbenches and and almost all the communication between\n"
+"                  large parts of the external layers,  workbenches and almost all the communication between\n"
 "                  the core and the user interface is coded in <a href=https://python.org>Python</a>,\n"
 "                  a flexible, user-friendly, easy to learn programming language. From Python code, you are able to\n"
 "                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line\n"
 "                  commands in the integrated Python console to recording macros, coding your own tools up to\n"
 "                  full custom workbenches."
 msgstr "В то время как основная функциональность FreeCAD закодирована на C++ для надежности и производительности,\n"
-" большая часть внешних слоев, рабочих мест и почти вся связь между\n"
-" ядром и пользовательским интерфейсом закодирована в <a href=https:// python.org>Python</a>,\n"
+" большая часть внешних слоев, рабочих мест и почти все взаимодействие между\n"
+" ядром и пользовательским интерфейсом закодированы на <a href=https://python.org>Python</a>,\n"
 " гибкий, удобный и простой в освоении язык программирования. Используя код Python, вы можете\n"
 " делать <a href=https://wiki.freecad.org/Power_users_hub>все что угодно в FreeCAD</a>, от простых однострочных\n"
 " команд во встроенной консоли Python до запись макросов, кодирование ваших собственных инструментов вплоть до\n"
@@ -265,27 +339,27 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
 "              and many more, in addition to FreeCAD&apos;s native\n"
-"              <a href=\"/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
+"              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
 "              file formats."
-msgstr "FreeCAD позволяет импортировать и экспортировать модели и множество других данных из вашей модели, таких как\n"
-"              анализ результатов или количеств данных в десятки различных <a href=\"https://wiki.freecad.org/Category:File_Formats\">файловых форматов</a> таких как\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Obj\">ОБДЖ</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> или\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://people.sc.fsu.edu/~jburkardt/data/off/off.html\">OFF</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">НАСТРАН</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">CSG OpenSCAD</a>\n"
-"              и многие другие Кроме FreeCAD&apos;с родным\n"
-"              <a href=\"/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> формат. Рабочие верстаки дополнений также могут добавить еще\n"
-"              форматов."
+msgstr "FreeCAD позволяет импортировать и экспортировать модели и многие другие типы данных из ваших моделей, например\n"
+"анализирует результаты или количественные данные в десятки различных <a href=\"https://wiki.freecad.org/Category:File_Formats\"> форматы файлов</a>, такие как\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
+" < a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Obj\">OBJ</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg \">DWG</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
+" < a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</ a> или\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://people.sc.fsu.edu/~jburkardt/data/off/off.html\">OFF</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
+" <a rel=\"nofollow\" класс =\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
+" <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
+" и многое другое, в дополнение к родному FreeCAD\n"
+" <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"Формат файла FCStd\">Формат файла FCStd</a>. Дополнительные рабочие места также могут добавлять\n"
+" другие форматы файлов.<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\"><a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">."
 
 #: features.php:139
 msgid "A parametric constraints-based 2D sketcher"
@@ -410,105 +484,161 @@ msgstr "Выпуск 0.12 - Декабрь 2011"
 msgid "Release 0.11 - March 2011"
 msgstr "Выпуск 0.11 - Март 2011"
 
+#: features.php:244
+msgid "Follow the official FreeCAD channels for fresh news:"
+msgstr "Следуйте официальным каналам FreeCAD для свежих новостей:"
+
+#: features.php:250
+msgid "Official blog"
+msgstr "Официальный блог"
+
+#: features.php:251
+msgid "Twitter account"
+msgstr "Аккаунт Twitter"
+
 #: footer.php:9
 msgid "Get in touch!"
 msgstr "Свяжитесь с нами!"
 
-#: footer.php:23
+#: footer.php:24
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
 "      r-frank, epileftric, regis, rider_mortagnais, bejant."
 msgstr "© Команда FreeCAD. Авторы изображений (сверху вниз): ppemawm,\n"
 " r-frank, epileftric, regis, regis, rider_mortagnais, bejant."
 
-#: footer.php:27
+#: footer.php:28
 msgid "This project is supported by:"
 msgstr "Этот проект поддерживается:"
 
-#: header.php:26
+#: footer.php:36
+msgid "and"
+msgstr "и"
+
+#: footer.php:37
+msgid "other sponsors"
+msgstr "другие спонсоры"
+
+#: header.php:26 header.php:39
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Ваша собственная программа трёхмерного параметрического моделирования"
 
-#: header.php:66
+#: header.php:75
 msgid "Features"
 msgstr "Возможности"
 
-#: header.php:70
+#: header.php:79
 msgid "Download"
 msgstr "Скачать"
 
-#: header.php:74
+#: header.php:83
+msgid "Blog"
+msgstr "Блог"
+
+#: header.php:87
 msgid "Documentation"
 msgstr "Документация"
 
-#: header.php:77
+#: header.php:90
 msgid "https://wiki.freecad.org"
 msgstr "https://wiki.freecadweb.org/Main_Page/ru"
 
-#: header.php:77
+#: header.php:90
 msgid "Documentation index"
 msgstr "Индекс документации"
 
-#: header.php:78
+#: header.php:91
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started/ru"
 
-#: header.php:78
+#: header.php:91
 msgid "Getting started"
 msgstr "Приступая к работе"
 
-#: header.php:79
+#: header.php:92
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub/ru"
 
-#: header.php:79
+#: header.php:92
 msgid "Users documentation"
 msgstr "Пользовательская документация"
 
-#: header.php:80
+#: header.php:93
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual/ru"
 
-#: header.php:80
+#: header.php:93
 msgid "The FreeCAD manual"
 msgstr "Руководство по FreeCAD"
 
-#: header.php:81
+#: header.php:94
+msgid "https://wiki.freecad.org/Workbenches"
+msgstr "https://wiki.freecad.org/Workbenches/ru"
+
+#: header.php:94 thankyou.php:114
+msgid "Workbenches documentation"
+msgstr "Документация верстаков"
+
+#: header.php:95
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub/ru"
 
-#: header.php:81
+#: header.php:95
 msgid "Python coding documentation"
 msgstr "Документация по кодированию на Python"
 
-#: header.php:82
+#: header.php:96
+msgid "https://wiki.freecad.org/Developer_hub"
+msgstr "https://wiki.freecad.org/Developer_hub/ru"
+
+#: header.php:96
+msgid "C++ coding documentation"
+msgstr "Документация по коду C++"
+
+#: header.php:97
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials/ru"
 
-#: header.php:82 thankyou.php:127
+#: header.php:97 thankyou.php:133
 msgid "Tutorials"
 msgstr "Уроки"
 
-#: header.php:88
+#: header.php:98
+msgid "https://wiki.freecad.org/Frequently_asked_questions"
+msgstr "https://wiki.freecad.org/Frequently_asked_questions/ru"
+
+#: header.php:98 thankyou.php:115
+msgid "Frequently asked questions"
+msgstr "Часто задаваемые вопросы"
+
+#: header.php:103
 msgid "Contribute"
 msgstr "Внести вклад"
 
-#: header.php:91
+#: header.php:106
 msgid "How to help"
 msgstr "Как помочь"
 
-#: header.php:92
+#: header.php:107
 msgid "Donate / Sponsor"
 msgstr "Пожертвовать/Спонсировать"
 
-#: header.php:93
+#: header.php:108
+msgid "Developers handbook"
+msgstr "Руководство для разработчиков"
+
+#: header.php:109
 msgid "Report a bug"
 msgstr "Сообщить об ошибке"
 
-#: header.php:94
+#: header.php:110
 msgid "Make a pull request"
 msgstr "Сделать запрос"
 
-#: header.php:99
+#: header.php:111
+msgid "Jobs"
+msgstr "Вакансии"
+
+#: header.php:116
 msgid "Community"
 msgstr "Сообщество"
 
@@ -519,10 +649,6 @@ msgstr "Ваша собственная программа трёхмерног�
 #: index.php:22
 msgid "Download now"
 msgstr "Скачать сейчас"
-
-#: index.php:23
-msgid "See what's new"
-msgstr "Просмотреть нововведения"
 
 #: index.php:38
 msgid "Freedom to build what you want"
@@ -554,16 +680,15 @@ msgid "Accessible, flexible & integrated"
 msgstr "Доступность, гибкость и интегрированность"
 
 #: index.php:72
-msgid "FreeCAD is a multiplatfom (Windows, Mac and Linux), highly\n"
+msgid "FreeCAD is a multiplatform (Windows, Mac and Linux), highly\n"
 "          customizable and extensible software. It reads and writes to many\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
 "          and many others, making it possible to seamlessly integrate it into\n"
 "          your workflow."
-msgstr "FreeCAD — это многоплатформенная (Windows, Mac и Linux), высоко-\n"
-"          настраиваемая и расширяемая программа. Она читает и записывает во многие\n"
-"          открытые форматы файлов, такие как STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
-"          и многие другие, позволяя легко интегрировать её в\n"
-"         ваш рабочий процесс."
+msgstr "FreeCAD — это многоплатформенное (Windows, Mac и Linux) программное обеспечение с широкими возможностями настройки и расширения. Он читает и записывает во многие\n"
+" открытые форматы файлов, такие как STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
+" и многие другие, что позволяет беспрепятственно интегрировать его\n"
+" в ваш рабочий процесс."
 
 #: index.php:87
 msgid "Designed for your needs"
@@ -663,7 +788,7 @@ msgid "There are several ways you can donate money and help\n"
 "              the FreeCAD project, being an individual, a company or an\n"
 "              institution, depending on your preferences. The money you donate\n"
 "              to the FreeCAD project will be received and handled by the\n"
-"              <a href=https://github.com/FreeCAD/FPA>FreeCAD Project Association</a>\n"
+"              <a href=https://fpa.freecad.org>FreeCAD Project Association</a>\n"
 "              (FPA), a non-profit association created by FreeCAD administrators\n"
 "              and core developers. The FPA will redistribute the money it gathers\n"
 "              to FreeCAD developers and sponsor itself several projects, efforts\n"
@@ -672,9 +797,9 @@ msgstr "Есть несколько способов, которыми вы мо
 " помочь проекту FreeCAD, будучи частным лицом, компанией или\n"
 " учреждением, в зависимости от ваших предпочтений. Деньги, которые вы пожертвуете\n"
 " проекту FreeCAD, будут получены и обработаны\n"
-" <a href=https://github.com/FreeCAD/FPA>Ассоциацией проектов FreeCAD</a>\n"
-" (FPA), не -коммерческая ассоциация, созданная администраторами\n"
-" FreeCAD и основными разработчиками. FPA будет перераспределять собранные\n"
+" <a href=https://fpa.freecad.org>Ассоциацией проектов FreeCAD</a>\n"
+" (FPA), некоммерческой организацией. ассоциация, созданная администраторами FreeCAD\n"
+" и основными разработчиками. FPA будет перераспределять собранные\n"
 " деньги среди разработчиков FreeCAD и спонсировать несколько проектов,\n"
 " усилий и идей, направленных на развитие FreeCAD."
 
@@ -734,15 +859,15 @@ msgstr "Спонсорство FreeCAD позволяет его разрабо�
 
 #: sponsor.php:111
 msgid "To encourage persons and companies to sponsor the\n"
-"              FreeCAD project, we have created different sponsoring tiers. By\n"
-"              donating regularly to the project, you will have the possibility\n"
-"              to have your name, company name and/or logo to be featured on this\n"
-"              website, depending on the tier you fit into:"
-msgstr "Поощрять людей и компаний к спонсированию проекта\n"
-"              FreeCAD, мы создали различные уровни спонсорства.\n"
-"              регулярно пожертвовывая на реализацию проекта, у вас будет возможность\n"
-"              иметь ваше имя, название и/или логотип компании, которые будут размещены на этом сайте\n"
-", в зависимости от того, какой уровень вы устанавливаете:"
+"              FreeCAD project, we have created different sponsoring tiers. When\n"
+"              donating regularly to the project, unless you prefer to stay\n"
+"              anonymous, your name, company name and/or logo will be featured\n"
+"              on this website, depending on the tier you fit into:"
+msgstr "Чтобы побудить людей и компании спонсировать\n"
+" проект FreeCAD, мы создали различные уровни спонсорства. При\n"
+" регулярном пожертвовании проекту, если вы не предпочитаете оставаться\n"
+" анонимным, ваше имя, название компании и/или логотип будут отображаться\n"
+" на этом веб-сайте в зависимости от уровня, к которому вы относитесь:"
 
 #: sponsor.php:118
 msgid "Normal sponsor"
@@ -763,21 +888,21 @@ msgid "Bronze sponsor"
 msgstr "Бронзовый спонсор"
 
 #: sponsor.php:124
-msgid "from 25 USD / 25 EUR per month. Allows you to have\n"
-"                your name or company name displayed on this page."
-msgstr "от 25 USD / 25 EUR в месяц. Позволяет\n"
-"                ваше имя или название компании отображается на этой странице."
+msgid "from 25 USD / 25 EUR per month. Your name or\n"
+"                company name is displayed on this page."
+msgstr "от 25 USD / 25 EUR в месяц. Ваше имя или\n"
+"                название компании отображается на этой странице."
 
 #: sponsor.php:126
 msgid "Silver sponsor"
 msgstr "Серебряный спонсор"
 
 #: sponsor.php:127
-msgid "from 100 USD / 100 EUR per month. Allows you to have\n"
-"                your name or company name displayed on this page, with a link to\n"
+msgid "from 100 USD / 100 EUR per month. Your name or\n"
+"                company name is displayed on this page, with a link to\n"
 "                your website, and a one-line description text."
-msgstr "от 100 USD / 100 EUR в месяц. Позволяет\n"
-"                ваше имя или название компании отображаются на этой странице, с ссылкой на\n"
+msgstr "от 100 USD / 100 EUR в месяц. Ваше имя или название компании\n"
+"                отображается на этой странице, с ссылкой на\n"
 "                ваш сайт, и текст описания в одной строке."
 
 #: sponsor.php:130
@@ -785,10 +910,10 @@ msgid "Gold sponsor"
 msgstr "Золотой спонсор"
 
 #: sponsor.php:131
-msgid "from 200 USD / 200 EUR per month. Allows you to\n"
-"                have your name or company name and logo displayed on this page,\n"
+msgid "from 200 USD / 200 EUR per month. Your name\n"
+"                or company name and logo displayed on this page,\n"
 "                with a link to your website and a custom description text.\n"
-"                Companies that have helped FreeCAD early on will also appear\n"
+"                Companies that have helped FreeCAD early on also appear\n"
 "                under Gold sponsors."
 msgstr "от 200 USD / 200 EUR в месяц. Позволяет\n"
 "                иметь ваше имя или название компании и логотип, отображаемый на этой странице,\n"
@@ -797,58 +922,78 @@ msgstr "от 200 USD / 200 EUR в месяц. Позволяет\n"
 "                в разделе \"Золотые спонсоры\"."
 
 #: sponsor.php:138
+msgid "Instead of donating each month, you might find it\n"
+"              more comfortable to make a one-time donation that, when divided by\n"
+"              twelve, would give you right to enter a sponsoring tier. Don't\n"
+"              hesitate to do so!"
+msgstr "Вместо того, чтобы делать пожертвования каждый месяц, вам может быть\n"
+" удобнее сделать единовременное пожертвование, которое, если разделить его\n"
+" на двенадцать, даст вам право перейти на уровень спонсорства. Не стесняйтесь сделать это!"
+
+#: sponsor.php:144
 msgid "Choose freely the amount you wish to donate each\n"
 "              month:"
 msgstr "Выберите сумму, которую Вы готовы жертвовать каждый\n"
 "         месяц:"
 
 #: sponsor.php:149
+msgid "Please inform your forum name or twitter handle as a note\n"
+"              in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>,\n"
+"              so we can give you proper credits!"
+msgstr "Пожалуйста, сообщите свое имя на форуме или дескриптор в Твиттере в примечании\n"
+" к вашему переводу или <a href=mailto:fpa@freecad.org>свяжитесь с нами</a>,\n"
+" чтобы мы могли предоставить вам надлежащие кредиты!"
+
+#: sponsor.php:160
 msgid "Gold sponsors"
 msgstr "Золотые спонсоры"
 
-#: sponsor.php:190
+#: sponsor.php:186
+msgid "Early sponsors"
+msgstr "Ранние спонсоры"
+
+#: sponsor.php:228
 msgid "Silver sponsors"
 msgstr "Серебряные спонсоры"
 
-#: sponsor.php:208
+#: sponsor.php:253
 msgid "Bronze sponsors"
 msgstr "Бронзовые спонсоры"
 
-#: thankyou.php:29
+#: thankyou.php:35
 msgid "Thank you!"
 msgstr "Спасибо!"
 
-#: thankyou.php:32
+#: thankyou.php:38
 msgid "Your download should start automatically.\n"
 "            If not, click"
 msgstr "Загрузка должна начинаться автоматически.\n"
 "            Если нет, нажмите"
 
-#: thankyou.php:33
+#: thankyou.php:39
 msgid "here"
 msgstr "здесь"
 
-#: thankyou.php:34
+#: thankyou.php:40
 msgid "to download the file."
 msgstr "для загрузки файла."
 
-#: thankyou.php:43
+#: thankyou.php:49
 msgid "Support FreeCAD!"
 msgstr "Поддержите FreeCAD!"
 
-#: thankyou.php:49
+#: thankyou.php:55
 msgid "If you are happy with FreeCAD, and would like to help\n"
 "            it thrive, why not donate a bit of money to the project? Being\n"
 "            open-source, paying to use FreeCAD will never be required, and\n"
 "            FreeCAD does not need money to survive, but donations help us to go\n"
-"            faster, further."
-msgstr "Если вы довольны FreeCAD, и хотел бы помочь\n"
-"            процветать, почему бы не пожертвовать немного денег на проект? Являясь\n"
-"            открытым исходным кодом, оплата за использование FreeCAD никогда не потребуется, и\n"
-"            FreeCAD не нужен деньг для выживания, но пожертвования помогают нам идти\n"
-"            быстрее."
+"            further, faster."
+msgstr "Если вы довольны FreeCAD и хотите помочь\n"
+" его процветанию, почему бы не пожертвовать немного денег на проект? Благодаря\n"
+" исходному коду FreeCAD никогда не потребуется платить за использование FreeCAD, и\n"
+" FreeCAD не нуждается в деньгах, чтобы выжить, но пожертвования помогают нам идти дальше и быстрее."
 
-#: thankyou.php:57
+#: thankyou.php:63
 msgid "If you are in, choose the amount and method of your\n"
 "            choice below. If you are interested in supporting the project better\n"
 "            with a recurring donation, check the <a href=sponsor.php>sponsoring\n"
@@ -858,7 +1003,7 @@ msgstr "Если вы находитесь в выберите количест�
 "            с регулярным пожертвованием, проверьте <a href=sponsor.php>спонсорскую\n"
 "            страницу</a> на другие опции."
 
-#: thankyou.php:66
+#: thankyou.php:72
 msgid "There are also many other ways to help FreeCAD. For\n"
 "            example, you can write code, help writing documentation, translate\n"
 "            the FreeCAD interface and documentation, help new users, etc. See\n"
@@ -872,11 +1017,11 @@ msgstr "Существует также множество других спос
 "            <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a>\n"
 "."
 
-#: thankyou.php:81
+#: thankyou.php:87
 msgid "Need help?"
 msgstr "Нужна помощь?"
 
-#: thankyou.php:87
+#: thankyou.php:93
 msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
 "            have you covered! FreeCAD features an\n"
 "            <a href=https://wiki.freecad.org>extensive documentation</a>, which\n"
@@ -892,61 +1037,53 @@ msgstr "Если вы новичок в FreeCAD, или в 3D CAD модели, 
 "            и его различные верстаки, до создания сценариев Python для автоматизации\n"
 "            и разработки собственных инструментов и расширений."
 
-#: thankyou.php:97
+#: thankyou.php:103
 msgid "Below are some pages of this documentation that could\n"
 "            be useful to you:"
 msgstr "Ниже приведены некоторые страницы этой документации,\n"
 "            которые могут быть полезны для вас:"
 
-#: thankyou.php:102
+#: thankyou.php:108
 msgid "Installing FreeCAD on Windows"
 msgstr "Установка FreeCAD на Windows"
 
-#: thankyou.php:103
+#: thankyou.php:109
 msgid "Installing FreeCAD on Linux"
 msgstr "Установка FreeCAD в Linux"
 
-#: thankyou.php:104
+#: thankyou.php:110
 msgid "Installing FreeCAD on MacOS"
 msgstr "Установка FreeCAD на MacOS"
 
-#: thankyou.php:105
+#: thankyou.php:111
 msgid "Installing additional components"
 msgstr "Установка дополнительных компонентов"
 
-#: thankyou.php:106
+#: thankyou.php:112
 msgid "Getting started with FreeCAD"
 msgstr "Начало работы с FreeCAD"
 
-#: thankyou.php:107
+#: thankyou.php:113
 msgid "Migrating from other software?"
 msgstr "Миграция с другого программного обеспечения?"
 
-#: thankyou.php:108
-msgid "Workbenches documentation"
-msgstr "Документация верстаков"
-
-#: thankyou.php:109
-msgid "Frequently asked questions"
-msgstr "Часто задаваемые вопросы"
-
-#: thankyou.php:113
+#: thankyou.php:119
 msgid "FreeCAD also offers a complete user manual, that can\n"
 "            be downloaded as a pdf or epub file or printed:"
 msgstr "FreeCAD также предлагает полное руководство пользователя,\n"
 "            которое можно скачать в формате pdf или epub, или распечатать:"
 
-#: thankyou.php:118
+#: thankyou.php:124
 msgid "The FreeCAD user manual"
 msgstr "Руководство пользователя FreeCAD"
 
-#: thankyou.php:122
+#: thankyou.php:128
 msgid "and many tutorials, in written or video form, created by\n"
 "            the FreeCAD community:"
 msgstr "и много уроков в письменной или видео форме, созданные\n"
 "            сообществом FreeCAD:"
 
-#: thankyou.php:131
+#: thankyou.php:137
 msgid "On behalf of all of the worldwide community of users,\n"
 "            developers, translators, editors, writers, testers who work hard to\n"
 "            make FreeCAD the best CAD modeller out there, we thank you for\n"
@@ -956,7 +1093,7 @@ msgstr "От имени всех членов мирового сообщест�
 "            FreeCAD, чтобы он стал лучшим моделлером САПР, благодарим вас за\n"
 "            загрузку нашего детища! Мы надеемся, что вам понравится оно так же, как и нам."
 
-#: thankyou.php:138
+#: thankyou.php:144
 msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            meet and discuss topics with other users, pay a visit to the the\n"
 "            <a href=https://forum.freecad.org>FreeCAD forum</a>. The forum is the\n"
@@ -972,147 +1109,147 @@ msgstr "Если вы столкнулись с проблемами с FreeCAD,
 "            найти способы решения конкретной проблемы или обсудить общие идеи,\n"
 "            касающиеся мира FreeCAD."
 
-#: translation.php:54
+#: translation.php:55
 msgid "English"
 msgstr "Английский"
 
-#: translation.php:55
+#: translation.php:56
 msgid "Afrikaans"
 msgstr "Африкаанс"
 
-#: translation.php:56
+#: translation.php:57
 msgid "Arabic"
 msgstr "Арабский"
 
-#: translation.php:57
+#: translation.php:58
 msgid "Catalan"
 msgstr "Каталанский"
 
-#: translation.php:58
+#: translation.php:59
 msgid "Czech"
 msgstr "Чешский"
 
-#: translation.php:59
+#: translation.php:60
 msgid "German"
 msgstr "Немецкий"
 
-#: translation.php:60
+#: translation.php:61
 msgid "Greek"
 msgstr "Греческий"
 
-#: translation.php:61
+#: translation.php:62 translation.php:63
 msgid "Spanish"
 msgstr "Испанский"
 
-#: translation.php:62
+#: translation.php:64
 msgid "Basque"
 msgstr "Баскский"
 
-#: translation.php:63
+#: translation.php:65
 msgid "Finnish"
 msgstr "Финский"
 
-#: translation.php:64
+#: translation.php:66
 msgid "Filipino"
 msgstr "Филиппинский"
 
-#: translation.php:65
+#: translation.php:67
 msgid "French"
 msgstr "Французский"
 
-#: translation.php:66
+#: translation.php:68
 msgid "Galician"
 msgstr "Галисийский"
 
-#: translation.php:67
+#: translation.php:69
 msgid "Croatian"
 msgstr "Хорватский"
 
-#: translation.php:68
+#: translation.php:70
 msgid "Hungarian"
 msgstr "Венгерский"
 
-#: translation.php:69
+#: translation.php:71
 msgid "Indonesian"
 msgstr "Индонезийский"
 
-#: translation.php:70
+#: translation.php:72
 msgid "Italian"
 msgstr "Итальянский"
 
-#: translation.php:71
+#: translation.php:73
 msgid "Japanese"
 msgstr "Японский"
 
-#: translation.php:72
+#: translation.php:74
 msgid "Kabyle"
 msgstr "Кабильский"
 
-#: translation.php:73
+#: translation.php:75
 msgid "Korean"
 msgstr "Корейский"
 
-#: translation.php:74
+#: translation.php:76
 msgid "Lithuanian"
 msgstr "Литовский"
 
-#: translation.php:75
+#: translation.php:77
 msgid "Dutch"
 msgstr "Нидерландский"
 
-#: translation.php:76
+#: translation.php:78
 msgid "Norwegian Bokmal"
 msgstr "Норвежская букмол"
 
-#: translation.php:77
+#: translation.php:79
 msgid "Polish"
 msgstr "Польский"
 
-#: translation.php:78 translation.php:79
+#: translation.php:80 translation.php:81
 msgid "Portuguese"
 msgstr "Португальский"
 
-#: translation.php:80
+#: translation.php:82
 msgid "Romanian"
 msgstr "Румынский"
 
-#: translation.php:81
+#: translation.php:83
 msgid "Russian"
 msgstr "Русский"
 
-#: translation.php:82
+#: translation.php:84
 msgid "Slovak"
 msgstr "Словацкий"
 
-#: translation.php:83
+#: translation.php:85
 msgid "Slovenian"
 msgstr "Словенский"
 
-#: translation.php:84
+#: translation.php:86
 msgid "Serbian"
 msgstr "Сербский"
 
-#: translation.php:85
+#: translation.php:87
 msgid "Swedish"
 msgstr "Шведский"
 
-#: translation.php:86
+#: translation.php:88
 msgid "Turkish"
 msgstr "Турецкий"
 
-#: translation.php:87
+#: translation.php:89
 msgid "Ukrainian"
 msgstr "Украинский"
 
-#: translation.php:88
+#: translation.php:90
 msgid "Valencian"
 msgstr "Валенсианский"
 
-#: translation.php:89
+#: translation.php:91
 msgid "Vietnamese"
 msgstr "Вьетнамский"
 
-#: translation.php:90 translation.php:91
+#: translation.php:92 translation.php:93
 msgid "Chinese"
 msgstr "Китайский"
 
