@@ -259,6 +259,7 @@
               <div class="bronze sponsor">Ton Roosendaal</div>
               <div class="bronze sponsor">Lukas Alberts</div>
               <div class="bronze sponsor">Marius Grunca</div>
+              <div class="bronze sponsor">Markus Vogt</div>
 
           </div>
         </section>
