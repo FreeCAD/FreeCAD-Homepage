@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 16:47-0500\n"
-"PO-Revision-Date: 2023-04-28 09:38\n"
+"POT-Creation-Date: 2023-04-29 11:58-0500\n"
+"PO-Revision-Date: 2023-05-06 16:33\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -119,6 +119,10 @@ msgstr "Agência bancária"
 #: donation.php:84
 msgid "Address"
 msgstr "Endereço"
+
+#: donation.php:86
+msgid "Submit"
+msgstr ""
 
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
@@ -407,6 +411,10 @@ msgstr "Encontre aqui as notas de lançamento para versões atuais e anteriores 
 msgid "Release 0.20 - June 2022"
 msgstr "Versão 0.20 - Junho de 2022"
 
+#: features.php:224
+msgid "current stable release"
+msgstr ""
+
 #: features.php:225
 msgid "Release 0.19 - March 2021"
 msgstr "Lançamento 0.19 - Março de 2021"
@@ -582,22 +590,26 @@ msgid "Donate / Sponsor"
 msgstr "Doe / Patrocine"
 
 #: header.php:108
-msgid "Developers handbook"
-msgstr ""
-
-#: header.php:109
 msgid "Report a bug"
 msgstr "Reporte um bug"
 
-#: header.php:110
+#: header.php:109
 msgid "Make a pull request"
 msgstr "Fazer um pull request"
 
-#: header.php:111
+#: header.php:110
 msgid "Jobs"
 msgstr ""
 
-#: header.php:116
+#: header.php:111
+msgid "Contribution guidelines"
+msgstr ""
+
+#: header.php:112
+msgid "Developers handbook"
+msgstr ""
+
+#: header.php:117
 msgid "Community"
 msgstr "Comunidade"
 
@@ -647,7 +659,7 @@ msgid "FreeCAD is a multiplatform (Windows, Mac and Linux), highly\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
 "          and many others, making it possible to seamlessly integrate it into\n"
 "          your workflow."
-msgstr ""
+msgstr "O FreeCAD é um software multiplataforma (Windows, Mac e Linux), altamente personalizável e extensível. Ele lê e grava em vários formatos de arquivos abertos, como STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE e muitos outros, tornando possível integrá-lo perfeitamente ao seu fluxo de trabalho."
 
 #: index.php:87
 msgid "Designed for your needs"

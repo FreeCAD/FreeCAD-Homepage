@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 16:47-0500\n"
-"PO-Revision-Date: 2023-04-28 09:37\n"
+"POT-Creation-Date: 2023-04-29 11:58-0500\n"
+"PO-Revision-Date: 2023-05-06 16:32\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -44,7 +44,7 @@ msgid "If you have made a recurring donation above 25 USD/EUR \n"
 "            your name, company name or logo displayed on the FreeCAD website, \n"
 "            depending on the tier you fit in. If you have not yet informed us of \n"
 "            the name you wish to see displayed, please reach to us at"
-msgstr ""
+msgstr "Hilean 25 USD/EUR baino gehiagoko dohaitza errepikatu bat egiten baduzu (edo aldi bateko 300 USD/EUR baino gehiagoko bat), brontzezko, zilarrezko edo urrezko babesle bihurtzeko aukera duzu, eta horrela, zure izena, enpresaren izena edo logoa FreeCADen webgunean erakutsia izateko aukera, zein kategoriatan zauden kontuan hartuta. Oraindik ez badiguzu esan zein izen erakutsi behar dugun, esaiguzu hemen:"
 
 #: contributor.php:29
 msgid "Thanks!"
@@ -76,11 +76,11 @@ msgstr "SEPA banku-transferentzia"
 
 #: donation.php:71
 msgid "Credit card payment via Stripe"
-msgstr ""
+msgstr "Kreditu-txartelaren bidezko ordainketa Stripe bidez"
 
 #: donation.php:71
 msgid "Credit card (Stripe)"
-msgstr ""
+msgstr "Kreditu-txartela (Stripe)"
 
 #: donation.php:72
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
@@ -100,11 +100,11 @@ msgstr "Github"
 
 #: donation.php:74
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
-msgstr ""
+msgstr "OpenCollective kode irekiko proiektuetarako ostalari fiskala da. Kreditu-txartelarekin edo banku-kontu baten bidez ordaindu daiteke. OpenCollective 501(c)3 erakunde bat da eta zerga-dedukzioak eskaintzen ditu AEBetan."
 
 #: donation.php:74
 msgid "OpenCollective (501(c)3)"
-msgstr ""
+msgstr "OpenCollective (501(c)3)"
 
 #: donation.php:78
 msgid "SEPA Information"
@@ -122,10 +122,15 @@ msgstr "Banku-agentzia"
 msgid "Address"
 msgstr "Helbidea"
 
+#: donation.php:86
+msgid "Submit"
+msgstr "Bidali"
+
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr ""
+msgstr "Diruz laguntzeko modu eta aukera desberdinei buruzko informazio gehiago,\n"
+"      <a href=https://wiki.freecad.org/donate>dohaitzen</a> orrian."
 
 #: downloads.php:24
 msgid "Current stable version: 0.20.2"
@@ -157,23 +162,23 @@ msgstr "Garapen-bertsioak"
 
 #: downloads.php:100
 msgid "FreeCAD's development happens daily!"
-msgstr "FreeCAD-en garapena egunero ematen da!"
+msgstr "FreeCADen garapena egunero gertatzen da!"
 
 #: downloads.php:101
 msgid "Therefore we generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
-msgstr ""
+msgstr "Horregatik, FreeCADen <i>azken minutuko</i> kodean oinarritutako bertsioak sortzen ditugu, erabiltzaileek eginbide berriak probatu eta, aldi berean, akatsak/atzerakadak aurkitu ahal izan ditzaten."
 
 #: downloads.php:102
 msgid "We recommend more savvy users to run dev builds and help spur FreeCAD's progress."
-msgstr ""
+msgstr "Erabiltzaile aurreratuagoek garatzaileentzako bertsioak erabili ditzaten eta FreeCADen aurrerapena hobetzen lagundu dezaten nahiko genuke."
 
 #: downloads.php:103
 msgid "We also recommend backing up files before working with a dev build."
-msgstr ""
+msgstr "Gomendagarria da, baita ere, fitxategien babeskopia egitea garatzaileentzako bertsio batekin lan egitean."
 
 #: downloads.php:104
 msgid "The following dev builds are available for different platforms/distributions:"
-msgstr ""
+msgstr "Garatzaileentzako honako bertsioak daude eskuragarri plataforma/banaketa desberdinetarako:"
 
 #: downloads.php:106
 msgid "Windows"
@@ -189,7 +194,7 @@ msgstr "macOS"
 
 #: downloads.php:108
 msgid "Homebrew"
-msgstr ""
+msgstr "Homebrew"
 
 #: downloads.php:109
 msgid "Linux"
@@ -197,11 +202,11 @@ msgstr "GNU/Linux"
 
 #: downloads.php:110
 msgid "Snap"
-msgstr "Atxikitu"
+msgstr "Snap"
 
 #: downloads.php:111
 msgid "Flatpak"
-msgstr ""
+msgstr "Flatpak"
 
 #: downloads.php:121
 msgid "Additional modules and macros"
@@ -223,7 +228,7 @@ msgstr "Iturburu-kodea"
 
 #: downloads.php:137
 msgid "The source code of FreeCAD is hosted primarily on "
-msgstr ""
+msgstr "FreeCADen iturburu-kodea honako helbidean dago ostatatuta batez ere: "
 
 #: downloads.php:139
 msgid "and mirrored on "
@@ -303,7 +308,13 @@ msgid "While the FreeCAD core functionality is coded in C++ for robustness and p
 "                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line\n"
 "                  commands in the integrated Python console to recording macros, coding your own tools up to\n"
 "                  full custom workbenches."
-msgstr ""
+msgstr "FreeCADen funtzionaltasun nagusiak C++ lengoaian idatzi dira sendoagoak eta azkarragoak izan daitezen, \n"
+"                  baina kanpoko geruza eta lan-mahai asko eta nukleoaren eta \n"
+"                   erabiltzaile-interfazearen arteko komunikazio ia guztiak <a href=\"https://python.org\">Python</a> erabiliz idatzi dira. \n"
+"                  Python programazio-lengoaia zalu eta erraza da. Python kodea erabiliz, \n"
+"                   <a href=https://wiki.freecad.org/Power_users_hub>ia edozer egin daiteke FreeCADen</a>, Python kontsola integratuan makroak grabatzeko lerro bakarreko \n"
+"                  komandoak sartzetik hasi eta \n"
+"                  lan-mahai pertsonalizatu osoak sortzera iritsi arte."
 
 #: features.php:101
 msgid "File formats frenzy"
@@ -329,7 +340,25 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              and many more, in addition to FreeCAD&apos;s native\n"
 "              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
 "              file formats."
-msgstr ""
+msgstr "FreeCADen ereduak inportatu eta esportatu egin daitezke, bai eta ereduetako gainerako datuak ere,\n"
+"              adibidez analisien emaitzak edo kantitate-datuak. Hainbat <a href=\"https://wiki.freecad.org/Category:File_Formats\">fitxategi-formatutara</a>\n"
+"              esportatu daitezke, adibidez<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Obj\">OBJ</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> edo\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://people.sc.fsu.edu/~jburkardt/data/off/off.html\">OFF</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
+"              eta beste hainbatetara, bai eta FreeCADen jatorrizko\n"
+"              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> fitxategi-formatura. Gehigarrien bidezko lan-mahaiek fitxategi-formatu gehiago\n"
+"              gehitu ditzakete."
 
 #: features.php:139
 msgid "A parametric constraints-based 2D sketcher"
@@ -417,6 +446,10 @@ msgstr "Begiratu hemen oraingo zein aurreko FreeCAD bertsioren oharrak.\n"
 msgid "Release 0.20 - June 2022"
 msgstr "0.20 bertsioa - 2022ko ekaina"
 
+#: features.php:224
+msgid "current stable release"
+msgstr "egungo bertsio egonkorra"
+
 #: features.php:225
 msgid "Release 0.19 - March 2021"
 msgstr "0.19 bertsioa - 2021eko martxoa"
@@ -455,11 +488,11 @@ msgstr "0.11 bertsioa - 2011ko martxoa"
 
 #: features.php:244
 msgid "Follow the official FreeCAD channels for fresh news:"
-msgstr ""
+msgstr "Jarraitu FreeCADen kanal ofizialak albiste berriak eskuratzeko:"
 
 #: features.php:250
 msgid "Official blog"
-msgstr ""
+msgstr "Blog ofiziala"
 
 #: features.php:251
 msgid "Twitter account"
@@ -537,11 +570,11 @@ msgstr "https://wiki.freecad.org/Manual"
 
 #: header.php:93
 msgid "The FreeCAD manual"
-msgstr "FreeCAD eskuliburua"
+msgstr "FreeCADen eskuliburua"
 
 #: header.php:94
 msgid "https://wiki.freecad.org/Workbenches"
-msgstr ""
+msgstr "https://wiki.freecad.org/Workbenches"
 
 #: header.php:94 thankyou.php:114
 msgid "Workbenches documentation"
@@ -557,11 +590,11 @@ msgstr "Python koderako dokumentazioa"
 
 #: header.php:96
 msgid "https://wiki.freecad.org/Developer_hub"
-msgstr ""
+msgstr "https://wiki.freecad.org/Developer_hub"
 
 #: header.php:96
 msgid "C++ coding documentation"
-msgstr ""
+msgstr "C++ koderako dokumentazioa"
 
 #: header.php:97
 msgid "https://wiki.freecad.org/Tutorials"
@@ -573,7 +606,7 @@ msgstr "Tutorialak"
 
 #: header.php:98
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
-msgstr ""
+msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
 #: header.php:98 thankyou.php:115
 msgid "Frequently asked questions"
@@ -592,22 +625,26 @@ msgid "Donate / Sponsor"
 msgstr "Babestu / Lagundu diruz"
 
 #: header.php:108
-msgid "Developers handbook"
-msgstr ""
-
-#: header.php:109
 msgid "Report a bug"
 msgstr "Jakinarazi akatsa"
 
-#: header.php:110
+#: header.php:109
 msgid "Make a pull request"
 msgstr "Egin pull eskaera bat"
 
-#: header.php:111
+#: header.php:110
 msgid "Jobs"
 msgstr "Lanak"
 
-#: header.php:116
+#: header.php:111
+msgid "Contribution guidelines"
+msgstr "Ekarpenak egiteko gidalerroak"
+
+#: header.php:112
+msgid "Developers handbook"
+msgstr "Garatzaileen eskuliburua"
+
+#: header.php:117
 msgid "Community"
 msgstr "Komunitatea"
 
@@ -628,9 +665,7 @@ msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
 "          and changing its parameters."
-msgstr "FreeCAD kode irekiko 3D modelizatzaile parametrikoa da, edozeintamainako bizitza errealeko objektuak diseinatzeko berariaz sortu dena. Modelizatze parametrikoari esker,\n"
-"zure diseinuak erraz molda ditzakezu zure ereduen historian atzera\n\n"
-"eginez eta haren parametroak aldatuz."
+msgstr "FreeCAD kode irekiko 3D modelizatzaile parametrikoa da, edozein tamainatako bizitza errealeko objektuak diseinatzeko berariaz sortu dena. Modelizatze parametrikoari esker, zure diseinuak erraz molda ditzakezu zure ereduen historian atzera eginez eta haren parametroak aldatuz."
 
 #: index.php:54
 msgid "Create 3D from 2D & back"
@@ -655,7 +690,9 @@ msgid "FreeCAD is a multiplatform (Windows, Mac and Linux), highly\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
 "          and many others, making it possible to seamlessly integrate it into\n"
 "          your workflow."
-msgstr ""
+msgstr "FreeCAD plataforma anitzetarako (Windows, Mac eta Linux) software pertsonalizagarria eta hedagarria da. Fitxategi-formatu ireki \n\n"
+"anitz irakurtzen eta idazten ditu, esaterako STEP, IGES, STL, SVG, DXF, OBJ, IFC eta \n\n"
+"beste hainbat, fitxategi horiek zure lan-fluxuan arazorik gabe integratzeko."
 
 #: index.php:87
 msgid "Designed for your needs"
@@ -706,7 +743,7 @@ msgstr "Parte hartu"
 
 #: sponsor.php:9
 msgid "Donating and sponsoring"
-msgstr "Babestea eta diruz laguntzea"
+msgstr "Babestu eta diruz lagundu"
 
 #: sponsor.php:16
 msgid "Donating to FreeCAD"
@@ -761,7 +798,15 @@ msgid "There are several ways you can donate money and help\n"
 "              and core developers. The FPA will redistribute the money it gathers\n"
 "              to FreeCAD developers and sponsor itself several projects, efforts\n"
 "              and ideas to fuel the development of FreeCAD."
-msgstr ""
+msgstr "FreeCAD proiektuari laguntzeko dirua emateko modu\n"
+"              desberdinak daude, bai banako gisa bai enpresa gisa edo\n"
+"              erakunde gisa, zure nahiaren arabera. Proiektuari ematen diozun dirua\n"
+"              <a href= https://fpa.freecad.org>FreeCAD proiektuaren elkarteak</a>\n"
+"              (FPA) jasoko du. FreeCAD administratzaileek eta\n"
+"                garatzaile nagusiek sortutako irabazi asmorik gabeko elkarte bat da.\n"
+"                FPA elkarteak jasotako dirua garatzaileen artean banatuko da eta\n"
+"                FreeCADen garapenerakozenbait proiektu, ahalegin\n"
+"               eta ideiak garatzeko erabiliko da."
 
 #: sponsor.php:54
 msgid "Remember, however: FreeCAD is free, and will always\n"
@@ -802,10 +847,7 @@ msgid "We call sponsoring the act of donating money\n"
 "              recurrently to the FreeCAD project. You can do that as an\n"
 "              individual or as a company or institution, through different\n"
 "              channels or platforms, depending on your preferences."
-msgstr "Babesleak dira FreeCAD proiektuari behin eta berriz\n"
-"              diruz laguntzen diotenak. Hori egin daiteke banakako gisa\n"
-"              edo enpresa/erakunde gisa, kanal eta plataforma\n"
-"              anitzen bidez, zure hobespenen arabera."
+msgstr "Babesleek FreeCAD proiektuari behin eta berriz laguntzen diote diruz. Hori banakako gisa edo enpresa/erakunde gisa egin daiteke, kanal eta plataforma anitzen bidez, zure nahien arabera."
 
 #: sponsor.php:105
 msgid "Sponsoring FreeCAD allows its developers to count on\n"
@@ -822,7 +864,7 @@ msgid "To encourage persons and companies to sponsor the\n"
 "              donating regularly to the project, unless you prefer to stay\n"
 "              anonymous, your name, company name and/or logo will be featured\n"
 "              on this website, depending on the tier you fit into:"
-msgstr ""
+msgstr "Laguntzeko modu desberdinak sortu ditugu, pertsonek zein enpresek FreeCAD proiektuari lagundu diezaioten. Proiektua modu erregularrean laguntzean, salbu eta anonimo izatea nahi baduzu, zure izena, enpresaren izena eta/edo logoa eduki ahal izango dituzu webgune honetan, eman duzun laguntza motaren arabera:"
 
 #: sponsor.php:118
 msgid "Normal sponsor"
@@ -845,7 +887,8 @@ msgstr "Brontzezko babeslea"
 #: sponsor.php:124
 msgid "from 25 USD / 25 EUR per month. Your name or\n"
 "                company name is displayed on this page."
-msgstr ""
+msgstr "hilean 25 USD / 25 EUR baino gehiago. Zure izena\n"
+"                edo zure enpresarena orri honetan agertuko da."
 
 #: sponsor.php:126
 msgid "Silver sponsor"
@@ -855,7 +898,9 @@ msgstr "Zilarrezko babeslea"
 msgid "from 100 USD / 100 EUR per month. Your name or\n"
 "                company name is displayed on this page, with a link to\n"
 "                your website, and a one-line description text."
-msgstr ""
+msgstr "hilean 100 USD / 100 EUR baino gehiago. Zure izena\n"
+"                edo zure enpresarena orri honetan agertuko da, eta zure webgunearen\n"
+"                esteka bat eta lerro bateko deskribapen-testu bat izango duzu."
 
 #: sponsor.php:130
 msgid "Gold sponsor"
@@ -867,14 +912,18 @@ msgid "from 200 USD / 200 EUR per month. Your name\n"
 "                with a link to your website and a custom description text.\n"
 "                Companies that have helped FreeCAD early on also appear\n"
 "                under Gold sponsors."
-msgstr ""
+msgstr "hilean 200 USD / 200 EUR baino gehiago. Zure izena\n"
+"                edo zure enpresaren izena eta logoa agertuko dira orri honetan,\n"
+"                eta zure webgunearen esteka bat eta deskribapen-testu pertsonalizatua\n"
+"                erakutsiko dira. Hasieratik FreeCADi lagundu dioten enpresak urrezko\n"
+"                babesle gisa ere agertuko dira."
 
 #: sponsor.php:138
 msgid "Instead of donating each month, you might find it\n"
 "              more comfortable to make a one-time donation that, when divided by\n"
 "              twelve, would give you right to enter a sponsoring tier. Don't\n"
 "              hesitate to do so!"
-msgstr ""
+msgstr "Hilero laguntza txiki bat eman ordez, erosoagoa izan dakizuke behin bakarrik egitea dohaitza handiago bat, hamabigatik zatitzen bada babesletzaren figura emango dizuna. Ez izan zalantzarik horretarako!"
 
 #: sponsor.php:144
 msgid "Choose freely the amount you wish to donate each\n"
@@ -886,7 +935,9 @@ msgstr "Aukeratu nahieran zenbat diru eman nahi duzun\n"
 msgid "Please inform your forum name or twitter handle as a note\n"
 "              in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>,\n"
 "              so we can give you proper credits!"
-msgstr ""
+msgstr "Esaiguzu foroan duzun izena edo sare sozialetako ezizena zure\n"
+"      transferentziaren ohar modura, edo <a href=mailto:fpa@freecad.org>bidali posta-mezua</a>,\n"
+"      zure laguntzaren aitortza egokia egin dezagun."
 
 #: sponsor.php:160
 msgid "Gold sponsors"
@@ -894,7 +945,7 @@ msgstr "Urrezko babesleak"
 
 #: sponsor.php:186
 msgid "Early sponsors"
-msgstr ""
+msgstr "Babesle goiztiarrak"
 
 #: sponsor.php:228
 msgid "Silver sponsors"
@@ -932,7 +983,11 @@ msgid "If you are happy with FreeCAD, and would like to help\n"
 "            open-source, paying to use FreeCAD will never be required, and\n"
 "            FreeCAD does not need money to survive, but donations help us to go\n"
 "            further, faster."
-msgstr ""
+msgstr "FreeCADekin pozik bazaude eta lagundu nahi badiozu,\n"
+"            proiektuari diru apur batekin laguntzea aukera ona da.\n"
+"            Kode irekikoa denez, inoiz ez da dirurik eskatuko FreeCAD erabiltzeko, eta\n"
+"            FreeCADek ez du dirurik behar birirauteko, baina dirulaguntzei esker\n"
+"            hobeto eta gehiago garatu dezakegu FreeCAD."
 
 #: thankyou.php:63
 msgid "If you are in, choose the amount and method of your\n"

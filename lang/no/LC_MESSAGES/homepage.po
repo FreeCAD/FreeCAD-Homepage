@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 16:47-0500\n"
-"PO-Revision-Date: 2023-04-28 09:38\n"
+"POT-Creation-Date: 2023-04-29 11:58-0500\n"
+"PO-Revision-Date: 2023-05-06 16:33\n"
 "Last-Translator: \n"
 "Language-Team: Norwegian\n"
 "Language: no_NO\n"
@@ -27,13 +27,15 @@ msgstr "Se hva som er nytt"
 
 #: contributor.php:11
 msgid "Thank you for your contribution!"
-msgstr ""
+msgstr "Takk for ditt bidrag!"
 
 #: contributor.php:15
 msgid "Thank you for supporting FreeCAD!\n"
 "            Whether you donated a little or a lot, all efforts contribute to \n"
 "            make FreeCAD development go further and faster."
-msgstr ""
+msgstr "Takk for at du støtter FreeCAD!\n"
+"            Om du donerer en liten eller en stor mengde, så vil alt av bidrag sørge for at  \n"
+"            utvoklingen av FreeCAD går lengre og raskere."
 
 #: contributor.php:20
 msgid "If you have made a recurring donation above 25 USD/EUR \n"
@@ -46,7 +48,7 @@ msgstr ""
 
 #: contributor.php:29
 msgid "Thanks!"
-msgstr ""
+msgstr "Takk!"
 
 #: contributor.php:32
 msgid "The FreeCAD project association"
@@ -102,7 +104,7 @@ msgstr ""
 
 #: donation.php:74
 msgid "OpenCollective (501(c)3)"
-msgstr ""
+msgstr "OpenCollective (501(c)3)"
 
 #: donation.php:78
 msgid "SEPA Information"
@@ -120,6 +122,10 @@ msgstr ""
 msgid "Address"
 msgstr "Adresse"
 
+#: donation.php:86
+msgid "Submit"
+msgstr "Send inn"
+
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
@@ -127,7 +133,7 @@ msgstr ""
 
 #: downloads.php:24
 msgid "Current stable version: 0.20.2"
-msgstr ""
+msgstr "Siste stabile versjon: 0.20.2"
 
 #: downloads.php:25
 msgid "Select your desired platform"
@@ -179,19 +185,19 @@ msgstr "Vinduer"
 
 #: downloads.php:106 downloads.php:107 downloads.php:109
 msgid "Conda"
-msgstr ""
+msgstr "Conda"
 
 #: downloads.php:107
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: downloads.php:108
 msgid "Homebrew"
-msgstr ""
+msgstr "Homebrew"
 
 #: downloads.php:109
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: downloads.php:110
 msgid "Snap"
@@ -199,7 +205,7 @@ msgstr ""
 
 #: downloads.php:111
 msgid "Flatpak"
-msgstr ""
+msgstr "Flatpak"
 
 #: downloads.php:121
 msgid "Additional modules and macros"
@@ -314,7 +320,25 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              and many more, in addition to FreeCAD&apos;s native\n"
 "              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
 "              file formats."
-msgstr ""
+msgstr "FreeCAD lar deg importere og eksportere modeller og mange andre typer data fra modellene dine som\n"
+"              analyserer resultater eller mengder data til dusinvis av forskjellige <a href=\"https://wiki.freecad.org/Category:File_Formats\">filformater</a> som\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Obj\">OBJ</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> eller\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://people.sc.fsu.edu/~jburkardt/data/off/off.html\">OFF</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
+"              og mange andre, i tillegg til FreeCAD&apos;s egne\n"
+"              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> filformat. Tredjeparts arbeidsbenker kan agså legge til flere\n"
+"              filformater."
 
 #: features.php:139
 msgid "A parametric constraints-based 2D sketcher"
@@ -379,6 +403,10 @@ msgstr ""
 msgid "Release 0.20 - June 2022"
 msgstr ""
 
+#: features.php:224
+msgid "current stable release"
+msgstr "gjeldende stabile utgivelse"
+
 #: features.php:225
 msgid "Release 0.19 - March 2021"
 msgstr ""
@@ -442,7 +470,7 @@ msgstr ""
 
 #: footer.php:36
 msgid "and"
-msgstr ""
+msgstr "og"
 
 #: footer.php:37
 msgid "other sponsors"
@@ -462,7 +490,7 @@ msgstr "Last ned"
 
 #: header.php:83
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: header.php:87
 msgid "Documentation"
@@ -470,7 +498,7 @@ msgstr "Dokumentasjon"
 
 #: header.php:90
 msgid "https://wiki.freecad.org"
-msgstr ""
+msgstr "https://wiki.freecad.org"
 
 #: header.php:90
 msgid "Documentation index"
@@ -478,7 +506,7 @@ msgstr ""
 
 #: header.php:91
 msgid "https://wiki.freecad.org/Getting_started"
-msgstr ""
+msgstr "https://wiki.freecad.org/Getting_started"
 
 #: header.php:91
 msgid "Getting started"
@@ -502,7 +530,7 @@ msgstr ""
 
 #: header.php:94
 msgid "https://wiki.freecad.org/Workbenches"
-msgstr ""
+msgstr "https://wiki.freecad.org/Workbenches"
 
 #: header.php:94 thankyou.php:114
 msgid "Workbenches documentation"
@@ -518,7 +546,7 @@ msgstr ""
 
 #: header.php:96
 msgid "https://wiki.freecad.org/Developer_hub"
-msgstr ""
+msgstr "https://wiki.freecad.org/Developer_hub"
 
 #: header.php:96
 msgid "C++ coding documentation"
@@ -534,7 +562,7 @@ msgstr "Guider"
 
 #: header.php:98
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
-msgstr ""
+msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
 #: header.php:98 thankyou.php:115
 msgid "Frequently asked questions"
@@ -553,22 +581,26 @@ msgid "Donate / Sponsor"
 msgstr ""
 
 #: header.php:108
-msgid "Developers handbook"
-msgstr ""
-
-#: header.php:109
 msgid "Report a bug"
 msgstr ""
 
-#: header.php:110
+#: header.php:109
 msgid "Make a pull request"
 msgstr ""
 
-#: header.php:111
+#: header.php:110
 msgid "Jobs"
+msgstr "Jobber"
+
+#: header.php:111
+msgid "Contribution guidelines"
+msgstr "Retningslinjer for bidragsytere"
+
+#: header.php:112
+msgid "Developers handbook"
 msgstr ""
 
-#: header.php:116
+#: header.php:117
 msgid "Community"
 msgstr "Fellesskap"
 
@@ -821,7 +853,7 @@ msgstr ""
 
 #: sponsor.php:186
 msgid "Early sponsors"
-msgstr ""
+msgstr "Tidlige sponsorer"
 
 #: sponsor.php:228
 msgid "Silver sponsors"

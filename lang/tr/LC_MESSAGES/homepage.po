@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 16:47-0500\n"
-"PO-Revision-Date: 2023-04-28 09:38\n"
+"POT-Creation-Date: 2023-04-29 11:58-0500\n"
+"PO-Revision-Date: 2023-05-06 16:36\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -121,6 +121,10 @@ msgstr "Banka acentesi"
 #: donation.php:84
 msgid "Address"
 msgstr "Adres"
+
+#: donation.php:86
+msgid "Submit"
+msgstr "Gönder"
 
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
@@ -402,6 +406,10 @@ msgstr "Mevcut ve önceki FreeCAD sürümleri için sürüm notlarını burada b
 msgid "Release 0.20 - June 2022"
 msgstr "0.20 Sürümü - Ocak 2022"
 
+#: features.php:224
+msgid "current stable release"
+msgstr "güncel kararlı sürüm"
+
 #: features.php:225
 msgid "Release 0.19 - March 2021"
 msgstr "Sürüm 0.19 - Mart 2021"
@@ -577,22 +585,26 @@ msgid "Donate / Sponsor"
 msgstr "Bağış / Sponsor"
 
 #: header.php:108
-msgid "Developers handbook"
-msgstr ""
-
-#: header.php:109
 msgid "Report a bug"
 msgstr "Bir hata bildir"
 
-#: header.php:110
+#: header.php:109
 msgid "Make a pull request"
 msgstr "Çekme isteğinde bulunun"
 
-#: header.php:111
+#: header.php:110
 msgid "Jobs"
 msgstr ""
 
-#: header.php:116
+#: header.php:111
+msgid "Contribution guidelines"
+msgstr "Katılımcı Yönergeleri"
+
+#: header.php:112
+msgid "Developers handbook"
+msgstr ""
+
+#: header.php:117
 msgid "Community"
 msgstr "Topluluk"
 

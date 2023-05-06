@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 16:47-0500\n"
-"PO-Revision-Date: 2023-04-28 09:37\n"
+"POT-Creation-Date: 2023-04-29 11:58-0500\n"
+"PO-Revision-Date: 2023-05-06 16:33\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -27,13 +27,14 @@ msgstr "Neuerungen anzeigen"
 
 #: contributor.php:11
 msgid "Thank you for your contribution!"
-msgstr ""
+msgstr "Vielen Dank für deinen Beitrag!"
 
 #: contributor.php:15
 msgid "Thank you for supporting FreeCAD!\n"
 "            Whether you donated a little or a lot, all efforts contribute to \n"
 "            make FreeCAD development go further and faster."
-msgstr ""
+msgstr "Vielen Dank für Deine Unterstützung von FreeCAD!\n"
+"            Egal, ob Du wenig oder viel gespendet hast, alle Bemühungen tragen dazu bei, dass die Entwicklung von FreeCAD weitergeht und schneller voranschreitet."
 
 #: contributor.php:20
 msgid "If you have made a recurring donation above 25 USD/EUR \n"
@@ -46,11 +47,11 @@ msgstr ""
 
 #: contributor.php:29
 msgid "Thanks!"
-msgstr ""
+msgstr "Danke!"
 
 #: contributor.php:32
 msgid "The FreeCAD project association"
-msgstr ""
+msgstr "Die FreeCAD-Project-Association"
 
 #: donation.php:60
 msgid "Amount"
@@ -74,11 +75,11 @@ msgstr "SEPA Banküberweisung"
 
 #: donation.php:71
 msgid "Credit card payment via Stripe"
-msgstr ""
+msgstr "Kreditkartenzahlung über Stripe"
 
 #: donation.php:71
 msgid "Credit card (Stripe)"
-msgstr ""
+msgstr "Kreditkarte (Stripe)"
 
 #: donation.php:72
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
@@ -120,6 +121,10 @@ msgstr "Bank Filiale :"
 msgid "Address"
 msgstr "Adresse"
 
+#: donation.php:86
+msgid "Submit"
+msgstr "Absenden"
+
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
@@ -127,7 +132,7 @@ msgstr ""
 
 #: downloads.php:24
 msgid "Current stable version: 0.20.2"
-msgstr ""
+msgstr "Aktuelle stabile Version: 0.20.2"
 
 #: downloads.php:25
 msgid "Select your desired platform"
@@ -155,7 +160,7 @@ msgstr "Entwicklungsversionen"
 
 #: downloads.php:100
 msgid "FreeCAD's development happens daily!"
-msgstr ""
+msgstr "Die Entwicklung von FreeCAD findet täglich statt!"
 
 #: downloads.php:101
 msgid "Therefore we generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
@@ -175,23 +180,23 @@ msgstr ""
 
 #: downloads.php:106
 msgid "Windows"
-msgstr "Fenster"
+msgstr "Windows"
 
 #: downloads.php:106 downloads.php:107 downloads.php:109
 msgid "Conda"
-msgstr ""
+msgstr "Conda"
 
 #: downloads.php:107
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: downloads.php:108
 msgid "Homebrew"
-msgstr ""
+msgstr "Homebrew"
 
 #: downloads.php:109
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: downloads.php:110
 msgid "Snap"
@@ -199,7 +204,7 @@ msgstr "Einrasten"
 
 #: downloads.php:111
 msgid "Flatpak"
-msgstr ""
+msgstr "Flatpak"
 
 #: downloads.php:121
 msgid "Additional modules and macros"
@@ -208,8 +213,7 @@ msgstr "Zusätzliche Module und Makros"
 #: downloads.php:123
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
-msgstr "Die FreeCAD-Community bietet eine Fülle von zusätzlichen Modulen und Makros an. Diese können \n"
-"        jetzt einfach direkt aus FreeCAD heraus installiert werden durch den "
+msgstr "Die FreeCAD-Community bietet eine Fülle von zusätzlichen Modulen und Makros an. Diese können jetzt einfach direkt aus FreeCAD heraus installiert werden mit dem "
 
 #: downloads.php:125
 msgid "Addon manager."
@@ -221,7 +225,7 @@ msgstr "Quellcode"
 
 #: downloads.php:137
 msgid "The source code of FreeCAD is hosted primarily on "
-msgstr ""
+msgstr "Der Quellcode von FreeCAD wird hauptsächlich gehostet auf "
 
 #: downloads.php:139
 msgid "and mirrored on "
@@ -414,6 +418,10 @@ msgstr "Hier finden Sie die Versionshinweise für aktuelle und frühere Versione
 msgid "Release 0.20 - June 2022"
 msgstr "Version 0.20 - Juni 2022"
 
+#: features.php:224
+msgid "current stable release"
+msgstr "aktuelle stabile Version"
+
 #: features.php:225
 msgid "Release 0.19 - March 2021"
 msgstr "Version 0.19 - März 2021"
@@ -456,11 +464,11 @@ msgstr ""
 
 #: features.php:250
 msgid "Official blog"
-msgstr ""
+msgstr "Offizieller Blog"
 
 #: features.php:251
 msgid "Twitter account"
-msgstr ""
+msgstr "Twitter-Konto"
 
 #: footer.php:9
 msgid "Get in touch!"
@@ -478,11 +486,11 @@ msgstr "Dieses Projekt wird unterstützt von:"
 
 #: footer.php:36
 msgid "and"
-msgstr ""
+msgstr "und"
 
 #: footer.php:37
 msgid "other sponsors"
-msgstr ""
+msgstr "andere Sponsoren"
 
 #: header.php:26 header.php:39
 msgid "FreeCAD: Your own 3D parametric modeler"
@@ -498,7 +506,7 @@ msgstr "Herunterladen"
 
 #: header.php:83
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: header.php:87
 msgid "Documentation"
@@ -538,7 +546,7 @@ msgstr "Das FreeCAD-Handbuch"
 
 #: header.php:94
 msgid "https://wiki.freecad.org/Workbenches"
-msgstr ""
+msgstr "https://wiki.freecad.org/Workbenches"
 
 #: header.php:94 thankyou.php:114
 msgid "Workbenches documentation"
@@ -554,11 +562,11 @@ msgstr "Python-Dokumentation"
 
 #: header.php:96
 msgid "https://wiki.freecad.org/Developer_hub"
-msgstr ""
+msgstr "https://wiki.freecad.org/Developer_hub"
 
 #: header.php:96
 msgid "C++ coding documentation"
-msgstr ""
+msgstr "C++ Programmierdokumentation"
 
 #: header.php:97
 msgid "https://wiki.freecad.org/Tutorials"
@@ -570,7 +578,7 @@ msgstr "Anleitungen"
 
 #: header.php:98
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
-msgstr ""
+msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
 #: header.php:98 thankyou.php:115
 msgid "Frequently asked questions"
@@ -589,22 +597,26 @@ msgid "Donate / Sponsor"
 msgstr "Spenden / Sponsern"
 
 #: header.php:108
-msgid "Developers handbook"
-msgstr ""
-
-#: header.php:109
 msgid "Report a bug"
 msgstr "Einen Fehler melden"
 
-#: header.php:110
+#: header.php:109
 msgid "Make a pull request"
 msgstr "Einen Pull Request durchführen"
 
-#: header.php:111
+#: header.php:110
 msgid "Jobs"
-msgstr ""
+msgstr "Aufträge"
 
-#: header.php:116
+#: header.php:111
+msgid "Contribution guidelines"
+msgstr "Richtlinien für Beiträge"
+
+#: header.php:112
+msgid "Developers handbook"
+msgstr "Entwicklerhandbuch"
+
+#: header.php:117
 msgid "Community"
 msgstr "Community"
 
@@ -893,7 +905,7 @@ msgstr "Gold-Sponsoren"
 
 #: sponsor.php:186
 msgid "Early sponsors"
-msgstr ""
+msgstr "Frühe Sponsoren"
 
 #: sponsor.php:228
 msgid "Silver sponsors"

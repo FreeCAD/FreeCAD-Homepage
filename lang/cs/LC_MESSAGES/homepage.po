@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 16:47-0500\n"
-"PO-Revision-Date: 2023-04-28 09:37\n"
+"POT-Creation-Date: 2023-04-29 11:58-0500\n"
+"PO-Revision-Date: 2023-05-06 16:32\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -53,7 +53,7 @@ msgstr "Pokud jste opakovaně přispěli nad 25 USD/EUR \n"
 
 #: contributor.php:29
 msgid "Thanks!"
-msgstr "Děkuji!"
+msgstr "Děkujeme!"
 
 #: contributor.php:32
 msgid "The FreeCAD project association"
@@ -127,6 +127,10 @@ msgstr "Bankovní agentura"
 msgid "Address"
 msgstr "Adresa"
 
+#: donation.php:86
+msgid "Submit"
+msgstr "Potvrdit"
+
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
@@ -171,7 +175,7 @@ msgstr "Proto generujeme sestavení, která jsou založena na <i>nezbytnosti</i>
 
 #: downloads.php:102
 msgid "We recommend more savvy users to run dev builds and help spur FreeCAD's progress."
-msgstr "Důvtipnějším uživatelům doporučujeme spouštět vývojové sestavení a pomoci tak urychlit pokrok FreeCADu."
+msgstr "Zkušenějším uživatelům doporučujeme spouštět vývojové sestavení a pomoci tak urychlit pokrok FreeCADu."
 
 #: downloads.php:103
 msgid "We also recommend backing up files before working with a dev build."
@@ -187,19 +191,19 @@ msgstr "Okna"
 
 #: downloads.php:106 downloads.php:107 downloads.php:109
 msgid "Conda"
-msgstr ""
+msgstr "Conda"
 
 #: downloads.php:107
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: downloads.php:108
 msgid "Homebrew"
-msgstr ""
+msgstr "Homebrew"
 
 #: downloads.php:109
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: downloads.php:110
 msgid "Snap"
@@ -207,7 +211,7 @@ msgstr "Přichytit"
 
 #: downloads.php:111
 msgid "Flatpak"
-msgstr ""
+msgstr "Flatpak"
 
 #: downloads.php:121
 msgid "Additional modules and macros"
@@ -216,7 +220,8 @@ msgstr "Rozšíření"
 #: downloads.php:123
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
-msgstr ""
+msgstr "Komunita FreeCADu spravuje spoustu doplňkových modulů a maker, které mohou být snadno instalovány\n"
+" přímo z FreeCADu za pomoci "
 
 #: downloads.php:125
 msgid "Addon manager."
@@ -266,14 +271,7 @@ msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
 "              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
-msgstr "FreeCAD pokročilé funkce geometrického enginu založené na\n"
-"        <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Otevřené KASKÁDOVÉ Technologii</a>. Ta podporuje pevné objekty,\n"
-"       <a href=https://en.wikipedia.org/wiki/Boundary_representation> oběkty těl sítí  (BRep) a\n"
-"         <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline</a>\n"
-" NURBS křivky, povrchy a nabízí širokou škálu nástrojů k vytváření a úpravám těchto objektů, včetně komplexních\n"
-"        <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a>operací,\n"
-"       <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>zaoblení</a>, čištění tvarů a\n"
-"           <a href=https://wiki.freecad.org/OpenCASCADE>mnoho dalšího</a>."
+msgstr "Pokročilé funkce geometrického enginu FreeCAD jsou založené na <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>. Ta podporuje pevné objekty, <a href=https://en.wikipedia.org/wiki/Boundary_representation>síťované</a>(BRep) objekty a <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>NURBS</a> křivky a povrchy, a nabízí širokou škálu nástrojů k vytváření a upravování těchto objektů, včetně komplexních <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolovských</a>operací, <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>zaoblení</a>, čištění tvarů a <a href=https://wiki.freecad.org/OpenCASCADE>mnoho dalšího</a>."
 
 #: features.php:58
 msgid "A wi(l)dly parametric environment"
@@ -305,12 +303,12 @@ msgid "While the FreeCAD core functionality is coded in C++ for robustness and p
 "                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line\n"
 "                  commands in the integrated Python console to recording macros, coding your own tools up to\n"
 "                  full custom workbenches."
-msgstr "Zatímco funkce jádra FreeCADu je kódována v C++ pro robustnost a výkon,\n"
+msgstr "Zatímco jádro FreeCADu je naprogramováno v C++ pro robustnost a výkon,\n"
 " velké části externích vrstev, pracovních ploch a téměř veškerá komunikace mezi\n"
-" jádrem a uživatelským rozhraním je kódována v <a href=https://pythonu.org>Python</a>,\n"
-" flexibilní, uživatelsky přívětivý a snadno se učící programovací jazyk. Z kódu Pythonu můžete\n"
-" dělat jen <a href=https://wiki.freecad.org/Power_users_hub>cokoli ve FreeCADu</a>, od jednoduchých jednořádkových\n"
-" příkazů v integrované konzoli Pythonu po nahrávání maker, kódování vlastních nástrojů až po\n"
+" jádrem a uživatelským rozhraním je naprogramována v <a href=https://pythonu.org>Pythonu</a>,\n"
+" flexibilním, uživatelsky přívětivěm a snadno se učícím programovacím jazyce. Z kódu v Pythonu můžete\n"
+" dělat <a href=https://wiki.freecad.org/Power_users_hub>cokoli ve FreeCADu</a>, od jednoduchých jednořádkových\n"
+" příkazů v integrované konzoli Pythonu po nahrávání maker, programování vlastních nástrojů až po\n"
 " plně vlastní pracovní stoly."
 
 #: features.php:101
@@ -443,6 +441,10 @@ msgstr "Zde naleznete poznámky k vydání pro aktuální a předchozí verze Fr
 msgid "Release 0.20 - June 2022"
 msgstr "Vydání 0.20 - červen 2022"
 
+#: features.php:224
+msgid "current stable release"
+msgstr "aktuální stabilní vydání"
+
 #: features.php:225
 msgid "Release 0.19 - March 2021"
 msgstr "Vydání 0.19 - březen 2021"
@@ -519,7 +521,7 @@ msgstr "FreeCAD: Váš vlastní 3D parametrický modelář"
 
 #: header.php:75
 msgid "Features"
-msgstr "Výhody"
+msgstr "Funkce"
 
 #: header.php:79
 msgid "Download"
@@ -618,22 +620,26 @@ msgid "Donate / Sponsor"
 msgstr "Darovat / Sponzorovat"
 
 #: header.php:108
-msgid "Developers handbook"
-msgstr "Příručka pro vývojáře"
-
-#: header.php:109
 msgid "Report a bug"
 msgstr "Nahlásit chybu"
 
-#: header.php:110
+#: header.php:109
 msgid "Make a pull request"
 msgstr ""
 
-#: header.php:111
+#: header.php:110
 msgid "Jobs"
 msgstr "Úlohy"
 
-#: header.php:116
+#: header.php:111
+msgid "Contribution guidelines"
+msgstr "Pokyny pro příspěvky"
+
+#: header.php:112
+msgid "Developers handbook"
+msgstr "Příručka pro vývojáře"
+
+#: header.php:117
 msgid "Community"
 msgstr "Komunita"
 
@@ -748,7 +754,7 @@ msgstr "Přispění na FreeCAD"
 #: sponsor.php:21
 msgid "Thanks for your interest in helping the FreeCAD\n"
 "              project with donations."
-msgstr ""
+msgstr "Děkujeme za Váš zájem o pomoc projektu FreeCAD formou příspěvku."
 
 #: sponsor.php:25
 msgid "FreeCAD is a fast-growing project, developed by a\n"
@@ -806,12 +812,12 @@ msgstr "Jednorázový dar"
 msgid "If you are not sure or not able to commit to a regular\n"
 "              donation, but still want to help the project, you can do a one-time\n"
 "              donation, of any amount."
-msgstr ""
+msgstr "Pokud si nejste jistí nebo nemůžete přispívat pravidelně, ale přesto chce pomoci projektu, můžete provést jednorázový příspěvek, v jakékoli výši."
 
 #: sponsor.php:79
 msgid "Choose freely the amount you wish to donate one\n"
 "              time only:"
-msgstr ""
+msgstr "Zvolte částku, kterou chcete darovat jednorázově:"
 
 #: sponsor.php:94
 msgid "Sponsoring"

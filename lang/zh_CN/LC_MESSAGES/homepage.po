@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 16:47-0500\n"
-"PO-Revision-Date: 2023-04-28 09:37\n"
+"POT-Creation-Date: 2023-04-29 11:58-0500\n"
+"PO-Revision-Date: 2023-05-06 16:32\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -27,7 +27,7 @@ msgstr "查看新功能"
 
 #: contributor.php:11
 msgid "Thank you for your contribution!"
-msgstr ""
+msgstr "感谢您的贡献！"
 
 #: contributor.php:15
 msgid "Thank you for supporting FreeCAD!\n"
@@ -119,6 +119,10 @@ msgstr ""
 #: donation.php:84
 msgid "Address"
 msgstr "地址"
+
+#: donation.php:86
+msgid "Submit"
+msgstr ""
 
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
@@ -413,6 +417,10 @@ msgstr "在这里查找当前版本和之前的 FreeCAD 版本的版本说明。
 msgid "Release 0.20 - June 2022"
 msgstr "0.20 版本 - 2022年6月"
 
+#: features.php:224
+msgid "current stable release"
+msgstr ""
+
 #: features.php:225
 msgid "Release 0.19 - March 2021"
 msgstr "0.19 版 - 2021年3月"
@@ -588,22 +596,26 @@ msgid "Donate / Sponsor"
 msgstr "捐助 / 赞助商"
 
 #: header.php:108
-msgid "Developers handbook"
-msgstr ""
-
-#: header.php:109
 msgid "Report a bug"
 msgstr "报告错误"
 
-#: header.php:110
+#: header.php:109
 msgid "Make a pull request"
 msgstr "提出拉取请求"
 
-#: header.php:111
+#: header.php:110
 msgid "Jobs"
 msgstr ""
 
-#: header.php:116
+#: header.php:111
+msgid "Contribution guidelines"
+msgstr ""
+
+#: header.php:112
+msgid "Developers handbook"
+msgstr ""
+
+#: header.php:117
 msgid "Community"
 msgstr "社区"
 

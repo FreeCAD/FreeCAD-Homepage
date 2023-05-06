@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 16:47-0500\n"
-"PO-Revision-Date: 2023-04-28 09:37\n"
+"POT-Creation-Date: 2023-04-29 11:58-0500\n"
+"PO-Revision-Date: 2023-05-06 16:32\n"
 "Last-Translator: \n"
 "Language-Team: Croatian\n"
 "Language: hr_HR\n"
@@ -119,6 +119,10 @@ msgstr "Agencija banke"
 #: donation.php:84
 msgid "Address"
 msgstr "Adresa"
+
+#: donation.php:86
+msgid "Submit"
+msgstr ""
 
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
@@ -415,6 +419,10 @@ msgstr "Ovdje pronađite napomene o izdanju za trenutne i prethodne verzije Free
 msgid "Release 0.20 - June 2022"
 msgstr "Version 0.20 - Juni 2022"
 
+#: features.php:224
+msgid "current stable release"
+msgstr ""
+
 #: features.php:225
 msgid "Release 0.19 - March 2021"
 msgstr "Izdanje 0.19 - Ožujak 2021"
@@ -590,22 +598,26 @@ msgid "Donate / Sponsor"
 msgstr "Doniraj / Sponzoriraj"
 
 #: header.php:108
-msgid "Developers handbook"
-msgstr ""
-
-#: header.php:109
 msgid "Report a bug"
 msgstr "Prijavi grešku"
 
-#: header.php:110
+#: header.php:109
 msgid "Make a pull request"
 msgstr "Stvorite zahtjev za povlačenjem"
 
-#: header.php:111
+#: header.php:110
 msgid "Jobs"
 msgstr ""
 
-#: header.php:116
+#: header.php:111
+msgid "Contribution guidelines"
+msgstr ""
+
+#: header.php:112
+msgid "Developers handbook"
+msgstr ""
+
+#: header.php:117
 msgid "Community"
 msgstr "Zajednica"
 

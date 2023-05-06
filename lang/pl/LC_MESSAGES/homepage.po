@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 16:47-0500\n"
-"PO-Revision-Date: 2023-04-28 09:38\n"
+"POT-Creation-Date: 2023-04-29 11:58-0500\n"
+"PO-Revision-Date: 2023-05-06 16:33\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -119,6 +119,10 @@ msgstr "Bank"
 #: donation.php:84
 msgid "Address"
 msgstr "Adres"
+
+#: donation.php:86
+msgid "Submit"
+msgstr "Zatwierdź"
 
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
@@ -243,10 +247,7 @@ msgid "FreeCAD is made primarily to design objects for the real world. Everythin
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr "FreeCAD jest stworzony głównie do projektowania rzeczywistych obiektów. Wszystko co robisz w programie FreeCAD opiera się na rzeczywistych jednostkach\n"
-", czy to mikronach, kilometrach, calach czy stopach, a nawet dowolnej kombinacji jednostek. FreeCAD oferuje <a href=https://wiki.freecad.org/Workbenches/pl> narzędzia\n"
-" do tworzenia, eksportowania i edytowania modeli bryłowych, w pełni precyzyjnych, eksportowania ich do druku 3D lub obróbki CNC,\n"
-" tworzenia rysunków 2D i widoków modeli, wykonywania analiz, takich jak analiza metodą elementów skończonych, lub eksportowania danych modelu, takich jak ilości lub zestawienia materiałów."
+msgstr "FreeCAD jest stworzony głównie do projektowania rzeczywistych obiektów. Wszystko co robisz w programie FreeCAD opiera się na rzeczywistych jednostkach, czy to mikronach, kilometrach, calach czy stopach, a nawet dowolnej kombinacji jednostek. FreeCAD oferuje <a href=https://wiki.freecad.org/Workbenches/pl>narzędzia</a> do tworzenia, eksportowania i edytowania modeli bryłowych, w pełni precyzyjnych, eksportowania ich do druku 3D lub obróbki CNC, tworzenia rysunków 2D i widoków modeli, wykonywania analiz, takich jak analiza metodą elementów skończonych, lub eksportowania danych modelu, takich jak ilości lub zestawienia materiałów."
 
 #: features.php:40
 msgid "A powerful solid-based geometry kernel"
@@ -261,14 +262,7 @@ msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
 "              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
-msgstr "FreeCAD posiada zaawansowany silnik geometrii oparty na technologii \n"
-"              <a href=\"https://en.wikipedia.org/wiki/Open_CASCADE\">Open CASCADE</a>. Obsługuje bryły,\n"
-"             obiekty <a href=\"https://en.wikipedia.org/wiki/Boundary_representation\">Reprezentacji Brzegowej</a> (BRep), oraz\n"
-"              <a href=\"https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline\">krzywe i powierzchnie NURBS </a> (Non-uniform rational basis spline), \n"
-"               a także oferuje szeroki zakres narzędzi do tworzenia i modyfikowania tych obiektów, w tym złożone operacje\n"
-"              <a href=\"https://en.wikipedia.org/wiki/Boolean_operations_on_polygons\">Logiczne</a>, \n"
-"              <a href=\"https://en.wikipedia.org/wiki/Fillet_(mechanics)\">zaokrąglenia</a>, czyszczenie kształtów i \n"
-"              <a href=\"https://wiki.freecad.org/OpenCASCADE/pl\">wiele innych</a>."
+msgstr "FreeCAD posiada zaawansowany silnik geometrii oparty na technologii <a href=\"https://en.wikipedia.org/wiki/Open_CASCADE\">Open CASCADE</a>. Obsługuje bryły, obiekty <a href=\"https://en.wikipedia.org/wiki/Boundary_representation\">Reprezentacji Brzegowej</a> (BRep), oraz <a href=\"https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline\">krzywe i powierzchnie NURBS </a> (Non-uniform rational basis spline), a także oferuje szeroki zakres narzędzi do tworzenia i modyfikowania tych obiektów, w tym złożone operacje <a href=\"https://en.wikipedia.org/wiki/Boolean_operations_on_polygons\">Logiczne</a>, <a href=\"https://en.wikipedia.org/wiki/Fillet_(mechanics)\">zaokrąglenia</a>, czyszczenie kształtów i <a href=\"https://wiki.freecad.org/OpenCASCADE/pl\">wiele innych</a>."
 
 #: features.php:58
 msgid "A wi(l)dly parametric environment"
@@ -415,6 +409,10 @@ msgstr "Tutaj znajdziesz informacje o wydaniach dla aktualnych i starszych wersj
 msgid "Release 0.20 - June 2022"
 msgstr "Wersja 0.20 - czerwiec 2022"
 
+#: features.php:224
+msgid "current stable release"
+msgstr "aktualne wydanie stabilne"
+
 #: features.php:225
 msgid "Release 0.19 - March 2021"
 msgstr "Wersja 0.19 - marzec 2021"
@@ -482,7 +480,7 @@ msgstr "oraz"
 
 #: footer.php:37
 msgid "other sponsors"
-msgstr "pozostali sponsorzy"
+msgstr "pozostałych sponsorów"
 
 #: header.php:26 header.php:39
 msgid "FreeCAD: Your own 3D parametric modeler"
@@ -589,22 +587,26 @@ msgid "Donate / Sponsor"
 msgstr "Darowizna / Sponsorowanie"
 
 #: header.php:108
-msgid "Developers handbook"
-msgstr "Podręcznik dla programistów"
-
-#: header.php:109
 msgid "Report a bug"
 msgstr "Zgłoś błąd"
 
-#: header.php:110
+#: header.php:109
 msgid "Make a pull request"
 msgstr "Utwórz pull request"
 
-#: header.php:111
+#: header.php:110
 msgid "Jobs"
 msgstr "Zadania"
 
-#: header.php:116
+#: header.php:111
+msgid "Contribution guidelines"
+msgstr "Zasady współpracy"
+
+#: header.php:112
+msgid "Developers handbook"
+msgstr "Podręcznik dla programistów"
+
+#: header.php:117
 msgid "Community"
 msgstr "Społeczność"
 
@@ -863,7 +865,7 @@ msgid "Instead of donating each month, you might find it\n"
 "              more comfortable to make a one-time donation that, when divided by\n"
 "              twelve, would give you right to enter a sponsoring tier. Don't\n"
 "              hesitate to do so!"
-msgstr "Zamiast wpłacać datki co miesiąc, może wygodniej będzie Ci wpłacić jednorazową darowiznę, która podzielona przez dwanaście da Ci prawo do wejścia na wyższy poziom sponsorowania. Nie wahaj się tego zrobić!"
+msgstr "Zamiast wpłacać datki co miesiąc, może wygodniej będzie Ci wpłacić jednorazową darowiznę, która podzielona na dwanaście miesięcy da Ci prawo do wejścia na wyższy poziom sponsorowania. Nie wahaj się tego zrobić!"
 
 #: sponsor.php:144
 msgid "Choose freely the amount you wish to donate each\n"
@@ -920,7 +922,7 @@ msgid "If you are happy with FreeCAD, and would like to help\n"
 "            open-source, paying to use FreeCAD will never be required, and\n"
 "            FreeCAD does not need money to survive, but donations help us to go\n"
 "            further, faster."
-msgstr "Jeśli jesteś zadowolony z używania programu FreeCAD, i chciałbyś pomóc mu prosperować, dlaczego nie mógłbyś przekazać trochę pieniędzy wspierając ten projekt? Będąc projektem open-source, płatność za korzystanie z FreeCAD nigdy nie będzie wymagana, a FreeCAD nie potrzebuje pieniędzy, aby przetrwać, ale darowizny pomagają nam rozwijać się szybciej."
+msgstr "Jeśli jesteś zadowolony z używania programu FreeCAD, i chciałbyś pomóc mu prosperować, dlaczego nie mógłbyś przekazać trochę pieniędzy wspierając ten projekt? Będąc projektem open-source, płatność za korzystanie z FreeCAD nigdy nie będzie wymagana. FreeCAD nie potrzebuje pieniędzy, aby przetrwać, ale darowizny pomagają nam rozwijać go szybciej."
 
 #: thankyou.php:63
 msgid "If you are in, choose the amount and method of your\n"
