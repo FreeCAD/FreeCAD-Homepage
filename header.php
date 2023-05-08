@@ -133,6 +133,7 @@
             <a class="dropdown-item text-dark" href="https://twitter.com/FreeCADNews">Twitter</a>
             <a class="dropdown-item text-dark" href="https://www.facebook.com/FreeCAD">Facebook</a>
             <a class="dropdown-item text-dark" href="https://www.linkedin.com/groups/4295230">LinkedIn</a>
+            <a class="dropdown-item text-dark" href="https://calendar.google.com/calendar/embed?src=6e6cc81260051a3c49fdf915c472f2d62576820129f0e0b2cacb7025ed62f960%40group.calendar.google.com">Calendar</a>
           </div>
         </li>
 
