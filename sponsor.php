@@ -260,6 +260,7 @@
               <div class="bronze sponsor">Lukas Alberts</div>
               <div class="bronze sponsor">Marius Grunca</div>
               <div class="bronze sponsor">Markus Vogt</div>
+              <div class="bronze sponsor">Jose Alonso Mendoza</div>
 
           </div>
         </section>
