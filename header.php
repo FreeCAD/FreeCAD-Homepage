@@ -87,7 +87,7 @@
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Documentation'); ?></a>
 
           <div class="dropdown-menu-mobile-right dropdown-community dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org'); ?>"><?php echo _('Documentation index'); ?></a>
+            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Main_Page'); ?>"><?php echo _('Documentation index'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Getting_started'); ?>"><?php echo _('Getting started'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/User_hub'); ?>"><?php echo _('Users documentation'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Manual'); ?>"><?php echo _('The FreeCAD manual'); ?></a>
@@ -103,7 +103,7 @@
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Contribute'); ?></a>
 
           <div class="dropdown-menu-mobile-left dropdown-community dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item text-dark" href="https://wiki.freecad.org/Help_FreeCAD"><?php echo _('How to help'); ?></a>
+            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Help_FreeCAD'); ?>"><?php echo _('How to help'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo $sponsorurl; ?>"><?php echo _('Donate / Sponsor'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/issues"><?php echo _('Report a bug'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls"><?php echo _('Make a pull request'); ?></a>
