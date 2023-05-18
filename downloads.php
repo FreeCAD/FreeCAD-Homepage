@@ -103,12 +103,12 @@
         <?php echo _("We also recommend backing up files before working with a dev build."); ?>
         <?php echo _("The following dev builds are available for different platforms/distributions:"); ?>
         <br /><br />
-        <?php echo _("Windows") ?>: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo _('Conda'); ?></a>
-        - <?php echo _("macOS") ?>: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo _('Conda'); ?></a>
-        / <a href="https://github.com/FreeCAD/homebrew-freecad" class="badge badge-light"><?php echo _('Homebrew'); ?></a>
-        - <?php echo _("Linux") ?>: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo _('Conda'); ?></a>
-        / <a href="https://wiki.freecad.org/Snap" class="badge badge-light"><?php echo _('Snap'); ?></a>
-        / <a href="https://wiki.freecad.org/Flatpak" class="badge badge-light"><?php echo _('Flatpak'); ?></a>
+        <?php echo ("Windows") ?>: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo ('Conda'); ?></a>
+        - <?php echo ("macOS") ?>: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo ('Conda'); ?></a>
+        / <a href="https://github.com/FreeCAD/homebrew-freecad" class="badge badge-light"><?php echo ('Homebrew'); ?></a>
+        - <?php echo ("Linux") ?>: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo ('Conda'); ?></a>
+        / <a href="https://wiki.freecad.org/Snap" class="badge badge-light"><?php echo ('Snap'); ?></a>
+        / <a href="https://wiki.freecad.org/Flatpak" class="badge badge-light"><?php echo ('Flatpak'); ?></a>
       </p>
 
     </div>
