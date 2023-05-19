@@ -104,7 +104,7 @@
               analyses results or quantities data to dozens of different <a href="https://wiki.freecad.org/Category:File_Formats">file formats</a> such as
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/ISO_10303">STEP</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/IGES">IGES</a>,
-              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Obj">OBJ</a>,
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Wavefront_.obj_file">OBJ</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/STL_%28file_format%29">STL</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/.dwg">DWG</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Dxf">DXF</a>,
@@ -112,7 +112,7 @@
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Shapefile">SHP</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/COLLADA">DAE</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Industry_Foundation_Classes">IFC</a> or
-              <a rel="nofollow" class="external text" href="https://people.sc.fsu.edu/~jburkardt/data/off/off.html">OFF</a>,
+              <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/OFF_(file_format)">OFF</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/NASTRAN">NASTRAN</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/VRML">VRML</a>,
               <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/OpenSCAD">OpenSCAD CSG</a>
