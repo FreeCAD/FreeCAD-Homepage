@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-29 11:58-0500\n"
-"PO-Revision-Date: 2023-05-06 16:36\n"
+"POT-Creation-Date: 2023-05-18 15:47-0500\n"
+"PO-Revision-Date: 2023-05-19 16:04\n"
 "Last-Translator: \n"
 "Language-Team: Spanish, Argentina\n"
 "Language: es_AR\n"
@@ -184,34 +184,6 @@ msgstr "También recomendamos hacer copias de seguridad de los archivos antes de
 #: downloads.php:104
 msgid "The following dev builds are available for different platforms/distributions:"
 msgstr "Las siguientes versiones de desarrollo están disponibles para diferentes plataformas/distribuciones:"
-
-#: downloads.php:106
-msgid "Windows"
-msgstr "Ventanas"
-
-#: downloads.php:106 downloads.php:107 downloads.php:109
-msgid "Conda"
-msgstr "Conda"
-
-#: downloads.php:107
-msgid "macOS"
-msgstr "macOS"
-
-#: downloads.php:108
-msgid "Homebrew"
-msgstr "Homebrew"
-
-#: downloads.php:109
-msgid "Linux"
-msgstr "Linux"
-
-#: downloads.php:110
-msgid "Snap"
-msgstr "Referencias"
-
-#: downloads.php:111
-msgid "Flatpak"
-msgstr "Flatpak"
 
 #: downloads.php:121
 msgid "Additional modules and macros"
@@ -546,8 +518,8 @@ msgid "Documentation"
 msgstr "Documentación"
 
 #: header.php:90
-msgid "https://wiki.freecad.org"
-msgstr "https://wiki.freecadweb.org/Main_Page/es"
+msgid "https://wiki.freecad.org/Main_Page"
+msgstr "https://wiki.freecad.org/Main_Page/es"
 
 #: header.php:90
 msgid "Documentation index"
@@ -622,6 +594,10 @@ msgid "Contribute"
 msgstr "Contribuir"
 
 #: header.php:106
+msgid "https://wiki.freecad.org/Help_FreeCAD"
+msgstr "https://wiki.freecad.org/Help_FreeCAD/es"
+
+#: header.php:106
 msgid "How to help"
 msgstr "¿Cómo puedo ayudar?"
 
@@ -638,8 +614,8 @@ msgid "Make a pull request"
 msgstr "Hacer un pull request"
 
 #: header.php:110
-msgid "Jobs"
-msgstr "Trabajos"
+msgid "Jobs and funding"
+msgstr "Trabajos y financiación"
 
 #: header.php:111
 msgid "Contribution guidelines"
@@ -660,6 +636,10 @@ msgstr "Tu propio modelador paramétrico 3D"
 #: index.php:22
 msgid "Download now"
 msgstr "Descargar ahora"
+
+#: index.php:23
+msgid "https://wiki.freecad.org/Release_notes_0.20"
+msgstr "https://wiki.freecad.org/Release_notes_0.20/es"
 
 #: index.php:38
 msgid "Freedom to build what you want"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-29 11:58-0500\n"
-"PO-Revision-Date: 2023-05-06 16:33\n"
+"POT-Creation-Date: 2023-05-18 15:47-0500\n"
+"PO-Revision-Date: 2023-05-19 16:04\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -177,34 +177,6 @@ msgstr "Zalecamy również tworzenie kopii zapasowych plików przed pracą z wer
 msgid "The following dev builds are available for different platforms/distributions:"
 msgstr "Następujące kompilacje wersji deweloperskich są dostępne dla różnych platform / dystrybucji:"
 
-#: downloads.php:106
-msgid "Windows"
-msgstr "Okna"
-
-#: downloads.php:106 downloads.php:107 downloads.php:109
-msgid "Conda"
-msgstr "Conda"
-
-#: downloads.php:107
-msgid "macOS"
-msgstr "macOS"
-
-#: downloads.php:108
-msgid "Homebrew"
-msgstr "Homebrew"
-
-#: downloads.php:109
-msgid "Linux"
-msgstr "Linux"
-
-#: downloads.php:110
-msgid "Snap"
-msgstr "Przyciągnij"
-
-#: downloads.php:111
-msgid "Flatpak"
-msgstr "Flatpak"
-
 #: downloads.php:121
 msgid "Additional modules and macros"
 msgstr "Dodatkowe moduły i makrodefinicje"
@@ -333,11 +305,7 @@ msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sket
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
 "                  objects throughout FreeCAD, be it either with the\n"
 "                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
-msgstr "FreeCAD posiada najnowocześniejszy <a href=\"https://wiki.freecadweb.org/Sketcher_Workbench/pl\">Szkicownik</a>\n"
-" ze zintegrowanym narzędziem do rozwiązywania więzów, pozwalający na szkicowanie kształtów 2D o powiązanej geometrii. Szkice są głównym\n"
-" elementem konstrukcyjnym w programie FreeCAD, a kształty 2D zbudowane za ich pomocą mogą być następnie wykorzystane jako podstawa do budowy\n"
-" innych obiektów w całym programie FreeCAD, zarówno w dedykowanym środowisku pracy  <a href=\"https://wiki.freecadweb.org/PartDesign_Workbench/pl\">Projekt Części</a>\n"
-" jak i w każdym innym."
+msgstr "FreeCAD posiada najnowocześniejszy <a href=\"https://wiki.freecadweb.org/Sketcher_Workbench/pl\">Szkicownik</a> z wbudowanym solverem do więzów, pozwalający na szkicowanie geometrycznie związanych kształtów 2D. Szkice są głównym elementem konstrukcyjnym we FreeCAD, a kształty 2D zbudowane za ich pomocą mogą być następnie wykorzystane jako podstawa do budowy innych obiektów w całym programie FreeCAD, zarówno w dedykowanym środowisku pracy  <a href=\"https://wiki.freecadweb.org/PartDesign_Workbench/pl\">Projekt Części</a> jak i w każdym innym."
 
 #: features.php:155
 msgid "A large (and growing) multi-specialty ecosystem"
@@ -503,8 +471,8 @@ msgid "Documentation"
 msgstr "Dokumentacja"
 
 #: header.php:90
-msgid "https://wiki.freecad.org"
-msgstr "https://wiki.freecad.org"
+msgid "https://wiki.freecad.org/Main_Page"
+msgstr "https://wiki.freecad.org/Main_Page/pl"
 
 #: header.php:90
 msgid "Documentation index"
@@ -579,6 +547,10 @@ msgid "Contribute"
 msgstr "Przyłącz się do projektu"
 
 #: header.php:106
+msgid "https://wiki.freecad.org/Help_FreeCAD"
+msgstr "https://wiki.freecad.org/Help_FreeCAD/pl"
+
+#: header.php:106
 msgid "How to help"
 msgstr "Jak pomóc"
 
@@ -595,8 +567,8 @@ msgid "Make a pull request"
 msgstr "Utwórz pull request"
 
 #: header.php:110
-msgid "Jobs"
-msgstr "Zadania"
+msgid "Jobs and funding"
+msgstr "Praca i finansowanie"
 
 #: header.php:111
 msgid "Contribution guidelines"
@@ -617,6 +589,10 @@ msgstr "Twój własny program do parametrycznego modelowania 3D"
 #: index.php:22
 msgid "Download now"
 msgstr "Pobierz teraz"
+
+#: index.php:23
+msgid "https://wiki.freecad.org/Release_notes_0.20"
+msgstr "https://wiki.freecad.org/Release_notes_0.20/pl"
 
 #: index.php:38
 msgid "Freedom to build what you want"
@@ -667,8 +643,8 @@ msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
 "          teacher, you will feel right at home with FreeCAD."
-msgstr "FreeCAD został zaprojektowany tak, aby spełniać szeroki zakres zastosowań, w tym projektowanie elementów,\n"
-" inżynierii mechanicznej i architektury. Bez względu na to\n"
+msgstr "FreeCAD został zaprojektowany tak, aby spełniać szeroki zakres zastosowań, w tym projektowanie wyrobów,\n"
+" inżynieria mechaniczna i architektura. Bez względu na to\n"
 " czy jesteś hobbystą, programistą, doświadczonym użytkownikiem CAD, studentem\n"
 " czy nauczycielem, z programem FreeCAD poczujesz się jak w domu."
 
@@ -683,11 +659,11 @@ msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          allows you to study robot movements and many more features. FreeCAD\n"
 "          really is a Swiss Army knife of general-purpose engineering\n"
 "          toolkits."
-msgstr "FreeCAD wyposaża Cię we wszystkie potrzebne do działania przybory. Otrzymujesz\n"
+msgstr "FreeCAD wyposaża Cię we wszystkie potrzebne do działania funkcjonalności. Otrzymujesz\n"
 " nowoczesne narzędzia do analizy metodą elementów skończonych (FEA), eksperymentalne CFD, dedykowany BIM, \n"
-" środowiska pracy Geodata, środowisko pracy Path, moduł do symulacji robotów,\n"
-" który pozwala na badanie ruchów robotów i wiele innych funkcji. FreeCAD\n"
-" to naprawdę szwajcarski scyzoryk wojskowy ogólnego przeznaczenia, zestaw\n"
+" środowiska pracy Geodata, środowisko CAM/CNC, moduł do symulacji robotów,\n"
+" który pozwala na badanie ruchów manipulatorów i wiele innych funkcji. FreeCAD\n"
+" naprawdę jest jak szwajcarski scyzoryk wśród ogólnego przeznaczenia\n"
 " narzędzi inżynierskich."
 
 #: index.php:124

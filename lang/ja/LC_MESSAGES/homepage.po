@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-29 11:58-0500\n"
-"PO-Revision-Date: 2023-05-06 16:33\n"
+"POT-Creation-Date: 2023-05-18 15:47-0500\n"
+"PO-Revision-Date: 2023-05-19 16:04\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -175,34 +175,6 @@ msgstr ""
 
 #: downloads.php:104
 msgid "The following dev builds are available for different platforms/distributions:"
-msgstr ""
-
-#: downloads.php:106
-msgid "Windows"
-msgstr "ウィンドウ"
-
-#: downloads.php:106 downloads.php:107 downloads.php:109
-msgid "Conda"
-msgstr ""
-
-#: downloads.php:107
-msgid "macOS"
-msgstr ""
-
-#: downloads.php:108
-msgid "Homebrew"
-msgstr ""
-
-#: downloads.php:109
-msgid "Linux"
-msgstr ""
-
-#: downloads.php:110
-msgid "Snap"
-msgstr "スナップ"
-
-#: downloads.php:111
-msgid "Flatpak"
 msgstr ""
 
 #: downloads.php:121
@@ -386,7 +358,7 @@ msgstr ""
 
 #: features.php:224
 msgid "current stable release"
-msgstr ""
+msgstr "現在の安定版リリース"
 
 #: features.php:225
 msgid "Release 0.19 - March 2021"
@@ -430,15 +402,15 @@ msgstr ""
 
 #: features.php:250
 msgid "Official blog"
-msgstr ""
+msgstr "公式ブログ"
 
 #: features.php:251
 msgid "Twitter account"
-msgstr ""
+msgstr "Twitterアカウント"
 
 #: footer.php:9
 msgid "Get in touch!"
-msgstr ""
+msgstr "お問い合わせ"
 
 #: footer.php:24
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
@@ -472,15 +444,15 @@ msgstr "ダウンロード"
 
 #: header.php:83
 msgid "Blog"
-msgstr ""
+msgstr "ブログ"
 
 #: header.php:87
 msgid "Documentation"
 msgstr "ドキュメント"
 
 #: header.php:90
-msgid "https://wiki.freecad.org"
-msgstr "https://wiki.freecad.org"
+msgid "https://wiki.freecad.org/Main_Page"
+msgstr ""
 
 #: header.php:90
 msgid "Documentation index"
@@ -532,7 +504,7 @@ msgstr ""
 
 #: header.php:96
 msgid "C++ coding documentation"
-msgstr ""
+msgstr "C++ コーディングドキュメント"
 
 #: header.php:97
 msgid "https://wiki.freecad.org/Tutorials"
@@ -548,11 +520,15 @@ msgstr ""
 
 #: header.php:98 thankyou.php:115
 msgid "Frequently asked questions"
-msgstr ""
+msgstr "よくある質問"
 
 #: header.php:103
 msgid "Contribute"
 msgstr "協力する"
+
+#: header.php:106
+msgid "https://wiki.freecad.org/Help_FreeCAD"
+msgstr ""
 
 #: header.php:106
 msgid "How to help"
@@ -571,7 +547,7 @@ msgid "Make a pull request"
 msgstr "プルリクエストを作成"
 
 #: header.php:110
-msgid "Jobs"
+msgid "Jobs and funding"
 msgstr ""
 
 #: header.php:111
@@ -593,6 +569,10 @@ msgstr "あなたのための 3D パラメトリック・モデラー"
 #: index.php:22
 msgid "Download now"
 msgstr "今すぐダウンロード"
+
+#: index.php:23
+msgid "https://wiki.freecad.org/Release_notes_0.20"
+msgstr ""
 
 #: index.php:38
 msgid "Freedom to build what you want"
@@ -764,7 +744,7 @@ msgstr ""
 
 #: sponsor.php:118
 msgid "Normal sponsor"
-msgstr ""
+msgstr "通常のスポンサー"
 
 #: sponsor.php:119
 msgid "from 1 USD / 1 EUR per month. You will not have your\n"
@@ -775,7 +755,7 @@ msgstr ""
 
 #: sponsor.php:123
 msgid "Bronze sponsor"
-msgstr ""
+msgstr "ブロンズスポンサー"
 
 #: sponsor.php:124
 msgid "from 25 USD / 25 EUR per month. Your name or\n"
@@ -784,7 +764,7 @@ msgstr ""
 
 #: sponsor.php:126
 msgid "Silver sponsor"
-msgstr ""
+msgstr "シルバースポンサー"
 
 #: sponsor.php:127
 msgid "from 100 USD / 100 EUR per month. Your name or\n"
@@ -794,7 +774,7 @@ msgstr ""
 
 #: sponsor.php:130
 msgid "Gold sponsor"
-msgstr ""
+msgstr "ゴールドスポンサー"
 
 #: sponsor.php:131
 msgid "from 200 USD / 200 EUR per month. Your name\n"
