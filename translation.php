@@ -8,7 +8,6 @@ $localeMap = array(
     'cs' => 'cs_CZ',
     'de' => 'de_DE',
     'el' => 'el_GR',
-    'es' => 'es_AR',
     'es' => 'es_ES',
     'eu' => 'eu_ES',
     'fi' => 'fi_FI',
@@ -26,7 +25,6 @@ $localeMap = array(
     'nl' => 'nl_NL',
     'no' => 'nb_NO',
     'pl' => 'pl_PL',
-    'pt' => 'pt_BR',
     'pt' => 'pt_PT',
     'ro' => 'ro_RO',
     'ru' => 'ru_RU',
@@ -39,7 +37,6 @@ $localeMap = array(
     'val' => 'val_ES',
     'vi' => 'vi_VN',
     'zh' => 'zh_CN',
-    'zh' => 'zh_TW',
 );
 
 $lang = "en";
