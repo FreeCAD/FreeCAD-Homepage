@@ -41,19 +41,8 @@
     <a id="githubLink" href="#"><img class="icon-social m-3" src="svg/icon-github-light.svg" alt="GitHub" />Improve this
       page on GitHub</a>
     <?php
-      $repositoryUrls = array(
-        '/404.php' => 'https://github.com/FreeCAD/FreeCAD-Homepage/blob/master/404.php',
-        '/contributor.php' => 'https://github.com/FreeCAD/FreeCAD-Homepage/blob/master/contributor.php',
-        '/downloads.php' => 'https://github.com/FreeCAD/FreeCAD-Homepage/blob/master/downloads.php',
-        '/features.php' => 'https://github.com/FreeCAD/FreeCAD-Homepage/blob/master/features.php',
-        '/index.php' => 'https://github.com/FreeCAD/FreeCAD-Homepage/blob/master/index.php',
-        '/sponsor.php' => 'https://github.com/FreeCAD/FreeCAD-Homepage/blob/master/sponsor.php',
-        '/thankyou.php' => 'https://github.com/FreeCAD/FreeCAD-Homepage/blob/master/thankyou.php',
-      );
-
       $currentUrl = $_SERVER['REQUEST_URI'];
-      $githubEditUrl = isset($repositoryUrls[$currentUrl]) ? $repositoryUrls[$currentUrl] : '';
-
+      $githubEditUrl = 'https://github.com/FreeCAD/FreeCAD-Homepage/blob/master/' . $currentpage;
       echo '<script>document.getElementById("githubLink").setAttribute("href", "' . $githubEditUrl . '");</script>';
       ?>
     </div>
