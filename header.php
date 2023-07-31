@@ -96,6 +96,7 @@
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Developer_hub'); ?>"><?php echo _('C++ coding documentation'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Tutorials'); ?>"><?php echo _('Tutorials'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Frequently_asked_questions'); ?>"><?php echo _('Frequently asked questions'); ?></a>
+            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/About_FreeCAD'); ?>"><?php echo _('About FreeCAD'); ?></a>
           </div>
         </li>
 
