@@ -162,6 +162,11 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
                 <div class="gold sponsor">
+                    <img class="logo" src="images/sponsors/oaktree.png">
+                    <a class="title" href="https://www.oaktreellc.com/">Oaktree engineering</a>
+                </div>
+
+                <div class="gold sponsor">
                     <a class="title" href="https://spacecruft.org/">Spacecruft</a>
                 </div>
 
