@@ -36,6 +36,17 @@
       <?php echo _('and'); ?>
       <a href="<?php echo $sponsorurl; ?>"><?php echo _('other sponsors'); ?></a>
     </p>
+
+    <div class="float-sm-right">
+    <a id="githubLink" href="#"><img class="icon-social m-3" src="svg/icon-github-light.svg" alt="GitHub" />Improve this
+      page on GitHub</a>
+    <?php
+      $currentUrl = $_SERVER['REQUEST_URI'];
+      $githubEditUrl = 'https://github.com/FreeCAD/FreeCAD-Homepage/blob/master/' . $currentpage;
+      echo '<script>document.getElementById("githubLink").setAttribute("href", "' . $githubEditUrl . '");</script>';
+      ?>
+    </div>
+    
   </footer>
 
   <!-- Include Bootstrap JS files -->
