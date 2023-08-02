@@ -21,8 +21,8 @@
       <!-- Major+Minor Version of FC Stable -->
       <!-- -------------------------------- -->
 
-      <h2 class="downloads-notes-title"><?php echo _('Current stable version: 0.20.2'); ?></h2>
-      <p><?php echo _('Select your desired platform'); ?></p>
+      <h2 class="downloads-notes-title"><?php echo _('Current stable version: 0.21.0'); ?></h2>
+      <p><?php echo _('Select your desired platform (note that all downloads are for 64-bit systems):'); ?></p>
 
     </div>
 
@@ -37,7 +37,8 @@
             <img class="w-100 p-4" src="svg/icon-windows.svg" alt="Windows">
             <h3 class="card-title download-platform-name m-0 pb-3">Windows</h3>
             <div class="flex-column flex-lg-row">
-              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD-0.20.2-WIN-x64-installer-3.exe">64-Bit installer</a>
+              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.0/FreeCAD-0.21.0-WIN-x64-installer-1.exe">x86_64 installer</a>
+              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.0/FreeCAD-0.21.0-Windows-x86_64.7z">x86_64 standalone .7z</a>
             </div>
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
@@ -58,7 +59,8 @@
           <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
             <img class="w-100 p-4" src="svg/icon-apple.svg" alt="Mac">
             <h3 class="card-title download-platform-name m-0 pb-3">Mac</h3>
-            <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-2022-12-27-conda-macOS-x86_64-py310.dmg">64-Bit dmg</a>
+            <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.0/FreeCAD_0.21.0-arm64.dmg">ARM (M1/M2)</a>
+            <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.0/FreeCAD_0.21.0-intel_x86.dmg">Intel</a>
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
             <small class="text-muted">
@@ -78,7 +80,8 @@
           <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
             <img class="w-100 p-4" src="svg/icon-linux.svg" alt="Linux">
             <h3 class="card-title download-platform-name m-0 pb-3">Linux</h3>
-            <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-2022-12-27-conda-Linux-x86_64-py310.AppImage">64-Bit AppImage</a>
+            <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.0/FreeCAD_0.21.0-Linux-x86_64.AppImage">x86_64 AppImage</a>
+            <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.0/FreeCAD_0.21.0-Linux-aarch64.AppImage">aarch64 AppImage</a>
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
             <small class="text-muted">
@@ -98,9 +101,10 @@
       <h2 class="downloads-notes-title"><?php echo _('Development versions'); ?></h2>
       <p>
         <?php echo _("FreeCAD's development happens daily!"); ?>
-        <?php echo _("Therefore we generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."); ?>
-        <?php echo _("We recommend more savvy users to run dev builds and help spur FreeCAD's progress."); ?>
-        <?php echo _("We also recommend backing up files before working with a dev build."); ?>
+        <?php echo _("We generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."); ?>
+        <?php echo _("We ask that advanced users occasionally run the development builds to assist with testing new code."); ?>
+        <?php echo _("These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."); ?>
+        <?php echo _("Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."); ?>
         <?php echo _("The following dev builds are available for different platforms/distributions:"); ?>
         <br /><br />
         <?php echo ("Windows") ?>: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo ('Conda'); ?></a>
