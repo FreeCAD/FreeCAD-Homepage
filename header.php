@@ -38,7 +38,7 @@
   <meta name="twitter:creator" content="@FreeCADNews" />
   <meta property="og:title" content="<?php echo _('FreeCAD: Your own 3D parametric modeler'); ?>" />
   <meta property="og:description" content="FreeCAD, the open source 3D parametric modeler" />
-  <meta property="og:image" content="https://freecad.orf/images/banner.jpg" />
+  <meta property="og:image" content="https://freecad.org/images/banner.jpg" />
 
 </head>
 
