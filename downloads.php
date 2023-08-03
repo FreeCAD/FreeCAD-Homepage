@@ -93,6 +93,13 @@
       </div>
     </div> <!-- class="row mx-auto download-platform" -->
 
+    <div class="download-notes text-center">
+      <p>
+        <?php echo _("See what has changed since last version in the"); ?>
+        <a class="badge badge-light" href="https://wiki.freecad.org/Release_notes_0.21"><?php echo _('FreeCAD 0.21 release notes'); ?></a>
+      </p>
+    </div>
+
     <!-- -------------------- -->
     <!-- DEVELOPMENT VERSIONS -->
     <!-- -------------------- -->
