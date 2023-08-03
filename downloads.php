@@ -37,8 +37,8 @@
             <img class="w-100 p-4" src="svg/icon-windows.svg" alt="Windows">
             <h3 class="card-title download-platform-name m-0 pb-3">Windows</h3>
             <div class="flex-column flex-lg-row">
-              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.0/FreeCAD-0.21.0-WIN-x64-installer-1.exe">x86_64 installer</a>
-              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.0/FreeCAD_0.21.0-Windows-x86_64.7z">x86_64 standalone .7z</a>
+              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.0/FreeCAD-0.21.0-WIN-x64-installer-1.exe">64-bit installer</a>
+              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.0/FreeCAD_0.21.0-Windows-x86_64.7z">64-bit portable (.7z)</a>
             </div>
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
