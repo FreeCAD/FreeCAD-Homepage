@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-18 15:47-0500\n"
-"PO-Revision-Date: 2023-05-19 16:04\n"
+"POT-Creation-Date: 2023-09-04 20:33-0500\n"
+"PO-Revision-Date: 2023-09-05 09:59\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -130,79 +130,95 @@ msgid "More information about the different donation methods and options on the\
 msgstr ""
 
 #: downloads.php:24
-msgid "Current stable version: 0.20.2"
+msgid "Current stable version: 0.21.1"
 msgstr ""
 
 #: downloads.php:25
-msgid "Select your desired platform"
-msgstr "Pasirinkite norimą operacinę sistemą"
+msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
+msgstr ""
 
-#: downloads.php:45
+#: downloads.php:46
 msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
 msgstr "„Windows 7“ yra ankstyviausia palaikoma laida. Norėdami daugiau sužinoti apie programos diegimą, prašom patikrinti "
 
-#: downloads.php:46 downloads.php:66 downloads.php:86
+#: downloads.php:47 downloads.php:69 downloads.php:91
 msgid "wiki"
 msgstr "wiki"
 
-#: downloads.php:65
+#: downloads.php:68
 msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
 msgstr "„Mac OS X 10.12 Sierra“ yra ankstyviausia palaikoma laida. Norėdami daugiau sužinoti apie programos diegimą, prašom patikrinti "
 
-#: downloads.php:85
+#: downloads.php:70
+msgid "Versions of Mac OS before Mac OS 13 should use the \"unsigned\" version of the disk image."
+msgstr ""
+
+#: downloads.php:90
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
 msgstr "Platinamosioms laidoms, tokioms kaip „Ubuntu PPA“, ir kitoms laidoms diegimo Linux operacinėje sistemoje ypatybes prašome žiūrėti "
 
-#: downloads.php:98
-msgid "Development versions"
-msgstr "Plėtros laidos"
-
 #: downloads.php:100
-msgid "FreeCAD's development happens daily!"
+msgid "See what has changed since last version in the"
 msgstr ""
 
 #: downloads.php:101
-msgid "Therefore we generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
+msgid "FreeCAD 0.21 release notes"
 msgstr ""
 
-#: downloads.php:102
-msgid "We recommend more savvy users to run dev builds and help spur FreeCAD's progress."
+#: downloads.php:110
+msgid "Development versions"
+msgstr "Plėtros laidos"
+
+#: downloads.php:112
+msgid "FreeCAD's development happens daily!"
 msgstr ""
 
-#: downloads.php:103
-msgid "We also recommend backing up files before working with a dev build."
+#: downloads.php:113
+msgid "We generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
 msgstr ""
 
-#: downloads.php:104
+#: downloads.php:114
+msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
+msgstr ""
+
+#: downloads.php:115
+msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
+msgstr ""
+
+#: downloads.php:116
+msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
+msgstr ""
+
+#: downloads.php:117
 msgid "The following dev builds are available for different platforms/distributions:"
 msgstr ""
 
-#: downloads.php:121
+#: downloads.php:134
 msgid "Additional modules and macros"
 msgstr "Papildomi moduliai ir makrokomandos"
 
-#: downloads.php:123
+#: downloads.php:136
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr ""
 
-#: downloads.php:125
+#: downloads.php:138
 msgid "Addon manager."
 msgstr "Papildinių tvarkyklė."
 
-#: downloads.php:135
+#: downloads.php:148
 msgid "Source code"
 msgstr ""
 
-#: downloads.php:137
+#: downloads.php:150
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr ""
 
-#: downloads.php:139
+#: downloads.php:152
 msgid "and mirrored on "
 msgstr ""
 
-#: downloads.php:142
+#: downloads.php:155
 msgid "and "
 msgstr ""
 
@@ -272,7 +288,7 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              analyses results or quantities data to dozens of different <a href=\"https://wiki.freecad.org/Category:File_Formats\">file formats</a> such as\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Obj\">OBJ</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Wavefront_.obj_file\">OBJ</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
@@ -280,7 +296,7 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> or\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://people.sc.fsu.edu/~jburkardt/data/off/off.html\">OFF</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OFF_(file_format)\">OFF</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
@@ -349,7 +365,7 @@ msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 msgstr ""
 
 #: features.php:224
-msgid "Release 0.20 - June 2022"
+msgid "Release 0.21 - August 2023"
 msgstr ""
 
 #: features.php:224
@@ -357,50 +373,54 @@ msgid "current stable release"
 msgstr ""
 
 #: features.php:225
+msgid "Release 0.20 - June 2022"
+msgstr ""
+
+#: features.php:226
 msgid "Release 0.19 - March 2021"
 msgstr "Laida 0.19 išleista 2021 kovo mėn."
 
-#: features.php:226
+#: features.php:227
 msgid "Release 0.18 - March 2019"
 msgstr "Laida 0.18 išleista 2019 kovo mėn."
 
-#: features.php:227
+#: features.php:228
 msgid "Release 0.17 - April 2018"
 msgstr "Laida 0.17 išleista 2018 balandžio mėn."
 
-#: features.php:228
+#: features.php:229
 msgid "Release 0.16 - April 2016"
 msgstr "Laida 0.16 išleista 2016 balandžio mėn."
 
-#: features.php:229
+#: features.php:230
 msgid "Release 0.15 - March 2015"
 msgstr "Laida 0.15 išleista 2015 kovo mėn."
 
-#: features.php:230
+#: features.php:231
 msgid "Release 0.14 - March 2014"
 msgstr "Laida 0.14 išleista 2014 kovo mėn."
 
-#: features.php:231
+#: features.php:232
 msgid "Release 0.13 - January 2013"
 msgstr "Laida 0.13 išleista 2013 sausio mėn."
 
-#: features.php:232
+#: features.php:233
 msgid "Release 0.12 - December 2011"
 msgstr "Laida 0.12  išleista 2011 gruodžio mėn."
 
-#: features.php:233
+#: features.php:234
 msgid "Release 0.11 - March 2011"
 msgstr "Laida 0.11 išleista 2011 kovo mėn."
 
-#: features.php:244
+#: features.php:245
 msgid "Follow the official FreeCAD channels for fresh news:"
 msgstr ""
 
-#: features.php:250
+#: features.php:251
 msgid "Official blog"
 msgstr ""
 
-#: features.php:251
+#: features.php:252
 msgid "Twitter account"
 msgstr ""
 
@@ -411,8 +431,7 @@ msgstr ""
 #: footer.php:24
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
 "      r-frank, epileftric, regis, rider_mortagnais, bejant."
-msgstr "© „FreeCAD“ komanda. Pagrindinio puslapio paveikslų autoriai (Iš viršaus į apačią): ppemawm,\n"
-" r-frank, epileftric, regis, rider_mortagnais, bejant."
+msgstr ""
 
 #: footer.php:28
 msgid "This project is supported by:"
@@ -518,43 +537,51 @@ msgstr ""
 msgid "Frequently asked questions"
 msgstr ""
 
-#: header.php:103
+#: header.php:99
+msgid "https://wiki.freecad.org/About_FreeCAD"
+msgstr ""
+
+#: header.php:99
+msgid "About FreeCAD"
+msgstr ""
+
+#: header.php:104
 msgid "Contribute"
 msgstr "Prisidėkite"
 
-#: header.php:106
+#: header.php:107
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr ""
 
-#: header.php:106
+#: header.php:107
 msgid "How to help"
 msgstr ""
 
-#: header.php:107
+#: header.php:108
 msgid "Donate / Sponsor"
 msgstr ""
 
-#: header.php:108
+#: header.php:109
 msgid "Report a bug"
 msgstr "Pranešti apie triktį"
 
-#: header.php:109
+#: header.php:110
 msgid "Make a pull request"
 msgstr ""
 
-#: header.php:110
+#: header.php:111
 msgid "Jobs and funding"
 msgstr ""
 
-#: header.php:111
+#: header.php:112
 msgid "Contribution guidelines"
 msgstr ""
 
-#: header.php:112
+#: header.php:113
 msgid "Developers handbook"
 msgstr ""
 
-#: header.php:117
+#: header.php:118
 msgid "Community"
 msgstr "Bendruomenė"
 
@@ -567,7 +594,7 @@ msgid "Download now"
 msgstr "Atsisiųskite dabar"
 
 #: index.php:23
-msgid "https://wiki.freecad.org/Release_notes_0.20"
+msgid "https://wiki.freecad.org/Release_notes_0.21"
 msgstr ""
 
 #: index.php:38
@@ -579,9 +606,7 @@ msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
 "          and changing its parameters."
-msgstr "„FreeCAD“ yra laisvoji parametrinio tūrinio modeliavimo programa, skirta bet kokio dydžio ir paskirties daiktų kūrybai. Parametrinis (dydžiais, apibrėžiamas) modeliavimas leidžia \n"
-"lengvai keisti jūsų sumanymą grįžtant atgal į norimą modelio kūrimo žingsnį ir pakeičiant \n\n"
-"daikto ypatybes."
+msgstr ""
 
 #: index.php:54
 msgid "Create 3D from 2D & back"
@@ -592,9 +617,7 @@ msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
 "          create high quality production ready drawings."
-msgstr "„FreeCAD“ leidžia braižyti ir įvairiai suvaržyti plokštumines figūras, o po to naudoti jas kaip pagrindą kitiems daiktams sukurti. Jis turi įvairiausių įrankių \n"
-"daiktų dydžiams keisti arba įrankių išgauti daiktų savybes iš erdvinių (tūrinių) modelių, taip atkuriant \n\n"
-"kokybiškus gamybinius detalių brėžinius."
+msgstr ""
 
 #: index.php:70
 msgid "Accessible, flexible & integrated"
@@ -617,10 +640,7 @@ msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
 "          teacher, you will feel right at home with FreeCAD."
-msgstr "„FreeCAD“ yra sukurta taip, kad tiktų daugelyje sričių, įskaitant pramoninį\n"
-" dizainą, mechanikos inžineriją ir architektūrą. Nesvarbu, kas jūs esate: \n"
-"mėgėjas, programuotojas, ar patyręs kompiuterinio projektavimo inžinierius,\n"
-" studentas, ar mokytojas – „FreeCAD“ naudosite patogiai, lyg būdami namuose."
+msgstr ""
 
 #: index.php:103
 msgid "And many more great features"
@@ -633,10 +653,7 @@ msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          allows you to study robot movements and many more features. FreeCAD\n"
 "          really is a Swiss Army knife of general-purpose engineering\n"
 "          toolkits."
-msgstr "„FreeCAD“ aprūpins jus visais reikiamais įrankiais, kurių jums gali prireikti. Jūs gausite šiuolaikiškos baigtinių elementų metodo (BEM) analizės įrankius, bandomąją skysčių tekėjimo modeliavimo, \n"
-"BIM ar Geodata darbastalius, Judėjimo kelio darbastalį – robotų modeliavimo modulį, \n"
-"jums leidžiantį nagrinėti roboto judesius ir dar daugybę įrankių. Programa „FreeCAD“\n"
-", lyg koks šveicariškas peilis, yra plataus vartojimo inžinerinis įrankis."
+msgstr ""
 
 #: index.php:124
 msgid "Want to contribute to FreeCAD?"
@@ -647,11 +664,7 @@ msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
 "          whole community."
-msgstr "„FreeCAD“ yra visiškai laisvos programinės įrangos projektas. Jei norėtumėte\n"
-"  ištaisyti klaidas, įdiegti naujas savybes, ar \n"
-"aprašyti programos darbo ypatybes,\n"
-" mes kviečiame jus prisijungti prie mūsų ir sukurti programą, nešančią naudą \n\n"
-"visai bendruomenei."
+msgstr ""
 
 #: index.php:132
 msgid "Get involved"
@@ -815,15 +828,15 @@ msgstr ""
 msgid "Gold sponsors"
 msgstr ""
 
-#: sponsor.php:186
+#: sponsor.php:191
 msgid "Early sponsors"
 msgstr ""
 
-#: sponsor.php:228
+#: sponsor.php:233
 msgid "Silver sponsors"
 msgstr ""
 
-#: sponsor.php:253
+#: sponsor.php:258
 msgid "Bronze sponsors"
 msgstr ""
 
@@ -946,147 +959,147 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            the FreeCAD world."
 msgstr ""
 
-#: translation.php:55
+#: translation.php:52
 msgid "English"
 msgstr "Anglų"
 
-#: translation.php:56
+#: translation.php:53
 msgid "Afrikaans"
 msgstr "Afrikiečių"
 
-#: translation.php:57
+#: translation.php:54
 msgid "Arabic"
 msgstr "Arabų k."
 
-#: translation.php:58
+#: translation.php:55
 msgid "Catalan"
 msgstr "Katalonų"
 
-#: translation.php:59
+#: translation.php:56
 msgid "Czech"
 msgstr "Čekų"
 
-#: translation.php:60
+#: translation.php:57
 msgid "German"
 msgstr "Vokiečių"
 
-#: translation.php:61
+#: translation.php:58
 msgid "Greek"
 msgstr "Graikų"
 
-#: translation.php:62 translation.php:63
+#: translation.php:59 translation.php:60
 msgid "Spanish"
 msgstr "Ispanų"
 
-#: translation.php:64
+#: translation.php:61
 msgid "Basque"
 msgstr "Baskų"
 
-#: translation.php:65
+#: translation.php:62
 msgid "Finnish"
 msgstr "Suomių"
 
-#: translation.php:66
+#: translation.php:63
 msgid "Filipino"
 msgstr "Filipinų"
 
-#: translation.php:67
+#: translation.php:64
 msgid "French"
 msgstr "Prancūzų"
 
-#: translation.php:68
+#: translation.php:65
 msgid "Galician"
 msgstr "Galų"
 
-#: translation.php:69
+#: translation.php:66
 msgid "Croatian"
 msgstr "Kroatų"
 
-#: translation.php:70
+#: translation.php:67
 msgid "Hungarian"
 msgstr "Vengrų"
 
-#: translation.php:71
+#: translation.php:68
 msgid "Indonesian"
 msgstr "Indoneziečių"
 
-#: translation.php:72
+#: translation.php:69
 msgid "Italian"
 msgstr "Italų"
 
-#: translation.php:73
+#: translation.php:70
 msgid "Japanese"
 msgstr "Japonų"
 
-#: translation.php:74
+#: translation.php:71
 msgid "Kabyle"
 msgstr "Kabilų"
 
-#: translation.php:75
+#: translation.php:72
 msgid "Korean"
 msgstr "Korėjiečių"
 
-#: translation.php:76
+#: translation.php:73
 msgid "Lithuanian"
 msgstr "Lietuvių k."
 
-#: translation.php:77
+#: translation.php:74
 msgid "Dutch"
 msgstr "Olandų"
 
-#: translation.php:78
+#: translation.php:75
 msgid "Norwegian Bokmal"
 msgstr "Norvegų (Bokmål)"
 
-#: translation.php:79
+#: translation.php:76
 msgid "Polish"
 msgstr "Lenkų"
 
-#: translation.php:80 translation.php:81
+#: translation.php:77 translation.php:78
 msgid "Portuguese"
 msgstr "Portugalų"
 
-#: translation.php:82
+#: translation.php:79
 msgid "Romanian"
 msgstr "Rumunų"
 
-#: translation.php:83
+#: translation.php:80
 msgid "Russian"
 msgstr "Rusų"
 
-#: translation.php:84
+#: translation.php:81
 msgid "Slovak"
 msgstr "Slovakų"
 
-#: translation.php:85
+#: translation.php:82
 msgid "Slovenian"
 msgstr "Slovėnų"
 
-#: translation.php:86
+#: translation.php:83
 msgid "Serbian"
 msgstr "Serbų"
 
-#: translation.php:87
+#: translation.php:84
 msgid "Swedish"
 msgstr "Švedų"
 
-#: translation.php:88
+#: translation.php:85
 msgid "Turkish"
 msgstr "Turkų"
 
-#: translation.php:89
+#: translation.php:86
 msgid "Ukrainian"
 msgstr "Ukrainiečių"
 
-#: translation.php:90
+#: translation.php:87
 msgid "Valencian"
 msgstr "Valencijiečių"
 
-#: translation.php:91
+#: translation.php:88
 msgid "Vietnamese"
 msgstr "Vietnamiečių"
 
-#: translation.php:92 translation.php:93
+#: translation.php:89 translation.php:90
 msgid "Chinese"
 msgstr "Kinų"
 

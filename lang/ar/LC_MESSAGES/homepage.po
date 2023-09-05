@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-18 15:47-0500\n"
-"PO-Revision-Date: 2023-05-19 16:03\n"
+"POT-Creation-Date: 2023-09-04 20:33-0500\n"
+"PO-Revision-Date: 2023-09-05 09:57\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -27,7 +27,7 @@ msgstr "ما الجديد؟"
 
 #: contributor.php:11
 msgid "Thank you for your contribution!"
-msgstr ""
+msgstr "شكراً لمساهمتك!"
 
 #: contributor.php:15
 msgid "Thank you for supporting FreeCAD!\n"
@@ -46,11 +46,11 @@ msgstr ""
 
 #: contributor.php:29
 msgid "Thanks!"
-msgstr ""
+msgstr "شكراً!"
 
 #: contributor.php:32
 msgid "The FreeCAD project association"
-msgstr ""
+msgstr "رابطة مشروع FreeCAD"
 
 #: donation.php:60
 msgid "Amount"
@@ -66,23 +66,23 @@ msgstr "اختر رجاءً"
 
 #: donation.php:70
 msgid "Direct SEPA bank transfer using your own bank apps"
-msgstr ""
+msgstr "تحويل بنكي مباشر لمنطقة الدفعات المالية الموحدة باليورو SEPA باستخدام التطبيقات البنكية الخاصة بك"
 
 #: donation.php:70
 msgid "SEPA bank transfer"
-msgstr ""
+msgstr "تحويل بنكي SEPA"
 
 #: donation.php:71
 msgid "Credit card payment via Stripe"
-msgstr ""
+msgstr "الدفع ببطاقة الائتمان عبر Stripe"
 
 #: donation.php:71
 msgid "Credit card (Stripe)"
-msgstr ""
+msgstr "بطاقة الائتمان (Stripe)"
 
 #: donation.php:72
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
-msgstr ""
+msgstr "Paypal يسمح بالتبرع باستخدام حساب Paypal الخاص بك، أو بطاقة الائتمان"
 
 #: donation.php:72
 msgid "Paypal"
@@ -90,7 +90,7 @@ msgstr "باي بال"
 
 #: donation.php:73
 msgid "Github allows you to sponsor your favorite projects using your github account, and a credit card"
-msgstr ""
+msgstr "يسمح لك Github بتمويل مشاريعك المفضلة باستخدام حساب github الخاص بك، وبطاقة الائتمان"
 
 #: donation.php:73
 msgid "Github"
@@ -98,23 +98,23 @@ msgstr "غت هاب"
 
 #: donation.php:74
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
-msgstr ""
+msgstr "تعمل شركة OpenCollective كمضيف مالي للمشاريع المفتوحة المصدر. يمكنك التبرع من خلال بطاقة ائتمان أو عبر حساب مصرفي. وشركة OpenCollective هي مؤسسة 501(c)3 وتقدم خصما ضريبيا في الولايات المتحدة."
 
 #: donation.php:74
 msgid "OpenCollective (501(c)3)"
-msgstr ""
+msgstr "OpenCollective (501 (ج)3)"
 
 #: donation.php:78
 msgid "SEPA Information"
-msgstr ""
+msgstr "معلومات SEPA"
 
 #: donation.php:79
 msgid "Please set up your SEPA bank transfer to"
-msgstr ""
+msgstr "يرجى ملئ معلومات SEPA لإجراء التحويل البنكي"
 
 #: donation.php:83
 msgid "Bank agency"
-msgstr ""
+msgstr "وكالة بنكية"
 
 #: donation.php:84
 msgid "Address"
@@ -122,7 +122,7 @@ msgstr "العنوان"
 
 #: donation.php:86
 msgid "Submit"
-msgstr ""
+msgstr "تقديم الطلب"
 
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
@@ -130,79 +130,95 @@ msgid "More information about the different donation methods and options on the\
 msgstr ""
 
 #: downloads.php:24
-msgid "Current stable version: 0.20.2"
+msgid "Current stable version: 0.21.1"
 msgstr ""
 
 #: downloads.php:25
-msgid "Select your desired platform"
-msgstr "اختر منصتك المفضلة"
+msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
+msgstr "اختر المنصة المطلوبة (لاحظ أن جميع التنزيلات لنظم 64-بت):"
 
-#: downloads.php:45
+#: downloads.php:46
 msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
 msgstr "Windows 7 هو الحد الأدنى من الإصدار المدعوم. لمزيد من المعلومات عند التثبيت، يرجى التحقق من "
 
-#: downloads.php:46 downloads.php:66 downloads.php:86
+#: downloads.php:47 downloads.php:69 downloads.php:91
 msgid "wiki"
 msgstr "الموسوعة الحرة، ويكيبيديا"
 
-#: downloads.php:65
+#: downloads.php:68
 msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
 msgstr ""
 
-#: downloads.php:85
+#: downloads.php:70
+msgid "Versions of Mac OS before Mac OS 13 should use the \"unsigned\" version of the disk image."
+msgstr ""
+
+#: downloads.php:90
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
 msgstr "للحصول على تعليمات توزيعة محددة ، مثل Ubuntu PPA، وطرق أخرى للتثبيت على لينوكس، يرجى التحقق من "
 
-#: downloads.php:98
+#: downloads.php:100
+msgid "See what has changed since last version in the"
+msgstr "شاهد ما تغير منذ الإصدار الأخير في"
+
+#: downloads.php:101
+msgid "FreeCAD 0.21 release notes"
+msgstr "ملاحظات الإصدار لـ FreeCAD 0.21"
+
+#: downloads.php:110
 msgid "Development versions"
 msgstr "إصدارات المطورين / المبرمجين"
 
-#: downloads.php:100
+#: downloads.php:112
 msgid "FreeCAD's development happens daily!"
 msgstr ""
 
-#: downloads.php:101
-msgid "Therefore we generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
+#: downloads.php:113
+msgid "We generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
 msgstr ""
 
-#: downloads.php:102
-msgid "We recommend more savvy users to run dev builds and help spur FreeCAD's progress."
+#: downloads.php:114
+msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
 msgstr ""
 
-#: downloads.php:103
-msgid "We also recommend backing up files before working with a dev build."
+#: downloads.php:115
+msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
 msgstr ""
 
-#: downloads.php:104
+#: downloads.php:116
+msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
+msgstr ""
+
+#: downloads.php:117
 msgid "The following dev builds are available for different platforms/distributions:"
 msgstr ""
 
-#: downloads.php:121
+#: downloads.php:134
 msgid "Additional modules and macros"
 msgstr "وحدات إضافية و وحدات ماكرو"
 
-#: downloads.php:123
+#: downloads.php:136
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr ""
 
-#: downloads.php:125
+#: downloads.php:138
 msgid "Addon manager."
 msgstr "مدير الملحقات"
 
-#: downloads.php:135
+#: downloads.php:148
 msgid "Source code"
 msgstr "مصدر النص البرمجي"
 
-#: downloads.php:137
+#: downloads.php:150
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr ""
 
-#: downloads.php:139
+#: downloads.php:152
 msgid "and mirrored on "
 msgstr "و منعكس على "
 
-#: downloads.php:142
+#: downloads.php:155
 msgid "and "
 msgstr "و "
 
@@ -272,7 +288,7 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              analyses results or quantities data to dozens of different <a href=\"https://wiki.freecad.org/Category:File_Formats\">file formats</a> such as\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Obj\">OBJ</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Wavefront_.obj_file\">OBJ</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
@@ -280,7 +296,7 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> or\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://people.sc.fsu.edu/~jburkardt/data/off/off.html\">OFF</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OFF_(file_format)\">OFF</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
@@ -349,58 +365,62 @@ msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 msgstr ""
 
 #: features.php:224
-msgid "Release 0.20 - June 2022"
-msgstr "الإصدار 0.20 - يونيو 2022"
+msgid "Release 0.21 - August 2023"
+msgstr "إلاصدار 0.21 - أبريل 2023"
 
 #: features.php:224
 msgid "current stable release"
 msgstr ""
 
 #: features.php:225
+msgid "Release 0.20 - June 2022"
+msgstr "الإصدار 0.20 - يونيو 2022"
+
+#: features.php:226
 msgid "Release 0.19 - March 2021"
 msgstr "الإصدار 0.19 - مارس 2021"
 
-#: features.php:226
+#: features.php:227
 msgid "Release 0.18 - March 2019"
 msgstr "الإصدار 0.18 - مارس 2019"
 
-#: features.php:227
+#: features.php:228
 msgid "Release 0.17 - April 2018"
 msgstr "الإصدار 0.17 - أبريل 2018"
 
-#: features.php:228
+#: features.php:229
 msgid "Release 0.16 - April 2016"
 msgstr "إلاصدار 0.16 - أبريل 2016"
 
-#: features.php:229
+#: features.php:230
 msgid "Release 0.15 - March 2015"
 msgstr "الإصدار 0.15 - مارس 2015"
 
-#: features.php:230
+#: features.php:231
 msgid "Release 0.14 - March 2014"
 msgstr "الإصدار 0.14 - مارس 2014"
 
-#: features.php:231
+#: features.php:232
 msgid "Release 0.13 - January 2013"
 msgstr "الإصدار 0.13 - يناير 2013"
 
-#: features.php:232
+#: features.php:233
 msgid "Release 0.12 - December 2011"
 msgstr "الإصدار 0.12 - دجنبر 2011"
 
-#: features.php:233
+#: features.php:234
 msgid "Release 0.11 - March 2011"
 msgstr "الإصدار 0.11 - مارس 2011"
 
-#: features.php:244
+#: features.php:245
 msgid "Follow the official FreeCAD channels for fresh news:"
 msgstr ""
 
-#: features.php:250
+#: features.php:251
 msgid "Official blog"
 msgstr ""
 
-#: features.php:251
+#: features.php:252
 msgid "Twitter account"
 msgstr ""
 
@@ -517,43 +537,51 @@ msgstr ""
 msgid "Frequently asked questions"
 msgstr ""
 
-#: header.php:103
+#: header.php:99
+msgid "https://wiki.freecad.org/About_FreeCAD"
+msgstr "https://wiki.freecad.org/About_FreeCAD"
+
+#: header.php:99
+msgid "About FreeCAD"
+msgstr "حول FreeCAD"
+
+#: header.php:104
 msgid "Contribute"
 msgstr "ساهم"
 
-#: header.php:106
+#: header.php:107
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr ""
 
-#: header.php:106
+#: header.php:107
 msgid "How to help"
 msgstr "كيف تساعد"
 
-#: header.php:107
+#: header.php:108
 msgid "Donate / Sponsor"
 msgstr ""
 
-#: header.php:108
+#: header.php:109
 msgid "Report a bug"
 msgstr ""
 
-#: header.php:109
+#: header.php:110
 msgid "Make a pull request"
 msgstr ""
 
-#: header.php:110
+#: header.php:111
 msgid "Jobs and funding"
 msgstr ""
 
-#: header.php:111
+#: header.php:112
 msgid "Contribution guidelines"
 msgstr ""
 
-#: header.php:112
+#: header.php:113
 msgid "Developers handbook"
 msgstr ""
 
-#: header.php:117
+#: header.php:118
 msgid "Community"
 msgstr "المجتمع"
 
@@ -566,8 +594,8 @@ msgid "Download now"
 msgstr "حمل الآن"
 
 #: index.php:23
-msgid "https://wiki.freecad.org/Release_notes_0.20"
-msgstr ""
+msgid "https://wiki.freecad.org/Release_notes_0.21"
+msgstr "https://wiki.freecad.org/Release_notes_0.21"
 
 #: index.php:38
 msgid "Freedom to build what you want"
@@ -800,15 +828,15 @@ msgstr ""
 msgid "Gold sponsors"
 msgstr ""
 
-#: sponsor.php:186
+#: sponsor.php:191
 msgid "Early sponsors"
 msgstr ""
 
-#: sponsor.php:228
+#: sponsor.php:233
 msgid "Silver sponsors"
 msgstr ""
 
-#: sponsor.php:253
+#: sponsor.php:258
 msgid "Bronze sponsors"
 msgstr ""
 
@@ -931,147 +959,147 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            the FreeCAD world."
 msgstr ""
 
-#: translation.php:55
+#: translation.php:52
 msgid "English"
 msgstr "الإنجليزية"
 
-#: translation.php:56
+#: translation.php:53
 msgid "Afrikaans"
 msgstr "الأفريقانية"
 
-#: translation.php:57
+#: translation.php:54
 msgid "Arabic"
 msgstr ""
 
-#: translation.php:58
+#: translation.php:55
 msgid "Catalan"
 msgstr ""
 
-#: translation.php:59
+#: translation.php:56
 msgid "Czech"
 msgstr "التشيكية"
 
-#: translation.php:60
+#: translation.php:57
 msgid "German"
 msgstr "الألمانية"
 
-#: translation.php:61
+#: translation.php:58
 msgid "Greek"
 msgstr "اليونانية"
 
-#: translation.php:62 translation.php:63
+#: translation.php:59 translation.php:60
 msgid "Spanish"
 msgstr "الاسبانية"
 
-#: translation.php:64
+#: translation.php:61
 msgid "Basque"
 msgstr ""
 
-#: translation.php:65
+#: translation.php:62
 msgid "Finnish"
 msgstr "الفنلندية"
 
-#: translation.php:66
+#: translation.php:63
 msgid "Filipino"
 msgstr ""
 
-#: translation.php:67
+#: translation.php:64
 msgid "French"
 msgstr "الفرنسية"
 
-#: translation.php:68
+#: translation.php:65
 msgid "Galician"
 msgstr ""
 
-#: translation.php:69
+#: translation.php:66
 msgid "Croatian"
 msgstr "الكرواتية"
 
-#: translation.php:70
+#: translation.php:67
 msgid "Hungarian"
 msgstr "المجرية"
 
-#: translation.php:71
+#: translation.php:68
 msgid "Indonesian"
 msgstr ""
 
-#: translation.php:72
+#: translation.php:69
 msgid "Italian"
 msgstr "الايطالية"
 
-#: translation.php:73
+#: translation.php:70
 msgid "Japanese"
 msgstr "اليابانية"
 
-#: translation.php:74
+#: translation.php:71
 msgid "Kabyle"
 msgstr ""
 
-#: translation.php:75
+#: translation.php:72
 msgid "Korean"
 msgstr ""
 
-#: translation.php:76
+#: translation.php:73
 msgid "Lithuanian"
 msgstr ""
 
-#: translation.php:77
+#: translation.php:74
 msgid "Dutch"
 msgstr "الهولندية"
 
-#: translation.php:78
+#: translation.php:75
 msgid "Norwegian Bokmal"
 msgstr ""
 
-#: translation.php:79
+#: translation.php:76
 msgid "Polish"
 msgstr "البولندية"
 
-#: translation.php:80 translation.php:81
+#: translation.php:77 translation.php:78
 msgid "Portuguese"
 msgstr "البرتغالية"
 
-#: translation.php:82
+#: translation.php:79
 msgid "Romanian"
 msgstr "الرومانية"
 
-#: translation.php:83
+#: translation.php:80
 msgid "Russian"
 msgstr "الروسية"
 
-#: translation.php:84
+#: translation.php:81
 msgid "Slovak"
 msgstr "السلوفاكية"
 
-#: translation.php:85
+#: translation.php:82
 msgid "Slovenian"
 msgstr "السلوفانية"
 
-#: translation.php:86
+#: translation.php:83
 msgid "Serbian"
 msgstr "الصربية"
 
-#: translation.php:87
+#: translation.php:84
 msgid "Swedish"
 msgstr "السويدية"
 
-#: translation.php:88
+#: translation.php:85
 msgid "Turkish"
 msgstr "التركية"
 
-#: translation.php:89
+#: translation.php:86
 msgid "Ukrainian"
 msgstr "الاوكرانية"
 
-#: translation.php:90
+#: translation.php:87
 msgid "Valencian"
 msgstr ""
 
-#: translation.php:91
+#: translation.php:88
 msgid "Vietnamese"
 msgstr ""
 
-#: translation.php:92 translation.php:93
+#: translation.php:89 translation.php:90
 msgid "Chinese"
 msgstr "الصينية"
 
