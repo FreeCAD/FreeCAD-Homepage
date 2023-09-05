@@ -56,7 +56,7 @@ function getFlags($href='/') {
     echo('						<a class="dropdown-item" href="'.$href.'"><img src="lang/en/flag.jpg"/>'._('English').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=af"><img src="lang/af/flag.jpg"/>'._('Afrikaans').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=ar"><img src="lang/ar/flag.jpg"/>'._('Arabic').'</a>');
-    echo('						<a class="dropdown-item" href="'.$href.'?lang=ar"><img src="lang/be/flag.jpg"/>'._('Belarusian').'</a>');
+    echo('						<a class="dropdown-item" href="'.$href.'?lang=be"><img src="lang/be/flag.jpg"/>'._('Belarusian').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=ca"><img src="lang/ca/flag.jpg"/>'._('Catalan').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=cs"><img src="lang/cs/flag.jpg"/>'._('Czech').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=de"><img src="lang/de/flag.jpg"/>'._('German').'</a>');
