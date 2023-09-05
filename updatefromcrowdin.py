@@ -74,7 +74,7 @@ from PySide2 import QtCore,QtGui
 
 crowdinpath = "http://crowdin.net/download/project/freecad.zip"
 
-default_languages = "af ar ca cs de el es-AR es-ES eu fi fil fr gl hr hu id it ja kab ko lt nl no pl pt-BR pt-PT ro ru sk sl sr sv-SE tr uk val-ES vi zh-CN zh-TW"
+default_languages = "af ar be ca cs de el es-AR es-ES eu fi fil fr gl hr hu id it ja kab ko lt nl no pl pt-BR pt-PT ro ru sk sl sr sv-SE tr uk val-ES vi zh-CN zh-TW"
 
 
 
