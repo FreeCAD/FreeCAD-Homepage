@@ -1,19 +1,18 @@
 <?php
     include("translation.php");
-    $homeurl = "index.php";
-    $downloadurl = "downloads.php";
-    $featuresurl = "features.php";
-    $eventsurl = "events.php";
-    $sponsorurl = "sponsor.php";
+    $lang = "";
     $langattrib = "";
     if ($_GET["lang"] != "") {
-        $homeurl = $homeurl."?lang=".$_GET["lang"];
-        $downloadurl = $downloadurl."?lang=".$_GET["lang"];
-        $featuresurl = $featuresurl."?lang=".$_GET["lang"];
-        $eventsurl = $eventsurl."?lang=".$_GET["lang"];
-        $sponsorurl = $sponsorurl."?lang=".$_GET["lang"];
+        $lang = "?lang=".$_GET["lang"];
         $langattrib = "&lang=".$_GET["lang"];
     }
+    $homeurl = "index.php".$lang;
+    $downloadurl = "downloads.php".$lang;
+    $featuresurl = "features.php".$lang;
+    $eventsurl = "events.php".$lang;
+    $sponsorurl = "sponsor.php".$lang;
+    $codeofconducturl = "codeofconduct.php".$lang;
+    $contributingurl = "contributing.php".$lang;
 ?>
 
 <!DOCTYPE html>
@@ -111,7 +110,7 @@
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/issues"><?php echo _('Report a bug'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls"><?php echo _('Make a pull request'); ?></a>
             <a class="dropdown-item text-dark" href="https://blog.freecad.org/jobs"><?php echo _('Jobs and funding'); ?></a>
-            <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/blob/master/CONTRIBUTING.md"><?php echo _('Contribution guidelines'); ?></a>
+            <a class="dropdown-item text-dark" href="<?php echo $contributingurl; ?>"><?php echo _('Contribution guidelines'); ?></a>
             <a class="dropdown-item text-dark" href="https://freecad.github.io/DevelopersHandbook/"><?php echo _('Developers handbook'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Localisation'); ?>"><?php echo _('Translations'); ?></a>
           </div>
@@ -121,7 +120,7 @@
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Community'); ?></a>
 
           <div class="dropdown-menu-mobile-right dropdown-community dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/blob/master/CODE_OF_CONDUCT.md">Code of conduct</a>
+            <a class="dropdown-item text-dark" href="<?php echo $codeofconducturl; ?>">Code of conduct</a>
             <a class="dropdown-item text-dark font-weight-bold" href="https://forum.freecad.org/">Forum</a>
             <a class="dropdown-item text-dark" href="https://fpa.freecad.org">The FPA</a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD">GitHub</a>
