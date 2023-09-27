@@ -235,6 +235,15 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
                 <div class="silver sponsor">
+                    <img class="logo" src="images/sponsors/chudovo.png">
+                    <a class="title" href="https://chudovo.com">Chudovo</a>
+                     is an international software development company with representative 
+                     offices in Kyiv, Cologne, New York, Tallinn and London. It has been working 
+                     on the market since 2006. Company has domain expertise in video security, 
+                     logistics, medicine, finance
+                </div>
+
+                <div class="silver sponsor">
                     Anonymous user
                 </div>
 
