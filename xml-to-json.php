@@ -52,7 +52,7 @@ function xmlToArray($xml, $options = array()) {
     $options = array_merge($defaults, $options);
     $namespaces = $xml->getDocNamespaces();
     $namespaces[''] = null; //add base (empty) namespace
- 
+
     //get attributes from all namespaces
     $attributesArray = array();
     foreach ($namespaces as $prefix => $namespace) {
@@ -66,7 +66,7 @@ function xmlToArray($xml, $options = array()) {
             $attributesArray[$attributeKey] = (string)$attribute;
         }
     }
- 
+
     //get child nodes from all namespaces
     $tagsArray = array();
     foreach ($namespaces as $prefix => $namespace) {
@@ -74,13 +74,13 @@ function xmlToArray($xml, $options = array()) {
             //recurse into child nodes
             $childArray = xmlToArray($childXml, $options);
             list($childTagName, $childProperties) = each($childArray);
- 
+
             //replace characters in tag name
             if ($options['keySearch']) $childTagName =
                     str_replace($options['keySearch'], $options['keyReplace'], $childTagName);
             //add namespace prefix, if any
             if ($prefix) $childTagName = $prefix . $options['namespaceSeparator'] . $childTagName;
- 
+
             if (!isset($tagsArray[$childTagName])) {
                 //only entry with this key
                 //test if tags of this type should always be arrays, no matter the element count
@@ -99,16 +99,16 @@ function xmlToArray($xml, $options = array()) {
             }
         }
     }
- 
+
     //get text content of node
     $textContentArray = array();
     $plainText = trim((string)$xml);
     if ($plainText !== '') $textContentArray[$options['textContent']] = $plainText;
- 
+
     //stick it all together
     $propertiesArray = !$options['autoText'] || $attributesArray || $tagsArray || ($plainText === '')
             ? array_merge($attributesArray, $tagsArray, $textContentArray) : $plainText;
- 
+
     //return node as array
     return array(
         $xml->getName() => $propertiesArray
