@@ -279,7 +279,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 	background-color: $block-background2;
 }
 
-.bg3 { 
+.bg3 {
 	background-color: $block-background3;
 	&.panel {
 		background: transparent none;
@@ -499,8 +499,8 @@ p.post-notice.reported:before, p.post-notice.error:before {
 a { color: $link-color; }
 a:hover	{ color: $link-hover-color; }
 
-a.time { 
-	color: $faint-color; 
+a.time {
+	color: $faint-color;
 	&:hover {
 		color: $link-hover-color;
 	}
@@ -884,15 +884,15 @@ dd.profile-warnings {
 	}
 }
 
-.dropdown-select:after { 
-	border-color: $button-border; 
+.dropdown-select:after {
+	border-color: $button-border;
 }
-.dropdown-select:hover	{ 
-	border-color: $button-border; 
+.dropdown-select:hover	{
+	border-color: $button-border;
 }
 
-.dropdown-select:hover:after, .dropdown-visible .dropdown-select:after, .nojs .dropdown-container:hover .dropdown-select:after	{ 
-	border-color: transparent; 
+.dropdown-select:hover:after, .dropdown-visible .dropdown-select:after, .nojs .dropdown-container:hover .dropdown-select:after	{
+	border-color: transparent;
 }
 
 .dropdown-visible .dropdown-select, .dropdown-visible .dropdown-select:hover, .nojs .dropdown-container:hover .dropdown-select,
