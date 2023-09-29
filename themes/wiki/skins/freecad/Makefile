@@ -14,7 +14,7 @@ mediawiki: bootstrap
 	cat bootstrap/js/bootstrap.js js/jquery-dotimeout/jquery.ba-dotimeout.js js/behavior.js > js/site.js
 	uglifyjs -nc js/site.js > js/site.min.js
 
-bootstrap:
+bootstrap: 
 	rm -rf bootstrap
 	mkdir -p bootstrap
 	mkdir -p bootstrap/img

@@ -1867,7 +1867,7 @@ ul.topiclist dl {
   position: relative; }
 
 ul.topiclist li.row dl {
-  padding: 2px 2px 0 40px;
+  padding: 2px 2px 0 40px; 
   background-repeat: no-repeat;
 }
 
@@ -2397,7 +2397,7 @@ blockquote {
   margin: 8px 12px;
   overflow: hidden;
   padding: 5px;
-  position: relative;
+  position: relative; 
   color: #ddd; }
 
 blockquote:before {
@@ -2421,7 +2421,7 @@ blockquote cite {
   display: block;
   font-family: "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
   font-size: 12px;
-  line-height: 1.6;
+  line-height: 1.6; 
   color: #aaa;
   padding-bottom: 6px; }
 
@@ -3544,7 +3544,7 @@ dd input, dd textarea {
   margin-right: 3px; }
 
 dd select {
-  width: auto;
+  width: auto; 
   color: #000;
 }
 
@@ -3741,7 +3741,7 @@ input.button1:focus, input.button2:focus, input.button3:focus {
   padding: 3px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: border-box; 
   /*! color: #000; */
 }
   .rtl .search-box .inputbox {
@@ -4863,7 +4863,7 @@ dl.faq dt, .content dl.faq dt {
 
 blockquote {
   background-color: #282828;
-  border-color: #282828;
+  border-color: #282828; 
   border-left: 5px solid #282828 !important;
 }
 
@@ -4922,7 +4922,7 @@ blockquote:before {
   color: #666; }
 
 dl.file dd {
-  color: #ddd;
+  color: #ddd; 
   align-content: ;
 }
 

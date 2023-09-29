@@ -111,7 +111,7 @@ class freecadTemplate extends QuickTemplate {
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="<?php echo $url_prefix; ?>Special:RecentChanges" class="recent-changes"><i class="fa fa-edit"></i> Recent Changes</a></li>
-                                    <?php if( $this->data['notspecialpage'] ) { ?>
+                                    <?php if( $this->data['notspecialpage'] ) { ?>  
                                         <li><a href="<?php echo $this->data['nav_urls']['whatlinkshere']['href'] ?>" class="what-links-here"><i class="fa fa-link"></i> What links here</a></li>
                                     <?php } ?>
 									<li><a href="<?php echo $url_prefix; ?>Special:SpecialPages" class="special-pages"><i class="fa fa-star-o"></i> Special Pages</a></li>
@@ -157,12 +157,12 @@ class freecadTemplate extends QuickTemplate {
 							<input type="hidden" name="title" value="Special:Search">
 						</div>
 					</form>
-
+                    
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="http://forum.freecadweb.org"><i class="fa fa-commenting"></i></a></li>
                         <li><a href="/tracker/"><i class="fa fa-bug"></i></a></li>
                     </ul>
-
+                    
 					</div>
 				</div>
 		</div><!-- topbar -->
@@ -217,7 +217,7 @@ class freecadTemplate extends QuickTemplate {
 
 				<div class="pagetitle page-header">
 					<h1><?php $this->html( 'title' ) ?> <small><?php $this->html('subtitle') ?></small></h1>
-				</div>
+				</div>	
 
 				<div class="body">
 				<?php $this->html( 'bodytext' ) ?>
@@ -448,7 +448,7 @@ class freecadTemplate extends QuickTemplate {
 			}//end else
 		}
 
-		return $nav;
+		return $nav;	
 	}//end get_page_links
 
 	private function get_array_links( $array, $title, $which ) {
@@ -529,3 +529,4 @@ class freecadTemplate extends QuickTemplate {
 
 	public static function link() { }
 }
+

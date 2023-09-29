@@ -44,10 +44,10 @@ MAX_COUNT = 1000  # Do at most this many repos, for testing purposes
 # The first time this job is run it must clone all existing submodules listed
 # in the FreeCAD-Addons .gitmodule file. On subsequent calls, only newly-added
 # repos must be cloned: all others are fetched. If a full re-clone is desired,
-# simply delete the FreeCAD-Addons directory, and on the next run of this
+# simply delete the FreeCAD-Addons directory, and on the next run of this 
 # script the Addons repo will be re-cloned along with all of its submodules.
 # Note that a full re-clone takes about 50 times longer than a fetch, so
-# this option should be exercised sparingly.
+# this option should be exercised sparingly. 
 
 
 import os

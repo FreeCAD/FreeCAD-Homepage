@@ -400,7 +400,7 @@ $post-side:								if($profile-side == left, right, left);
 
 @mixin placeholder {
 	&::-moz-placeholder {
-		@content
+		@content 
 	}
 	&::-webkit-input-placeholder {
 		@content

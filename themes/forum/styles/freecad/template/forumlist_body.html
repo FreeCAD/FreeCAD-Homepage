@@ -63,7 +63,7 @@
 						</div>
 							<!-- IF not forumrow.S_IS_LINK and forumrow.LAST_POST_TIME -->
 							<div class="forum-lastpost" style="display: none;">
-								<strong>{L_LAST_POST}{L_COLON}</strong>
+								<strong>{L_LAST_POST}{L_COLON}</strong> 
 								<span><a href="{forumrow.U_LAST_POST}" title="{forumrow.LAST_POST_SUBJECT}" class="lastsubject">{forumrow.LAST_POST_SUBJECT_TRUNCATED}</a></span>
 								<span>{L_POST_BY_AUTHOR} {forumrow.LAST_POSTER_FULL}, {forumrow.LAST_POST_TIME}</span>
 							</div>
@@ -87,7 +87,7 @@
 						<!-- IF forumrow.S_DISPLAY_SUBJECT -->
 							<!-- EVENT forumlist_body_last_post_title_prepend -->
 							<a href="{forumrow.U_LAST_POST}" title="{forumrow.LAST_POST_SUBJECT}" class="lastsubject">{forumrow.LAST_POST_SUBJECT_TRUNCATED}</a> <br />
-						<!-- ENDIF -->
+						<!-- ENDIF --> 
 						{L_POST_BY_AUTHOR} {forumrow.LAST_POSTER_FULL}
 						<!-- IF not S_IS_BOT --><a href="{forumrow.U_LAST_POST}">{LAST_POST_IMG}</a> <!-- ENDIF --><br />{forumrow.LAST_POST_TIME}<!-- ELSE -->{L_NO_POSTS}<br />&nbsp;<!-- ENDIF --></span>
 					</dd>

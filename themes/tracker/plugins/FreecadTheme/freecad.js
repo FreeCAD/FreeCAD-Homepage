@@ -1,6 +1,6 @@
 function addReportTemplate() {
-  var descText = `<a href="//forum.freecadweb.org/viewtopic.php?f=3&t=5236">Read this before reporting</a>
-  and make a <a href="//forum.freecadweb.org">forum thread asking for help</a>
+  var descText = `<a href="//forum.freecadweb.org/viewtopic.php?f=3&t=5236">Read this before reporting</a> 
+  and make a <a href="//forum.freecadweb.org">forum thread asking for help</a> 
   <em>first</em> if you aren't sure it's a bug!`;
 
   var stepsText = `Include a detailed, step-by-step list for bugs.
@@ -14,9 +14,9 @@ and paste the link here.`;
   var fcinfoText = `Paste the contents of Help > About FreeCAD > "Copy to
 clipboard". <em>Note:</em> You must only post the complete snippet with nothing else.
 Or else the tracker will not accept the ticket.`;
-
+  
   var exclamationTriangle = '<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>';
-
+  
   var descHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + descText + '</span>';
   var stepsHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + stepsText + '</span>';
   var infoHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + infoText + '</span>';

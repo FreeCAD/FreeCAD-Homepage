@@ -336,8 +336,8 @@ span.imageset {
 		opacity: .7;
 	}
 }
-ul.linklist.bulletin > li.small-icon.icon-members:before {
-	@extend .icon-members:before;
+ul.linklist.bulletin > li.small-icon.icon-members:before { 
+	@extend .icon-members:before; 
 }
 .icon-notification {
 	@extend %icon-image-fa;

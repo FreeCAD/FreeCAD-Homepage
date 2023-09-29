@@ -2,7 +2,7 @@
 require_once( config_get( 'class_path' ) . 'MantisPlugin.class.php' );
 
 class FreeCADThemePlugin extends MantisPlugin {
-
+    
     function register() {
         $this->name = 'FreeCAD Theme';
         $this->description = 'FreeCAD theme for mantis, based on bootstrap';
@@ -22,7 +22,7 @@ class FreeCADThemePlugin extends MantisPlugin {
         );
         return $hooks;
     }
-
+    
     function install() {
         return true;
     }
@@ -64,7 +64,7 @@ class FreeCADThemePlugin extends MantisPlugin {
             $t_return .='                                <li><a href="http://forum.freecadweb.org/viewtopic.php?f=3&t=5236">Read this before reporting</a></li>
                                 <li><a href="bug_report_page.php">Report issue</a></li>';
         }
-        $t_return .='                            </ul>
+        $t_return .='                            </ul> 
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle hidden-lg hidden-md" data-toggle="dropdown">Changes <span class="caret"></span></a>
@@ -81,7 +81,7 @@ class FreeCADThemePlugin extends MantisPlugin {
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-size: 14px; padding: 15px;">'.current_user_get_field( 'username' ).'<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="account_page.php"><i class="fa fa-user"></i> My account</a></li>';
-
+                                
             if( access_has_global_level( config_get( 'manage_site_threshold' ) ) ) {
                 $t_return .= '                              <li><a href="manage_overview_page.php"><i class="fa fa-cogs"></i> Manage</a></li>';
             }
@@ -109,7 +109,7 @@ class FreeCADThemePlugin extends MantisPlugin {
         </div>';
         return $t_return;
     }
-
+    
 }
 
 ?>

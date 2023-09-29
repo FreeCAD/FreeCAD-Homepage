@@ -46,13 +46,13 @@
       echo '<script>document.getElementById("githubLink").setAttribute("href", "' . $githubEditUrl . '");</script>';
       ?>
     </div>
-
+    
   </footer>
 
   <!-- Include Bootstrap JS files -->
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper-1.14.7.min.js"></script>
   <script src="js/bootstrap-4.3.1.min.js"></script>
-
+  
 </body>
 </html>

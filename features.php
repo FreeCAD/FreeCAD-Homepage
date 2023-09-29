@@ -1,4 +1,4 @@
-<?php
+<?php 
     $currentpage = "features.php";
     include("header.php");
 ?>

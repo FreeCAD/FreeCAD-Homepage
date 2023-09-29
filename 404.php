@@ -1,4 +1,4 @@
-<?php
+<?php 
     $currentpage = "404.php";
     include("header.php");
 ?>
@@ -28,5 +28,5 @@
 
     <div class="d-flex justify-content-center "><img id="floating-arrow" src="svg/icon-down.svg" onClick="onClickArrow()" onmouseover="" style="cursor: pointer;"/></div>
     <a id="belowArrow"></a>
-  <div>
+  <div> 
 <?php include 'footer.php'; ?>

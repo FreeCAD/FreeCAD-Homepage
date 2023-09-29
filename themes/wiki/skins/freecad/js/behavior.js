@@ -4,7 +4,7 @@ $(function() {
 	$('#page-contents a').click(function(e){
 		e.preventDefault();
 		var $target = $(this).attr('href');
-		$(document).scrollTop( $($target).offset().top-100 );
+		$(document).scrollTop( $($target).offset().top-100 );                                                                                                                                                                                                     
 	});
 
 	$( document ).on('change', '#subnav-select', function() {

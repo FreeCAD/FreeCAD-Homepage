@@ -1,4 +1,4 @@
-<?php
+<?php 
     $currentpage = "index.php";
     include("header.php");
 ?>
