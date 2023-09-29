@@ -379,8 +379,8 @@ function checkNavigation(force)
 			}
 
 			cloneClass = (
-					$this.attr('data-responsive-class') === undefined ? 
-						($this.hasClass('small-icon') ? $this.attr('class') : '') : 
+					$this.attr('data-responsive-class') === undefined ?
+						($this.hasClass('small-icon') ? $this.attr('class') : '') :
 						$this.attr('data-responsive-class')
 				) + ' responsive-index-' + i;
 
@@ -502,8 +502,8 @@ function initResponsiveNavigation()
 			}
 			// Secondary menu
 			lists.eq(0).prepend('<li class="responsive-menu dropdown-container" style="display: none;"><a href="#" class="dropdown-trigger dropdown-toggle">...</a>' +
-					'<div class="dropdown hidden">' + 
-						'<div class="pointer"><div class="pointer-inner"></div></div>' + 
+					'<div class="dropdown hidden">' +
+						'<div class="pointer"><div class="pointer-inner"></div></div>' +
 						'<ul class="dropdown-contents" /></ul>' +
 					'</div>' +
 				'</li>');
@@ -585,7 +585,7 @@ function parseDocument($container) {
 		$('.tab[data-select-match]', this).each(function() {
 			var matches = $(this).attr('data-select-match').split(','),
 				i, match, item;
-			
+
 			for (i=0; i<matches.length; i++) {
 				match = matches[i].trim();
 				if (current.indexOf(match) != -1) {
@@ -1396,7 +1396,7 @@ function parseDocument($container) {
 				}
 			}
 
-			$w.on('scroll resize', function() { 
+			$w.on('scroll resize', function() {
 				if (!isStatic) {
 					check(false);
 				}
@@ -1543,7 +1543,7 @@ function parseDocument($container) {
 				hdLoaded = false,
 				normalLoaded = false;
 
-			function replaceImage() 
+			function replaceImage()
 			{
 				$this.css('width', (img.naturalWidth ? img.naturalWidth : img.width) + 'px');
 				img.setAttribute('src', img.getAttribute('data-src-hd'));
@@ -1808,7 +1808,7 @@ jQuery(function($) {
 			styleConfig._resizeQueued = true;
 		}
 	});
-  
+
   $('.dropdown-contents').parent().css('display', 'none');
 
 });

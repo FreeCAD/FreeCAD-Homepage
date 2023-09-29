@@ -37,7 +37,7 @@ Upload to a cloud-based 3rd party service like Nextcloud or Dropbox,
 and paste the link here.`;
 
   var exclamationTriangle = '<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>';
-  
+
   var summaryHtml = '<br>' + exclamationTriangle + ' <span class="red">' + summaryText + '</span>';
   var descHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + descText + '</span>';
   var stepsHtml = '<br><br>' + exclamationTriangle + ' <span class="red">' + stepsText + '</span>';
