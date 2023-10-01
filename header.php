@@ -113,7 +113,7 @@
             <a class="dropdown-item text-dark" href="https://blog.freecad.org/jobs"><?php echo _('Jobs and funding'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/blob/master/CONTRIBUTING.md"><?php echo _('Contribution guidelines'); ?></a>
             <a class="dropdown-item text-dark" href="https://freecad.github.io/DevelopersHandbook/"><?php echo _('Developers handbook'); ?></a>
-            <a class="dropdown-item text-dark" href="https://wiki.freecad.org/Localisation"><?php echo _('Translations'); ?></a>
+            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Localisation'); ?>"><?php echo _('Translations'); ?></a>
           </div>
         </li>
 
