@@ -98,7 +98,7 @@
     <div class="download-notes text-center">
       <p>
         <?php echo _("See what has changed since last version in the"); ?>
-        <a class="badge badge-light" href="https://wiki.freecad.org/Release_notes_0.21"><?php echo _('FreeCAD 0.21 release notes'); ?></a>
+        <a class="badge badge-light" href="<?php echo _('https://wiki.freecad.org/Release_notes_0.21'); ?>"><?php echo _('FreeCAD 0.21 release notes'); ?></a>
       </p>
     </div>
 
@@ -135,7 +135,7 @@
       <p>
         <?php echo _('The FreeCAD community provides a wealth of additional modules and macros. They can
         now easily be installed directly from within FreeCAD using the '); ?>
-        <a href="https://wiki.freecad.org/AddonManager" class="badge badge-light"><?php echo _('Addon manager.'); ?></a>
+        <a href="<?php echo _('https://wiki.freecad.org/Std_AddonMgr'); ?>" class="badge badge-light"><?php echo _('Addon manager.'); ?></a>
       </p>
     </div>
 
