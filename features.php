@@ -170,7 +170,7 @@
               <a href="https://wiki.freecad.org/Macros_recipes">macros</a> developed by the users
               community.'); ?>
             </p>
-            <a class="btn btn-light rounded-pill mt-3" role="button" href="https://wiki.freecad.org/Feature_list">
+            <a class="btn btn-light rounded-pill mt-3" role="button" href="<?php echo _('https://wiki.freecad.org/Feature_list'); ?>">
               <?php echo _('Learn more'); ?>
             </a>
           </div>
@@ -221,17 +221,17 @@
 
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
               <ul class="d-block whitelinks releases">
-                <li><a href="https://wiki.freecad.org/Release_notes_0.21" title="Release notes 0.21"><?php echo _('Release 0.21 - August 2023'); ?></a> (<?php echo _('current stable release'); ?>)</li>
-                <li><a href="https://wiki.freecad.org/Release_notes_0.20" title="Release notes 0.20"><?php echo _('Release 0.20 - June 2022'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_0.19" title="Release notes 0.19"><?php echo _('Release 0.19 - March 2021'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_0.18" title="Release notes 0.18"><?php echo _('Release 0.18 - March 2019'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_0.17" title="Release notes 0.17"><?php echo _('Release 0.17 - April 2018'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_0.16" title="Release notes 0.16"><?php echo _('Release 0.16 - April 2016'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_0.15" title="Release notes 0.15"><?php echo _('Release 0.15 - March 2015'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_0.14" title="Release notes 0.14"><?php echo _('Release 0.14 - March 2014'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_013" title="Release notes 013"><?php echo _('Release 0.13 - January 2013'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_012" title="Release notes 012"><?php echo _('Release 0.12 - December 2011'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Release_notes_011" title="Release notes 011"><?php echo _('Release 0.11 - March 2011'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.21" title="Release notes 0.21'); ?>"><?php echo _('Release 0.21 - August 2023'); ?></a> (<?php echo _('current stable release'); ?>)</li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.20" title="Release notes 0.20'); ?>"><?php echo _('Release 0.20 - June 2022'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.19" title="Release notes 0.19'); ?>"><?php echo _('Release 0.19 - March 2021'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.18" title="Release notes 0.18'); ?>"><?php echo _('Release 0.18 - March 2019'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.17" title="Release notes 0.17'); ?>"><?php echo _('Release 0.17 - April 2018'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.16" title="Release notes 0.16'); ?>"><?php echo _('Release 0.16 - April 2016'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.15" title="Release notes 0.15'); ?>"><?php echo _('Release 0.15 - March 2015'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.14" title="Release notes 0.14'); ?>"><?php echo _('Release 0.14 - March 2014'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_013" title="Release notes 013'); ?>"><?php echo _('Release 0.13 - January 2013'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_012" title="Release notes 012'); ?>"><?php echo _('Release 0.12 - December 2011'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_011" title="Release notes 011'); ?>"><?php echo _('Release 0.11 - March 2011'); ?></a></li>
               </ul>
           </div>
         </section>
