@@ -21,7 +21,7 @@
       <!-- Major+Minor Version of FC Stable -->
       <!-- -------------------------------- -->
 
-      <h2 class="downloads-notes-title"><?php echo _('Current stable version: 0.21.1'); ?></h2>
+      <h2 class="downloads-notes-title"><?php echo _('Current stable version:'); ?> 0.21.1</h2>
       <p><?php echo _('Select your desired platform (note that all downloads are for 64-bit systems):'); ?></p>
 
     </div>
