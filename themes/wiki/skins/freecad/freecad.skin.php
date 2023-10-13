@@ -256,7 +256,7 @@ class freecadTemplate extends QuickTemplate {
                 <div class="col-md-3">
                     <?php echo _('Community'); ?>
                     <ul>
-                        <li><a href="https://github.com/FreeCAD/FreeCAD">Github</a></li>
+                        <li><a href="https://github.com/FreeCAD/FreeCAD">GitHub</a></li>
                         <li><a href="https://www.facebook.com/FreeCAD">Facebook</a></li>
                         <li><a href="https://plus.google.com/u/0/communities/103183769032333474646">Google+</a></li>
                     </ul>
