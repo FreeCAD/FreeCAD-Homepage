@@ -56,7 +56,7 @@
     <ul class="nav nav-pills ml-auto order-xl-last">
       <li class="nav-item dropdown">
         <a class="nav-link text-light rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-          <img src="lang/<?php echo $lang; ?>/flag.jpg"/>
+          <img src="lang/<?php echo $_GET["lang"]; ?>/flag.jpg"/>
         </a>
 
         <div class="dropdown-menu-mobile-left dropdown-lang dropdown-menu dropdown-menu-right">
