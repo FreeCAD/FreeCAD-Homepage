@@ -63,7 +63,7 @@
             <?php echo _('If you are in, choose the amount and method of your
             choice below. If you are interested in supporting the project better
             with a recurring donation, check the <a href=sponsor.php>sponsoring
-            page</a> to  more options.'); ?>
+            page</a> to see more options.'); ?>
             </p>
 
             <?php $formid = "donation"; include("donation.php"); ?>
