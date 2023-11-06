@@ -105,14 +105,14 @@
             </p>
 
             <ul class="d-block whitelinks">
-                <li><a href="https://wiki.freecad.org/Installing_on_Windows"><?php echo _('Installing FreeCAD on Windows'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Installing_on_Linux"><?php echo _('Installing FreeCAD on Linux'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Installing_on_Mac"><?php echo _('Installing FreeCAD on MacOS'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Installing_additional_components"><?php echo _('Installing additional components'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Getting_started"><?php echo _('Getting started with FreeCAD'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"><?php echo _('Migrating from other software?'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Workbenches"><?php echo _('Workbenches documentation'); ?></a></li>
-                <li><a href="https://wiki.freecad.org/Frequently_asked_questions"><?php echo _('Frequently asked questions'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Installing_on_Windows'); ?>"><?php echo _('Installing FreeCAD on Windows'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Installing_on_Linux'); ?>"><?php echo _('Installing FreeCAD on Linux'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Installing_on_Mac'); ?>"><?php echo _('Installing FreeCAD on MacOS'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Installing_additional_components'); ?>"><?php echo _('Installing additional components'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Getting_started'); ?>"><?php echo _('Getting started with FreeCAD'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F'); ?>"><?php echo _('Migrating from other software?'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Workbenches'); ?>"><?php echo _('Workbenches documentation'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Frequently_asked_questions'); ?>"><?php echo _('Frequently asked questions'); ?></a></li>
             </ul>
 
             <p>
@@ -121,7 +121,7 @@
             </p>
 
             <ul class="d-block whitelinks">
-                <li><a href="https://wiki.freecad.org/Manual"><?php echo _('The FreeCAD user manual'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Manual'); ?>"><?php echo _('The FreeCAD user manual'); ?></a></li>
             </ul>
 
             <p>
@@ -130,7 +130,7 @@
             </p>
 
             <ul class="d-block whitelinks">
-                <li><a href="https://wiki.freecad.org/Tutorials"><?php echo _('Tutorials'); ?></a></li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Tutorials'); ?>"><?php echo _('Tutorials'); ?></a></li>
             </ul>
 
             <p>
