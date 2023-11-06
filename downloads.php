@@ -44,7 +44,7 @@
           <div class="card-footer px-xl-5 py-xl-4">
             <small class="text-muted">
               <?php echo _('Windows 7 is the minimum supported version. For more info on installation, please check out the '); ?>
-              <a href="https://wiki.freecad.org/Install_on_Windows"><?php echo _('wiki'); ?></a>.
+              <a href="<?php echo _('https://wiki.freecad.org/Install_on_Windows'); ?>"><?php echo _('wiki'); ?></a>.
             </small>
           </div>
         </div>
@@ -66,7 +66,7 @@
           <div class="card-footer px-xl-5 py-xl-4">
             <small class="text-muted">
               <?php echo _('Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the '); ?>
-              <a href="https://wiki.freecad.org/Install_on_Mac"><?php echo _('wiki'); ?></a>.
+              <a href="<?php echo _('https://wiki.freecad.org/Install_on_Mac'); ?>"><?php echo _('wiki'); ?></a>.
               <?php echo _('Versions of Mac OS before Mac OS 13 should use the "unsigned" version of the disk image.'); ?>
             </small>
           </div>
@@ -88,7 +88,7 @@
           <div class="card-footer px-xl-5 py-xl-4">
             <small class="text-muted">
               <?php echo _('For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the '); ?>
-              <a href="https://wiki.freecad.org/Install_on_Unix"><?php echo _('wiki'); ?></a>.
+              <a href="<?php echo _('https://wiki.freecad.org/Install_on_Unix'); ?>"><?php echo _('wiki'); ?></a>.
             </small>
           </div>
         </div>
@@ -120,8 +120,8 @@
         - <?php echo ("macOS") ?>: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo ('Conda'); ?></a>
         / <a href="https://github.com/FreeCAD/homebrew-freecad" class="badge badge-light"><?php echo ('Homebrew'); ?></a>
         - <?php echo ("Linux") ?>: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo ('Conda'); ?></a>
-        / <a href="https://wiki.freecad.org/Snap" class="badge badge-light"><?php echo ('Snap'); ?></a>
-        / <a href="https://wiki.freecad.org/Flatpak" class="badge badge-light"><?php echo ('Flatpak'); ?></a>
+        / <a href="<?php echo _('https://wiki.freecad.org/Snap'); ?>" class="badge badge-light"><?php echo ('Snap'); ?></a>
+        / <a href="<?php echo _('https://wiki.freecad.org/Flatpak'); ?>" class="badge badge-light"><?php echo ('Flatpak'); ?></a>
       </p>
 
     </div>
