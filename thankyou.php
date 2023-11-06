@@ -142,7 +142,7 @@
 
             <p>
             <?php echo _('If you encounter issues with FreeCAD, or would like to
-            meet and discuss topics with other users, pay a visit to the 
+            meet and discuss topics with other users, pay a visit to the
             <a href=https://forum.freecad.org>FreeCAD forum</a>. The forum is the
             main meeting point for FreeCAD users of all parts of the world and all
             skill levels. There you can seek advice of more advanced users, find
