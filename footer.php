@@ -38,8 +38,8 @@
     </p>
 
     <div class="float-sm-right">
-    <a id="githubLink" href="#"><img class="icon-social m-3" src="svg/icon-github-light.svg" alt="GitHub" />Improve this
-      page on GitHub</a>
+    <a id="githubLink" href="#"><img class="icon-social m-3" src="svg/icon-github-light.svg" alt="GitHub" /><?php echo _('Improve this
+      page on GitHub'); ?></a>
     <?php
       $currentUrl = $_SERVER['REQUEST_URI'];
       $githubEditUrl = 'https://github.com/FreeCAD/FreeCAD-Homepage/blob/master/' . $currentpage;
