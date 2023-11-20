@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 20:33-0500\n"
-"PO-Revision-Date: 2023-09-05 09:58\n"
+"PO-Revision-Date: 2023-11-16 22:10\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -44,7 +44,7 @@ msgid "If you have made a recurring donation above 25 USD/EUR \n"
 "            your name, company name or logo displayed on the FreeCAD website, \n"
 "            depending on the tier you fit in. If you have not yet informed us of \n"
 "            the name you wish to see displayed, please reach to us at"
-msgstr ""
+msgstr "Als u een periodieke donatie hebt gedaan van meer dan 25 USD/EUR per maand (of een eenmalige donatie boven de 300 USD/EUR), dan komt u in aanmerking om een bronzen sponsor, zilveren sponsor of gouden sponsor te worden, en uw naam,  bedrijfsnaam of logo kan dan worden vermeld op de FreeCAD website, afhankelijk van de hoogte van het bedrag. Als u nog niet heeft doorgegeven of u uw naam (en/of welke naam) wilt vermelden, neem dan contact op via"
 
 #: contributor.php:29
 msgid "Thanks!"
@@ -129,7 +129,7 @@ msgstr "Indienen"
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr ""
+msgstr "Meer informatie over de verschillende methoden en opties om te doneren vind u op de <a href=https://wiki.freecad.org/donate>donate</a> pagina."
 
 #: downloads.php:24
 msgid "Current stable version: 0.21.1"
@@ -153,7 +153,7 @@ msgstr "Mac OS X 10.12 Sierra is de minimaal ondersteunde versie. Voor meer info
 
 #: downloads.php:70
 msgid "Versions of Mac OS before Mac OS 13 should use the \"unsigned\" version of the disk image."
-msgstr ""
+msgstr "Versies van Mac OS vóór Mac OS 13 moeten de \"unsigned\" versie van de disk image gebruiken."
 
 #: downloads.php:90
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
@@ -202,7 +202,7 @@ msgstr "Extra modules en macro's"
 #: downloads.php:136
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
-msgstr ""
+msgstr "De FreeCAD gemeenschap biedt een schat aan extra modules en macro's. Ze kunnen nu gemakkelijk geïnstalleerd worden vanuit FreeCAD met behulp van de "
 
 #: downloads.php:138
 msgid "Addon manager."
@@ -237,7 +237,7 @@ msgid "FreeCAD is made primarily to design objects for the real world. Everythin
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr ""
+msgstr "FreeCAD is voornamelijk gemaakt om producten 'voor de echte wereld' te ontwerpen. Alles wat u in FreeCAD doet, maakt gebruik van werkelijke eenheden of het nu microns, kilometers, inches of voeten, of zelfs iedere combinatie van eenheden, zijn. FreeCAD biedt <a href=https://wiki.freecad.org/Workbenches>Werkbanken</a> om precisie Solid Models te produceren, exporteren en bewerken. Exporteer ze naar uw 3D-printer of CNC machines, maak 2D tekeningen en weergaven van uw modellen. Voer analyses uit zoals Eindige Elementen Analyse, of exporteer gegevens van de modellen zoals aantallen onderdelen of stuklijsten."
 
 #: features.php:40
 msgid "A powerful solid-based geometry kernel"
@@ -252,7 +252,7 @@ msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
 "              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
-msgstr ""
+msgstr "FreeCAD beschikt over een geavanceerde geometrie engine gebaseerd op <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technologie</a>. Het ondersteunt solids, <a href=https://en.wikipedia.org/wiki/Boundary_representation>Gebiedsvertegenwoordiging</a> (BRep) objecten, en <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>Niet-uniforme rationele basis spline</a> (NURBS) krommen en oppervlakten, en biedt een breed scala aan gereedschappen om deze objecten te maken en aan te passen, inclusief complex <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Booleaanse</a> operaties, <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>filters</a>, vorm onderhoud en <a href=https://wiki.freecad.org/OpenCASCADE>veel meer</a>."
 
 #: features.php:58
 msgid "A wi(l)dly parametric environment"
@@ -265,7 +265,7 @@ msgid "All FreeCAD objects are natively parametric, meaning their shape can be b
 "                a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing\n"
 "                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are\n"
 "                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>."
-msgstr ""
+msgstr "Alle FreeCAD objecten zijn in beginsel parametrisch, wat betekent dat hun vorm kan worden gebaseerd op <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">Eigenschappen</a> zoals numerieke waarden, teksten, aan/uit knoppen, of zelfs andere objecten. Alle vorm wijzigingen worden zodra nodig doorgerekend, geregistreerd door een ongedaan maken/opnieuw uitvoeren functie, en dat maakt mogelijk dat een nauwkeurige modelleergeschiedenis behouden blijft. Eigenschappen van het ene object kunnen de waarde van eigenschappen van andere objecten beïnvloeden, wat mogelijk maakt dat complexe  aangepaste parametrische ketens ontstaan, die slechts in uw wildste dromen voorkomen. Nieuwe parametrische objecten zijn <a href=https://wiki.freecad.org/Scripted_objects>makkelijk te programmeren</a>."
 
 #: features.php:83
 msgid "Python everywhere"
@@ -279,7 +279,7 @@ msgid "While the FreeCAD core functionality is coded in C++ for robustness and p
 "                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line\n"
 "                  commands in the integrated Python console to recording macros, coding your own tools up to\n"
 "                  full custom workbenches."
-msgstr ""
+msgstr "FreeCad's kern functionaliteit is geprogrammeerd in C++ vanwege de robuustheid en prestaties. Echter grote delen van de buitenste schillen, werkbanken en bijna alle communicatie tussen de kern en de gebruikersinterface is geprogrammeerd in <a href=https://python.org>Python</a>, een flexibele, gebruikersvriendelijke makkelijk te leren programmeertaal. Door middel van Python code kunt u bijna <a href=https://wiki.freecad.org/Power_users_hub>alles doen in FreeCAD</a>, van eenvoudige één regel commando's in de ingebouwde Python console tot het opnemen van macro's en het programmeren van uw eigen gereedschappen en zelfs volledig aangepaste werkbanken."
 
 #: features.php:101
 msgid "File formats frenzy"
@@ -305,7 +305,7 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              and many more, in addition to FreeCAD&apos;s native\n"
 "              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
 "              file formats."
-msgstr ""
+msgstr "Met FreeCAD kunt u modellen, en veel andere soorten gegevens uit uw modellen, importeren en exporteren, zoals analyse resultaten en heel veel gegevens, naar tientallen verschillende <a href=\"https://wiki.freecad.org/Category:File_Formats\">bestandsindelingen</a> zoals <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,  <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Wavefront_.obj_file\">OBJ</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> of <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OFF_(file_format)\">OFF</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a> en nog veel meer. in aanvulling op FreeCAD&apos;'s eigen <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> bestandsindeling. Ook add-on werkbanken kunnen meer bestandsformaten toevoegen."
 
 #: features.php:139
 msgid "A parametric constraints-based 2D sketcher"
@@ -317,7 +317,7 @@ msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sket
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
 "                  objects throughout FreeCAD, be it either with the\n"
 "                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
-msgstr ""
+msgstr "Onderdeel van FreeCAD is een geavanceerde <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a> met geïntegreerde randvoorwaarden afhandeling, die ervoor zorgt dat je geometrisch bepaalde 2D vormen kunt schetsen. Schetsen zijn het belangrijkste bouwblok van FreeCAD, en de volledig bepaalde 2D vormen die er mee getekend zijn kunnen worden gebruikt als basis om andere objecten te bouwen in FreeCAD, zowel met de specifiek daarvoor bedoelde <a href=https://wiki.freecad.org/PartDesign_Workbench>part Design werkbank</a> als met elke andere werkbank."
 
 #: features.php:155
 msgid "A large (and growing) multi-specialty ecosystem"
@@ -339,7 +339,7 @@ msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbench_Con
 "              <a href=\"https://wiki.freecad.org/External_workbenches\">add-on workbenches</a> and\n"
 "              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> developed by the users\n"
 "              community."
-msgstr ""
+msgstr "FreeCAD biedt speciale <a href=\"https://wiki.freecad.org/Workbenches\">werkbanken</a> voor verschillende doeleinden zoals <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG modelering</a>, eenvoudig <a href=\"https://wiki.freecad.org/Draft_Workbench\">2D CAD ontwerp</a>, <a href=\"https://wiki.freecad.org/Surface_Module\">NURBS oppervlakken</a>, <a href=\"https://wiki.freecad.org/Arch_Module\">architectonisch of BIM-modelleren</a>, <a href=\"https://wiki.freecad.org/Path_Workbench\">3D-printen, CAM en CNC</a>, <a href=\"https://wiki.freecad.org/Points_Module\">puntenwolk</a>, die werkt met <a href=\"https://wiki.freecad.org/OpenSCAD_Module\">OpenSCAD bestanden</a>, het ontwerpen van <a href=\"https://wiki.freecad.org/Robot_Workbench\">industriële robot trajecten</a>, <a href=\"https://wiki.freecad.org/FEM_Module\">Eindige Elementen Analyses</a>, en nog veel meer. FreeCAD biedt ook eenvoudige tools voor het installeren en beheren van <a href=\"https://wiki.freecad.org/External_workbenches\">add-on werkbanken</a> en <a href=\"https://wiki.freecad.org/Macros_recipes\">macro's</a> ontwikkeld door de gebruikersgemeenschap."
 
 #: features.php:174 index.php:113
 msgid "Learn more"
@@ -355,7 +355,7 @@ msgid "FreeCAD is made for everybody, by everybody. It is developed and maintain
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
 "              urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or\n"
 "              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
-msgstr ""
+msgstr "FreeCAD is gemaakt voor iedereen, door iedereen. Het wordt ontwikkeld en onderhouden door een gemeenschap van ontwikkelaars, gebruikers, moderators, vertalers, allemaal verenigd door hun wens om FreeCAD een gratis en krachtig hulpmiddel te maken. Er is geen commercieel doel achter genomen besluiten, geen dwang om uw versie van FreeCAD te upgraden of een specifieke workflow of ecosysteem te gebruiken. FreeCAD, en de bestanden en gegevens die u met FreeCAD produceert, zijn werkelijk van u, voor altijd."
 
 #: features.php:207
 msgid "Release notes"
@@ -364,7 +364,7 @@ msgstr "Opmerkingen bij de nieuwe versies"
 #: features.php:217
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
-msgstr ""
+msgstr "Hier vindt u de versie opmerkingen bij de huidige en vorige FreeCAD versies. Deze opmerkingen beschrijven wat nieuw is in elke versie:"
 
 #: features.php:224
 msgid "Release 0.21 - August 2023"
@@ -433,7 +433,7 @@ msgstr "Neem contact op!"
 #: footer.php:24
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
 "      r-frank, epileftric, regis, rider_mortagnais, bejant."
-msgstr ""
+msgstr "© Het FreeCAD-Team. Credits voor de homepage afbeeldingen (van boven naar beneden): ppemawm, r-frank, epileftric, regis, rider_mortagnais, bejant."
 
 #: footer.php:28
 msgid "This project is supported by:"
@@ -608,7 +608,7 @@ msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
 "          and changing its parameters."
-msgstr ""
+msgstr "Freecad is een open-source parametrisch 3D teken programma. Geschikt voor het creëren van 3D modellen van echte objecten van ieder formaat. Parametrisch modelleren stelt je in staat om gemakkelijk je ontwerp aan te passen door terug te gaan in je bewerking historie en daar parameters in te wijzigen."
 
 #: index.php:54
 msgid "Create 3D from 2D & back"
@@ -619,7 +619,7 @@ msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
 "          create high quality production ready drawings."
-msgstr ""
+msgstr "FreeCAD stelt je in staat om 2D schetsen te maken met constraints. Deze schetsen kunnen als basis worden gebruikt om andere objecten te maken. Het bevat diverse eigenschappen om dimensies aan te passen of voor het extraheren van geometrie van 3D objecten om zo hoge kwaliteit tekeningen te maken."
 
 #: index.php:70
 msgid "Accessible, flexible & integrated"
@@ -631,7 +631,7 @@ msgid "FreeCAD is a multiplatform (Windows, Mac and Linux), highly\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
 "          and many others, making it possible to seamlessly integrate it into\n"
 "          your workflow."
-msgstr ""
+msgstr "FreeCAD is multiplatform (Windows, Mac en Linux), sterk aanpasbare en uitbreidbare software. Het leest en schrijft naar veel open bestandsindelingen zoals STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE en vele anderen, wat het mogelijk maakt om het naadloos in uw workflow integreren."
 
 #: index.php:87
 msgid "Designed for your needs"
@@ -642,7 +642,7 @@ msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
 "          teacher, you will feel right at home with FreeCAD."
-msgstr ""
+msgstr "FreeCAD is ontworpen voor een breed scala aan toepassingen zoals product ontwerp, werktuigbouwkunde en architectuur. Of je nu een hobbyist, programmeur, ervaren CAD gebruiker, student of docent bent, je zult je snel thuis voelen in FreeCAD."
 
 #: index.php:103
 msgid "And many more great features"
@@ -655,7 +655,7 @@ msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          allows you to study robot movements and many more features. FreeCAD\n"
 "          really is a Swiss Army knife of general-purpose engineering\n"
 "          toolkits."
-msgstr ""
+msgstr "FreeCAD geeft je de juiste tools voor al je wensen. Je krijgt een actueel EEM (Eindige Elementen Methode) gereedschap, expirimentele numerieke stromingsleer, BIM, Geodata of CAM/CNC werkbanken, een robot simulatie module die je robotbewegingen laat bestuderen en nog veel meer functies. FreeCAD is echt een Zwitserse zakmes van algemene ontwerp gereedschappen."
 
 #: index.php:124
 msgid "Want to contribute to FreeCAD?"
@@ -666,7 +666,7 @@ msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
 "          whole community."
-msgstr ""
+msgstr "FreeCAD is een echt open source-project en als je wilt helpen bugs oplossen, nieuwe coole functies implementeren of aan de documentatie werken, nodigen we je uit om met ons mee te doen en software te maken die de hele gemeenschap ten goede komt."
 
 #: index.php:132
 msgid "Get involved"
@@ -683,7 +683,7 @@ msgstr "Doneren aan FreeCAD"
 #: sponsor.php:21
 msgid "Thanks for your interest in helping the FreeCAD\n"
 "              project with donations."
-msgstr ""
+msgstr "Bedankt voor uw belangstelling in het steunen van het FreeCAD project door middel van donaties."
 
 #: sponsor.php:25
 msgid "FreeCAD is a fast-growing project, developed by a\n"
@@ -692,7 +692,7 @@ msgid "FreeCAD is a fast-growing project, developed by a\n"
 "              parametric modeller. The development of FreeCAD happens mostly\n"
 "              because of the energy of all these people, without the need for\n"
 "              money."
-msgstr ""
+msgstr "FreeCAD is een snel groeiend project, ontwikkeld door een gemeenschap van ontwikkelaars en gebruikers die veelal op vrijwillige basis werken, voornamelijk gedreven door hun wil om een geweldig, gratis, 3D parametrisch modelleer programma te maken. De ontwikkeling van FreeCAD is vooral mogelijk door de energie van al deze mensen, zonder dat daar geld voor nodig is."
 
 #: sponsor.php:33
 msgid "However, money can help the project to achieve many\n"
@@ -703,7 +703,7 @@ msgid "However, money can help the project to achieve many\n"
 "              showcase FreeCAD and interest professional users. It can also help\n"
 "              to organize events ourselves so community members can meet, pay for\n"
 "              server space and web services, and many other things."
-msgstr ""
+msgstr "Maar geld kan het project helpen om vele andere doelen te bereiken. Het kan ontwikkelaars helpen om regelmatiger aan het project te werken, door hun tijd te vergoeden zodat ze meer tijd aan FreeCAD kunnen werken of het kan de gemeenschap helpen om mensen naar CAD-evenementen te sturen zodat we FreeCAD kunnen presenteren en professionele gebruikers kunnen interesseren. Het kan ook helpen om evenementen zelf te organiseren zodat leden van de gemeenschap elkaar kunnen ontmoeten, betalen voor server ruimte en web services en vele andere dingen."
 
 #: sponsor.php:43
 msgid "There are several ways you can donate money and help\n"
@@ -715,7 +715,7 @@ msgid "There are several ways you can donate money and help\n"
 "              and core developers. The FPA will redistribute the money it gathers\n"
 "              to FreeCAD developers and sponsor itself several projects, efforts\n"
 "              and ideas to fuel the development of FreeCAD."
-msgstr ""
+msgstr "Er zijn verschillende manieren waarop u geld kunt doneren en het FreeCAD-project kunt steunen, zij het individueel, als bedrijf of als een instelling,  afhankelijk van uw voorkeuren. Het geld dat u schenkt aan het FreeCAD-project zal worden beheerd door de <a href=https://fpa.freecad.org>FreeCAD Project Association</a> (FPA), een vereniging zonder winstoogmerk, opgezet door FreeCAD beheerders en kernontwikkelaars. De FPA verdeelt het geld dat het krijgt aan FreeCAD-ontwikkelaars en sponsort zelf meerdere projecten, initiatieven en ideeën om de ontwikkeling van FreeCAD te stimuleren."
 
 #: sponsor.php:54
 msgid "Remember, however: FreeCAD is free, and will always\n"
@@ -723,7 +723,7 @@ msgid "Remember, however: FreeCAD is free, and will always\n"
 "              in order to use FreeCAD, neither to modify or distribute it. Your\n"
 "              donation will be welcome, and can help a lot, but you will never\n"
 "              be required to pay anything to access any of the FreeCAD features."
-msgstr ""
+msgstr "Onthoud echter: FreeCAD is gratis en zal altijd gratis blijven. U bent niet verplicht, en zult dat ook nooit zijn, om iets te doneren om FreeCAD te gebruiken, aan te passen of te verspreiden. Uw donatie zal welkom zijn, en kan veel helpen, maar u zult nooit verplicht worden om iets te betalen om toegang te krijgen tot een van de FreeCAD mogelijkheden."
 
 #: sponsor.php:69
 msgid "One-time donation"
@@ -733,12 +733,12 @@ msgstr "Eenmalige donatie"
 msgid "If you are not sure or not able to commit to a regular\n"
 "              donation, but still want to help the project, you can do a one-time\n"
 "              donation, of any amount."
-msgstr ""
+msgstr "Als u het nog niet zeker weet, of nog niet in staat bent om u te committeren aan een regelmatige donatie, maar u wilt het project wel steunen, dan kunt u een eenmalige donatie doen, van ieder willekeurig bedrag."
 
 #: sponsor.php:79
 msgid "Choose freely the amount you wish to donate one\n"
 "              time only:"
-msgstr ""
+msgstr "U bent vrij in de keuze van het eenmalige bedrag dat u wilt doneren:"
 
 #: sponsor.php:94
 msgid "Sponsoring"
@@ -749,14 +749,14 @@ msgid "We call sponsoring the act of donating money\n"
 "              recurrently to the FreeCAD project. You can do that as an\n"
 "              individual or as a company or institution, through different\n"
 "              channels or platforms, depending on your preferences."
-msgstr ""
+msgstr "Sponsoren is het regelmatig doneren van geld aan het FreeCAD-project. U kunt dat doen als persoon of als bedrijf of instelling, op verschillende manieren afhankelijk van uw voorkeuren."
 
 #: sponsor.php:105
 msgid "Sponsoring FreeCAD allows its developers to count on\n"
 "              a steady flow of income, so it allows the FPA to plan things ahead,\n"
 "              and the FreeCAD developers to invest themselves more seriously\n"
 "              into FreeCAD."
-msgstr ""
+msgstr "Door FreeCad te sponsoren kunnen de ontwikkelaars van FreeCAD op een stabiele stroom van inkomsten rekenen. De FPA kan daardoor dingen inplannen, en de FreeCAD ontwikkelaars kunnen zich uitgebreider voor FreeCAD inzetten."
 
 #: sponsor.php:111
 msgid "To encourage persons and companies to sponsor the\n"
@@ -764,7 +764,7 @@ msgid "To encourage persons and companies to sponsor the\n"
 "              donating regularly to the project, unless you prefer to stay\n"
 "              anonymous, your name, company name and/or logo will be featured\n"
 "              on this website, depending on the tier you fit into:"
-msgstr ""
+msgstr "Om personen en bedrijven aan te moedigen om het FreeCAD-project te sponsoren hebben we een aantal verschillende sponsor niveaus gecreeerd. Als u met regelmaat doneert aan het project kunnen uw naam, bedrijfsnaam en/of logo worden vermeld op deze website, tenzij u liever anoniem blijft. Afhankelijk van het bedrag van de donatie:"
 
 #: sponsor.php:118
 msgid "Normal sponsor"
@@ -775,7 +775,7 @@ msgid "from 1 USD / 1 EUR per month. You will not have your\n"
 "                name displayed here, but you will have helped the project a lot\n"
 "                anyway. Together, normal sponsors maintain the project on its\n"
 "                feet as much as the bigger sponsors."
-msgstr ""
+msgstr "vanaf 1 USD / 1 EUR per maand. Uw naam wordt hier niet weergegeven maar u hebt het project wel enorm geholpen. Met elkaar dragen alle normale sponsors net zo veel bij aan het project als de grotere sponsors."
 
 #: sponsor.php:123
 msgid "Bronze sponsor"
@@ -784,7 +784,7 @@ msgstr "Bronzen sponsor"
 #: sponsor.php:124
 msgid "from 25 USD / 25 EUR per month. Your name or\n"
 "                company name is displayed on this page."
-msgstr ""
+msgstr "vanaf 25 USD / 25 EUR per maand wordt uw naam of bedrijfsnaam op deze pagina vermeld."
 
 #: sponsor.php:126
 msgid "Silver sponsor"
@@ -794,7 +794,7 @@ msgstr "Zilveren sponsor"
 msgid "from 100 USD / 100 EUR per month. Your name or\n"
 "                company name is displayed on this page, with a link to\n"
 "                your website, and a one-line description text."
-msgstr ""
+msgstr "vanaf 100 USD / 100 EUR per maand wordt uw naam of bedrijfsnaam vermeld op deze pagina met een link naar uw website, met een beschrijving (één regel)."
 
 #: sponsor.php:130
 msgid "Gold sponsor"
@@ -806,25 +806,25 @@ msgid "from 200 USD / 200 EUR per month. Your name\n"
 "                with a link to your website and a custom description text.\n"
 "                Companies that have helped FreeCAD early on also appear\n"
 "                under Gold sponsors."
-msgstr ""
+msgstr "vanaf 200 USD / 200 EUR per maand wordt uw naam of bedrijfsnaam en logo weergegeven op deze pagina met een link naar uw website met een eigen tekst/omschrijving. Bedrijven die FreeCAD in een vroeg stadium hebben geholpen, worden ook bij de Gouden sponsors vermeld."
 
 #: sponsor.php:138
 msgid "Instead of donating each month, you might find it\n"
 "              more comfortable to make a one-time donation that, when divided by\n"
 "              twelve, would give you right to enter a sponsoring tier. Don't\n"
 "              hesitate to do so!"
-msgstr ""
+msgstr "In plaats van elke maand te doneren vindt u het misschien prettiger om een eenmalige donatie te doen, die gedeeld door 12 ook een jaar recht geeft op een bepaald sponsor niveau. Schroom niet als u hiervoor wilt kiezen!"
 
 #: sponsor.php:144
 msgid "Choose freely the amount you wish to donate each\n"
 "              month:"
-msgstr ""
+msgstr "U bent vrij in de keuze van het eenmalige bedrag dat u wilt doneren:"
 
 #: sponsor.php:149
 msgid "Please inform your forum name or twitter handle as a note\n"
 "              in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>,\n"
 "              so we can give you proper credits!"
-msgstr ""
+msgstr "Vermeld uw forumnaam of X- (Twitter) gebruiksnaam als notitie in uw overschrijving, of <a href=mailto:fpa@freecad.org>neem contact met ons op</a>, zodat we u de juiste credits kunnen geven!"
 
 #: sponsor.php:160
 msgid "Gold sponsors"
@@ -849,7 +849,7 @@ msgstr "Bedankt!"
 #: thankyou.php:38
 msgid "Your download should start automatically.\n"
 "            If not, click"
-msgstr ""
+msgstr "Uw download zou automatisch moeten starten. Zo niet, klik dan op"
 
 #: thankyou.php:39
 msgid "here"
@@ -869,14 +869,14 @@ msgid "If you are happy with FreeCAD, and would like to help\n"
 "            open-source, paying to use FreeCAD will never be required, and\n"
 "            FreeCAD does not need money to survive, but donations help us to go\n"
 "            further, faster."
-msgstr ""
+msgstr "Als u tevreden bent met FreeCAD, en het project graag wil steunen, overweeg dan een donatie aan het project! Het is en blijft Opensource, en betalen voor het gebruik van FreeCAD zal nooit nodig zijn want FreeCAD heeft geen geld nodig om te overleven, maar donaties helpen ons om sneller, meer, te bereiken."
 
 #: thankyou.php:63
 msgid "If you are in, choose the amount and method of your\n"
 "            choice below. If you are interested in supporting the project better\n"
 "            with a recurring donation, check the <a href=sponsor.php>sponsoring\n"
 "            page</a> to  more options."
-msgstr ""
+msgstr "Spreekt dit u aan, kies hieronder het bedrag en de methode van uw keuze. Als u het project liever wilt ondersteunen met een terugkerende donatie, bekijk de <a href=sponsor.php>sponsoring pagina</a> voor meer opties."
 
 #: thankyou.php:72
 msgid "There are also many other ways to help FreeCAD. For\n"
@@ -885,7 +885,7 @@ msgid "There are also many other ways to help FreeCAD. For\n"
 "            all you need to know on the\n"
 "            <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a>\n"
 "            page."
-msgstr ""
+msgstr "Er zijn ook veel andere manieren om FreeCAD te ondersteunen. U kunt bijvoorbeeld code schrijven, documentatie helpen schrijven, het vertalen van de FreeCAD interface en documentatie, nieuwe gebruikers op weg helpen, etc. Vindt alles wat u wil weten op de <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a> pagina."
 
 #: thankyou.php:87
 msgid "Need help?"
@@ -899,12 +899,12 @@ msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
 "            It covers everything from installing and launching FreeCAD, using it\n"
 "            and its different workbenches, up to creating Python scripts to\n"
 "            automate it and developing your own tools and extensions."
-msgstr ""
+msgstr "Als u nieuw bent bij FreeCAD of bij 3D CAD modelling, geen probleem! FreeCAD heeft een <a href=https://wiki.freecad.org>uitgebreide documentatie</a>, beschikbaar online maar ook binnen de FreeCAD applicatie. Het beslaat alles van het installeren en starten van FreeCAD, het gebruik ervan en van de verschillende werkbanken, tot het maken van Python scripts om te automatiseren en om je eigen tools en extensies te ontwikkelen."
 
 #: thankyou.php:103
 msgid "Below are some pages of this documentation that could\n"
 "            be useful to you:"
-msgstr ""
+msgstr "Hieronder vindt u enkele pagina's van deze documentatie, die nuttig voor u zouden kunnen zijn:"
 
 #: thankyou.php:108
 msgid "Installing FreeCAD on Windows"
@@ -933,7 +933,7 @@ msgstr "Migreren van andere software?"
 #: thankyou.php:119
 msgid "FreeCAD also offers a complete user manual, that can\n"
 "            be downloaded as a pdf or epub file or printed:"
-msgstr ""
+msgstr "FreeCAD bevat ook een volledige gebruikershandleiding, die kan worden gedownload als pdf of een epub bestand, of kan worden gepriint:"
 
 #: thankyou.php:124
 msgid "The FreeCAD user manual"
@@ -942,14 +942,14 @@ msgstr "De FreeCAD gebruikershandleiding"
 #: thankyou.php:128
 msgid "and many tutorials, in written or video form, created by\n"
 "            the FreeCAD community:"
-msgstr ""
+msgstr "en vele zelfstudies, in tekst of op video, gemaakt door de FreeCAD gemeenschap:"
 
 #: thankyou.php:137
 msgid "On behalf of all of the worldwide community of users,\n"
 "            developers, translators, editors, writers, testers who work hard to\n"
 "            make FreeCAD the best CAD modeller out there, we thank you for\n"
 "            downloading our baby! We hope you will like it as much as we do."
-msgstr ""
+msgstr "Namens iedereen in de wereldwijde groep gebruikers, ontwikkelaars, vertalers, editors, schrijvers en testers, die er hard aan werken om FreeCad het beste CAD programma dat er bestaat te maken, bedanken wij u voor het downloaden van onze 'baby'! Wij hopen dat het u zal bevallen, evenveel als dat het ons bevalt."
 
 #: thankyou.php:144
 msgid "If you encounter issues with FreeCAD, or would like to\n"
@@ -959,7 +959,7 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            skill levels. There you can seek advice of more advanced users, find\n"
 "            ways to solve a particular problem, or discuss ideas about and around\n"
 "            the FreeCAD world."
-msgstr ""
+msgstr "Als u problemen ondervindt met FreeCAD, of als u andere gebruikers wil ontmoeten om onderwerpen te bespreken, bezoek het <a href=https://forum.freecad.org>FreeCAD forum</a>. Het forum is het belangrijkste ontmoetingspunt voor FreeCAD-gebruikers van alle delen van de wereld en van alle vaardigheidsniveaus. Daar kunt u advies vragen aan meer gevorderde gebruikers, naar manieren zoeken om een bepaald probleem op te lossen, of ideeën voor en gedachten over de FreeCAD-wereld bespreken."
 
 #: translation.php:52
 msgid "English"

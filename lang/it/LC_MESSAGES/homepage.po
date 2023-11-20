@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 20:33-0500\n"
-"PO-Revision-Date: 2023-09-05 09:59\n"
+"PO-Revision-Date: 2023-11-20 09:33\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -33,7 +33,9 @@ msgstr "Grazie per il tuo contributo!"
 msgid "Thank you for supporting FreeCAD!\n"
 "            Whether you donated a little or a lot, all efforts contribute to \n"
 "            make FreeCAD development go further and faster."
-msgstr ""
+msgstr "Grazie per aver supportato FreeCAD!\n"
+" Sia che tu abbia donato poco o molto, tutti gli sforzi contribuiscono a \n"
+" far andare avanti e più velocemente lo sviluppo di FreeCAD."
 
 #: contributor.php:20
 msgid "If you have made a recurring donation above 25 USD/EUR \n"
@@ -42,7 +44,12 @@ msgid "If you have made a recurring donation above 25 USD/EUR \n"
 "            your name, company name or logo displayed on the FreeCAD website, \n"
 "            depending on the tier you fit in. If you have not yet informed us of \n"
 "            the name you wish to see displayed, please reach to us at"
-msgstr ""
+msgstr "Se ha effettuato una donazione ricorrente superiore a 25 USD/EUR \n"
+"            al mese (o una donazione una tantum superiore a 300 USD/EUR), sei \n"
+"            idoneo a diventare uno sponsor bronzo, argento o oro e puoi avere \n"
+"            il tuo nome, nome o logo dell'azienda visualizzato sul sito Web di FreeCAD, \n"
+"            a seconda del livello in cui ti trovi. Se non ci hai ancora informato di \n"
+"            del nome che desideri vedere visualizzato, ti preghiamo di raggiungerci a"
 
 #: contributor.php:29
 msgid "Thanks!"
@@ -127,11 +134,12 @@ msgstr "Invia"
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr ""
+msgstr "Maggiori informazioni sui diversi metodi e opzioni di donazione sulla pagina\n"
+"      <a href=https://wiki.freecad.org/donate>donazioni</a>."
 
 #: downloads.php:24
 msgid "Current stable version: 0.21.1"
-msgstr ""
+msgstr "Versione stabile corrente: 0.21.1"
 
 #: downloads.php:25
 msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
@@ -151,7 +159,7 @@ msgstr "Mac OS X 10.12 El Sierra è la versione minima supportata. Per ulteriori
 
 #: downloads.php:70
 msgid "Versions of Mac OS before Mac OS 13 should use the \"unsigned\" version of the disk image."
-msgstr ""
+msgstr "Le versioni di Mac OS antecedenti a Mac OS 13 dovrebbero utilizzare la versione \"non firmata\" dell'immagine del disco."
 
 #: downloads.php:90
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
@@ -200,7 +208,8 @@ msgstr "Moduli aggiuntivi e macro"
 #: downloads.php:136
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
-msgstr ""
+msgstr "La comunità FreeCAD fornisce una vasta gamma di moduli e macro aggiuntivi. Possono ora\n"
+"        essere facilmente installati direttamente da FreeCAD usando il "
 
 #: downloads.php:138
 msgid "Addon manager."
@@ -539,7 +548,7 @@ msgstr "Domande frequenti"
 
 #: header.php:99
 msgid "https://wiki.freecad.org/About_FreeCAD"
-msgstr ""
+msgstr "https://wiki.freecad.org/About_FreeCAD"
 
 #: header.php:99
 msgid "About FreeCAD"
@@ -902,7 +911,8 @@ msgstr ""
 #: thankyou.php:103
 msgid "Below are some pages of this documentation that could\n"
 "            be useful to you:"
-msgstr ""
+msgstr "Di seguito sono riportate alcune pagine di questa documentazione che potrebbero\n"
+"            essere utili per te:"
 
 #: thankyou.php:108
 msgid "Installing FreeCAD on Windows"
@@ -931,7 +941,8 @@ msgstr "Stai migrando da altri software?"
 #: thankyou.php:119
 msgid "FreeCAD also offers a complete user manual, that can\n"
 "            be downloaded as a pdf or epub file or printed:"
-msgstr ""
+msgstr "FreeCAD offre anche un manuale utente completo, che può essere scaricato\n"
+"            in formato pdf o epub o stampato:"
 
 #: thankyou.php:124
 msgid "The FreeCAD user manual"
@@ -940,14 +951,18 @@ msgstr "Il manuale utente di FreeCAD"
 #: thankyou.php:128
 msgid "and many tutorials, in written or video form, created by\n"
 "            the FreeCAD community:"
-msgstr ""
+msgstr "e molti tutorial, in forma scritta o video, creati dalla\n"
+"            comunità FreeCAD:"
 
 #: thankyou.php:137
 msgid "On behalf of all of the worldwide community of users,\n"
 "            developers, translators, editors, writers, testers who work hard to\n"
 "            make FreeCAD the best CAD modeller out there, we thank you for\n"
 "            downloading our baby! We hope you will like it as much as we do."
-msgstr ""
+msgstr "A nome di tutta la comunità mondiale di utenti,\n"
+"            sviluppatori, traduttori, editori, scrittori, tester che lavorano sodo per\n"
+"            fare di FreeCAD il miglior modellatore CAD, ti ringraziamo per\n"
+"            aver scaricato il nostro \"bimbo\"! Speriamo che ti piacerà tanto quanto a noi."
 
 #: thankyou.php:144
 msgid "If you encounter issues with FreeCAD, or would like to\n"
@@ -957,7 +972,13 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            skill levels. There you can seek advice of more advanced users, find\n"
 "            ways to solve a particular problem, or discuss ideas about and around\n"
 "            the FreeCAD world."
-msgstr ""
+msgstr "Se riscontri problemi con FreeCAD, o vorresti\n"
+"            incontrare e discutere argomenti con altri utenti, fai una visita al\n"
+"            <a href=https://forum.freecad.org>forum FreeCAD</a>. Il forum è il\n"
+"            punto di incontro principale per gli utenti FreeCAD di tutte le parti del mondo e con tutti i\n"
+"            livelli di competenza. Si può chiedere consiglio ad utenti più avanzati, trovare\n"
+"            modi per risolvere un problema particolare, o discutere idee riguardo\n"
+"            il mondo FreeCAD."
 
 #: translation.php:52
 msgid "English"

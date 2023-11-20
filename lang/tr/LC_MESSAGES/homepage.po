@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 20:33-0500\n"
-"PO-Revision-Date: 2023-09-05 10:01\n"
+"PO-Revision-Date: 2023-11-20 09:34\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -33,7 +33,9 @@ msgstr "Katkınız için teşekkür ederiz!"
 msgid "Thank you for supporting FreeCAD!\n"
 "            Whether you donated a little or a lot, all efforts contribute to \n"
 "            make FreeCAD development go further and faster."
-msgstr ""
+msgstr "FreeCAD'i desteklediğiniz için teşekkür ederiz!\n"
+" İster az ister çok bağış yapın, tüm bağışlar \n"
+" FreeCAD gelişiminin daha ileri ve daha hızlı ilerlemesine katkıda bulunur."
 
 #: contributor.php:20
 msgid "If you have made a recurring donation above 25 USD/EUR \n"
@@ -42,7 +44,12 @@ msgid "If you have made a recurring donation above 25 USD/EUR \n"
 "            your name, company name or logo displayed on the FreeCAD website, \n"
 "            depending on the tier you fit in. If you have not yet informed us of \n"
 "            the name you wish to see displayed, please reach to us at"
-msgstr ""
+msgstr "Aylık düzenli olarak 25 USD/EUR'nun üzerinde bağışta bulunduysanız\n"
+" (veya 300 USD/EUR'nun üzerinde tek seferlik bir bağışta bulunduysanız),\n"
+" bronz, gümüş veya altın sponsor olmaya hak kazanırsınız ve \n"
+" FreeCAD web sitesinde görüntülenen ad, şirket adı veya logo, \n"
+" bulunduğunuz seviyeye bağlıdır. Görüntülenmesini istediğiniz \n"
+" ad veya logo hakkında bize henüz bilgi vermediyseniz, lütfen şu adresten bize ulaşın"
 
 #: contributor.php:29
 msgid "Thanks!"
@@ -50,7 +57,7 @@ msgstr "Teşekkürler!"
 
 #: contributor.php:32
 msgid "The FreeCAD project association"
-msgstr ""
+msgstr "FreeCAD proje birliği"
 
 #: donation.php:60
 msgid "Amount"
@@ -74,11 +81,11 @@ msgstr "SEPA banka transferi"
 
 #: donation.php:71
 msgid "Credit card payment via Stripe"
-msgstr ""
+msgstr "Stripe üzerinden kredi kartıyla ödeme"
 
 #: donation.php:71
 msgid "Credit card (Stripe)"
-msgstr ""
+msgstr "Kredi Kartı (Stripe)"
 
 #: donation.php:72
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
@@ -98,11 +105,11 @@ msgstr "GitHub"
 
 #: donation.php:74
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
-msgstr ""
+msgstr "OpenCollective, açık kaynaklı projeler için mali ana bilgisayar görevi görür. Kredi kartı veya banka hesabı ile bağış yapabilirsiniz. OpenCollective bir 501(c)3 kuruluşudur ve ABD'de vergi indirimi sağlar."
 
 #: donation.php:74
 msgid "OpenCollective (501(c)3)"
-msgstr ""
+msgstr "OpenCollective (501(c)3)"
 
 #: donation.php:78
 msgid "SEPA Information"
@@ -127,11 +134,12 @@ msgstr "Gönder"
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr ""
+msgstr "Farklı bağış yöntemleri ve seçenekleri hakkında daha fazla bilgiyi\n"
+" <a href=https://wiki.freecad.org/donate>bağışlar</a> sayfasında bulabilirsiniz."
 
 #: downloads.php:24
 msgid "Current stable version: 0.21.1"
-msgstr ""
+msgstr "Güncel kararlı sürüm: 0.21.1"
 
 #: downloads.php:25
 msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
@@ -151,7 +159,7 @@ msgstr "Desteklenen en düşük işletim sistemi Mac OS X 10.12 Sierra'dır. Dah
 
 #: downloads.php:70
 msgid "Versions of Mac OS before Mac OS 13 should use the \"unsigned\" version of the disk image."
-msgstr ""
+msgstr "Mac OS 13'ten önceki Mac OS sürümleri, disk görüntüsünün \"imzasız\" sürümünü kullanmalıdır."
 
 #: downloads.php:90
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
@@ -171,15 +179,15 @@ msgstr "Geliştirme Sürümleri"
 
 #: downloads.php:112
 msgid "FreeCAD's development happens daily!"
-msgstr ""
+msgstr "FreeCAD'in gelişimi günlük olarak gerçekleşir!"
 
 #: downloads.php:113
 msgid "We generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
-msgstr ""
+msgstr "Kullanıcıların yeni özelliklerle birlikte hata düzeltmelerini/geri dönüşleri test edebilmesi için <i>son teknoloji</i> FreeCAD kodunu temel alan yapılar oluşturuyoruz."
 
 #: downloads.php:114
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
-msgstr ""
+msgstr "Yeni kodun test edilmesine yardımcı olmak için ileri düzey kullanıcılardan ara sıra geliştirme yapılarını çalıştırmalarını istiyoruz."
 
 #: downloads.php:115
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
@@ -187,11 +195,11 @@ msgstr "Bu sürümler üretim yapan kullanıcılar için uygun değildir. Bu kon
 
 #: downloads.php:116
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
-msgstr ""
+msgstr "Geliştirme sürümü resmi sürümlerden daha yavaş olması, daha fazla bellek tüketmesi ve daha az kararlı olması beklenmelidir."
 
 #: downloads.php:117
 msgid "The following dev builds are available for different platforms/distributions:"
-msgstr ""
+msgstr "Farklı platformlar/dağıtımlar için aşağıdaki geliştirme sayfaları mevcuttur:"
 
 #: downloads.php:134
 msgid "Additional modules and macros"
@@ -200,7 +208,7 @@ msgstr "Ek modüller ve makrolar"
 #: downloads.php:136
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
-msgstr ""
+msgstr "FreeCAD topluluğu çok sayıda ek modül ve makro sağlar. Artık FreeCAD'in içinden doğrudan kolayca kurulabilirler "
 
 #: downloads.php:138
 msgid "Addon manager."
@@ -212,7 +220,7 @@ msgstr "Kaynak kodu"
 
 #: downloads.php:150
 msgid "The source code of FreeCAD is hosted primarily on "
-msgstr ""
+msgstr "FreeCAD'in kaynak kodu öncelikle şu adreste barındırılır "
 
 #: downloads.php:152
 msgid "and mirrored on "
@@ -235,7 +243,13 @@ msgid "FreeCAD is made primarily to design objects for the real world. Everythin
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr ""
+msgstr "FreeCAD öncelikle gerçek dünya için nesneler tasarlamak için yapılmıştır.\n"
+" FreeCAD'de yaptığınız her şey gerçek dünyayı kullanır mikronlar,\n"
+" kilometreler, inçler ve feet veya herhangi bir birim kombinasyonu\n"
+" olsun. FreeCAD katı, tam hassas modeller üretmek ve düzenlemek,\n"
+" bunları 3D yazdırma veya CNC işleme için dışa aktarmak, 2D çizimler oluşturmak için <a href=https://wiki.freecad.org/Workbenches>araçlar</a> sunar.\n"
+" Sonlu Eleman Analizleri gibi analizleri gerçekleştirin veya miktarlar\n"
+" veya malzeme listeleri gibi model verilerini dışa aktarın."
 
 #: features.php:40
 msgid "A powerful solid-based geometry kernel"
@@ -250,7 +264,11 @@ msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
 "              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
-msgstr ""
+msgstr "FreeCAD, <a href=https://en.wikipedia.org/wiki/Open_CASCADE>CASCADE Teknolojisini</a> temel alan gelişmiş bir geometri motoruna\n"
+" sahiptir. Katıları, <a href=https://en.wikipedia.org/wiki/Boundary_reference>Sınır Gösterimi</a> (BRep) nesnelerini ve\n"
+" <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>Tek biçimli olmayan rasyonel temel spline</a> (NURBS)\n"
+" eğriler, yüzeyler ve karmaşık dahil olmak üzere bu nesneleri oluşturmak\n"
+"<a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boole</a> işlemleri, <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>pahlar</a>, şekil temizleme ve <a href=https://wiki.freecad.org/OpenCASCADE>çok daha fazlası</a>."
 
 #: features.php:58
 msgid "A wi(l)dly parametric environment"
@@ -418,11 +436,11 @@ msgstr ""
 
 #: features.php:251
 msgid "Official blog"
-msgstr ""
+msgstr "Resmi Blog"
 
 #: features.php:252
 msgid "Twitter account"
-msgstr ""
+msgstr "Twitter hesabı"
 
 #: footer.php:9
 msgid "Get in touch!"
@@ -439,11 +457,11 @@ msgstr "Bu proje aşağıdakiler tarafından desteklenmektedir:"
 
 #: footer.php:36
 msgid "and"
-msgstr ""
+msgstr "ve"
 
 #: footer.php:37
 msgid "other sponsors"
-msgstr ""
+msgstr "diğer sponsorlar"
 
 #: header.php:26 header.php:39
 msgid "FreeCAD: Your own 3D parametric modeler"
@@ -459,7 +477,7 @@ msgstr "İndir"
 
 #: header.php:83
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: header.php:87
 msgid "Documentation"
@@ -467,7 +485,7 @@ msgstr "Dökümanlar"
 
 #: header.php:90
 msgid "https://wiki.freecad.org/Main_Page"
-msgstr ""
+msgstr "https://wiki.freecad.org/Main_Page"
 
 #: header.php:90
 msgid "Documentation index"
@@ -499,7 +517,7 @@ msgstr "FreeCAD kılavuzu"
 
 #: header.php:94
 msgid "https://wiki.freecad.org/Workbenches"
-msgstr ""
+msgstr "https://wiki.freecad.org/Workbenches"
 
 #: header.php:94 thankyou.php:114
 msgid "Workbenches documentation"
@@ -515,11 +533,11 @@ msgstr "Python kodlama belgeleri"
 
 #: header.php:96
 msgid "https://wiki.freecad.org/Developer_hub"
-msgstr ""
+msgstr "https://wiki.freecad.org/Developer_hub"
 
 #: header.php:96
 msgid "C++ coding documentation"
-msgstr ""
+msgstr "C++ kodlama belgeleri"
 
 #: header.php:97
 msgid "https://wiki.freecad.org/Tutorials"
@@ -531,7 +549,7 @@ msgstr "Öğreticiler"
 
 #: header.php:98
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
-msgstr ""
+msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
 #: header.php:98 thankyou.php:115
 msgid "Frequently asked questions"
@@ -539,7 +557,7 @@ msgstr "Sıkça Sorulan Sorular"
 
 #: header.php:99
 msgid "https://wiki.freecad.org/About_FreeCAD"
-msgstr ""
+msgstr "https://wiki.freecad.org/About_FreeCAD"
 
 #: header.php:99
 msgid "About FreeCAD"
@@ -551,7 +569,7 @@ msgstr "Katkıda bulun"
 
 #: header.php:107
 msgid "https://wiki.freecad.org/Help_FreeCAD"
-msgstr ""
+msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
 #: header.php:107
 msgid "How to help"
@@ -571,7 +589,7 @@ msgstr "Çekme isteğinde bulunun"
 
 #: header.php:111
 msgid "Jobs and funding"
-msgstr ""
+msgstr "İşler ve finansman"
 
 #: header.php:112
 msgid "Contribution guidelines"
@@ -579,7 +597,7 @@ msgstr "Katılımcı Yönergeleri"
 
 #: header.php:113
 msgid "Developers handbook"
-msgstr ""
+msgstr "Geliştirici el kitabı"
 
 #: header.php:118
 msgid "Community"
@@ -902,7 +920,8 @@ msgstr ""
 #: thankyou.php:103
 msgid "Below are some pages of this documentation that could\n"
 "            be useful to you:"
-msgstr ""
+msgstr "Bu dokümanın işinize yarayabilecek bazı sayfaları\n"
+" aşağıda verilmiştir:"
 
 #: thankyou.php:108
 msgid "Installing FreeCAD on Windows"
@@ -931,7 +950,8 @@ msgstr "Başka bir yazılımdan mı geçiş yapıyorsunuz?"
 #: thankyou.php:119
 msgid "FreeCAD also offers a complete user manual, that can\n"
 "            be downloaded as a pdf or epub file or printed:"
-msgstr ""
+msgstr "FreeCAD ayrıca pdf veya epub dosyası olarak indirilebilen veya yazdırılabilen\n"
+"  eksiksiz bir kullanım kılavuzu da sunar:"
 
 #: thankyou.php:124
 msgid "The FreeCAD user manual"
@@ -940,14 +960,18 @@ msgstr "FreeCAD kullanım kılavuzu"
 #: thankyou.php:128
 msgid "and many tutorials, in written or video form, created by\n"
 "            the FreeCAD community:"
-msgstr ""
+msgstr "ve FreeCAD topluluğu tarafından\n"
+" oluşturulan yazılı veya video biçimindeki birçok eğitim:"
 
 #: thankyou.php:137
 msgid "On behalf of all of the worldwide community of users,\n"
 "            developers, translators, editors, writers, testers who work hard to\n"
 "            make FreeCAD the best CAD modeller out there, we thank you for\n"
 "            downloading our baby! We hope you will like it as much as we do."
-msgstr ""
+msgstr "FreeCAD'i piyasadaki en iyi CAD modelleyicisi yapmak için\n"
+" çok çalışan dünya çapındaki tüm kullanıcılar,\n"
+" geliştiriciler, çevirmenler, editörler, yazarlar, test uzmanları topluluğu adına, indirdiğiniz için\n"
+" teşekkür ederiz! Umarız siz de bizim kadar beğenirsiniz."
 
 #: thankyou.php:144
 msgid "If you encounter issues with FreeCAD, or would like to\n"
@@ -957,7 +981,14 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            skill levels. There you can seek advice of more advanced users, find\n"
 "            ways to solve a particular problem, or discuss ideas about and around\n"
 "            the FreeCAD world."
-msgstr ""
+msgstr "FreeCAD ile ilgili sorunlarla karşılaşırsanız veya diğer kullanıcılarla\n"
+" konuları tartışmak isterseniz\n"
+" <a href=https://forum.freecad.org>FreeCAD forumunu</a> ziyaret edin.\n"
+" Forum, dünyanın her yerindeki ve tüm\n"
+" seviyelerindeki FreeCAD kullanıcıları için buluşma noktasıdır.\n"
+" Orada daha ileri düzey kullanıcıların tavsiyelerini alabilir,\n"
+" belirli bir sorunu çözmenin yollarını bulabilir veya\n"
+" FreeCAD dünyası hakkında ve etrafındaki fikirlerinizi tartışabilirsiniz."
 
 #: translation.php:52
 msgid "English"
