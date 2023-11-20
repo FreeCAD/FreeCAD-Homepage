@@ -154,7 +154,7 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
             <h3><?php echo _('A large (and growing) multi-specialty ecosystem'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _('FreeCAD offers dedicated <a href="https://wiki.freecad.org/Workbench_Concept">workbenches</a> for a variety of purposes
+              <?php echo _('FreeCAD offers dedicated <a href="https://wiki.freecad.org/Workbenches">workbenches</a> for a variety of purposes
               such as
               <a href="https://wiki.freecad.org/Part_Workbench">CSG modeling</a>,
               simple <a href="https://wiki.freecad.org/Draft_Workbench">2D CAD drafting</a>,
