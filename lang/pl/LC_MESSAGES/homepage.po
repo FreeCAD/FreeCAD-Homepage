@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-04 20:33-0500\n"
-"PO-Revision-Date: 2023-11-20 09:33\n"
+"POT-Creation-Date: 2023-11-21 12:32+0100\n"
+"PO-Revision-Date: 2023-11-27 10:55\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -25,22 +25,26 @@ msgstr "Widok domyślny"
 msgid "See what's new"
 msgstr "Sprawdź nowości"
 
+#: codeofconduct.php:19 contributing.php:19
+msgid "This page is retrieved from"
+msgstr "Ta strona pochodzi z"
+
 #: contributor.php:11
 msgid "Thank you for your contribution!"
 msgstr "Dziękujemy za Twoje zaangażowanie!"
 
 #: contributor.php:15
 msgid "Thank you for supporting FreeCAD!\n"
-"            Whether you donated a little or a lot, all efforts contribute to \n"
+"            Whether you donated a little or a lot, all efforts contribute to\n"
 "            make FreeCAD development go further and faster."
 msgstr "Dziękujemy za udzielone wsparcie dla projektu FreeCAD! Niezależnie od tego, czy darowizna była niewielka, czy duża, wszystkie formy pomocy przyczyniają się do przyspieszenia rozwoju projektu FreeCAD."
 
 #: contributor.php:20
-msgid "If you have made a recurring donation above 25 USD/EUR \n"
-"            per month (or a one-time donation above 300 USD/EUR), you are \n"
-"            eligible to become a bronze, silver or gold sponsor and can have \n"
-"            your name, company name or logo displayed on the FreeCAD website, \n"
-"            depending on the tier you fit in. If you have not yet informed us of \n"
+msgid "If you have made a recurring donation above 25 USD/EUR\n"
+"            per month (or a one-time donation above 300 USD/EUR), you are\n"
+"            eligible to become a bronze, silver or gold sponsor and can have\n"
+"            your name, company name or logo displayed on the FreeCAD website,\n"
+"            depending on the tier you fit in. If you have not yet informed us of\n"
 "            the name you wish to see displayed, please reach to us at"
 msgstr "Jeśli dokonałeś cyklicznej darowizny powyżej 25 USD / EUR miesięcznie (lub jednorazowej darowizny powyżej 300 USD / EUR), kwalifikujesz się do zostania brązowym, srebrnym lub złotym sponsorem i możesz mieć swoje imię, nazwę firmy lub logo wyświetlane na stronie FreeCAD, w zależności od poziomu, na którym się znajdujesz. Jeśli nie poinformowałeś nas jeszcze o tym, że chcesz, aby Twoja nazwa była wyświetlana, prosimy o kontakt na adres"
 
@@ -89,11 +93,11 @@ msgid "Paypal"
 msgstr "PayPal"
 
 #: donation.php:73
-msgid "Github allows you to sponsor your favorite projects using your github account, and a credit card"
-msgstr "GitHub pozwala Ci sponsorować Twoje ulubione projekty przy pomocy konta GitHub i karty kredytowej"
+msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
+msgstr "GitHub pozwala Ci sponsorować Twoje ulubione projekty przy pomocy konta GitHub i karty kredytowej."
 
 #: donation.php:73
-msgid "Github"
+msgid "GitHub"
 msgstr "GitHub"
 
 #: donation.php:74
@@ -130,8 +134,8 @@ msgid "More information about the different donation methods and options on the\
 msgstr "Więcej informacji na temat różnych metod i opcji finansowania można znaleźć na stronie <a href=https://wiki.freecad.org/donate/pl>Dotacje</a>."
 
 #: downloads.php:24
-msgid "Current stable version: 0.21.1"
-msgstr "Aktualna stabilna wersja: 0.21.1"
+msgid "Current stable version:"
+msgstr "Aktualna stabilna wersja:"
 
 #: downloads.php:25
 msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
@@ -141,6 +145,10 @@ msgstr "Wybierz swoją platformę (pamiętaj, że wszystkie pliki są dla system
 msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
 msgstr "Windows 7 stanowi obecnie wersję minimalnie obsługiwaną. Więcej informacji na temat instalacji można znaleźć na stronie "
 
+#: downloads.php:47
+msgid "https://wiki.freecad.org/Install_on_Windows"
+msgstr "https://wiki.freecad.org/Installing_on_Windows/pl"
+
 #: downloads.php:47 downloads.php:69 downloads.php:91
 msgid "wiki"
 msgstr "Wiki"
@@ -148,6 +156,10 @@ msgstr "Wiki"
 #: downloads.php:68
 msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
 msgstr "Minimalną obsługiwaną wersją jest Mac OS X 10.12 Sierra. Więcej informacji na temat instalacji można znaleźć na stronie "
+
+#: downloads.php:69
+msgid "https://wiki.freecad.org/Install_on_Mac"
+msgstr "https://wiki.freecad.org/Installing_on_Mac/pl"
 
 #: downloads.php:70
 msgid "Versions of Mac OS before Mac OS 13 should use the \"unsigned\" version of the disk image."
@@ -157,9 +169,17 @@ msgstr "Wersje Mac OS, starsze od Mac OS 13 powinny używać wersji \"unsigned\"
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
 msgstr "Aby zapoznać się z instrukcjami charakterystycznymi dla poszczególnych dystrybucji, takich jak Ubuntu PPA, oraz innymi sposobami instalacji na platformie Linux, należy zapoznać się ze stroną "
 
+#: downloads.php:91
+msgid "https://wiki.freecad.org/Install_on_Unix"
+msgstr "https://wiki.freecad.org/Installing_on_Linux/pl"
+
 #: downloads.php:100
 msgid "See what has changed since last version in the"
 msgstr "Zobacz co się zmieniło od ostatniej wersji w"
+
+#: downloads.php:101 index.php:23
+msgid "https://wiki.freecad.org/Release_notes_0.21"
+msgstr "https://wiki.freecad.org/Release_notes_0.21/pl"
 
 #: downloads.php:101
 msgid "FreeCAD 0.21 release notes"
@@ -193,6 +213,14 @@ msgstr "Należy się spodziewać, że wersje rozwojowe będą wolniejsze, zużyw
 msgid "The following dev builds are available for different platforms/distributions:"
 msgstr "Następujące kompilacje wersji deweloperskich są dostępne dla różnych platform / dystrybucji:"
 
+#: downloads.php:123
+msgid "https://wiki.freecad.org/Snap"
+msgstr "https://wiki.freecad.org/Ubuntu_Snap/pl"
+
+#: downloads.php:124
+msgid "https://wiki.freecad.org/Flatpak"
+msgstr "https://wiki.freecad.org/Flatpak/pl"
+
 #: downloads.php:134
 msgid "Additional modules and macros"
 msgstr "Dodatkowe moduły i makrodefinicje"
@@ -201,6 +229,10 @@ msgstr "Dodatkowe moduły i makrodefinicje"
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr "Społeczność FreeCAD zapewnia mnóstwo dodatkowych modułów i makrodefinicji. Można je teraz łatwo zainstalować bezpośrednio z poziomu programu FreeCAD za pomocą "
+
+#: downloads.php:138
+msgid "https://wiki.freecad.org/Std_AddonMgr"
+msgstr "https://wiki.freecad.org/Std_AddonMgr/pl"
 
 #: downloads.php:138
 msgid "Addon manager."
@@ -221,6 +253,22 @@ msgstr "i dublowany na "
 #: downloads.php:155
 msgid "and "
 msgstr "oraz "
+
+#: events.php:9
+msgid "FreeCAD events"
+msgstr "Wydarzenia ze świata FreeCAD"
+
+#: events.php:11
+msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
+msgstr "Poniższy kalendarz pokazuje nadchodzące daty spotkań załogi FreeCAD i innych wydarzeń społeczności."
+
+#: events.php:15
+msgid "Subscribe to this calendar using this"
+msgstr "Subskrybuj ten kalendarz używając:"
+
+#: events.php:15
+msgid "ICS link"
+msgstr "Link ICS"
 
 #: features.php:9
 msgid "Key FreeCAD Features"
@@ -322,7 +370,7 @@ msgid "A large (and growing) multi-specialty ecosystem"
 msgstr "Duży (i wciąż rosnący) wielospecjalistyczny ekosystem"
 
 #: features.php:157
-msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbench_Concept\">workbenches</a> for a variety of purposes\n"
+msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\">workbenches</a> for a variety of purposes\n"
 "              such as\n"
 "              <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG modeling</a>,\n"
 "              simple <a href=\"https://wiki.freecad.org/Draft_Workbench\">2D CAD drafting</a>,\n"
@@ -337,7 +385,11 @@ msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbench_Con
 "              <a href=\"https://wiki.freecad.org/External_workbenches\">add-on workbenches</a> and\n"
 "              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> developed by the users\n"
 "              community."
-msgstr "FreeCAD oferuje dedykowane <a href=\"https://wiki.freecadweb.org/Workbench_Concept/pl\">środowiska pracy</a> przeznaczone do różnych celów, takich jak <a href=\"https://wiki.freecadweb.org/Part_Workbench/pl\">modelowanie CSG</a>, tworzenia prostych <a href=\"https://wiki.freecadweb.org/Draft_Workbench/pl\">rysunków 2D CAD</a>, <a href=\"https://wiki.freecadweb.org/Surface_Workbench/pl\">powierzchni NURBS</a>, <a href=\"https://wiki.freecadweb.org/Arch_Workbench/pl\">modelowania architektonicznego lub BIM</a>, <a href=\"https://wiki.freecadweb.org/Path_Workbench/pl\">drukowania 3D, CAM i CNC</a>, <a href=\"https://wiki.freecadweb.org/Points_Workbench/pl\">chmur punktów</a>, praca z <a href=\"https://wiki.freecadweb.org/OpenSCAD_Module/pl\">plikami OpenSCAD</a>, projektowanie <a href=\"https://wiki.freecadweb.org/Robot_Workbench/pl\">trajektorii robotów przemysłowych</a>, wykonywanie <a href=\"https://wiki.freecadweb.org/FEM_Workbench/pl\">analiz Metodą Elementów Skończonych</a>, i wiele innych. FreeCAD zapewnia również wygodne narzędzia do instalacji i zarządzania <a href=\"https://wiki.freecadweb.org/External_workbenches/pl\">dodatkowymi środowiskami pracy</a> oraz <a href=\"https://wiki.freecadweb.org/Macros_recipes/pl\">makrodefinicjami</a> stworzonymi przez społeczność użytkowników."
+msgstr "FreeCAD oferuje dedykowane <a href=\"https://wiki.freecadweb.org/Workbenches/pl\">środowiska pracy</a> przeznaczone do różnych celów, takich jak <a href=\"https://wiki.freecadweb.org/Part_Workbench/pl\">modelowanie CSG</a>, tworzenia prostych <a href=\"https://wiki.freecadweb.org/Draft_Workbench/pl\">rysunków 2D CAD</a>, <a href=\"https://wiki.freecadweb.org/Surface_Workbench/pl\">powierzchni NURBS</a>, <a href=\"https://wiki.freecadweb.org/Arch_Workbench/pl\">modelowania architektonicznego lub BIM</a>, <a href=\"https://wiki.freecadweb.org/Path_Workbench/pl\">drukowania 3D, CAM i CNC</a>, <a href=\"https://wiki.freecadweb.org/Points_Workbench/pl\">chmur punktów</a>, praca z <a href=\"https://wiki.freecadweb.org/OpenSCAD_Module/pl\">plikami OpenSCAD</a>, projektowanie <a href=\"https://wiki.freecadweb.org/Robot_Workbench/pl\">trajektorii robotów przemysłowych</a>, wykonywanie <a href=\"https://wiki.freecadweb.org/FEM_Workbench/pl\">analiz Metodą Elementów Skończonych</a>, i wiele innych. FreeCAD zapewnia również wygodne narzędzia do instalacji i zarządzania <a href=\"https://wiki.freecadweb.org/External_workbenches/pl\">dodatkowymi środowiskami pracy</a> oraz <a href=\"https://wiki.freecadweb.org/Macros_recipes/pl\">makrodefinicjami</a> stworzonymi przez społeczność użytkowników."
+
+#: features.php:173
+msgid "https://wiki.freecad.org/Feature_list"
+msgstr "https://wiki.freecad.org/Feature_list/pl"
 
 #: features.php:174 index.php:113
 msgid "Learn more"
@@ -365,6 +417,10 @@ msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 msgstr "Tutaj znajdziesz informacje o wydaniach dla aktualnych i starszych wersji FreeCAD. Poszczególne informacje o wydaniu opisują nowości pojawiające się w każdym z nich:"
 
 #: features.php:224
+msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
+msgstr "https://wiki.freecad.org/Release_notes_0.21/pl\" title=\"Informacje o wydaniu 0.21"
+
+#: features.php:224
 msgid "Release 0.21 - August 2023"
 msgstr "Wersja 0.21 - sierpień 2023"
 
@@ -373,40 +429,80 @@ msgid "current stable release"
 msgstr "aktualne wydanie stabilne"
 
 #: features.php:225
+msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
+msgstr "https://wiki.freecad.org/Release_notes_0.20/pl\" title=\"Informacje o wydaniu 0.20"
+
+#: features.php:225
 msgid "Release 0.20 - June 2022"
 msgstr "Wersja 0.20 - czerwiec 2022"
+
+#: features.php:226
+msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
+msgstr "https://wiki.freecad.org/Release_notes_0.19/pl\" title=\"Informacje o wydaniu 0.19"
 
 #: features.php:226
 msgid "Release 0.19 - March 2021"
 msgstr "Wersja 0.19 - marzec 2021"
 
 #: features.php:227
+msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
+msgstr "https://wiki.freecad.org/Release_notes_0.18/pl\" title=\"Informacje o wydaniu 0.18"
+
+#: features.php:227
 msgid "Release 0.18 - March 2019"
 msgstr "Wersja 0.18 - marzec 2019"
+
+#: features.php:228
+msgid "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
+msgstr "https://wiki.freecad.org/Release_notes_0.17/pl\" title=\"Informacje o wydaniu 0.17"
 
 #: features.php:228
 msgid "Release 0.17 - April 2018"
 msgstr "Wersja 0.17 - kwiecień 2018"
 
 #: features.php:229
+msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
+msgstr "https://wiki.freecad.org/Release_notes_0.16/pl\" title=\"Informacje o wydaniu 0.16"
+
+#: features.php:229
 msgid "Release 0.16 - April 2016"
 msgstr "Wersja 0.16 - kwiecień 2016"
+
+#: features.php:230
+msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
+msgstr "https://wiki.freecad.org/Release_notes_0.15/pl\" title=\"Informacje o wydaniu 0.15"
 
 #: features.php:230
 msgid "Release 0.15 - March 2015"
 msgstr "Wersja 0.15 - marzec 2015"
 
 #: features.php:231
+msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
+msgstr "https://wiki.freecad.org/Release_notes_0.14/pl\" title=\"Informacje o wydaniu 0.14"
+
+#: features.php:231
 msgid "Release 0.14 - March 2014"
 msgstr "Wersja 0.14 - marzec 2014"
+
+#: features.php:232
+msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
+msgstr "https://wiki.freecad.org/Release_notes_0.13/pl\" title=\"Informacje o wydaniu 0.13"
 
 #: features.php:232
 msgid "Release 0.13 - January 2013"
 msgstr "Wersja 0.13 - styczeń 2013"
 
 #: features.php:233
+msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
+msgstr "https://wiki.freecad.org/Release_notes_0.12/pl\" title=\"Informacje o wydaniu 0.12"
+
+#: features.php:233
 msgid "Release 0.12 - December 2011"
 msgstr "Wersja 0.12 - grudzień 2011"
+
+#: features.php:234
+msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
+msgstr "https://wiki.freecad.org/Release_notes_0.11/pl\" title=\"Informacje o wydaniu 0.11"
 
 #: features.php:234
 msgid "Release 0.11 - March 2011"
@@ -445,143 +541,156 @@ msgstr "oraz"
 msgid "other sponsors"
 msgstr "pozostałych sponsorów"
 
-#: header.php:26 header.php:39
+#: footer.php:41
+msgid "Improve this\n"
+"      page on GitHub"
+msgstr "Ulepsz tę stronę na GitHub"
+
+#: header.php:27 header.php:40
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Twój własny program do parametrycznego modelowania 3D"
 
-#: header.php:75
+#: header.php:76
 msgid "Features"
 msgstr "Funkcjonalność programu"
 
-#: header.php:79
+#: header.php:80
 msgid "Download"
 msgstr "Pobierz"
 
-#: header.php:83
+#: header.php:84
 msgid "Blog"
 msgstr "Blog"
 
-#: header.php:87
+#: header.php:88
 msgid "Documentation"
 msgstr "Dokumentacja"
 
-#: header.php:90
+#: header.php:91
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page/pl"
 
-#: header.php:90
+#: header.php:91
 msgid "Documentation index"
 msgstr "Spis dokumentacji"
 
-#: header.php:91
+#: header.php:92 thankyou.php:112
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started/pl"
 
-#: header.php:91
+#: header.php:92
 msgid "Getting started"
 msgstr "Jak zacząć"
 
-#: header.php:92
+#: header.php:93
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecadweb.org/User_hub/pl"
 
-#: header.php:92
+#: header.php:93
 msgid "Users documentation"
 msgstr "Dokumentacja użytkowników"
 
-#: header.php:93
+#: header.php:94 thankyou.php:124
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual:Introduction/pl"
 
-#: header.php:93
+#: header.php:94
 msgid "The FreeCAD manual"
 msgstr "Podręcznik do programu FreeCAD"
 
-#: header.php:94
+#: header.php:95 thankyou.php:114
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches/pl"
 
-#: header.php:94 thankyou.php:114
+#: header.php:95 thankyou.php:114
 msgid "Workbenches documentation"
 msgstr "Dokumentacja środowisk pracy"
 
-#: header.php:95
+#: header.php:96
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub/pl"
 
-#: header.php:95
+#: header.php:96
 msgid "Python coding documentation"
 msgstr "Dokumentacja skryptów środowiska Python"
 
-#: header.php:96
+#: header.php:97
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub/pl"
 
-#: header.php:96
+#: header.php:97
 msgid "C++ coding documentation"
 msgstr "Dokumentacja kodowania C++"
 
-#: header.php:97
+#: header.php:98 thankyou.php:133
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials/pl"
 
-#: header.php:97 thankyou.php:133
+#: header.php:98 thankyou.php:133
 msgid "Tutorials"
 msgstr "Poradniki"
 
-#: header.php:98
+#: header.php:99 thankyou.php:115
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions/pl"
 
-#: header.php:98 thankyou.php:115
+#: header.php:99 thankyou.php:115
 msgid "Frequently asked questions"
 msgstr "Najczęściej zadawane pytania"
 
-#: header.php:99
+#: header.php:100
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/About_FreeCAD/pl"
 
-#: header.php:99
+#: header.php:100
 msgid "About FreeCAD"
 msgstr "O FreeCAD"
 
-#: header.php:104
+#: header.php:105
 msgid "Contribute"
 msgstr "Przyłącz się do projektu"
 
-#: header.php:107
+#: header.php:108
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD/pl"
 
-#: header.php:107
+#: header.php:108
 msgid "How to help"
 msgstr "Jak pomóc"
 
-#: header.php:108
+#: header.php:109
 msgid "Donate / Sponsor"
 msgstr "Darowizna / Sponsorowanie"
 
-#: header.php:109
+#: header.php:110
 msgid "Report a bug"
 msgstr "Zgłoś błąd"
 
-#: header.php:110
+#: header.php:111
 msgid "Make a pull request"
 msgstr "Utwórz pull request"
 
-#: header.php:111
+#: header.php:112
 msgid "Jobs and funding"
 msgstr "Praca i finansowanie"
 
-#: header.php:112
+#: header.php:113
 msgid "Contribution guidelines"
 msgstr "Zasady współpracy"
 
-#: header.php:113
+#: header.php:114
 msgid "Developers handbook"
 msgstr "Podręcznik dla programistów"
 
-#: header.php:118
+#: header.php:115
+msgid "https://wiki.freecad.org/Localisation"
+msgstr "https://wiki.freecad.org/Localisation/pl"
+
+#: header.php:115
+msgid "Translations"
+msgstr "Tłumaczenia"
+
+#: header.php:120
 msgid "Community"
 msgstr "Społeczność"
 
@@ -592,10 +701,6 @@ msgstr "Twój własny program do parametrycznego modelowania 3D"
 #: index.php:22
 msgid "Download now"
 msgstr "Pobierz teraz"
-
-#: index.php:23
-msgid "https://wiki.freecad.org/Release_notes_0.21"
-msgstr "https://wiki.freecad.org/Release_notes_0.21/pl"
 
 #: index.php:38
 msgid "Freedom to build what you want"
@@ -836,7 +941,7 @@ msgstr "Pierwsi sponsorzy"
 msgid "Silver sponsors"
 msgstr "Srebrni sponsorzy"
 
-#: sponsor.php:258
+#: sponsor.php:267
 msgid "Bronze sponsors"
 msgstr "Brązowi sponsorzy"
 
@@ -874,7 +979,7 @@ msgstr "Jeśli jesteś zadowolony z używania programu FreeCAD, i chciałbyś po
 msgid "If you are in, choose the amount and method of your\n"
 "            choice below. If you are interested in supporting the project better\n"
 "            with a recurring donation, check the <a href=sponsor.php>sponsoring\n"
-"            page</a> to  more options."
+"            page</a> to see more options."
 msgstr "Jeśli jesteś zainteresowany, wybierz kwotę i metodę płatności poniżej. Jeśli chcesz lepiej wspierać projekt regularnymi darowiznami, sprawdź <a href=sponsor.php> stronę o sponsorowaniu</a>, aby uzyskać więcej opcji."
 
 #: thankyou.php:72
@@ -906,16 +1011,32 @@ msgid "Below are some pages of this documentation that could\n"
 msgstr "Poniżej znajduje się kilka stron tej dokumentacji, która może być przydatna dla Ciebie:"
 
 #: thankyou.php:108
+msgid "https://wiki.freecad.org/Installing_on_Windows"
+msgstr "https://wiki.freecad.org/Installing_on_Windows/pl"
+
+#: thankyou.php:108
 msgid "Installing FreeCAD on Windows"
 msgstr "Instalacja FreeCAD na Windows"
+
+#: thankyou.php:109
+msgid "https://wiki.freecad.org/Installing_on_Linux"
+msgstr "https://wiki.freecad.org/Installing_on_Linux/pl"
 
 #: thankyou.php:109
 msgid "Installing FreeCAD on Linux"
 msgstr "Instalacja FreeCAD na Linux"
 
 #: thankyou.php:110
+msgid "https://wiki.freecad.org/Installing_on_Mac"
+msgstr "https://wiki.freecad.org/Installing_on_Mac/pl"
+
+#: thankyou.php:110
 msgid "Installing FreeCAD on MacOS"
 msgstr "Instalacja FreeCAD na MacOS"
+
+#: thankyou.php:111
+msgid "https://wiki.freecad.org/Installing_additional_components"
+msgstr "https://wiki.freecad.org/Installing_additional_components/pl"
 
 #: thankyou.php:111
 msgid "Installing additional components"
@@ -924,6 +1045,10 @@ msgstr "Instalacja dodatkowych komponentów"
 #: thankyou.php:112
 msgid "Getting started with FreeCAD"
 msgstr "Pierwsze kroki z FreeCAD"
+
+#: thankyou.php:113
+msgid "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
+msgstr "https://wiki.freecad.org/User_hub/pl#Migracja_z_innego_oprogramowania.3F"
 
 #: thankyou.php:113
 msgid "Migrating from other software?"
@@ -952,155 +1077,159 @@ msgstr "W imieniu wszystkich użytkowników na całym świecie, deweloperów, t�
 
 #: thankyou.php:144
 msgid "If you encounter issues with FreeCAD, or would like to\n"
-"            meet and discuss topics with other users, pay a visit to the the\n"
+"            meet and discuss topics with other users, pay a visit to the\n"
 "            <a href=https://forum.freecad.org>FreeCAD forum</a>. The forum is the\n"
-"            main meetng point for FreeCAD users of all parts of the world and all\n"
+"            main meeting point for FreeCAD users of all parts of the world and all\n"
 "            skill levels. There you can seek advice of more advanced users, find\n"
 "            ways to solve a particular problem, or discuss ideas about and around\n"
 "            the FreeCAD world."
 msgstr "Jeśli napotkasz problemy podczas pracy z FreeCAD, lub chciałbyś poznać i omówić różne kwestie z innymi użytkownikami, odwiedź <a href=https://forum.freecad.org>forum FreeCAD</a>. Forum jest głównym miejscem spotkań dla użytkowników FreeCAD ze wszystkich stron świata o różnych poziomach umiejętności. Tutaj możesz zasięgnąć porady bardziej zaawansowanych użytkowników, znaleźć sposoby rozwiązania konkretnego problemu, lub przedyskutować pomysły dotyczące świata FreeCAD."
 
-#: translation.php:52
+#: translation.php:56
 msgid "English"
 msgstr "angielski"
 
-#: translation.php:53
+#: translation.php:57
 msgid "Afrikaans"
 msgstr "afrykanerski"
 
-#: translation.php:54
+#: translation.php:58
 msgid "Arabic"
 msgstr "arabski"
 
-#: translation.php:55
+#: translation.php:59
+msgid "Belarusian"
+msgstr "białoruski"
+
+#: translation.php:60
 msgid "Catalan"
 msgstr "kataloński"
 
-#: translation.php:56
+#: translation.php:61
 msgid "Czech"
 msgstr "czeski"
 
-#: translation.php:57
+#: translation.php:62
 msgid "German"
 msgstr "niemiecki"
 
-#: translation.php:58
+#: translation.php:63
 msgid "Greek"
 msgstr "grecki"
 
-#: translation.php:59 translation.php:60
+#: translation.php:64 translation.php:65
 msgid "Spanish"
 msgstr "hiszpański"
 
-#: translation.php:61
+#: translation.php:66
 msgid "Basque"
 msgstr "baskijski"
 
-#: translation.php:62
+#: translation.php:67
 msgid "Finnish"
 msgstr "fiński"
 
-#: translation.php:63
+#: translation.php:68
 msgid "Filipino"
 msgstr "filipiński"
 
-#: translation.php:64
+#: translation.php:69
 msgid "French"
 msgstr "francuski"
 
-#: translation.php:65
+#: translation.php:70
 msgid "Galician"
 msgstr "galicyjski"
 
-#: translation.php:66
+#: translation.php:71
 msgid "Croatian"
 msgstr "chorwacki"
 
-#: translation.php:67
+#: translation.php:72
 msgid "Hungarian"
 msgstr "węgierski"
 
-#: translation.php:68
+#: translation.php:73
 msgid "Indonesian"
 msgstr "Indonezyjski"
 
-#: translation.php:69
+#: translation.php:74
 msgid "Italian"
 msgstr "włoski"
 
-#: translation.php:70
+#: translation.php:75
 msgid "Japanese"
 msgstr "japoński"
 
-#: translation.php:71
+#: translation.php:76
 msgid "Kabyle"
 msgstr "kabylski"
 
-#: translation.php:72
+#: translation.php:77
 msgid "Korean"
 msgstr "koreański"
 
-#: translation.php:73
+#: translation.php:78
 msgid "Lithuanian"
 msgstr "litewski"
 
-#: translation.php:74
+#: translation.php:79
 msgid "Dutch"
 msgstr "duński"
 
-#: translation.php:75
+#: translation.php:80
 msgid "Norwegian Bokmal"
 msgstr "Norweski Bokmal"
 
-#: translation.php:76
+#: translation.php:81
 msgid "Polish"
 msgstr "polski"
 
-#: translation.php:77 translation.php:78
+#: translation.php:82 translation.php:83
 msgid "Portuguese"
 msgstr "portugalski"
 
-#: translation.php:79
+#: translation.php:84
 msgid "Romanian"
 msgstr "rumuński"
 
-#: translation.php:80
+#: translation.php:85
 msgid "Russian"
 msgstr "rosyjski"
 
-#: translation.php:81
+#: translation.php:86
 msgid "Slovak"
 msgstr "słowacki"
 
-#: translation.php:82
+#: translation.php:87
 msgid "Slovenian"
 msgstr "słoweński"
 
-#: translation.php:83
+#: translation.php:88
 msgid "Serbian"
 msgstr "serbski"
 
-#: translation.php:84
+#: translation.php:89
 msgid "Swedish"
 msgstr "szwedzki"
 
-#: translation.php:85
+#: translation.php:90
 msgid "Turkish"
 msgstr "turecki"
 
-#: translation.php:86
+#: translation.php:91
 msgid "Ukrainian"
 msgstr "ukraiński"
 
-#: translation.php:87
+#: translation.php:92
 msgid "Valencian"
 msgstr "walenciański"
 
-#: translation.php:88
+#: translation.php:93
 msgid "Vietnamese"
 msgstr "wietnamski"
 
-#: translation.php:89 translation.php:90
+#: translation.php:94 translation.php:95
 msgid "Chinese"
 msgstr "chiński"
 
