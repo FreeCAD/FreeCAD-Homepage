@@ -87,7 +87,8 @@
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
             <small class="text-muted">
-              <?php echo _('For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the '); ?>
+              <?php echo _('In some distros you might need to install fuse to be able to run the AppImage bundles.'); ?>
+              <?php echo _('For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the '); ?>
               <a href="<?php echo _('https://wiki.freecad.org/Install_on_Unix'); ?>"><?php echo _('wiki'); ?></a>.
             </small>
           </div>
