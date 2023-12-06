@@ -235,6 +235,12 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
                 <div class="silver sponsor">
+                    <img class="logo" src="images/sponsors/librespace.png">
+                    <a class="title" href="https://libre.space">Libre Space Foundation</a>
+                     is the non-profit foundation for open source hardware and software in space
+                </div>
+
+                <div class="silver sponsor">
                     <img class="logo" src="images/sponsors/chudovo.png">
                     <a class="title" href="https://chudovo.com">Chudovo</a>
                      is an international software development company with representative 
