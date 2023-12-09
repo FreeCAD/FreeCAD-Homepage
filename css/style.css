@@ -82,7 +82,11 @@ h6 {
 }
 
 .navbar .dropdown-lang {
-  height: 60vh;
+  height: 80vh;
+}
+
+.navbar .nav-item img {
+  vertical-align: baseline;
 }
 
 code {
@@ -116,6 +120,7 @@ code {
 
 .navbar .dropdown-item img {
   margin-right: 6px;
+  vertical-align: baseline;
 }
 
 .navbar-brand {
