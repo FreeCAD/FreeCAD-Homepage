@@ -63,6 +63,7 @@ h6 {
   font-size: 1em;
   color: #ffffff;
   transition: all 0.3s ease;
+  margin: 3px;
 }
 
 .navbar .nav-link:hover,
@@ -81,7 +82,11 @@ h6 {
 }
 
 .navbar .dropdown-lang {
-  height: 60vh;
+  height: 80vh;
+}
+
+.navbar .nav-item img {
+  vertical-align: baseline;
 }
 
 code {
@@ -115,6 +120,7 @@ code {
 
 .navbar .dropdown-item img {
   margin-right: 6px;
+  vertical-align: baseline;
 }
 
 .navbar-brand {
