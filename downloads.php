@@ -111,20 +111,16 @@
       <h2 class="downloads-notes-title"><?php echo _('Development versions'); ?></h2>
       <p>
         <?php echo _("FreeCAD's development happens daily!"); ?>
-        <?php echo _("We generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."); ?>
+        <?php echo _("The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."); ?>
         <?php echo _("We ask that advanced users occasionally run the development builds to assist with testing new code."); ?>
         <?php echo _("These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."); ?>
         <?php echo _("Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."); ?>
-        <?php echo _("The following dev builds are available for different platforms/distributions:"); ?>
+        <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo ('Download here a weekly build for Windows, macOS or Linux'); ?></a>
+        . <?php echo ("On Linux"); ?>, <a href="<?php echo _('https://wiki.freecad.org/Snap'); ?>" class="badge badge-light"><?php echo ('Snap'); ?></a>
+        and <a href="<?php echo _('https://wiki.freecad.org/Flatpak'); ?>" class="badge badge-light"><?php echo ('Flatpak'); ?></a>
+        <?php echo ("also provide developement channels"); ?>.
         <br /><br />
-        <?php echo ("Windows") ?>: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo ('Conda'); ?></a>
-        - <?php echo ("macOS") ?>: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo ('Conda'); ?></a>
-        / <a href="https://github.com/FreeCAD/homebrew-freecad" class="badge badge-light"><?php echo ('Homebrew'); ?></a>
-        - <?php echo ("Linux") ?>: <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo ('Conda'); ?></a>
-        / <a href="<?php echo _('https://wiki.freecad.org/Snap'); ?>" class="badge badge-light"><?php echo ('Snap'); ?></a>
-        / <a href="<?php echo _('https://wiki.freecad.org/Flatpak'); ?>" class="badge badge-light"><?php echo ('Flatpak'); ?></a>
       </p>
-
     </div>
 
     <!-- ----------------------------- -->
