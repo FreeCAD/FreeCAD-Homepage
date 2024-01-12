@@ -66,7 +66,6 @@
             <small class="text-muted">
               <?php echo _('Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the '); ?>
               <a href="<?php echo _('https://wiki.freecad.org/Install_on_Mac'); ?>"><?php echo _('wiki'); ?></a>.
-              <?php echo _('Versions of Mac OS before Mac OS 13 should use the "unsigned" version of the disk image.'); ?>
             </small>
           </div>
         </div>
