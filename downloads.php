@@ -115,6 +115,7 @@
         <?php echo _("We ask that advanced users occasionally run the development builds to assist with testing new code."); ?>
         <?php echo _("These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."); ?>
         <?php echo _("Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."); ?>
+        <br/><br/>
         <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo ('Download here a weekly build for Windows, macOS or Linux'); ?></a>
         . <?php echo ("On Linux"); ?>, <a href="<?php echo _('https://wiki.freecad.org/Snap'); ?>" class="badge badge-light"><?php echo ('Snap'); ?></a>
         and <a href="<?php echo _('https://wiki.freecad.org/Flatpak'); ?>" class="badge badge-light"><?php echo ('Flatpak'); ?></a>
