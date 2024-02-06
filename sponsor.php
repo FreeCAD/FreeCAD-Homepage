@@ -275,6 +275,7 @@
 
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
+              <div class="bronze sponsor">Lex Heles</div>
               <div class="bronze sponsor">Brian Smith</div>
               <div class="bronze sponsor">Kliment / Future Bits</div>
               <div class="bronze sponsor">James Debono</div>
