@@ -26,6 +26,7 @@ import json
 import requests
 import os
 from urllib.parse import urlparse
+from typing import List
 
 # CONFIGURATION
 addon_list_url = "https://raw.githubusercontent.com/FreeCAD/FreeCAD-addons/master/.gitmodules"
@@ -69,7 +70,7 @@ class StatsWriter:
         with open(token_file, "r", encoding="utf-8") as f:
             return f.readline().strip()
 
-    def get_addon_url_list(self) -> list[str]:
+    def get_addon_url_list(self) -> List[str]:
         """ Return a list of URLs to FreeCAD Addons found in the .gitmodules file of the FreeCAD-addons repo """
         r = requests.get(addon_list_url, timeout=5)
         if r.status_code != 200:
@@ -78,7 +79,7 @@ class StatsWriter:
         return self.parse_submodules_file(r.text)
 
     @staticmethod
-    def parse_submodules_file(submodules: str) -> list[str]:
+    def parse_submodules_file(submodules: str) -> List[str]:
         """ Parse a .gitmodules file to obtain the individual urls. All other data is ignored. """
         lines = submodules.splitlines()
         urls = []
