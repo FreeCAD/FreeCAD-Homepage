@@ -26,7 +26,7 @@ import json
 import requests
 import os
 from urllib.parse import urlparse
-from typing import List
+from typing import List, Dict
 
 # CONFIGURATION
 addon_list_url = "https://raw.githubusercontent.com/FreeCAD/FreeCAD-addons/master/.gitmodules"
@@ -90,7 +90,7 @@ class StatsWriter:
                     urls.append(url)
         return urls
 
-    def get_stats_for_repo(self, repo_url: str) -> dict[str, int]:
+    def get_stats_for_repo(self, repo_url: str) -> Dict[str, int]:
         parsed_url = urlparse(repo_url)
         # Assume that the only repo types are GitHub and gitlab (which may be a self-hosted gitlab instance)
         if parsed_url.netloc == "github.com":
@@ -98,7 +98,7 @@ class StatsWriter:
         else:
             return self.get_stats_for_gitlab_repo(repo_url)
 
-    def get_stats_for_github_repo(self, repo_url: str) -> dict[str, int]:
+    def get_stats_for_github_repo(self, repo_url: str) -> Dict[str, int]:
         community, project = self.get_community_and_project(repo_url)
         url = f"https://api.github.com/repos/{community}/{project}"
         headers = {
@@ -110,7 +110,7 @@ class StatsWriter:
             return {}
         return self.process_github_stats(result.text)
 
-    def get_stats_for_gitlab_repo(self, repo_url: str) -> dict[str, int]:
+    def get_stats_for_gitlab_repo(self, repo_url: str) -> Dict[str, int]:
         gl = gitlab.Gitlab(private_token=gitlab_access_token)
         community, project = self.get_community_and_project(repo_url)
         try:
@@ -131,7 +131,7 @@ class StatsWriter:
         return community, project
 
     @staticmethod
-    def process_github_stats(raw_stats_json: str) -> dict[str, int]:
+    def process_github_stats(raw_stats_json: str) -> Dict[str, int]:
         processed_result = {}
         stats = json.loads(raw_stats_json)
         expected_fields = ["pushed_at",
