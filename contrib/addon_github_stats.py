@@ -111,6 +111,7 @@ class StatsWriter:
         return self.process_github_stats(result.text)
 
     def get_stats_for_gitlab_repo(self, repo_url: str) -> Dict[str, int]:
+        return
         gl = gitlab.Gitlab(private_token=gitlab_access_token)
         community, project = self.get_community_and_project(repo_url)
         try:
