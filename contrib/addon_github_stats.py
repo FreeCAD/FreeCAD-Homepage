@@ -26,7 +26,7 @@ import json
 import requests
 import os
 from urllib.parse import urlparse
-from typing import List, Dict
+from typing import List, Dict, Tuple
 
 # CONFIGURATION
 addon_list_url = "https://raw.githubusercontent.com/FreeCAD/FreeCAD-addons/master/.gitmodules"
@@ -121,7 +121,7 @@ class StatsWriter:
             return {}
 
     @staticmethod
-    def get_community_and_project(repo_url: str) -> tuple[str, str]:
+    def get_community_and_project(repo_url: str) -> Tuple[str, str]:
         parsed_url = urlparse(repo_url)
         split_path = parsed_url.path.split("/")
         project = split_path[-1]
