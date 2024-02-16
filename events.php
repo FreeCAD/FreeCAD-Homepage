@@ -10,7 +10,21 @@
           <p>
             <?php echo _('The calendar belows shows upcoming dates of FreeCAD meetings and other community events.'); ?>
           </p>
-          <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%234285F4&showTitle=0&showPrint=0&showCalendars=0&src=NmU2Y2M4MTI2MDA1MWEzYzQ5ZmRmOTE1YzQ3MmYyZDYyNTc2ODIwMTI5ZjBlMGIyY2FjYjcwMjVlZDYyZjk2MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+          <!-- google widget
+          <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%234285F4&showTitle=0&showPrint=0&showCalendars=0&src=NmU2Y2M4MTI2MDA1MWEzYzQ5ZmRmOTE1YzQ3MmYyZDYyNTc2ODIwMTI5ZjBlMGIyY2FjYjcwMjVlZDYyZjk2MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000"
+                  style="border:solid 1px #777"
+                  width="800" height="600"
+                  frameborder="0"
+                  scrolling="no">
+          </iframe>
+          -->
+          <iframe id="open-web-calendar" 
+                  style="background:url('https://raw.githubusercontent.com/niccokunzmann/open-web-calendar/master/static/img/loaders/circular-loader.gif') center center no-repeat;"
+                  src="https://open-web-calendar.hosted.quelltext.eu/calendar.html?url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fical%2F6e6cc81260051a3c49fdf915c472f2d62576820129f0e0b2cacb7025ed62f960%2540group.calendar.google.com%2Fpublic%2Fbasic.ics"
+                  sandbox="allow-scripts allow-same-origin allow-top-navigation"
+                  allowTransparency="true" scrolling="no" 
+                  frameborder="0" height="600px" width="100%">
+          </iframe>
           <p>
             <?php echo _('Subscribe to this calendar using this'); ?> <a href="https://calendar.google.com/calendar/embed?src=6e6cc81260051a3c49fdf915c472f2d62576820129f0e0b2cacb7025ed62f960%40group.calendar.google.com" class="badge badge-light"><?php echo _('ICS link'); ?></a>.
           </p>
