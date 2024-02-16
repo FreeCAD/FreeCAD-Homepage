@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-21 12:32+0100\n"
-"PO-Revision-Date: 2023-11-27 10:55\n"
+"PO-Revision-Date: 2024-02-09 14:44\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -27,7 +27,7 @@ msgstr "Újdonságok megtekintése"
 
 #: codeofconduct.php:19 contributing.php:19
 msgid "This page is retrieved from"
-msgstr ""
+msgstr "Ez az oldal a következő oldalról származik"
 
 #: contributor.php:11
 msgid "Thank you for your contribution!"
@@ -37,7 +37,9 @@ msgstr "Köszönjük a hozzájárulásod!"
 msgid "Thank you for supporting FreeCAD!\n"
 "            Whether you donated a little or a lot, all efforts contribute to\n"
 "            make FreeCAD development go further and faster."
-msgstr ""
+msgstr "Köszönjük, hogy támogatta a FreeCAD-et!\n"
+"           Akár keveset, akár többet adományozott, minden erőfeszítés hozzájárul ahhoz, hogy \n"
+"       a FreeCAD fejlesztése tovább és gyorsabban haladjon."
 
 #: contributor.php:20
 msgid "If you have made a recurring donation above 25 USD/EUR\n"
@@ -46,7 +48,12 @@ msgid "If you have made a recurring donation above 25 USD/EUR\n"
 "            your name, company name or logo displayed on the FreeCAD website,\n"
 "            depending on the tier you fit in. If you have not yet informed us of\n"
 "            the name you wish to see displayed, please reach to us at"
-msgstr ""
+msgstr "Ha havonta 25 USD/EUR felett rendszeresen \n"
+" adományoz (vagy 300 USD/EUR feletti egyszeri adományt), \n"
+"       jogosult bronz, ezüst vagy arany szponzornak lenni, és \n"
+"       nevét, cégnevét vagy logóját megjelenítheti a FreeCAD weboldalán, \n"
+"       attól függően, hogy melyik szinthez tartozik. Ha még nem tájékoztatott minket arról, hogy milyen \n"
+"       nevet szeretne megjeleníteni, kérjük, forduljon hozzánk a következő címen"
 
 #: contributor.php:29
 msgid "Thanks!"
@@ -94,11 +101,11 @@ msgstr "Paypal"
 
 #: donation.php:73
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
-msgstr ""
+msgstr "A GitHub lehetővé teszi, hogy szponzorálja kedvenc projektjeit a GitHub-fiókjával és egy hitelkártyával"
 
 #: donation.php:73
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: donation.php:74
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
@@ -136,7 +143,7 @@ msgstr "További információ a különböző adományozási módszerekről és 
 
 #: downloads.php:24
 msgid "Current stable version:"
-msgstr ""
+msgstr "Jelenlegi stabil verzió:"
 
 #: downloads.php:25
 msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
@@ -148,7 +155,7 @@ msgstr "A legalacsonyabb támogatott verzió a Windows 7. A telepítést részle
 
 #: downloads.php:47
 msgid "https://wiki.freecad.org/Install_on_Windows"
-msgstr ""
+msgstr "https://wiki.freecad.org/Install_on_Windows"
 
 #: downloads.php:47 downloads.php:69 downloads.php:91
 msgid "wiki"
@@ -160,7 +167,7 @@ msgstr "A Mac OS X 10.12 Sierra a legalacsonyabb támogatott verzió. A telepít
 
 #: downloads.php:69
 msgid "https://wiki.freecad.org/Install_on_Mac"
-msgstr ""
+msgstr "https://wiki.freecad.org/Install_on_Mac"
 
 #: downloads.php:70
 msgid "Versions of Mac OS before Mac OS 13 should use the \"unsigned\" version of the disk image."
@@ -172,7 +179,7 @@ msgstr "A disztribúció specifikus utasításokért, mint például az Ubuntu P
 
 #: downloads.php:91
 msgid "https://wiki.freecad.org/Install_on_Unix"
-msgstr ""
+msgstr "https://wiki.freecad.org/Install_on_Unix"
 
 #: downloads.php:100
 msgid "See what has changed since last version in the"
@@ -216,11 +223,11 @@ msgstr "A következő fejlesztői kiadások különböző platformokra/disztrib�
 
 #: downloads.php:123
 msgid "https://wiki.freecad.org/Snap"
-msgstr ""
+msgstr "https://wiki.freecad.org/Snap"
 
 #: downloads.php:124
 msgid "https://wiki.freecad.org/Flatpak"
-msgstr ""
+msgstr "https://wiki.freecad.org/Flatpak"
 
 #: downloads.php:134
 msgid "Additional modules and macros"
@@ -234,7 +241,7 @@ msgstr "A FreeCAD Közösség rengeteg kiegészítő modult és makrót biztosí
 
 #: downloads.php:138
 msgid "https://wiki.freecad.org/Std_AddonMgr"
-msgstr ""
+msgstr "https://wiki.freecad.org/Std_AddonMgr"
 
 #: downloads.php:138
 msgid "Addon manager."
@@ -258,19 +265,19 @@ msgstr "és "
 
 #: events.php:9
 msgid "FreeCAD events"
-msgstr ""
+msgstr "FreeCAD események"
 
 #: events.php:11
 msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
-msgstr ""
+msgstr "Az alábbi naptárban a FreeCAD találkozók és más közösségi események közelgő időpontjai találhatók."
 
 #: events.php:15
 msgid "Subscribe to this calendar using this"
-msgstr ""
+msgstr "Iratkozzon fel erre a naptárra ezzel a"
 
 #: events.php:15
 msgid "ICS link"
-msgstr ""
+msgstr "ICS hivatkozás"
 
 #: features.php:9
 msgid "Key FreeCAD Features"
@@ -430,11 +437,25 @@ msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\"
 "              <a href=\"https://wiki.freecad.org/External_workbenches\">add-on workbenches</a> and\n"
 "              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> developed by the users\n"
 "              community."
-msgstr ""
+msgstr "FreeCAD dedikált <a href=\"https://wiki.freecad.org/Workbenches\">munkafelületeket</a> kínál különböző célokra\n"
+"              mint például\n"
+"              <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG modelezés</a>,\n"
+"              egyszerű <a href=\"https://wiki.freecad.org/Draft_Workbench\">2D CAD rajzolás</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Surface_Module\">NURBS felületek</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Arch_Module\">architekturális vagy BIM modellezés</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Path_Workbench\">3D nyomtatás, CAM és CNC</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Points_Module\">pont felhők</a>,\n"
+"              munka <a href=\"https://wiki.freecad.org/OpenSCAD_Module\">OpenSCAD fájlokkal</a>,\n"
+"                       <a href=\"https://wiki.freecad.org/Robot_Workbench\">ipari robot pályák</a> tervezése,\n"
+"                     <a href=\"https://wiki.freecad.org/FEM_Module\">Végső elem analízis</a> végrehajtása,\n"
+"              és még sok más. A FreeCAD egyszerű eszközöket biztosít a felhasználók\n"
+"              <a href=\"https://wiki.freecad.org/External_workbenches\">kiegészítő munkafelületek</a> és\n"
+"              <a href=\"https://wiki.freecad.org/Macros_recipes\">makrók</a> telepítéséhez és kezeléséhez, amelyeket a felhasználói közösség \n"
+"              fejlesztett ki."
 
 #: features.php:173
 msgid "https://wiki.freecad.org/Feature_list"
-msgstr ""
+msgstr "https://wiki.freecad.org/Feature_list"
 
 #: features.php:174 index.php:113
 msgid "Learn more"
@@ -468,7 +489,7 @@ msgstr "Itt megtalálja a FreeCAD jelenlegi és régebbi verzióinak kiadási in
 
 #: features.php:224
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Kiadási megjegyzések 0.21"
 
 #: features.php:224
 msgid "Release 0.21 - August 2023"
@@ -480,7 +501,7 @@ msgstr "aktuális hosszútávú verzió"
 
 #: features.php:225
 msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.20\" title=\"Kiadási megjegyzések 0.20"
 
 #: features.php:225
 msgid "Release 0.20 - June 2022"
@@ -488,7 +509,7 @@ msgstr "Kiadás 0.20 - Június 2022"
 
 #: features.php:226
 msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.19\" title=\"Kiadási megjegyzések 0.19"
 
 #: features.php:226
 msgid "Release 0.19 - March 2021"
@@ -496,7 +517,7 @@ msgstr "Kiadás 0.19 - Március 2021"
 
 #: features.php:227
 msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"Kiadási megjegyzések 0.18"
 
 #: features.php:227
 msgid "Release 0.18 - March 2019"
@@ -504,7 +525,7 @@ msgstr "Kiadás 0.18 - Március 2019"
 
 #: features.php:228
 msgid "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.17\" title=\"Kiadási megjegyzések 0.17"
 
 #: features.php:228
 msgid "Release 0.17 - April 2018"
@@ -512,7 +533,7 @@ msgstr "Kiadás 0.17 - Április 2018"
 
 #: features.php:229
 msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.16\" title=\"Kiadási megjegyzések 0.16"
 
 #: features.php:229
 msgid "Release 0.16 - April 2016"
@@ -520,7 +541,7 @@ msgstr "Kiadás 0.16 - Április 2016"
 
 #: features.php:230
 msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.15\" title=\"Kiadási megjegyzések 0.15"
 
 #: features.php:230
 msgid "Release 0.15 - March 2015"
@@ -528,7 +549,7 @@ msgstr "Kiadás 0.15 - Március 2015"
 
 #: features.php:231
 msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.14\" title=\"Kiadási megjegyzések 0.14"
 
 #: features.php:231
 msgid "Release 0.14 - March 2014"
@@ -536,7 +557,7 @@ msgstr "Kiadás 0.14 - Március 2014"
 
 #: features.php:232
 msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_013\" title=\"Kiadási megjegyzések 013"
 
 #: features.php:232
 msgid "Release 0.13 - January 2013"
@@ -544,7 +565,7 @@ msgstr "Kiadás 0.13 - Január 2013"
 
 #: features.php:233
 msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_012\" title=\"Kiadási megjegyzések 012"
 
 #: features.php:233
 msgid "Release 0.12 - December 2011"
@@ -552,7 +573,7 @@ msgstr "Kiadás 0.12 - December 2011"
 
 #: features.php:234
 msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_011\" title=\"Kiadási megjegyzések 011"
 
 #: features.php:234
 msgid "Release 0.11 - March 2011"
@@ -595,7 +616,8 @@ msgstr "egyéb támogatók"
 #: footer.php:41
 msgid "Improve this\n"
 "      page on GitHub"
-msgstr ""
+msgstr "Javítsa ezt\n"
+"     az oldalt a GitHubon"
 
 #: header.php:27 header.php:40
 msgid "FreeCAD: Your own 3D parametric modeler"
@@ -735,11 +757,11 @@ msgstr "Fejlesztői kézikönyv"
 
 #: header.php:115
 msgid "https://wiki.freecad.org/Localisation"
-msgstr ""
+msgstr "https://wiki.freecad.org/Localisation"
 
 #: header.php:115
 msgid "Translations"
-msgstr ""
+msgstr "Fordítások"
 
 #: header.php:120
 msgid "Community"
@@ -1111,7 +1133,10 @@ msgid "If you are in, choose the amount and method of your\n"
 "            choice below. If you are interested in supporting the project better\n"
 "            with a recurring donation, check the <a href=sponsor.php>sponsoring\n"
 "            page</a> to see more options."
-msgstr ""
+msgstr "Ha benne vagy, válaszd ki az alábbiakban az általad választott összeget\n"
+"       és módszert. Ha szeretnéd jobban támogatni a projektet\n"
+"       rendszeres adományozással, nézd meg a <a href=sponsor.php>szponzorálás\n"
+"       oldalon</a>, ahol további lehetőségeket találsz."
 
 #: thankyou.php:72
 msgid "There are also many other ways to help FreeCAD. For\n"
@@ -1155,7 +1180,7 @@ msgstr "Az alábbiakban a dokumentáció néhány olyan oldalát olvashatja, ame
 
 #: thankyou.php:108
 msgid "https://wiki.freecad.org/Installing_on_Windows"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Windows"
 
 #: thankyou.php:108
 msgid "Installing FreeCAD on Windows"
@@ -1163,7 +1188,7 @@ msgstr "A FreeCAD telepítése Windows rendszeren"
 
 #: thankyou.php:109
 msgid "https://wiki.freecad.org/Installing_on_Linux"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Linux"
 
 #: thankyou.php:109
 msgid "Installing FreeCAD on Linux"
@@ -1171,7 +1196,7 @@ msgstr "FreeCAD telepítése Linux rendszerre"
 
 #: thankyou.php:110
 msgid "https://wiki.freecad.org/Installing_on_Mac"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Mac"
 
 #: thankyou.php:110
 msgid "Installing FreeCAD on MacOS"
@@ -1179,7 +1204,7 @@ msgstr "FreeCAD telepítése MacOS rendszeren"
 
 #: thankyou.php:111
 msgid "https://wiki.freecad.org/Installing_additional_components"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_additional_components"
 
 #: thankyou.php:111
 msgid "Installing additional components"
@@ -1191,7 +1216,7 @@ msgstr "Első lépések a FreeCAD-del"
 
 #: thankyou.php:113
 msgid "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
-msgstr ""
+msgstr "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
 
 #: thankyou.php:113
 msgid "Migrating from other software?"
@@ -1231,7 +1256,13 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            skill levels. There you can seek advice of more advanced users, find\n"
 "            ways to solve a particular problem, or discuss ideas about and around\n"
 "            the FreeCAD world."
-msgstr ""
+msgstr "Ha problémákba ütközik a FreeCAD-del kapcsolatban,\n"
+"         vagy szeretne találkozni és megvitatni a témákat más felhasználókkal,\n"
+"         látogasson el a <a href=https://forum.freecad.org>FreeCAD fórumra.</a> A fórum a\n"
+"         FreeCAD felhasználók fő találkozási pontja a világ minden részéről\n"
+"         és az összes készségszinten. Itt tanácsot kérhet a haladóbb felhasználóktól,\n"
+"         megtalálhatja a módját egy adott probléma megoldásának, vagy megvitathatja a FreeCAD világával\n"
+"         kapcsolatos és környékbeli ötleteket."
 
 #: translation.php:56
 msgid "English"

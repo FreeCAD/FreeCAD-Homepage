@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-21 12:32+0100\n"
-"PO-Revision-Date: 2023-11-27 10:54\n"
+"PO-Revision-Date: 2024-02-09 14:43\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -27,7 +27,7 @@ msgstr "Mireu les novetats"
 
 #: codeofconduct.php:19 contributing.php:19
 msgid "This page is retrieved from"
-msgstr ""
+msgstr "Aquesta pàgina s'ha recuperat de"
 
 #: contributor.php:11
 msgid "Thank you for your contribution!"
@@ -37,7 +37,9 @@ msgstr "Gràcies per la contribució!"
 msgid "Thank you for supporting FreeCAD!\n"
 "            Whether you donated a little or a lot, all efforts contribute to\n"
 "            make FreeCAD development go further and faster."
-msgstr ""
+msgstr "Gràcies per donar suport al FreeCAD!\n"
+" Tant si heu donat una mica o molt, tots els esforços ajuden a \n"
+" fer que el desenvolupament del FreeCAD avanci millor i més ràpid."
 
 #: contributor.php:20
 msgid "If you have made a recurring donation above 25 USD/EUR\n"
@@ -46,7 +48,12 @@ msgid "If you have made a recurring donation above 25 USD/EUR\n"
 "            your name, company name or logo displayed on the FreeCAD website,\n"
 "            depending on the tier you fit in. If you have not yet informed us of\n"
 "            the name you wish to see displayed, please reach to us at"
-msgstr ""
+msgstr "Si heu fet una donació recurrent de més de 25 USD/EUR \n"
+"            al mes (o una donació puntual de més de 300 USD/EUR), podeu optar \n"
+"            a ser un patrocinador de bronze, plata o or, i podeu mostrar \n"
+"            el vostre nom, el de la vostra organització o el seu logo al lloc web del FreeCAD, \n"
+"            depenent del rang en què sou. Si encara no ens heu informat sobre\n"
+"            el nom que voleu que es mostri, feu-nos-ho saber a"
 
 #: contributor.php:29
 msgid "Thanks!"
@@ -94,11 +101,11 @@ msgstr "Paypal"
 
 #: donation.php:73
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
-msgstr ""
+msgstr "Github us permet patrocinar els vostres projectes favorits mitjançant el vostre compte del Github i una targeta de crèdit"
 
 #: donation.php:73
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: donation.php:74
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
@@ -131,15 +138,16 @@ msgstr "Envia"
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr ""
+msgstr "Més informació sobre els diferents mètodes de donacions i opcions a la\n"
+"      pàgina de <a href=https://wiki.freecad.org/donate>donacions</a>."
 
 #: downloads.php:24
 msgid "Current stable version:"
-msgstr ""
+msgstr "Versió estable actual:"
 
 #: downloads.php:25
 msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
-msgstr ""
+msgstr "Seleccioneu la vostra plataforma desitjada (tingueu en compte que totes les descàrregues són per a sistemes de 64 bits):"
 
 #: downloads.php:46
 msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
@@ -147,7 +155,7 @@ msgstr "Windows 7 és la versió mínima compatible. Per a obtenir més informac
 
 #: downloads.php:47
 msgid "https://wiki.freecad.org/Install_on_Windows"
-msgstr ""
+msgstr "https://wiki.freecad.org/Install_on_Windows"
 
 #: downloads.php:47 downloads.php:69 downloads.php:91
 msgid "wiki"
@@ -159,11 +167,11 @@ msgstr "Mac OS X 10.12 Sierra és la versió mínima compatible. Per a obtenir m
 
 #: downloads.php:69
 msgid "https://wiki.freecad.org/Install_on_Mac"
-msgstr ""
+msgstr "https://wiki.freecad.org/Install_on_Mac"
 
 #: downloads.php:70
 msgid "Versions of Mac OS before Mac OS 13 should use the \"unsigned\" version of the disk image."
-msgstr ""
+msgstr "Les versions de Mac OS anteriors a Mac OS 13 haurien d'utilitzar la versió \"sense signar\" de la imatge de disc."
 
 #: downloads.php:90
 msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
@@ -175,7 +183,7 @@ msgstr ""
 
 #: downloads.php:100
 msgid "See what has changed since last version in the"
-msgstr ""
+msgstr "Vegeu què ha canviat des de l'última versió al"
 
 #: downloads.php:101 index.php:23
 msgid "https://wiki.freecad.org/Release_notes_0.21"

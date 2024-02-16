@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-21 12:32+0100\n"
-"PO-Revision-Date: 2023-11-27 10:55\n"
+"PO-Revision-Date: 2024-02-09 14:43\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -37,9 +37,8 @@ msgstr "Merci pour votre contribution !"
 msgid "Thank you for supporting FreeCAD!\n"
 "            Whether you donated a little or a lot, all efforts contribute to\n"
 "            make FreeCAD development go further and faster."
-msgstr "Merci de soutenir FreeCAD ! \n"
-"Que vous ayez donné un peu ou beaucoup, tous les efforts contribuent à \n"
-"faire avancer le développement de FreeCAD plus vite et plus loin."
+msgstr "Merci de soutenir FreeCAD !\n"
+"Que vous ayez donné un peu ou beaucoup, tous les efforts contribuent à faire avancer le développement de FreeCAD plus vite et plus loin."
 
 #: contributor.php:20
 msgid "If you have made a recurring donation above 25 USD/EUR\n"
@@ -48,12 +47,7 @@ msgid "If you have made a recurring donation above 25 USD/EUR\n"
 "            your name, company name or logo displayed on the FreeCAD website,\n"
 "            depending on the tier you fit in. If you have not yet informed us of\n"
 "            the name you wish to see displayed, please reach to us at"
-msgstr "Si vous avez opté pour un don récurrent de plus de 25 USD/EUR \n"
-"par mois (ou un don unique de plus de 300 USD/EUR), vous êtes \n"
-"éligible pour devenir un parrain Bronze, Argent ou Or. Vous pourrez voir \n"
-"votre nom, le nom de votre entreprise ou votre logo affiché sur le site web de FreeCAD, \n"
-"selon le niveau auquel vous appartenez. Si vous ne nous avez pas encore communiqué \n"
-"le nom que vous souhaitez voir figurer sur le site, veuillez nous contacter à l'adresse suivante"
+msgstr "Si vous avez opté pour un don récurrent de plus de 25 USD/EUR par mois (ou un don unique de plus de 300 USD/EUR), vous êtes éligible pour devenir un parrain Bronze, Argent ou Or. Vous pourrez voir votre nom, le nom de votre entreprise ou votre logo affiché sur le site web de FreeCAD, selon le niveau auquel vous appartenez. Si vous ne nous avez pas encore communiqué le nom que vous souhaitez voir figurer sur le site, veuillez nous contacter à l'adresse suivante"
 
 #: contributor.php:29
 msgid "Thanks!"
@@ -138,8 +132,7 @@ msgstr "Soumettre"
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr "Plus d'informations sur les différentes méthodes et options de don sur la page\n"
-"      <a href=https://wiki.freecad.org/donate>don</a>."
+msgstr "Plus d'informations sur les différentes méthodes et options de don sur la page <a href=https://wiki.freecad.org/donate/fr>don</a>."
 
 #: downloads.php:24
 msgid "Current stable version:"
@@ -147,7 +140,7 @@ msgstr "Version stable courante :"
 
 #: downloads.php:25
 msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
-msgstr "Sélectionnez la plate-forme désirée (notez que tous les téléchargements sont pour les systèmes 64 bits):"
+msgstr "Sélectionnez la plate-forme souhaitée (notez que tous les téléchargements sont destinés aux systèmes 64 bits) :"
 
 #: downloads.php:46
 msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
@@ -183,7 +176,7 @@ msgstr "https://wiki.freecad.org/Installing_on_Linux/fr"
 
 #: downloads.php:100
 msgid "See what has changed since last version in the"
-msgstr "Voir ce qui a changé depuis la dernière version dans le"
+msgstr "Voir ce qui a changé depuis la dernière version :"
 
 #: downloads.php:101 index.php:23
 msgid "https://wiki.freecad.org/Release_notes_0.21"
@@ -219,7 +212,7 @@ msgstr "Il faut s'attendre à ce que les versions de développement soient plus 
 
 #: downloads.php:117
 msgid "The following dev builds are available for different platforms/distributions:"
-msgstr "Les versions de développement suivantes sont disponibles pour différentes plates-formes / distributions :"
+msgstr "Les versions de développement suivantes sont disponibles pour différentes plates-formes/distributions :"
 
 #: downloads.php:123
 msgid "https://wiki.freecad.org/Snap"
@@ -236,8 +229,7 @@ msgstr "Modules et macros supplémentaires"
 #: downloads.php:136
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
-msgstr "La communauté de FreeCAD offre une multitude de modules et macros additionnels. Ils peuvent\n"
-"  désormais être facilement installés directement dans FreeCAD à l'aide du "
+msgstr "La communauté de FreeCAD offre une multitude de modules et macros supplémentaires. Ils peuvent désormais être facilement installés directement dans FreeCAD à l'aide du "
 
 #: downloads.php:138
 msgid "https://wiki.freecad.org/Std_AddonMgr"
@@ -281,7 +273,7 @@ msgstr "Lien ICS"
 
 #: features.php:9
 msgid "Key FreeCAD Features"
-msgstr "Fonctions clés de FreeCAD"
+msgstr "Principales fonctions de FreeCAD"
 
 #: features.php:16
 msgid "Made to build for the real world"
@@ -314,7 +306,7 @@ msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
 "              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
-msgstr "FreeCAD dispose d'un moteur géométrique avancé basé sur la <a href=https://fr.wikipedia.org/wiki/Open_CASCADE_Technology>technologie d'Open CASCADE</a>. Il prend en charge les solides, les objets <a href=https://fr.wikipedia.org/wiki/B-Rep>B-Rep</a> (Boundary Representation), ainsi que les courbes et surfaces <a href=https://fr.wikipedia.org/wiki/NURBS>NURBS</a> (Non-uniform rational basis spline). Il offre une large gamme d'outils pour créer et modifier ces objets, notamment des <a href=https://fr.wikipedia.org/wiki/Op%C3%A9rations_bool%C3%A9ennes_sur_les_polygones>opérations booléennes</a> complexes, des <a href=https://fr.wikipedia.org/wiki/Arrondi_et_cong%C3%A9>congés</a>, le nettoyage des formes et bien <a href=https://wiki.freecad.org/OpenCASCADE/fr>plus encore</a>."
+msgstr "FreeCAD dispose d'un moteur géométrique avancé, basé sur la <a href=https://fr.wikipedia.org/wiki/Open_CASCADE_Technology>technologie d'Open CASCADE</a>. Il prend en charge les solides, les objets <a href=https://fr.wikipedia.org/wiki/B-Rep>B-Rep</a> (Boundary Representation), ainsi que les courbes et surfaces <a href=https://fr.wikipedia.org/wiki/NURBS>NURBS</a> (Non-uniform rational basis spline). Il offre une large gamme d'outils pour créer et modifier ces objets, notamment des <a href=https://fr.wikipedia.org/wiki/Op%C3%A9rations_bool%C3%A9ennes_sur_les_polygones>opérations booléennes</a> complexes, des <a href=https://fr.wikipedia.org/wiki/Arrondi_et_cong%C3%A9>congés</a>, le nettoyage des formes et bien <a href=https://wiki.freecad.org/OpenCASCADE/fr>plus encore</a>."
 
 #: features.php:58
 msgid "A wi(l)dly parametric environment"
@@ -341,7 +333,7 @@ msgid "While the FreeCAD core functionality is coded in C++ for robustness and p
 "                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line\n"
 "                  commands in the integrated Python console to recording macros, coding your own tools up to\n"
 "                  full custom workbenches."
-msgstr "Alors que les fonctions principales de FreeCAD sont codées en C++ pour des raisons de robustesse et de performance, une grande partie des couches externes, des ateliers et presque toute la communication entre la fonction principale et l'interface utilisateur est codée en <a href=https://python.org>Python</a>, un langage de programmation flexible, convivial et facile à apprendre. À partir du code Python, vous pouvez faire <a href=https://wiki.freecad.org/Power_users_hub>n'importe quoi dans FreeCAD</a>, depuis de simples commandes d'une ligne dans la console Python intégrée jusqu'à l'enregistrement de macros, en passant par le codage de vos propres outils et jusqu'à des ateliers entièrement personnalisés."
+msgstr "Alors que les fonctions principales de FreeCAD sont codées en C++ pour des raisons de robustesse et de performance, une grande partie des couches externes, des ateliers et presque toute la communication entre la fonction principale et l'interface utilisateur est codée en <a href=https://python.org>Python</a>, un langage de programmation flexible, convivial et facile à apprendre. À partir du code Python, vous pouvez faire <a href=https://wiki.freecad.org/Power_users_hub/fr>n'importe quoi dans FreeCAD</a>, depuis de simples commandes d'une ligne dans la console Python intégrée jusqu'à l'enregistrement de macros, en passant par le codage de vos propres outils et jusqu'à des ateliers entièrement personnalisés."
 
 #: features.php:101
 msgid "File formats frenzy"
@@ -379,11 +371,11 @@ msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sket
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
 "                  objects throughout FreeCAD, be it either with the\n"
 "                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
-msgstr "FreeCAD dispose d'un <a href=https://wiki.freecad.org/Sketcher_Workbench/fr>générateur d'esquisses</a> de qualité avec un solveur intégré de contraintes. Il vous permet de faire des esquisses 2D avec des contraintes géométriques. Les esquisses sont la principale composante de FreeCAD. Les formes 2D contraintes peuvent ensuite être utilisées comme base pour construire d'autres objets dans FreeCAD, que ce soit avec l'<a href=https://wiki.freecad.org/PartDesign_Workbench/fr>atelier Part Design</a> ou tout autre atelier."
+msgstr "FreeCAD dispose d'un <a href=https://wiki.freecad.org/Sketcher_Workbench/fr>générateur d'esquisses</a> de qualité avec un solveur intégré de contraintes. Il vous permet de faire des esquisses 2D avec des contraintes géométriques. Les esquisses sont la principale composante de FreeCAD. Les formes 2D contraintes peuvent ensuite être utilisées comme base pour construire d'autres objets dans FreeCAD, que ce soit avec l'<a href=https://wiki.freecad.org/PartDesign_Workbench/fr>atelier PartDesign</a> ou tout autre atelier."
 
 #: features.php:155
 msgid "A large (and growing) multi-specialty ecosystem"
-msgstr "Un écosystème multi-spécialité important (et croissant)"
+msgstr "Un écosystème multi-spécialités important (et croissant)"
 
 #: features.php:157
 msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\">workbenches</a> for a variety of purposes\n"
@@ -444,8 +436,7 @@ msgstr "Notes de version"
 #: features.php:217
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
-msgstr "Vous trouverez ici les notes de publication des versions actuelles et précédentes de FreeCAD. \n"
-"                  Les notes de publication décrivent les nouveautés de chaque version :"
+msgstr "Vous trouverez ici les notes de la version en cours et des précédentes de FreeCAD. Les notes de versions décrivent les nouveautés de chaque version :"
 
 #: features.php:224
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
@@ -923,10 +914,7 @@ msgid "from 1 USD / 1 EUR per month. You will not have your\n"
 "                name displayed here, but you will have helped the project a lot\n"
 "                anyway. Together, normal sponsors maintain the project on its\n"
 "                feet as much as the bigger sponsors."
-msgstr "à partir de 1 USD / 1 EUR par mois. Votre nom ne sera pas\n"
-"                affiché ici, mais vous aurez quand même beaucoup aidé le projet.\n"
-"              Ensemble, les parrains ordinaires maintiennent le projet sur ses\n"
-"              pieds autant que les plus gros parrains."
+msgstr "à partir de 1 USD/1 EUR par mois. Votre nom ne sera pas affiché ici, mais vous aurez quand même beaucoup aidé le projet. Ensemble, les parrains ordinaires maintiennent le projet sur ses pieds autant que les plus gros parrains."
 
 #: sponsor.php:123
 msgid "Bronze sponsor"
@@ -1050,12 +1038,7 @@ msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
 "            It covers everything from installing and launching FreeCAD, using it\n"
 "            and its different workbenches, up to creating Python scripts to\n"
 "            automate it and developing your own tools and extensions."
-msgstr "Si vous êtes novice avec FreeCAD, ou en matière de modélisation CAO 3D,\n"
-"nous avons ce qu'il vous faut ! FreeCAD dispose d'une <a href=https://wiki.freecadweb.org/Main_Page/fr>documentation complète</a>, qui est disponible en ligne mais aussi directement dans \n"
-"l'application FreeCAD. Elle couvre tout depuis l'installation et le \n"
-"lancement de FreeCAD, son utilisation et ses différents ateliers, jusqu'à \n"
-"la création de scripts Python pour l'automatiser et le développement de \n"
-"vos propres outils et extensions."
+msgstr "Si vous êtes novice avec FreeCAD, ou en matière de modélisation CAO 3D, nous avons ce qu'il vous faut ! FreeCAD dispose d'une <a href=https://wiki.freecad.org>documentation complète</a>, disponible en ligne mais aussi directement dans l'application FreeCAD. Elle couvre tout depuis l'installation et le lancement de FreeCAD, son utilisation et ses différents ateliers, jusqu'à la création de scripts Python pour l'automatiser et le développement de vos propres outils et extensions."
 
 #: thankyou.php:103
 msgid "Below are some pages of this documentation that could\n"
