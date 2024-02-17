@@ -1,12 +1,12 @@
 function addReportTemplate() {
-  var descText = `<a href="//forum.freecadweb.org/viewtopic.php?f=3&t=5236">Read this before reporting</a>
-  and make a <a href="//forum.freecadweb.org">forum thread asking for help</a>
+  var descText = `<a href="//forum.freecad.org/viewtopic.php?f=3&t=5236">Read this before reporting</a>
+  and make a <a href="//forum.freecad.org">forum thread asking for help</a>
   <em>first</em> if you aren't sure it's a bug!`;
 
   var stepsText = `Include a detailed, step-by-step list for bugs.
 We can't fix a bug we can't reproduce.`;
 
-  var infoText = `Running a debug release? Publish a <a href="http://wiki.freecadweb.org/Debugging">debugging backtrace</a>.
+  var infoText = `Running a debug release? Publish a <a href="http://wiki.freecad.org/Debugging">debugging backtrace</a>.
 <br><br>
 File too large? Upload to a cloud-based 3rd party service like Nextcloud or Dropbox,
 and paste the link here.`;

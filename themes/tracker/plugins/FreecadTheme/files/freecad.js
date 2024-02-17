@@ -29,7 +29,7 @@ Result: In summary what I saw happening in FreeCAD was...</i>`;
   var infoText = `Paste the contents of Help > About FreeCAD > "Copy to
 clipboard"<br>
 <br>
-Running a debug release? Publish a <a href="http://www.freecadweb.org/wiki/Debugging">debugging backtrace</a>.
+Running a debug release? Publish a <a href="http://www.freecad.org/wiki/Debugging">debugging backtrace</a>.
 <br>
 <br>
 File too large?

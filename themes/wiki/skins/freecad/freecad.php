@@ -13,7 +13,7 @@ if ( ! defined( 'MEDIAWIKI' ) ) die( "This is an extension to the MediaWiki pack
 $wgExtensionCredits['skin'][] = array(
     'path'        => __FILE__,
     'name'        => 'freecad',
-    'url'         => 'http://www.freecadweb.org',
+    'url'         => 'http://www.freecad.org',
     'author'      => '[http://yorik.uncreated.net Yorik van Havre]',
     'description' => 'MediaWiki skin based on bootstrap-mediawiki',
 );

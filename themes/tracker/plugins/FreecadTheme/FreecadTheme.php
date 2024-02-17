@@ -12,7 +12,7 @@ class FreeCADThemePlugin extends MantisPlugin {
         );
         $this->author = 'Yorik van Havre';
         $this->contact = 'yorik@uncreated.net';
-        $this->url = 'http://www.freecadweb.org';
+        $this->url = 'http://www.freecad.org';
     }
 
     function hooks() {
@@ -61,7 +61,7 @@ class FreeCADThemePlugin extends MantisPlugin {
                                 <li><a href="my_view_page.php" title="Issues">My view</a></li>
                                 <li><a href="view_all_bug_page.php" title="Issues">All issues</a></li>';
         if( !current_user_is_anonymous() ) {
-            $t_return .='                                <li><a href="http://forum.freecadweb.org/viewtopic.php?f=3&t=5236">Read this before reporting</a></li>
+            $t_return .='                                <li><a href="http://forum.freecad.org/viewtopic.php?f=3&t=5236">Read this before reporting</a></li>
                                 <li><a href="bug_report_page.php">Report issue</a></li>';
         }
         $t_return .='                            </ul>
@@ -101,7 +101,7 @@ class FreeCADThemePlugin extends MantisPlugin {
                         </div>
                     </form>';
             $t_return .= '<ul class="nav navbar-nav navbar-right">
-                        <li><a href="http://forum.freecadweb.org" style="font-size: 14px;"><i class="fa fa-commenting"></i></a></li>
+                        <li><a href="http://forum.freecad.org" style="font-size: 14px;"><i class="fa fa-commenting"></i></a></li>
                         <li><a href="/wiki/" style="font-size: 14px;"><i class="fa fa-book"></i></a></li>
                     </ul>';
         $t_return .='               </div>
