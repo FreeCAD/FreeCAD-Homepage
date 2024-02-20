@@ -140,7 +140,8 @@ class StatsWriter:
                            "forks_count",
                            "open_issues_count",
                            "network_count",
-                           "subscribers_count", ]
+                           "subscribers_count", 
+                           "created_at", ]
         for field in expected_fields:
             if field in stats:
                 processed_result[field] = stats[field]
