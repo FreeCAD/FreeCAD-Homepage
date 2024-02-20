@@ -21,7 +21,6 @@
 # *                                                                         *
 # ***************************************************************************
 
-import gitlab
 import json
 import requests
 import os
