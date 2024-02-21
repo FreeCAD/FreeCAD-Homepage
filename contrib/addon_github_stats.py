@@ -29,7 +29,7 @@ from typing import List, Dict, Tuple
 
 # CONFIGURATION
 addon_list_url = "https://raw.githubusercontent.com/FreeCAD/FreeCAD-addons/master/.gitmodules"
-gitlab_access_token = ""  # Read from the file specified by the environment variable GITLAB_ACCESS_TOKEN_FILE
+#gitlab_access_token = ""  # Read from the file specified by the environment variable GITLAB_ACCESS_TOKEN_FILE
 github_access_token = ""  # Read from the file specified by the environment variable GITHUB_ACCESS_TOKEN_FILE
 
 
@@ -51,9 +51,9 @@ class StatsWriter:
 
     def setup_tokens(self):
         """Load the API access tokens from the files specified in the appropriate environment variables."""
-        global gitlab_access_token
+        #global gitlab_access_token
         global github_access_token
-        gitlab_access_token = self.get_token("GITLAB_ACCESS_TOKEN_FILE")
+        #gitlab_access_token = self.get_token("GITLAB_ACCESS_TOKEN_FILE")
         github_access_token = self.get_token("GITHUB_ACCESS_TOKEN_FILE")
 
     @staticmethod
@@ -94,8 +94,9 @@ class StatsWriter:
         # Assume that the only repo types are GitHub and gitlab (which may be a self-hosted gitlab instance)
         if parsed_url.netloc == "github.com":
             return self.get_stats_for_github_repo(repo_url)
-        else:
-            return self.get_stats_for_gitlab_repo(repo_url)
+        #else:
+        #    return self.get_stats_for_gitlab_repo(repo_url)
+        return {}
 
     def get_stats_for_github_repo(self, repo_url: str) -> Dict[str, int]:
         community, project = self.get_community_and_project(repo_url)
@@ -110,7 +111,7 @@ class StatsWriter:
         return self.process_github_stats(result.text)
 
     def get_stats_for_gitlab_repo(self, repo_url: str) -> Dict[str, int]:
-        return
+        return {}
         gl = gitlab.Gitlab(private_token=gitlab_access_token)
         community, project = self.get_community_and_project(repo_url)
         try:
