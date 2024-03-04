@@ -120,8 +120,8 @@
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Community'); ?></a>
 
           <div class="dropdown-menu-mobile-right dropdown-community dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item text-dark" href="<?php echo $codeofconducturl; ?>">Code of conduct</a>
-            <a class="dropdown-item text-dark font-weight-bold" href="https://forum.freecad.org/">Forum</a>
+            <a class="dropdown-item text-dark" href="<?php echo $codeofconducturl; ?>"><?php echo _('Code of conduct'); ?></a>
+            <a class="dropdown-item text-dark font-weight-bold" href="https://forum.freecad.org/"><?php echo _('Forum'); ?></a>
             <a class="dropdown-item text-dark" href="https://fpa.freecad.org">The FPA</a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD">GitHub</a>
             <a class="dropdown-item text-dark" href="https://gitlab.com/freecad/FreeCAD">GitLab</a>
@@ -136,7 +136,7 @@
             <a class="dropdown-item text-dark" href="https://twitter.com/FreeCADNews">Twitter</a>
             <a class="dropdown-item text-dark" href="https://www.facebook.com/FreeCAD">Facebook</a>
             <a class="dropdown-item text-dark" href="https://www.linkedin.com/groups/4295230">LinkedIn</a>
-            <a class="dropdown-item text-dark" href="<?php echo $eventsurl; ?>">Calendar</a>
+            <a class="dropdown-item text-dark" href="<?php echo $eventsurl; ?>"><?php echo _('Calendar'); ?></a>
           </div>
         </li>
 
