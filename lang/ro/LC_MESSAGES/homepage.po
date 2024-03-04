@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-21 12:32+0100\n"
-"PO-Revision-Date: 2024-02-09 14:45\n"
+"POT-Creation-Date: 2024-03-04 11:36+0100\n"
+"PO-Revision-Date: 2024-03-04 10:41\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -27,7 +27,7 @@ msgstr "Vedeți ce mai este nou"
 
 #: codeofconduct.php:19 contributing.php:19
 msgid "This page is retrieved from"
-msgstr ""
+msgstr "Această pagină este preluată de la"
 
 #: contributor.php:11
 msgid "Thank you for your contribution!"
@@ -37,7 +37,9 @@ msgstr ""
 msgid "Thank you for supporting FreeCAD!\n"
 "            Whether you donated a little or a lot, all efforts contribute to\n"
 "            make FreeCAD development go further and faster."
-msgstr ""
+msgstr "Vă mulţumim pentru sprijinul acordat FreeCAD!\n"
+"            Indiferent dacă ați donat puțin sau mult, toate eforturile contribuie la\n"
+"            face ca dezvoltarea FreeCAD să meargă mai departe şi mai repede."
 
 #: contributor.php:20
 msgid "If you have made a recurring donation above 25 USD/EUR\n"
@@ -46,7 +48,12 @@ msgid "If you have made a recurring donation above 25 USD/EUR\n"
 "            your name, company name or logo displayed on the FreeCAD website,\n"
 "            depending on the tier you fit in. If you have not yet informed us of\n"
 "            the name you wish to see displayed, please reach to us at"
-msgstr ""
+msgstr "Dacă ați făcut o donație recurentă de peste 25 USD/EUR\n"
+"            pe lună (sau o donație unică peste 300 USD/EUR), sunteţi\n"
+"            eligibil pentru a deveni bronz, sponsor argint sau aur și poate avea\n"
+"            numele dvs., numele firmei sau logo-ul afişat pe website-ul FreeCAD,\n"
+"            în funcție de nivelul în care se încadrează. Dacă nu ne-ai informat încă despre\n"
+"            numele pe care dorești să îl vezi afișat, te rog să ne contactezi la"
 
 #: contributor.php:29
 msgid "Thanks!"
@@ -94,11 +101,11 @@ msgstr "Paypal"
 
 #: donation.php:73
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
-msgstr ""
+msgstr "GitHub vă permite să sponsorizați proiectele dvs. preferate utilizând contul GitHub și un card de credit"
 
 #: donation.php:73
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: donation.php:74
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
@@ -135,7 +142,7 @@ msgstr ""
 
 #: downloads.php:24
 msgid "Current stable version:"
-msgstr ""
+msgstr "Versiunea stabilă curentă "
 
 #: downloads.php:25
 msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
@@ -147,128 +154,128 @@ msgstr "Windows 7 este versiunea minimală suportată. Pentru mai multă informa
 
 #: downloads.php:47
 msgid "https://wiki.freecad.org/Install_on_Windows"
-msgstr ""
+msgstr "https://wiki.freecad.org/Install_on_Windows"
 
-#: downloads.php:47 downloads.php:69 downloads.php:91
+#: downloads.php:47 downloads.php:68 downloads.php:90
 msgid "wiki"
 msgstr "wiki"
 
-#: downloads.php:68
+#: downloads.php:67
 msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
 msgstr "Mac OS X 10.12 Sierra este versiunea minimă suportată. Pentru mai multe informații despre instalare, vă rugăm să verificați "
 
-#: downloads.php:69
+#: downloads.php:68
 msgid "https://wiki.freecad.org/Install_on_Mac"
+msgstr "https://wiki.freecad.org/Install_on_Mac"
+
+#: downloads.php:88
+msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
 msgstr ""
 
-#: downloads.php:70
-msgid "Versions of Mac OS before Mac OS 13 should use the \"unsigned\" version of the disk image."
+#: downloads.php:89
+msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
 msgstr ""
 
 #: downloads.php:90
-msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr "Pentru instrucțiuni specifice pentru distro, cum ar fi Ubuntu PPA și alte modalități de instalare pe Linux, vă rugăm să verificați "
-
-#: downloads.php:91
 msgid "https://wiki.freecad.org/Install_on_Unix"
-msgstr ""
+msgstr "https://wiki.freecad.org/Install_on_Unix"
 
-#: downloads.php:100
+#: downloads.php:99
 msgid "See what has changed since last version in the"
 msgstr ""
 
-#: downloads.php:101 index.php:23
+#: downloads.php:100 index.php:23
 msgid "https://wiki.freecad.org/Release_notes_0.21"
 msgstr ""
 
-#: downloads.php:101
+#: downloads.php:100
 msgid "FreeCAD 0.21 release notes"
 msgstr ""
 
-#: downloads.php:110
+#: downloads.php:109
 msgid "Development versions"
 msgstr "Versiuni aflate în developare"
 
-#: downloads.php:112
+#: downloads.php:111
 msgid "FreeCAD's development happens daily!"
 msgstr ""
 
-#: downloads.php:113
+#: downloads.php:112
 msgid "We generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
 msgstr ""
 
-#: downloads.php:114
+#: downloads.php:113
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
 msgstr ""
 
-#: downloads.php:115
+#: downloads.php:114
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
 msgstr ""
 
-#: downloads.php:116
+#: downloads.php:115
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
 msgstr ""
 
-#: downloads.php:117
+#: downloads.php:116
 msgid "The following dev builds are available for different platforms/distributions:"
 msgstr ""
 
-#: downloads.php:123
+#: downloads.php:122
 msgid "https://wiki.freecad.org/Snap"
-msgstr ""
+msgstr "https://wiki.freecad.org/Snap"
 
-#: downloads.php:124
+#: downloads.php:123
 msgid "https://wiki.freecad.org/Flatpak"
-msgstr ""
+msgstr "https://wiki.freecad.org/Flatpak"
 
-#: downloads.php:134
+#: downloads.php:133
 msgid "Additional modules and macros"
 msgstr "Module suplimentare și macro-uri"
 
-#: downloads.php:136
+#: downloads.php:135
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr ""
 
-#: downloads.php:138
+#: downloads.php:137
 msgid "https://wiki.freecad.org/Std_AddonMgr"
-msgstr ""
+msgstr "https://wiki.freecad.org/Std_AddonMgr"
 
-#: downloads.php:138
+#: downloads.php:137
 msgid "Addon manager."
 msgstr "Manager de addon."
 
-#: downloads.php:148
+#: downloads.php:147
 msgid "Source code"
 msgstr "Cod sursă"
 
-#: downloads.php:150
+#: downloads.php:149
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr ""
 
-#: downloads.php:152
+#: downloads.php:151
 msgid "and mirrored on "
 msgstr "și oglindit pornit "
 
-#: downloads.php:155
+#: downloads.php:154
 msgid "and "
 msgstr "și "
 
 #: events.php:9
 msgid "FreeCAD events"
-msgstr ""
+msgstr "Evenimente FreeCAD"
 
 #: events.php:11
 msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
-msgstr ""
+msgstr "Calendarul de mai jos prezintă datele viitoare ale reuniunilor FreeCAD și alte evenimente comunitare."
 
-#: events.php:15
+#: events.php:29
 msgid "Subscribe to this calendar using this"
-msgstr ""
+msgstr "Abonează-te la acest calendar folosind acest"
 
-#: events.php:15
+#: events.php:29
 msgid "ICS link"
-msgstr ""
+msgstr "Link ICS"
 
 #: features.php:9
 msgid "Key FreeCAD Features"
@@ -385,11 +392,25 @@ msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\"
 "              <a href=\"https://wiki.freecad.org/External_workbenches\">add-on workbenches</a> and\n"
 "              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> developed by the users\n"
 "              community."
-msgstr ""
+msgstr "FreeCAD oferă oferte dedicate <a href=\"https://wiki.freecad.org/Workbenches\">atelierelor</a> pentru o varietate de scopuri\n"
+"              cum ar fi\n"
+"              <a href=\"https://wiki.freecad.org/Part_Workbench\">modelarea CSG</a>,\n"
+"              simplu <a href=\"https://wiki.freecad.org/Draft_Workbench\">2D CAD design</a>\n"
+"              <a href=\"https://wiki.freecad.org/Surface_Module\">Suprafeţe NURBS</a>\n"
+"              <a href=\"https://wiki.freecad.org/Arch_Module\">modelare arhitecturală sau BIM</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Path_Workbench\">Imprimare 3D, CAM și CNC</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Points_Module\">puncte Nori</a>,\n"
+"              lucrează cu fişierele <a href=\"https://wiki.freecad.org/OpenSCAD_Module\">OpenSCAD</a>,\n"
+"              proiectând traiectoriile robotului industrial <a href=\"https://wiki.freecad.org/Robot_Workbench\"></a>\n"
+"              realizând <a href=\"https://wiki.freecad.org/FEM_Module\">Finite Analize</a>\n"
+"              și multe altele. FreeCAD oferă, de asemenea, instrumente simple de instalare şi gestionare a bazelor de lucru\n"
+"              <a href=\"https://wiki.freecad.org/External_workbenches\"></a> şi\n"
+"              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> dezvoltate de utilizatorii\n"
+"              comunitate."
 
 #: features.php:173
 msgid "https://wiki.freecad.org/Feature_list"
-msgstr ""
+msgstr "https://wiki.freecad.org/Feature_list"
 
 #: features.php:174 index.php:113
 msgid "Learn more"
@@ -418,7 +439,7 @@ msgstr ""
 
 #: features.php:224
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Note de lansare 0.21"
 
 #: features.php:224
 msgid "Release 0.21 - August 2023"
@@ -430,7 +451,7 @@ msgstr "versiune stabilă curentă"
 
 #: features.php:225
 msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.20\" title=\"Note de lansare 0.20"
 
 #: features.php:225
 msgid "Release 0.20 - June 2022"
@@ -438,7 +459,7 @@ msgstr "Versiunea 0.20 - Iunie 2022"
 
 #: features.php:226
 msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.19\" title=\"Note de lansare 0.19"
 
 #: features.php:226
 msgid "Release 0.19 - March 2021"
@@ -446,7 +467,7 @@ msgstr "Versiunea 0.19 - Martie 2021"
 
 #: features.php:227
 msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"Note de lansare 0.18"
 
 #: features.php:227
 msgid "Release 0.18 - March 2019"
@@ -941,7 +962,7 @@ msgstr ""
 msgid "Silver sponsors"
 msgstr "Sponsor argint"
 
-#: sponsor.php:267
+#: sponsor.php:273
 msgid "Bronze sponsors"
 msgstr "Sponsor de bronz"
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-21 12:32+0100\n"
-"PO-Revision-Date: 2024-02-09 14:43\n"
+"POT-Creation-Date: 2024-03-04 11:36+0100\n"
+"PO-Revision-Date: 2024-03-04 10:40\n"
 "Last-Translator: \n"
 "Language-Team: Croatian\n"
 "Language: hr_HR\n"
@@ -157,109 +157,109 @@ msgstr "Windows 7 je minimalna podržana verzija. Za više informacija prilikom 
 msgid "https://wiki.freecad.org/Install_on_Windows"
 msgstr "https://wiki.freecad.org/Install_on_Windows/hr"
 
-#: downloads.php:47 downloads.php:69 downloads.php:91
+#: downloads.php:47 downloads.php:68 downloads.php:90
 msgid "wiki"
 msgstr "wiki"
 
-#: downloads.php:68
+#: downloads.php:67
 msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
 msgstr "Mac OS X 10.12 Sierra je minimalna podržana verzija. Za više informacija prilikom instalacije, molimo provjerite "
 
-#: downloads.php:69
+#: downloads.php:68
 msgid "https://wiki.freecad.org/Install_on_Mac"
 msgstr "https://wiki.freecad.org/Install_on_Mac/hr"
 
-#: downloads.php:70
-msgid "Versions of Mac OS before Mac OS 13 should use the \"unsigned\" version of the disk image."
-msgstr "Verzije Mac OS-a prije Mac OS 13 trebale bi koristiti \"nepotpisanu\" verziju slike diska."
+#: downloads.php:88
+msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
+msgstr ""
+
+#: downloads.php:89
+msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
+msgstr ""
 
 #: downloads.php:90
-msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr "Za specifične upute pojedine distribucije, kao Ubuntu PPA  i  druge načine instalacije na Linux distribucijama molimo provjerite "
-
-#: downloads.php:91
 msgid "https://wiki.freecad.org/Install_on_Unix"
 msgstr "https://wiki.freecad.org/Install_on_Unix/hr"
 
-#: downloads.php:100
+#: downloads.php:99
 msgid "See what has changed since last version in the"
 msgstr "Pogledajte što se promijenilo od posljednje verzije u"
 
-#: downloads.php:101 index.php:23
+#: downloads.php:100 index.php:23
 msgid "https://wiki.freecad.org/Release_notes_0.21"
 msgstr "https://wiki.freecad.org/Release_notes_0.21/hr"
 
-#: downloads.php:101
+#: downloads.php:100
 msgid "FreeCAD 0.21 release notes"
 msgstr "FreeCAD 0.21 Bilješka Izdanja"
 
-#: downloads.php:110
+#: downloads.php:109
 msgid "Development versions"
 msgstr "Verzije u razvoju"
 
-#: downloads.php:112
+#: downloads.php:111
 msgid "FreeCAD's development happens daily!"
 msgstr "Razvoj FreeCAD-a je na dnevnoj bazi!"
 
-#: downloads.php:113
+#: downloads.php:112
 msgid "We generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
 msgstr "Zbog toga generiramo verzije koje su zasnovane na <i>najnovija tehnologija</i> FreeCAD kodu kako bi korisnici testirali ispravke grešaka/regresije zajedno sa novim funkcijama."
 
-#: downloads.php:114
+#: downloads.php:113
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
 msgstr "Molimo napredne korisnike da povremeno pokrenu razvojne izrade kako bi pomogli u testiranju novog koda."
 
-#: downloads.php:115
+#: downloads.php:114
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
 msgstr "Ove izrade nisu prikladne za produktivnu uporabu, i treba biti oprezan pri njihovoj uporabi (redovno spremajte svoje datoteke, itd.)."
 
-#: downloads.php:116
+#: downloads.php:115
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
 msgstr "Očekuje se da će razvojne izrade biti sporije, trošiti više memorije i biti manje stabilne od službenih izdanja."
 
-#: downloads.php:117
+#: downloads.php:116
 msgid "The following dev builds are available for different platforms/distributions:"
 msgstr "Razvojne verzije su dostupne za slijedeće platforme/distribucije:"
 
-#: downloads.php:123
+#: downloads.php:122
 msgid "https://wiki.freecad.org/Snap"
 msgstr ""
 
-#: downloads.php:124
+#: downloads.php:123
 msgid "https://wiki.freecad.org/Flatpak"
 msgstr "https://wiki.freecad.org/Flatpak/hr"
 
-#: downloads.php:134
+#: downloads.php:133
 msgid "Additional modules and macros"
 msgstr "Dodatni moduli i makronaredbe"
 
-#: downloads.php:136
+#: downloads.php:135
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr "FreeCAD zajednica pruža obilje dodatnih modula i makronaredbi. Oni se\n"
 " sada lako mogu instalirati izravno iz FreeCAD-a pomoću "
 
-#: downloads.php:138
+#: downloads.php:137
 msgid "https://wiki.freecad.org/Std_AddonMgr"
 msgstr "https://wiki.freecad.org/Std_AddonMgr/hr"
 
-#: downloads.php:138
+#: downloads.php:137
 msgid "Addon manager."
 msgstr "Addon manager."
 
-#: downloads.php:148
+#: downloads.php:147
 msgid "Source code"
 msgstr "Izvorni kod"
 
-#: downloads.php:150
+#: downloads.php:149
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr "Izvorni kod FreeCAD-a je prvenstveno pohranjen na"
 
-#: downloads.php:152
+#: downloads.php:151
 msgid "and mirrored on "
 msgstr "i zrcaljen na"
 
-#: downloads.php:155
+#: downloads.php:154
 msgid "and "
 msgstr "i"
 
@@ -271,11 +271,11 @@ msgstr "FreeCAD događaji"
 msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
 msgstr "Kalendar ispod prikazuje datume nadolazećih sastanaka i drugih događaja zajednice FreeCAD-a."
 
-#: events.php:15
+#: events.php:29
 msgid "Subscribe to this calendar using this"
 msgstr "Pretplatite se na ovaj kalendar koristeći ovo"
 
-#: events.php:15
+#: events.php:29
 msgid "ICS link"
 msgstr "ICS link"
 
@@ -1093,7 +1093,7 @@ msgstr "Prvi sponzori"
 msgid "Silver sponsors"
 msgstr "Srebrni sponzori"
 
-#: sponsor.php:267
+#: sponsor.php:273
 msgid "Bronze sponsors"
 msgstr "Bronzani sponzori"
 

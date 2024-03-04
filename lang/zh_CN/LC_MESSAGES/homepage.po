@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-21 12:32+0100\n"
-"PO-Revision-Date: 2024-02-09 14:43\n"
+"POT-Creation-Date: 2024-03-04 11:36+0100\n"
+"PO-Revision-Date: 2024-03-04 10:39\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -153,109 +153,109 @@ msgstr "Windows 7 是支持的最低版本。要了解更多安装信息，请�
 msgid "https://wiki.freecad.org/Install_on_Windows"
 msgstr "https://wiki.freecad.org/Install_on_Windows"
 
-#: downloads.php:47 downloads.php:69 downloads.php:91
+#: downloads.php:47 downloads.php:68 downloads.php:90
 msgid "wiki"
 msgstr "维基"
 
-#: downloads.php:68
+#: downloads.php:67
 msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
 msgstr "Mac OS X 10.12 Sierra 是受支持的最低版本。要了解更多安装信息，请查看 "
 
-#: downloads.php:69
+#: downloads.php:68
 msgid "https://wiki.freecad.org/Install_on_Mac"
 msgstr "https://wiki.freecad.org/Install_on_Mac"
 
-#: downloads.php:70
-msgid "Versions of Mac OS before Mac OS 13 should use the \"unsigned\" version of the disk image."
-msgstr "Mac OS 13之前的Mac OS 版本应该使用“未签名”版本的磁盘镜像。"
+#: downloads.php:88
+msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
+msgstr ""
+
+#: downloads.php:89
+msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
+msgstr ""
 
 #: downloads.php:90
-msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr "若要在 Linux 上安装诸如 Ubuntu PPA 等特定的发行版，请查看 "
-
-#: downloads.php:91
 msgid "https://wiki.freecad.org/Install_on_Unix"
 msgstr "https://wiki.freecad.org/Install_on_Unix"
 
-#: downloads.php:100
+#: downloads.php:99
 msgid "See what has changed since last version in the"
 msgstr "查看自上次版本以来发生的变化"
 
-#: downloads.php:101 index.php:23
+#: downloads.php:100 index.php:23
 msgid "https://wiki.freecad.org/Release_notes_0.21"
 msgstr "https://wiki.freecad.org/Release_notes_0.21"
 
-#: downloads.php:101
+#: downloads.php:100
 msgid "FreeCAD 0.21 release notes"
 msgstr "FreeCAD 0.21 发行说明"
 
-#: downloads.php:110
+#: downloads.php:109
 msgid "Development versions"
 msgstr "开发中版本"
 
-#: downloads.php:112
+#: downloads.php:111
 msgid "FreeCAD's development happens daily!"
 msgstr "FreeCAD的开发每天都会发生！"
 
-#: downloads.php:113
+#: downloads.php:112
 msgid "We generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
 msgstr "因此，我们生成基于 <i>最前沿</i> FreeCAD 代码的构建，以便用户能够测试缺陷/回归以及新功能。"
 
-#: downloads.php:114
+#: downloads.php:113
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
 msgstr "我们请求高级用户偶尔运行开发构建以帮助测试新的代码。"
 
-#: downloads.php:115
+#: downloads.php:114
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
 msgstr "这些构建不适合用于生产，使用时应小心(定期备份您的文件，等等)。"
 
-#: downloads.php:116
+#: downloads.php:115
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
 msgstr "开发版本应该比官方正式版本更慢，消耗更多的内存，也不如官方正式版本稳定。"
 
-#: downloads.php:117
+#: downloads.php:116
 msgid "The following dev builds are available for different platforms/distributions:"
 msgstr "以下开发版本可供不同平台/分布："
 
-#: downloads.php:123
+#: downloads.php:122
 msgid "https://wiki.freecad.org/Snap"
 msgstr "https://wiki.freecad.org/Snap"
 
-#: downloads.php:124
+#: downloads.php:123
 msgid "https://wiki.freecad.org/Flatpak"
 msgstr "https://wiki.freecad.org/Flatpak"
 
-#: downloads.php:134
+#: downloads.php:133
 msgid "Additional modules and macros"
 msgstr "附加模块和宏包"
 
-#: downloads.php:136
+#: downloads.php:135
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr "FreeCAD社区提供了丰富的模块和宏。现在这些内容\n"
 "        可以很容易地在FreeCAD内直接安装，只需使用 "
 
-#: downloads.php:138
+#: downloads.php:137
 msgid "https://wiki.freecad.org/Std_AddonMgr"
 msgstr "https://wiki.freecad.org/Std_AddonMgr"
 
-#: downloads.php:138
+#: downloads.php:137
 msgid "Addon manager."
 msgstr "插件管理器。"
 
-#: downloads.php:148
+#: downloads.php:147
 msgid "Source code"
 msgstr "源代码"
 
-#: downloads.php:150
+#: downloads.php:149
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr "FreeCAD 源代码主要是在 "
 
-#: downloads.php:152
+#: downloads.php:151
 msgid "and mirrored on "
 msgstr "并镜像于 "
 
-#: downloads.php:155
+#: downloads.php:154
 msgid "and "
 msgstr "和 "
 
@@ -267,11 +267,11 @@ msgstr "FreeCAD 事件"
 msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
 msgstr "下面的日历显示了未来 FreeCAD 会议和其他社区活动的日期。"
 
-#: events.php:15
+#: events.php:29
 msgid "Subscribe to this calendar using this"
 msgstr "如需订阅此日历，可使用此 "
 
-#: events.php:15
+#: events.php:29
 msgid "ICS link"
 msgstr "ICS 文件链接"
 
@@ -977,7 +977,7 @@ msgstr ""
 msgid "Silver sponsors"
 msgstr ""
 
-#: sponsor.php:267
+#: sponsor.php:273
 msgid "Bronze sponsors"
 msgstr ""
 

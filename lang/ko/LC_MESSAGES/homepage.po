@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-21 12:32+0100\n"
-"PO-Revision-Date: 2024-02-09 14:44\n"
+"POT-Creation-Date: 2024-03-04 11:36+0100\n"
+"PO-Revision-Date: 2024-03-04 10:41\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -47,7 +47,12 @@ msgid "If you have made a recurring donation above 25 USD/EUR\n"
 "            your name, company name or logo displayed on the FreeCAD website,\n"
 "            depending on the tier you fit in. If you have not yet informed us of\n"
 "            the name you wish to see displayed, please reach to us at"
-msgstr ""
+msgstr "25 USD/EUR 정도의 월정 기부금 납부를 등록하시거나\n"
+"            또는 300 USD/UER의 일시 기부금 납부를 하시면 \n"
+"            골드, 실버, 브론즈 등급 등의 스폰서 자격이 부여되며\n"
+"            스폰서 순위에 따라 웹사이트에  귀하의 회사명 또는\n"
+"            로고, 귀하의 성명이 표시될 수 있습니다.\n"
+"            표시하려는 명칭을 저희에게 알려 주시려면 연락하실 곳은"
 
 #: contributor.php:29
 msgid "Thanks!"
@@ -95,11 +100,11 @@ msgstr "Paypal"
 
 #: donation.php:73
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
-msgstr ""
+msgstr "깃허브에서 깃허브 계정과 신용카드를 사용하여 좋아하는 프로젝트를 후원할 수 있습니다."
 
 #: donation.php:73
 msgid "GitHub"
-msgstr ""
+msgstr "깃허브"
 
 #: donation.php:74
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
@@ -151,108 +156,109 @@ msgstr "최소 Windows 7이 필요합니다. 설치에 대한 자세한 내용�
 msgid "https://wiki.freecad.org/Install_on_Windows"
 msgstr ""
 
-#: downloads.php:47 downloads.php:69 downloads.php:91
+#: downloads.php:47 downloads.php:68 downloads.php:90
 msgid "wiki"
 msgstr "위키"
 
-#: downloads.php:68
+#: downloads.php:67
 msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
 msgstr "최소 Mac OS X 10.12 El Capitan이 필요합니다. 설치에 대한 자세한 내용은 다음 항목을 참조하십시오 "
 
-#: downloads.php:69
+#: downloads.php:68
 msgid "https://wiki.freecad.org/Install_on_Mac"
 msgstr ""
 
-#: downloads.php:70
-msgid "Versions of Mac OS before Mac OS 13 should use the \"unsigned\" version of the disk image."
-msgstr "Mac OS 13 이전 버전에서는 디스크 이미지의 '서명되지 않은' 버전을 사용해야 합니다."
+#: downloads.php:88
+msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
+msgstr ""
+
+#: downloads.php:89
+msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
+msgstr ""
 
 #: downloads.php:90
-msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr "Ubuntu PPA와 같은 리눅스 배포판 및 Linux에 설치하는 다른 방법은 다음을 참조하십시오 "
-
-#: downloads.php:91
 msgid "https://wiki.freecad.org/Install_on_Unix"
 msgstr ""
 
-#: downloads.php:100
+#: downloads.php:99
 msgid "See what has changed since last version in the"
 msgstr ""
 
-#: downloads.php:101 index.php:23
+#: downloads.php:100 index.php:23
 msgid "https://wiki.freecad.org/Release_notes_0.21"
 msgstr ""
 
-#: downloads.php:101
+#: downloads.php:100
 msgid "FreeCAD 0.21 release notes"
 msgstr "프리캐드 0.21 릴리스 노트"
 
-#: downloads.php:110
+#: downloads.php:109
 msgid "Development versions"
 msgstr "개발 버전"
 
-#: downloads.php:112
+#: downloads.php:111
 msgid "FreeCAD's development happens daily!"
 msgstr "FreeCAD의 개발은 매일 이루어집니다!"
 
-#: downloads.php:113
+#: downloads.php:112
 msgid "We generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
-msgstr ""
+msgstr "우리는 사용자들이 버그 수정/회귀 및 새로운 기능을 테스트할 수 있도록 <i>최신 기술</i> FreeCAD 코드를 기반으로 한 빌드를 생성합니다."
+
+#: downloads.php:113
+msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
+msgstr "고급 사용자들께서 가끔씩 개발 빌드를 실행하여 새로운 코드를 테스트하는 데 도움을 주시기를 부탁드립니다."
 
 #: downloads.php:114
-msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
-msgstr ""
+msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
+msgstr "이 빌드들은 실제 사용에 적합하지 않으며 사용할 때 주의해야 합니다 (파일을 정기적으로 백업 등을 하십시오)."
 
 #: downloads.php:115
-msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
-msgstr ""
+msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
+msgstr "개발용 빌드는 공식 릴리스 버전보다 느리고 더 많은 메모리를 소비하며 덜 안정적일 것으로 예상됩니다."
 
 #: downloads.php:116
-msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
-msgstr ""
-
-#: downloads.php:117
 msgid "The following dev builds are available for different platforms/distributions:"
-msgstr ""
+msgstr "다음의 개발용 빌드는 다양한 플랫폼/배포판용으로 제공됩니다:"
 
-#: downloads.php:123
+#: downloads.php:122
 msgid "https://wiki.freecad.org/Snap"
 msgstr ""
 
-#: downloads.php:124
+#: downloads.php:123
 msgid "https://wiki.freecad.org/Flatpak"
 msgstr ""
 
-#: downloads.php:134
+#: downloads.php:133
 msgid "Additional modules and macros"
 msgstr "추가 모듈 및 매크로"
 
-#: downloads.php:136
+#: downloads.php:135
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
-msgstr ""
+msgstr "FreeCAD 커뮤니티는 다양한 추가 모듈과 매크로를 제공합니다.\n"
+"  이제 FreeCAD에서 직접 쉽게 설치할 수 있습니다. "
 
-#: downloads.php:138
+#: downloads.php:137
 msgid "https://wiki.freecad.org/Std_AddonMgr"
 msgstr ""
 
-#: downloads.php:138
+#: downloads.php:137
 msgid "Addon manager."
 msgstr "에드온 관리자입니다."
 
-#: downloads.php:148
+#: downloads.php:147
 msgid "Source code"
 msgstr "소스 코드"
 
-#: downloads.php:150
+#: downloads.php:149
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr ""
 
-#: downloads.php:152
+#: downloads.php:151
 msgid "and mirrored on "
 msgstr "그리고 미러됩니다 "
 
-#: downloads.php:155
+#: downloads.php:154
 msgid "and "
 msgstr "그리고 "
 
@@ -262,15 +268,15 @@ msgstr ""
 
 #: events.php:11
 msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
-msgstr ""
+msgstr "아래 달력은 FreeCAD 미팅 및 다른 커뮤니티 이벤트의 예정 일정을 보여줍니다."
 
-#: events.php:15
+#: events.php:29
 msgid "Subscribe to this calendar using this"
-msgstr ""
+msgstr "이것을 이용하여 캘린더를 구독하세요."
 
-#: events.php:15
+#: events.php:29
 msgid "ICS link"
-msgstr ""
+msgstr "ICS 링크"
 
 #: features.php:9
 msgid "Key FreeCAD Features"
@@ -285,7 +291,10 @@ msgid "FreeCAD is made primarily to design objects for the real world. Everythin
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr ""
+msgstr "FreeCAD는 주로 현실 세계를 위한 물건을 디자인하기 위해 만들어졌습니다. FreeCAD에서 하는 모든 작업은\n"
+"              마이크론, 킬로미터, 인치, 피트 또는 단위들의 어떤 조합이라도 사용됩니다. \n"
+"              FreeCAD는 솔리드, 완전 정밀 모델을 생성, 내보내기, 편집하고 3D 프린팅이나 CNC 가공을 위해 내보내거나, 모델의 2D 도면과 뷰를 만들거나, \n"
+"              유한 요소 분석과 같은 분석을 수행하거나, 수량이나 자재 목록과 같은 모델 데이터를 내보내는 <a href=https://wiki.freecad.org/Workbenches>도구</a>를 제공합니다."
 
 #: features.php:40
 msgid "A powerful solid-based geometry kernel"
@@ -300,7 +309,14 @@ msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
 "              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
-msgstr ""
+msgstr "FreeCAD는 <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>을 기반으로 한 고급 기하 엔진을 갖추고 있습니다.\n"
+"              이는 솔리드, \n"
+"              <a href=https://en.wikipedia.org/wiki/Boundary_representation>경계 표현</a> (BRep) 객체,\n"
+"               그리고 <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>비균일 유리 B-스플라인</a> (NURBS) 곡선 및 표면을 지원하며,\n"
+"               복잡한 <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>불리언</a> 작업,\n"
+"               <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>모깎기</a>, 모양 정리 및\n"
+"               <a href=https://wiki.freecad.org/OpenCASCADE>그 밖의 다양한 기능</a>을 포함하여\n"
+"               이러한 객체를 생성하고 수정하기 위한 다양한 도구를 제공합니다."
 
 #: features.php:58
 msgid "A wi(l)dly parametric environment"
@@ -313,7 +329,13 @@ msgid "All FreeCAD objects are natively parametric, meaning their shape can be b
 "                a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing\n"
 "                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are\n"
 "                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>."
-msgstr ""
+msgstr "모든 FreeCAD 개체는 기본적으로 매개 변수입니다. 즉, 숫자 값, 텍스트, 켜기/끄기 버튼,\n"
+" 또는 다른 개체와 같은 \n"
+"                <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">속성</a>에 따라 모양이 달라질 수 있습니다. 모든 형상 변경은 필요에 따라 다시 계산되고, 취소/재실행 스택에 의해 기록되며, 정확한 모델링 이력을 유지할 수 있습니다.\n"
+"                 한 객체의 속성은 다른 객체의 속성 값을 구동하여\n"
+"꿈에서나 가능할 법한 복잡하고 사용자 정의된 매개 변수화된 체인을 만들 수 있습니다.\n"
+"                 새로운 매개 변수화된 객체는\n"
+"<a href=https://wiki.freecad.org/Scripted_objects>쉽게 코드화</a>할 수 있습니다."
 
 #: features.php:83
 msgid "Python everywhere"
@@ -943,7 +965,7 @@ msgstr ""
 msgid "Silver sponsors"
 msgstr "실버 스폰서"
 
-#: sponsor.php:267
+#: sponsor.php:273
 msgid "Bronze sponsors"
 msgstr "브론즈 스폰서"
 

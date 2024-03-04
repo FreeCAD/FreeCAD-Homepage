@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-21 12:32+0100\n"
-"PO-Revision-Date: 2024-02-09 14:45\n"
+"POT-Creation-Date: 2024-03-04 11:36+0100\n"
+"PO-Revision-Date: 2024-03-04 10:42\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -154,108 +154,108 @@ msgstr "Windows 7 є мінімальною підтримуваною верс�
 msgid "https://wiki.freecad.org/Install_on_Windows"
 msgstr "https://wiki.freecad.org/Installing_on_Windows/uk"
 
-#: downloads.php:47 downloads.php:69 downloads.php:91
+#: downloads.php:47 downloads.php:68 downloads.php:90
 msgid "wiki"
 msgstr "Вікі"
 
-#: downloads.php:68
+#: downloads.php:67
 msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
 msgstr "Mac OS X 10.12 El Capitan є мінімальною підтримуваною версією. Для отримання додаткової інформації про встановлення, будь ласка, ознайомтесь з "
 
-#: downloads.php:69
+#: downloads.php:68
 msgid "https://wiki.freecad.org/Install_on_Mac"
 msgstr "https://wiki.freecad.org/Installing_on_Mac/uk"
 
-#: downloads.php:70
-msgid "Versions of Mac OS before Mac OS 13 should use the \"unsigned\" version of the disk image."
+#: downloads.php:88
+msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
+msgstr ""
+
+#: downloads.php:89
+msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
 msgstr ""
 
 #: downloads.php:90
-msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr "Для отримання інструкцій щодо встановлення в різних дистрибутивах Linux, наприклад з Ubuntu PPA, будь ласка, ознайомтесь з "
-
-#: downloads.php:91
 msgid "https://wiki.freecad.org/Install_on_Unix"
 msgstr "https://wiki.freecad.org/Installing_on_Linux/uk"
 
-#: downloads.php:100
+#: downloads.php:99
 msgid "See what has changed since last version in the"
 msgstr ""
 
-#: downloads.php:101 index.php:23
+#: downloads.php:100 index.php:23
 msgid "https://wiki.freecad.org/Release_notes_0.21"
 msgstr ""
 
-#: downloads.php:101
+#: downloads.php:100
 msgid "FreeCAD 0.21 release notes"
 msgstr ""
 
-#: downloads.php:110
+#: downloads.php:109
 msgid "Development versions"
 msgstr "Версії в розробці"
 
-#: downloads.php:112
+#: downloads.php:111
 msgid "FreeCAD's development happens daily!"
 msgstr "Розробка FreeCAD відбувається щодня!"
 
-#: downloads.php:113
+#: downloads.php:112
 msgid "We generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
 msgstr ""
 
-#: downloads.php:114
+#: downloads.php:113
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
 msgstr ""
 
-#: downloads.php:115
+#: downloads.php:114
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
 msgstr ""
 
-#: downloads.php:116
+#: downloads.php:115
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
 msgstr ""
 
-#: downloads.php:117
+#: downloads.php:116
 msgid "The following dev builds are available for different platforms/distributions:"
 msgstr "Наступні збірки розробників доступні для різних платформ/дистрибутивів:"
 
-#: downloads.php:123
+#: downloads.php:122
 msgid "https://wiki.freecad.org/Snap"
 msgstr "https://wiki.freecad.org/Ubuntu_Snap/uk"
 
-#: downloads.php:124
+#: downloads.php:123
 msgid "https://wiki.freecad.org/Flatpak"
 msgstr "https://wiki.freecad.org/Flatpak/uk"
 
-#: downloads.php:134
+#: downloads.php:133
 msgid "Additional modules and macros"
 msgstr "Додаткові модулі та макроси"
 
-#: downloads.php:136
+#: downloads.php:135
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr ""
 
-#: downloads.php:138
+#: downloads.php:137
 msgid "https://wiki.freecad.org/Std_AddonMgr"
 msgstr "https://wiki.freecad.org/Std_AddonMgr/uk"
 
-#: downloads.php:138
+#: downloads.php:137
 msgid "Addon manager."
 msgstr "Менеджер розширень."
 
-#: downloads.php:148
+#: downloads.php:147
 msgid "Source code"
 msgstr "Початковий код"
 
-#: downloads.php:150
+#: downloads.php:149
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr "Вихідний код FreeCAD розміщено переважно на "
 
-#: downloads.php:152
+#: downloads.php:151
 msgid "and mirrored on "
 msgstr "і дзеркало на"
 
-#: downloads.php:155
+#: downloads.php:154
 msgid "and "
 msgstr " та "
 
@@ -267,11 +267,11 @@ msgstr "Події пов'язані з FreeCAD"
 msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
 msgstr "У календарі нижче показано найближчі дати зустрічей FreeCAD та інших подій спільноти."
 
-#: events.php:15
+#: events.php:29
 msgid "Subscribe to this calendar using this"
 msgstr "Підпишіться на цей календар за цим посиланням"
 
-#: events.php:15
+#: events.php:29
 msgid "ICS link"
 msgstr "ICS посилання"
 
@@ -956,7 +956,7 @@ msgstr ""
 msgid "Silver sponsors"
 msgstr "Срібні спонсори"
 
-#: sponsor.php:267
+#: sponsor.php:273
 msgid "Bronze sponsors"
 msgstr "Бронзові спонсори"
 

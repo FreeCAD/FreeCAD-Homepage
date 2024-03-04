@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-21 12:32+0100\n"
-"PO-Revision-Date: 2024-02-09 14:43\n"
+"POT-Creation-Date: 2024-03-04 11:36+0100\n"
+"PO-Revision-Date: 2024-03-04 10:40\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -149,108 +149,108 @@ msgstr "Τα Windows 7 είναι η ελάχιστη υποστηριζόμεν
 msgid "https://wiki.freecad.org/Install_on_Windows"
 msgstr ""
 
-#: downloads.php:47 downloads.php:69 downloads.php:91
+#: downloads.php:47 downloads.php:68 downloads.php:90
 msgid "wiki"
 msgstr "wiki"
 
-#: downloads.php:68
+#: downloads.php:67
 msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
 msgstr "Τα Windows 10.12 είναι η ελάχιστη υποστηριζόμενη έκδοση. Για περισσότερες πληροφορίες σχετικά με την εγκατάσταση, παρακαλώ ελέγξτε το "
 
-#: downloads.php:69
+#: downloads.php:68
 msgid "https://wiki.freecad.org/Install_on_Mac"
 msgstr ""
 
-#: downloads.php:70
-msgid "Versions of Mac OS before Mac OS 13 should use the \"unsigned\" version of the disk image."
+#: downloads.php:88
+msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
+msgstr ""
+
+#: downloads.php:89
+msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
 msgstr ""
 
 #: downloads.php:90
-msgid "For distro-specific instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr "Για ειδικές οδηγίες, όπως Ubuntu PPA, και άλλους τρόπους για να εγκαταστήσετε στο Linux, παρακαλούμε ελέγξτε το "
-
-#: downloads.php:91
 msgid "https://wiki.freecad.org/Install_on_Unix"
 msgstr ""
 
-#: downloads.php:100
+#: downloads.php:99
 msgid "See what has changed since last version in the"
 msgstr "Δείτε τι έχει αλλάξει από την τελευταία έκδοση στην"
 
-#: downloads.php:101 index.php:23
+#: downloads.php:100 index.php:23
 msgid "https://wiki.freecad.org/Release_notes_0.21"
 msgstr "https://wiki.freecad.org/Σημειώσεις_έκδοσης 0.21"
 
-#: downloads.php:101
+#: downloads.php:100
 msgid "FreeCAD 0.21 release notes"
 msgstr "Σημειώσεις έκδοσης του FreeCAD 0.21"
 
-#: downloads.php:110
+#: downloads.php:109
 msgid "Development versions"
 msgstr "Αναπτυσσόμενη έκδοση"
 
-#: downloads.php:112
+#: downloads.php:111
 msgid "FreeCAD's development happens daily!"
 msgstr "Η ανάπτυξη του FreeCAD γίνεται καθημερινά!"
 
-#: downloads.php:113
+#: downloads.php:112
 msgid "We generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
 msgstr "Δημιουργούμε εκδόσεις που βασίζονται σε <i>bleeding edge</i> κώδικα FreeCAD, προκειμένου οι χρήστες να δοκιμάσουν διορθώσεις σφαλμάτων/αναδρομές μαζί με νέες δυνατότητες."
 
-#: downloads.php:114
+#: downloads.php:113
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
 msgstr "Ζητούμε από προχωρημένους χρήστες να τρέχουν περιστασιακά τις κατασκευές ανάπτυξης για να βοηθήσουν με τη δοκιμή του νέου κώδικα."
 
-#: downloads.php:115
+#: downloads.php:114
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
 msgstr "Αυτές οι εκδόσεις δεν είναι κατάλληλες για παραγωγική χρήση και θα πρέπει να δίνεται προσοχή κατά τη χρήση τους (δημιουργήστε αντίγραφα ασφαλείας των αρχείων σας τακτικά, κ.λπ.)."
 
-#: downloads.php:116
+#: downloads.php:115
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
 msgstr "Οι εκδόσεις ανάπτυξης ίσως να είναι πιο αργές, να καταναλώνουν περισσότερη μνήμη και να είναι λιγότερο σταθερές από τις επίσημες εκδόσεις κυκλοφορίας."
 
-#: downloads.php:117
+#: downloads.php:116
 msgid "The following dev builds are available for different platforms/distributions:"
 msgstr "Οι ακόλουθες εκδόσεις προγραμματισμού είναι διαθέσιμες για διαφορετικές πλατφόρμες/διανομές:"
 
-#: downloads.php:123
+#: downloads.php:122
 msgid "https://wiki.freecad.org/Snap"
 msgstr ""
 
-#: downloads.php:124
+#: downloads.php:123
 msgid "https://wiki.freecad.org/Flatpak"
 msgstr ""
 
-#: downloads.php:134
+#: downloads.php:133
 msgid "Additional modules and macros"
 msgstr "Πρόσθετες ενότητες και μακροεντολές"
 
-#: downloads.php:136
+#: downloads.php:135
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr "Η κοινότητα του FreeCAD παρέχει μια πληθώρα πρόσθετων μονάδων και μακροεντολών. Μπορούν εύκολα να εγκατασταθούν απευθείας από το FreeCAD χρησιμοποιώντας το "
 
-#: downloads.php:138
+#: downloads.php:137
 msgid "https://wiki.freecad.org/Std_AddonMgr"
 msgstr ""
 
-#: downloads.php:138
+#: downloads.php:137
 msgid "Addon manager."
 msgstr "Διαχειριστής προσθέτων."
 
-#: downloads.php:148
+#: downloads.php:147
 msgid "Source code"
 msgstr "Πηγαίος κώδικας"
 
-#: downloads.php:150
+#: downloads.php:149
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr "Ο πηγαίος κώδικας του FreeCAD φιλοξενείται κυρίως στο "
 
-#: downloads.php:152
+#: downloads.php:151
 msgid "and mirrored on "
 msgstr "και αντικατοπτρίζεται"
 
-#: downloads.php:155
+#: downloads.php:154
 msgid "and "
 msgstr "και "
 
@@ -262,11 +262,11 @@ msgstr ""
 msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
 msgstr ""
 
-#: events.php:15
+#: events.php:29
 msgid "Subscribe to this calendar using this"
 msgstr ""
 
-#: events.php:15
+#: events.php:29
 msgid "ICS link"
 msgstr ""
 
@@ -941,7 +941,7 @@ msgstr "Χορηγοί από τα πρώτα βήματα"
 msgid "Silver sponsors"
 msgstr "Αργυροί Χορηγοί"
 
-#: sponsor.php:267
+#: sponsor.php:273
 msgid "Bronze sponsors"
 msgstr "Χάλκινοι χορηγοί"
 
