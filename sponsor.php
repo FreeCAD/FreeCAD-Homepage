@@ -161,6 +161,12 @@
           </div>
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
+                <div class="silver sponsor">
+                    <img class="logo" src="images/sponsors/librespace.png">
+                    <a class="title" href="https://libre.space">Libre Space Foundation</a>
+                     is the non-profit foundation for open source hardware and software in space
+                </div>
+
                 <div class="gold sponsor">
                     <img class="logo" src="images/sponsors/oaktree.png">
                     <a class="title" href="https://www.oaktreellc.com/">Oaktree engineering</a>
@@ -235,12 +241,6 @@
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
                 <div class="silver sponsor">
-                    <img class="logo" src="images/sponsors/librespace.png">
-                    <a class="title" href="https://libre.space">Libre Space Foundation</a>
-                     is the non-profit foundation for open source hardware and software in space
-                </div>
-
-                <div class="silver sponsor">
                     <img class="logo" src="images/sponsors/chudovo.png">
                     <a class="title" href="https://chudovo.com">Chudovo</a>
                      is an international software development company with representative 
@@ -275,6 +275,7 @@
 
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
+              <div class="bronze sponsor">Damian Toczek</div>
               <div class="bronze sponsor">Flaviu Tamas</div>
               <div class="bronze sponsor">Lex Heles</div>
               <div class="bronze sponsor">Brian Smith</div>
@@ -282,6 +283,7 @@
               <div class="bronze sponsor">James Debono</div>
               <div class="bronze sponsor">Ian Rees</div>
               <div class="bronze sponsor">Ton Roosendaal</div>
+              <div class="bronze sponsor">Robert</div>
               <div class="bronze sponsor">Lukas Alberts</div>
               <div class="bronze sponsor">Marius Grunca</div>
               <div class="bronze sponsor">Markus Vogt</div>
