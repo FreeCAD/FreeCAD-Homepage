@@ -275,6 +275,7 @@
 
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
+              <div class="bronze sponsor">RobotMachines</div>
               <div class="bronze sponsor">Damian Toczek</div>
               <div class="bronze sponsor">Flaviu Tamas</div>
               <div class="bronze sponsor">Lex Heles</div>
