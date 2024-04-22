@@ -20,6 +20,27 @@
         if ( !str_starts_with($url, "https://github.com/FreeCAD/FreeCAD/releases") ) {
             $url = "#";
         }
+        if ( str_contains($url, "..") ) {
+            $url = "#";
+        }
+        if ( str_contains($url, "\"") ) {
+            $url = "#";
+        }
+        if ( str_contains($url, "(") ) {
+            $url = "#";
+        }
+        if ( str_contains($url, ";") ) {
+            $url = "#";
+        }
+        if ( !str_ends_with($url, ".7z") ) {
+            if ( !str_ends_with($url, ".exe") ) {
+                if ( !str_ends_with($url, ".dmg") ) {
+                    if ( !str_ends_with($url, ".AppImage") ) {
+                        $url = "#";
+                    }
+                }
+            }
+        }
     }
 ?>
 
