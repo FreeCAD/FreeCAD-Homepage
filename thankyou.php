@@ -32,15 +32,16 @@
         if ( strpos( $url, ";" ) !== false ) {
             $url = "#";
         }
-        if ( !str_ends_with($url, ".7z") ) {
-            if ( !str_ends_with($url, ".exe") ) {
-                if ( !str_ends_with($url, ".dmg") ) {
-                    if ( !str_ends_with($url, ".AppImage") ) {
-                        $url = "#";
-                    }
-                }
-            }
-        }
+        // for some reason this does not work on our version of php
+        //if ( !str_ends_with($url, ".7z") ) {
+        //    if ( !str_ends_with($url, ".exe") ) {
+        //        if ( !str_ends_with($url, ".dmg") ) {
+        //            if ( !str_ends_with($url, ".AppImage") ) {
+        //                $url = "#";
+        //            }
+        //        }
+        //    }
+        //}
     }
 ?>
 
