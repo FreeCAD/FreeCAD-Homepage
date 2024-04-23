@@ -20,16 +20,16 @@
         if ( !str_starts_with($url, "https://github.com/FreeCAD/FreeCAD/releases") ) {
             $url = "#";
         }
-        if ( str_contains($url, "..") ) {
+        if ( strpos( $url, ".." ) !== false ) {
             $url = "#";
         }
-        if ( str_contains($url, "\"") ) {
+        if ( strpos( $url, "\"" ) !== false ) {
             $url = "#";
         }
-        if ( str_contains($url, "(") ) {
+        if ( strpos( $url, "(" ) !== false ) {
             $url = "#";
         }
-        if ( str_contains($url, ";") ) {
+        if ( strpos( $url, ";" ) !== false ) {
             $url = "#";
         }
         if ( !str_ends_with($url, ".7z") ) {
