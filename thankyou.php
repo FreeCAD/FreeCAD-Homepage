@@ -32,6 +32,9 @@
         if ( strpos( $url, ";" ) !== false ) {
             $url = "#";
         }
+        if ( strpos( $url, "%" ) !== false ) {
+            $url = "#";
+        }
         // for some reason this does not work on our version of php
         //if ( !str_ends_with($url, ".7z") ) {
         //    if ( !str_ends_with($url, ".exe") ) {
