@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-04 11:36+0100\n"
-"PO-Revision-Date: 2024-03-04 10:42\n"
+"PO-Revision-Date: 2024-05-18 19:06\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -111,7 +111,7 @@ msgstr "OpenCollective діє як фінансовий хост для прое
 
 #: donation.php:74
 msgid "OpenCollective (501(c)3)"
-msgstr ""
+msgstr "OpenCollective (501(c)3)"
 
 #: donation.php:78
 msgid "SEPA Information"
@@ -136,7 +136,8 @@ msgstr "Надіслати"
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr ""
+msgstr "Більше інформації про різні способи та можливості пожертвування на сторінці \n"
+" <a href=https://wiki.freecad.org/donate>пожертви</a>."
 
 #: downloads.php:24
 msgid "Current stable version:"
@@ -168,11 +169,11 @@ msgstr "https://wiki.freecad.org/Installing_on_Mac/uk"
 
 #: downloads.php:88
 msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
-msgstr ""
+msgstr "У деяких дистрибутивах вам може знадобитися встановити пакет fuse, щоб мати змогу запускати пакунки AppImage."
 
 #: downloads.php:89
 msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr ""
+msgstr "Для інших інструкцій зі встановлення для конкретних дистрибутивів, таких як Ubuntu PPA, та інших способів встановлення у Linux, будь ласка, зверніться до "
 
 #: downloads.php:90
 msgid "https://wiki.freecad.org/Install_on_Unix"
@@ -180,15 +181,15 @@ msgstr "https://wiki.freecad.org/Installing_on_Linux/uk"
 
 #: downloads.php:99
 msgid "See what has changed since last version in the"
-msgstr ""
+msgstr "Подивіться, що змінилося з часу останньої версії в"
 
 #: downloads.php:100 index.php:23
 msgid "https://wiki.freecad.org/Release_notes_0.21"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21"
 
 #: downloads.php:100
 msgid "FreeCAD 0.21 release notes"
-msgstr ""
+msgstr "Примітки до випуску FreeCAD 0.21"
 
 #: downloads.php:109
 msgid "Development versions"
@@ -200,19 +201,19 @@ msgstr "Розробка FreeCAD відбувається щодня!"
 
 #: downloads.php:112
 msgid "We generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
-msgstr ""
+msgstr "Ми створюємо збірки, які ґрунтуються на <i>кровотечі</i> коду FreeCAD, щоб користувачі могли тестувати помилки/регресії разом з новими можливостями."
 
 #: downloads.php:113
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
-msgstr ""
+msgstr "Ми просимо досвідчених користувачів час від часу запускати розробницькі збірки, щоб допомогти у тестуванні нового коду."
 
 #: downloads.php:114
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
-msgstr ""
+msgstr "Ці збірки не підходять для виробничого використання, і при їх використанні слід дотримуватися обережності (регулярно створювати резервні копії файлів і т. д.)."
 
 #: downloads.php:115
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
-msgstr ""
+msgstr "Слід очікувати, що розробницькі збірки працюватимуть повільніше, споживатимуть більше пам'яті і будуть менш стабільними, ніж офіційні версії."
 
 #: downloads.php:116
 msgid "The following dev builds are available for different platforms/distributions:"
@@ -233,7 +234,7 @@ msgstr "Додаткові модулі та макроси"
 #: downloads.php:135
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
-msgstr ""
+msgstr "Спільнота розробників FreeCAD надає безліч додаткових модулів та макросів. Тепер їх можна легко інсталювати безпосередньо з FreeCAD за допомогою кнопки "
 
 #: downloads.php:137
 msgid "https://wiki.freecad.org/Std_AddonMgr"
@@ -288,7 +289,10 @@ msgid "FreeCAD is made primarily to design objects for the real world. Everythin
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr ""
+msgstr "FreeCAD створено в першу чергу для проєктування об'єктів реального світу. Все, що ви робите у FreeCAD, використовує одиниці \n"
+"реального світу мікрони, кілометри, дюйми або фути, або навіть будь-яку їх комбінацію.FreeCAD пропонує <a href=https://wiki.freecad.org/Workbenches>інструменти</a> для створення, експорту та\n"
+" редагування твердотільних, високоточних моделей, експорту їх для 3D-друку або обробки з ЧПК, створення 2D-креслень і виглядів ваших моделей,\n"
+" виконання аналізів, таких як аналіз методом скінченних елементів, або експорту даних моделі, таких як кількість або специфікації матеріалів."
 
 #: features.php:40
 msgid "A powerful solid-based geometry kernel"
