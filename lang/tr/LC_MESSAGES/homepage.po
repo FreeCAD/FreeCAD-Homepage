@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-04 11:36+0100\n"
-"PO-Revision-Date: 2024-03-04 10:42\n"
+"PO-Revision-Date: 2024-05-18 19:06\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -27,7 +27,7 @@ msgstr "Yenilikleri görün"
 
 #: codeofconduct.php:19 contributing.php:19
 msgid "This page is retrieved from"
-msgstr ""
+msgstr "Bu sayfa şu adresten alınmıştır"
 
 #: contributor.php:11
 msgid "Thank you for your contribution!"
@@ -37,7 +37,9 @@ msgstr "Katkınız için teşekkür ederiz!"
 msgid "Thank you for supporting FreeCAD!\n"
 "            Whether you donated a little or a lot, all efforts contribute to\n"
 "            make FreeCAD development go further and faster."
-msgstr ""
+msgstr "FreeCAD'i desteklediğiniz için teşekkürler!\n"
+" İster az ister çok bağış yapın, tüm bağışlar \n"
+" FreeCAD'in daha ileri ve daha hızlı gelişmesine katkı sağlar."
 
 #: contributor.php:20
 msgid "If you have made a recurring donation above 25 USD/EUR\n"
@@ -46,7 +48,12 @@ msgid "If you have made a recurring donation above 25 USD/EUR\n"
 "            your name, company name or logo displayed on the FreeCAD website,\n"
 "            depending on the tier you fit in. If you have not yet informed us of\n"
 "            the name you wish to see displayed, please reach to us at"
-msgstr ""
+msgstr "Aylık düzenli olarak 25 USD/EUR'nun üzerinde bağışta bulunduysanız\n"
+" (veya 300 USD/EUR'nun üzerinde tek seferlik bir bağışta bulunduysanız),\n"
+" bronz, gümüş veya altın sponsor olmaya hak kazanırsınız ve \n"
+" FreeCAD web sitesinde görüntülenen ad, şirket adı veya logo, \n"
+" bulunduğunuz seviyeye bağlıdır. Görüntülenmesini istediğiniz \n"
+" ad veya logo hakkında bize henüz bir bilgi vermediyseniz, lütfen şu adresten bize ulaşın"
 
 #: contributor.php:29
 msgid "Thanks!"
@@ -94,11 +101,11 @@ msgstr "Paypal"
 
 #: donation.php:73
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
-msgstr ""
+msgstr "Github, github hesabınızı ve bir kredi kartınızı kullanarak en sevdiğiniz projelere sponsor olmanızı sağlar"
 
 #: donation.php:73
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: donation.php:74
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
@@ -136,7 +143,7 @@ msgstr "Farklı bağış yöntemleri ve seçenekleri hakkında daha fazla bilgiy
 
 #: downloads.php:24
 msgid "Current stable version:"
-msgstr ""
+msgstr "Geçerli kararlı sürüm:"
 
 #: downloads.php:25
 msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
@@ -148,7 +155,7 @@ msgstr "Desteklenen en düşük işletim sistemi Windows 7'dir. Daha fazla bilgi
 
 #: downloads.php:47
 msgid "https://wiki.freecad.org/Install_on_Windows"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Windows/tr"
 
 #: downloads.php:47 downloads.php:68 downloads.php:90
 msgid "wiki"
@@ -160,7 +167,7 @@ msgstr "Desteklenen en düşük işletim sistemi Mac OS X 10.12 Sierra'dır. Dah
 
 #: downloads.php:68
 msgid "https://wiki.freecad.org/Install_on_Mac"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Mac/tr"
 
 #: downloads.php:88
 msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
@@ -168,11 +175,11 @@ msgstr ""
 
 #: downloads.php:89
 msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr ""
+msgstr "Dağıtımlara özel talimatlar, Ubuntu PPA gibi, ve Linux'a özgü diğer kurulum yöntemleri için lütfen şuraya bakın "
 
 #: downloads.php:90
 msgid "https://wiki.freecad.org/Install_on_Unix"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Linux/tr"
 
 #: downloads.php:99
 msgid "See what has changed since last version in the"
@@ -216,11 +223,11 @@ msgstr "Farklı platformlar/dağıtımlar için aşağıdaki geliştirme sayfala
 
 #: downloads.php:122
 msgid "https://wiki.freecad.org/Snap"
-msgstr ""
+msgstr "https://wiki.freecad.org/Snap"
 
 #: downloads.php:123
 msgid "https://wiki.freecad.org/Flatpak"
-msgstr ""
+msgstr "https://wiki.freecad.org/Flatpak"
 
 #: downloads.php:133
 msgid "Additional modules and macros"
@@ -233,7 +240,7 @@ msgstr "FreeCAD topluluğu çok sayıda ek modül ve makro sağlar. Artık FreeC
 
 #: downloads.php:137
 msgid "https://wiki.freecad.org/Std_AddonMgr"
-msgstr ""
+msgstr "https://wiki.freecad.org/Std_AddonMgr/tr"
 
 #: downloads.php:137
 msgid "Addon manager."
@@ -257,15 +264,15 @@ msgstr "ve "
 
 #: events.php:9
 msgid "FreeCAD events"
-msgstr ""
+msgstr "FreeCAD etkinlikleri"
 
 #: events.php:11
 msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
-msgstr ""
+msgstr "Aşağıdaki takvim FreeCAD toplantılarının ve diğer topluluk etkinliklerinin tarihlerini gösterir."
 
 #: events.php:29
 msgid "Subscribe to this calendar using this"
-msgstr ""
+msgstr "Takvime Abone ol"
 
 #: events.php:29
 msgid "ICS link"
@@ -400,7 +407,7 @@ msgstr ""
 
 #: features.php:173
 msgid "https://wiki.freecad.org/Feature_list"
-msgstr ""
+msgstr "https://wiki.freecad.org/Feature_list/tr"
 
 #: features.php:174 index.php:113
 msgid "Learn more"
@@ -699,7 +706,7 @@ msgstr ""
 
 #: header.php:115
 msgid "Translations"
-msgstr ""
+msgstr "Çeviriler"
 
 #: header.php:120
 msgid "Community"
@@ -722,7 +729,10 @@ msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
 "          and changing its parameters."
-msgstr ""
+msgstr "FreeCAD, öncelikle herhangi bir boyuttaki gerçek hayattaki\n"
+"         nesneleri tasarlamak için oluşturulmuş açık kaynaklı bir parametrik 3D modelleyicidir. Parametrik modelleme, modelinizin\n"
+"         geçmişine geri dönerek ve parametrelerini değiştirerek \n"
+"         kolayca değiştirmenizi sağlar."
 
 #: index.php:54
 msgid "Create 3D from 2D & back"

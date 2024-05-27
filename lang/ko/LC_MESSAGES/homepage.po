@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-04 11:36+0100\n"
-"PO-Revision-Date: 2024-03-04 10:41\n"
+"PO-Revision-Date: 2024-05-18 19:05\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -349,7 +349,12 @@ msgid "While the FreeCAD core functionality is coded in C++ for robustness and p
 "                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line\n"
 "                  commands in the integrated Python console to recording macros, coding your own tools up to\n"
 "                  full custom workbenches."
-msgstr ""
+msgstr "FreeCAD의 핵심 기능은 안정성과 성능을 위해 C++로 코딩되어 있지만, 외부 계층, 워크벤치, 그리고\n"
+"              코어와 유저 인터페이스간의 통신과 같은 대부분은 <a href=https://python.org>Python</a>으로\n"
+"       코딩되어 있는데, 이는 유연하고, 사용자 친화적이며, 배우기 쉬운 프로그래밍 언어입니다.\n"
+".                       Python 코드를 이용하여 <a href=https://wiki.freecad.org/Power_users_hub>FreeCAD의 모든 것</a>을 수행할 수 있는데,\n"
+"  여기에는 통합 Python 콘솔에서의 간단한 한 줄 명령이나 매크로를 기록하는 간단한 것부터 자신의 툴을\n"
+"     코딩해 워크벤치를 완전히 사용자화하는 것까지가 모두 포함됩니다."
 
 #: features.php:101
 msgid "File formats frenzy"
@@ -538,7 +543,7 @@ msgstr ""
 
 #: features.php:251
 msgid "Official blog"
-msgstr ""
+msgstr "공식 블로그"
 
 #: features.php:252
 msgid "Twitter account"
@@ -584,7 +589,7 @@ msgstr "다운로드"
 
 #: header.php:84
 msgid "Blog"
-msgstr ""
+msgstr "블로그"
 
 #: header.php:88
 msgid "Documentation"

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-04 11:36+0100\n"
-"PO-Revision-Date: 2024-03-04 10:40\n"
+"PO-Revision-Date: 2024-05-18 19:05\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -71,7 +71,7 @@ msgstr "Merci de choisir"
 
 #: donation.php:70
 msgid "Direct SEPA bank transfer using your own bank apps"
-msgstr "Virement bancaire SEPA direct en utilisant l’application de votre propre banque"
+msgstr "Virement bancaire automatique SEPA à l'aide des applications de votre propre banque"
 
 #: donation.php:70
 msgid "SEPA bank transfer"
@@ -164,11 +164,11 @@ msgstr "https://wiki.freecad.org/Installing_on_Mac/fr"
 
 #: downloads.php:88
 msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
-msgstr ""
+msgstr "Pour certaines distributions, vous pourriez avoir besoin d'installer fuse pour pouvoir exécuter les paquets AppImage."
 
 #: downloads.php:89
 msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr ""
+msgstr "Pour des instructions spécifiques à une distribution telles que le PPA sous Ubuntu et d'autres façons d'installer sous Linux, consultez le "
 
 #: downloads.php:90
 msgid "https://wiki.freecad.org/Install_on_Unix"
@@ -200,11 +200,11 @@ msgstr "Nous générons des versions basées sur le code FreeCAD <i>le plus réc
 
 #: downloads.php:113
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
-msgstr "Nous demandons aux utilisateurs avancés d'exécuter de temps en temps les versions de développement pour aider à tester le nouveau code."
+msgstr "Nous demandons aux utilisateurs avancés d'utiliser de temps en temps les versions de développement pour aider à tester le nouveau code."
 
 #: downloads.php:114
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
-msgstr "Ces versions de compilation ne sont pas adaptées à une utilisation en production, et il convient d'être prudent lors de leur utilisation (sauvegardez vos fichiers régulièrement, etc.)."
+msgstr "Ces versions de compilation ne sont pas adaptées à une utilisation en production. Il convient d'être prudent lors de leur utilisation (sauvegardez vos fichiers régulièrement, etc.)."
 
 #: downloads.php:115
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
@@ -266,7 +266,7 @@ msgstr "Le calendrier ci-dessous indique les dates des prochaines réunions de F
 
 #: events.php:29
 msgid "Subscribe to this calendar using this"
-msgstr "S'abonner à ce calendrier en utilisant ce lien"
+msgstr "Abonnez-vous à ce calendrier en utilisant ce lien"
 
 #: events.php:29
 msgid "ICS link"
@@ -364,7 +364,7 @@ msgstr "FreeCAD vous permet d'importer et d'exporter des modèles et de nombreux
 
 #: features.php:139
 msgid "A parametric constraints-based 2D sketcher"
-msgstr "Un esquisseur 2D basé sur des contraintes paramétriques"
+msgstr "Un concepteur d'esquisses 2D basé sur des contraintes paramétriques"
 
 #: features.php:141
 msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
@@ -394,21 +394,7 @@ msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\"
 "              <a href=\"https://wiki.freecad.org/External_workbenches\">add-on workbenches</a> and\n"
 "              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> developed by the users\n"
 "              community."
-msgstr "FreeCAD propose des <a href=\"https://wiki.freecad.org/Workbenches\">ateliers</a> dédiés à différents usages\n"
-"             tel que\n"
-"              <a href=\"https://wiki.freecad.org/Part_Workbench\">la modelisation CSG</a>,\n"
-"              les simples ébauches <a href=\"https://wiki.freecad.org/Draft_Workbench\">CAO en 2D</a>,\n"
-"              <a href=\"https://wiki.freecad.org/Surface_Module\">les surfaces NURBS</a>,\n"
-"              <a href=\"https://wiki.freecad.org/Arch_Module\">l'architecture ou la modélisation BIM</a>,\n"
-"              <a href=\"https://wiki.freecad.org/Path_Workbench\">l'impression 3D, la FAO et la CNC</a>,\n"
-"              <a href=\"https://wiki.freecad.org/Points_Module\">les nuages de points</a>,\n"
-"              en travaillant avec <a href=\"https://wiki.freecad.org/OpenSCAD_Module\">des fichiers OpenSCAD</a>,\n"
-"              la conception <a href=\"https://wiki.freecad.org/Robot_Workbench\">de mouvements de robots industriels</a>,\n"
-"              réaliser des <a href=\"https://wiki.freecad.org/FEM_Module\">analyses par éléments finis</a>,\n"
-"              et bien plus encore. FreeCAD fournit également des outils faciles à installer pour exploiter\n"
-"              <a href=\"https://wiki.freecad.org/External_workbenches\">des ateliers externes</a> et\n"
-"              <a href=\"https://wiki.freecad.org/Macros_recipes\">des macros</a> developpées par la communauté\n"
-"              des utilisateurs."
+msgstr "FreeCAD propose des <a href=\"https://wiki.freecad.org/Workbenches\">ateliers</a> dédiés à différents usages tel que <a href=\"https://wiki.freecad.org/Part_Workbench\">la modelisation CSG</a>, les simples ébauches <a href=\"https://wiki.freecad.org/Draft_Workbench\">CAO en 2D</a>, <a href=\"https://wiki.freecad.org/Surface_Module\">les surfaces NURBS</a>, <a href=\"https://wiki.freecad.org/Arch_Module\">l'architecture ou la modélisation BIM</a>, <a href=\"https://wiki.freecad.org/Path_Workbench\">l'impression 3D, la FAO et la CNC</a>, <a href=\"https://wiki.freecad.org/Points_Module\">les nuages de points</a>, en travaillant avec <a href=\"https://wiki.freecad.org/OpenSCAD_Module\">des fichiers OpenSCAD</a>, la conception <a href=\"https://wiki.freecad.org/Robot_Workbench\">de mouvements de robots industriels</a>, réaliser des <a href=\"https://wiki.freecad.org/FEM_Module\">analyses par éléments finis</a> et bien plus encore. FreeCAD fournit également des outils faciles à installer pour exploiter <a href=\"https://wiki.freecad.org/External_workbenches\">des ateliers externes</a> et <a href=\"https://wiki.freecad.org/Macros_recipes\">des macros</a> developpées par la communauté des utilisateurs."
 
 #: features.php:173
 msgid "https://wiki.freecad.org/Feature_list"
@@ -562,7 +548,7 @@ msgstr "et"
 
 #: footer.php:37
 msgid "other sponsors"
-msgstr "autres sponsors"
+msgstr "autres parrains"
 
 #: footer.php:41
 msgid "Improve this\n"
