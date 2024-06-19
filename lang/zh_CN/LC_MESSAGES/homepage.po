@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-04 11:36+0100\n"
-"PO-Revision-Date: 2024-05-18 19:04\n"
+"PO-Revision-Date: 2024-06-19 12:53+0800\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -16,6 +16,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: homepage.po\n"
 "X-Crowdin-File-ID: 27908\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: 404.php:23
 msgid "Home"
@@ -167,11 +168,11 @@ msgstr "https://wiki.freecad.org/Install_on_Mac"
 
 #: downloads.php:88
 msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
-msgstr ""
+msgstr "在某些发行版中，你可能需要安装 fuse 才能运行 AppImage 捆绑软件。"
 
 #: downloads.php:89
 msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr ""
+msgstr "有关其他特定发行版的安装说明，如 Ubuntu PPA，以及在 Linux 上安装的其他方法，请查阅"
 
 #: downloads.php:90
 msgid "https://wiki.freecad.org/Install_on_Unix"
@@ -375,7 +376,25 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              and many more, in addition to FreeCAD&apos;s native\n"
 "              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
 "              file formats."
-msgstr ""
+msgstr "FreeCAD 允许您导入和导出模型以及来自模型的许多其他类型的数据，例如\n"
+"              分析结果或工程量数据等数十种不同的<a href=\"https://wiki.freecad.org/Category:File_Formats\">文件格式</a>，如\n"
+"             <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>、\n"
+"             <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>、\n"
+"             <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Wavefront_.obj_file\">OBJ</a>、\n"
+"             <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>、\n"
+"             <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>\n"
+"             <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>\n"
+"             <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>、\n"
+"             <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>、\n"
+"             <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>、\n"
+"             <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a>或\n"
+"             <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OFF_(file_format)\">关</a>、\n"
+"             <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>、\n"
+"             <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>、\n"
+"             <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
+"              等多种文件格式，以及 FreeCAD 本地的\n"
+"             <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a>文件格式。附加工作台还可以添加更多的\n"
+"              文件格式。"
 
 #: features.php:139
 msgid "A parametric constraints-based 2D sketcher"
@@ -387,7 +406,11 @@ msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sket
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
 "                  objects throughout FreeCAD, be it either with the\n"
 "                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
-msgstr ""
+msgstr "FreeCAD 具有最先进的<a href=https://wiki.freecad.org/Sketcher_Workbench>草图器</a>\n"
+"                  可让您绘制受几何约束的二维图形草图。草图是 FreeCAD 的主要\n"
+"                  用它创建的约束 2D 图形可作为基础，在整个 FreeCAD 中创建其他对象。\n"
+"                  对象。\n"
+"                  专用的<a href=https://wiki.freecad.org/PartDesign_Workbench>零件设计工作台</a>或任何其他工作台。"
 
 #: features.php:155
 msgid "A large (and growing) multi-specialty ecosystem"
@@ -409,7 +432,21 @@ msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\"
 "              <a href=\"https://wiki.freecad.org/External_workbenches\">add-on workbenches</a> and\n"
 "              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> developed by the users\n"
 "              community."
-msgstr ""
+msgstr "FreeCAD 为各种用途提供专用<a href=\"https://wiki.freecad.org/Workbenches\">工作台</a>，例如\n"
+"              例如\n"
+"             <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG 建模</a>、\n"
+"              简单的<a href=\"https://wiki.freecad.org/Draft_Workbench\">2D CAD</a> 制图、\n"
+"             <a href=\"https://wiki.freecad.org/Surface_Module\">NURBS 曲面</a>\n"
+"             <a href=\"https://wiki.freecad.org/Arch_Module\">建筑或 BIM 建模</a>、\n"
+"             <a href=\"https://wiki.freecad.org/Path_Workbench\">3D 打印、CAM 和 CNC</a>、\n"
+"             <a href=\"https://wiki.freecad.org/Points_Module\">点云</a>\n"
+"              使用<a href=\"https://wiki.freecad.org/OpenSCAD_Module\">OpenSCAD 文件</a>\n"
+"              设计<a href=\"https://wiki.freecad.org/Robot_Workbench\">工业机器人轨迹</a>\n"
+"              进行<a href=\"https://wiki.freecad.org/FEM_Module\">有限元分析</a>\n"
+"              等等。FreeCAD 还提供了简便的工具来安装和管理\n"
+"             <a href=\"https://wiki.freecad.org/External_workbenches\">附加工作台</a>和\n"
+"             <a href=\"https://wiki.freecad.org/Macros_recipes\">宏</a>。\n"
+"              社区。"
 
 #: features.php:173
 msgid "https://wiki.freecad.org/Feature_list"
@@ -442,11 +479,12 @@ msgstr "版本说明"
 #: features.php:217
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
-msgstr ""
+msgstr "在此查找当前和以前 FreeCAD 版本的发行说明。\n"
+"                  版本说明介绍了每个版本的新内容："
 
 #: features.php:224
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"0.21版本发布说明"
 
 #: features.php:224
 msgid "Release 0.21 - August 2023"
@@ -458,7 +496,7 @@ msgstr "当前正式版本"
 
 #: features.php:225
 msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.20\" title=\"版本说明 0.20"
 
 #: features.php:225
 msgid "Release 0.20 - June 2022"
@@ -466,7 +504,7 @@ msgstr "0.20 版本 - 2022年6月"
 
 #: features.php:226
 msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.19\" title=\"0.19版本发布说明"
 
 #: features.php:226
 msgid "Release 0.19 - March 2021"
@@ -474,7 +512,7 @@ msgstr "0.19 版 - 2021年3月"
 
 #: features.php:227
 msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"0.18版本发布说明"
 
 #: features.php:227
 msgid "Release 0.18 - March 2019"
@@ -482,7 +520,7 @@ msgstr "0.18 正式版 - 2019年3月"
 
 #: features.php:228
 msgid "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"0.17版本发布说明"
 
 #: features.php:228
 msgid "Release 0.17 - April 2018"
@@ -490,7 +528,7 @@ msgstr "0.17 版 - 2018年4月"
 
 #: features.php:229
 msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"0.16版本发布说明"
 
 #: features.php:229
 msgid "Release 0.16 - April 2016"
@@ -498,7 +536,7 @@ msgstr "0.16 正式版 - 2016年4月"
 
 #: features.php:230
 msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"0.15版本发布说明"
 
 #: features.php:230
 msgid "Release 0.15 - March 2015"
@@ -506,7 +544,7 @@ msgstr "0.15 版 - 2015年3月"
 
 #: features.php:231
 msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"0.14版本发布说明"
 
 #: features.php:231
 msgid "Release 0.14 - March 2014"
@@ -514,7 +552,7 @@ msgstr "0.14 正式版- - 2014年3月"
 
 #: features.php:232
 msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"0.13版本发布说明"
 
 #: features.php:232
 msgid "Release 0.13 - January 2013"
@@ -522,7 +560,7 @@ msgstr "0.13 正式版 - 2013年1月"
 
 #: features.php:233
 msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"0.12版本发布说明"
 
 #: features.php:233
 msgid "Release 0.12 - December 2011"
@@ -530,7 +568,7 @@ msgstr "0.12 版本发布 - 2011年12月"
 
 #: features.php:234
 msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"0.11版本发布说明"
 
 #: features.php:234
 msgid "Release 0.11 - March 2011"
@@ -555,7 +593,8 @@ msgstr "和我们联系！"
 #: footer.php:24
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
 "      r-frank, epileftric, regis, rider_mortagnais, bejant."
-msgstr ""
+msgstr "© FreeCAD 团队。主页图片来源（从上到下）：ppemawm、\n"
+"      r-frank、epileftric、regis、rider_mortagnais、bejant。"
 
 #: footer.php:28
 msgid "This project is supported by:"
@@ -572,7 +611,8 @@ msgstr "其他赞助商"
 #: footer.php:41
 msgid "Improve this\n"
 "      page on GitHub"
-msgstr ""
+msgstr "在GitHub上改进此\n"
+"      页面"
 
 #: header.php:27 header.php:40
 msgid "FreeCAD: Your own 3D parametric modeler"
@@ -739,7 +779,10 @@ msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
 "          and changing its parameters."
-msgstr ""
+msgstr "FreeCAD 是一款开源参数化 3D 建模器，主要用于\n"
+"          设计任何大小的真实物体。参数化建模允许您\n"
+"          回到模型历史中更改其参数，从而轻松修改设计。\n"
+"          并更改其参数。"
 
 #: index.php:54
 msgid "Create 3D from 2D & back"
@@ -750,7 +793,10 @@ msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
 "          create high quality production ready drawings."
-msgstr ""
+msgstr "FreeCAD 允许您绘制受几何约束的二维图形草图，并以它们为基础构建其他对象。\n"
+"          作为构建其他对象的基础。它包含许多组件\n"
+"          从三维模型中调整尺寸或提取设计细节，以\n"
+"          创建高质量的生产准备图纸。"
 
 #: index.php:70
 msgid "Accessible, flexible & integrated"
@@ -762,7 +808,11 @@ msgid "FreeCAD is a multiplatform (Windows, Mac and Linux), highly\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
 "          and many others, making it possible to seamlessly integrate it into\n"
 "          your workflow."
-msgstr ""
+msgstr "FreeCAD 是一款多平台（Windows、Mac 和 Linux）、高度定制和可扩展的软件。\n"
+"          高度可定制和可扩展的软件。它可读写多种\n"
+"          文件格式，如 STEP、IGES、STL、SVG、DXF、OBJ、IFC、DAE 等。\n"
+"          等多种开放文件格式，因此可以将其无缝集成到\n"
+"          工作流程。"
 
 #: index.php:87
 msgid "Designed for your needs"
@@ -773,7 +823,10 @@ msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
 "          teacher, you will feel right at home with FreeCAD."
-msgstr ""
+msgstr "FreeCAD 用途广泛，包括产品设计、机械工程和建筑设计。\n"
+"          设计、机械工程和建筑。无论您是\n"
+"          业余爱好者、程序员、经验丰富的 CAD 用户、学生或\n"
+"          教师，您都能在 FreeCAD 中找到家的感觉。"
 
 #: index.php:103
 msgid "And many more great features"
@@ -786,7 +839,12 @@ msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          allows you to study robot movements and many more features. FreeCAD\n"
 "          really is a Swiss Army knife of general-purpose engineering\n"
 "          toolkits."
-msgstr ""
+msgstr "FreeCAD 为您提供了满足您需求的所有合适工具。您将获得\n"
+"          现代有限元分析 (FEA) 工具、试验性 CFD、专用 BIM、Geodata 或 CAM/CNC 工作台、可用于机器人仿真的模块、\n"
+"          Geodata 或 CAM/CNC 工作台、可让您研究机器人运动的机器人仿真模块以及更多功能。\n"
+"          机器人模拟模块，让您可以研究机器人的运动以及更多功能。FreeCAD\n"
+"          确实是通用工程工具包中的瑞士军刀。\n"
+"          工具包。"
 
 #: index.php:124
 msgid "Want to contribute to FreeCAD?"
@@ -797,7 +855,10 @@ msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
 "          whole community."
-msgstr ""
+msgstr "FreeCAD 是一个真正的开源项目，如果您想帮助\n"
+"          修复错误、实现新的炫酷功能或编写文档、\n"
+"          我们邀请您加入我们的行列，共同创建一个惠及\n"
+"          整个社区的软件。"
 
 #: index.php:132
 msgid "Get involved"
@@ -824,7 +885,12 @@ msgid "FreeCAD is a fast-growing project, developed by a\n"
 "              parametric modeller. The development of FreeCAD happens mostly\n"
 "              because of the energy of all these people, without the need for\n"
 "              money."
-msgstr ""
+msgstr "FreeCAD 是一个快速发展的项目，由一个\n"
+"              开发者和用户社区开发的。\n"
+"              开发的，他们的主要动机是建立一个优秀的免费 3D\n"
+"              参数化建模工具。FreeCAD 的开发\n"
+"              的开发主要依靠这些人的力量，而不需要\n"
+"              资金。"
 
 #: sponsor.php:33
 msgid "However, money can help the project to achieve many\n"
@@ -835,7 +901,14 @@ msgid "However, money can help the project to achieve many\n"
 "              showcase FreeCAD and interest professional users. It can also help\n"
 "              to organize events ourselves so community members can meet, pay for\n"
 "              server space and web services, and many other things."
-msgstr ""
+msgstr "但是，资金可以帮助项目实现许多\n"
+"              其他目标。它可以帮助一些开发人员更频繁或\n"
+"              或更有规律地为项目工作。\n"
+"              时间，这样他们就可以将更多的时间投入到 FreeCAD 中，或者可以帮助\n"
+"              社区派人参加与 CAD 相关的活动，这样我们就可以\n"
+"              展示 FreeCAD 并引起专业用户的兴趣。它还可以帮助\n"
+"              自己组织活动，让社区成员见面，支付服务器空间和网络服务费用，以及许多其他费用。\n"
+"              服务器空间和网络服务，以及其他许多事情。"
 
 #: sponsor.php:43
 msgid "There are several ways you can donate money and help\n"
@@ -847,7 +920,14 @@ msgid "There are several ways you can donate money and help\n"
 "              and core developers. The FPA will redistribute the money it gathers\n"
 "              to FreeCAD developers and sponsor itself several projects, efforts\n"
 "              and ideas to fuel the development of FreeCAD."
-msgstr ""
+msgstr "您可以选择以下几种方式向FreeCAD项目捐赠资金并提供帮助，\n"
+"              无论是作为个人、公司还是机构，\n"
+"              根据您的偏好进行选择。您对FreeCAD项目的捐款将通过\n"
+"              <a href=https://fpa.freecad.org>FreeCAD项目协会</a>\n"
+"              （ FPA）接收和处理，这是一个由FreeCAD的管理员和核心开发人员组成的非营利性协会。\n"
+"              FPA将重新分配筹集到的资金，\n"
+"              以支持FreeCAD开发人员，并资助其各项活动、努力和创想，\n"
+"              以推动FreeCAD的发展。"
 
 #: sponsor.php:54
 msgid "Remember, however: FreeCAD is free, and will always\n"
@@ -855,7 +935,11 @@ msgid "Remember, however: FreeCAD is free, and will always\n"
 "              in order to use FreeCAD, neither to modify or distribute it. Your\n"
 "              donation will be welcome, and can help a lot, but you will never\n"
 "              be required to pay anything to access any of the FreeCAD features."
-msgstr ""
+msgstr "但请记住 FreeCAD 是免费的，并将永远\n"
+"              免费。您不需要，也永远不会需要捐赠任何东西\n"
+"              以使用 FreeCAD，也无需修改或分发 FreeCAD。您的\n"
+"              您的捐赠将受到欢迎，并能提供很大帮助，但您永远不会\n"
+"              需要支付任何费用才能使用 FreeCAD 的任何功能。"
 
 #: sponsor.php:69
 msgid "One-time donation"
@@ -877,21 +961,27 @@ msgstr "请自由选择您一次性捐赠的\n"
 
 #: sponsor.php:94
 msgid "Sponsoring"
-msgstr ""
+msgstr "赞助"
 
 #: sponsor.php:99
 msgid "We call sponsoring the act of donating money\n"
 "              recurrently to the FreeCAD project. You can do that as an\n"
 "              individual or as a company or institution, through different\n"
 "              channels or platforms, depending on your preferences."
-msgstr ""
+msgstr "我们将经常向 FreeCAD 项目捐款的行为称为赞助。\n"
+"              经常性地向 FreeCAD 项目捐款。您可以\n"
+"              您可以以个人或公司或机构的名义，通过不同的\n"
+"              渠道或平台，这取决于您的偏好。"
 
 #: sponsor.php:105
 msgid "Sponsoring FreeCAD allows its developers to count on\n"
 "              a steady flow of income, so it allows the FPA to plan things ahead,\n"
 "              and the FreeCAD developers to invest themselves more seriously\n"
 "              into FreeCAD."
-msgstr ""
+msgstr "赞助 FreeCAD 可以使其开发人员获得\n"
+"              有稳定的收入来源，因此 FPA 可以未雨绸缪、\n"
+"              和 FreeCAD 开发人员更认真地投入到 FreeCAD 中。\n"
+"              投入到 FreeCAD 中。"
 
 #: sponsor.php:111
 msgid "To encourage persons and companies to sponsor the\n"
@@ -899,11 +989,15 @@ msgid "To encourage persons and companies to sponsor the\n"
 "              donating regularly to the project, unless you prefer to stay\n"
 "              anonymous, your name, company name and/or logo will be featured\n"
 "              on this website, depending on the tier you fit into:"
-msgstr ""
+msgstr "为鼓励个人和公司赞助\n"
+"              我们设立了不同的赞助级别。当\n"
+"              定期捐款时，除非您不愿意透露姓名\n"
+"              匿名，您的姓名、公司名称和/或徽标将出现在本网站上。\n"
+"              会出现在本网站上，具体取决于您所属的级别："
 
 #: sponsor.php:118
 msgid "Normal sponsor"
-msgstr ""
+msgstr "普通赞助者"
 
 #: sponsor.php:119
 msgid "from 1 USD / 1 EUR per month. You will not have your\n"
@@ -933,7 +1027,9 @@ msgstr "银牌赞助者"
 msgid "from 100 USD / 100 EUR per month. Your name or\n"
 "                company name is displayed on this page, with a link to\n"
 "                your website, and a one-line description text."
-msgstr ""
+msgstr "每月 100 美元/100 欧元起。您的姓名或\n"
+"                您的姓名或公司名称将显示在该页面上，并附带您网站的链接\n"
+"                您的网站链接，以及一行说明文字。"
 
 #: sponsor.php:130
 msgid "Gold sponsor"
@@ -945,41 +1041,51 @@ msgid "from 200 USD / 200 EUR per month. Your name\n"
 "                with a link to your website and a custom description text.\n"
 "                Companies that have helped FreeCAD early on also appear\n"
 "                under Gold sponsors."
-msgstr ""
+msgstr "每月 200 美元 / 200 欧元起。您的姓名\n"
+"                或公司名称和徽标、\n"
+"                您的网站链接和自定义描述文字。\n"
+"                早期帮助 FreeCAD 的公司也会出现在\n"
+"                金牌赞助商。"
 
 #: sponsor.php:138
 msgid "Instead of donating each month, you might find it\n"
 "              more comfortable to make a one-time donation that, when divided by\n"
 "              twelve, would give you right to enter a sponsoring tier. Don't\n"
 "              hesitate to do so!"
-msgstr ""
+msgstr "如果您觉得每月捐赠不太方便，您可能会发现\n"
+"              一次性捐赠更为舒适，将这笔捐赠除以\n"
+"              十二后，您将有资格进入赞助层级。\n"
+"              请不要犹豫，大胆去做吧！"
 
 #: sponsor.php:144
 msgid "Choose freely the amount you wish to donate each\n"
 "              month:"
-msgstr ""
+msgstr "自由选择您希望每月捐赠的金额\n"
+"              每个月"
 
 #: sponsor.php:149
 msgid "Please inform your forum name or twitter handle as a note\n"
 "              in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>,\n"
 "              so we can give you proper credits!"
-msgstr ""
+msgstr "当您进行转账时，请在备注中告知您的论坛名称或Twitter句柄，\n"
+"              或者通过<a href=mailto:fpa@freecad.org>发送邮件给我们</a>，\n"
+"              以便我们可以为您正确地提供感谢和认可！"
 
 #: sponsor.php:160
 msgid "Gold sponsors"
-msgstr ""
+msgstr "金牌赞助者"
 
 #: sponsor.php:191
 msgid "Early sponsors"
-msgstr ""
+msgstr "早期赞助者"
 
 #: sponsor.php:233
 msgid "Silver sponsors"
-msgstr ""
+msgstr "银牌赞助者"
 
 #: sponsor.php:273
 msgid "Bronze sponsors"
-msgstr ""
+msgstr "铜牌赞助者"
 
 #: thankyou.php:35
 msgid "Thank you!"
@@ -988,15 +1094,16 @@ msgstr "谢谢你！"
 #: thankyou.php:38
 msgid "Your download should start automatically.\n"
 "            If not, click"
-msgstr ""
+msgstr "下载应该会自动开始。\n"
+"            如果没有，请点击"
 
 #: thankyou.php:39
 msgid "here"
-msgstr ""
+msgstr "这里"
 
 #: thankyou.php:40
 msgid "to download the file."
-msgstr ""
+msgstr "下载文件。"
 
 #: thankyou.php:49
 msgid "Support FreeCAD!"
@@ -1008,14 +1115,21 @@ msgid "If you are happy with FreeCAD, and would like to help\n"
 "            open-source, paying to use FreeCAD will never be required, and\n"
 "            FreeCAD does not need money to survive, but donations help us to go\n"
 "            further, faster."
-msgstr ""
+msgstr "如果您对 FreeCAD 感到满意，并希望帮助它\n"
+"            茁壮成长，何不为该项目捐点钱？作为\n"
+"            作为一个开源项目，使用 FreeCAD 永远不需要付费，而且\n"
+"            FreeCAD 不需要资金来维持生存，但捐赠可以帮助我们\n"
+"            走得更远，更快。"
 
 #: thankyou.php:63
 msgid "If you are in, choose the amount and method of your\n"
 "            choice below. If you are interested in supporting the project better\n"
 "            with a recurring donation, check the <a href=sponsor.php>sponsoring\n"
 "            page</a> to see more options."
-msgstr ""
+msgstr "如果您决定参与，可在下方选择您喜欢的捐款金额和方式。\n"
+"             如果您希望通过定期捐赠更好地支持项目，\n"
+"            请查看<sponsor.php>赞助页面</a>\n"
+"            以了解更多信息。"
 
 #: thankyou.php:72
 msgid "There are also many other ways to help FreeCAD. For\n"
@@ -1024,11 +1138,16 @@ msgid "There are also many other ways to help FreeCAD. For\n"
 "            all you need to know on the\n"
 "            <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a>\n"
 "            page."
-msgstr ""
+msgstr "FreeCAD 还有许多其他帮助方式。\n"
+"            例如，您可以编写代码，帮助撰写文档，翻译\n"
+"             FreeCAD 界面和文档，帮助新用户等。\n"
+"            您需要了解的所有内容请查看\n"
+"            <a href=https://wiki.freecad.org/Help_FreeCAD> FreeCAD 帮助</a> \n"
+"            页面。"
 
 #: thankyou.php:87
 msgid "Need help?"
-msgstr ""
+msgstr "需要帮助？"
 
 #: thankyou.php:93
 msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
@@ -1038,12 +1157,19 @@ msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
 "            It covers everything from installing and launching FreeCAD, using it\n"
 "            and its different workbenches, up to creating Python scripts to\n"
 "            automate it and developing your own tools and extensions."
-msgstr ""
+msgstr "如果您是FreeCAD的新手，或者对3D CAD建模还不熟悉，\n"
+"            我们已经为您做好了准备！FreeCAD拥有丰富的\n"
+"            <a href=https://wiki.freecad.org>文档资源</a>，\n"
+"            这些资源不仅可以在网上找到，还可以直接在FreeCAD应用程序内找到。\n"
+"            它涵盖了从安装和启动FreeCAD，\n"
+"            使用它及其不同的工作台，到创建Python脚本以自动化操作，\n"
+"            以及开发您自己的工具和扩展的方方面面。"
 
 #: thankyou.php:103
 msgid "Below are some pages of this documentation that could\n"
 "            be useful to you:"
-msgstr ""
+msgstr "以下是此文档中可能对您有用的\n"
+"            一些页面："
 
 #: thankyou.php:108
 msgid "https://wiki.freecad.org/Installing_on_Windows"
@@ -1075,7 +1201,7 @@ msgstr "https://wiki.freecad.org/Installing_additional_components"
 
 #: thankyou.php:111
 msgid "Installing additional components"
-msgstr ""
+msgstr "安装其他组件"
 
 #: thankyou.php:112
 msgid "Getting started with FreeCAD"
@@ -1083,7 +1209,7 @@ msgstr "开始 FreeCAD"
 
 #: thankyou.php:113
 msgid "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
-msgstr ""
+msgstr "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
 
 #: thankyou.php:113
 msgid "Migrating from other software?"
@@ -1092,7 +1218,8 @@ msgstr "从其他软件迁移?"
 #: thankyou.php:119
 msgid "FreeCAD also offers a complete user manual, that can\n"
 "            be downloaded as a pdf or epub file or printed:"
-msgstr ""
+msgstr "FreeCAD 还提供完整的用户手册，可\n"
+"            pdf 或 epub 文件，也可将其打印出来："
 
 #: thankyou.php:124
 msgid "The FreeCAD user manual"
@@ -1101,14 +1228,18 @@ msgstr "FreeCAD 手册"
 #: thankyou.php:128
 msgid "and many tutorials, in written or video form, created by\n"
 "            the FreeCAD community:"
-msgstr ""
+msgstr "以及许多书面或视频形式的教程，由\n"
+"            FreeCAD 社区创建的书面或视频形式的教程："
 
 #: thankyou.php:137
 msgid "On behalf of all of the worldwide community of users,\n"
 "            developers, translators, editors, writers, testers who work hard to\n"
 "            make FreeCAD the best CAD modeller out there, we thank you for\n"
 "            downloading our baby! We hope you will like it as much as we do."
-msgstr ""
+msgstr "作为全球社区用户、开发者、翻译者、编辑、作家、\n"
+"            测试人员的代表，我们感谢您下载我们的产品\n"
+"            ——我们辛苦工作以使 FreeCAD 成为最好的 CAD 建模软件。\n"
+"            我们希望您会像我们一样喜欢它！"
 
 #: thankyou.php:144
 msgid "If you encounter issues with FreeCAD, or would like to\n"
