@@ -43,7 +43,7 @@ $localeMap = array(
     'zh' => 'zh_TW',
 );
 
-$lang = "en";
+$lang = "?lang=en";
 if (isSet($_GET["lang"])) $lang = $_GET["lang"];
 $locale = isset($localeMap[$lang]) ? $localeMap[$lang] : $lang;
 putenv("LC_ALL=$locale");
