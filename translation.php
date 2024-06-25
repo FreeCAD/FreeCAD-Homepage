@@ -53,7 +53,7 @@ textdomain("homepage");
 bind_textdomain_codeset("homepage", 'UTF-8');
 $flagcode = $lang;
 if (!file_exists('http://freecad.org/lang/'.$flagcode."/flag.jpg")) {
-    if (str_contains($flagcode, "_")) {
+    if (strpos($flagcode, '_') !== false) {
         $flagcode = explode("_", $flagcode)[0];
     }
  }
