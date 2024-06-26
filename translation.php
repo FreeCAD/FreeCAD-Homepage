@@ -58,8 +58,9 @@ if (!file_exists('http://freecad.org/lang/'.$flagcode."/flag.jpg")) {
     }
  }
 $langattrib = "";
+$langStr = "";
 if ($_GET["lang"] != "") {
-    $lang = "?lang=".$_GET["lang"];
+    $langStr = "?lang=".$_GET["lang"];
     $langattrib = "&lang=".$_GET["lang"];
 }
 

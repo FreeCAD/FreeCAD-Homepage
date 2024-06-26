@@ -1,9 +1,5 @@
 <?php
     include("translation.php");
-    $langStr = $lang;
-    if (strpos($langStr, "?lang=") === false) {
-        $langStr = "?lang=" . $langStr;
-    }
     $homeurl = "index.php".$langStr;
     $downloadurl = "downloads.php".$langStr;
     $featuresurl = "features.php".$langStr;
