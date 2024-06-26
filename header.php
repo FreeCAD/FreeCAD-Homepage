@@ -1,13 +1,17 @@
 <?php
     include("translation.php");
-    $homeurl = "index.php".$lang;
-    $downloadurl = "downloads.php".$lang;
-    $featuresurl = "features.php".$lang;
-    $eventsurl = "events.php".$lang;
-    $sponsorurl = "sponsor.php".$lang;
-    $codeofconducturl = "codeofconduct.php".$lang;
-    $contributingurl = "contributing.php".$lang;
-    $privacyurl = "privacy.php".$lang;
+    $langStr = $lang;
+    if (strpos($langStr, "?lang=") === false) {
+        $langStr = "?lang=" . $langStr;
+    }
+    $homeurl = "index.php".$langStr;
+    $downloadurl = "downloads.php".$langStr;
+    $featuresurl = "features.php".$langStr;
+    $eventsurl = "events.php".$langStr;
+    $sponsorurl = "sponsor.php".$langStr;
+    $codeofconducturl = "codeofconduct.php".$langStr;
+    $contributingurl = "contributing.php".$langStr;
+    $privacyurl = "privacy.php".$langStr;
 ?>
 
 <!DOCTYPE html>
