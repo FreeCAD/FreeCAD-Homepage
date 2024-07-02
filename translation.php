@@ -51,17 +51,6 @@ setlocale(LC_ALL, $locale);
 bindtextdomain("homepage", "lang");
 textdomain("homepage");
 bind_textdomain_codeset("homepage", 'UTF-8');
-$flagcode = $lang;
-if (!file_exists('http://freecad.org/lang/'.$flagcode."/flag.jpg")) {
-    if (strpos($flagcode, '_') !== false) {
-        $flagcode = explode("_", $flagcode)[0];
-    }
- }
-$langattrib = "";
-if ($_GET["lang"] != "") {
-    $lang = "?lang=".$_GET["lang"];
-    $langattrib = "&lang=".$_GET["lang"];
-}
 
 function getFlags($href='/') {
     echo('						<a class="dropdown-item" href="'.$href.'"><img src="lang/en/flag.jpg"/>'._('English').'</a>');

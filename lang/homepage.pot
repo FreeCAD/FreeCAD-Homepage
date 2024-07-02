@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-04 11:36+0100\n"
+"POT-Creation-Date: 2024-07-02 12:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "See what's new"
 msgstr ""
 
-#: codeofconduct.php:19 contributing.php:19
+#: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
 msgstr ""
 
@@ -664,96 +664,100 @@ msgid ""
 "      page on GitHub"
 msgstr ""
 
-#: header.php:27 header.php:40
+#: header.php:26 header.php:39
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr ""
 
-#: header.php:76
+#: header.php:75
 msgid "Features"
 msgstr ""
 
-#: header.php:80
+#: header.php:79
 msgid "Download"
 msgstr ""
 
-#: header.php:84
+#: header.php:83
 msgid "Blog"
 msgstr ""
 
-#: header.php:88
+#: header.php:87
 msgid "Documentation"
 msgstr ""
 
-#: header.php:91
+#: header.php:90
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr ""
 
-#: header.php:91
+#: header.php:90
 msgid "Documentation index"
 msgstr ""
 
-#: header.php:92 thankyou.php:112
+#: header.php:91 thankyou.php:137
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr ""
 
-#: header.php:92
+#: header.php:91
 msgid "Getting started"
 msgstr ""
 
-#: header.php:93
+#: header.php:92
 msgid "https://wiki.freecad.org/User_hub"
 msgstr ""
 
-#: header.php:93
+#: header.php:92
 msgid "Users documentation"
 msgstr ""
 
-#: header.php:94 thankyou.php:124
+#: header.php:93 thankyou.php:149
 msgid "https://wiki.freecad.org/Manual"
 msgstr ""
 
-#: header.php:94
+#: header.php:93
 msgid "The FreeCAD manual"
 msgstr ""
 
-#: header.php:95 thankyou.php:114
+#: header.php:94 thankyou.php:139
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr ""
 
-#: header.php:95 thankyou.php:114
+#: header.php:94 thankyou.php:139
 msgid "Workbenches documentation"
 msgstr ""
 
-#: header.php:96
+#: header.php:95
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr ""
 
-#: header.php:96
+#: header.php:95
 msgid "Python coding documentation"
 msgstr ""
 
-#: header.php:97
+#: header.php:96
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr ""
 
-#: header.php:97
+#: header.php:96
 msgid "C++ coding documentation"
 msgstr ""
 
-#: header.php:98 thankyou.php:133
+#: header.php:97 thankyou.php:158
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr ""
 
-#: header.php:98 thankyou.php:133
+#: header.php:97 thankyou.php:158
 msgid "Tutorials"
 msgstr ""
 
-#: header.php:99 thankyou.php:115
+#: header.php:98 thankyou.php:140
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr ""
 
-#: header.php:99 thankyou.php:115
+#: header.php:98 thankyou.php:140
 msgid "Frequently asked questions"
+msgstr ""
+
+#: header.php:99
+msgid "Privacy policy"
 msgstr ""
 
 #: header.php:100
@@ -810,6 +814,18 @@ msgstr ""
 
 #: header.php:120
 msgid "Community"
+msgstr ""
+
+#: header.php:123
+msgid "Code of conduct"
+msgstr ""
+
+#: header.php:124
+msgid "Forum"
+msgstr ""
+
+#: header.php:139
+msgid "Calendar"
 msgstr ""
 
 #: index.php:20
@@ -1110,11 +1126,11 @@ msgstr ""
 msgid "Gold sponsors"
 msgstr ""
 
-#: sponsor.php:191
+#: sponsor.php:197
 msgid "Early sponsors"
 msgstr ""
 
-#: sponsor.php:233
+#: sponsor.php:239
 msgid "Silver sponsors"
 msgstr ""
 
@@ -1122,29 +1138,29 @@ msgstr ""
 msgid "Bronze sponsors"
 msgstr ""
 
-#: thankyou.php:35
+#: thankyou.php:60
 msgid "Thank you!"
 msgstr ""
 
-#: thankyou.php:38
+#: thankyou.php:63
 msgid ""
 "Your download should start automatically.\n"
 "            If not, click"
 msgstr ""
 
-#: thankyou.php:39
+#: thankyou.php:64
 msgid "here"
 msgstr ""
 
-#: thankyou.php:40
+#: thankyou.php:65
 msgid "to download the file."
 msgstr ""
 
-#: thankyou.php:49
+#: thankyou.php:74
 msgid "Support FreeCAD!"
 msgstr ""
 
-#: thankyou.php:55
+#: thankyou.php:80
 msgid ""
 "If you are happy with FreeCAD, and would like to help\n"
 "            it thrive, why not donate a bit of money to the project? Being\n"
@@ -1154,7 +1170,7 @@ msgid ""
 "            further, faster."
 msgstr ""
 
-#: thankyou.php:63
+#: thankyou.php:88
 msgid ""
 "If you are in, choose the amount and method of your\n"
 "            choice below. If you are interested in supporting the project "
@@ -1164,7 +1180,7 @@ msgid ""
 "            page</a> to see more options."
 msgstr ""
 
-#: thankyou.php:72
+#: thankyou.php:97
 msgid ""
 "There are also many other ways to help FreeCAD. For\n"
 "            example, you can write code, help writing documentation, "
@@ -1176,11 +1192,11 @@ msgid ""
 "            page."
 msgstr ""
 
-#: thankyou.php:87
+#: thankyou.php:112
 msgid "Need help?"
 msgstr ""
 
-#: thankyou.php:93
+#: thankyou.php:118
 msgid ""
 "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
 "            have you covered! FreeCAD features an\n"
@@ -1194,73 +1210,73 @@ msgid ""
 "            automate it and developing your own tools and extensions."
 msgstr ""
 
-#: thankyou.php:103
+#: thankyou.php:128
 msgid ""
 "Below are some pages of this documentation that could\n"
 "            be useful to you:"
 msgstr ""
 
-#: thankyou.php:108
+#: thankyou.php:133
 msgid "https://wiki.freecad.org/Installing_on_Windows"
 msgstr ""
 
-#: thankyou.php:108
+#: thankyou.php:133
 msgid "Installing FreeCAD on Windows"
 msgstr ""
 
-#: thankyou.php:109
+#: thankyou.php:134
 msgid "https://wiki.freecad.org/Installing_on_Linux"
 msgstr ""
 
-#: thankyou.php:109
+#: thankyou.php:134
 msgid "Installing FreeCAD on Linux"
 msgstr ""
 
-#: thankyou.php:110
+#: thankyou.php:135
 msgid "https://wiki.freecad.org/Installing_on_Mac"
 msgstr ""
 
-#: thankyou.php:110
+#: thankyou.php:135
 msgid "Installing FreeCAD on MacOS"
 msgstr ""
 
-#: thankyou.php:111
+#: thankyou.php:136
 msgid "https://wiki.freecad.org/Installing_additional_components"
 msgstr ""
 
-#: thankyou.php:111
+#: thankyou.php:136
 msgid "Installing additional components"
 msgstr ""
 
-#: thankyou.php:112
+#: thankyou.php:137
 msgid "Getting started with FreeCAD"
 msgstr ""
 
-#: thankyou.php:113
+#: thankyou.php:138
 msgid "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
 msgstr ""
 
-#: thankyou.php:113
+#: thankyou.php:138
 msgid "Migrating from other software?"
 msgstr ""
 
-#: thankyou.php:119
+#: thankyou.php:144
 msgid ""
 "FreeCAD also offers a complete user manual, that can\n"
 "            be downloaded as a pdf or epub file or printed:"
 msgstr ""
 
-#: thankyou.php:124
+#: thankyou.php:149
 msgid "The FreeCAD user manual"
 msgstr ""
 
-#: thankyou.php:128
+#: thankyou.php:153
 msgid ""
 "and many tutorials, in written or video form, created by\n"
 "            the FreeCAD community:"
 msgstr ""
 
-#: thankyou.php:137
+#: thankyou.php:162
 msgid ""
 "On behalf of all of the worldwide community of users,\n"
 "            developers, translators, editors, writers, testers who work hard "
@@ -1269,7 +1285,7 @@ msgid ""
 "            downloading our baby! We hope you will like it as much as we do."
 msgstr ""
 
-#: thankyou.php:144
+#: thankyou.php:169
 msgid ""
 "If you encounter issues with FreeCAD, or would like to\n"
 "            meet and discuss topics with other users, pay a visit to the\n"
@@ -1284,150 +1300,150 @@ msgid ""
 "            the FreeCAD world."
 msgstr ""
 
-#: translation.php:56
+#: translation.php:67
 msgid "English"
 msgstr ""
 
-#: translation.php:57
+#: translation.php:68
 msgid "Afrikaans"
 msgstr ""
 
-#: translation.php:58
+#: translation.php:69
 msgid "Arabic"
 msgstr ""
 
-#: translation.php:59
+#: translation.php:70
 msgid "Belarusian"
 msgstr ""
 
-#: translation.php:60
+#: translation.php:71
 msgid "Catalan"
 msgstr ""
 
-#: translation.php:61
+#: translation.php:72
 msgid "Czech"
 msgstr ""
 
-#: translation.php:62
+#: translation.php:73
 msgid "German"
 msgstr ""
 
-#: translation.php:63
+#: translation.php:74
 msgid "Greek"
 msgstr ""
 
-#: translation.php:64 translation.php:65
+#: translation.php:75 translation.php:76
 msgid "Spanish"
 msgstr ""
 
-#: translation.php:66
+#: translation.php:77
 msgid "Basque"
 msgstr ""
 
-#: translation.php:67
+#: translation.php:78
 msgid "Finnish"
 msgstr ""
 
-#: translation.php:68
+#: translation.php:79
 msgid "Filipino"
 msgstr ""
 
-#: translation.php:69
+#: translation.php:80
 msgid "French"
 msgstr ""
 
-#: translation.php:70
+#: translation.php:81
 msgid "Galician"
 msgstr ""
 
-#: translation.php:71
+#: translation.php:82
 msgid "Croatian"
 msgstr ""
 
-#: translation.php:72
+#: translation.php:83
 msgid "Hungarian"
 msgstr ""
 
-#: translation.php:73
+#: translation.php:84
 msgid "Indonesian"
 msgstr ""
 
-#: translation.php:74
+#: translation.php:85
 msgid "Italian"
 msgstr ""
 
-#: translation.php:75
+#: translation.php:86
 msgid "Japanese"
 msgstr ""
 
-#: translation.php:76
+#: translation.php:87
 msgid "Kabyle"
 msgstr ""
 
-#: translation.php:77
+#: translation.php:88
 msgid "Korean"
 msgstr ""
 
-#: translation.php:78
+#: translation.php:89
 msgid "Lithuanian"
 msgstr ""
 
-#: translation.php:79
+#: translation.php:90
 msgid "Dutch"
 msgstr ""
 
-#: translation.php:80
+#: translation.php:91
 msgid "Norwegian Bokmal"
 msgstr ""
 
-#: translation.php:81
+#: translation.php:92
 msgid "Polish"
 msgstr ""
 
-#: translation.php:82 translation.php:83
+#: translation.php:93 translation.php:94
 msgid "Portuguese"
 msgstr ""
 
-#: translation.php:84
+#: translation.php:95
 msgid "Romanian"
 msgstr ""
 
-#: translation.php:85
+#: translation.php:96
 msgid "Russian"
 msgstr ""
 
-#: translation.php:86
+#: translation.php:97
 msgid "Slovak"
 msgstr ""
 
-#: translation.php:87
+#: translation.php:98
 msgid "Slovenian"
 msgstr ""
 
-#: translation.php:88
+#: translation.php:99
 msgid "Serbian"
 msgstr ""
 
-#: translation.php:89
+#: translation.php:100
 msgid "Swedish"
 msgstr ""
 
-#: translation.php:90
+#: translation.php:101
 msgid "Turkish"
 msgstr ""
 
-#: translation.php:91
+#: translation.php:102
 msgid "Ukrainian"
 msgstr ""
 
-#: translation.php:92
+#: translation.php:103
 msgid "Valencian"
 msgstr ""
 
-#: translation.php:93
+#: translation.php:104
 msgid "Vietnamese"
 msgstr ""
 
-#: translation.php:94 translation.php:95
+#: translation.php:105 translation.php:106
 msgid "Chinese"
 msgstr ""
