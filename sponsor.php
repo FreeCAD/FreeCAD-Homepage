@@ -275,6 +275,7 @@
 
           <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
 
+              <div class="bronze sponsor">Amplituda d.o.o.</div>
               <div class="bronze sponsor">plasmapotential</div>
               <div class="bronze sponsor">RobotMachines</div>
               <div class="bronze sponsor">Damian Toczek</div>
