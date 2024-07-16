@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-04 11:36+0100\n"
-"PO-Revision-Date: 2024-05-18 19:04\n"
+"POT-Creation-Date: 2024-07-02 12:27+0200\n"
+"PO-Revision-Date: 2024-07-11 12:58\n"
 "Last-Translator: \n"
 "Language-Team: Belarusian\n"
 "Language: be_BY\n"
@@ -25,7 +25,7 @@ msgstr "Першапачатковы"
 msgid "See what's new"
 msgstr "Паглядзець навіны"
 
-#: codeofconduct.php:19 contributing.php:19
+#: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
 msgstr "Старонка ўзятая з"
 
@@ -583,97 +583,101 @@ msgid "Improve this\n"
 "      page on GitHub"
 msgstr "Палепшыць старонку на GitHub"
 
-#: header.php:27 header.php:40
+#: header.php:26 header.php:39
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Вашае ўласнае трохмернае параметрычнае мадэліраванне"
 
-#: header.php:76
+#: header.php:75
 msgid "Features"
 msgstr "Магчымасці"
 
-#: header.php:80
+#: header.php:79
 msgid "Download"
 msgstr "Спампаваць"
 
-#: header.php:84
+#: header.php:83
 msgid "Blog"
 msgstr "Блог"
 
-#: header.php:88
+#: header.php:87
 msgid "Documentation"
 msgstr "Дакументацыя"
 
-#: header.php:91
+#: header.php:90
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:91
+#: header.php:90
 msgid "Documentation index"
 msgstr "Паказальнік дакументацыі"
 
-#: header.php:92 thankyou.php:112
+#: header.php:91 thankyou.php:137
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:92
+#: header.php:91
 msgid "Getting started"
 msgstr "Прыступаючы да працы"
 
-#: header.php:93
+#: header.php:92
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:93
+#: header.php:92
 msgid "Users documentation"
 msgstr "Карыстальніцкая дакументацыя"
 
-#: header.php:94 thankyou.php:124
+#: header.php:93 thankyou.php:149
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:94
+#: header.php:93
 msgid "The FreeCAD manual"
 msgstr "Кіраўніцтва па FreeCAD"
 
-#: header.php:95 thankyou.php:114
+#: header.php:94 thankyou.php:139
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:95 thankyou.php:114
+#: header.php:94 thankyou.php:139
 msgid "Workbenches documentation"
 msgstr "Дакументацыя варштатаў"
 
-#: header.php:96
+#: header.php:95
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:96
+#: header.php:95
 msgid "Python coding documentation"
 msgstr "Дакументацыя па кадзіраванню на Python"
 
-#: header.php:97
+#: header.php:96
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:97
+#: header.php:96
 msgid "C++ coding documentation"
 msgstr "Дакументацыя па кадзіраванню на C++"
 
-#: header.php:98 thankyou.php:133
+#: header.php:97 thankyou.php:158
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:98 thankyou.php:133
+#: header.php:97 thankyou.php:158
 msgid "Tutorials"
 msgstr "Навучальны дапаможнік"
 
-#: header.php:99 thankyou.php:115
+#: header.php:98 thankyou.php:140
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:99 thankyou.php:115
+#: header.php:98 thankyou.php:140
 msgid "Frequently asked questions"
 msgstr "Частыя пытанні"
+
+#: header.php:99
+msgid "Privacy policy"
+msgstr "Палітыка прыватнасці"
 
 #: header.php:100
 msgid "https://wiki.freecad.org/About_FreeCAD"
@@ -730,6 +734,18 @@ msgstr "Пераклады"
 #: header.php:120
 msgid "Community"
 msgstr "Супольнасць"
+
+#: header.php:123
+msgid "Code of conduct"
+msgstr "Норма паводзін"
+
+#: header.php:124
+msgid "Forum"
+msgstr "Форум"
+
+#: header.php:139
+msgid "Calendar"
+msgstr "Каляндар"
 
 #: index.php:20
 msgid "Your own 3D parametric modeler"
@@ -994,11 +1010,11 @@ msgstr "Калі ласка, пазначце вашае імя карыстал
 msgid "Gold sponsors"
 msgstr "Залатыя фундатары"
 
-#: sponsor.php:191
+#: sponsor.php:197
 msgid "Early sponsors"
 msgstr "Раннія фундатары"
 
-#: sponsor.php:233
+#: sponsor.php:239
 msgid "Silver sponsors"
 msgstr "Срэбраныя фундатары"
 
@@ -1006,29 +1022,29 @@ msgstr "Срэбраныя фундатары"
 msgid "Bronze sponsors"
 msgstr "Бронзавыя фундатары"
 
-#: thankyou.php:35
+#: thankyou.php:60
 msgid "Thank you!"
 msgstr "Дзякуем!"
 
-#: thankyou.php:38
+#: thankyou.php:63
 msgid "Your download should start automatically.\n"
 "            If not, click"
 msgstr "Спампоўка пачнецца аўтаматычна.\n"
 "Калі не так, націсніце"
 
-#: thankyou.php:39
+#: thankyou.php:64
 msgid "here"
 msgstr "тут"
 
-#: thankyou.php:40
+#: thankyou.php:65
 msgid "to download the file."
 msgstr "для спампавоўкі файлу."
 
-#: thankyou.php:49
+#: thankyou.php:74
 msgid "Support FreeCAD!"
 msgstr "Падтрымайце FreeCAD!"
 
-#: thankyou.php:55
+#: thankyou.php:80
 msgid "If you are happy with FreeCAD, and would like to help\n"
 "            it thrive, why not donate a bit of money to the project? Being\n"
 "            open-source, paying to use FreeCAD will never be required, and\n"
@@ -1037,7 +1053,7 @@ msgid "If you are happy with FreeCAD, and would like to help\n"
 msgstr "Калі вы задаволеныя FreeCAD і хацелі б дапамагчы яму квітнець, чаму б не ахвяраваць трохі грошай на праект?\n"
 "Паколькі FreeCAD з адкрытым зыходным кодам, плаціць за ўжыванне ніколі не спатрэбіцца, і FreeCAD не мае патрэбы ў грошах, каб выжыць, але ахвяраванні дапамагаюць нам ісці далей і хутчэй."
 
-#: thankyou.php:63
+#: thankyou.php:88
 msgid "If you are in, choose the amount and method of your\n"
 "            choice below. If you are interested in supporting the project better\n"
 "            with a recurring donation, check the <a href=sponsor.php>sponsoring\n"
@@ -1045,7 +1061,7 @@ msgid "If you are in, choose the amount and method of your\n"
 msgstr "Калі вы ўдзельнічаеце, абярыце суму і спосаб па вашаму выбару ніжэй.\n"
 "Калі вы зацікаўлены ў тым, каб лепш падтрымаць праект рэгулярным ахвяраваннем, праверце <a href=sponsor.php> старонку спонсарства</a> для атрымання дадатковых магчымасцяў."
 
-#: thankyou.php:72
+#: thankyou.php:97
 msgid "There are also many other ways to help FreeCAD. For\n"
 "            example, you can write code, help writing documentation, translate\n"
 "            the FreeCAD interface and documentation, help new users, etc. See\n"
@@ -1056,11 +1072,11 @@ msgstr "Ёсць таксама шмат іншых спосабаў дапам�
 "Напрыклад, вы можаце пісаць код, дапамагаць у напісанні дакументацыі, перакладаць інтэрфейс FreeCAD і дакументацыю, дапамагаць новым карыстальнікам і г. д.\n"
 "Глядзіце ўсё, што вам трэба ведаць, на старонцы <a href=https://wiki.freecad.org/Help_FreeCAD>даведкі FreeCAD</a>."
 
-#: thankyou.php:87
+#: thankyou.php:112
 msgid "Need help?"
 msgstr "Патрэбна дапамога?"
 
-#: thankyou.php:93
+#: thankyou.php:118
 msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
 "            have you covered! FreeCAD features an\n"
 "            <a href=https://wiki.freecad.org>extensive documentation</a>, which\n"
@@ -1072,70 +1088,70 @@ msgstr "Калі вы пачатковец у FreeCAD ці ў трохмерны
 "У FreeCAD ёсць <a href=https://wiki.freecadweb.org/Main_Page>пашыраная дакументацыя</a>, якая даступная анлайн, а таксама непасрэдна ў праграме FreeCAD.\n"
 "Яна ахоплівае ўсе, пачынаючы ад устаноўкі і запуску FreeCAD, ужывання яго і розных варштатаў, аж да стварэння сцэнараў на Python для яго аўтаматызацыі і распрацоўкі ўласных інструментаў і пашырэнняў."
 
-#: thankyou.php:103
+#: thankyou.php:128
 msgid "Below are some pages of this documentation that could\n"
 "            be useful to you:"
 msgstr "Ніжэй прыведзены некаторыя старонкі гэтай дакументацыі, якія могуць быць вам карысныя:"
 
-#: thankyou.php:108
+#: thankyou.php:133
 msgid "https://wiki.freecad.org/Installing_on_Windows"
 msgstr "https://wiki.freecad.org/Installing_on_Windows"
 
-#: thankyou.php:108
+#: thankyou.php:133
 msgid "Installing FreeCAD on Windows"
 msgstr "Устаноўка FreeCAD у Windows"
 
-#: thankyou.php:109
+#: thankyou.php:134
 msgid "https://wiki.freecad.org/Installing_on_Linux"
 msgstr "https://wiki.freecad.org/Installing_on_Linux"
 
-#: thankyou.php:109
+#: thankyou.php:134
 msgid "Installing FreeCAD on Linux"
 msgstr "Устаноўка FreeCAD у Linux"
 
-#: thankyou.php:110
+#: thankyou.php:135
 msgid "https://wiki.freecad.org/Installing_on_Mac"
 msgstr "https://wiki.freecad.org/Installing_on_Mac"
 
-#: thankyou.php:110
+#: thankyou.php:135
 msgid "Installing FreeCAD on MacOS"
 msgstr "Устаноўка FreeCAD у MacOS"
 
-#: thankyou.php:111
+#: thankyou.php:136
 msgid "https://wiki.freecad.org/Installing_additional_components"
 msgstr "https://wiki.freecad.org/Installing_additional_components"
 
-#: thankyou.php:111
+#: thankyou.php:136
 msgid "Installing additional components"
 msgstr "Устаноўка дадатковых кампанентаў"
 
-#: thankyou.php:112
+#: thankyou.php:137
 msgid "Getting started with FreeCAD"
 msgstr "Пачатак працы з FreeCAD"
 
-#: thankyou.php:113
+#: thankyou.php:138
 msgid "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
 msgstr "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
 
-#: thankyou.php:113
+#: thankyou.php:138
 msgid "Migrating from other software?"
 msgstr "Мігрыраваць з іншага праграмнага забеспячэння?"
 
-#: thankyou.php:119
+#: thankyou.php:144
 msgid "FreeCAD also offers a complete user manual, that can\n"
 "            be downloaded as a pdf or epub file or printed:"
 msgstr "Таксама FreeCAD прапануе поўнае кіраўніцтва карыстальніка, якое можна спампаваць у фармаце pdf ці epub, альбо надрукаваць:"
 
-#: thankyou.php:124
+#: thankyou.php:149
 msgid "The FreeCAD user manual"
 msgstr "Кіраўніцтва карыстальніка па FreeCAD"
 
-#: thankyou.php:128
+#: thankyou.php:153
 msgid "and many tutorials, in written or video form, created by\n"
 "            the FreeCAD community:"
 msgstr "і мноства навучальных дапаможнікаў, у пісьмовай ці відэа форме, якія створаныя супольнасцю FreeCAD:"
 
-#: thankyou.php:137
+#: thankyou.php:162
 msgid "On behalf of all of the worldwide community of users,\n"
 "            developers, translators, editors, writers, testers who work hard to\n"
 "            make FreeCAD the best CAD modeller out there, we thank you for\n"
@@ -1144,7 +1160,7 @@ msgstr "Ад імя ўсёй сусветнай супольнасці кары�
 "Мы дзякуем Вам за спампоўку нашага дзіцяці!\n"
 "Спадзяваемся, што вам гэта спадабаецца гэтак жа моцна, як і нам."
 
-#: thankyou.php:144
+#: thankyou.php:169
 msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            meet and discuss topics with other users, pay a visit to the\n"
 "            <a href=https://forum.freecad.org>FreeCAD forum</a>. The forum is the\n"
@@ -1156,151 +1172,151 @@ msgstr "Калі ў вас узніклі праблемы з FreeCAD, ці вы
 "Форум з'яўляецца галоўным месцам сустрэчы для карыстальнікаў FreeCAD з усіх куткоў свету і ўсіх узроўняў кваліфікацыі.\n"
 "Там вы можаце звярнуцца за парадамі да больш прасунутых карыстальнікаў, знайсці спосабы вырашэння канкрэтнай праблемы, альбо абмеркаваць ідэі аб свеце FreeCAD і вакол яго."
 
-#: translation.php:56
+#: translation.php:67
 msgid "English"
 msgstr "Англійская"
 
-#: translation.php:57
+#: translation.php:68
 msgid "Afrikaans"
 msgstr "Афрыкаанс"
 
-#: translation.php:58
+#: translation.php:69
 msgid "Arabic"
 msgstr "Арабская"
 
-#: translation.php:59
+#: translation.php:70
 msgid "Belarusian"
 msgstr "Беларуская"
 
-#: translation.php:60
+#: translation.php:71
 msgid "Catalan"
 msgstr "Каталонская"
 
-#: translation.php:61
+#: translation.php:72
 msgid "Czech"
 msgstr "Чэшская"
 
-#: translation.php:62
+#: translation.php:73
 msgid "German"
 msgstr "Нямецкая"
 
-#: translation.php:63
+#: translation.php:74
 msgid "Greek"
 msgstr "Грэчаская"
 
-#: translation.php:64 translation.php:65
+#: translation.php:75 translation.php:76
 msgid "Spanish"
 msgstr "Іспанская"
 
-#: translation.php:66
+#: translation.php:77
 msgid "Basque"
 msgstr "Басконская"
 
-#: translation.php:67
+#: translation.php:78
 msgid "Finnish"
 msgstr "Фінская"
 
-#: translation.php:68
+#: translation.php:79
 msgid "Filipino"
 msgstr "Філіпінская"
 
-#: translation.php:69
+#: translation.php:80
 msgid "French"
 msgstr "Французская"
 
-#: translation.php:70
+#: translation.php:81
 msgid "Galician"
 msgstr "Галісійская"
 
-#: translation.php:71
+#: translation.php:82
 msgid "Croatian"
 msgstr "Харвацкая"
 
-#: translation.php:72
+#: translation.php:83
 msgid "Hungarian"
 msgstr "Венгерская"
 
-#: translation.php:73
+#: translation.php:84
 msgid "Indonesian"
 msgstr "Інданезійская"
 
-#: translation.php:74
+#: translation.php:85
 msgid "Italian"
 msgstr "Італьянская"
 
-#: translation.php:75
+#: translation.php:86
 msgid "Japanese"
 msgstr "Японская"
 
-#: translation.php:76
+#: translation.php:87
 msgid "Kabyle"
 msgstr "Кабільская"
 
-#: translation.php:77
+#: translation.php:88
 msgid "Korean"
 msgstr "Карэйская"
 
-#: translation.php:78
+#: translation.php:89
 msgid "Lithuanian"
 msgstr "Летувісская"
 
-#: translation.php:79
+#: translation.php:90
 msgid "Dutch"
 msgstr "Нідэрландская"
 
-#: translation.php:80
+#: translation.php:91
 msgid "Norwegian Bokmal"
 msgstr "Нарвежская Бокмаль"
 
-#: translation.php:81
+#: translation.php:92
 msgid "Polish"
 msgstr "Польская"
 
-#: translation.php:82 translation.php:83
+#: translation.php:93 translation.php:94
 msgid "Portuguese"
 msgstr "Партугальская"
 
-#: translation.php:84
+#: translation.php:95
 msgid "Romanian"
 msgstr "Румынская"
 
-#: translation.php:85
+#: translation.php:96
 msgid "Russian"
 msgstr "Руская"
 
-#: translation.php:86
+#: translation.php:97
 msgid "Slovak"
 msgstr "Славацкая"
 
-#: translation.php:87
+#: translation.php:98
 msgid "Slovenian"
 msgstr "Славенская"
 
-#: translation.php:88
+#: translation.php:99
 msgid "Serbian"
 msgstr "Сербская"
 
-#: translation.php:89
+#: translation.php:100
 msgid "Swedish"
 msgstr "Шведская"
 
-#: translation.php:90
+#: translation.php:101
 msgid "Turkish"
 msgstr "Турэцкая"
 
-#: translation.php:91
+#: translation.php:102
 msgid "Ukrainian"
 msgstr "Украінская"
 
-#: translation.php:92
+#: translation.php:103
 msgid "Valencian"
 msgstr "Валенсійская"
 
-#: translation.php:93
+#: translation.php:104
 msgid "Vietnamese"
 msgstr "В'етнамская"
 
-#: translation.php:94 translation.php:95
+#: translation.php:105 translation.php:106
 msgid "Chinese"
 msgstr "Кітайская"
 

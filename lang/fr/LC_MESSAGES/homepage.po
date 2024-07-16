@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-04 11:36+0100\n"
-"PO-Revision-Date: 2024-05-18 19:05\n"
+"POT-Creation-Date: 2024-07-02 12:27+0200\n"
+"PO-Revision-Date: 2024-07-11 12:58\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -25,7 +25,7 @@ msgstr "Accueil"
 msgid "See what's new"
 msgstr "Voir les nouveautés"
 
-#: codeofconduct.php:19 contributing.php:19
+#: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
 msgstr "Cette page est extraite de"
 
@@ -63,7 +63,7 @@ msgstr "Montant "
 
 #: donation.php:67
 msgid "Donation method"
-msgstr "Moyen pour le don "
+msgstr "Mode de versement "
 
 #: donation.php:69
 msgid "Please choose"
@@ -132,7 +132,7 @@ msgstr "Soumettre"
 #: donation.php:88
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr "Plus d'informations sur les différentes méthodes et options de don sur la page <a href=https://wiki.freecad.org/donate/fr>don</a>."
+msgstr "Plus d'informations sur les différentes méthodes et options de don sur la page <a href=https://wiki.freecad.org/donate/fr>Don</a>."
 
 #: downloads.php:24
 msgid "Current stable version:"
@@ -144,7 +144,7 @@ msgstr "Sélectionnez la plate-forme souhaitée (notez que tous les télécharge
 
 #: downloads.php:46
 msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
-msgstr "Windows 7 est la version minimale prise en charge. Pour plus d'informations sur l'installation, veuillez consulter le "
+msgstr "Windows 7 est la version minimale prise en charge. Pour plus d'informations sur l'installation, consultez le "
 
 #: downloads.php:47
 msgid "https://wiki.freecad.org/Install_on_Windows"
@@ -156,7 +156,7 @@ msgstr "wiki"
 
 #: downloads.php:67
 msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
-msgstr "Mac OS X 10.12 Sierra est la version minimale prise en charge. Pour plus d'informations sur l'installation, veuillez consulter le "
+msgstr "Mac OS X 10.12 Sierra est la version minimale prise en charge. Pour plus d'informations sur l'installation, consultez le "
 
 #: downloads.php:68
 msgid "https://wiki.freecad.org/Install_on_Mac"
@@ -164,11 +164,12 @@ msgstr "https://wiki.freecad.org/Installing_on_Mac/fr"
 
 #: downloads.php:88
 msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
-msgstr "Pour certaines distributions, vous pourriez avoir besoin d'installer fuse pour pouvoir exécuter les paquets AppImage."
+msgstr "Pour certaines distributions, vous pourriez avoir besoin d'installer fuse pour pouvoir exécuter les paquets AppImage.\n"
+""
 
 #: downloads.php:89
 msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr "Pour des instructions spécifiques à une distribution telles que le PPA sous Ubuntu et d'autres façons d'installer sous Linux, consultez le "
+msgstr "Pour d'autres instructions d'installation, telles que le PPA d'Ubuntu, et d'autres façons d'installer sous Linux, consultez le "
 
 #: downloads.php:90
 msgid "https://wiki.freecad.org/Install_on_Unix"
@@ -184,7 +185,7 @@ msgstr "https://wiki.freecad.org/Release_notes_0.21/fr"
 
 #: downloads.php:100
 msgid "FreeCAD 0.21 release notes"
-msgstr "Notes de version de FreeCAD 0.21"
+msgstr "Notes de la version 0.21 de FreeCAD"
 
 #: downloads.php:109
 msgid "Development versions"
@@ -200,11 +201,13 @@ msgstr "Nous générons des versions basées sur le code FreeCAD <i>le plus réc
 
 #: downloads.php:113
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
-msgstr "Nous demandons aux utilisateurs avancés d'utiliser de temps en temps les versions de développement pour aider à tester le nouveau code."
+msgstr "Nous demandons aux utilisateurs avancés d'utiliser de temps en temps les versions de développement pour aider à tester le nouveau code.\n"
+""
 
 #: downloads.php:114
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
-msgstr "Ces versions de compilation ne sont pas adaptées à une utilisation en production. Il convient d'être prudent lors de leur utilisation (sauvegardez vos fichiers régulièrement, etc.)."
+msgstr "Ces versions de compilation ne sont pas adaptées à une utilisation en production. Il convient d'être prudent lors de leur utilisation (sauvegardez vos fichiers régulièrement, etc.).\n"
+""
 
 #: downloads.php:115
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
@@ -296,7 +299,7 @@ msgstr "FreeCAD est principalement conçu pour concevoir des objets pour le mond
 
 #: features.php:40
 msgid "A powerful solid-based geometry kernel"
-msgstr "Un puissant noyau de géométrie à base de solides"
+msgstr "Un puissant noyau basé sur la géométrie des solides"
 
 #: features.php:42
 msgid "FreeCAD features an advanced geometry engine based on\n"
@@ -519,7 +522,7 @@ msgstr "Version 0.11 - Mars 2011"
 
 #: features.php:245
 msgid "Follow the official FreeCAD channels for fresh news:"
-msgstr "Suivez les canaux officiels de FreeCAD pour des infos actualisées :"
+msgstr "Suivez les canaux officiels de FreeCAD pour des infos à jour :"
 
 #: features.php:251
 msgid "Official blog"
@@ -553,100 +556,103 @@ msgstr "autres parrains"
 #: footer.php:41
 msgid "Improve this\n"
 "      page on GitHub"
-msgstr "Améliorer cette page\n"
-"      sur GitHub"
+msgstr "Améliorer cette page sur GitHub"
 
-#: header.php:27 header.php:40
+#: header.php:26 header.php:39
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD : votre propre modeleur 3D paramétrique"
 
-#: header.php:76
+#: header.php:75
 msgid "Features"
 msgstr "Fonctions"
 
-#: header.php:80
+#: header.php:79
 msgid "Download"
 msgstr "Télécharger"
 
-#: header.php:84
+#: header.php:83
 msgid "Blog"
 msgstr "Blog"
 
-#: header.php:88
+#: header.php:87
 msgid "Documentation"
 msgstr "Documentation"
 
-#: header.php:91
+#: header.php:90
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page/fr"
 
-#: header.php:91
+#: header.php:90
 msgid "Documentation index"
 msgstr "Index de la documentation"
 
-#: header.php:92 thankyou.php:112
+#: header.php:91 thankyou.php:137
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started/fr"
 
-#: header.php:92
+#: header.php:91
 msgid "Getting started"
 msgstr "Premiers pas"
 
-#: header.php:93
+#: header.php:92
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub/fr"
 
-#: header.php:93
+#: header.php:92
 msgid "Users documentation"
 msgstr "Documentation pour les utilisateurs"
 
-#: header.php:94 thankyou.php:124
+#: header.php:93 thankyou.php:149
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual/fr"
 
-#: header.php:94
+#: header.php:93
 msgid "The FreeCAD manual"
 msgstr "Manuel de FreeCAD"
 
-#: header.php:95 thankyou.php:114
+#: header.php:94 thankyou.php:139
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches/fr"
 
-#: header.php:95 thankyou.php:114
+#: header.php:94 thankyou.php:139
 msgid "Workbenches documentation"
 msgstr "Documentation des ateliers"
 
-#: header.php:96
+#: header.php:95
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub/fr"
 
-#: header.php:96
+#: header.php:95
 msgid "Python coding documentation"
 msgstr "Documentation sur le codage en Python"
 
-#: header.php:97
+#: header.php:96
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub/fr"
 
-#: header.php:97
+#: header.php:96
 msgid "C++ coding documentation"
-msgstr "Documentation pour développeurs"
+msgstr "Documentation pour les développeurs"
 
-#: header.php:98 thankyou.php:133
+#: header.php:97 thankyou.php:158
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials/fr"
 
-#: header.php:98 thankyou.php:133
+#: header.php:97 thankyou.php:158
 msgid "Tutorials"
 msgstr "Tutoriels"
 
-#: header.php:99 thankyou.php:115
+#: header.php:98 thankyou.php:140
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions/fr"
 
-#: header.php:99 thankyou.php:115
+#: header.php:98 thankyou.php:140
 msgid "Frequently asked questions"
 msgstr "Foire aux questions"
+
+#: header.php:99
+msgid "Privacy policy"
+msgstr "Politique de confidentialité"
 
 #: header.php:100
 msgid "https://wiki.freecad.org/About_FreeCAD"
@@ -678,7 +684,7 @@ msgstr "Signaler un bogue"
 
 #: header.php:111
 msgid "Make a pull request"
-msgstr "Faire une demande de modification"
+msgstr "Faire une demande de modification (PR)"
 
 #: header.php:112
 msgid "Jobs and funding"
@@ -690,7 +696,7 @@ msgstr "Guide pour les contributions"
 
 #: header.php:114
 msgid "Developers handbook"
-msgstr "Manuel des développeurs"
+msgstr "Manuel pour les développeurs"
 
 #: header.php:115
 msgid "https://wiki.freecad.org/Localisation"
@@ -703,6 +709,18 @@ msgstr "Traductions"
 #: header.php:120
 msgid "Community"
 msgstr "Communauté"
+
+#: header.php:123
+msgid "Code of conduct"
+msgstr "Code de conduite"
+
+#: header.php:124
+msgid "Forum"
+msgstr "Forum"
+
+#: header.php:139
+msgid "Calendar"
+msgstr "Calendrier"
 
 #: index.php:20
 msgid "Your own 3D parametric modeler"
@@ -725,7 +743,7 @@ msgstr "FreeCAD est un modeleur 3D paramétrique open-source principalement dest
 
 #: index.php:54
 msgid "Create 3D from 2D & back"
-msgstr "Créer de la 3D à partir de la 2D & inversement"
+msgstr "De la 3D à partir de la 2D et inversement"
 
 #: index.php:56
 msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
@@ -744,7 +762,7 @@ msgid "FreeCAD is a multiplatform (Windows, Mac and Linux), highly\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
 "          and many others, making it possible to seamlessly integrate it into\n"
 "          your workflow."
-msgstr "FreeCAD est un logiciel multiplate-forme (Windows, Mac et Linux), hautement personnalisable et extensible. Il lit et écrit dans de nombreux formats de fichiers ouverts tels que STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE et bien d'autres. Cela permet de les intégrer sans difficultés  dans votre flux de travail."
+msgstr "FreeCAD est un logiciel multiplate-forme (Windows, Mac et Linux), hautement personnalisable et extensible. Il lit et écrit dans de nombreux fichiers au format ouvert tels que STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE et bien d'autres. Cela permet de les intégrer sans difficultés  à votre travail."
 
 #: index.php:87
 msgid "Designed for your needs"
@@ -779,7 +797,7 @@ msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
 "          whole community."
-msgstr "FreeCAD est un projet libre et open source. Si vous souhaitez aider à corriger les bugs, mettre en œuvre de nouvelles fonctionnalités ou travailler sur la documentation, nous vous invitons à nous rejoindre et à créer un logiciel qui profite à l’ensemble de la communauté."
+msgstr "FreeCAD est un projet libre et open source. Si vous souhaitez aider à corriger les bugs, mettre en œuvre de nouvelles fonctions ou travailler sur la documentation, nous vous invitons à nous rejoindre et à créer un logiciel qui profite à toute la communauté."
 
 #: index.php:132
 msgid "Get involved"
@@ -796,7 +814,7 @@ msgstr "Faire un don à FreeCAD"
 #: sponsor.php:21
 msgid "Thanks for your interest in helping the FreeCAD\n"
 "              project with donations."
-msgstr "Merci de votre intérêt à aider le projet FreeCAD par des dons."
+msgstr "Merci de l'intérêt que vous portez au projet FreeCAD en faisant des dons."
 
 #: sponsor.php:25
 msgid "FreeCAD is a fast-growing project, developed by a\n"
@@ -828,7 +846,7 @@ msgid "There are several ways you can donate money and help\n"
 "              and core developers. The FPA will redistribute the money it gathers\n"
 "              to FreeCAD developers and sponsor itself several projects, efforts\n"
 "              and ideas to fuel the development of FreeCAD."
-msgstr "Il y a plusieurs façons de donner de l'argent et d'aider le projet FreeCAD, en tant qu'individu, entreprise ou institution, selon vos préférences. L'argent que vous donnez au projet FreeCAD sera reçu et géré par la <a href=https://fpa.freecad.org>FreeCAD Project Association</a> (FPA), une association à but non lucratif créée par les administrateurs et les développeurs de FreeCAD. La FPA redistribuera l'argent récolté aux développeurs de FreeCAD et sponsorisera elle-même plusieurs projets, efforts et idées pour alimenter le développement de FreeCAD."
+msgstr "Il y a plusieurs façons de donner de l'argent et d'aider le projet FreeCAD, en tant qu'individu, entreprise ou institution, selon vos préférences. L'argent que vous donnez au projet FreeCAD sera reçu et géré par la <a href=https://fpa.freecad.org>FreeCAD Project Association</a> (FPA), une association à but non lucratif créée par les administrateurs et les développeurs de FreeCAD. La FPA redistribuera l'argent récolté aux développeurs de FreeCAD et parrainera elle-même plusieurs projets, efforts et idées pour alimenter le développement de FreeCAD."
 
 #: sponsor.php:54
 msgid "Remember, however: FreeCAD is free, and will always\n"
@@ -836,25 +854,22 @@ msgid "Remember, however: FreeCAD is free, and will always\n"
 "              in order to use FreeCAD, neither to modify or distribute it. Your\n"
 "              donation will be welcome, and can help a lot, but you will never\n"
 "              be required to pay anything to access any of the FreeCAD features."
-msgstr "N'oubliez pas, cependant : FreeCAD est gratuit, et le sera toujours. Vous n'êtes pas obligé, et ne le serez jamais, de faire un don pour utiliser FreeCAD, ni pour le modifier ou le distribuer. Votre don sera le bienvenu, et peut aider beaucoup, mais il ne vous sera jamais demandé de payer quoi que ce soit pour accéder à l'une des fonctionnalités de FreeCAD."
+msgstr "N'oubliez pas, cependant : FreeCAD est gratuit et le sera toujours. Vous n'êtes pas obligé, et ne le serez jamais, de faire un don pour utiliser FreeCAD, ni pour le modifier ni pour le distribuer. Votre don sera le bienvenu, et peut beaucoup aider, mais il ne vous sera jamais demandé de payer quoi que ce soit pour accéder à l'une des fonctions de FreeCAD."
 
 #: sponsor.php:69
 msgid "One-time donation"
-msgstr "Don unique"
+msgstr "Don ponctuel"
 
 #: sponsor.php:74
 msgid "If you are not sure or not able to commit to a regular\n"
 "              donation, but still want to help the project, you can do a one-time\n"
 "              donation, of any amount."
-msgstr "Si vous n'êtes pas sûr ou si vous ne pouvez pas vous engager à faire un don\n"
-"              régulier, mais que vous voulez quand même aider le projet, vous\n"
-"              pouvez faire un don unique, de n'importe quel montant."
+msgstr "Si vous n'êtes pas sûr ou pas en mesure de vous engager à faire un don régulier, mais que vous voulez quand même aider le projet, vous pouvez faire un don ponctuel, de n'importe quel montant."
 
 #: sponsor.php:79
 msgid "Choose freely the amount you wish to donate one\n"
 "              time only:"
-msgstr "Choisissez librement le montant que vous souhaitez donner\n"
-"              une seule fois :"
+msgstr "Choisissez librement le montant que vous souhaitez donner une seule fois :"
 
 #: sponsor.php:94
 msgid "Sponsoring"
@@ -865,20 +880,14 @@ msgid "We call sponsoring the act of donating money\n"
 "              recurrently to the FreeCAD project. You can do that as an\n"
 "              individual or as a company or institution, through different\n"
 "              channels or platforms, depending on your preferences."
-msgstr "Nous appelons parrainage l'acte de donner de l'argent\n"
-"              de manière récurrente au projet FreeCAD. Vous pouvez le faire en tant\n"
-"              qu'individu ou en tant qu'entreprise ou institution, via différents\n"
-"              canaux ou plateformes, en fonction de vos préférences."
+msgstr "Nous appelons parrainage le fait de donner de l'argent de façon récurrente au projet FreeCAD. Vous pouvez le faire en tant qu'individu ou en tant qu'entreprise ou institution, par le biais de différents canaux ou plateformes, selon vos préférences."
 
 #: sponsor.php:105
 msgid "Sponsoring FreeCAD allows its developers to count on\n"
 "              a steady flow of income, so it allows the FPA to plan things ahead,\n"
 "              and the FreeCAD developers to invest themselves more seriously\n"
 "              into FreeCAD."
-msgstr "Parrainer FreeCAD permet à ses développeurs de compter\n"
-"              sur un flux régulier de revenus, ce qui permet à la FPA de planifier les choses à l'avance,\n"
-"              et aux développeurs FreeCAD de s'investir plus sérieusement\n"
-"              dans FreeCAD."
+msgstr "Parrainer FreeCAD permet à ses développeurs de compter sur des revenus réguliers, ce qui permet à la FPA de planifier les choses à l'avance, et aux développeurs FreeCAD de s'investir plus sérieusement dans FreeCAD."
 
 #: sponsor.php:111
 msgid "To encourage persons and companies to sponsor the\n"
@@ -886,15 +895,11 @@ msgid "To encourage persons and companies to sponsor the\n"
 "              donating regularly to the project, unless you prefer to stay\n"
 "              anonymous, your name, company name and/or logo will be featured\n"
 "              on this website, depending on the tier you fit into:"
-msgstr "Pour encourager les personnes et les entreprises à parrainer le\n"
-"              projet FreeCAD, nous avons créé différents niveaux de parrainage. Lorsque\n"
-"              vous effectuez un don régulier au projet, sauf si vous préférez rester\n"
-"              anonyme, votre nom, le nom de l'entreprise et/ou le logo seront présentés\n"
-"              sur ce site Web, en fonction du niveau auquel vous correspondez :"
+msgstr "Pour encourager les personnes et les entreprises à parrainer le projet FreeCAD, nous avons créé différents niveaux de parrainage. Lorsque vous faites des dons réguliers au projet, à moins que vous ne préfériez rester anonyme, votre nom, le nom de votre entreprise et/ou votre logo seront affichés sur ce site web, en fonction du niveau auquel vous correspondez :"
 
 #: sponsor.php:118
 msgid "Normal sponsor"
-msgstr "Parrainage normal"
+msgstr "Parrain normal"
 
 #: sponsor.php:119
 msgid "from 1 USD / 1 EUR per month. You will not have your\n"
@@ -939,7 +944,7 @@ msgid "Instead of donating each month, you might find it\n"
 "              more comfortable to make a one-time donation that, when divided by\n"
 "              twelve, would give you right to enter a sponsoring tier. Don't\n"
 "              hesitate to do so!"
-msgstr "Au lieu de faire un don chaque mois, vous trouverez peut-être plus commode de faire un don unique qui, divisé par douze, vous donnera le droit d'entrer dans un niveau de parrainage. N'hésitez pas à le faire !"
+msgstr "Au lieu de faire un don chaque mois, vous trouverez peut-être plus confortable de faire un don ponctuel qui, divisé par douze, vous donnera le droit de rejoindre un niveau de parrainage. N'hésitez pas à le faire !"
 
 #: sponsor.php:144
 msgid "Choose freely the amount you wish to donate each\n"
@@ -956,11 +961,11 @@ msgstr "Merci d'indiquer votre nom de forum ou votre adresse Twitter en note dan
 msgid "Gold sponsors"
 msgstr "Parrains Gold"
 
-#: sponsor.php:191
+#: sponsor.php:197
 msgid "Early sponsors"
 msgstr "Premiers parrains"
 
-#: sponsor.php:233
+#: sponsor.php:239
 msgid "Silver sponsors"
 msgstr "Parrains Silver"
 
@@ -968,43 +973,43 @@ msgstr "Parrains Silver"
 msgid "Bronze sponsors"
 msgstr "Parrains Bronze"
 
-#: thankyou.php:35
+#: thankyou.php:60
 msgid "Thank you!"
 msgstr "Merci !"
 
-#: thankyou.php:38
+#: thankyou.php:63
 msgid "Your download should start automatically.\n"
 "            If not, click"
 msgstr "Votre téléchargement devrait démarrer automatiquement. Si ce n'est pas le cas, cliquez sur"
 
-#: thankyou.php:39
+#: thankyou.php:64
 msgid "here"
 msgstr "ici"
 
-#: thankyou.php:40
+#: thankyou.php:65
 msgid "to download the file."
 msgstr "pour télécharger le fichier."
 
-#: thankyou.php:49
+#: thankyou.php:74
 msgid "Support FreeCAD!"
 msgstr "Soutenez FreeCAD !"
 
-#: thankyou.php:55
+#: thankyou.php:80
 msgid "If you are happy with FreeCAD, and would like to help\n"
 "            it thrive, why not donate a bit of money to the project? Being\n"
 "            open-source, paying to use FreeCAD will never be required, and\n"
 "            FreeCAD does not need money to survive, but donations help us to go\n"
 "            further, faster."
-msgstr "Si vous êtes satisfait de FreeCAD et souhaitez l'aider à se développer, pourquoi ne pas donner un peu d'argent au projet ? Comme il s'agit d'un logiciel open-source, il ne sera jamais obligatoire de payer pour utiliser FreeCAD. FreeCAD n'a pas besoin d'argent pour subsister, mais les dons nous aident à aller plus loin, plus vite."
+msgstr "Si vous êtes satisfait de FreeCAD et que vous souhaitez l'aider à se développer, pourquoi ne pas donner un peu d'argent au projet ? Comme il s'agit d'un logiciel open-source, il ne sera jamais demandé de payer pour utiliser FreeCAD, et FreeCAD n'a pas besoin d'argent pour survivre, mais les dons nous aident à aller plus loin, plus vite."
 
-#: thankyou.php:63
+#: thankyou.php:88
 msgid "If you are in, choose the amount and method of your\n"
 "            choice below. If you are interested in supporting the project better\n"
 "            with a recurring donation, check the <a href=sponsor.php>sponsoring\n"
 "            page</a> to see more options."
-msgstr "Si vous êtes partant, choisissez le montant et le moyen de votre choix ci-dessous. Si vous souhaitez soutenir davantage le projet par un don récurrent, consultez la page de <a href=sponsor.php>parrainage</a> pour plus d'options."
+msgstr "Si vous êtes partant, choisissez le montant et la méthode de votre choix ci-dessous. Si vous souhaitez soutenir davantage le projet par un don régulier, consultez la page de <a href=sponsor.php>Parrainage</a> pour plus d'options."
 
-#: thankyou.php:72
+#: thankyou.php:97
 msgid "There are also many other ways to help FreeCAD. For\n"
 "            example, you can write code, help writing documentation, translate\n"
 "            the FreeCAD interface and documentation, help new users, etc. See\n"
@@ -1013,11 +1018,11 @@ msgid "There are also many other ways to help FreeCAD. For\n"
 "            page."
 msgstr "Il existe également de nombreuses autres façons d'aider FreeCAD. Par exemple, vous pouvez écrire du code, aider à la rédaction de la documentation, traduire l'interface et la documentation de FreeCAD, aider les nouveaux utilisateurs, etc. Voyez tout ce que vous devez savoir sur la page <a href=https://wiki.freecad.org/Help_FreeCAD/fr>Aide</a> de FreeCAD."
 
-#: thankyou.php:87
+#: thankyou.php:112
 msgid "Need help?"
 msgstr "Besoin d'aide ?"
 
-#: thankyou.php:93
+#: thankyou.php:118
 msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
 "            have you covered! FreeCAD features an\n"
 "            <a href=https://wiki.freecad.org>extensive documentation</a>, which\n"
@@ -1025,79 +1030,79 @@ msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
 "            It covers everything from installing and launching FreeCAD, using it\n"
 "            and its different workbenches, up to creating Python scripts to\n"
 "            automate it and developing your own tools and extensions."
-msgstr "Si vous êtes novice avec FreeCAD, ou en matière de modélisation CAO 3D, nous avons ce qu'il vous faut ! FreeCAD dispose d'une <a href=https://wiki.freecad.org>documentation complète</a>, disponible en ligne mais aussi directement dans l'application FreeCAD. Elle couvre tout depuis l'installation et le lancement de FreeCAD, son utilisation et ses différents ateliers, jusqu'à la création de scripts Python pour l'automatiser et le développement de vos propres outils et extensions."
+msgstr "Si vous êtes novice avec FreeCAD ou en modélisation CAO 3D, nous avons ce qu'il vous faut ! FreeCAD dispose d'une <a href=https://wiki.freecad.org>documentation complète</a>, disponible en ligne mais aussi directement dans l'application FreeCAD. Elle couvre tout, depuis l'installation au lancement de FreeCAD, son utilisation et ses différents ateliers, jusqu'à la création de scripts en Python pour l'automatiser et le développement de vos propres outils et extensions."
 
-#: thankyou.php:103
+#: thankyou.php:128
 msgid "Below are some pages of this documentation that could\n"
 "            be useful to you:"
 msgstr "Vous trouverez ci-dessous quelques pages de cette documentation qui pourraient vous être utiles :"
 
-#: thankyou.php:108
+#: thankyou.php:133
 msgid "https://wiki.freecad.org/Installing_on_Windows"
 msgstr "https://wiki.freecad.org/Installing_on_Windows/fr"
 
-#: thankyou.php:108
+#: thankyou.php:133
 msgid "Installing FreeCAD on Windows"
 msgstr "Installer FreeCAD sous Windows"
 
-#: thankyou.php:109
+#: thankyou.php:134
 msgid "https://wiki.freecad.org/Installing_on_Linux"
 msgstr "https://wiki.freecad.org/Installing_on_Linux/fr"
 
-#: thankyou.php:109
+#: thankyou.php:134
 msgid "Installing FreeCAD on Linux"
 msgstr "Installer FreeCAD sous Linux"
 
-#: thankyou.php:110
+#: thankyou.php:135
 msgid "https://wiki.freecad.org/Installing_on_Mac"
 msgstr "https://wiki.freecad.org/Installing_on_Mac/fr"
 
-#: thankyou.php:110
+#: thankyou.php:135
 msgid "Installing FreeCAD on MacOS"
 msgstr "Installer FreeCAD sous MacOS"
 
-#: thankyou.php:111
+#: thankyou.php:136
 msgid "https://wiki.freecad.org/Installing_additional_components"
 msgstr "https://wiki.freecad.org/Installing_additional_components/fr"
 
-#: thankyou.php:111
+#: thankyou.php:136
 msgid "Installing additional components"
 msgstr "Installer des composants supplémentaires"
 
-#: thankyou.php:112
+#: thankyou.php:137
 msgid "Getting started with FreeCAD"
 msgstr "Premiers pas avec FreeCAD"
 
-#: thankyou.php:113
+#: thankyou.php:138
 msgid "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
 msgstr "https://wiki.freecad.org/User_hub/fr#Vous_venez_d'un_autre_logiciel_?"
 
-#: thankyou.php:113
+#: thankyou.php:138
 msgid "Migrating from other software?"
 msgstr "Vous migrez depuis un autre logiciel ?"
 
-#: thankyou.php:119
+#: thankyou.php:144
 msgid "FreeCAD also offers a complete user manual, that can\n"
 "            be downloaded as a pdf or epub file or printed:"
 msgstr "FreeCAD propose également un manuel d'utilisation complet, qui peut être téléchargé au format pdf, epub ou imprimé :"
 
-#: thankyou.php:124
+#: thankyou.php:149
 msgid "The FreeCAD user manual"
 msgstr "Manuel de l’utilisateur de FreeCAD"
 
-#: thankyou.php:128
+#: thankyou.php:153
 msgid "and many tutorials, in written or video form, created by\n"
 "            the FreeCAD community:"
 msgstr "et de nombreux tutoriels, sous forme écrite ou vidéo, créés par la communauté FreeCAD :"
 
-#: thankyou.php:137
+#: thankyou.php:162
 msgid "On behalf of all of the worldwide community of users,\n"
 "            developers, translators, editors, writers, testers who work hard to\n"
 "            make FreeCAD the best CAD modeller out there, we thank you for\n"
 "            downloading our baby! We hope you will like it as much as we do."
 msgstr "Au nom de toute la communauté mondiale des utilisateurs, développeurs, traducteurs, éditeurs, rédacteurs, testeurs qui travaillent dur pour faire de FreeCAD le meilleur modeleur CAO, nous vous remercions d'avoir téléchargé notre petit dernier ! Nous espérons qu'il vous plaira autant qu'à nous."
 
-#: thankyou.php:144
+#: thankyou.php:169
 msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            meet and discuss topics with other users, pay a visit to the\n"
 "            <a href=https://forum.freecad.org>FreeCAD forum</a>. The forum is the\n"
@@ -1107,151 +1112,151 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            the FreeCAD world."
 msgstr "Si vous rencontrez des problèmes avec FreeCAD, ou si vous souhaitez rencontrer d'autres utilisateurs et discuter avec eux, rendez-vous sur le <a href=https://forum.freecad.org>forum de FreeCAD</a>. Le forum est le principal point de rencontre des utilisateurs de FreeCAD de toutes les régions du monde et de tous les niveaux de compétence. Vous pouvez y demander conseil à des utilisateurs plus avancés, trouver des moyens de résoudre un problème particulier ou échanger des idées à propos du monde de FreeCAD."
 
-#: translation.php:56
+#: translation.php:67
 msgid "English"
 msgstr "Anglais"
 
-#: translation.php:57
+#: translation.php:68
 msgid "Afrikaans"
 msgstr "Afrikaans"
 
-#: translation.php:58
+#: translation.php:69
 msgid "Arabic"
 msgstr "Arabe"
 
-#: translation.php:59
+#: translation.php:70
 msgid "Belarusian"
 msgstr "Biélorusse"
 
-#: translation.php:60
+#: translation.php:71
 msgid "Catalan"
 msgstr "Catalan"
 
-#: translation.php:61
+#: translation.php:72
 msgid "Czech"
 msgstr "Tchèque"
 
-#: translation.php:62
+#: translation.php:73
 msgid "German"
 msgstr "Allemand"
 
-#: translation.php:63
+#: translation.php:74
 msgid "Greek"
 msgstr "Grec"
 
-#: translation.php:64 translation.php:65
+#: translation.php:75 translation.php:76
 msgid "Spanish"
 msgstr "Espagnol"
 
-#: translation.php:66
+#: translation.php:77
 msgid "Basque"
 msgstr "Basque"
 
-#: translation.php:67
+#: translation.php:78
 msgid "Finnish"
 msgstr "Finnois"
 
-#: translation.php:68
+#: translation.php:79
 msgid "Filipino"
 msgstr "Philippin"
 
-#: translation.php:69
+#: translation.php:80
 msgid "French"
 msgstr "Français"
 
-#: translation.php:70
+#: translation.php:81
 msgid "Galician"
 msgstr "Galicien"
 
-#: translation.php:71
+#: translation.php:82
 msgid "Croatian"
 msgstr "Croate"
 
-#: translation.php:72
+#: translation.php:83
 msgid "Hungarian"
 msgstr "Hongrois"
 
-#: translation.php:73
+#: translation.php:84
 msgid "Indonesian"
 msgstr "Indonésien"
 
-#: translation.php:74
+#: translation.php:85
 msgid "Italian"
 msgstr "Italien"
 
-#: translation.php:75
+#: translation.php:86
 msgid "Japanese"
 msgstr "Japonais"
 
-#: translation.php:76
+#: translation.php:87
 msgid "Kabyle"
 msgstr "Kabyle"
 
-#: translation.php:77
+#: translation.php:88
 msgid "Korean"
 msgstr "Coréen"
 
-#: translation.php:78
+#: translation.php:89
 msgid "Lithuanian"
 msgstr "Lituanien"
 
-#: translation.php:79
+#: translation.php:90
 msgid "Dutch"
 msgstr "Néerlandais"
 
-#: translation.php:80
+#: translation.php:91
 msgid "Norwegian Bokmal"
 msgstr "Norvégien classique"
 
-#: translation.php:81
+#: translation.php:92
 msgid "Polish"
 msgstr "Polonais"
 
-#: translation.php:82 translation.php:83
+#: translation.php:93 translation.php:94
 msgid "Portuguese"
 msgstr "Portugais"
 
-#: translation.php:84
+#: translation.php:95
 msgid "Romanian"
 msgstr "Roumain"
 
-#: translation.php:85
+#: translation.php:96
 msgid "Russian"
 msgstr "Russe"
 
-#: translation.php:86
+#: translation.php:97
 msgid "Slovak"
 msgstr "Slovaque"
 
-#: translation.php:87
+#: translation.php:98
 msgid "Slovenian"
 msgstr "Slovène"
 
-#: translation.php:88
+#: translation.php:99
 msgid "Serbian"
 msgstr "Serbe"
 
-#: translation.php:89
+#: translation.php:100
 msgid "Swedish"
 msgstr "Suédois"
 
-#: translation.php:90
+#: translation.php:101
 msgid "Turkish"
 msgstr "Turc"
 
-#: translation.php:91
+#: translation.php:102
 msgid "Ukrainian"
 msgstr "Ukrainien"
 
-#: translation.php:92
+#: translation.php:103
 msgid "Valencian"
 msgstr "Valencien"
 
-#: translation.php:93
+#: translation.php:104
 msgid "Vietnamese"
 msgstr "Vietnamien"
 
-#: translation.php:94 translation.php:95
+#: translation.php:105 translation.php:106
 msgid "Chinese"
 msgstr "Chinois"
 
