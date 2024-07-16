@@ -16,7 +16,7 @@
             <h3><?php echo _('Donating to FreeCAD'); ?></h3>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
               <p>
               <?php echo _('Thanks for your interest in helping the FreeCAD
               project with donations.'); ?>
@@ -69,7 +69,7 @@
             <h3><?php echo _('One-time donation'); ?></h3>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
               <p>
               <?php echo _('If you are not sure or not able to commit to a regular
               donation, but still want to help the project, you can do a one-time
@@ -94,7 +94,7 @@
             <h3><?php echo _('Sponsoring'); ?></h3>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
               <p>
               <?php echo _('We call sponsoring the act of donating money
               recurrently to the FreeCAD project. You can do that as an
@@ -159,7 +159,7 @@
           <div class="col-lg-4">
             <h3><?php echo _('Gold sponsors'); ?></h3>
           </div>
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
                 <div class="silver sponsor">
                     <img class="logo" src="images/sponsors/librespace.png">
@@ -196,7 +196,7 @@
           <div class="col-lg-4">
             <h3><?php echo _('Early sponsors'); ?></h3>
           </div>
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
                 <div class="gold sponsor">
                     <img class="logo" src="images/sponsors/aleph.svg">
@@ -238,7 +238,7 @@
           <div class="col-lg-4">
             <h3><?php echo _('Silver sponsors'); ?></h3>
           </div>
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
                 <div class="silver sponsor">
                     <img class="logo" src="images/sponsors/chudovo.png">
@@ -273,7 +273,7 @@
             <h3><?php echo _('Bronze sponsors'); ?></h3>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
               <div class="bronze sponsor">Un voyageur avec serviette</div>
               <div class="bronze sponsor">David Yeung</div>

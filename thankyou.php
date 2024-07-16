@@ -74,7 +74,7 @@
             <h3><?php echo _('Support FreeCAD!'); ?></h3>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
             <p>
             <?php echo _('If you are happy with FreeCAD, and would like to help
@@ -112,7 +112,7 @@
             <h3><?php echo _('Need help?'); ?></h3>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
             <p>
             <?php echo _('If you are new to FreeCAD, or to 3D CAD modelling, we

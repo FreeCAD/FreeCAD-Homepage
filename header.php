@@ -23,7 +23,7 @@
   <link rel="shortcut icon" href="images/favicon.ico"/>
 
   <!-- Include bootstrap CSS file -->
-  <link rel="stylesheet" href="css/bootstrap-4.3.1.min.css"/>
+   <link rel="stylesheet" href="css/bootstrap-5.3.3.min.css"/>
 
   <!-- Custom Styles -->
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -48,9 +48,9 @@
       <img class="img-fluid" src="svg/logo-freecad.svg" alt="FreeCAD Logo"/>
     </a>
 
-    <ul class="nav nav-pills ml-auto order-xl-last">
+    <ul class="nav nav-pills ms-auto order-xl-last">
       <li class="nav-item dropdown">
-        <a class="nav-link text-light rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link text-light rounded-pill dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
           <img src="lang/<?php echo $flagcode; ?>/flag.jpg"/>
         </a>
 
@@ -60,12 +60,13 @@
       </li>
     </ul>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="nav nav-pills ml-auto">
+    <div class="navbar-collapse collapse" id="navbarNav">
+      <ul class="nav nav-pills ms-auto">
 
         <li class="nav-item">
           <a class="nav-link my-2 rounded-pill" href="<?php echo $featuresurl; ?>"><?php echo _('Features'); ?></a>
@@ -80,7 +81,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Documentation'); ?></a>
+          <a class="nav-link my-2 rounded-pill dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Documentation'); ?></a>
 
           <div class="dropdown-menu-mobile-right dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Main_Page'); ?>"><?php echo _('Documentation index'); ?></a>
@@ -98,7 +99,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Contribute'); ?></a>
+          <a class="nav-link my-2 rounded-pill dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Contribute'); ?></a>
 
           <div class="dropdown-menu-mobile-left dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Help_FreeCAD'); ?>"><?php echo _('How to help'); ?></a>
@@ -113,7 +114,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link my-2 rounded-pill dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Community'); ?></a>
+          <a class="nav-link my-2 rounded-pill dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Community'); ?></a>
 
           <div class="dropdown-menu-mobile-right dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark" href="<?php echo $codeofconducturl; ?>"><?php echo _('Code of conduct'); ?></a>

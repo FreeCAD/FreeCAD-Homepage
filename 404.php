@@ -15,7 +15,7 @@
         <img class="img-fluid" src="svg/WhatsThis.svg" alt="Error Photo"/>
       </div>
 
-      <div class="col-lg-4 text-center text-lg-left align-content-center order-lg-first">
+      <div class="col-lg-4 text-center text-lg-start align-content-center order-lg-first">
         <h1 class="home-title text-light mt-n5 mb-0 mt-lg-0">ERROR 404!</h1>
         <!-- displays the incorrect URL -->
         <h2 class="home-subtitle text-light mb-4"><?php echo $_SERVER['REQUEST_URI']; ?> does not exist, sorry.</h2>

@@ -91,7 +91,7 @@ h6 {
 
 code {
   color: #fff;
-  background: #2C5F83;
+  background: #1F425C;
   padding: 3px;
   border-radius: 2px;
 }
@@ -146,14 +146,16 @@ code {
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 1em;
   padding: 0.4em 1.6em 0.4em 1.6em;
+  margin-bottom: 1em;
 }
 
 #main .section-cover {
-  margin-top: 6em;
+  margin-top: 4em;
 }
 
 #main .section {
   margin: 4em 0 4em 0;
+  background-color: rgba(52, 58, 64, 0.5);
 }
 
 .section-title {
@@ -163,7 +165,6 @@ code {
 .section-body {
   font-size: 1em;
 }
-
 #floating-arrow {
   width: 3em;
   margin: 1em 0 4em 0;
@@ -294,6 +295,7 @@ code {
 
   #main .section {
     margin: 6em 0 6em 0;
+	background-color: transparent;
   }
 
   .navbar-custom .nav-pills .nav-link {
@@ -307,6 +309,12 @@ code {
   .btn {
     font-size: 0.8em;
   }
+  .model-backround {
+    background-color: rgba(52, 58, 64, 0.5);
+  }
+  .text-backround {
+    background-color: rgba(52, 58, 64, 0.5);
+  }
 }
 
 @media (min-width: 1200px) {
@@ -319,7 +327,7 @@ code {
   }
 
   #main .section-cover {
-    margin-top: 0;
+    margin-top: 2em;
   }
 
   #main .section {
@@ -368,7 +376,7 @@ code {
   }
 
   #main .section-cover {
-    margin-top: 6em;
+    margin-top: 4em;
   }
 
   #main .section {
@@ -394,7 +402,7 @@ code {
   }
 
   #main .section-cover {
-    margin-top: 8em;
+    margin-top: 6em;
   }
 
   #main .section {

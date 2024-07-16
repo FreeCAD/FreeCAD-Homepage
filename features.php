@@ -10,10 +10,14 @@
         </div>
 
 
-        <section class="row section d-flex justify-content-around">
+        <section class="row section d-flex justify-content-around rounded">
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
-            <h3><?php echo _('Made to build for the real world'); ?></h3>
+          <div class="col-lg-4 order-lg-last d-flex justify-content-center rounded model-backround p-2">
+            <img class="img-fluid" src="images/feature-06.avif" alt="Feature 06"/>
+          </div>
+
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+            <h3 class="section-title mt-3"><?php echo _('Made to build for the real world'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD is made primarily to design objects for the real world. Everything you do in FreeCAD uses real-world
               units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and
@@ -22,22 +26,18 @@
             </p>
           </div>
 
-          <div class="col-lg-4">
-            <img class="img-fluid rounded shadow" src="images/feature-06.png" alt="Feature 06"/>
-          </div>
-
         </section>
 
 
 
-        <section class="row section d-flex justify-content-around">
+        <section class="row section d-flex justify-content-around rounded">
 
-          <div class="col-lg-4">
-            <img class="img-fluid rounded shadow" src="images/feature-01.jpg" alt="Feature 01"/>
+          <div class="col-lg-4 d-flex justify-content-center rounded model-backround p-2">
+            <img class="img-fluid" src="images/feature-01.avif" alt="Feature 01"/>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
-            <h3><?php echo _('A powerful solid-based geometry kernel'); ?></h3>
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+            <h3 class="section-title mt-3"><?php echo _('A powerful solid-based geometry kernel'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD features an advanced geometry engine based on
               <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>. It supports solids,
@@ -52,10 +52,14 @@
         </section>
 
 
-        <section class="row section d-flex justify-content-around">
+        <section class="row section d-flex justify-content-around rounded">
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
-            <h3><?php echo _('A wi(l)dly parametric environment'); ?></h3>
+          <div class="col-lg-4 order-lg-last d-flex justify-content-center rounded model-backround p-2">
+            <img class="img-fluid" src="images/feature-03.avif" alt="Feature 03"/>
+          </div>
+
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+            <h3 class="section-title mt-3"><?php echo _('A wi(l)dly parametric environment'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('All FreeCAD objects are natively parametric, meaning their shape can be based on
                 <a href="https://wiki.freecad.org/Property" title="Property">properties</a> such as numeric values, texts, on/off buttons,
@@ -65,22 +69,17 @@
                 <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>.'); ?>
             </p>
           </div>
-
-          <div class="col-lg-4">
-            <img class="img-fluid rounded shadow" src="images/feature-03.jpg" alt="Feature 03"/>
-          </div>
-
         </section>
 
 
-        <section class="row section d-flex justify-content-around">
+        <section class="row section d-flex justify-content-around rounded">
 
-          <div class="col-lg-4">
-            <img class="img-fluid rounded shadow" src="images/feature-04.jpg" alt="Feature 04"/>
+          <div class="col-lg-4 d-flex justify-content-center rounded model-backround p-2">
+            <img class="img-fluid" src="images/feature-04.avif" alt="Feature 04"/>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
-            <h3><?php echo _('Python everywhere'); ?></h3>
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+            <h3 class="section-title mt-3"><?php echo _('Python everywhere'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('While the FreeCAD core functionality is coded in C++ for robustness and performance,
                   large parts of the external layers,  workbenches and almost all the communication between
@@ -95,10 +94,14 @@
 
 
 
-        <section class="row section d-flex justify-content-around">
+        <section class="row section d-flex justify-content-around rounded">
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
-            <h3><?php echo _('File formats frenzy'); ?></h3>
+          <div class="col-lg-4 order-lg-last d-flex justify-content-center rounded model-backround p-2">
+            <img class="img-fluid" src="images/feature-08.avif" alt="Feature 08"/>
+          </div>
+
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+            <h3 class="section-title mt-3"><?php echo _('File formats frenzy'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD allows you to import and export models and many other kinds of data from your models such as
               analyses results or quantities data to dozens of different <a href="https://wiki.freecad.org/Category:File_Formats">file formats</a> such as
@@ -121,22 +124,17 @@
               file formats.'); ?>
             </p>
           </div>
-
-          <div class="col-lg-4">
-            <img class="img-fluid rounded shadow" src="images/feature-08.jpg" alt="Feature 08"/>
-          </div>
-
         </section>
 
 
-        <section class="row section d-flex justify-content-around">
+        <section class="row section d-flex justify-content-around rounded">
 
-          <div class="col-lg-4">
-            <img class="img-fluid rounded shadow" src="images/feature-02.jpg" alt="Feature 02"/>
+          <div class="col-lg-4 d-flex justify-content-center rounded model-backround p-2">
+            <img class="img-fluid" src="images/feature-02.avif" alt="Feature 02"/>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
-            <h3><?php echo _('A parametric constraints-based 2D sketcher'); ?></h3>
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+            <h3 class="section-title mt-3"><?php echo _('A parametric constraints-based 2D sketcher'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>
                   with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. Sketches are the main
@@ -149,10 +147,14 @@
 
 
 
-        <section class="row section d-flex justify-content-around">
+        <section class="row section d-flex justify-content-around rounded">
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
-            <h3><?php echo _('A large (and growing) multi-specialty ecosystem'); ?></h3>
+          <div class="col-lg-4 order-lg-last d-flex justify-content-center rounded model-backround p-2">
+            <img class="img-fluid" src="images/feature-05.avif" alt="Feature 05"/>
+          </div>
+
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+            <h3 class="section-title mt-3"><?php echo _('A large (and growing) multi-specialty ecosystem'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD offers dedicated <a href="https://wiki.freecad.org/Workbenches">workbenches</a> for a variety of purposes
               such as
@@ -174,22 +176,17 @@
               <?php echo _('Learn more'); ?>
             </a>
           </div>
-
-          <div class="col-lg-4">
-            <img class="img-fluid rounded shadow" src="images/feature-05.png" alt="Feature 05"/>
-          </div>
-
         </section>
 
 
-        <section class="row section d-flex justify-content-around">
+        <section class="row section d-flex justify-content-around rounded">
 
-          <div class="col-lg-4">
-            <img class="img-fluid rounded shadow" src="images/feature-07.png" alt="Feature 07"/>
+          <div class="col-lg-4 d-flex justify-content-center rounded model-backround p-2">
+            <img class="img-fluid" src="images/feature-07.avif" alt="Feature 07"/>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
-            <h3><?php echo _('Developed by a community'); ?></h3>
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+            <h3 class="section-title mt-3"><?php echo _('Developed by a community'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD is made for everybody, by everybody. It is developed and maintained
               by a community of developers, users, moderators, translators, all united by their wish make
@@ -209,18 +206,18 @@
 
 
 
-        <section class="row section d-flex justify-content-around">
+        <section class="row section d-flex justify-content-around rounded">
 
 
-          <div class="col-lg-4">
-            <p class="section-body whitelinks">
+          <div class="col-lg-4 rounded text-backround">
+            <p class="section-body whitelinks mt-3">
               <?php echo _('Find here the release notes for current and previous FreeCAD versions.
                   Release notes describe what&apos;s new in each release:'); ?>
             </p>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
-              <ul class="d-block whitelinks releases">
+          <div class="col-lg-7 text-light text-left px-md-4 rounded text-backround">
+              <ul class="d-block whitelinks releases mt-3">
                 <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.21" title="Release notes 0.21'); ?>"><?php echo _('Release 0.21 - August 2023'); ?></a> (<?php echo _('current stable release'); ?>)</li>
                 <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.20" title="Release notes 0.20'); ?>"><?php echo _('Release 0.20 - June 2022'); ?></a></li>
                 <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.19" title="Release notes 0.19'); ?>"><?php echo _('Release 0.19 - March 2021'); ?></a></li>
@@ -237,17 +234,17 @@
         </section>
 
 
-        <section class="row section d-flex justify-content-around">
+        <section class="row section d-flex justify-content-around rounded">
 
 
-          <div class="col-lg-4">
-            <p class="section-body whitelinks">
+          <div class="col-lg-4 rounded text-backround">
+            <p class="section-body whitelinks mt-3">
               <?php echo _('Follow the official FreeCAD channels for fresh news:'); ?>
             </p>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-left px-md-4">
-              <ul class="d-block whitelinks releases">
+          <div class="col-lg-7 text-light text-left px-md-4 rounded text-backround">
+              <ul class="d-block whitelinks releases mt-3">
                 <li><a href="https://blog.freecad.org" title="FreeCAD official blog"><?php echo _('Official blog'); ?></a></li>
                 <li><a href="https://twitter.com/FreeCADNews" title="FreeCAD twitter account"><?php echo _('Twitter account'); ?></a></li>
               </ul>

@@ -19,14 +19,14 @@
           </iframe>
           -->
           <iframe id="open-web-calendar" 
-                  style="background:url('https://raw.githubusercontent.com/niccokunzmann/open-web-calendar/master/static/img/loaders/circular-loader.gif') center center no-repeat;"
-                  src="https://open-web-calendar.hosted.quelltext.eu/calendar.html?url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fical%2F6e6cc81260051a3c49fdf915c472f2d62576820129f0e0b2cacb7025ed62f960%2540group.calendar.google.com%2Fpublic%2Fbasic.ics"
+                  style="background:url('images/loader-freecad-small.gif') center center no-repeat;"
+                  src="https://open-web-calendar.hosted.quelltext.eu/calendar.html?url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fical%2F6e6cc81260051a3c49fdf915c472f2d62576820129f0e0b2cacb7025ed62f960%2540group.calendar.google.com%2Fpublic%2Fbasic.ics?prefer_browser_language=true"
                   sandbox="allow-scripts allow-same-origin allow-top-navigation"
                   allowTransparency="true" scrolling="no" 
                   frameborder="0" height="600px" width="100%">
           </iframe>
           <p>
-            <?php echo _('Subscribe to this calendar using this'); ?> <a href="https://calendar.google.com/calendar/embed?src=6e6cc81260051a3c49fdf915c472f2d62576820129f0e0b2cacb7025ed62f960%40group.calendar.google.com" class="badge badge-light"><?php echo _('ICS link'); ?></a>.
+            <?php echo _('Subscribe to this calendar using this'); ?> <a href="https://calendar.google.com/calendar/embed?src=6e6cc81260051a3c49fdf915c472f2d62576820129f0e0b2cacb7025ed62f960%40group.calendar.google.com" class="badge text-bg-light text-decoration-none"><?php echo _('ICS link'); ?></a>.
           </p>
         </div>
 
