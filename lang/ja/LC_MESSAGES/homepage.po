@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-02 12:27+0200\n"
-"PO-Revision-Date: 2024-07-11 12:59\n"
+"POT-Creation-Date: 2024-07-16 12:15+0200\n"
+"PO-Revision-Date: 2024-07-30 12:15\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -194,8 +194,8 @@ msgid "FreeCAD's development happens daily!"
 msgstr "FreeCAD の開発は毎日行われます！"
 
 #: downloads.php:112
-msgid "We generate builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
-msgstr "ユーザーが新機能とともにバグ修正/リグレッションをテストするために、 <i>最新</i>の FreeCAD コードに基づいてビルドを作成しています。"
+msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
+msgstr "ユーザーが新機能とともにバグ修正/リグレッションをテストできるように FreeCAD コミュニティーは <i>最新</i>の FreeCAD コードに基づいてビルドを毎週作成しています。"
 
 #: downloads.php:113
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
@@ -209,48 +209,44 @@ msgstr "これらのビルド版は実際の作業での使用には適してお
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
 msgstr "開発ビルド版は公式リリース版よりも動作が遅く、メモリを消費が多く、不安定な可能性が高いです。"
 
-#: downloads.php:116
-msgid "The following dev builds are available for different platforms/distributions:"
-msgstr "以下の開発ビルドは、異なるプラットフォーム/ディストリビューションで利用できます。"
-
-#: downloads.php:122
+#: downloads.php:118
 msgid "https://wiki.freecad.org/Snap"
 msgstr "https://wiki.freecad.org/Snap"
 
-#: downloads.php:123
+#: downloads.php:119
 msgid "https://wiki.freecad.org/Flatpak"
 msgstr "https://wiki.freecad.org/Flatpak"
 
-#: downloads.php:133
+#: downloads.php:130
 msgid "Additional modules and macros"
 msgstr "追加モジュールとマクロ"
 
-#: downloads.php:135
+#: downloads.php:132
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr "FreeCAD コミュニティーは追加モジュールやマクロを豊富に提供しています。FreeCAD で以下のツールを使って今すぐ簡単にインストールできます "
 
-#: downloads.php:137
+#: downloads.php:134
 msgid "https://wiki.freecad.org/Std_AddonMgr"
 msgstr "https://wiki.freecad.org/Std_AddonMgr"
 
-#: downloads.php:137
+#: downloads.php:134
 msgid "Addon manager."
 msgstr "アドオンマネージャー."
 
-#: downloads.php:147
+#: downloads.php:144
 msgid "Source code"
 msgstr "ソースコード"
 
-#: downloads.php:149
+#: downloads.php:146
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr "FreeCAD のソースコードは主に次でホストされています "
 
-#: downloads.php:151
+#: downloads.php:148
 msgid "and mirrored on "
 msgstr "また次でミラーされています "
 
-#: downloads.php:154
+#: downloads.php:151
 msgid "and "
 msgstr "および "
 
@@ -283,7 +279,7 @@ msgid "FreeCAD is made primarily to design objects for the real world. Everythin
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr "FreeCADは主に現実世界の物体をデザインするために作られています。FreeCAD 上で行うすべての作業はミクロン、キロメートル、インチ、フィートなど現実世界の単位を使用しており、あらゆる単位を組み合わせられます。高精度で信頼性が高いモデルを作成、編集し、それを3DプリントやCNC加工のためにエクスポートすることができます。また、モデルの2D図面やビューの作成、有限要素解析などの解析の実行、数量や部品表のエクスポートなどの機能をもった便利な<a href=https://wiki.freecad.org/Workbenches>ツール</a>もあります。"
+msgstr "FreeCADは主に現実世界の物体をデザインするために作られています。FreeCAD 上で行うすべての作業では、マイクロメートル、キロメートル、インチ、フィートなど現実世界の単位や、これら単位の組み合わせを使用します。FreeCadには、高精度で信頼性が高いモデルを作成、編集し、それを3DプリントやCNC加工のためにエクスポートしたり、2D図面や (3D) モデルの (2D表現) 図面を作成したり、有限要素解析などの解析を実行したり、数量や部品表のエクスポートしたりするための<a href=https://wiki.freecad.org/Workbenches>ツール</a>もあります。"
 
 #: features.php:40
 msgid "A powerful solid-based geometry kernel"
@@ -298,7 +294,7 @@ msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
 "              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
-msgstr "FreeCADは<a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>に基づいた高度なジオメトリーエンジンを使用しています。ソリッド、<a href=https://en.wikipedia.org/wiki/Boundary_representation>境界表現</a>（BRep）オブジェクト、<a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>非一様有理Bスプライン</a> （NURBS）による曲線や表面をサポートし、それらオブジェクトを作成、編集するための、<a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>ブーリアン</a>演算、 <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>フィレット</a>、形状クリーニングなどなどを含む幅広いツールを提供しています。"
+msgstr "FreeCADは<a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>に基づいた高度なジオメトリエンジンを使用しています。ソリッド、<a href=https://en.wikipedia.org/wiki/Boundary_representation>境界表現</a>（BRep）オブジェクト、<a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>非一様有理Bスプライン</a> （NURBS）による曲線や表面をサポートし、それらオブジェクトを作成、編集するための、<a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>ブーリアン</a>演算、 <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>フィレット</a>、形状クリーニングなどなどを含む幅広いツールを提供しています。"
 
 #: features.php:58
 msgid "A wi(l)dly parametric environment"
@@ -311,7 +307,7 @@ msgid "All FreeCAD objects are natively parametric, meaning their shape can be b
 "                a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing\n"
 "                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are\n"
 "                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>."
-msgstr "すべての FreeCAD オブジェクトはネイティブにパラメトリックであり、その形状は数値、テキスト、オン/オフボタン、他のオブジェクトなどの<a href=\"https://wiki.freecad.org/Property\" title=\"Property\">プロパティ</a>に基づいて作成できます。あらゆる形状変更は、必要に応じて再計算され、アンドゥ/リドゥスタックに記録され、正確なモデリング履歴を保持可能です。あるオブジェクトのプロパティで、他のオブジェクトのプロパティの値を変更でき、夢のように複雑なカスタムパラメトリックチェーンが可能になります。また新しいパラメトリックオブジェクトを<a href=https://wiki.freecad.org/Scripted_objects>簡単に作成</a>できます。"
+msgstr "すべての FreeCAD オブジェクトは本質的にパラメトリックです。本質的にパラメトリックとは、数値、テキスト、オン/オフボタン、さらには他のオブジェクトの<a href=\"https://wiki.freecad.org/Property\" title=\"Property\">プロパティ</a>に基づいてオブジェクトの形状を決定できる、ということです。あらゆる形状変更は必要に応じて再計算され、アンドゥ/リドゥスタックに記録され、正確なモデリング履歴を保持可能です。あるオブジェクトのプロパティを使って他のオブジェクトのプロパティの値を指定できるので、夢のように複雑なカスタムパラメトリックチェーンが可能になります。また新しいパラメトリックオブジェクトを<a href=https://wiki.freecad.org/Scripted_objects>簡単に作成</a>できます。"
 
 #: features.php:83
 msgid "Python everywhere"
@@ -385,7 +381,7 @@ msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\"
 "              <a href=\"https://wiki.freecad.org/External_workbenches\">add-on workbenches</a> and\n"
 "              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> developed by the users\n"
 "              community."
-msgstr "FreeCADは<a href=\"https://wiki.freecad.org/Part_Workbench\">CSGモデリング</a>、シンプルな<a href=\"https://wiki.freecad.org/Draft_Workbench\">2D-CAD製図</a>、<a href=\"https://wiki.freecad.org/Surface_Module\">NURBSモデリング</a>、<a href=\"https://wiki.freecad.org/Arch_Module\">建築やBIMモデリング</a>、<a href=\"https://wiki.freecad.org/Path_Workbench\">3Dプリンティング、CAMやCNC</a>、<a href=\"https://wiki.freecad.org/Points_Module\">点群</a>、<a href=\"https://wiki.freecad.org/OpenSCAD_Module\">OpenSCADファイル</a>との連携、<a href=\"https://wiki.freecad.org/Robot_Workbench\">工業用ロボットの軌道</a>設計、<a href=\"https://wiki.freecad.org/FEM_Module\">有限要素法</a>の実行など、様々な目的に特化した<a href=\"https://wiki.freecad.org/Workbenches\">ワークベンチ</a>を提供します。またFreeCADにはユーザーコミュニティーによって開発された <a href=\"https://wiki.freecad.org/External_workbenches\">アドオン・ワークベンチ</a>や<a href=\"https://wiki.freecad.org/Macros_recipes\">マクロ</a>をインストール、管理するための使いやすいツールも備えられています。"
+msgstr "FreeCADは<a href=\"https://wiki.freecad.org/Part_Workbench\">CSGモデリング</a>、シンプルな<a href=\"https://wiki.freecad.org/Draft_Workbench\">2D CAD製図</a>、<a href=\"https://wiki.freecad.org/Surface_Module\">NURBSモデリング</a>、<a href=\"https://wiki.freecad.org/Arch_Module\">建築やBIMモデリング</a>、<a href=\"https://wiki.freecad.org/Path_Workbench\">3Dプリンティング、CAMやCNC</a>、<a href=\"https://wiki.freecad.org/Points_Module\">点群</a>、<a href=\"https://wiki.freecad.org/OpenSCAD_Module\">OpenSCADファイル</a>との連携、<a href=\"https://wiki.freecad.org/Robot_Workbench\">工業用ロボットの軌道</a>設計、<a href=\"https://wiki.freecad.org/FEM_Module\">有限要素法</a>の実行など、様々な目的に特化した<a href=\"https://wiki.freecad.org/Workbenches\">ワークベンチ</a>を提供します。またFreeCADにはユーザーコミュニティーによって開発された <a href=\"https://wiki.freecad.org/External_workbenches\">拡張機能のワークベンチ</a>や<a href=\"https://wiki.freecad.org/Macros_recipes\">マクロ</a>をインストール、管理するための使いやすいツールも備えられています。"
 
 #: features.php:173
 msgid "https://wiki.freecad.org/Feature_list"
@@ -550,167 +546,167 @@ msgid "Improve this\n"
 "      page on GitHub"
 msgstr "GitHub でこのページを改善する"
 
-#: header.php:26 header.php:39
+#: header.php:22 header.php:35
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: あなたのための 3D パラメトリック・モデラー"
 
-#: header.php:75
+#: header.php:71
 msgid "Features"
 msgstr "特徴"
 
-#: header.php:79
+#: header.php:75
 msgid "Download"
 msgstr "ダウンロード"
 
-#: header.php:83
+#: header.php:79
 msgid "Blog"
 msgstr "ブログ"
 
-#: header.php:87
+#: header.php:83
 msgid "Documentation"
 msgstr "ドキュメント"
 
-#: header.php:90
+#: header.php:86
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page/ja"
 
-#: header.php:90
+#: header.php:86
 msgid "Documentation index"
 msgstr "ドキュメントの目次"
 
-#: header.php:91 thankyou.php:137
+#: header.php:87 thankyou.php:137
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:91
+#: header.php:87
 msgid "Getting started"
 msgstr "初めての方へ"
 
-#: header.php:92
+#: header.php:88
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:92
+#: header.php:88
 msgid "Users documentation"
 msgstr "ユーザー ドキュメント"
 
-#: header.php:93 thankyou.php:149
+#: header.php:89 thankyou.php:149
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:93
+#: header.php:89
 msgid "The FreeCAD manual"
 msgstr "FreeCAD マニュアル"
 
-#: header.php:94 thankyou.php:139
+#: header.php:90 thankyou.php:139
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches/ja"
 
-#: header.php:94 thankyou.php:139
+#: header.php:90 thankyou.php:139
 msgid "Workbenches documentation"
 msgstr "ワークベンチのドキュメント"
 
-#: header.php:95
+#: header.php:91
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:95
+#: header.php:91
 msgid "Python coding documentation"
 msgstr "Python コーディングドキュメント"
 
-#: header.php:96
+#: header.php:92
 msgid "https://wiki.freecad.org/Developer_hub"
-msgstr "https://wiki.freecad.org/Developer_hub/ja"
+msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:96
+#: header.php:92
 msgid "C++ coding documentation"
 msgstr "C++ コーディングドキュメント"
 
-#: header.php:97 thankyou.php:158
+#: header.php:93 thankyou.php:158
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:97 thankyou.php:158
+#: header.php:93 thankyou.php:158
 msgid "Tutorials"
 msgstr "チュートリアル"
 
-#: header.php:98 thankyou.php:140
+#: header.php:94 thankyou.php:140
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions/ja"
 
-#: header.php:98 thankyou.php:140
+#: header.php:94 thankyou.php:140
 msgid "Frequently asked questions"
 msgstr "よくある質問"
 
-#: header.php:99
+#: header.php:95
 msgid "Privacy policy"
 msgstr "プライバシーポリシー"
 
-#: header.php:100
+#: header.php:96
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/About_FreeCAD"
 
-#: header.php:100
+#: header.php:96
 msgid "About FreeCAD"
 msgstr "FreeCADについて"
 
-#: header.php:105
+#: header.php:101
 msgid "Contribute"
 msgstr "協力する"
 
-#: header.php:108
+#: header.php:104
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD/ja"
 
-#: header.php:108
+#: header.php:104
 msgid "How to help"
 msgstr "協力するには"
 
-#: header.php:109
+#: header.php:105
 msgid "Donate / Sponsor"
 msgstr "寄付/スポンサー"
 
-#: header.php:110
+#: header.php:106
 msgid "Report a bug"
 msgstr "バグを報告"
 
-#: header.php:111
+#: header.php:107
 msgid "Make a pull request"
 msgstr "プルリクエストを作成"
 
-#: header.php:112
+#: header.php:108
 msgid "Jobs and funding"
 msgstr "雇用と資金援助"
 
-#: header.php:113
+#: header.php:109
 msgid "Contribution guidelines"
 msgstr "コントリビューション ガイドライン"
 
-#: header.php:114
+#: header.php:110
 msgid "Developers handbook"
 msgstr "開発者ハンドブック"
 
-#: header.php:115
+#: header.php:111
 msgid "https://wiki.freecad.org/Localisation"
 msgstr "https://wiki.freecad.org/Localisation"
 
-#: header.php:115
+#: header.php:111
 msgid "Translations"
 msgstr "翻訳"
 
-#: header.php:120
+#: header.php:116
 msgid "Community"
 msgstr "コミュニティ"
 
-#: header.php:123
+#: header.php:119
 msgid "Code of conduct"
 msgstr "行動規範"
 
-#: header.php:124
+#: header.php:120
 msgid "Forum"
 msgstr "フォーラム"
 
-#: header.php:139
+#: header.php:135
 msgid "Calendar"
 msgstr "カレンダー"
 
@@ -1024,7 +1020,7 @@ msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
 "            It covers everything from installing and launching FreeCAD, using it\n"
 "            and its different workbenches, up to creating Python scripts to\n"
 "            automate it and developing your own tools and extensions."
-msgstr "FreeCAD を初めて使う方、3D CAD モデリングが初めての方、任せてください！　FreeCAD には<a href=\"https://wiki.freecad.org\">豊富なドキュメント</a>があり、オンラインからでも、直接 FreeCAD アプリケーション内からでも利用できます。FreeCAD のインストールと起動から、さまざまなワークベンチ、自動化や独自のツール・拡張の開発を行なうための Python スクリプトまで、すべてが網羅されています。"
+msgstr "FreeCADは、3D CADの初心者を応援しています。FreeCADには、<a href=https://wiki.freecad.org>豊富なドキュメント</a>があり、オンラインでも利用できますが、FreeCADアプリケーション内でも直接利用できます。ドキュメントはFreeCADのインストールから起動、さまざまなワークベンチの使用方法、自動化するためのPythonスクリプトの作成、独自のツールや拡張機能の開発まで、すべてを網羅しています。"
 
 #: thankyou.php:128
 msgid "Below are some pages of this documentation that could\n"
@@ -1106,151 +1102,151 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            the FreeCAD world."
 msgstr "FreeCAD で問題にであったり、他のユーザーと議論をしたいと思ったら <a href=\"https://forum.freecad.org\">FreeCAD フォーラム</a>を訪問してください。このフォーラムは世界中のさまざまな習熟度の FreeCAD ユーザーの一番の集会場です。より習熟したユーザーによるアドバイスを得たり、特定の問題の解決方法を見つけ出したり、FreeCAD の世界に関するアイデアを議論したりできます。"
 
-#: translation.php:67
+#: translation.php:68
 msgid "English"
 msgstr "英語"
 
-#: translation.php:68
+#: translation.php:69
 msgid "Afrikaans"
 msgstr "アフリカーンス語"
 
-#: translation.php:69
+#: translation.php:70
 msgid "Arabic"
 msgstr "アラビア語"
 
-#: translation.php:70
+#: translation.php:71
 msgid "Belarusian"
 msgstr "ベラルーシ語"
 
-#: translation.php:71
+#: translation.php:72
 msgid "Catalan"
 msgstr "カタロニア語"
 
-#: translation.php:72
+#: translation.php:73
 msgid "Czech"
 msgstr "チェコ語"
 
-#: translation.php:73
+#: translation.php:74
 msgid "German"
 msgstr "ドイツ語"
 
-#: translation.php:74
+#: translation.php:75
 msgid "Greek"
 msgstr "ギリシャ語"
 
-#: translation.php:75 translation.php:76
+#: translation.php:76 translation.php:77
 msgid "Spanish"
 msgstr "スペイン語"
 
-#: translation.php:77
+#: translation.php:78
 msgid "Basque"
 msgstr "バスク語"
 
-#: translation.php:78
+#: translation.php:79
 msgid "Finnish"
 msgstr "フィンランド語"
 
-#: translation.php:79
+#: translation.php:80
 msgid "Filipino"
 msgstr "フィリピン語"
 
-#: translation.php:80
+#: translation.php:81
 msgid "French"
 msgstr "フランス語"
 
-#: translation.php:81
+#: translation.php:82
 msgid "Galician"
 msgstr "ガリシア語"
 
-#: translation.php:82
+#: translation.php:83
 msgid "Croatian"
 msgstr "クロアチア語"
 
-#: translation.php:83
+#: translation.php:84
 msgid "Hungarian"
 msgstr "ハンガリー語"
 
-#: translation.php:84
+#: translation.php:85
 msgid "Indonesian"
 msgstr "インドネシア語"
 
-#: translation.php:85
+#: translation.php:86
 msgid "Italian"
 msgstr "イタリア語"
 
-#: translation.php:86
+#: translation.php:87
 msgid "Japanese"
 msgstr "日本語"
 
-#: translation.php:87
+#: translation.php:88
 msgid "Kabyle"
 msgstr "カビル語"
 
-#: translation.php:88
+#: translation.php:89
 msgid "Korean"
 msgstr "韓国語"
 
-#: translation.php:89
+#: translation.php:90
 msgid "Lithuanian"
 msgstr "リトアニア語"
 
-#: translation.php:90
+#: translation.php:91
 msgid "Dutch"
 msgstr "オランダ語"
 
-#: translation.php:91
+#: translation.php:92
 msgid "Norwegian Bokmal"
 msgstr "ブークモール・ノルウェー語"
 
-#: translation.php:92
+#: translation.php:93
 msgid "Polish"
 msgstr "ポーランド語"
 
-#: translation.php:93 translation.php:94
+#: translation.php:94 translation.php:95
 msgid "Portuguese"
 msgstr "ポルトガル語"
 
-#: translation.php:95
+#: translation.php:96
 msgid "Romanian"
 msgstr "ルーマニア語"
 
-#: translation.php:96
+#: translation.php:97
 msgid "Russian"
 msgstr "ロシア語"
 
-#: translation.php:97
+#: translation.php:98
 msgid "Slovak"
 msgstr "スロバキア語"
 
-#: translation.php:98
+#: translation.php:99
 msgid "Slovenian"
 msgstr "スロベニア語"
 
-#: translation.php:99
+#: translation.php:100
 msgid "Serbian"
 msgstr "セルビア語"
 
-#: translation.php:100
+#: translation.php:101
 msgid "Swedish"
 msgstr "スウェーデン語"
 
-#: translation.php:101
+#: translation.php:102
 msgid "Turkish"
 msgstr "トルコ語"
 
-#: translation.php:102
+#: translation.php:103
 msgid "Ukrainian"
 msgstr "ウクライナ語"
 
-#: translation.php:103
+#: translation.php:104
 msgid "Valencian"
 msgstr "バレンシア語"
 
-#: translation.php:104
+#: translation.php:105
 msgid "Vietnamese"
 msgstr "ベトナム語"
 
-#: translation.php:105 translation.php:106
+#: translation.php:106 translation.php:107
 msgid "Chinese"
 msgstr "中国語"
 
