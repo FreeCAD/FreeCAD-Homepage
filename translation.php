@@ -52,7 +52,18 @@ bindtextdomain("homepage", "lang");
 textdomain("homepage");
 bind_textdomain_codeset("homepage", 'UTF-8');
 
-function getFlags($href='/') {
+$flagcode = $lang;
+
+if (!file_exists('lang/'.$flagcode."/flag.jpg")) {
+if (strpos($flagcode, '_') !== false) {
+$flagcode = explode("_", $flagcode)[0];
+}
+}
+$langattrib = "";
+$langStr = "";
+if ($_GET["lang"] != "") {$langStr = "?lang=".$_GET["lang"];
+    $langattrib = "&lang=".$_GET["lang"];
+}function getFlags($href='/') {
     echo('						<a class="dropdown-item" href="'.$href.'"><img src="lang/en/flag.jpg"/>'._('English').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=af"><img src="lang/af/flag.jpg"/>'._('Afrikaans').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=ar"><img src="lang/ar/flag.jpg"/>'._('Arabic').'</a>');

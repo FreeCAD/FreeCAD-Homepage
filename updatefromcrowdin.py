@@ -141,6 +141,10 @@ def generatePHP(lcodes):
     phpfile.write("$locale = isset($localeMap[$lang]) ? $localeMap[$lang] : $lang;\nputenv(\"LC_ALL=$locale\");\n")
     phpfile.write("setlocale(LC_ALL, $locale);\nbindtextdomain(\"homepage\", \"lang\");\n")
     phpfile.write("textdomain(\"homepage\");\nbind_textdomain_codeset(\"homepage\", 'UTF-8');\n\n")
+    phpfile.write("$flagcode = $lang;\n\nif (!file_exists('lang/'.$flagcode.\"/flag.jpg\")) {\n")
+    phpfile.write("if (strpos($flagcode, '_') !== false) {\n$flagcode = explode(\"_\", $flagcode)[0];\n}\n}\n")
+    phpfile.write("$langattrib = \"\";\n$langStr = \"\";\nif ($_GET[\"lang\"] != \"\") {")
+    phpfile.write("$langStr = \"?lang=\".$_GET[\"lang\"];\n    $langattrib = \"&lang=\".$_GET[\"lang\"];\n}")
     phpfile.write("function getFlags($href='/') {\n")
 
     phpfile.write("    echo('						<a class=\"dropdown-item\" href=\"'.$href.'\"><img src=\"lang/en/flag.jpg\"/>'._('English').'</a>');\n")
