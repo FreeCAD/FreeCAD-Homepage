@@ -37,7 +37,7 @@
       <a href="<?php echo $sponsorurl; ?>"><?php echo _('other sponsors'); ?></a>
     </p>
 
-    <div class="float-sm-right">
+    <div class="float-sm-end">
     <a id="githubLink" href="#"><img class="icon-social m-3" src="svg/icon-github-light.svg" alt="GitHub" /><?php echo _('Improve this
       page on GitHub'); ?></a>
     <?php
@@ -50,9 +50,7 @@
   </footer>
 
   <!-- Include Bootstrap JS files -->
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/popper-1.14.7.min.js"></script>
-  <script src="js/bootstrap-4.3.1.min.js"></script>
+  <script src="js/bootstrap-5.3.3.bundle.min.js"></script>
 
 </body>
 </html>

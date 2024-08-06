@@ -97,7 +97,7 @@
     <div class="download-notes text-center">
       <p>
         <?php echo _("See what has changed since last version in the"); ?>
-        <a class="badge badge-light" href="<?php echo _('https://wiki.freecad.org/Release_notes_0.21'); ?>"><?php echo _('FreeCAD 0.21 release notes'); ?></a>
+        <a class="badge text-bg-light text-decoration-none" href="<?php echo _('https://wiki.freecad.org/Release_notes_0.21'); ?>"><?php echo _('FreeCAD 0.21 release notes'); ?></a>
       </p>
     </div>
 
@@ -114,10 +114,10 @@
         <?php echo _("These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."); ?>
         <?php echo _("Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."); ?>
         <br/><br/>
-        <a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge badge-light"><?php echo ('Download here a weekly build for Windows, macOS or Linux'); ?></a>
-        . <?php echo ("On Linux"); ?>, <a href="<?php echo _('https://wiki.freecad.org/Snap'); ?>" class="badge badge-light"><?php echo ('Snap'); ?></a>
-        and <a href="<?php echo _('https://wiki.freecad.org/Flatpak'); ?>" class="badge badge-light"><?php echo ('Flatpak'); ?></a>
-        <?php echo ("also provide developement channels"); ?>.
+        <?php echo _('Download here a '); ?><a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge text-bg-light text-decoration-none"><?php echo _('Weekly Build'); ?></a><?php echo _(' for Windows, macOS or Linux. '); ?>
+        <?php echo _("On Linux"); ?>, <a href="<?php echo _('https://wiki.freecad.org/Snap'); ?>" class="badge text-bg-light text-decoration-none"><?php echo ('Snap'); ?></a>
+        <?php echo _("and"); ?> <a href="<?php echo _('https://wiki.freecad.org/Flatpak'); ?>" class="badge text-bg-light text-decoration-none"><?php echo ('Flatpak'); ?></a>
+        <?php echo _("also provide developement channels"); ?>.
         <br /><br />
       </p>
     </div>
@@ -131,7 +131,7 @@
       <p>
         <?php echo _('The FreeCAD community provides a wealth of additional modules and macros. They can
         now easily be installed directly from within FreeCAD using the '); ?>
-        <a href="<?php echo _('https://wiki.freecad.org/Std_AddonMgr'); ?>" class="badge badge-light"><?php echo _('Addon manager.'); ?></a>
+        <a href="<?php echo _('https://wiki.freecad.org/Std_AddonMgr'); ?>" class="badge text-bg-light text-decoration-none"><?php echo _('Addon manager.'); ?></a>
       </p>
     </div>
 
@@ -144,12 +144,12 @@
       <h2 class="downloads-notes-title"><?php echo _('Source code'); ?></h2>
       <p>
         <?php echo _('The source code of FreeCAD is hosted primarily on '); ?>
-        <a href="https://github.com/FreeCAD/FreeCAD" class="badge badge-light">GitHub</a>
+        <a href="https://github.com/FreeCAD/FreeCAD" class="badge text-bg-light text-decoration-none">GitHub</a>
         <?php echo _('and mirrored on '); ?>
-        <a href="https://gitlab.com/FreeCAD/FreeCAD" class="badge badge-light">GitLab</a>,
-        <a href="https://codeberg.org/FreeCAD/FreeCAD" class="badge badge-light">Codeberg</a>
+        <a href="https://gitlab.com/FreeCAD/FreeCAD" class="badge text-bg-light text-decoration-none">GitLab</a>,
+        <a href="https://codeberg.org/FreeCAD/FreeCAD" class="badge text-bg-light text-decoration-none">Codeberg</a>
         <?php echo _('and '); ?>
-        <a href="https://sourceforge.net/projects/free-cad/" class="badge badge-light">Sourceforge</a>
+        <a href="https://sourceforge.net/projects/free-cad/" class="badge text-bg-light text-decoration-none">Sourceforge</a>
       </p>
     </div>
 

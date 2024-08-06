@@ -64,6 +64,7 @@
              <!--<option value="eur">EUR</option>-->
       </select>
       <br/>
+      <br/>
       <label for="method"><?php echo _('Donation method'); ?>:</label>
       <select id="method" name="method" onClick="process(this)">
              <option value="null" selected><?php echo _('Please choose'); ?>...</option>
@@ -73,6 +74,7 @@
              <option value="github" title="<?php echo _('GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card') ?>"><?php echo _('GitHub'); ?></option>
              <option value="opencollective" title="<?php echo _('OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US.') ?>"><?php echo _('OpenCollective (501(c)3)'); ?></option>
       </select>
+      <br/>
       <br/>
       <div class="sepainfo hidden">
           <b><?php echo _('SEPA Information'); ?></b><br/>
