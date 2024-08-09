@@ -12,6 +12,21 @@
             window.location = durl;
             return false;
         }
+        function setOrder(firstDiv, lastDiv) {
+            firstDiv.classList.add('order-first');
+            lastDiv.classList.add('order-last');
+        }
+        document.addEventListener("DOMContentLoaded", function() {
+            var userAgent = window.navigator.userAgent;
+            var windowsDiv = document.getElementById('windows');
+            var linuxDiv = document.getElementById('linux');
+            var macDiv = document.getElementById('mac');
+            if (userAgent.includes('Win')) {
+                setOrder(macDiv, linuxDiv);
+            } else if (userAgent.includes('Lin')) {
+                setOrder(windowsDiv, macDiv);
+            }
+        });
     </script>
 
     <div id="main" class="container-fluid">
@@ -25,23 +40,23 @@
       <p><?php echo _('Select your desired platform (note that all downloads are for 64-bit systems):'); ?></p>
 
     </div>
+    <div class="row mx-auto download-platform">
 
     <!-- ------- -->
     <!-- Windows -->
     <!-- ------- -->
 
-    <div class="row mx-auto download-platform">
-      <div class="col-sm-6 col-lg-4 my-4">
+      <div id="windows" class="col-sm-6 col-lg-4 my-4">
         <div class="card text-dark">
-          <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
-            <img class="w-100 p-4" src="svg/icon-windows.svg" alt="Windows">
+          <div class="card-body d-block align-items-center text-center">
+            <img class="w-75" src="svg/icon-windows.svg" alt="Windows">
             <h3 class="card-title download-platform-name m-0 pb-3">Windows</h3>
             <div class="flex-column flex-lg-row">
               <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-WIN-x64-installer-1.exe">64-bit installer</a>
               <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-Windows-x86_64.7z">64-bit portable (.7z)</a>
             </div>
           </div>
-          <div class="card-footer px-xl-5 py-xl-4">
+          <div class="card-footer">
             <small class="text-muted">
               <?php echo _('Windows 7 is the minimum supported version. For more info on installation, please check out the '); ?>
               <a href="<?php echo _('https://wiki.freecad.org/Install_on_Windows'); ?>"><?php echo _('wiki'); ?></a>.
@@ -54,15 +69,15 @@
       <!-- MacOS -->
       <!-- ----- -->
 
-      <div class="col-sm-6 col-lg-4 my-4">
+      <div id="mac" class="col-sm-6 col-lg-4 my-4">
         <div class="card text-dark">
-          <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
-            <img class="w-100 p-4" src="svg/icon-apple.svg" alt="Mac">
+          <div class="card-body d-block align-items-center text-center">
+            <img class="w-75" src="svg/icon-apple.svg" alt="Mac">
             <h3 class="card-title download-platform-name m-0 pb-3">Mac</h3>
             <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-macOS-arm64.dmg">ARM (M1/M2) disk image</a>
             <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-macOS-intel-x86_64.dmg">Intel disk image</a>
           </div>
-          <div class="card-footer px-xl-5 py-xl-4">
+          <div class="card-footer">
             <small class="text-muted">
               <?php echo _('Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the '); ?>
               <a href="<?php echo _('https://wiki.freecad.org/Install_on_Mac'); ?>"><?php echo _('wiki'); ?></a>.
@@ -75,15 +90,15 @@
       <!-- Linux/AppImage -->
       <!-- -------------- -->
 
-      <div class="col-sm-6 col-lg-4 my-4">
+      <div id="linux" class="col-sm-6 col-lg-4 my-4">
         <div class="card text-dark">
-          <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
-            <img class="w-100 p-4" src="svg/icon-linux.svg" alt="Linux">
+          <div class="card-body d-block align-items-center text-center">
+            <img class="w-75" src="svg/icon-linux.svg" alt="Linux">
             <h3 class="card-title download-platform-name m-0 pb-3">Linux</h3>
             <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-Linux-x86_64.AppImage">x86_64 AppImage</a>
             <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-Linux-aarch64.AppImage">aarch64 AppImage</a>
           </div>
-          <div class="card-footer px-xl-5 py-xl-4">
+          <div class="card-footer">
             <small class="text-muted">
               <?php echo _('In some distros you might need to install fuse to be able to run the AppImage bundles.'); ?>
               <?php echo _('For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the '); ?>
