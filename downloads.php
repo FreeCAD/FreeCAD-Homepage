@@ -26,7 +26,7 @@
             } else if (userAgent.includes('Lin')) {
                 setOrder(windowsDiv, macDiv);
             }
-        });		
+        });
     </script>
 
     <div id="main" class="container-fluid">
