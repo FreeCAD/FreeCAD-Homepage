@@ -12,6 +12,21 @@
             window.location = durl;
             return false;
         }
+        function setOrder(firstDiv, lastDiv) {
+            firstDiv.classList.add('order-first');
+            lastDiv.classList.add('order-last');
+        }
+        document.addEventListener("DOMContentLoaded", function() {
+            var userAgent = window.navigator.userAgent;
+            var windowsDiv = document.getElementById('windows');
+            var linuxDiv = document.getElementById('linux');
+            var macDiv = document.getElementById('mac');
+            if (userAgent.includes('Win')) {
+                setOrder(macDiv, linuxDiv);
+            } else if (userAgent.includes('Lin')) {
+                setOrder(windowsDiv, macDiv);
+            }
+        });		
     </script>
 
     <div id="main" class="container-fluid">
@@ -25,13 +40,13 @@
       <p><?php echo _('Select your desired platform (note that all downloads are for 64-bit systems):'); ?></p>
 
     </div>
+    <div class="row mx-auto download-platform">
 
     <!-- ------- -->
     <!-- Windows -->
     <!-- ------- -->
 
-    <div class="row mx-auto download-platform">
-      <div class="col-sm-6 col-lg-4 my-4">
+      <div id="windows" class="col-sm-6 col-lg-4 my-4">
         <div class="card text-dark">
           <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
             <img class="w-100 p-4" src="svg/icon-windows.svg" alt="Windows">
@@ -54,7 +69,7 @@
       <!-- MacOS -->
       <!-- ----- -->
 
-      <div class="col-sm-6 col-lg-4 my-4">
+      <div id="mac" class="col-sm-6 col-lg-4 my-4">
         <div class="card text-dark">
           <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
             <img class="w-100 p-4" src="svg/icon-apple.svg" alt="Mac">
@@ -75,7 +90,7 @@
       <!-- Linux/AppImage -->
       <!-- -------------- -->
 
-      <div class="col-sm-6 col-lg-4 my-4">
+      <div id="linux" class="col-sm-6 col-lg-4 my-4">
         <div class="card text-dark">
           <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
             <img class="w-100 p-4" src="svg/icon-linux.svg" alt="Linux">
