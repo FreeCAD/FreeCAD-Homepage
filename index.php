@@ -12,7 +12,7 @@
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl);
         });
-    });	
+    });
   </script>
 
   <div id="main" class="container-fluid">
