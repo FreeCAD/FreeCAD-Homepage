@@ -7,6 +7,12 @@
     function onClickArrow() {
         document.getElementById('belowArrow').scrollIntoView();
     }
+    document.addEventListener('DOMContentLoaded', function () {
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    });	
   </script>
 
   <div id="main" class="container-fluid">
@@ -30,7 +36,7 @@
     <a id="belowArrow"></a>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 rounded model-backround p-2">
+      <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="ppemawm">
         <img class="img-fluid" src="images/screenshot-01.avif" alt="Screenshot 1"/>
       </div>
 
@@ -46,7 +52,7 @@
     </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 order-lg-last rounded model-backround p-2">
+      <div class="col-lg-7 order-lg-last rounded model-backround p-2" data-bs-toggle="tooltip" title="r-frank">
         <img class="img-fluid" src="images/screenshot-07.avif" alt="Screenshot 7"/>
       </div>
 
@@ -62,7 +68,7 @@
     </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 rounded model-backround p-2">
+      <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="epileftric">
         <img class="img-fluid" src="images/screenshot-03.avif" alt="Screenshot 3"/>
       </div>
 
@@ -79,7 +85,7 @@
     </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 order-lg-last rounded model-backround p-2">
+      <div class="col-lg-7 order-lg-last rounded model-backround p-2" data-bs-toggle="tooltip" title="regis">
         <img class="img-fluid" src="images/screenshot-08.avif" alt="Screenshot 8"/>
       </div>
 
@@ -95,7 +101,7 @@
     </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 rounded model-backround p-2">
+      <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="rider_mortagnais">
         <img class="img-fluid" src="images/screenshot-05.avif" alt="Screenshot 5"/>
       </div>
 
@@ -116,7 +122,7 @@
     </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 order-lg-last rounded model-backround p-2">
+      <div class="col-lg-7 order-lg-last rounded model-backround p-2" data-bs-toggle="tooltip" title="bejant">
         <img class="img-fluid" src="images/screenshot-06.avif" alt="Screenshot 6"/>
       </div>
 
