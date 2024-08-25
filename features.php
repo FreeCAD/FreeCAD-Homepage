@@ -14,7 +14,7 @@
               window.addEventListener('scroll', function() {
                   handleScroll(animatedSpriteElement);
               });
-              handleScroll(animatedSpriteElement); 
+              handleScroll(animatedSpriteElement);
           });
       });
 
