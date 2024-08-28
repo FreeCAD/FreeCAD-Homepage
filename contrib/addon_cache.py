@@ -129,12 +129,19 @@ class CacheWriter:
             command = ["git", "fetch"]
             completed_process = subprocess.run(command)
             if completed_process.returncode != 0:
+                os.chdir(old_dir)
                 raise RuntimeError(f"git fetch failed for {name}")
             command = ["git", "checkout", branch, "--quiet"]
             completed_process = subprocess.run(command)
-            os.chdir(old_dir)
             if completed_process.returncode != 0:
+                os.chdir(old_dir)
                 raise RuntimeError(f"git checkout failed for {name} branch {branch}")
+            command = ["git", "merge", "--quiet"]
+            completed_process = subprocess.run(command)
+            if completed_process.returncode != 0:
+                os.chdir(old_dir)
+                raise RuntimeError(f"git merge failed for {name} branch {branch}")
+            os.chdir(old_dir)
 
     @staticmethod
     def read_metadata_files(submodules: List[str]) -> Dict[str, Dict[str, str]]:
