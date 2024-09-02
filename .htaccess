@@ -26,3 +26,7 @@ RedirectPermanent /download.php /downloads
 RedirectPermanent /download /downloads
 
 ErrorDocument 404 /404.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /404.php [L]
