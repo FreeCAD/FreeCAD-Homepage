@@ -144,19 +144,7 @@
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('Assembly solutions for every need'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _('FreeCAD offers since long several great community-made add-on assembly
-                  workbenches that use different solvers and even solver-free workflows to assemble the
-                  parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also included,
-                  based on the
-                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.
-                  This workbench allows to define 3D constraints between parts, assemble the different
-                  components of a model, and animate everything.'); ?>
-                  and even solver-free workflows made by the community to assemble the parts you create.
-                  There are also some really interesting solutions outside of the workbenches.
-                  The project of having an internal assembly workbench that has been going on since day one
-                  didn’t happen due to some problems with the existing solvers, but now we have
-                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.
-                  And now with version 1.0 you have an assembly workbench right out of the box.'); ?>
+              <?php echo _('FreeCad offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box.'); ?>
             </p>
           </div>
         </section>
@@ -175,9 +163,7 @@
           <div class="col-lg-6 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('Also for architects'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _('Until version 1.0, FreeCad had a built-in Arch workbench and an external BIM workbench
-                  added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench.
-                  Now you can do your building and construction related projects right out of the box.'); ?>
+              <?php echo _('Until version 1.0, FreeCad had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box.'); ?>
             </p>
           </div>
         </section>
