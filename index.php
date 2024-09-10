@@ -36,7 +36,7 @@
     <a id="belowArrow"></a>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="ppemawm">
+      <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Modelled by ppemawm'); ?>">
         <img class="img-fluid" src="images/screenshot-01.avif" alt="Screenshot 1"/>
       </div>
 
@@ -52,7 +52,7 @@
     </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 order-lg-last rounded model-backround p-2" data-bs-toggle="tooltip" title="r-frank">
+      <div class="col-lg-7 order-lg-last rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Modelled by r-frank'); ?>">
         <img class="img-fluid" src="images/screenshot-07.avif" alt="Screenshot 7"/>
       </div>
 
@@ -68,7 +68,7 @@
     </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="epileftric">
+      <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Modelled by epileftric'); ?>">
         <img class="img-fluid" src="images/screenshot-03.avif" alt="Screenshot 3"/>
       </div>
 
@@ -85,7 +85,7 @@
     </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 order-lg-last rounded model-backround p-2" data-bs-toggle="tooltip" title="regis">
+      <div class="col-lg-7 order-lg-last rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Modelled by regis'); ?>">
         <img class="img-fluid" src="images/screenshot-08.avif" alt="Screenshot 8"/>
       </div>
 
@@ -101,7 +101,7 @@
     </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="rider_mortagnais">
+      <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Modelled by rider_mortagnais'); ?>">
         <img class="img-fluid" src="images/screenshot-05.avif" alt="Screenshot 5"/>
       </div>
 
@@ -122,7 +122,7 @@
     </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 order-lg-last rounded model-backround p-2" data-bs-toggle="tooltip" title="bejant">
+      <div class="col-lg-7 order-lg-last rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Modelled by bejant'); ?>">
         <img class="img-fluid" src="images/screenshot-06.avif" alt="Screenshot 6"/>
       </div>
 
