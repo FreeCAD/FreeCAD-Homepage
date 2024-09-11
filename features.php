@@ -3,6 +3,63 @@
     include("header.php");
 ?>
 
+  <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          var animatedSpriteElements = document.querySelectorAll('.animated-sprite');
+
+          animatedSpriteElements.forEach(function(animatedSpriteElement) {
+              setAspectRatio(animatedSpriteElement);
+              setBackgroundSize(animatedSpriteElement);
+
+              window.addEventListener('scroll', function() {
+                  handleScroll(animatedSpriteElement);
+              });
+              handleScroll(animatedSpriteElement);
+          });
+      });
+
+  function setAspectRatio(element) {
+      var frameWidth = parseInt(element.getAttribute('data-frame-width'), 10);
+      var frameHeight = parseInt(element.getAttribute('data-frame-height'), 10);
+
+      if (frameWidth && frameHeight) {
+          var aspectRatioPercentage = (frameHeight / frameWidth) * 100;
+          element.style.setProperty('--bs-aspect-ratio', aspectRatioPercentage + '%');
+      }
+  }
+
+  function setBackgroundSize(element) {
+      var frameCount = parseInt(element.getAttribute('data-frame-count'), 10);
+      var framesPerRow = parseInt(element.getAttribute('data-frames-per-row'), 10) || frameCount;
+
+      var backgroundSizePercentage = framesPerRow * 100;
+      element.style.backgroundSize = backgroundSizePercentage + '% auto';
+  }
+
+  function handleScroll(element) {
+      var frameCount = parseInt(element.getAttribute('data-frame-count'), 10);
+      var elementRect = element.getBoundingClientRect();
+      var elementTopPosition = elementRect.top;
+      var viewportHeight = window.innerHeight;
+
+      var scrollProgress = (elementTopPosition - viewportHeight * 0.2) / (viewportHeight * 0.5);
+      scrollProgress = 1 - Math.max(0, Math.min(1, scrollProgress));
+      var currentFrame = Math.floor(scrollProgress * (frameCount - 1));
+
+      updateBackgroundPosition(element, currentFrame);
+  }
+
+  function updateBackgroundPosition(element, frame) {
+      var frameCount = parseInt(element.getAttribute('data-frame-count'), 10);
+      var framesPerRow = parseInt(element.getAttribute('data-frames-per-row'), 10) || frameCount;
+
+      var backgroundPositionX = -(frame % framesPerRow) * 100;
+      var backgroundPositionY = -Math.floor(frame / framesPerRow) * 100;
+
+      element.style.backgroundPosition = backgroundPositionX + '% ' + backgroundPositionY + '%';
+  }
+  </script>
+
     <div id="main" class="container-fluid">
 
         <div class="download-notes text-center">
@@ -72,6 +129,46 @@
         </section>
 
 
+        <section class="row section d-flex align-items-center justify-content-around rounded">
+
+          <div class="col-lg-4 d-flex justify-content-center rounded model-backround p-2">
+            <div class="animated-sprite ratio"
+                data-frame-count="121"
+                data-frames-per-row="12"
+                data-frame-width="413"
+                data-frame-height="400"
+                style="background-image: url('images/wooden-folding-table-spritesheet.avif')">
+            </div>
+          </div>
+
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+            <h3 class="section-title mt-3"><?php echo _('Assembly solutions for every need'); ?></h3>
+            <p class="section-body whitelinks">
+              <?php echo _('FreeCad offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box.'); ?>
+            </p>
+          </div>
+        </section>
+
+
+        <section class="row section d-flex align-items-center justify-content-around rounded">
+
+          <div class="col-lg-5 order-lg-last d-flex justify-content-center rounded model-backround p-2">
+            <div class="animated-sprite ratio ratio-16x9"
+                data-frame-count="72"
+                data-frames-per-row="12"
+                style="background-image: url('images/bim-spritesheet.avif')">
+            </div>
+          </div>
+
+          <div class="col-lg-6 text-light text-center text-lg-start px-md-4 rounded text-backround">
+            <h3 class="section-title mt-3"><?php echo _('Also for architects'); ?></h3>
+            <p class="section-body whitelinks">
+              <?php echo _('Until version 1.0, FreeCad had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box.'); ?>
+            </p>
+          </div>
+        </section>
+
+
         <section class="row section d-flex justify-content-around rounded">
 
           <div class="col-lg-4 d-flex justify-content-center rounded model-backround p-2">
@@ -91,7 +188,6 @@
             </p>
           </div>
         </section>
-
 
 
         <section class="row section d-flex justify-content-around rounded">
