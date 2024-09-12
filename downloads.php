@@ -94,10 +94,25 @@
       </div>
     </div> <!-- class="row mx-auto download-platform" -->
 
+    <!-- ------------- -->
+    <!-- RELEASE NOTES -->
+    <!-- ------------- -->
+
     <div class="download-notes text-center">
       <p>
         <?php echo _("See what has changed since last version in the"); ?>
         <a class="badge text-bg-light text-decoration-none" href="<?php echo _('https://wiki.freecad.org/Release_notes_0.21'); ?>"><?php echo _('FreeCAD 0.21 release notes'); ?></a>
+      </p>
+    </div>
+
+    <!-- ------------- -->
+    <!-- NEXT VERSION  -->
+    <!-- ------------- -->
+
+    <div class="download-notes text-center">
+      <p>
+        <?php echo _("The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs:"); ?>
+        <a class="badge text-bg-light text-decoration-none" href="<?php echo _('https://blog.freecad.org/2024/09/10/the-first-release-candidate-of-freecad-1-0-is-out/'); ?>"><?php echo _('Download and try a 1.0 Release Candidate build!'); ?></a>
       </p>
     </div>
 
