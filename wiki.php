@@ -49,11 +49,19 @@ pre, .mw-code {
     text-align: center;
 }
 
-figure[typeof~="mw:File"].mw-halign-left,
-figure[typeof~="mw:File/Frameless"].mw-halign-left {
-    margin: 0 0.5em 0.5em 0;
-    clear: left;
-    float: left;
+figure[typeof~="mw:File/Thumb"],
+figure[typeof~="mw:File/Frame"] {
+    margin: 0.5em 0 1.3em 1.4em;
+    clear: right;
+    float: right;
+    background-color: rgba(52, 58, 64, 0.5);
+}
+
+figure[typeof~="mw:File/Thumb"].mw-halign-left, 
+figure[typeof~="mw:File/Frame"].mw-halign-left {
+  margin: 0.5em 1.4em 1.3em 0;
+  clear: left;
+  float: left;
 }
 
 figure[typeof~="mw:File"].mw-halign-center,
@@ -68,14 +76,6 @@ figure[typeof~="mw:File/Frameless"].mw-halign-center {
 figure[typeof~="mw:File"] > figcaption,
 figure[typeof~="mw:File/Frameless"] > figcaption {
     display: none;
-}
-
-figure[typeof~="mw:File/Thumb"],
-figure[typeof~="mw:File/Frame"] {
-    margin: 0.5em 0 1.3em 1.4em;
-    clear: right;
-    float: right;
-    background-color: rgba(52, 58, 64, 0.5);
 }
 
 .mw-selflink {
@@ -96,6 +96,7 @@ li.gallerybox {
 .docnav, .manualtoc {
     overflow: hidden;
     background-color: rgba(52, 58, 64, 0.5);
+	clear: both;
 }
 
 .mw-parser-output img {
@@ -139,6 +140,11 @@ li.gallerybox {
     font-weight: bold;
 }
 
+blockquote {
+  border-left: 4px solid #eaecf0;
+  padding: 8px 32px;
+}
+
 @media (max-width: 786px) {
     .mw-parser-output img {
         max-width: 100%;
@@ -148,9 +154,7 @@ li.gallerybox {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
     }
-
 }
-
 
 </style>
 
@@ -227,7 +231,7 @@ function convertRelativeLinksToWikiFormat($xpath, $lang = 'en') {
             $hashPart = '';
             if (strpos($href, '#') !== false) {
                 list($href, $hashPart) = explode('#', $href, 2);
-                $hashPart = '#' . $hashPart; 
+                $hashPart = '#' . $hashPart;
             }
             $href = trim($href, "/");
             if (preg_match('/\/([a-z]{2})$/i', $href, $matches)) {
