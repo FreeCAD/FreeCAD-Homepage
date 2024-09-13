@@ -173,15 +173,12 @@ function isLightOrDark($hex) {
 function updateStylesForLightBackground($xpath) {
     foreach ($xpath->query('//*[@style]') as $node) {
         $style = $node->getAttribute('style');
-
         if (preg_match('/background\s*:\s*([^;]+);?/i', $style, $matches)) {
             $bgColor = trim($matches[1]);
             if (preg_match('/^#([a-f0-9]{3}|[a-f0-9]{6})$/i', $bgColor) && isLightOrDark($bgColor) == 'light') {
-
                 if (!str_contains($style, 'color')) {
                     $style .= ' color: #202122;';
                 }
-
                 foreach ($xpath->query('.//a', $node) as $link) {
                     $linkStyle = $link->getAttribute('style') ?: '';
                     if (!str_contains($linkStyle, 'color')) {
@@ -223,7 +220,15 @@ function removeDivsById($xpath, $ids) {
 function convertRelativeLinksToWikiFormat($xpath, $lang = 'en') {
     foreach ($xpath->query("//a[@href]") as $node) {
         $href = $node->getAttribute('href');
+        if (strpos($href, '#') === 0) {
+            continue;
+        }
         if (!preg_match('/^(http|https):\/\//', $href)) {
+            $hashPart = '';
+            if (strpos($href, '#') !== false) {
+                list($href, $hashPart) = explode('#', $href, 2);
+                $hashPart = '#' . $hashPart; 
+            }
             $href = trim($href, "/");
             if (preg_match('/\/([a-z]{2})$/i', $href, $matches)) {
                 $langCode = $matches[1];
@@ -234,6 +239,7 @@ function convertRelativeLinksToWikiFormat($xpath, $lang = 'en') {
                     $newHref .= "?lang=" . $lang;
                 }
             }
+            $newHref .= $hashPart;
             $node->setAttribute('href', $newHref);
         }
     }
@@ -308,12 +314,9 @@ function convertWidthToMaxWidth($xpath) {
 function removeWidthFromFloatRightDivs($xpath) {
     $query = "//div[contains(@style, 'float: right')]";
     $nodes = $xpath->query($query);
-
     foreach ($nodes as $node) {
         $style = $node->getAttribute('style');
-
         $updatedStyle = preg_replace('/\bwidth\s*:\s*[^;]+;?/', '', $style);
-
         if (trim($updatedStyle)) {
             $node->setAttribute('style', $updatedStyle);
         } else {
