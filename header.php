@@ -8,6 +8,7 @@
     $codeofconducturl = "codeofconduct.php".$langStr;
     $contributingurl = "contributing.php".$langStr;
     $privacyurl = "privacy.php".$langStr;
+    $blogurl = "blog.php".$langStr;
 ?>
 
 <!DOCTYPE html>
@@ -77,7 +78,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" href="https://blog.freecad.org"><?php echo _('Blog'); ?></a>
+          <a class="nav-link my-2 rounded-pill" href="<?php echo $blogurl; ?>"><?php echo _('Blog'); ?></a>
         </li>
 
         <li class="nav-item dropdown">
