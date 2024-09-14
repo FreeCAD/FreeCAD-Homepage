@@ -57,7 +57,7 @@ figure[typeof~="mw:File/Frame"] {
     background-color: rgba(52, 58, 64, 0.5);
 }
 
-figure[typeof~="mw:File/Thumb"].mw-halign-left, 
+figure[typeof~="mw:File/Thumb"].mw-halign-left,
 figure[typeof~="mw:File/Frame"].mw-halign-left {
   margin: 0.5em 1.4em 1.3em 0;
   clear: left;
