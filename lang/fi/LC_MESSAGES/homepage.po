@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-16 12:15+0200\n"
-"PO-Revision-Date: 2024-07-30 12:14\n"
+"POT-Creation-Date: 2024-09-13 10:41+0200\n"
+"PO-Revision-Date: 2024-09-16 16:30\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
@@ -21,9 +21,17 @@ msgstr ""
 msgid "Home"
 msgstr "Koti"
 
-#: 404.php:24 index.php:23
+#: 404.php:24 index.php:29
 msgid "See what's new"
 msgstr "Mitä uutta"
+
+#: blog.php:57 events.php:99 features.php:272 index.php:119
+msgid "Learn more"
+msgstr "Lue lisää"
+
+#: blog.php:263
+msgid "All Blogs"
+msgstr ""
 
 #: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
@@ -60,75 +68,75 @@ msgstr "FreeCAD project association"
 msgid "Amount"
 msgstr "Summa"
 
-#: donation.php:67
+#: donation.php:68
 msgid "Donation method"
 msgstr "Lahjoitustapa"
 
-#: donation.php:69
+#: donation.php:70
 msgid "Please choose"
 msgstr "Valitse"
 
-#: donation.php:70
+#: donation.php:71
 msgid "Direct SEPA bank transfer using your own bank apps"
 msgstr "Suora SEPA-pankkisiirto oman pankkisi sovelluksen kautta"
 
-#: donation.php:70
+#: donation.php:71
 msgid "SEPA bank transfer"
 msgstr "SEPA-tilisiirto"
 
-#: donation.php:71
+#: donation.php:72
 msgid "Credit card payment via Stripe"
 msgstr "Luottokorttimaksu Stripen kautta"
 
-#: donation.php:71
+#: donation.php:72
 msgid "Credit card (Stripe)"
 msgstr "Luottokortti (Stripe)"
 
-#: donation.php:72
+#: donation.php:73
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
 msgstr "PayPal mahdollistaa lahjoittamisen PayPal-tilin tai luottokortin kautta"
 
-#: donation.php:72
+#: donation.php:73
 msgid "Paypal"
 msgstr "Paypal"
 
-#: donation.php:73
+#: donation.php:74
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
 msgstr "GitHubin avulla voit sponsoroida suosikkiprojektejasi käyttämällä GitHub tiliä ja luottokorttia"
 
-#: donation.php:73
+#: donation.php:74
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donation.php:74
+#: donation.php:75
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
 msgstr "OpenCollctive toimii avoimen lähdekoodin projektien rahoittajana. Voit lahjoittaa luottokortilla tai pankkitililtä. OpenCollective on 501(c)3 -järjestö ja tarjoaa verovähennysoikeuden Yhdysvalloissa."
 
-#: donation.php:74
+#: donation.php:75
 msgid "OpenCollective (501(c)3)"
 msgstr "OpenCollective (501(c)3)"
 
-#: donation.php:78
+#: donation.php:80
 msgid "SEPA Information"
 msgstr "SEPA-tiedot"
 
-#: donation.php:79
+#: donation.php:81
 msgid "Please set up your SEPA bank transfer to"
 msgstr "Ole hyvä ja määritä SEPA-tilisiirto osoitteeseen"
 
-#: donation.php:83
+#: donation.php:85
 msgid "Bank agency"
 msgstr "Pankkitoimisto"
 
-#: donation.php:84
+#: donation.php:86
 msgid "Address"
 msgstr "Osoite"
 
-#: donation.php:86
+#: donation.php:88
 msgid "Submit"
 msgstr "Lähetä"
 
-#: donation.php:88
+#: donation.php:90
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
 msgstr "Lisää tietoa eri lahjoitusvaihtoehdoista <a href=https://wiki.freecad.org/donate/fi>lahjoitukset</a> sivulla."
@@ -173,119 +181,155 @@ msgstr "Muiden jakelukohtaisten asennusohjeiden, kuten Ubuntu PPA: n, ja muiden 
 msgid "https://wiki.freecad.org/Install_on_Unix"
 msgstr ""
 
-#: downloads.php:99
+#: downloads.php:103
 msgid "See what has changed since last version in the"
 msgstr "Katso mitä on muuttunut edellisen version jälkeen"
 
-#: downloads.php:100 index.php:23
+#: downloads.php:104 index.php:29
 msgid "https://wiki.freecad.org/Release_notes_0.21"
 msgstr "https://wiki.freecad.org/Release_notes_0.21"
 
-#: downloads.php:100
+#: downloads.php:104
 msgid "FreeCAD 0.21 release notes"
 msgstr "FreeCAD 0.21 julkaisutiedot"
 
-#: downloads.php:109
+#: downloads.php:114
+msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs:"
+msgstr ""
+
+#: downloads.php:115
+msgid "https://blog.freecad.org/2024/09/10/the-first-release-candidate-of-freecad-1-0-is-out/"
+msgstr ""
+
+#: downloads.php:115
+msgid "Download and try a 1.0 Release Candidate build!"
+msgstr ""
+
+#: downloads.php:124
 msgid "Development versions"
 msgstr "Kehitysversiot"
 
-#: downloads.php:111
+#: downloads.php:126
 msgid "FreeCAD's development happens daily!"
 msgstr "FreeCADiä kehitetään joka päivä!"
 
-#: downloads.php:112
+#: downloads.php:127
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
 msgstr ""
 
-#: downloads.php:113
+#: downloads.php:128
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
 msgstr "Pyydämme edistyneitä käyttäjiä ajoittain käyttämään kehitysversioita auttaakseen uuden koodin testauksessa."
 
-#: downloads.php:114
+#: downloads.php:129
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
 msgstr "Nämä versiot eivät sovellu tuotantokäyttöön, ja niitä käytettäessä on oltava varovainen (varmuuskopioi tiedostosi säännöllisesti jne.)."
 
-#: downloads.php:115
+#: downloads.php:130
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
 msgstr "Kehitysversioiden voi odottaa olevan hitaampia, kuluttavan enemmän muistia ja olevan epävakaampia kuin viralliset julkaisuversiot."
 
-#: downloads.php:118
+#: downloads.php:132
+msgid "Download here a "
+msgstr ""
+
+#: downloads.php:132
+msgid "Weekly Build"
+msgstr ""
+
+#: downloads.php:132
+msgid " for Windows, macOS or Linux. "
+msgstr ""
+
+#: downloads.php:133
+msgid "On Linux"
+msgstr ""
+
+#: downloads.php:133
 msgid "https://wiki.freecad.org/Snap"
 msgstr ""
 
-#: downloads.php:119
+#: downloads.php:134 footer.php:36
+msgid "and"
+msgstr "ja"
+
+#: downloads.php:134
 msgid "https://wiki.freecad.org/Flatpak"
 msgstr ""
 
-#: downloads.php:130
+#: downloads.php:135
+msgid "also provide developement channels"
+msgstr ""
+
+#: downloads.php:145
 msgid "Additional modules and macros"
 msgstr "Lisämoduulit ja makrot"
 
-#: downloads.php:132
+#: downloads.php:147
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr "FreeCAD-yhteisö tarjoaa runsaasti lisämoduuleja ja makroja. Niitä voidaan nyt asentaa helposti suoraan FreeCADista käyttämällä "
 
-#: downloads.php:134
+#: downloads.php:149
 msgid "https://wiki.freecad.org/Std_AddonMgr"
 msgstr ""
 
-#: downloads.php:134
+#: downloads.php:149
 msgid "Addon manager."
 msgstr "Lisäosien hallinta."
 
-#: downloads.php:144
+#: downloads.php:159
 msgid "Source code"
 msgstr "Lähdekoodi"
 
-#: downloads.php:146
+#: downloads.php:161
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr "FreeCAD-lähdekoodi on pääasiassa saatavilla "
 
-#: downloads.php:148
+#: downloads.php:163
 msgid "and mirrored on "
 msgstr "ja peilattu "
 
-#: downloads.php:151
+#: downloads.php:166
 msgid "and "
 msgstr "ja "
 
-#: events.php:9
+#: events.php:59
 msgid "FreeCAD events"
 msgstr "FreeCAD tapahtumat"
 
-#: events.php:11
+#: events.php:61
 msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
 msgstr "Alla oleva kalenteri näyttää tulevat FreeCAD-kokoukset ja muut yhteisön tapahtumat."
 
-#: events.php:29
+#: events.php:79
 msgid "Subscribe to this calendar using this"
 msgstr "Tilaa tämä kalenteri käyttämällä tätä"
 
-#: events.php:29
+#: events.php:79
 msgid "ICS link"
 msgstr "ICS linkki"
 
-#: features.php:9
+#: features.php:66
 msgid "Key FreeCAD Features"
 msgstr "Keskeisimmät FreeCAD-ominaisuudet"
 
-#: features.php:16
+#: features.php:77
 msgid "Made to build for the real world"
 msgstr "Tehty todellisen maailman rakentamiseen"
 
-#: features.php:18
+#: features.php:79
 msgid "FreeCAD is made primarily to design objects for the real world. Everything you do in FreeCAD uses real-world\n"
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
 msgstr "FreeCAD on pääasiassa tehty tosielämän kohteiden suunnittelua varten. Kaikessa, mitä teet FreeCADissa, käytetään todellisia mittayksiköitä, olipa kyse mikroneista, kilometreistä, tuumista tai jaloista, tai jopa mistä tahansa eri mittayksiköiden yhdistelmistä. FreeCAD tarjoaa  <a href=https://wiki.freecad.org/Workbenches/fi>työkaluja</a> kiinteiden, täyden tarkkuuden mallien tuottamiseen, vientiin ja muokkaamiseen, niiden vientiin 3D-tulostusta tai CNC-työstöä varten, 2D-piirustusten ja -näkymien luomiseen malleistasi, analyysien tekemiseen, kuten FEA- analyyseihin, tai viedä mallin tietoja, kuten kappaleiden lukumääriä tai materiaaliluetteloita."
 
-#: features.php:40
+#: features.php:97
 msgid "A powerful solid-based geometry kernel"
 msgstr "Vahva kiinteäpohjainen geometriaydin"
 
-#: features.php:42
+#: features.php:99
 msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>. It supports solids,\n"
 "              <a href=https://en.wikipedia.org/wiki/Boundary_representation>Boundary Representation</a> (BRep) objects, and\n"
@@ -296,11 +340,11 @@ msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
 msgstr "FreeCAD sisältää edistyneen geometriamoottorin, joka perustuu <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE -teknologiaan</a>. Se tukee kiinteitä kappaleita, <a href=https://en.wikipedia.org/wiki/Boundary_representation>Boundary Representation</a> (BRep) -objekteja ja <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>Non-uniform rational basis spline</a> (NURBS) -käyriä ja -pintoja, ja tarjoaa laajan valikoiman työkaluja näiden objektien luomiseen ja muokkaamiseen, mukaan lukien monimutkaiset <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolen</a> operaatiot, <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>pyöristykset</a>, muotojen siistimiset ja <a href=https://wiki.freecad.org/OpenCASCADE/fi>monia muita ominaisuuksia</a>."
 
-#: features.php:58
+#: features.php:119
 msgid "A wi(l)dly parametric environment"
 msgstr "Monipuolinen parametrinen ympäristö"
 
-#: features.php:60
+#: features.php:121
 msgid "All FreeCAD objects are natively parametric, meaning their shape can be based on\n"
 "                <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">properties</a> such as numeric values, texts, on/off buttons,\n"
 "                or even other objects. All shape changes are recalculated on demand, recorded by an undo/redo stack, and allow to maintain\n"
@@ -309,11 +353,27 @@ msgid "All FreeCAD objects are natively parametric, meaning their shape can be b
 "                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>."
 msgstr "Kaikki FreeCAD-objektit ovat luonnostaan parametrisia, mikä tarkoittaa, että niiden muoto voi perustua <a href=\"https://wiki.freecad.org/Property/fi\" title=\"Property\">ominaisuuksiin</a>, kuten numeerisiin arvoihin, teksteihin, päälle/pois-painikkeisiin, tai jopa muihin kohteisiin. Kaikki muodon muutokset lasketaan tarvittaessa uudelleen, kirjataan kumoa-/tee uudelleen -historiaan, ja niiden avulla voidaan säilyttää tarkka mallinnushistoria. Yhden objektin ominaisuudet voivat ohjata muiden objektien ominaisuuksien arvoa, mikä mahdollistaa monimutkaiset, mukautetut parametriketjut, jotka voisivat olla olemassa vain villeimmissä unelmissasi. Uusien parametristen objektien <a href=https://wiki.freecad.org/Scripted_objects/fi>ohjelmoiminen on helppoa</a>."
 
-#: features.php:83
+#: features.php:145
+msgid "Assembly solutions for every need"
+msgstr ""
+
+#: features.php:147
+msgid "FreeCad offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
+msgstr ""
+
+#: features.php:164
+msgid "Also for architects"
+msgstr ""
+
+#: features.php:166
+msgid "Until version 1.0, FreeCad had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
+msgstr ""
+
+#: features.php:179
 msgid "Python everywhere"
 msgstr "Python kaikkialla"
 
-#: features.php:85
+#: features.php:181
 msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance,\n"
 "                  large parts of the external layers,  workbenches and almost all the communication between\n"
 "                  the core and the user interface is coded in <a href=https://python.org>Python</a>,\n"
@@ -323,11 +383,11 @@ msgid "While the FreeCAD core functionality is coded in C++ for robustness and p
 "                  full custom workbenches."
 msgstr "Vaikka FreeCADin ydintoiminnallisuus on toteutettu C++ -ohjelmointikielellä luotettavuuden ja suorituskyvyn vuoksi, suurin osa ulkoisista kerroksista, työpöydistä ja lähes kaikki viestintä ytimen ja käyttöliittymän välillä on koodattu <a href=https://python.org>Pythonilla</a>. Python on joustava, käyttäjäystävällinen ja helposti opittava ohjelmointikieli. Python-koodilla voit tehdä lähes <a href=https://wiki.freecad.org/Power_users_hub/fi>mitä tahansa FreeCADissä</a>, yksinkertaisista yhden rivin komennoista integroidussa Python-konsolissa, makrojen tallentamiseen, omien työkalujen koodaamiseen ja aina täysin mukautettujen työpöytien luomiseen."
 
-#: features.php:101
+#: features.php:200
 msgid "File formats frenzy"
 msgstr "Tiedostomuotojen vimma"
 
-#: features.php:103
+#: features.php:202
 msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
 "              analyses results or quantities data to dozens of different <a href=\"https://wiki.freecad.org/Category:File_Formats\">file formats</a> such as\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
@@ -349,11 +409,11 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              file formats."
 msgstr "FreeCAD mahdollistaa mallien ja monenlaisten muiden tietojen, kuten analyysitulosten tai määrätietojen, tuonnin ja viennin kymmeniin erilaisiin <a href=\"https://wiki.freecad.org/Category:File_Formats\">tiedostomuotoihin</a>, kuten <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Wavefront_.obj_file\">OBJ</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> tai <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OFF_(file_format)\">OFF</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a> ja moniin muihin, lisäksi FreeCADin omaan <a href=\"https://wiki.freecad.org/File_Format_FCStd/fi\" title=\"File Format FCStd\">FCStd</a> tiedostomuotoon. Lisättävät työpöydät voivat tuoda mukanaan lisää tiedostomuotoja."
 
-#: features.php:139
+#: features.php:233
 msgid "A parametric constraints-based 2D sketcher"
 msgstr "Parametrinen rajoitteisiin perustuva 2D-luonnostelija"
 
-#: features.php:141
+#: features.php:235
 msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
 "                  with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. Sketches are the main\n"
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
@@ -361,11 +421,11 @@ msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sket
 "                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
 msgstr "FreeCADissa on huippuluokan <a href=https://wiki.freecad.org/Sketcher_Workbench/fi>luonnostelija</a>, jossa on integroitu rajoitteiden ratkaisija. Tämä mahdollistaa geometriaan sidottujen 2D-muotojen luonnostelun. Luonnokset ovat keskeinen osa FreeCADia, ja niitä voidaan käyttää perustana muiden objektien rakentamiseen FreeCADissa, oli sitten kyseessä <a href=https://wiki.freecad.org/PartDesign_Workbench/fi>Part Design työpöytä</a> tai mikä tahansa muu työpöytä."
 
-#: features.php:155
+#: features.php:253
 msgid "A large (and growing) multi-specialty ecosystem"
 msgstr "Laaja (ja kasvava) monialainen ekosysteemi"
 
-#: features.php:157
+#: features.php:255
 msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\">workbenches</a> for a variety of purposes\n"
 "              such as\n"
 "              <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG modeling</a>,\n"
@@ -383,19 +443,15 @@ msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\"
 "              community."
 msgstr "FreeCAD tarjoaa <a href=\"https://wiki.freecad.org/Workbenches/fi\">työpöytiä</a> moniin eri tarkoituksiin, kuten <a href=\"https://wiki.freecad.org/Part_Workbench/fi\">CSG mallinnukseen</a>, yksinkertaiseen <a href=\"https://wiki.freecad.org/Draft_Workbench/fi\">2D CAD luonnosteluun</a>, <a href=\"https://wiki.freecad.org/Surface_Module/fi\">NURBS pintoihin</a>, <a href=\"https://wiki.freecad.org/Arch_Module/fi\">arkkitehtuuri- tai BIM- mallinnukseen</a>, <a href=\"https://wiki.freecad.org/Path_Workbench/fi\">3D tulostukseen, CAM:iin ja CNC:hen</a>, <a href=\"https://wiki.freecad.org/Points_Module/fi\">pistepilviin</a>, <a href=\"https://wiki.freecad.org/OpenSCAD_Module/fi\">OpenSCAD-tiedostojen</a> käsittelyyn, <a href=\"https://wiki.freecad.org/Robot_Workbench/fi\">teollisuusrobottien ratojen</a> suunnitteluun, <a href=\"https://wiki.freecad.org/FEM_Module/fi\">elementtianalyyseihin </a>, ja paljon muuhun. Lisäksi FreeCAD tarjoaa helppokäyttöisiä työkaluja <a href=\"https://wiki.freecad.org/External_workbenches/fi\">lisäosina tarjottavien työtilojen</a> ja <a href=\"https://wiki.freecad.org/Macros_recipes/fi\">käyttäjäyhteisön kehittämien makrojen</a> asentamiseen ja hallintaan."
 
-#: features.php:173
+#: features.php:271
 msgid "https://wiki.freecad.org/Feature_list"
 msgstr ""
 
-#: features.php:174 index.php:113
-msgid "Learn more"
-msgstr "Lue lisää"
-
-#: features.php:192
+#: features.php:285
 msgid "Developed by a community"
 msgstr "Yhteisön kehittämä"
 
-#: features.php:194
+#: features.php:287
 msgid "FreeCAD is made for everybody, by everybody. It is developed and maintained\n"
 "              by a community of developers, users, moderators, translators, all united by their wish make\n"
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
@@ -403,116 +459,116 @@ msgid "FreeCAD is made for everybody, by everybody. It is developed and maintain
 "              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
 msgstr "FreeCAD on tehty kaikille, kaikkien toimesta. Sitä kehittää ja ylläpitää kehittäjäyhteisö, käyttäjät, moderaattorit, kääntäjät - kaikkia yhdistää halu tehdä FreeCADista vapaa ja tehokas työkalu. Päätösten takana ei ole kaupallisia tavoitteita, eikä tarkoituksena ole pakottaa päivittämään FreeCADin versiota tai rajoittaa sinua tiettyihin työtapoihin tai ekosysteemiin. FreeCAD ja FreeCADilla tuottamasi tiedostot ja data ovat todella sinun ikuisesti."
 
-#: features.php:207
+#: features.php:300
 msgid "Release notes"
 msgstr "Julkaisutiedot"
 
-#: features.php:217
+#: features.php:310
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
 msgstr "Täältä löydät uusimman ja aiempien FreeCAD-versioiden julkaisutiedotteet. Julkaisutiedotteet kuvaavat, mitä uutta tietty versio sisältää:"
 
-#: features.php:224
+#: features.php:317
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
 msgstr ""
 
-#: features.php:224
+#: features.php:317
 msgid "Release 0.21 - August 2023"
 msgstr "Julkaisu 0.21 - Elokuu 2023"
 
-#: features.php:224
+#: features.php:317
 msgid "current stable release"
 msgstr "nykyinen vakaa versio"
 
-#: features.php:225
+#: features.php:318
 msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
 msgstr ""
 
-#: features.php:225
+#: features.php:318
 msgid "Release 0.20 - June 2022"
 msgstr "Julkaisu 0.20 - Kesäkuu 2022"
 
-#: features.php:226
+#: features.php:319
 msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
 msgstr ""
 
-#: features.php:226
+#: features.php:319
 msgid "Release 0.19 - March 2021"
 msgstr "Julkaisu 0.19 - Maaliskuu 2021"
 
-#: features.php:227
+#: features.php:320
 msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
 msgstr ""
 
-#: features.php:227
+#: features.php:320
 msgid "Release 0.18 - March 2019"
 msgstr "Julkaisu 0.18 - Maaliskuu 2019"
 
-#: features.php:228
+#: features.php:321
 msgid "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
 msgstr ""
 
-#: features.php:228
+#: features.php:321
 msgid "Release 0.17 - April 2018"
 msgstr "Julkaisu 0.17 - Huhtikuu 2018"
 
-#: features.php:229
+#: features.php:322
 msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
 msgstr ""
 
-#: features.php:229
+#: features.php:322
 msgid "Release 0.16 - April 2016"
 msgstr "Julkaisu 0.16 - Huhtikuu 2016"
 
-#: features.php:230
+#: features.php:323
 msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
 msgstr ""
 
-#: features.php:230
+#: features.php:323
 msgid "Release 0.15 - March 2015"
 msgstr "Julkaisu 0.15 - Maaliskuu 2015"
 
-#: features.php:231
+#: features.php:324
 msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
 msgstr ""
 
-#: features.php:231
+#: features.php:324
 msgid "Release 0.14 - March 2014"
 msgstr "Julkaisu 0.14 - Maaliskuu 2014"
 
-#: features.php:232
+#: features.php:325
 msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
 msgstr ""
 
-#: features.php:232
+#: features.php:325
 msgid "Release 0.13 - January 2013"
 msgstr "Julkaisu 0.13 - Tammikuu 2013"
 
-#: features.php:233
+#: features.php:326
 msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
 msgstr ""
 
-#: features.php:233
+#: features.php:326
 msgid "Release 0.12 - December 2011"
 msgstr "Julkaisu 0.12 - Joulukuu 2011"
 
-#: features.php:234
+#: features.php:327
 msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
 msgstr ""
 
-#: features.php:234
+#: features.php:327
 msgid "Release 0.11 - March 2011"
 msgstr "Julkaisu 0.11 - Maaliskuu 2011"
 
-#: features.php:245
+#: features.php:338
 msgid "Follow the official FreeCAD channels for fresh news:"
 msgstr "Seuraa virallisia FreeCAD-kanavia tuoreiden uutisten saamiseksi:"
 
-#: features.php:251
+#: features.php:344
 msgid "Official blog"
 msgstr "Virallinen blogi"
 
-#: features.php:252
+#: features.php:345
 msgid "Twitter account"
 msgstr "Twitter-tili"
 
@@ -529,10 +585,6 @@ msgstr "© FreeCAD Tiimi. Kotisivun kuvien oikeudet (ylhäältä alaspäin): ppe
 msgid "This project is supported by:"
 msgstr "Tätä projektia tukevat:"
 
-#: footer.php:36
-msgid "and"
-msgstr "ja"
-
 #: footer.php:37
 msgid "other sponsors"
 msgstr "muut sponsorit"
@@ -542,205 +594,217 @@ msgid "Improve this\n"
 "      page on GitHub"
 msgstr "Paranna tätä sivua GitHubissa"
 
-#: header.php:22 header.php:35
+#: header.php:23 header.php:36
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Parametrinen 3D-mallintajasi"
 
-#: header.php:71
+#: header.php:73
 msgid "Features"
 msgstr "Ominaisuudet"
 
-#: header.php:75
+#: header.php:77
 msgid "Download"
 msgstr "Lataa ohjelma"
 
-#: header.php:79
+#: header.php:81
 msgid "Blog"
 msgstr "Blogi"
 
-#: header.php:83
+#: header.php:85
 msgid "Documentation"
 msgstr "Dokumentaatio"
 
-#: header.php:86
+#: header.php:88
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:86
+#: header.php:88
 msgid "Documentation index"
 msgstr "Dokumentaation etusivu"
 
-#: header.php:87 thankyou.php:137
+#: header.php:89 thankyou.php:137
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:87
+#: header.php:89
 msgid "Getting started"
 msgstr "Käytön aloittaminen"
 
-#: header.php:88
+#: header.php:90
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:88
+#: header.php:90
 msgid "Users documentation"
 msgstr "Käyttäjän dokumentaatio"
 
-#: header.php:89 thankyou.php:149
+#: header.php:91 thankyou.php:149
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:89
+#: header.php:91
 msgid "The FreeCAD manual"
 msgstr "FreeCAD-manuaali"
 
-#: header.php:90 thankyou.php:139
+#: header.php:92 thankyou.php:139
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:90 thankyou.php:139
+#: header.php:92 thankyou.php:139
 msgid "Workbenches documentation"
 msgstr "Työpöytien dokumentaatio"
 
-#: header.php:91
+#: header.php:93
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:91
+#: header.php:93
 msgid "Python coding documentation"
 msgstr "Python-koodauksen dokumentaatio"
 
-#: header.php:92
+#: header.php:94
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:92
+#: header.php:94
 msgid "C++ coding documentation"
 msgstr "C++ -koodauksen dokumentaatio"
 
-#: header.php:93 thankyou.php:158
+#: header.php:95 thankyou.php:158
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:93 thankyou.php:158
+#: header.php:95 thankyou.php:158
 msgid "Tutorials"
 msgstr "Oppitunnit"
 
-#: header.php:94 thankyou.php:140
+#: header.php:96 thankyou.php:140
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:94 thankyou.php:140
+#: header.php:96 thankyou.php:140
 msgid "Frequently asked questions"
 msgstr "Usein kysytyt kysymykset"
 
-#: header.php:95
+#: header.php:97
 msgid "Privacy policy"
 msgstr "Tietosuojakäytäntö"
 
-#: header.php:96
+#: header.php:98
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/About_FreeCAD"
 
-#: header.php:96
+#: header.php:98
 msgid "About FreeCAD"
 msgstr "Tietoa FreeCADistä"
 
-#: header.php:101
+#: header.php:103
 msgid "Contribute"
 msgstr "Osallistu kehitykseen"
 
-#: header.php:104
+#: header.php:106
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
-#: header.php:104
+#: header.php:106
 msgid "How to help"
 msgstr "Miten voit auttaa"
 
-#: header.php:105
+#: header.php:107
 msgid "Donate / Sponsor"
 msgstr "Lahjoita tai sponsoroi"
 
-#: header.php:106
+#: header.php:108
 msgid "Report a bug"
 msgstr "Ilmoita virheestä"
 
-#: header.php:107
+#: header.php:109
 msgid "Make a pull request"
 msgstr "Tee pull-pyyntö"
 
-#: header.php:108
+#: header.php:110
 msgid "Jobs and funding"
 msgstr "Työpaikat ja rahoitus"
 
-#: header.php:109
+#: header.php:111
 msgid "Contribution guidelines"
 msgstr "Osallistumisen reunaehdot"
 
-#: header.php:110
+#: header.php:112
 msgid "Developers handbook"
 msgstr "Kehittäjien käsikirja"
 
-#: header.php:111
+#: header.php:113
 msgid "https://wiki.freecad.org/Localisation"
 msgstr ""
 
-#: header.php:111
+#: header.php:113
 msgid "Translations"
 msgstr "Kääntäminen"
 
-#: header.php:116
+#: header.php:118
 msgid "Community"
 msgstr "Yhteisö"
 
-#: header.php:119
+#: header.php:121
 msgid "Code of conduct"
 msgstr "Ohjesääntö"
 
-#: header.php:120
+#: header.php:122
 msgid "Forum"
 msgstr "Keskustelualue"
 
-#: header.php:135
+#: header.php:137
 msgid "Calendar"
 msgstr "Kalenteri"
 
-#: index.php:20
+#: index.php:26
 msgid "Your own 3D parametric modeler"
 msgstr "Parametrinen 3D-mallintajasi"
 
-#: index.php:22
+#: index.php:28
 msgid "Download now"
 msgstr "Lataa tästä"
 
-#: index.php:38
+#: index.php:39
+msgid "Modelled by ppemawm"
+msgstr ""
+
+#: index.php:44
 msgid "Freedom to build what you want"
 msgstr "Vapaus luoda mitä haluat"
 
-#: index.php:40
+#: index.php:46
 msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
 "          and changing its parameters."
 msgstr "FreeCAD on avoimen lähdekoodin parametrinen 3D-mallinnusohjelma, joka on suunniteltu ensisijaisesti kaikenkokoisten tosielämän kohteiden mallintamiseen. Parametrisen mallinnuksen avulla voit helposti muokata suunnitteluasi palaamalla mallin historiaan ja muuttamalla sen parametreja."
 
-#: index.php:54
+#: index.php:55
+msgid "Modelled by r-frank"
+msgstr ""
+
+#: index.php:60
 msgid "Create 3D from 2D & back"
 msgstr "Luo 3D 2D-piirustuksista ja toisinpäin"
 
-#: index.php:56
+#: index.php:62
 msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
 "          create high quality production ready drawings."
 msgstr "FreeCADin avulla voit luonnostella geometrian rajoittamia 2D-muotoja ja käyttää niitä pohjana muiden kappaleiden rakentamiseen. Se sisältää monia komponentteja mittojen säätämiseen tai suunnittelun yksityiskohtien poimimiseen 3D-malleista korkealaatuisten tuotantovalmiiden piirustusten luomiseksi."
 
-#: index.php:70
+#: index.php:71
+msgid "Modelled by epileftric"
+msgstr ""
+
+#: index.php:76
 msgid "Accessible, flexible & integrated"
 msgstr "Helppokäyttöinen, joustava ja integroitu"
 
-#: index.php:72
+#: index.php:78
 msgid "FreeCAD is a multiplatform (Windows, Mac and Linux), highly\n"
 "          customizable and extensible software. It reads and writes to many\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
@@ -748,22 +812,30 @@ msgid "FreeCAD is a multiplatform (Windows, Mac and Linux), highly\n"
 "          your workflow."
 msgstr "FreeCAD on monialustainen (Windows, Mac ja Linux), erittäin mukautettava ja laajennettava ohjelmisto. Se lukee ja kirjoittaa moniin avoimiin tiedostomuotoihin, kuten STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE ja moniin muihin, mahdollistaen sen saumattoman integroinnin työskentelytapaasi."
 
-#: index.php:87
+#: index.php:88
+msgid "Modelled by regis"
+msgstr ""
+
+#: index.php:93
 msgid "Designed for your needs"
 msgstr "Suunniteltu tarpeisiisi"
 
-#: index.php:89
+#: index.php:95
 msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
 "          teacher, you will feel right at home with FreeCAD."
 msgstr "FreeCAD on suunniteltu sopimaan monenlaisiin käyttötarkoituksiin, mukaan lukien tuotesuunnittelu, koneenrakennus ja arkkitehtuuri. Oletpa sitten harrastaja, ohjelmoija, kokenut CAD-käyttäjä, opiskelija tai opettaja, tunnet olosi kotoisaksi FreeCADin parissa."
 
-#: index.php:103
+#: index.php:104
+msgid "Modelled by rider_mortagnais"
+msgstr ""
+
+#: index.php:109
 msgid "And many more great features"
 msgstr "Ja paljon muita hyviä ominaisuuksia"
 
-#: index.php:105
+#: index.php:111
 msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          modern Finite Element Analysis (FEA) tools, experimental CFD, dedicated BIM,\n"
 "          Geodata or CAM/CNC workbenches, a robot simulation module that\n"
@@ -772,18 +844,22 @@ msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          toolkits."
 msgstr "FreeCAD tarjoaa sinulle kaikki oikeat työkalut tarpeisiisi. Saat modernit Finite Element Analysis (FEA) -työkalut, kokeellisen CFD: n, erilliset BIM-, Geodata- tai CAM/CNC-työpöydät, robottisimulaatiomoduulin, jonka avulla voit tutkia robotin liikkeitä ja monia muita ominaisuuksia. FreeCAD on todella monipuolinen insinöörien yleistyökalu."
 
-#: index.php:124
+#: index.php:125
+msgid "Modelled by bejant"
+msgstr ""
+
+#: index.php:130
 msgid "Want to contribute to FreeCAD?"
 msgstr "Haluaisitko osallistua FreeCADin kehittämiseen?"
 
-#: index.php:126
+#: index.php:132
 msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
 "          whole community."
 msgstr "FreeCAD on aidosti avoimen lähdekoodin projekti, ja jos haluat auttaa korjaamaan bugeja, toteuttamaan uusia hienoja ominaisuuksia tai työstämään dokumentaatiota, kutsumme sinut mukaan luomaan ohjelmiston, joka hyödyttää koko yhteisöä."
 
-#: index.php:132
+#: index.php:138
 msgid "Get involved"
 msgstr "Osallistu"
 
@@ -1096,151 +1172,151 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            the FreeCAD world."
 msgstr ""
 
-#: translation.php:68
+#: translation.php:67
 msgid "English"
 msgstr "Englanniksi"
 
-#: translation.php:69
+#: translation.php:68
 msgid "Afrikaans"
 msgstr "Afrikaans"
 
-#: translation.php:70
+#: translation.php:69
 msgid "Arabic"
 msgstr "Arabialainen"
 
-#: translation.php:71
+#: translation.php:70
 msgid "Belarusian"
 msgstr ""
 
-#: translation.php:72
+#: translation.php:71
 msgid "Catalan"
 msgstr "Katalaani"
 
-#: translation.php:73
+#: translation.php:72
 msgid "Czech"
 msgstr "Tšekki"
 
-#: translation.php:74
+#: translation.php:73
 msgid "German"
 msgstr "Saksaksi"
 
-#: translation.php:75
+#: translation.php:74
 msgid "Greek"
 msgstr "Kreikaksi"
 
-#: translation.php:76 translation.php:77
+#: translation.php:75 translation.php:76
 msgid "Spanish"
 msgstr "Espanjaksi"
 
-#: translation.php:78
+#: translation.php:77
 msgid "Basque"
 msgstr "Baski"
 
-#: translation.php:79
+#: translation.php:78
 msgid "Finnish"
 msgstr "Suomeksi"
 
-#: translation.php:80
+#: translation.php:79
 msgid "Filipino"
 msgstr "Filippiini"
 
-#: translation.php:81
+#: translation.php:80
 msgid "French"
 msgstr "Ranskaksi"
 
-#: translation.php:82
+#: translation.php:81
 msgid "Galician"
 msgstr "Galician"
 
-#: translation.php:83
+#: translation.php:82
 msgid "Croatian"
 msgstr "Kroaatti"
 
-#: translation.php:84
+#: translation.php:83
 msgid "Hungarian"
 msgstr "Unkari"
 
-#: translation.php:85
+#: translation.php:84
 msgid "Indonesian"
 msgstr "Indonesia"
 
-#: translation.php:86
+#: translation.php:85
 msgid "Italian"
 msgstr "Italiaksi"
 
-#: translation.php:87
+#: translation.php:86
 msgid "Japanese"
 msgstr "Japani"
 
-#: translation.php:88
+#: translation.php:87
 msgid "Kabyle"
 msgstr "Kabyyli"
 
-#: translation.php:89
+#: translation.php:88
 msgid "Korean"
 msgstr "Korealainen"
 
-#: translation.php:90
+#: translation.php:89
 msgid "Lithuanian"
 msgstr "Liettua"
 
-#: translation.php:91
+#: translation.php:90
 msgid "Dutch"
 msgstr "Hollanti"
 
-#: translation.php:92
+#: translation.php:91
 msgid "Norwegian Bokmal"
 msgstr "Norja Bokmål"
 
-#: translation.php:93
+#: translation.php:92
 msgid "Polish"
 msgstr "Puola"
 
-#: translation.php:94 translation.php:95
+#: translation.php:93 translation.php:94
 msgid "Portuguese"
 msgstr "Portugali"
 
-#: translation.php:96
+#: translation.php:95
 msgid "Romanian"
 msgstr "Romania"
 
-#: translation.php:97
+#: translation.php:96
 msgid "Russian"
 msgstr "Venäjä"
 
-#: translation.php:98
+#: translation.php:97
 msgid "Slovak"
 msgstr "Slovakki"
 
-#: translation.php:99
+#: translation.php:98
 msgid "Slovenian"
 msgstr "Slovenia"
 
-#: translation.php:100
+#: translation.php:99
 msgid "Serbian"
 msgstr "Serbia"
 
-#: translation.php:101
+#: translation.php:100
 msgid "Swedish"
 msgstr "Ruotsiksi"
 
-#: translation.php:102
+#: translation.php:101
 msgid "Turkish"
 msgstr "Turkiksi"
 
-#: translation.php:103
+#: translation.php:102
 msgid "Ukrainian"
 msgstr "Ukraina"
 
-#: translation.php:104
+#: translation.php:103
 msgid "Valencian"
 msgstr "Valencian"
 
-#: translation.php:105
+#: translation.php:104
 msgid "Vietnamese"
 msgstr "Vietnamin kieli"
 
-#: translation.php:106 translation.php:107
+#: translation.php:105 translation.php:106
 msgid "Chinese"
 msgstr "Kiina"
 

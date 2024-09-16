@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-16 12:15+0200\n"
-"PO-Revision-Date: 2024-09-09 10:17\n"
+"POT-Creation-Date: 2024-09-13 10:41+0200\n"
+"PO-Revision-Date: 2024-09-16 16:30\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -21,9 +21,17 @@ msgstr ""
 msgid "Home"
 msgstr "Domů"
 
-#: 404.php:24 index.php:23
+#: 404.php:24 index.php:29
 msgid "See what's new"
 msgstr "Podívejte se, co je nového"
+
+#: blog.php:57 events.php:99 features.php:272 index.php:119
+msgid "Learn more"
+msgstr "Zjistěte více"
+
+#: blog.php:263
+msgid "All Blogs"
+msgstr "Všechny blogy"
 
 #: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
@@ -67,75 +75,75 @@ msgstr "Sdružení projektu FreeCAD"
 msgid "Amount"
 msgstr "Částka"
 
-#: donation.php:67
+#: donation.php:68
 msgid "Donation method"
 msgstr "Metoda daru"
 
-#: donation.php:69
+#: donation.php:70
 msgid "Please choose"
 msgstr "Vyberte prosím"
 
-#: donation.php:70
+#: donation.php:71
 msgid "Direct SEPA bank transfer using your own bank apps"
 msgstr "Přímý SEPA bankovní převod pomocí vlastních bankovních aplikací"
 
-#: donation.php:70
+#: donation.php:71
 msgid "SEPA bank transfer"
 msgstr "Bankovní převod SEPA"
 
-#: donation.php:71
+#: donation.php:72
 msgid "Credit card payment via Stripe"
 msgstr "Platba kreditní kartou přes Stripe"
 
-#: donation.php:71
+#: donation.php:72
 msgid "Credit card (Stripe)"
 msgstr "Kreditní karta (Stripe)"
 
-#: donation.php:72
+#: donation.php:73
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
 msgstr "Paypal umožňuje darovat pomocí účtu Paypal nebo kreditní karty"
 
-#: donation.php:72
+#: donation.php:73
 msgid "Paypal"
 msgstr "Paypal"
 
-#: donation.php:73
+#: donation.php:74
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
 msgstr "GitHub vám umožňuje sponzorovat vaše oblíbené projekty pomocí vašeho účtu GitHub a kreditní karty"
 
-#: donation.php:73
+#: donation.php:74
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donation.php:74
+#: donation.php:75
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
 msgstr "OpenCollective funguje jako fiskální hostitel pro open-source projekty. Přispět můžete kreditní kartou nebo bankovním účtem. OpenCollective je organizace 501(c)3 a poskytuje daňový odpočet v USA."
 
-#: donation.php:74
+#: donation.php:75
 msgid "OpenCollective (501(c)3)"
 msgstr "OpenCollective (501(c)3)"
 
-#: donation.php:78
+#: donation.php:80
 msgid "SEPA Information"
 msgstr "SEPA informace"
 
-#: donation.php:79
+#: donation.php:81
 msgid "Please set up your SEPA bank transfer to"
 msgstr "Nastavte prosím Váš SEPA bankovní převod na"
 
-#: donation.php:83
+#: donation.php:85
 msgid "Bank agency"
 msgstr "Bankovní agentura"
 
-#: donation.php:84
+#: donation.php:86
 msgid "Address"
 msgstr "Adresa"
 
-#: donation.php:86
+#: donation.php:88
 msgid "Submit"
 msgstr "Potvrdit"
 
-#: donation.php:88
+#: donation.php:90
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
 msgstr "Další informace o různých metodách a možnostech darování na stránce\n"
@@ -181,109 +189,145 @@ msgstr "Pro instalační pokyny k jiným specifickým distribucím, jako je Ubun
 msgid "https://wiki.freecad.org/Install_on_Unix"
 msgstr "https://wiki.freecad.org/Install_on_Unix/cs"
 
-#: downloads.php:99
+#: downloads.php:103
 msgid "See what has changed since last version in the"
 msgstr "Podívejte se, co se změnilo od poslední verze:"
 
-#: downloads.php:100 index.php:23
+#: downloads.php:104 index.php:29
 msgid "https://wiki.freecad.org/Release_notes_0.21"
 msgstr "https://wiki.freecad.org/Release_notes_0.21"
 
-#: downloads.php:100
+#: downloads.php:104
 msgid "FreeCAD 0.21 release notes"
 msgstr "Poznámky k vydání FreeCAD 0.21"
 
-#: downloads.php:109
+#: downloads.php:114
+msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs:"
+msgstr "Vydání FreeCADu 1.0 se nezadržitelně blíží! Pomozte nám odstranit poslední chyby:"
+
+#: downloads.php:115
+msgid "https://blog.freecad.org/2024/09/10/the-first-release-candidate-of-freecad-1-0-is-out/"
+msgstr "https://blog.freecad.org/2024/09/10/the-first-release-candidate-of-freecad-1-0-is-out/"
+
+#: downloads.php:115
+msgid "Download and try a 1.0 Release Candidate build!"
+msgstr "Stáhnout a vyzkoušet kandidáta (RC) na vydání verze 1.0!"
+
+#: downloads.php:124
 msgid "Development versions"
 msgstr "Verze pro vývojáře"
 
-#: downloads.php:111
+#: downloads.php:126
 msgid "FreeCAD's development happens daily!"
 msgstr "Vývoj FreeCAD se odehrává denně!"
 
-#: downloads.php:112
+#: downloads.php:127
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
 msgstr "Komunita FreeCADu generuje týdenní verze, které jsou založeny na <i>nejnovějším</i> kódu FreeCADu, aby uživatelé mohli testovat opravy chyb/regrese spolu s novými funkcemi."
 
-#: downloads.php:113
+#: downloads.php:128
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
 msgstr "Žádáme, aby pokročilí uživatelé příležitostně spouštěli vývojová sestavení pro asistenci s testováním nového kódu."
 
-#: downloads.php:114
+#: downloads.php:129
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
 msgstr "Tato sestavení nejsou vhodná pro produkční použití a při jejich používání je třeba dávat pozor (pravidelně zálohovat soubory atd.)."
 
-#: downloads.php:115
+#: downloads.php:130
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
 msgstr "U vývojového sestavení by se mělo očekávat, že bude pomalejší, spotřebovávající více paměti a méně stabilní než oficiální verze."
 
-#: downloads.php:118
+#: downloads.php:132
+msgid "Download here a "
+msgstr "Zde si stáhněte "
+
+#: downloads.php:132
+msgid "Weekly Build"
+msgstr "Týdenní sestavení"
+
+#: downloads.php:132
+msgid " for Windows, macOS or Linux. "
+msgstr " pro Windows, macOS nebo Linux. "
+
+#: downloads.php:133
+msgid "On Linux"
+msgstr "Na Linuxu"
+
+#: downloads.php:133
 msgid "https://wiki.freecad.org/Snap"
 msgstr "https://wiki.freecad.org/Snap"
 
-#: downloads.php:119
+#: downloads.php:134 footer.php:36
+msgid "and"
+msgstr "a"
+
+#: downloads.php:134
 msgid "https://wiki.freecad.org/Flatpak"
 msgstr "https://wiki.freecad.org/Flatpak"
 
-#: downloads.php:130
+#: downloads.php:135
+msgid "also provide developement channels"
+msgstr "poskytuje také vývojové kanály"
+
+#: downloads.php:145
 msgid "Additional modules and macros"
 msgstr "Doplňkové moduly a makra"
 
-#: downloads.php:132
+#: downloads.php:147
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr "Komunita FreeCADu spravuje spoustu doplňkových modulů a maker, které mohou\n"
 "        být snadno instalovány přímo z FreeCADu za pomoci "
 
-#: downloads.php:134
+#: downloads.php:149
 msgid "https://wiki.freecad.org/Std_AddonMgr"
 msgstr "https://wiki.freecad.org/Std_AddonMgr"
 
-#: downloads.php:134
+#: downloads.php:149
 msgid "Addon manager."
 msgstr "Manažera doplňků."
 
-#: downloads.php:144
+#: downloads.php:159
 msgid "Source code"
 msgstr "Zdrojový kód"
 
-#: downloads.php:146
+#: downloads.php:161
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr "Zdrojový kód FreeCADu je hostován především na "
 
-#: downloads.php:148
+#: downloads.php:163
 msgid "and mirrored on "
 msgstr "a zrcadlově na "
 
-#: downloads.php:151
+#: downloads.php:166
 msgid "and "
 msgstr "a "
 
-#: events.php:9
+#: events.php:59
 msgid "FreeCAD events"
 msgstr "Události FreeCAD"
 
-#: events.php:11
+#: events.php:61
 msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
 msgstr "Následující kalendář ukazuje nadcházející data schůzek FreeCAD a dalších komunitních akcí."
 
-#: events.php:29
+#: events.php:79
 msgid "Subscribe to this calendar using this"
 msgstr "Přihlaste se k odběru tohoto kalendáře pomocí tohoto"
 
-#: events.php:29
+#: events.php:79
 msgid "ICS link"
 msgstr "ICS odkazu"
 
-#: features.php:9
+#: features.php:66
 msgid "Key FreeCAD Features"
 msgstr "Klíčové funkce FreeCADu"
 
-#: features.php:16
+#: features.php:77
 msgid "Made to build for the real world"
 msgstr "Vyrobeno pro reálný svět"
 
-#: features.php:18
+#: features.php:79
 msgid "FreeCAD is made primarily to design objects for the real world. Everything you do in FreeCAD uses real-world\n"
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
@@ -293,11 +337,11 @@ msgstr "FreeCAD je primárně určen k navrhování objektů pro skutečný svě
 "              úpravu pevných, plně přesných modelů, jejich export pro 3D tisk nebo CNC obrábění, vytváření 2D výkresů a pohledů na vaše modely,\n"
 "              provádění analýz, jako třeba analýzy konečných prvků, nebo export dat modelu, jako jsou množství nebo seznamy materiálů."
 
-#: features.php:40
+#: features.php:97
 msgid "A powerful solid-based geometry kernel"
 msgstr "Výkonné jádro geometrie založené na pevných tělesech"
 
-#: features.php:42
+#: features.php:99
 msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>. It supports solids,\n"
 "              <a href=https://en.wikipedia.org/wiki/Boundary_representation>Boundary Representation</a> (BRep) objects, and\n"
@@ -315,11 +359,11 @@ msgstr "FreeCAD nabízí pokročilé geometrické funkce založené na\n"
 "              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>zaoblení</a>, čištění tvarů a\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>mnoho dalšího</a>."
 
-#: features.php:58
+#: features.php:119
 msgid "A wi(l)dly parametric environment"
 msgstr "Široce divoké parametické prostředí"
 
-#: features.php:60
+#: features.php:121
 msgid "All FreeCAD objects are natively parametric, meaning their shape can be based on\n"
 "                <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">properties</a> such as numeric values, texts, on/off buttons,\n"
 "                or even other objects. All shape changes are recalculated on demand, recorded by an undo/redo stack, and allow to maintain\n"
@@ -333,11 +377,27 @@ msgstr "Všechny FreeCAD objekty jsou nativně parametrické, což znamená, že
 "                komplexní, vlastní parametrické řetězce, které by mohly existovat pouze ve vašich nejdivočejších snech. Nové parametrické objekty jsou\n"
 "                <a href=https://wiki.freecad.org/Scripted_objects>jednoduché k naprogramování</a>."
 
-#: features.php:83
+#: features.php:145
+msgid "Assembly solutions for every need"
+msgstr "Řešení sestav pro každou potřebu"
+
+#: features.php:147
+msgid "FreeCad offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
+msgstr "FreeCad nabízí spoustu skvělých pracovních prostředí sestav s různými řešiči a dokonce i pracovní postupy bez řešiče vytvořené komunitou pro sestavení dílů, které vytvoříte. Existují také některá skutečně zajímavá řešení mimo pracovní prostředí. Projekt vnitřního pracovního prostředí sestav, který probíhal od prvního dne, se kvůli některým problémům s existujícími řešiči nemohl uskutečnit. Nyní již ale máme <a href=https://github.com/Ondsel-Development/OndselSolver>Ondselův řešič</a>, který vám s verzí 1.0 nabídne pracovního prostředí sestav přímo v základu."
+
+#: features.php:164
+msgid "Also for architects"
+msgstr "Také pro architekty"
+
+#: features.php:166
+msgid "Until version 1.0, FreeCad had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
+msgstr "Až do verze 1.0, FreeCad měl vestavěné pracovní prostředí Architektury s možností rozšíření externím prostředím BIM. S verzí 1.0 se obě prostředí sloučila a nyní máme jediné vestavěné protředí BIM. Nyní tak můžete tvořit své stavební a konstrukční projekty přímo v základu."
+
+#: features.php:179
 msgid "Python everywhere"
 msgstr "Python všude"
 
-#: features.php:85
+#: features.php:181
 msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance,\n"
 "                  large parts of the external layers,  workbenches and almost all the communication between\n"
 "                  the core and the user interface is coded in <a href=https://python.org>Python</a>,\n"
@@ -353,11 +413,11 @@ msgstr "Zatímco základní funkčnost FreeCADu je naprogramována v C++ pro rob
 "                  příkazů v integrované konzoli Pythonu po nahrávání maker, programování vlastních nástrojů až po\n"
 "                  plně přizpůsobené pracovní prostředí."
 
-#: features.php:101
+#: features.php:200
 msgid "File formats frenzy"
 msgstr "Šílenství kolem souborových formátů"
 
-#: features.php:103
+#: features.php:202
 msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
 "              analyses results or quantities data to dozens of different <a href=\"https://wiki.freecad.org/Category:File_Formats\">file formats</a> such as\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
@@ -397,11 +457,11 @@ msgstr "FreeCAD vám umožňuje importovat a exportovat modely a mnoho dalších
 "              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a>. Přídavná pracovní prostředí mohou také přidávat další\n"
 "              formáty souborů."
 
-#: features.php:139
+#: features.php:233
 msgid "A parametric constraints-based 2D sketcher"
 msgstr "Parametrický 2D náčrtník založený na vazbách"
 
-#: features.php:141
+#: features.php:235
 msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
 "                  with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. Sketches are the main\n"
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
@@ -413,11 +473,11 @@ msgstr "FreeCAD obsahuje nejmodernější <a href=https://wiki.freecad.org/Sketc
 "                  objektů napříč FreeCADem, ať už se jedná o\n"
 "                  vyhrazené <a href=https://wiki.freecad.org/PartDesign_Workbench>pracovní prostředí Design dílu</a> nebo jakékoli jiný pracovní prostředí."
 
-#: features.php:155
+#: features.php:253
 msgid "A large (and growing) multi-specialty ecosystem"
 msgstr "Velký (a rostoucí) multispecializační ekosystém"
 
-#: features.php:157
+#: features.php:255
 msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\">workbenches</a> for a variety of purposes\n"
 "              such as\n"
 "              <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG modeling</a>,\n"
@@ -449,19 +509,15 @@ msgstr "FreeCAD nabízí vyhrazená <a href=\"https://wiki.freecad.org/Workbench
 "              <a href=\"https://wiki.freecad.org/Macros_recipes/cs\">maker</a> vyvinutých komunitou\n"
 "              uživatelů."
 
-#: features.php:173
+#: features.php:271
 msgid "https://wiki.freecad.org/Feature_list"
 msgstr "https://wiki.freecad.org/Feature_list/cs"
 
-#: features.php:174 index.php:113
-msgid "Learn more"
-msgstr "Zjistěte více"
-
-#: features.php:192
+#: features.php:285
 msgid "Developed by a community"
 msgstr "Vyvinuto komunitou"
 
-#: features.php:194
+#: features.php:287
 msgid "FreeCAD is made for everybody, by everybody. It is developed and maintained\n"
 "              by a community of developers, users, moderators, translators, all united by their wish make\n"
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
@@ -473,117 +529,117 @@ msgstr "FreeCAD je vytvořen pro všechny od všech. Je vyvíjen a spravován\n"
 "              nutkání nutit Vás aktualizovat vaši verzi FreeCAD nebo Vás nalákat do specifického pracovního postupu nebo\n"
 "              ekosystému. FreeCAD a soubory a data, které vytvoříte za pomocí FreeCADu jsou opravdu vaše, navždy."
 
-#: features.php:207
+#: features.php:300
 msgid "Release notes"
 msgstr "Poznámky k verzi"
 
-#: features.php:217
+#: features.php:310
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
 msgstr "Zde naleznete poznámky k vydání pro aktuální a předchozí verze FreeCADu.\n"
 "                  Poznámky k vydání popisují, co je nového v každém vydání:"
 
-#: features.php:224
+#: features.php:317
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
 msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Poznámky k vydání 0.21"
 
-#: features.php:224
+#: features.php:317
 msgid "Release 0.21 - August 2023"
 msgstr "Vydání 0.21 - srpen 2023"
 
-#: features.php:224
+#: features.php:317
 msgid "current stable release"
 msgstr "aktuální stabilní vydání"
 
-#: features.php:225
+#: features.php:318
 msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
 msgstr "https://wiki.freecad.org/Release_notes_0.20\" title=\"Poznámky k vydání 0.20"
 
-#: features.php:225
+#: features.php:318
 msgid "Release 0.20 - June 2022"
 msgstr "Vydání 0.20 - červen 2022"
 
-#: features.php:226
+#: features.php:319
 msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
 msgstr "https://wiki.freecad.org/Release_notes_0.19\" title=\"Poznámky k vydání 0.19"
 
-#: features.php:226
+#: features.php:319
 msgid "Release 0.19 - March 2021"
 msgstr "Vydání 0.19 - březen 2021"
 
-#: features.php:227
+#: features.php:320
 msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
 msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"Poznámky k vydání 0.18"
 
-#: features.php:227
+#: features.php:320
 msgid "Release 0.18 - March 2019"
 msgstr "Vydání 0.18 - březen 2019"
 
-#: features.php:228
+#: features.php:321
 msgid "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
 msgstr "https://wiki.freecad.org/Release_notes_0.17\" title=\"Poznámky k vydání 0.17"
 
-#: features.php:228
+#: features.php:321
 msgid "Release 0.17 - April 2018"
 msgstr "Vydání 0.17 - duben 2018"
 
-#: features.php:229
+#: features.php:322
 msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
 msgstr "https://wiki.freecad.org/Release_notes_0.16\" title=\"Poznámky k vydání 0.16"
 
-#: features.php:229
+#: features.php:322
 msgid "Release 0.16 - April 2016"
 msgstr "Vydání 0.16 - duben 2016"
 
-#: features.php:230
+#: features.php:323
 msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
 msgstr "https://wiki.freecad.org/Release_notes_0.15\" title=\"Poznámky k vydání 0.15"
 
-#: features.php:230
+#: features.php:323
 msgid "Release 0.15 - March 2015"
 msgstr "Vydání 0.15 - březen 2015"
 
-#: features.php:231
+#: features.php:324
 msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
 msgstr "https://wiki.freecad.org/Release_notes_0.14/cs\" title=\"Poznámky k vydání 0.14"
 
-#: features.php:231
+#: features.php:324
 msgid "Release 0.14 - March 2014"
 msgstr "Vydání 0.14 - březen 2014"
 
-#: features.php:232
+#: features.php:325
 msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
 msgstr "https://wiki.freecad.org/Release_notes_0.13\" title=\"Poznámky k vydání 0.13"
 
-#: features.php:232
+#: features.php:325
 msgid "Release 0.13 - January 2013"
 msgstr "Vydání 0.13 - leden 2013"
 
-#: features.php:233
+#: features.php:326
 msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
 msgstr "https://wiki.freecad.org/Release_notes_0.12\" title=\"Poznámky k vydání 0.12"
 
-#: features.php:233
+#: features.php:326
 msgid "Release 0.12 - December 2011"
 msgstr "Vydání 0.12 - prosinec 2011"
 
-#: features.php:234
+#: features.php:327
 msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
 msgstr "https://wiki.freecad.org/Release_notes_0.11\" title=\"Poznámky k vydání 0.11"
 
-#: features.php:234
+#: features.php:327
 msgid "Release 0.11 - March 2011"
 msgstr "Vydání 0.11- březen 2011"
 
-#: features.php:245
+#: features.php:338
 msgid "Follow the official FreeCAD channels for fresh news:"
 msgstr "Sledujte oficiální kanály FreeCAD pro čerstvé novinky:"
 
-#: features.php:251
+#: features.php:344
 msgid "Official blog"
 msgstr "Oficiální blog"
 
-#: features.php:252
+#: features.php:345
 msgid "Twitter account"
 msgstr "Účet Twitter"
 
@@ -601,10 +657,6 @@ msgstr "© Tým FreeCAD. Autorství obrázků úvodní stránky (od zhora dolů)
 msgid "This project is supported by:"
 msgstr "Tento projekt podporují:"
 
-#: footer.php:36
-msgid "and"
-msgstr "a"
-
 #: footer.php:37
 msgid "other sponsors"
 msgstr "ostatní sponzoři"
@@ -615,183 +667,187 @@ msgid "Improve this\n"
 msgstr "Vylepšete tuto\n"
 "      stránku na GitHubu"
 
-#: header.php:22 header.php:35
+#: header.php:23 header.php:36
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Váš vlastní 3D parametrický modelář"
 
-#: header.php:71
+#: header.php:73
 msgid "Features"
 msgstr "Funkce"
 
-#: header.php:75
+#: header.php:77
 msgid "Download"
 msgstr "Stáhnout"
 
-#: header.php:79
+#: header.php:81
 msgid "Blog"
 msgstr "Blog"
 
-#: header.php:83
+#: header.php:85
 msgid "Documentation"
 msgstr "Dokumentace"
 
-#: header.php:86
+#: header.php:88
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:86
+#: header.php:88
 msgid "Documentation index"
 msgstr "Hlavní strana dokumentace"
 
-#: header.php:87 thankyou.php:137
+#: header.php:89 thankyou.php:137
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:87
+#: header.php:89
 msgid "Getting started"
 msgstr "Začínáme"
 
-#: header.php:88
+#: header.php:90
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:88
+#: header.php:90
 msgid "Users documentation"
 msgstr "Uživatelská dokumentace"
 
-#: header.php:89 thankyou.php:149
+#: header.php:91 thankyou.php:149
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:89
+#: header.php:91
 msgid "The FreeCAD manual"
 msgstr "Příručka FreeCAD"
 
-#: header.php:90 thankyou.php:139
+#: header.php:92 thankyou.php:139
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:90 thankyou.php:139
+#: header.php:92 thankyou.php:139
 msgid "Workbenches documentation"
 msgstr "Dokumentace pracovních prostředí"
 
-#: header.php:91
+#: header.php:93
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:91
+#: header.php:93
 msgid "Python coding documentation"
 msgstr "Dokumentace o skriptování v Pythonu"
 
-#: header.php:92
+#: header.php:94
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:92
+#: header.php:94
 msgid "C++ coding documentation"
 msgstr "Dokumentace o programování v C++"
 
-#: header.php:93 thankyou.php:158
+#: header.php:95 thankyou.php:158
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:93 thankyou.php:158
+#: header.php:95 thankyou.php:158
 msgid "Tutorials"
 msgstr "Tutoriály"
 
-#: header.php:94 thankyou.php:140
+#: header.php:96 thankyou.php:140
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:94 thankyou.php:140
+#: header.php:96 thankyou.php:140
 msgid "Frequently asked questions"
 msgstr "Často kladené otázky"
 
-#: header.php:95
+#: header.php:97
 msgid "Privacy policy"
 msgstr "Zásady ochrany soukromí"
 
-#: header.php:96
+#: header.php:98
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/About_FreeCAD"
 
-#: header.php:96
+#: header.php:98
 msgid "About FreeCAD"
 msgstr "O FreeCADu"
 
-#: header.php:101
+#: header.php:103
 msgid "Contribute"
 msgstr "Zapojte se"
 
-#: header.php:104
+#: header.php:106
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
-#: header.php:104
+#: header.php:106
 msgid "How to help"
 msgstr "Jak pomoci"
 
-#: header.php:105
+#: header.php:107
 msgid "Donate / Sponsor"
 msgstr "Darovat / Sponzorovat"
 
-#: header.php:106
+#: header.php:108
 msgid "Report a bug"
 msgstr "Nahlásit chybu"
 
-#: header.php:107
+#: header.php:109
 msgid "Make a pull request"
 msgstr "Vytvořit žádost o změnu"
 
-#: header.php:108
+#: header.php:110
 msgid "Jobs and funding"
 msgstr "Pracovní místa a financování"
 
-#: header.php:109
+#: header.php:111
 msgid "Contribution guidelines"
 msgstr "Pokyny pro příspěvky"
 
-#: header.php:110
+#: header.php:112
 msgid "Developers handbook"
 msgstr "Příručka pro vývojáře"
 
-#: header.php:111
+#: header.php:113
 msgid "https://wiki.freecad.org/Localisation"
 msgstr "https://wiki.freecad.org/Localisation/cs"
 
-#: header.php:111
+#: header.php:113
 msgid "Translations"
 msgstr "Překlady"
 
-#: header.php:116
+#: header.php:118
 msgid "Community"
 msgstr "Komunita"
 
-#: header.php:119
+#: header.php:121
 msgid "Code of conduct"
 msgstr "Etický kodex"
 
-#: header.php:120
+#: header.php:122
 msgid "Forum"
 msgstr "Fórum"
 
-#: header.php:135
+#: header.php:137
 msgid "Calendar"
 msgstr "Kalendář"
 
-#: index.php:20
+#: index.php:26
 msgid "Your own 3D parametric modeler"
 msgstr "Váš vlastní 3D parametrický modelář"
 
-#: index.php:22
+#: index.php:28
 msgid "Download now"
 msgstr "Stáhnout"
 
-#: index.php:38
+#: index.php:39
+msgid "Modelled by ppemawm"
+msgstr "Vymodeloval ppemawm"
+
+#: index.php:44
 msgid "Freedom to build what you want"
 msgstr "Svoboda tvořit to, co chcete"
 
-#: index.php:40
+#: index.php:46
 msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
@@ -801,11 +857,15 @@ msgstr "FreeCAD je parametrický 3D modelář s otevřeným zdrojem určený př
 "          snadno upravit váš návrh tím, že se vrátíte do historie modelu\n"
 "          a změníte jeho parametry."
 
-#: index.php:54
+#: index.php:55
+msgid "Modelled by r-frank"
+msgstr "Vymodeloval r-frank"
+
+#: index.php:60
 msgid "Create 3D from 2D & back"
 msgstr "Vytvořte 3D z 2D a naopak"
 
-#: index.php:56
+#: index.php:62
 msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
@@ -815,11 +875,15 @@ msgstr "FreeCAD vám umožňuje načrtnout 2D tvary s vázanou geometrií a pou�
 "          pro úpravu rozměrů nebo extrahování konstrukčních detailů z 3D modelů pro\n"
 "          vytvoření vysoce kvalitních produkčních výkresů."
 
-#: index.php:70
+#: index.php:71
+msgid "Modelled by epileftric"
+msgstr "Vymodeloval epileftric"
+
+#: index.php:76
 msgid "Accessible, flexible & integrated"
 msgstr "Přístupný, flexibilní a integrovaný"
 
-#: index.php:72
+#: index.php:78
 msgid "FreeCAD is a multiplatform (Windows, Mac and Linux), highly\n"
 "          customizable and extensible software. It reads and writes to many\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
@@ -831,11 +895,15 @@ msgstr "FreeCAD je multiplatformní (Windows, Mac a Linux), vysoce\n"
 "          a mnoha dalších, což umožňuje bezproblémovou integraci\n"
 "          do vašeho pracovního postupu."
 
-#: index.php:87
+#: index.php:88
+msgid "Modelled by regis"
+msgstr "Vymodeloval regis"
+
+#: index.php:93
 msgid "Designed for your needs"
 msgstr "Navržen pro vaše potřeby"
 
-#: index.php:89
+#: index.php:95
 msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
@@ -845,11 +913,15 @@ msgstr "FreeCAD je navržen tak, aby vyhovoval široké škále použití včetn
 "          kutil, programátor, zkušený uživatel CADu, student nebo\n"
 "          učitel, s FreeCADem se budete cítit jako doma."
 
-#: index.php:103
+#: index.php:104
+msgid "Modelled by rider_mortagnais"
+msgstr "Vymodeloval rider_mortagnais"
+
+#: index.php:109
 msgid "And many more great features"
 msgstr "A mnoho dalších skvělých funkcí"
 
-#: index.php:105
+#: index.php:111
 msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          modern Finite Element Analysis (FEA) tools, experimental CFD, dedicated BIM,\n"
 "          Geodata or CAM/CNC workbenches, a robot simulation module that\n"
@@ -863,11 +935,15 @@ msgstr "FreeCAD vás vybaví těmi správnými nástroji pro vaše potřeby. Zí
 "          je skutečně švýcarský armádní nůž s univerzálními inženýrskými\n"
 "          sadami nástrojů."
 
-#: index.php:124
+#: index.php:125
+msgid "Modelled by bejant"
+msgstr "Vymodeloval bejant"
+
+#: index.php:130
 msgid "Want to contribute to FreeCAD?"
 msgstr "Chcete se zapojit do vývoje?"
 
-#: index.php:126
+#: index.php:132
 msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
@@ -877,7 +953,7 @@ msgstr "FreeCAD je skutečně projekt s otevřeným zdrojem a pokud byste chtěl
 "          zveme vás, abyste se k nám připojili a vytvořili software, který bude přínosem\n"
 "          pro celou komunitu."
 
-#: index.php:132
+#: index.php:138
 msgid "Get involved"
 msgstr "Zapojit se"
 
@@ -1270,151 +1346,151 @@ msgstr "Pokud narazíte na problémy s FreeCADem nebo se chcete\n"
 "            jak vyřešit konkrétní problém nebo diskutovat o nápadech ohledně\n"
 "            světa FreeCAD a jeho okolí."
 
-#: translation.php:68
+#: translation.php:67
 msgid "English"
 msgstr "Angličtina"
 
-#: translation.php:69
+#: translation.php:68
 msgid "Afrikaans"
 msgstr "Afrikánština"
 
-#: translation.php:70
+#: translation.php:69
 msgid "Arabic"
 msgstr "Arabština"
 
-#: translation.php:71
+#: translation.php:70
 msgid "Belarusian"
 msgstr "Běloruština"
 
-#: translation.php:72
+#: translation.php:71
 msgid "Catalan"
 msgstr "Katalánština"
 
-#: translation.php:73
+#: translation.php:72
 msgid "Czech"
 msgstr "Čeština"
 
-#: translation.php:74
+#: translation.php:73
 msgid "German"
 msgstr "Němčina"
 
-#: translation.php:75
+#: translation.php:74
 msgid "Greek"
 msgstr "Řečtina"
 
-#: translation.php:76 translation.php:77
+#: translation.php:75 translation.php:76
 msgid "Spanish"
 msgstr "Španělština"
 
-#: translation.php:78
+#: translation.php:77
 msgid "Basque"
 msgstr "Baskičtina"
 
-#: translation.php:79
+#: translation.php:78
 msgid "Finnish"
 msgstr "Finština"
 
-#: translation.php:80
+#: translation.php:79
 msgid "Filipino"
 msgstr "Filipínština"
 
-#: translation.php:81
+#: translation.php:80
 msgid "French"
 msgstr "Francouzština"
 
-#: translation.php:82
+#: translation.php:81
 msgid "Galician"
 msgstr "Galicijština"
 
-#: translation.php:83
+#: translation.php:82
 msgid "Croatian"
 msgstr "Chorvatština"
 
-#: translation.php:84
+#: translation.php:83
 msgid "Hungarian"
 msgstr "Maďarština"
 
-#: translation.php:85
+#: translation.php:84
 msgid "Indonesian"
 msgstr "Indonéština"
 
-#: translation.php:86
+#: translation.php:85
 msgid "Italian"
 msgstr "Italština"
 
-#: translation.php:87
+#: translation.php:86
 msgid "Japanese"
 msgstr "Japonština"
 
-#: translation.php:88
+#: translation.php:87
 msgid "Kabyle"
 msgstr "Kabylština"
 
-#: translation.php:89
+#: translation.php:88
 msgid "Korean"
 msgstr "Korejština"
 
-#: translation.php:90
+#: translation.php:89
 msgid "Lithuanian"
 msgstr "Litevština"
 
-#: translation.php:91
+#: translation.php:90
 msgid "Dutch"
 msgstr "Holandština"
 
-#: translation.php:92
+#: translation.php:91
 msgid "Norwegian Bokmal"
 msgstr "Norština Bokmål"
 
-#: translation.php:93
+#: translation.php:92
 msgid "Polish"
 msgstr "Polština"
 
-#: translation.php:94 translation.php:95
+#: translation.php:93 translation.php:94
 msgid "Portuguese"
 msgstr "Portugalština"
 
-#: translation.php:96
+#: translation.php:95
 msgid "Romanian"
 msgstr "Rumunština"
 
-#: translation.php:97
+#: translation.php:96
 msgid "Russian"
 msgstr "Ruština"
 
-#: translation.php:98
+#: translation.php:97
 msgid "Slovak"
 msgstr "Slovenština"
 
-#: translation.php:99
+#: translation.php:98
 msgid "Slovenian"
 msgstr "Slovinština"
 
-#: translation.php:100
+#: translation.php:99
 msgid "Serbian"
 msgstr "Srbština"
 
-#: translation.php:101
+#: translation.php:100
 msgid "Swedish"
 msgstr "Švédština"
 
-#: translation.php:102
+#: translation.php:101
 msgid "Turkish"
 msgstr "Turečtina"
 
-#: translation.php:103
+#: translation.php:102
 msgid "Ukrainian"
 msgstr "Ukrajinština"
 
-#: translation.php:104
+#: translation.php:103
 msgid "Valencian"
 msgstr "Valencijština"
 
-#: translation.php:105
+#: translation.php:104
 msgid "Vietnamese"
 msgstr "Vietnamština"
 
-#: translation.php:106 translation.php:107
+#: translation.php:105 translation.php:106
 msgid "Chinese"
 msgstr "Čínština"
 
