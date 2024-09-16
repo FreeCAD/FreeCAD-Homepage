@@ -241,6 +241,11 @@
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
                 <div class="silver sponsor">
+                    <a href="https://route4me.com">Route4Me Route Planner</a>
+                     – trusted for last-mile route planning and route optimization.
+                </div>
+
+                <div class="silver sponsor">
                     <img class="logo" src="images/sponsors/chudovo.png">
                     <a class="title" href="https://chudovo.com">Chudovo</a>
                      is an international software development company with representative 
