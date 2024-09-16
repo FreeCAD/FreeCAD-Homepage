@@ -1,6 +1,7 @@
 <?php
     $page = $_GET["page"];
     $currentpage = "wiki-".$page.".php";
+    $cacheDuration  = 86400; //60 sec x 60 min x 24 hour = 86400 = 1 day
     include("header.php");
 ?>
 
@@ -335,11 +336,28 @@ function removeSrcsetAttributes($xpath) {
     }
 }
 
+function fetchWikiContentWithCache($page, $lang = 'en', $cacheDuration = 86400) { //60 sec x 60 min x 24 hour = 86400 = 1 day
+    $cacheDir = __DIR__ . '/cache/';
+    if (!is_dir($cacheDir)) {
+        mkdir($cacheDir, 0777, true);
+    }
+    $cacheFile = $cacheDir . md5($page . $lang) . '.json.cache';
 
+    if (file_exists($cacheFile) && (time() - filemtime($cacheFile) < $cacheDuration)) {
+        $cachedData = file_get_contents($cacheFile);
+        return json_decode($cachedData, true);
+    }
 
-
-function processWikiContent($page, $lang = 'en') {
     $data = fetchWikiContent($page, $lang);
+
+    file_put_contents($cacheFile, json_encode($data));
+
+    return $data;
+}
+
+
+function processWikiContent($page, $lang = 'en', $cacheDuration = 86400) { //60 sec x 60 min x 24 hour = 86400 = 1 day
+    $data = fetchWikiContentWithCache($page, $lang, $cacheDuration);
     $htmlContent = $data['parse']['text']['*'];
 
     list($dom, $xpath) = createDomAndXpath($htmlContent);
@@ -360,7 +378,7 @@ function processWikiContent($page, $lang = 'en') {
     return $dom->saveHTML();
 }
 
-echo processWikiContent($page, $lang);
+echo processWikiContent($page, $lang, $cacheDuration);
 
 ?>
 
