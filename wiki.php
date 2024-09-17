@@ -57,7 +57,7 @@ figure[typeof~="mw:File/Frame"] {
     background-color: rgba(52, 58, 64, 0.5);
 }
 
-figure[typeof~="mw:File/Thumb"].mw-halign-left, 
+figure[typeof~="mw:File/Thumb"].mw-halign-left,
 figure[typeof~="mw:File/Frame"].mw-halign-left {
   margin: 0.5em 1.4em 1.3em 0;
   clear: left;
@@ -78,7 +78,7 @@ figure[typeof~="mw:File/Frameless"] > figcaption {
     display: none;
 }
 
-figure[typeof~="mw:File"].mw-halign-left, 
+figure[typeof~="mw:File"].mw-halign-left,
 figure[typeof~="mw:File/Frameless"].mw-halign-left {
   margin: 0 0.5em 0.5em 0;
   clear: left;
@@ -113,7 +113,7 @@ li.gallerybox {
 
 .mw-highlight .sd,
 .mw-highlight .s2 {
-    color: #E06C75; 
+    color: #E06C75;
     font-style: italic;
 }
 
@@ -121,29 +121,29 @@ li.gallerybox {
 .mw-highlight .k,
 .mw-highlight .kc,
 .mw-highlight .nb {
-    color: #98C379; 
+    color: #98C379;
     font-weight: bold;
 }
 
 .mw-highlight .nn,
 .mw-highlight .nf {
-    color: #61AFEF; 
+    color: #61AFEF;
     font-weight: bold;
 }
 
 .mw-highlight .o,
 .mw-highlight .mi,
 .mw-highlight .mf {
-    color: #D19A66; 
+    color: #D19A66;
 }
 
 .mw-highlight .c1 {
-    color: #5C6370; 
+    color: #5C6370;
     font-style: italic;
 }
 
 .mw-highlight .ow {
-    color: #C678DD; 
+    color: #C678DD;
     font-weight: bold;
 }
 
