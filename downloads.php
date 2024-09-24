@@ -112,7 +112,7 @@
     <div class="download-notes text-center">
       <p>
         <?php echo _("The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs"); ?>:
-        <a class="badge text-bg-light text-decoration-none" href="https://github.com/FreeCAD/FreeCAD/releases/tag/1.0rc1">
+        <a class="badge text-bg-light text-decoration-none" href="https://github.com/FreeCAD/FreeCAD/releases/tag/1.0rc2">
             <?php echo _('Download and try a 1.0 Release Candidate build!'); ?>
         </a>
       </p>
