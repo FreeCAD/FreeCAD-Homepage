@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 10:41+0200\n"
-"PO-Revision-Date: 2024-09-16 16:32\n"
+"POT-Creation-Date: 2024-09-16 20:07+0200\n"
+"PO-Revision-Date: 2024-09-23 16:28\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -204,10 +204,6 @@ msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minu
 msgstr ""
 
 #: downloads.php:115
-msgid "https://blog.freecad.org/2024/09/10/the-first-release-candidate-of-freecad-1-0-is-out/"
-msgstr ""
-
-#: downloads.php:115
 msgid "Download and try a 1.0 Release Candidate build!"
 msgstr ""
 
@@ -237,19 +233,19 @@ msgstr "Слід очікувати, що розробницькі збірки 
 
 #: downloads.php:132
 msgid "Download here a "
-msgstr ""
+msgstr "Завантажте тут "
 
 #: downloads.php:132
 msgid "Weekly Build"
-msgstr ""
+msgstr "Щотижнева збірка"
 
 #: downloads.php:132
 msgid " for Windows, macOS or Linux. "
-msgstr ""
+msgstr " для Windows, macOS чи Linux. "
 
 #: downloads.php:133
 msgid "On Linux"
-msgstr ""
+msgstr "Для Linux"
 
 #: downloads.php:133
 msgid "https://wiki.freecad.org/Snap"
@@ -265,7 +261,7 @@ msgstr "https://wiki.freecad.org/Flatpak/uk"
 
 #: downloads.php:135
 msgid "also provide developement channels"
-msgstr ""
+msgstr "також забезпечують канали розробки"
 
 #: downloads.php:145
 msgid "Additional modules and macros"
@@ -379,7 +375,7 @@ msgid "Assembly solutions for every need"
 msgstr ""
 
 #: features.php:147
-msgid "FreeCad offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
+msgid "FreeCAD offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
 msgstr ""
 
 #: features.php:164
@@ -387,7 +383,7 @@ msgid "Also for architects"
 msgstr ""
 
 #: features.php:166
-msgid "Until version 1.0, FreeCad had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
+msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
 msgstr ""
 
 #: features.php:179
@@ -437,21 +433,21 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 msgstr "FreeCAD дозволяє імпортувати й експортувати моделі та багато інших типів даних із ваших моделей, наприклад\n"
 "              аналізувати результати чи кількісні дані в десятки різних <a href=\"https://wiki.freecad.org/Category:File_Formats\"> формати файлів</a>, такі як\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
-"              < a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text \" href=\"https://en.wikipedia.org/wiki/Wavefront_.obj_file\">OBJ</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Wavefront_.obj_file\">OBJ</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>,\n"
-"              <a rel=\"nofollow\" class=\" зовнішній текст\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
-"              <a rel=\"nofollow\" class=\"зовнішній текст\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC </a> або\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OFF_(file_format)\">ВИМКНЕНО</a>,\n"
-"              < a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text \" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
 "              і багато іншого, окрім рідної версії FreeCAD\n"
-"              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"Файл Формат Формат файлу FCStd\">FCStd</a>. Додаткові верстаки також можуть додавати більше\n"
+"              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"Формат файлу FCStd\">FCStd</a>. Додаткові верстаки також можуть додавати більше\n"
 "              форматів файлів."
 
 #: features.php:233
@@ -1165,7 +1161,7 @@ msgstr "Ранні спонсори"
 msgid "Silver sponsors"
 msgstr "Срібні спонсори"
 
-#: sponsor.php:273
+#: sponsor.php:278
 msgid "Bronze sponsors"
 msgstr "Бронзові спонсори"
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 10:41+0200\n"
-"PO-Revision-Date: 2024-09-16 16:30\n"
+"POT-Creation-Date: 2024-09-16 20:07+0200\n"
+"PO-Revision-Date: 2024-09-23 16:26\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -200,10 +200,6 @@ msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minu
 msgstr "La version de FreeCAD 1.0 sort bientôt ! Aidez-nous à traiter les bogues de dernière minute :"
 
 #: downloads.php:115
-msgid "https://blog.freecad.org/2024/09/10/the-first-release-candidate-of-freecad-1-0-is-out/"
-msgstr "https://blog.freecad.org/2024/09/10/the-first-release-candidate-of-freecad-1-0-is-out/"
-
-#: downloads.php:115
 msgid "Download and try a 1.0 Release Candidate build!"
 msgstr "Téléchargez et essayez une préversion stable 1.0 !"
 
@@ -364,16 +360,16 @@ msgid "Assembly solutions for every need"
 msgstr "Des solutions d'assemblage pour tous les besoins"
 
 #: features.php:147
-msgid "FreeCad offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
-msgstr "FreeCAD fournit un certain nombre d'ateliers d'assemblages, avec différents solveurs et même des flux de travail sans solveur créés par la communauté pour assembler des pièces. Il existe également des solutions très intéressantes en dehors des ateliers. Le projet d'avoir un atelier d'assemblage intégré existe depuis le premier jour mais n'a jamais été mis en œuvre en raison de problèmes avec les solveurs existants. Désormais le <a href=https://github.com/Ondsel-Development/OndselSolver>solveur d'Ondsel</a> remplit cette fonction. À partir de la version 1.0, un atelier d'assemblage est inclus."
+msgid "FreeCAD offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
+msgstr "FreeCAD propose un grand nombre d'ateliers d'assemblage avec différents solveurs et même des flux de travail sans solveur créés par la communauté pour assembler les pièces que vous créez.  Il existe également des solutions très intéressantes en dehors des ateliers. Le projet d'avoir un atelier d'assemblage interne depuis le début n'a pas abouti en raison de problèmes avec les solveurs existants, mais nous avons maintenant le <a href=https://github.com/Ondsel-Development/OndselSolver>solveur d'Ondsel</a>. Avec la version 1.0, vous disposez d'un atelier d'assemblage à la mise en route du logiciel."
 
 #: features.php:164
 msgid "Also for architects"
 msgstr "Aussi pour les architectes"
 
 #: features.php:166
-msgid "Until version 1.0, FreeCad had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
-msgstr "Jusqu'à la version 1.0, FreeCAD disposait d'un atelier Arch intégré et d'un atelier BIM externe. Avec la version 1.0, les deux ont fusionné et nous avons maintenant un atelier BIM intégré. Vous pouvez désormais réaliser vos projets de construction."
+msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
+msgstr "Jusqu'à la version 1.0, FreeCAD disposait d'un atelier Arch intégré et d'un atelier BIM externe. Avec la version 1.0, les deux ont été fusionnés en un seul atelier BIM intégré. Vous pouvez désormais réaliser vos projets de construction à la mise en route du logiciel."
 
 #: features.php:179
 msgid "Python everywhere"
@@ -1035,7 +1031,7 @@ msgstr "Premiers parrains"
 msgid "Silver sponsors"
 msgstr "Parrains Silver"
 
-#: sponsor.php:273
+#: sponsor.php:278
 msgid "Bronze sponsors"
 msgstr "Parrains Bronze"
 

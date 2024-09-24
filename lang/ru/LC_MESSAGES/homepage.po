@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 10:41+0200\n"
-"PO-Revision-Date: 2024-09-16 16:31\n"
+"POT-Creation-Date: 2024-09-16 20:07+0200\n"
+"PO-Revision-Date: 2024-09-23 16:27\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -31,7 +31,7 @@ msgstr "Подробнее"
 
 #: blog.php:263
 msgid "All Blogs"
-msgstr ""
+msgstr "Все Блоги"
 
 #: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
@@ -203,15 +203,11 @@ msgstr "Примечания к выпуску FreeCAD 0.21"
 
 #: downloads.php:114
 msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs:"
-msgstr ""
-
-#: downloads.php:115
-msgid "https://blog.freecad.org/2024/09/10/the-first-release-candidate-of-freecad-1-0-is-out/"
-msgstr ""
+msgstr "Скоро выйдет FreeCAD 1.0! Помогите нам исправить ошибки, обнаруженные в последнюю минуту:"
 
 #: downloads.php:115
 msgid "Download and try a 1.0 Release Candidate build!"
-msgstr ""
+msgstr "Скачайте и попробуйте сборку с Release Candidate 1.0!"
 
 #: downloads.php:124
 msgid "Development versions"
@@ -223,7 +219,7 @@ msgstr "Развитие FreeCAD происходит ежедневно!"
 
 #: downloads.php:127
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
-msgstr ""
+msgstr "Сообщество FreeCAD еженедельно создает сборки, основанные на <i>новейшем</i> коде FreeCAD, чтобы пользователи могли протестировать исправления ошибок/регрессии, а также новые функции."
 
 #: downloads.php:128
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
@@ -239,19 +235,19 @@ msgstr "Следует ожидать, что сборки для разрабо
 
 #: downloads.php:132
 msgid "Download here a "
-msgstr ""
+msgstr "Скачать здесь "
 
 #: downloads.php:132
 msgid "Weekly Build"
-msgstr ""
+msgstr "Еженедельная сборка"
 
 #: downloads.php:132
 msgid " for Windows, macOS or Linux. "
-msgstr ""
+msgstr " для Windows, macOS или Linux. "
 
 #: downloads.php:133
 msgid "On Linux"
-msgstr ""
+msgstr "На Linux"
 
 #: downloads.php:133
 msgid "https://wiki.freecad.org/Snap"
@@ -267,7 +263,7 @@ msgstr "https://wiki.freecad.org/Flatpak"
 
 #: downloads.php:135
 msgid "also provide developement channels"
-msgstr ""
+msgstr "также обеспечивает каналы разработки"
 
 #: downloads.php:145
 msgid "Additional modules and macros"
@@ -378,19 +374,19 @@ msgstr "Все объекты FreeCAD изначально параметрич�
 
 #: features.php:145
 msgid "Assembly solutions for every need"
-msgstr ""
+msgstr "Решения по сборке для любых нужд"
 
 #: features.php:147
-msgid "FreeCad offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
-msgstr ""
+msgid "FreeCAD offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
+msgstr "FreeCAD предлагает множество отличных сборочных верстаков с различными решателями и даже рабочими процессами без решателей, созданными сообществом для сборки создаваемых вами деталей. Есть также несколько действительно интересных решений за пределами верстаков. Проект создания внутреннего сборочного верстака, который существовал с самого начала, не состоялся из-за некоторых проблем с существующими решателями, но теперь у нас есть <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. А теперь с версией 1.0 у вас есть сборочный верстак прямо из коробки."
 
 #: features.php:164
 msgid "Also for architects"
-msgstr ""
+msgstr "Также для архитекторов"
 
 #: features.php:166
-msgid "Until version 1.0, FreeCad had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
-msgstr ""
+msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
+msgstr "До версии 1.0 FreeCAD имел встроенный Arch workbench и внешний BIM workbench, добавленный поверх него. С версией 1.0 они оба объединились, и теперь у нас есть встроенный BIM workbench. Теперь вы можете выполнять свои строительные и конструкторские проекты прямо из коробки."
 
 #: features.php:179
 msgid "Python everywhere"
@@ -839,7 +835,7 @@ msgstr "Скачать сейчас"
 
 #: index.php:39
 msgid "Modelled by ppemawm"
-msgstr ""
+msgstr "Смоделировано ppemawm"
 
 #: index.php:44
 msgid "Freedom to build what you want"
@@ -857,7 +853,7 @@ msgstr "FreeCAD - это программа параметрического т�
 
 #: index.php:55
 msgid "Modelled by r-frank"
-msgstr ""
+msgstr "Смоделировано r-frank"
 
 #: index.php:60
 msgid "Create 3D from 2D & back"
@@ -872,7 +868,7 @@ msgstr "Программное обеспечение FreeCAD позволяет
 
 #: index.php:71
 msgid "Modelled by epileftric"
-msgstr ""
+msgstr "Смоделировано по epileftric"
 
 #: index.php:76
 msgid "Accessible, flexible & integrated"
@@ -891,7 +887,7 @@ msgstr "FreeCAD — это мультиплатформенное (Windows, Mac 
 
 #: index.php:88
 msgid "Modelled by regis"
-msgstr ""
+msgstr "Моделируется с помощью regis"
 
 #: index.php:93
 msgid "Designed for your needs"
@@ -909,7 +905,7 @@ msgstr "FreeCAD разработан для выполнения широког�
 
 #: index.php:104
 msgid "Modelled by rider_mortagnais"
-msgstr ""
+msgstr "Моделируется с помощью rider_mortagnais"
 
 #: index.php:109
 msgid "And many more great features"
@@ -931,7 +927,7 @@ msgstr "FreeCAD предоставляет вам необходимые инс�
 
 #: index.php:125
 msgid "Modelled by bejant"
-msgstr ""
+msgstr "Моделируется bejant"
 
 #: index.php:130
 msgid "Want to contribute to FreeCAD?"
@@ -1167,7 +1163,7 @@ msgstr "Ранние спонсоры"
 msgid "Silver sponsors"
 msgstr "Серебряные спонсоры"
 
-#: sponsor.php:273
+#: sponsor.php:278
 msgid "Bronze sponsors"
 msgstr "Бронзовые спонсоры"
 

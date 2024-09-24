@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 10:41+0200\n"
-"PO-Revision-Date: 2024-09-16 16:31\n"
+"POT-Creation-Date: 2024-09-16 20:07+0200\n"
+"PO-Revision-Date: 2024-09-23 16:26\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -31,7 +31,7 @@ msgstr "詳しく見る"
 
 #: blog.php:263
 msgid "All Blogs"
-msgstr ""
+msgstr "すべてのブログ"
 
 #: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
@@ -195,15 +195,11 @@ msgstr "FreeCAD 0.21 リリースノート"
 
 #: downloads.php:114
 msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs:"
-msgstr ""
-
-#: downloads.php:115
-msgid "https://blog.freecad.org/2024/09/10/the-first-release-candidate-of-freecad-1-0-is-out/"
-msgstr ""
+msgstr "FreeCAD 1.0のリリースが間もなくです！　最後のバグ解決にご協力ください："
 
 #: downloads.php:115
 msgid "Download and try a 1.0 Release Candidate build!"
-msgstr ""
+msgstr "1.0 リリース候補ビルドをダウンロードして試してみてください！"
 
 #: downloads.php:124
 msgid "Development versions"
@@ -231,19 +227,19 @@ msgstr "開発ビルド版は、公式リリース版よりも動作が遅く、
 
 #: downloads.php:132
 msgid "Download here a "
-msgstr ""
+msgstr "ここでダウンロード "
 
 #: downloads.php:132
 msgid "Weekly Build"
-msgstr ""
+msgstr "ウィークリービルド"
 
 #: downloads.php:132
 msgid " for Windows, macOS or Linux. "
-msgstr ""
+msgstr " Windows、macOS、Linux用。 "
 
 #: downloads.php:133
 msgid "On Linux"
-msgstr ""
+msgstr "Linuxの場合"
 
 #: downloads.php:133
 msgid "https://wiki.freecad.org/Snap"
@@ -259,7 +255,7 @@ msgstr "https://wiki.freecad.org/Flatpak"
 
 #: downloads.php:135
 msgid "also provide developement channels"
-msgstr ""
+msgstr "開発チャンネルも提供されています"
 
 #: downloads.php:145
 msgid "Additional modules and macros"
@@ -355,19 +351,19 @@ msgstr "すべての FreeCAD オブジェクトは本質的にパラメトリッ
 
 #: features.php:145
 msgid "Assembly solutions for every need"
-msgstr ""
+msgstr "あらゆるニーズに対応したアセンブリ・ソリューション"
 
 #: features.php:147
-msgid "FreeCad offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
-msgstr ""
+msgid "FreeCAD offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
+msgstr "FreeCADでは、さまざまなソルバーと、コミュニティーによって作られたソルバー非依存のワークフローを備えた、作成部品を組み立てるための一連の素晴らしいアセンブリワークベンチが提供されています。こうしたワークベンチのほかにも興味深い解決策がいくつもあります。既存のソルバーに問題があったために、当初から進められていた内部的なアセンブリ・ワークベンチを持つ計画は前進しませんでした。 しかし、今や<a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel ソルバー</a>があります。そして今、バージョン1.0でアセンブリ・ワークベンチが登場したのです。"
 
 #: features.php:164
 msgid "Also for architects"
-msgstr ""
+msgstr "建築家のためにも"
 
 #: features.php:166
-msgid "Until version 1.0, FreeCad had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
-msgstr ""
+msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
+msgstr "バージョン1.0までは、FreeCADはArchワークベンチを内蔵しており、その上にBIMワークベンチを追加していました。 バージョン1.0では両者が統合され、BIMワークベンチが組み込まれました。 これですぐに建築・建設に関連するあなたのプロジェクトを開始することができます。"
 
 #: features.php:179
 msgid "Python everywhere"
@@ -772,7 +768,7 @@ msgstr "今すぐダウンロード"
 
 #: index.php:39
 msgid "Modelled by ppemawm"
-msgstr ""
+msgstr "ppemawm 制作"
 
 #: index.php:44
 msgid "Freedom to build what you want"
@@ -787,7 +783,7 @@ msgstr "FreeCADはさまざまな大きさの実世界の物体をデザイン�
 
 #: index.php:55
 msgid "Modelled by r-frank"
-msgstr ""
+msgstr "r-frank 制作"
 
 #: index.php:60
 msgid "Create 3D from 2D & back"
@@ -803,7 +799,7 @@ msgstr "FreeCADでは、拘束条件を使って2D形状のスケッチを作成
 
 #: index.php:71
 msgid "Modelled by epileftric"
-msgstr ""
+msgstr "epileftric 制作"
 
 #: index.php:76
 msgid "Accessible, flexible & integrated"
@@ -819,7 +815,7 @@ msgstr "FreeCADはさまざまなプラットフォーム（Windows、Mac、Linu
 
 #: index.php:88
 msgid "Modelled by regis"
-msgstr ""
+msgstr "regis 制作"
 
 #: index.php:93
 msgid "Designed for your needs"
@@ -834,7 +830,7 @@ msgstr "FreeCADは、製品設計、機械工学、建築など、幅広い用�
 
 #: index.php:104
 msgid "Modelled by rider_mortagnais"
-msgstr ""
+msgstr "rider_mortagnais 制作"
 
 #: index.php:109
 msgid "And many more great features"
@@ -851,7 +847,7 @@ msgstr "FreeCADは、あらゆるニーズに対応した様々なツールを�
 
 #: index.php:125
 msgid "Modelled by bejant"
-msgstr ""
+msgstr "bejant 制作"
 
 #: index.php:130
 msgid "Want to contribute to FreeCAD?"
@@ -1034,7 +1030,7 @@ msgstr "初期のスポンサー"
 msgid "Silver sponsors"
 msgstr "シルバースポンサー"
 
-#: sponsor.php:273
+#: sponsor.php:278
 msgid "Bronze sponsors"
 msgstr "ブロンズスポンサー"
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 10:41+0200\n"
-"PO-Revision-Date: 2024-09-16 16:29\n"
+"POT-Creation-Date: 2024-09-16 20:07+0200\n"
+"PO-Revision-Date: 2024-09-23 16:25\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -45,7 +45,9 @@ msgstr "Eskerrik asko zure ekarpenagatik!"
 msgid "Thank you for supporting FreeCAD!\n"
 "            Whether you donated a little or a lot, all efforts contribute to\n"
 "            make FreeCAD development go further and faster."
-msgstr ""
+msgstr "Eskerrik asko FreeCAD-i laguntzeagatik!\n"
+" Dohaintza txikia edo handia izanik, ahalegin guztiek laguntzen dute\n"
+" FreeCAD garapena urrunago eta azkarragoa izan dadin."
 
 #: contributor.php:20
 msgid "If you have made a recurring donation above 25 USD/EUR\n"
@@ -102,7 +104,7 @@ msgstr "Paypal"
 
 #: donation.php:74
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
-msgstr ""
+msgstr "GitHub-ek zure gogoko proiektuak babesteko aukera ematen dizu zure GitHub kontua eta kreditu-txartel bat erabiliz"
 
 #: donation.php:74
 msgid "GitHub"
@@ -196,10 +198,6 @@ msgstr "FreeCAD 0.21 bertsioaren oharrak"
 
 #: downloads.php:114
 msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs:"
-msgstr ""
-
-#: downloads.php:115
-msgid "https://blog.freecad.org/2024/09/10/the-first-release-candidate-of-freecad-1-0-is-out/"
 msgstr ""
 
 #: downloads.php:115
@@ -375,16 +373,16 @@ msgid "Assembly solutions for every need"
 msgstr ""
 
 #: features.php:147
-msgid "FreeCad offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
-msgstr ""
+msgid "FreeCAD offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
+msgstr "FreeCAD-ek lan-mahai bikain ugari eskaintzen ditu ebazle ezberdinekin eta baita ebaztekorik gabeko lan-fluxuekin ere komunitateak sortutako piezak muntatzeko.  Lan-mahaietatik kanpo ere badaude irtenbide benetan interesgarriak. Lehen egunetik aurrera egiten ari den barneko lan-mahaia izateko proiektua ez zen gertatu lehendik zeuden konpontzaileen arazo batzuengatik, baina orain <a href=https://github.com/Ondsel-Development/OndselSolver dugu. >Ondsel Solver</a>. Eta orain 1.0 bertsioarekin lan-mahai bat duzu kaxatik aterata."
 
 #: features.php:164
 msgid "Also for architects"
-msgstr ""
+msgstr "Arkitektoentzat ere bai"
 
 #: features.php:166
-msgid "Until version 1.0, FreeCad had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
-msgstr ""
+msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
+msgstr "1.0 bertsiora arte, FreeCAD-ek Arch laneko mahaia integratua zuen eta kanpoko BIM lan mahaia gehituta. 1.0 bertsioarekin, biak batu egin dira eta orain BIM lan-mahaia barneratua dugu. Orain, zure eraikuntzarekin eta eraikuntzarekin lotutako proiektuak kaxatik atera ditzakezu."
 
 #: features.php:179
 msgid "Python everywhere"
@@ -486,7 +484,21 @@ msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\"
 "              <a href=\"https://wiki.freecad.org/External_workbenches\">add-on workbenches</a> and\n"
 "              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> developed by the users\n"
 "              community."
-msgstr ""
+msgstr "FreeCAD-ek <a href=\"https://wiki.freecad.org/Workbenches\">lan-bankuak</a> dedikatuak eskaintzen ditu hainbat helburutarako\n"
+", adibidez,\n"
+" <a href=\"https://wiki.freecad. org/Part_Workbench\">CSG modelizazioa</a>,\n"
+" <a href=\"https://wiki.freecad.org/Draft_Workbench\">2D CAD zirriborroa</a> sinplea,\n"
+" <a href=\"https: //wiki.freecad.org/Surface_Module\">NURBS gainazalak</a>,\n"
+" <a href=\"https://wiki.freecad.org/Arch_Module\">arkitektura edo BIM modelaketa</a>,\n"
+" < a href=\"https://wiki.freecad.org/Path_Workbench\">3D inprimaketa, CAM eta CNC</a>,\n"
+" <a href=\"https://wiki.freecad.org/Points_Module\">puntu-hodeiak </a>,\n"
+" <a href=\"https://wiki.freecad.org/OpenSCAD_Module\">OpenSCAD fitxategiekin</a>rekin lanean,\n"
+" <a href=\"https://wiki.freecad\" diseinatzen. org/Robot_Workbench\">robot industrialaren ibilbideak</a>,\n"
+" <a href=\"https://wiki.freecad.org/FEM_Module\">Elementu finituen analisiak</a> egiten,\n"
+" eta askoz gehiago. FreeCAD-ek instalatzeko eta kudeatzeko tresna errazak ere eskaintzen ditu\n"
+" <a href=\"https://wiki.freecad.org/External_workbenches\">laneko mahai gehigarriak</a> eta\n"
+" <a href=\"https://wiki Erabiltzaile\n"
+" komunitateak garatutako.freecad.org/Macros_recipes\">makro</a>."
 
 #: features.php:271
 msgid "https://wiki.freecad.org/Feature_list"
@@ -520,7 +532,7 @@ msgstr "Begiratu hemen oraingo zein aurreko FreeCAD bertsioren oharrak.\n"
 
 #: features.php:317
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Oharrak 0.21"
 
 #: features.php:317
 msgid "Release 0.21 - August 2023"
@@ -532,7 +544,7 @@ msgstr "egungo bertsio egonkorra"
 
 #: features.php:318
 msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Oharrak 0.20"
 
 #: features.php:318
 msgid "Release 0.20 - June 2022"
@@ -540,7 +552,7 @@ msgstr "0.20 bertsioa - 2022ko ekaina"
 
 #: features.php:319
 msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Oharrak 0.19"
 
 #: features.php:319
 msgid "Release 0.19 - March 2021"
@@ -548,7 +560,7 @@ msgstr "0.19 bertsioa - 2021eko martxoa"
 
 #: features.php:320
 msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Oharrak 0.18"
 
 #: features.php:320
 msgid "Release 0.18 - March 2019"
@@ -564,7 +576,7 @@ msgstr "0.17 bertsioa - 2018ko apirila"
 
 #: features.php:322
 msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Oharrak 0.16"
 
 #: features.php:322
 msgid "Release 0.16 - April 2016"
@@ -572,7 +584,7 @@ msgstr "0.16 bertsioa - 2016ko apirila"
 
 #: features.php:323
 msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Oharrak 0.15"
 
 #: features.php:323
 msgid "Release 0.15 - March 2015"
@@ -580,7 +592,7 @@ msgstr "0.15 bertsioa - 2015eko martxoa"
 
 #: features.php:324
 msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Oharrak 0.14"
 
 #: features.php:324
 msgid "Release 0.14 - March 2014"
@@ -588,7 +600,7 @@ msgstr "0.14 bertsioa - 2014ko martxoa"
 
 #: features.php:325
 msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Oharrak 0.13"
 
 #: features.php:325
 msgid "Release 0.13 - January 2013"
@@ -596,7 +608,7 @@ msgstr "0.13 bertsioa - 2013ko urtarrila"
 
 #: features.php:326
 msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Oharrak 0.12"
 
 #: features.php:326
 msgid "Release 0.12 - December 2011"
@@ -604,7 +616,7 @@ msgstr "0.12 bertsioa - 2011ko abendua"
 
 #: features.php:327
 msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Oharrak 0.11"
 
 #: features.php:327
 msgid "Release 0.11 - March 2011"
@@ -643,7 +655,8 @@ msgstr "beste babesle batzuk"
 #: footer.php:41
 msgid "Improve this\n"
 "      page on GitHub"
-msgstr ""
+msgstr "Hobetu\n"
+" orri hau GitHub-en"
 
 #: header.php:23 header.php:36
 msgid "FreeCAD: Your own 3D parametric modeler"
@@ -739,7 +752,7 @@ msgstr "Ohiko galderak"
 
 #: header.php:97
 msgid "Privacy policy"
-msgstr ""
+msgstr "Pribatutasun politika"
 
 #: header.php:98
 msgid "https://wiki.freecad.org/About_FreeCAD"
@@ -799,11 +812,11 @@ msgstr "Komunitatea"
 
 #: header.php:121
 msgid "Code of conduct"
-msgstr ""
+msgstr "Jokabide-kodea"
 
 #: header.php:122
 msgid "Forum"
-msgstr ""
+msgstr "Foroa"
 
 #: header.php:137
 msgid "Calendar"
@@ -1148,7 +1161,7 @@ msgstr "Babesle goiztiarrak"
 msgid "Silver sponsors"
 msgstr "Zilarrezko babesleak"
 
-#: sponsor.php:273
+#: sponsor.php:278
 msgid "Bronze sponsors"
 msgstr "Brontzezko babesleak"
 
@@ -1314,7 +1327,12 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            skill levels. There you can seek advice of more advanced users, find\n"
 "            ways to solve a particular problem, or discuss ideas about and around\n"
 "            the FreeCAD world."
-msgstr ""
+msgstr "FreeCAD-ekin arazoak aurkitzen badituzu, edo beste erabiltzaile batzuekin gaiak \n"
+" ezagutu eta eztabaidatu nahi badituzu, bisita ezazu\n"
+" <a href=https://forum.freecad.org>FreeCAD foroa</a>. Foroa munduko leku guztietako eta\n"
+" trebetasun maila guztietako FreeCAD erabiltzaileen topagune nagusia da. Bertan erabiltzaile aurreratuagoen aholkuak eska ditzakezu,\n"
+" arazo jakin bat konpontzeko moduak aurkitu edo FreeCAD munduari buruzko eta\n"
+" inguruko ideiak eztabaidatu."
 
 #: translation.php:67
 msgid "English"
