@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-16 20:07+0200\n"
-"PO-Revision-Date: 2024-09-23 16:26\n"
+"POT-Creation-Date: 2024-09-24 09:27+0200\n"
+"PO-Revision-Date: 2024-09-24 07:38\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -25,7 +25,7 @@ msgstr "홈"
 msgid "See what's new"
 msgstr "새로운 내용 보기"
 
-#: blog.php:57 events.php:99 features.php:272 index.php:119
+#: blog.php:57 events.php:99 features.php:281 index.php:119
 msgid "Learn more"
 msgstr "더 알아보기"
 
@@ -201,100 +201,100 @@ msgid "FreeCAD 0.21 release notes"
 msgstr "프리캐드 0.21 릴리스 노트"
 
 #: downloads.php:114
-msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs:"
+msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs"
 msgstr ""
 
-#: downloads.php:115
+#: downloads.php:116
 msgid "Download and try a 1.0 Release Candidate build!"
 msgstr ""
 
-#: downloads.php:124
+#: downloads.php:126
 msgid "Development versions"
 msgstr "개발 버전"
 
-#: downloads.php:126
+#: downloads.php:128
 msgid "FreeCAD's development happens daily!"
 msgstr "FreeCAD의 개발은 매일 이루어집니다!"
 
-#: downloads.php:127
+#: downloads.php:129
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
 msgstr ""
 
-#: downloads.php:128
+#: downloads.php:130
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
 msgstr "고급 사용자들께서 가끔씩 개발 빌드를 실행하여 새로운 코드를 테스트하는 데 도움을 주시기를 부탁드립니다."
 
-#: downloads.php:129
+#: downloads.php:131
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
 msgstr "이 빌드들은 실제 사용에 적합하지 않으며 사용할 때 주의해야 합니다 (파일을 정기적으로 백업 등을 하십시오)."
 
-#: downloads.php:130
+#: downloads.php:132
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
 msgstr "개발용 빌드는 공식 릴리스 버전보다 느리고 더 많은 메모리를 소비하며 덜 안정적일 것으로 예상됩니다."
 
-#: downloads.php:132
+#: downloads.php:134
 msgid "Download here a "
 msgstr ""
 
-#: downloads.php:132
+#: downloads.php:134
 msgid "Weekly Build"
 msgstr ""
 
-#: downloads.php:132
+#: downloads.php:134
 msgid " for Windows, macOS or Linux. "
 msgstr ""
 
-#: downloads.php:133
+#: downloads.php:135
 msgid "On Linux"
 msgstr ""
 
-#: downloads.php:133
+#: downloads.php:135
 msgid "https://wiki.freecad.org/Snap"
 msgstr ""
 
-#: downloads.php:134 footer.php:36
+#: downloads.php:136 footer.php:36
 msgid "and"
 msgstr ""
 
-#: downloads.php:134
+#: downloads.php:136
 msgid "https://wiki.freecad.org/Flatpak"
 msgstr ""
 
-#: downloads.php:135
+#: downloads.php:137
 msgid "also provide developement channels"
 msgstr ""
 
-#: downloads.php:145
+#: downloads.php:147
 msgid "Additional modules and macros"
 msgstr "추가 모듈 및 매크로"
 
-#: downloads.php:147
+#: downloads.php:149
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr "FreeCAD 커뮤니티는 다양한 추가 모듈과 매크로를 제공합니다.\n"
 "  이제 FreeCAD에서 직접 쉽게 설치할 수 있습니다. "
 
-#: downloads.php:149
+#: downloads.php:151
 msgid "https://wiki.freecad.org/Std_AddonMgr"
 msgstr ""
 
-#: downloads.php:149
+#: downloads.php:151
 msgid "Addon manager."
 msgstr "에드온 관리자입니다."
 
-#: downloads.php:159
+#: downloads.php:161
 msgid "Source code"
 msgstr "소스 코드"
 
-#: downloads.php:161
+#: downloads.php:163
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr ""
 
-#: downloads.php:163
+#: downloads.php:165
 msgid "and mirrored on "
 msgstr "그리고 미러됩니다 "
 
-#: downloads.php:166
+#: downloads.php:168
 msgid "and "
 msgstr "그리고 "
 
@@ -378,22 +378,31 @@ msgid "Assembly solutions for every need"
 msgstr ""
 
 #: features.php:147
-msgid "FreeCAD offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
+msgid "FreeCAD offers since long several great community-made add-on assembly\n"
+"                  workbenches that use different solvers and even solver-free workflows to assemble\n"
+"                  the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also\n"
+"                  included, based on the\n"
+"                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
+"                  This workbench allows to define 3D constraints between parts, assemble the\n"
+"                  different components of a model, and animate everything."
 msgstr ""
 
-#: features.php:164
+#: features.php:170
 msgid "Also for architects"
 msgstr ""
 
-#: features.php:166
-msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
+#: features.php:172
+msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and\n"
+"              an external BIM workbench added on top of that. With version 1.0, both of them have\n"
+"              merged and now we have a built-in BIM workbench. Now you can do your building and\n"
+"              construction related projects right out of the box."
 msgstr ""
 
-#: features.php:179
+#: features.php:188
 msgid "Python everywhere"
 msgstr "Python을 어디서나"
 
-#: features.php:181
+#: features.php:190
 msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance,\n"
 "                  large parts of the external layers,  workbenches and almost all the communication between\n"
 "                  the core and the user interface is coded in <a href=https://python.org>Python</a>,\n"
@@ -408,11 +417,11 @@ msgstr "FreeCAD의 핵심 기능은 안정성과 성능을 위해 C++로 코딩�
 "  여기에는 통합 Python 콘솔에서의 간단한 한 줄 명령이나 매크로를 기록하는 간단한 것부터 자신의 툴을\n"
 "     코딩해 워크벤치를 완전히 사용자화하는 것까지가 모두 포함됩니다."
 
-#: features.php:200
+#: features.php:209
 msgid "File formats frenzy"
 msgstr "다양한 파일형식 지원"
 
-#: features.php:202
+#: features.php:211
 msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
 "              analyses results or quantities data to dozens of different <a href=\"https://wiki.freecad.org/Category:File_Formats\">file formats</a> such as\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
@@ -434,11 +443,11 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              file formats."
 msgstr ""
 
-#: features.php:233
+#: features.php:242
 msgid "A parametric constraints-based 2D sketcher"
 msgstr "파라메트릭 구속 기반의 2D 스케쳐"
 
-#: features.php:235
+#: features.php:244
 msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
 "                  with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. Sketches are the main\n"
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
@@ -446,11 +455,11 @@ msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sket
 "                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
 msgstr ""
 
-#: features.php:253
+#: features.php:262
 msgid "A large (and growing) multi-specialty ecosystem"
 msgstr "다양한(그리고 성장하는) 여러 전문분야 지원"
 
-#: features.php:255
+#: features.php:264
 msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\">workbenches</a> for a variety of purposes\n"
 "              such as\n"
 "              <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG modeling</a>,\n"
@@ -468,15 +477,15 @@ msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\"
 "              community."
 msgstr ""
 
-#: features.php:271
+#: features.php:280
 msgid "https://wiki.freecad.org/Feature_list"
 msgstr ""
 
-#: features.php:285
+#: features.php:294
 msgid "Developed by a community"
 msgstr "커뮤니티에서 개발됨"
 
-#: features.php:287
+#: features.php:296
 msgid "FreeCAD is made for everybody, by everybody. It is developed and maintained\n"
 "              by a community of developers, users, moderators, translators, all united by their wish make\n"
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
@@ -484,116 +493,116 @@ msgid "FreeCAD is made for everybody, by everybody. It is developed and maintain
 "              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
 msgstr ""
 
-#: features.php:300
+#: features.php:309
 msgid "Release notes"
 msgstr "릴리즈 정보"
 
-#: features.php:310
+#: features.php:319
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
 msgstr ""
 
-#: features.php:317
+#: features.php:326
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
 msgstr ""
 
-#: features.php:317
+#: features.php:326
 msgid "Release 0.21 - August 2023"
 msgstr "릴리즈 0.21 - 2023년 8월"
 
-#: features.php:317
+#: features.php:326
 msgid "current stable release"
 msgstr ""
 
-#: features.php:318
+#: features.php:327
 msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
 msgstr ""
 
-#: features.php:318
+#: features.php:327
 msgid "Release 0.20 - June 2022"
 msgstr "릴리즈 0.20 - 2022년 6월"
 
-#: features.php:319
+#: features.php:328
 msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
 msgstr ""
 
-#: features.php:319
+#: features.php:328
 msgid "Release 0.19 - March 2021"
 msgstr "릴리즈 0.19 - 2021년 3월"
 
-#: features.php:320
+#: features.php:329
 msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
 msgstr ""
 
-#: features.php:320
+#: features.php:329
 msgid "Release 0.18 - March 2019"
 msgstr "릴리즈 0.18 - 2019년 3월"
 
-#: features.php:321
+#: features.php:330
 msgid "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
 msgstr ""
 
-#: features.php:321
+#: features.php:330
 msgid "Release 0.17 - April 2018"
 msgstr "릴리즈 0.17 - 2018년 3월"
 
-#: features.php:322
+#: features.php:331
 msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
 msgstr ""
 
-#: features.php:322
+#: features.php:331
 msgid "Release 0.16 - April 2016"
 msgstr "릴리즈 0.16 - 2016년 3월"
 
-#: features.php:323
+#: features.php:332
 msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
 msgstr ""
 
-#: features.php:323
+#: features.php:332
 msgid "Release 0.15 - March 2015"
 msgstr "릴리즈 0.15 - 2015년 3월"
 
-#: features.php:324
+#: features.php:333
 msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
 msgstr ""
 
-#: features.php:324
+#: features.php:333
 msgid "Release 0.14 - March 2014"
 msgstr "릴리즈 0.14 - 2014년 3월"
 
-#: features.php:325
+#: features.php:334
 msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
 msgstr ""
 
-#: features.php:325
+#: features.php:334
 msgid "Release 0.13 - January 2013"
 msgstr "릴리즈 0.13 - 2013년 3월"
 
-#: features.php:326
+#: features.php:335
 msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
 msgstr ""
 
-#: features.php:326
+#: features.php:335
 msgid "Release 0.12 - December 2011"
 msgstr "릴리즈 0.12 - 2011년 12월"
 
-#: features.php:327
+#: features.php:336
 msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
 msgstr ""
 
-#: features.php:327
+#: features.php:336
 msgid "Release 0.11 - March 2011"
 msgstr "릴리즈 0.11 - 2011년 3월"
 
-#: features.php:338
+#: features.php:347
 msgid "Follow the official FreeCAD channels for fresh news:"
 msgstr ""
 
-#: features.php:344
+#: features.php:353
 msgid "Official blog"
 msgstr "공식 블로그"
 
-#: features.php:345
+#: features.php:354
 msgid "Twitter account"
 msgstr ""
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-16 20:07+0200\n"
-"PO-Revision-Date: 2024-09-23 16:27\n"
+"POT-Creation-Date: 2024-09-24 09:27+0200\n"
+"PO-Revision-Date: 2024-09-24 07:38\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -25,7 +25,7 @@ msgstr "Início"
 msgid "See what's new"
 msgstr "Veja o que há de novo"
 
-#: blog.php:57 events.php:99 features.php:272 index.php:119
+#: blog.php:57 events.php:99 features.php:281 index.php:119
 msgid "Learn more"
 msgstr "Saiba mais"
 
@@ -202,100 +202,100 @@ msgid "FreeCAD 0.21 release notes"
 msgstr "Notas de lançamento do FreeCAD 0.21"
 
 #: downloads.php:114
-msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs:"
-msgstr "O lançamento do FreeCAD 1.0 está acontecendo em breve! Ajude-nos a corrigir os bugs de última hora:"
+msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs"
+msgstr "O lançamento do FreeCAD 1.0 está acontecendo em breve! Ajude-nos a corrigir os bugs de última hora"
 
-#: downloads.php:115
+#: downloads.php:116
 msgid "Download and try a 1.0 Release Candidate build!"
 msgstr "Baixe e experimente a versão candidata ao lançamento 1.0!"
 
-#: downloads.php:124
+#: downloads.php:126
 msgid "Development versions"
 msgstr "Versões em desenvolvimento"
 
-#: downloads.php:126
+#: downloads.php:128
 msgid "FreeCAD's development happens daily!"
 msgstr "O desenvolvimento do FreeCAD acontece diariamente!"
 
-#: downloads.php:127
+#: downloads.php:129
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
 msgstr "A comunidade do FreeCAD disponibiliza compilações semanais que são baseadas na versão <i>mais recente</i> do código do FreeCAD, para que os usuários possam testar correções de bugs/regressões e novas funcionalidades."
 
-#: downloads.php:128
+#: downloads.php:130
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
 msgstr "Pedimos que usuários avançados executem ocasionalmente as compilações de desenvolvimento para ajudar a testar novos códigos."
 
-#: downloads.php:129
+#: downloads.php:131
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
 msgstr "Essas compilações não são adequadas para uso em produção, e cuidado deve ser tomado quando usá-las (faça backup de seus arquivos regularmente etc.)."
 
-#: downloads.php:130
+#: downloads.php:132
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
 msgstr "Deve esperar-se que as compilações de desenvolvimento sejam mais lentas, consumam mais memória e fiquem menos estáveis do que as versões oficiais de lançamento."
 
-#: downloads.php:132
+#: downloads.php:134
 msgid "Download here a "
 msgstr "Baixe aqui a "
 
-#: downloads.php:132
+#: downloads.php:134
 msgid "Weekly Build"
 msgstr "Compilação semanal"
 
-#: downloads.php:132
+#: downloads.php:134
 msgid " for Windows, macOS or Linux. "
 msgstr " para Windows, macOS ou Linux. "
 
-#: downloads.php:133
+#: downloads.php:135
 msgid "On Linux"
 msgstr "No Linux"
 
-#: downloads.php:133
+#: downloads.php:135
 msgid "https://wiki.freecad.org/Snap"
 msgstr "https://wiki.freecad.org/Snap"
 
-#: downloads.php:134 footer.php:36
+#: downloads.php:136 footer.php:36
 msgid "and"
 msgstr "e"
 
-#: downloads.php:134
+#: downloads.php:136
 msgid "https://wiki.freecad.org/Flatpak"
 msgstr "https://wiki.freecad.org/Flatpak"
 
-#: downloads.php:135
+#: downloads.php:137
 msgid "also provide developement channels"
 msgstr "também fornecer canais do desenvolvimento"
 
-#: downloads.php:145
+#: downloads.php:147
 msgid "Additional modules and macros"
 msgstr "Módulos adicionais e macros"
 
-#: downloads.php:147
+#: downloads.php:149
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr "A comunidade FreeCAD oferece uma grande variedade de módulos e macros adicionais. Eles podem\n"
 " agora ser facilmente instalados diretamente de dentro do FreeCAD usando o "
 
-#: downloads.php:149
+#: downloads.php:151
 msgid "https://wiki.freecad.org/Std_AddonMgr"
 msgstr "https://wiki.freecad.org/Std_AddonMgr"
 
-#: downloads.php:149
+#: downloads.php:151
 msgid "Addon manager."
 msgstr "gerenciador de complementos."
 
-#: downloads.php:159
+#: downloads.php:161
 msgid "Source code"
 msgstr "Código fonte"
 
-#: downloads.php:161
+#: downloads.php:163
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr "O código-fonte do FreeCAD está hospedado principalmente em "
 
-#: downloads.php:163
+#: downloads.php:165
 msgid "and mirrored on "
 msgstr "e espelhado em "
 
-#: downloads.php:166
+#: downloads.php:168
 msgid "and "
 msgstr "e "
 
@@ -376,22 +376,31 @@ msgid "Assembly solutions for every need"
 msgstr "Soluções de montagem para cada necessidade"
 
 #: features.php:147
-msgid "FreeCAD offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
-msgstr "FreeCAD oferece um monte de grandes workbenches de montagem com diferentes soluções e até mesmo fluxos de trabalho sem solucionador feitos pela comunidade para montar as partes que você cria. Há também algumas soluções realmente interessantes fora das bancadas de trabalho. O projeto de ter uma workbench de montagem interna que está acontecendo desde o primeiro dia não aconteceu devido a alguns problemas com os solucionadores existentes, mas agora temos  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. E agora com a versão 1.0 você tem um workbench de montagem fora da caixa."
+msgid "FreeCAD offers since long several great community-made add-on assembly\n"
+"                  workbenches that use different solvers and even solver-free workflows to assemble\n"
+"                  the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also\n"
+"                  included, based on the\n"
+"                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
+"                  This workbench allows to define 3D constraints between parts, assemble the\n"
+"                  different components of a model, and animate everything."
+msgstr "O FreeCAD oferece há muito tempo diversas bancadas de extensão para montagem elaboradas pela comunidade, que usam diferentes solvers, ou até trabalham sem solver, para que você possa montar suas peças. Com o FreeCAD 1.0, uma nova bancada de montagem está incluida por padrão, baseada no <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. Esta bancada permite colocar restrições 3D entre as peças, montar as diferentes partes de um modelo, e animar o todo."
 
-#: features.php:164
+#: features.php:170
 msgid "Also for architects"
 msgstr "Também para arquitetos"
 
-#: features.php:166
-msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
-msgstr "Até a versão 1.0, o FreeCAD tinha uma bancada de trabalho Arch integrada e uma bancada de trabalho BIM externa adicional. Com a versão 1. 0, ambas se fundiram e agora temos uma bancada de trabalho BIM embutida. Agora você pode realizar seus projetos relacionados à construção e edificação imediatamente."
+#: features.php:172
+msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and\n"
+"              an external BIM workbench added on top of that. With version 1.0, both of them have\n"
+"              merged and now we have a built-in BIM workbench. Now you can do your building and\n"
+"              construction related projects right out of the box."
+msgstr "Até a versão 1.0, o FreeCAD tinha uma bancada de trabalho Arch integrada e uma bancada de trabalho BIM externa adicional. Com a versão 1. 0, ambas se fundiram em uma única bancada de trabalho BIM embutida. Agora você pode realizar seus projetos relacionados à construção e edificação imediatamente."
 
-#: features.php:179
+#: features.php:188
 msgid "Python everywhere"
 msgstr "Python em todos os lugares"
 
-#: features.php:181
+#: features.php:190
 msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance,\n"
 "                  large parts of the external layers,  workbenches and almost all the communication between\n"
 "                  the core and the user interface is coded in <a href=https://python.org>Python</a>,\n"
@@ -407,11 +416,11 @@ msgstr "Enquanto o núcleo principal do FreeCAD é codificada em C++, garantindo
 "                  integradas no console do Python até gravar macros, codificar suas próprioas ferramentas e até\n"
 "                  bancadas de trabalho personalizadas."
 
-#: features.php:200
+#: features.php:209
 msgid "File formats frenzy"
 msgstr "Uma enorme quantidade de formatos de arquivo"
 
-#: features.php:202
+#: features.php:211
 msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
 "              analyses results or quantities data to dozens of different <a href=\"https://wiki.freecad.org/Category:File_Formats\">file formats</a> such as\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
@@ -451,11 +460,11 @@ msgstr "O FreeCAD permite que você importe e exporte modelos e muitos outros ti
 "              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> . Bancos de trabalho adicionais também podem adicionar mais formatos\n"
 "              de arquivo."
 
-#: features.php:233
+#: features.php:242
 msgid "A parametric constraints-based 2D sketcher"
 msgstr "Sketcher, um editor de desenhos 2D com recursos de restrições paramétricas"
 
-#: features.php:235
+#: features.php:244
 msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
 "                  with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. Sketches are the main\n"
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
@@ -464,11 +473,11 @@ msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sket
 msgstr "FreeCAD possuí um <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
 "                  topo de linha, com um calculador de restrições integrado, que permite desenhar formas 2D restringidas. Sketches são os componentes principais de um modelo no FreeCAD, e as formas 2D restringidas produzidas com ele podem ser usadas como base para construir outros objetos, seja com a própria <a href=https://wiki.freecad.org/PartDesign_Workbench>bancada Part Design</a> ou qualquer outra bancada."
 
-#: features.php:253
+#: features.php:262
 msgid "A large (and growing) multi-specialty ecosystem"
 msgstr "Um enorme (e crescente) ecossistema que atende a muitas especialidades"
 
-#: features.php:255
+#: features.php:264
 msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\">workbenches</a> for a variety of purposes\n"
 "              such as\n"
 "              <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG modeling</a>,\n"
@@ -499,15 +508,15 @@ msgstr "O FreeCAD oferece <a href=\"https://wiki.freecad.org/Workbenches\">banca
 " <a href=\"https://wiki.freecad.org/External_workbenches\">bancadas de trabalho complementares</a> e\n"
 " <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> desenvolvidas pela comunidade de usuários."
 
-#: features.php:271
+#: features.php:280
 msgid "https://wiki.freecad.org/Feature_list"
 msgstr "https://wiki.freecad.org/Feature_list/pt-br"
 
-#: features.php:285
+#: features.php:294
 msgid "Developed by a community"
 msgstr "Desenvolvido pela comunidade"
 
-#: features.php:287
+#: features.php:296
 msgid "FreeCAD is made for everybody, by everybody. It is developed and maintained\n"
 "              by a community of developers, users, moderators, translators, all united by their wish make\n"
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
@@ -519,117 +528,117 @@ msgstr "FreeCAD é feito para todos, por todos. É desenvolvido e mantido\n"
 "              empurro para que você faça o upgrade da sua versão do FreeCAD ou encurralá-lo em um fluxo de trabalho ou um\n"
 "              ecossistema específico. O FreeCAD, assim como os arquivos e dados que você produz com ele, são realmente seus, para sempre."
 
-#: features.php:300
+#: features.php:309
 msgid "Release notes"
 msgstr "Notas de versão"
 
-#: features.php:310
+#: features.php:319
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
 msgstr "Encontre aqui as notas de lançamento para versões atuais e anteriores do FreeCAD. \n"
 "                  As notas de lançamento descrevem as novidades em cada versão:"
 
-#: features.php:317
+#: features.php:326
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
 msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Notas de lançamento 0.21"
 
-#: features.php:317
+#: features.php:326
 msgid "Release 0.21 - August 2023"
 msgstr "Lançamento 0.21 - Agosto 2023"
 
-#: features.php:317
+#: features.php:326
 msgid "current stable release"
 msgstr "versão estável atual"
 
-#: features.php:318
+#: features.php:327
 msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
 msgstr "https://wiki.freecad.org/Release_notes_0.20\" title=\"Notas de lançamento 0.20"
 
-#: features.php:318
+#: features.php:327
 msgid "Release 0.20 - June 2022"
 msgstr "Versão 0.20 - Junho de 2022"
 
-#: features.php:319
+#: features.php:328
 msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
 msgstr "https://wiki.freecad.org/Release_notes_0.19\" title=\"Notas de lançamento 0.19"
 
-#: features.php:319
+#: features.php:328
 msgid "Release 0.19 - March 2021"
 msgstr "Lançamento 0.19 - Março de 2021"
 
-#: features.php:320
+#: features.php:329
 msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
 msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"Notas de lançamento 0.18"
 
-#: features.php:320
+#: features.php:329
 msgid "Release 0.18 - March 2019"
 msgstr "Lançamento 0.18 - Março de 2019"
 
-#: features.php:321
+#: features.php:330
 msgid "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
 msgstr "https://wiki.freecad.org/Release_notes_0.17\" title=\"Notas de lançamento 0.17"
 
-#: features.php:321
+#: features.php:330
 msgid "Release 0.17 - April 2018"
 msgstr "Lançamento 0.17 - Abril de 2018"
 
-#: features.php:322
+#: features.php:331
 msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
 msgstr "https://wiki.freecad.org/Release_notes_0.16\" title=\"Notas de lançamento 0.16"
 
-#: features.php:322
+#: features.php:331
 msgid "Release 0.16 - April 2016"
 msgstr "Lançamento 0.16 - Março de 2016"
 
-#: features.php:323
+#: features.php:332
 msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
 msgstr "https://wiki.freecad.org/Release_notes_0.15\" title=\"Notas de lançamento 0.15"
 
-#: features.php:323
+#: features.php:332
 msgid "Release 0.15 - March 2015"
 msgstr "Lançamento 0.15 - Março de 2015"
 
-#: features.php:324
+#: features.php:333
 msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
 msgstr "https://wiki.freecad.org/Release_notes_0.14\" title=\"Notas de lançamento 0.14"
 
-#: features.php:324
+#: features.php:333
 msgid "Release 0.14 - March 2014"
 msgstr "Lançamento 0.14 - Março de 2014"
 
-#: features.php:325
+#: features.php:334
 msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
 msgstr "https://wiki.freecad.org/Release_notes_013\" title=\"Notas de lançamento 013"
 
-#: features.php:325
+#: features.php:334
 msgid "Release 0.13 - January 2013"
 msgstr "Lançamento 0.13 - Janeiro de 2013"
 
-#: features.php:326
+#: features.php:335
 msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
 msgstr "https://wiki.freecad.org/Release_notes_012\" title=\"Notas de lançamento 012"
 
-#: features.php:326
+#: features.php:335
 msgid "Release 0.12 - December 2011"
 msgstr "Lançamento 0.12 - Dezembro de 2011"
 
-#: features.php:327
+#: features.php:336
 msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
 msgstr "https://wiki.freecad.org/Release_notes_011\" title=\"Notas de lançamento 011"
 
-#: features.php:327
+#: features.php:336
 msgid "Release 0.11 - March 2011"
 msgstr "Lançamento 0.11 - Março de 2011"
 
-#: features.php:338
+#: features.php:347
 msgid "Follow the official FreeCAD channels for fresh news:"
 msgstr "Siga os canais oficiais do FreeCAD para novas notícias:"
 
-#: features.php:344
+#: features.php:353
 msgid "Official blog"
 msgstr "Blog Oficial"
 
-#: features.php:345
+#: features.php:354
 msgid "Twitter account"
 msgstr "Conta do Twitter"
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-16 20:07+0200\n"
-"PO-Revision-Date: 2024-09-23 16:26\n"
+"POT-Creation-Date: 2024-09-24 09:27+0200\n"
+"PO-Revision-Date: 2024-09-24 07:38\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -25,7 +25,7 @@ msgstr "Kezdőoldal"
 msgid "See what's new"
 msgstr "Újdonságok megtekintése"
 
-#: blog.php:57 events.php:99 features.php:272 index.php:119
+#: blog.php:57 events.php:99 features.php:281 index.php:119
 msgid "Learn more"
 msgstr "Bővebben"
 
@@ -202,100 +202,100 @@ msgid "FreeCAD 0.21 release notes"
 msgstr "FreeCAD 0.21 kiadási megjegyzések"
 
 #: downloads.php:114
-msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs:"
-msgstr "A FreeCAD 1.0 megjelenése hamarosan megtörténik! Segítsen nekünk az utolsó pillanatban felmerülő hibák kiküszöbölésében:"
+msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs"
+msgstr ""
 
-#: downloads.php:115
+#: downloads.php:116
 msgid "Download and try a 1.0 Release Candidate build!"
 msgstr "Töltse le és próbálja ki az 1.0 Kiadásra jelölt verziót!"
 
-#: downloads.php:124
+#: downloads.php:126
 msgid "Development versions"
 msgstr "Fejlesztői verziók"
 
-#: downloads.php:126
+#: downloads.php:128
 msgid "FreeCAD's development happens daily!"
 msgstr "A FreeCAD fejlesztése naponta történik!"
 
-#: downloads.php:127
+#: downloads.php:129
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
 msgstr "A FreeCAD közösség heti rendszerességgel készít <i>vezető élvonalbeli</i> FreeCAD kódra épülő kiadásokat, hogy a felhasználók az új funkciók mellett a hibajavításokat/regressziókat is tesztelhessék."
 
-#: downloads.php:128
+#: downloads.php:130
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
 msgstr "Kérjük, hogy a haladó felhasználók időnként futtassák a fejlesztői buildeket, hogy segítsenek az új kódok tesztelésében."
 
-#: downloads.php:129
+#: downloads.php:131
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
 msgstr "Ezek a build-ek nem alkalmasak produktív használatra, és óvatosnak kell lenni a használatukkal (rendszeresen készítsen biztonsági mentést a fájljairól, stb.)."
 
-#: downloads.php:130
+#: downloads.php:132
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
 msgstr "A fejlesztői verziók várhatóan lassabbak, több memóriát fogyasztanak, és kevésbé stabilak, mint a hivatalos kiadási verziók."
 
-#: downloads.php:132
+#: downloads.php:134
 msgid "Download here a "
 msgstr "Letöltés itt "
 
-#: downloads.php:132
+#: downloads.php:134
 msgid "Weekly Build"
 msgstr "Heti kiadás"
 
-#: downloads.php:132
+#: downloads.php:134
 msgid " for Windows, macOS or Linux. "
 msgstr " windows, macOS vagy Linux operációs rendszerekhez. "
 
-#: downloads.php:133
+#: downloads.php:135
 msgid "On Linux"
 msgstr "Linuxon"
 
-#: downloads.php:133
+#: downloads.php:135
 msgid "https://wiki.freecad.org/Snap"
 msgstr "https://wiki.freecad.org/Snap"
 
-#: downloads.php:134 footer.php:36
+#: downloads.php:136 footer.php:36
 msgid "and"
 msgstr "és"
 
-#: downloads.php:134
+#: downloads.php:136
 msgid "https://wiki.freecad.org/Flatpak"
 msgstr "https://wiki.freecad.org/Flatpak"
 
-#: downloads.php:135
+#: downloads.php:137
 msgid "also provide developement channels"
 msgstr "fejlesztési csatornákat is biztosít"
 
-#: downloads.php:145
+#: downloads.php:147
 msgid "Additional modules and macros"
 msgstr "További modulok és makrók"
 
-#: downloads.php:147
+#: downloads.php:149
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "        now easily be installed directly from within FreeCAD using the "
 msgstr "A FreeCAD Közösség rengeteg kiegészítő modult és makrót biztosít. Most könnyedén\n"
 "      telepíthetőek közvetlenül a FreeCAD programból. A telepítéshez használja ezt "
 
-#: downloads.php:149
+#: downloads.php:151
 msgid "https://wiki.freecad.org/Std_AddonMgr"
 msgstr "https://wiki.freecad.org/Std_AddonMgr"
 
-#: downloads.php:149
+#: downloads.php:151
 msgid "Addon manager."
 msgstr "Kiegészítők kezelője."
 
-#: downloads.php:159
+#: downloads.php:161
 msgid "Source code"
 msgstr "Forráskód"
 
-#: downloads.php:161
+#: downloads.php:163
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr "A FreeCAD forráskódja a következő címen érhető el "
 
-#: downloads.php:163
+#: downloads.php:165
 msgid "and mirrored on "
 msgstr "és tükrözve itt "
 
-#: downloads.php:166
+#: downloads.php:168
 msgid "and "
 msgstr "és "
 
@@ -378,22 +378,31 @@ msgid "Assembly solutions for every need"
 msgstr "Összeszerelési megoldások minden igényre"
 
 #: features.php:147
-msgid "FreeCAD offers a bunch of great assembly workbenches with different solvers and even solver-free workflows made by the community to assemble the parts you create.  There are also some really interesting solutions outside of the workbenches. The project of having an internal assembly workbench that has been going on since day one didn’t happen due to some problems with the existing solvers, but now we have  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>. And now with version 1.0 you have an assembly workbench right out of the box."
-msgstr "FreeCAD számos nagyszerű összeszerelési munkafelületet kínál különböző megoldókkal, sőt, a közösség által készített megoldó nélküli munkafolyamatokat is, amelyekkel az Ön által létrehozott alkatrészek összeszerelhetők.  Van néhány igazán érdekes megoldás a munkafelületen kívül is. A kezdetektől fogva futó terv, hogy legyen egy belső összeszerelési munkafelület, nem valósult meg a meglévő megoldókkal kapcsolatos problémák miatt, de most már van <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel megoldó</a>. És most az 1.0-s verzióval már rögtön a csomagban van egy összeszerelő munkafelület."
+msgid "FreeCAD offers since long several great community-made add-on assembly\n"
+"                  workbenches that use different solvers and even solver-free workflows to assemble\n"
+"                  the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also\n"
+"                  included, based on the\n"
+"                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
+"                  This workbench allows to define 3D constraints between parts, assemble the\n"
+"                  different components of a model, and animate everything."
+msgstr ""
 
-#: features.php:164
+#: features.php:170
 msgid "Also for architects"
 msgstr "Építészek számára is"
 
-#: features.php:166
-msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and an external BIM workbench added on top of that. With version 1.0, both of them have merged and now we have a built-in BIM workbench. Now you can do your building and construction related projects right out of the box."
-msgstr "Az 1.0-s verzióig a FreeCAD-nak volt egy beépített építészeti munkafelülete, és egy külső BIM munkafelület, amely ezt egészítette ki. Az 1.0-s verzióval a kettő összeolvadt, és most már van egy beépített BIM munkafelület is. Most már közvetlenül a csomagból is elvégezheti az épületekkel és építkezésekkel kapcsolatos munkáit."
+#: features.php:172
+msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and\n"
+"              an external BIM workbench added on top of that. With version 1.0, both of them have\n"
+"              merged and now we have a built-in BIM workbench. Now you can do your building and\n"
+"              construction related projects right out of the box."
+msgstr ""
 
-#: features.php:179
+#: features.php:188
 msgid "Python everywhere"
 msgstr "Python bárhol"
 
-#: features.php:181
+#: features.php:190
 msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance,\n"
 "                  large parts of the external layers,  workbenches and almost all the communication between\n"
 "                  the core and the user interface is coded in <a href=https://python.org>Python</a>,\n"
@@ -409,11 +418,11 @@ msgstr "Míg a FreeCAD magfunkciója C++ kóddal van kódolva a robusztusság é
 "            parancsaitól a makrók rögzítéséig, a saját eszközeinek kódolásától a \n"
 "            teljes egyéni munkafelületekig."
 
-#: features.php:200
+#: features.php:209
 msgid "File formats frenzy"
 msgstr "Fájlformátum őrület"
 
-#: features.php:202
+#: features.php:211
 msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
 "              analyses results or quantities data to dozens of different <a href=\"https://wiki.freecad.org/Category:File_Formats\">file formats</a> such as\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
@@ -453,11 +462,11 @@ msgstr "A FreeCAD lehetővé teszi a modellek és számos más típusú adat imp
 " <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> fájlformátum mellett. A kiegészítő munkafelületek további\n"
 " fájlformátumokat is hozzáadhatnak."
 
-#: features.php:233
+#: features.php:242
 msgid "A parametric constraints-based 2D sketcher"
 msgstr "Parametrikus kényszerítéseken alapuló 2D rajzoló"
 
-#: features.php:235
+#: features.php:244
 msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
 "                  with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. Sketches are the main\n"
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
@@ -469,11 +478,11 @@ msgstr "A FreeCAD a legkorszerűbb <a href=https://wiki.freecad.org/Sketcher_Wor
 "            tárgyak építéséhez a FreeCAD egész területén, legyen szó\n"
 "            dedikált <a href=https://wiki.freecad.org/PartDesign_Workbench>Alkatrész szerkesztő munkafelületről</a> vagy bármely más munkafelületről."
 
-#: features.php:253
+#: features.php:262
 msgid "A large (and growing) multi-specialty ecosystem"
 msgstr "Egy nagy (és növekvő) több szakterületű ökoszisztéma"
 
-#: features.php:255
+#: features.php:264
 msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\">workbenches</a> for a variety of purposes\n"
 "              such as\n"
 "              <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG modeling</a>,\n"
@@ -505,15 +514,15 @@ msgstr "FreeCAD dedikált <a href=\"https://wiki.freecad.org/Workbenches\">munka
 "              <a href=\"https://wiki.freecad.org/Macros_recipes\">makrók</a> telepítéséhez és kezeléséhez, amelyeket a felhasználói közösség \n"
 "              fejlesztett ki."
 
-#: features.php:271
+#: features.php:280
 msgid "https://wiki.freecad.org/Feature_list"
 msgstr "https://wiki.freecad.org/Feature_list"
 
-#: features.php:285
+#: features.php:294
 msgid "Developed by a community"
 msgstr "Közösség fejleszti"
 
-#: features.php:287
+#: features.php:296
 msgid "FreeCAD is made for everybody, by everybody. It is developed and maintained\n"
 "              by a community of developers, users, moderators, translators, all united by their wish make\n"
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
@@ -525,117 +534,117 @@ msgstr "A FreeCAD mindenki számára készül. Fejlesztők, felhasználók, mode
 "           nincs sürgetés arra, hogy frissítse a FreeCAD verzióját, vagy sarokba szorítsa Önt egy adott  munkafolyamatban vagy\n"
 "            ökoszisztémába. A FreeCAD és a FreeCAD-el előállított fájlok és adatok valóban a Tiéd, örökre."
 
-#: features.php:300
+#: features.php:309
 msgid "Release notes"
 msgstr "Kiadási megjegyzések"
 
-#: features.php:310
+#: features.php:319
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
 msgstr "Itt megtalálja a FreeCAD jelenlegi és régebbi verzióinak kiadási információit. \n"
 " A kiadási megjegyzések az egyes kiadások újdonságait írják le:"
 
-#: features.php:317
+#: features.php:326
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
 msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Kiadási megjegyzések 0.21"
 
-#: features.php:317
+#: features.php:326
 msgid "Release 0.21 - August 2023"
 msgstr "Kiadás 0.21 - Augusztus 2023"
 
-#: features.php:317
+#: features.php:326
 msgid "current stable release"
 msgstr "aktuális hosszútávú verzió"
 
-#: features.php:318
+#: features.php:327
 msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
 msgstr "https://wiki.freecad.org/Release_notes_0.20\" title=\"Kiadási megjegyzések 0.20"
 
-#: features.php:318
+#: features.php:327
 msgid "Release 0.20 - June 2022"
 msgstr "Kiadás 0.20 - Június 2022"
 
-#: features.php:319
+#: features.php:328
 msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
 msgstr "https://wiki.freecad.org/Release_notes_0.19\" title=\"Kiadási megjegyzések 0.19"
 
-#: features.php:319
+#: features.php:328
 msgid "Release 0.19 - March 2021"
 msgstr "Kiadás 0.19 - Március 2021"
 
-#: features.php:320
+#: features.php:329
 msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
 msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"Kiadási megjegyzések 0.18"
 
-#: features.php:320
+#: features.php:329
 msgid "Release 0.18 - March 2019"
 msgstr "Kiadás 0.18 - Március 2019"
 
-#: features.php:321
+#: features.php:330
 msgid "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
 msgstr "https://wiki.freecad.org/Release_notes_0.17\" title=\"Kiadási megjegyzések 0.17"
 
-#: features.php:321
+#: features.php:330
 msgid "Release 0.17 - April 2018"
 msgstr "Kiadás 0.17 - Április 2018"
 
-#: features.php:322
+#: features.php:331
 msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
 msgstr "https://wiki.freecad.org/Release_notes_0.16\" title=\"Kiadási megjegyzések 0.16"
 
-#: features.php:322
+#: features.php:331
 msgid "Release 0.16 - April 2016"
 msgstr "Kiadás 0.16 - Április 2016"
 
-#: features.php:323
+#: features.php:332
 msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
 msgstr "https://wiki.freecad.org/Release_notes_0.15\" title=\"Kiadási megjegyzések 0.15"
 
-#: features.php:323
+#: features.php:332
 msgid "Release 0.15 - March 2015"
 msgstr "Kiadás 0.15 - Március 2015"
 
-#: features.php:324
+#: features.php:333
 msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
 msgstr "https://wiki.freecad.org/Release_notes_0.14\" title=\"Kiadási megjegyzések 0.14"
 
-#: features.php:324
+#: features.php:333
 msgid "Release 0.14 - March 2014"
 msgstr "Kiadás 0.14 - Március 2014"
 
-#: features.php:325
+#: features.php:334
 msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
 msgstr "https://wiki.freecad.org/Release_notes_013\" title=\"Kiadási megjegyzések 013"
 
-#: features.php:325
+#: features.php:334
 msgid "Release 0.13 - January 2013"
 msgstr "Kiadás 0.13 - Január 2013"
 
-#: features.php:326
+#: features.php:335
 msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
 msgstr "https://wiki.freecad.org/Release_notes_012\" title=\"Kiadási megjegyzések 012"
 
-#: features.php:326
+#: features.php:335
 msgid "Release 0.12 - December 2011"
 msgstr "Kiadás 0.12 - December 2011"
 
-#: features.php:327
+#: features.php:336
 msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
 msgstr "https://wiki.freecad.org/Release_notes_011\" title=\"Kiadási megjegyzések 011"
 
-#: features.php:327
+#: features.php:336
 msgid "Release 0.11 - March 2011"
 msgstr "Kiadás 0.11 - Március 2011"
 
-#: features.php:338
+#: features.php:347
 msgid "Follow the official FreeCAD channels for fresh news:"
 msgstr "Kövesse a hivatalos FreeCAD csatornákat a friss hírekért:"
 
-#: features.php:344
+#: features.php:353
 msgid "Official blog"
 msgstr "Hivatalos blog"
 
-#: features.php:345
+#: features.php:354
 msgid "Twitter account"
 msgstr "Twitter fiók"
 
