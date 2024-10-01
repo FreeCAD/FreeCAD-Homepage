@@ -16,6 +16,7 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
 RewriteRule ^/?wiki(/.*)?$ %{DOCUMENT_ROOT}/wiki/index.php [L]
+RewriteRule ^wiki-([^/]*)\.php$ /wiki.php?page=$1 [QSA,L]
 
 #remove php file extension-e.g. https://example.com/file.php will become https://example.com/file
 RewriteCond %{REQUEST_FILENAME} !-d
