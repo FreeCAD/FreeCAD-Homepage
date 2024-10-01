@@ -280,6 +280,8 @@
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
+              <div class="bronze sponsor">Vinicius Dupuit</div>
+              <div class="bronze sponsor">Brian Smith</div>
               <div class="bronze sponsor">Un voyageur avec serviette</div>
               <div class="bronze sponsor">David Yeung</div>
               <div class="bronze sponsor">Amplituda d.o.o.</div>
