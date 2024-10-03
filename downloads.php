@@ -22,7 +22,10 @@
       <!-- -------------------------------- -->
 
       <h2 class="downloads-notes-title"><?php echo _('Current stable version:'); ?> 0.21.2</h2>
-      <p><?php echo _('Select your desired platform (note that all downloads are for 64-bit systems):'); ?></p>
+      <p class="whitelinks">
+        <?php echo _('FreeCAD is <a href="https://wiki.freecad.org/License">licensed under LGPL2+</a> and is free to use, by anybody and for any purpose.'); ?><br/>
+        <?php echo _('Select your desired platform (note that all downloads are for 64-bit systems):'); ?>
+      </p>
 
     </div>
 
