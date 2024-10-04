@@ -79,7 +79,7 @@
             <?php echo _('FreeCAD is Free and Open Source Software, is developed
             and maintained by volunteers, and is free to use by anybody, for any
             purpose. There is no registering or payment needed to use it, and the
-            files you produce with it are truly yours and your only. Check the
+            files you produce with it are truly yours and yours only. Check the
             <a href="https://wiki.freecad.org/License">license page</a> for more
             details. We hope you will find FreeCAD useful!'); ?>
             </p>
