@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-24 09:27+0200\n"
-"PO-Revision-Date: 2024-09-24 07:38\n"
+"PO-Revision-Date: 2024-10-14 08:05\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -203,7 +203,7 @@ msgstr "Note di rilascio di FreeCAD 0.21"
 
 #: downloads.php:114
 msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs"
-msgstr ""
+msgstr "Il rilascio di FreeCAD 1.0 avverrà presto! Aiutaci a eliminare i bug dell'ultimo minuto"
 
 #: downloads.php:116
 msgid "Download and try a 1.0 Release Candidate build!"
@@ -390,7 +390,12 @@ msgid "FreeCAD offers since long several great community-made add-on assembly\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
 "                  This workbench allows to define 3D constraints between parts, assemble the\n"
 "                  different components of a model, and animate everything."
-msgstr ""
+msgstr "FreeCAD offre da tempo diversi grandi ambienti di lavoro di assemblaggio\n"
+"                  che utilizzano diversi risolutori e persino flussi di lavoro senza risolutori per assemblare\n"
+"                  le parti che create. Con FreeCAD 1.0 è incluso un nuovo ambiente di lavoro di assemblaggio integrato, based on the\n"
+"                  <a href=https://github.com/Ondsel-Development/OndselSolver>risolutore Ondsel</a>.\n"
+"                  Questo ambiente di lavoro permette di definire vincoli 3D tra le parti, assemblare i componenti\n"
+"                  diversi di un modello, e animare tutto."
 
 #: features.php:170
 msgid "Also for architects"
@@ -401,7 +406,10 @@ msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and\n"
 "              an external BIM workbench added on top of that. With version 1.0, both of them have\n"
 "              merged and now we have a built-in BIM workbench. Now you can do your building and\n"
 "              construction related projects right out of the box."
-msgstr ""
+msgstr "Fino alla versione 1.0, FreeCad aveva un ambiente di lavoro Arch integrato\n"
+"  e un ambiente di lavoro BIM esterno aggiunto. Con la versione 1.0 i moduli sono stati riuniti\n"
+"  e ora abbiamo un ambiente di lavoro BIM integrato. Ora puoi creare il tuo edificio e\n"
+"  i progetti relativi alla costruzione già da subito."
 
 #: features.php:188
 msgid "Python everywhere"

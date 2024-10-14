@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-24 09:27+0200\n"
-"PO-Revision-Date: 2024-09-24 07:39\n"
+"PO-Revision-Date: 2024-10-14 08:07\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -31,7 +31,7 @@ msgstr "Daha fazlasını öğren"
 
 #: blog.php:263
 msgid "All Blogs"
-msgstr ""
+msgstr "Tüm Bloglar"
 
 #: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
@@ -203,11 +203,11 @@ msgstr "FreeCAD 0.21 sürüm notları"
 
 #: downloads.php:114
 msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs"
-msgstr ""
+msgstr "FreeCAD 1.0'ın sürümü yakında çıkıyor! Son dakika hatalarını gidermemize yardımcı olun"
 
 #: downloads.php:116
 msgid "Download and try a 1.0 Release Candidate build!"
-msgstr ""
+msgstr "1.0 Sürüm Adayı yapısını indirin ve deneyin!"
 
 #: downloads.php:126
 msgid "Development versions"
@@ -219,7 +219,7 @@ msgstr "FreeCAD'in gelişimi günlük olarak gerçekleşir!"
 
 #: downloads.php:129
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
-msgstr ""
+msgstr "Kullanıcıların yeni özelliklerle birlikte hata düzeltmelerini/geri dönüşleri test edebilmesi için <i>son teknoloji</i> FreeCAD kodunu temel alan haftalık yapılar oluşturuyoruz."
 
 #: downloads.php:130
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
@@ -235,19 +235,19 @@ msgstr "Geliştirme sürümü resmi sürümlerden daha yavaş olması, daha fazl
 
 #: downloads.php:134
 msgid "Download here a "
-msgstr ""
+msgstr "Buradan indirin"
 
 #: downloads.php:134
 msgid "Weekly Build"
-msgstr ""
+msgstr "Haftalık Yapı"
 
 #: downloads.php:134
 msgid " for Windows, macOS or Linux. "
-msgstr ""
+msgstr " Windows, macOS veya Linux için."
 
 #: downloads.php:135
 msgid "On Linux"
-msgstr ""
+msgstr "Linux'ta"
 
 #: downloads.php:135
 msgid "https://wiki.freecad.org/Snap"
@@ -365,11 +365,16 @@ msgid "All FreeCAD objects are natively parametric, meaning their shape can be b
 "                a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing\n"
 "                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are\n"
 "                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>."
-msgstr ""
+msgstr "Tüm FreeCAD nesneleri doğal olarak parametriktir, yani şekilleri sayısal değerler, metinler, açma/kapama düğmeleri,\n"
+"               ve hatta diğer nesneler gibi \n"
+"<a href=\"https://wiki.freecad.org/Property\" title=\"Property\">özelliklere</a> dayalı olabilir. Tüm şekil değişiklikleri talep üzerine yeniden hesaplanır, bir geri alma/yineleme yığını tarafından kaydedilir ve\n"
+" kesin bir modelleme geçmişinin korunmasına izin verir. Bir nesnenin özellikleri, yalnızca en çılgın rüyalarınızda var olabilecek\n"
+"                karmaşık, özel parametrik zincirlere izin vererek diğer nesnelerin özelliklerinin değerini yönlendirebilir. Yeni parametrik nesnelerin \n"
+"               <a href=\"https://wiki.freecad.org/Scripted_objects\">kodlanması kolaydır</a>."
 
 #: features.php:145
 msgid "Assembly solutions for every need"
-msgstr ""
+msgstr "Her ihtiyaca uygun montaj çözümleri"
 
 #: features.php:147
 msgid "FreeCAD offers since long several great community-made add-on assembly\n"
@@ -379,18 +384,23 @@ msgid "FreeCAD offers since long several great community-made add-on assembly\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
 "                  This workbench allows to define 3D constraints between parts, assemble the\n"
 "                  different components of a model, and animate everything."
-msgstr ""
+msgstr "FreeCAD, uzun zamandan beri, oluşturduğunuz parçaları birleştirmek için farklı çözücüler ve hatta çözücü içermeyen iş akışları kullanan, topluluk yapımı\n"
+" harika eklenti montaj çalışma tezgahları\n"
+" sunmaktadır. FreeCAD 1.0'a,\n"
+" <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Çözücü</a>'yü temel alan yeni bir yerleşik montaj tezgahı da dahildir.\n"
+" Bu Workbench, parçalar arasındaki 3 boyutlu kısıtlamaları tanımlamanıza, bir modelin farklı bileşenlerini birleştirmenize ve her şeyi canlandırmanıza olanak tanır."
 
 #: features.php:170
 msgid "Also for architects"
-msgstr ""
+msgstr "Ayrıca mimarlar için"
 
 #: features.php:172
 msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and\n"
 "              an external BIM workbench added on top of that. With version 1.0, both of them have\n"
 "              merged and now we have a built-in BIM workbench. Now you can do your building and\n"
 "              construction related projects right out of the box."
-msgstr ""
+msgstr "Sürüm 1.0'a kadar FreeCAD, yerleşik bir Arch çalışma tezgahına ve\n"
+" bunun üzerine eklenen harici bir BIM çalışma tezgahına sahipti. Sürüm 1.0 ile ikisi birleşti ve artık yerleşik bir BIM tezgahımız var. Artık bina ve inşaatla ilgili projelerinizi kutudan çıktığı gibi yapabilirsiniz."
 
 #: features.php:188
 msgid "Python everywhere"
@@ -404,7 +414,12 @@ msgid "While the FreeCAD core functionality is coded in C++ for robustness and p
 "                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line\n"
 "                  commands in the integrated Python console to recording macros, coding your own tools up to\n"
 "                  full custom workbenches."
-msgstr ""
+msgstr "FreeCAD ‘in işlevsel çekirdeği, sağlamlık ve performans için C++ ile kodlanmışken, \n"
+"        dış katmanların, çalışma tezgahlarının ve çekirdek ile kullanıcı arabirimi arasındaki \n"
+"                  neredeyse tüm iletişimin büyük bir kısmı esnek, kullanıcı dostu, öğrenmesi kolay bir programlama dili olan <a href=\"https://python.org\">Python</a> ‘da kodlanmıştır. Python kodundan, tümleşik Python konsolundaki basit tek satırlık komutlardan\n"
+"                  makroları kaydetmeye,\n"
+"                  tam özel çalışma tezgahları için \n"
+" kendi araçlarınızı kodlamaya kadar <a href=\"https://wiki.freecad.org/Power_users_hub\">herhangi bir şeyi FreeCAD 'de</a> yapabilirsiniz."
 
 #: features.php:209
 msgid "File formats frenzy"
@@ -480,7 +495,11 @@ msgid "FreeCAD is made for everybody, by everybody. It is developed and maintain
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
 "              urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or\n"
 "              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
-msgstr ""
+msgstr "FreeCAD herkes için herkes tarafından yapılmıştır. FreeCAD, hepsi FreeCAD'i özgür\n"
+"             ve güçlü bir araç yapmak isteğiyle bir araya gelmiş olan gelitiriciler, kullanıcılar, moderatörler ve\n"
+"      çevirmenlerden oluşan bir topluluk tarafından geliştiriliyor ve sürdürülüyor. Alınan kararların arkasında\n"
+"       hiçbir ticari amaç, FreeCAD sürümlerinizi yükseltmeniz için veya sizi belli bir iş akışına veya\n"
+"       ekosisteme sıkıştırmak için hiçbir zorlama yok. FreeCAD ve FreeCAD ile ürettiğiniz dosyaların hepsi gerçekten sizin, sonsuza kadar."
 
 #: features.php:309
 msgid "Release notes"
@@ -489,7 +508,8 @@ msgstr "Sürüm notları"
 #: features.php:319
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
-msgstr ""
+msgstr "Mevcut ve önceki FreeCAD sürümleri için sürüm notlarını burada bulabilirsiniz.\n"
+"                Sürüm notları, her sürümdeki yenilikleri açıklar:"
 
 #: features.php:326
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
@@ -791,7 +811,7 @@ msgstr "Şimdi indir"
 
 #: index.php:39
 msgid "Modelled by ppemawm"
-msgstr ""
+msgstr "ppemawm tarafından modellenmiştir"
 
 #: index.php:44
 msgid "Freedom to build what you want"
@@ -809,7 +829,7 @@ msgstr "FreeCAD, öncelikle herhangi bir boyuttaki gerçek hayattaki\n"
 
 #: index.php:55
 msgid "Modelled by r-frank"
-msgstr ""
+msgstr "r-frank tarafından modellenmiştir"
 
 #: index.php:60
 msgid "Create 3D from 2D & back"
@@ -824,7 +844,7 @@ msgstr ""
 
 #: index.php:71
 msgid "Modelled by epileftric"
-msgstr ""
+msgstr "epileftrik tarafından modellenmiştir"
 
 #: index.php:76
 msgid "Accessible, flexible & integrated"
@@ -883,7 +903,10 @@ msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
 "          whole community."
-msgstr ""
+msgstr "FreeCAD gerçekten açık kaynak kodlu bir projedir ve hataların\n"
+"         düzeltilmesine yardımcı olmak, yeni harika özellikler sağlamak veya\n"
+"         belgelendirme üzerinde çalışmak istiyorsanız, sizi bize katılmaya ve\n"
+"         tüm topluma yarar sağlayan bir yazılım oluşturmaya davet ediyoruz."
 
 #: index.php:138
 msgid "Get involved"
@@ -910,7 +933,10 @@ msgid "FreeCAD is a fast-growing project, developed by a\n"
 "              parametric modeller. The development of FreeCAD happens mostly\n"
 "              because of the energy of all these people, without the need for\n"
 "              money."
-msgstr ""
+msgstr "FreeCAD, çoğunlukla gönüllülük temelinde çalışan geliştiriciler ve kullanıcılardan oluşan bir topluluk tarafından geliştirilen, temel olarak harika, ücretsiz bir 3D parametrik modeller oluşturma istekleriyle\n"
+" motive edilen, hızla büyüyen bir projedir. FreeCAD'in gelişimi çoğunlukla bu insanların enerjileri sayesinde\n"
+", paraya ihtiyaç duymadan\n"
+" gerçekleşiyor."
 
 #: sponsor.php:33
 msgid "However, money can help the project to achieve many\n"
