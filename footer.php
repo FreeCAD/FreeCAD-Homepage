@@ -21,8 +21,7 @@
     </div>
 
     <p class="footer-credits mt-3">
-      <?php echo _('© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,
-      r-frank, epileftric, regis, rider_mortagnais, bejant.'); ?>
+      <?php echo _('© The FreeCAD Team.'); ?>
     </p>
 
     <p><?php echo _('This project is supported by:'); ?>
