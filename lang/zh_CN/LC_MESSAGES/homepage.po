@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-24 09:27+0200\n"
-"PO-Revision-Date: 2024-10-14 08:04\n"
+"PO-Revision-Date: 2024-11-07 09:48\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -151,7 +151,7 @@ msgstr "当前稳定的版本"
 
 #: downloads.php:25
 msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
-msgstr "选择您所需的平台(注意所有下载都为64位系统准备)："
+msgstr "选择您所需的平台（注意全都是 64 位系统的）："
 
 #: downloads.php:46
 msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
@@ -187,7 +187,7 @@ msgstr "https://wiki.freecad.org/Install_on_Unix"
 
 #: downloads.php:103
 msgid "See what has changed since last version in the"
-msgstr "查看自上次版本以来发生的变化"
+msgstr "查看自上一版以来发生的变化"
 
 #: downloads.php:104 index.php:29
 msgid "https://wiki.freecad.org/Release_notes_0.21"
@@ -199,11 +199,11 @@ msgstr "FreeCAD 0.21 发行说明"
 
 #: downloads.php:114
 msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs"
-msgstr ""
+msgstr "FreeCAD 1.0 即将发布！帮助我们清除最后的 Bug"
 
 #: downloads.php:116
 msgid "Download and try a 1.0 Release Candidate build!"
-msgstr "下载并试用 1.0 候选正式版本！"
+msgstr "下载并试用 1.0 候选版本！"
 
 #: downloads.php:126
 msgid "Development versions"
@@ -211,7 +211,7 @@ msgstr "开发中版本"
 
 #: downloads.php:128
 msgid "FreeCAD's development happens daily!"
-msgstr "FreeCAD的开发每天都会发生！"
+msgstr "FreeCAD 的开发每天都在进行！"
 
 #: downloads.php:129
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
@@ -219,7 +219,7 @@ msgstr "FreeCAD 社区每周生成基于 <i>最新鲜的</i> FreeCAD 代码的�
 
 #: downloads.php:130
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
-msgstr "我们请求高级用户偶尔运行开发构建以帮助测试新的代码。"
+msgstr "我们请求高级用户偶尔运行开发中的版本以帮助测试新的代码。"
 
 #: downloads.php:131
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
@@ -227,7 +227,7 @@ msgstr "这些构建不适合用于生产，使用时应小心(定期备份您�
 
 #: downloads.php:132
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
-msgstr "开发版本应该比官方正式版本更慢，消耗更多的内存，也不如官方正式版本稳定。"
+msgstr "开发版本会比官方正式版本更慢，消耗更多的内存，也不如官方正式版本稳定。"
 
 #: downloads.php:134
 msgid "Download here a "
@@ -379,7 +379,7 @@ msgid "FreeCAD offers since long several great community-made add-on assembly\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
 "                  This workbench allows to define 3D constraints between parts, assemble the\n"
 "                  different components of a model, and animate everything."
-msgstr ""
+msgstr "FreeCAD长期以来提供了几个很棒的社区制作的附加装配工作台，这些工作台使用不同的求解器，甚至是无求解器的工作流程来装配您创建的零件。FreeCAD 1.0还包括一个新的内置装配工作台，基于<a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel求解器</a>。此工作台允许定义零件之间的3D约束，组装模型的不同组件，并为所有内容设置动画。"
 
 #: features.php:170
 msgid "Also for architects"
@@ -390,7 +390,7 @@ msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and\n"
 "              an external BIM workbench added on top of that. With version 1.0, both of them have\n"
 "              merged and now we have a built-in BIM workbench. Now you can do your building and\n"
 "              construction related projects right out of the box."
-msgstr ""
+msgstr "在 1.0 版本之前，FreeCAD 有一个内置的 Arch 工作台和一个外部的 BIM 工作台。在 1.0 版本中两者已经合并，现在我们有了一个内置的 BIM 工作台。现在，您可以开箱即用地完成建筑和施工相关项目。"
 
 #: features.php:188
 msgid "Python everywhere"
@@ -458,7 +458,7 @@ msgstr "FreeCAD 允许您从您的模型导入和导出模型和许多其他类�
 
 #: features.php:242
 msgid "A parametric constraints-based 2D sketcher"
-msgstr "基于参数约束的2D草图绘制器"
+msgstr "基于参数约束的 2D 草图绘制器"
 
 #: features.php:244
 msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
@@ -466,8 +466,8 @@ msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sket
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
 "                  objects throughout FreeCAD, be it either with the\n"
 "                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
-msgstr "FreeCAD 有一个最先进的 <a href=https://wiki.freecad.org/Sketcher_Workbench>草图设计</a>\n"
-"                  具有集成的约束解算器，允许你画出有几何约束的2D图形。草图的主要作用是\n"
+msgstr "FreeCAD 有一个最先进的 <a href=https://wiki.freecad.org/Sketcher_Workbench>草图绘制器</a>\n"
+"                  具有集成的约束求解器，允许你画出有几何约束的2D图形。草图的主要作用是\n"
 "                  FreeCAD的构建模块，用它构建的受限2D图形可以作为一个基础来构建其他的图形\n"
 "                  对象， 是使用\n"
 "                  专用的 <a href=https://wiki.freecad.org/PartDesign_Workbench>部件设计工作台</a> 还是其他工作台。"
@@ -518,17 +518,17 @@ msgstr "FreeCAD 秉承“人人为我，我为人人”的理念。它的开发�
 
 #: features.php:309
 msgid "Release notes"
-msgstr "版本说明"
+msgstr "发行说明"
 
 #: features.php:319
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
-msgstr "在这里查找当前版本和之前的 FreeCAD 版本的版本说明。\n"
-"                  发布说明描述了每个版本中&apos;s 的新内容："
+msgstr "在这里查找当前版本和之前的 FreeCAD 版本的发行说明。\n"
+"                  发行说明描述了每个版本中的新内容："
 
 #: features.php:326
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
-msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"更新日志 0.21"
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"发行说明 0.21"
 
 #: features.php:326
 msgid "Release 0.21 - August 2023"
@@ -536,11 +536,11 @@ msgstr "0.21 版本 - 2023年8月"
 
 #: features.php:326
 msgid "current stable release"
-msgstr "当前正式版本"
+msgstr "当前稳定版本"
 
 #: features.php:327
 msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
-msgstr "https://wiki.freecad.org/Release_notes_0.20\" title=\"更新日志 0.20"
+msgstr "https://wiki.freecad.org/Release_notes_0.20\" title=\"发行说明 0.20"
 
 #: features.php:327
 msgid "Release 0.20 - June 2022"
@@ -548,15 +548,15 @@ msgstr "0.20 版本 - 2022年6月"
 
 #: features.php:328
 msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
-msgstr "https://wiki.freecad.org/Release_notes_0.19\" title=\"更新日志 0.19"
+msgstr "https://wiki.freecad.org/Release_notes_0.19\" title=\"发行说明 0.19"
 
 #: features.php:328
 msgid "Release 0.19 - March 2021"
-msgstr "0.19 版 - 2021年3月"
+msgstr "0.19 正式版 - 2021年3月"
 
 #: features.php:329
 msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
-msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"更新日志 0.18"
+msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"发行说明 0.18"
 
 #: features.php:329
 msgid "Release 0.18 - March 2019"
@@ -564,15 +564,15 @@ msgstr "0.18 正式版 - 2019年3月"
 
 #: features.php:330
 msgid "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
-msgstr "https://wiki.freecad.org/Release_notes_0.17\" title=\"更新日志 0.17"
+msgstr "https://wiki.freecad.org/Release_notes_0.17\" title=\"发行说明 0.17"
 
 #: features.php:330
 msgid "Release 0.17 - April 2018"
-msgstr "0.17 版 - 2018年4月"
+msgstr "0.17 正式版 - 2018年4月"
 
 #: features.php:331
 msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
-msgstr "https://wiki.freecad.org/Release_notes_0.16\" title=\"更新日志 0.16"
+msgstr "https://wiki.freecad.org/Release_notes_0.16\" title=\"发行说明 0.16"
 
 #: features.php:331
 msgid "Release 0.16 - April 2016"
@@ -580,15 +580,15 @@ msgstr "0.16 正式版 - 2016年4月"
 
 #: features.php:332
 msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
-msgstr "https://wiki.freecad.org/Release_notes_0.15\" title=\"更新日志 0.15"
+msgstr "https://wiki.freecad.org/Release_notes_0.15\" title=\"发行说明 0.15"
 
 #: features.php:332
 msgid "Release 0.15 - March 2015"
-msgstr "0.15 版 - 2015年3月"
+msgstr "0.15 正式版 - 2015年3月"
 
 #: features.php:333
 msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
-msgstr "https://wiki.freecad.org/Release_notes_0.14\" title=\"更新日志 0.14"
+msgstr "https://wiki.freecad.org/Release_notes_0.14\" title=\"发行说明 0.14"
 
 #: features.php:333
 msgid "Release 0.14 - March 2014"
@@ -596,7 +596,7 @@ msgstr "0.14 正式版- - 2014年3月"
 
 #: features.php:334
 msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
-msgstr "https://wiki.freecad.org/Release_notes_013\" title=\"更新日志 013"
+msgstr "https://wiki.freecad.org/Release_notes_013\" title=\"发行说明 013"
 
 #: features.php:334
 msgid "Release 0.13 - January 2013"
@@ -604,7 +604,7 @@ msgstr "0.13 正式版 - 2013年1月"
 
 #: features.php:335
 msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
-msgstr "https://wiki.freecad.org/Release_notes_012\" title=\"更新日志 012"
+msgstr "https://wiki.freecad.org/Release_notes_012\" title=\"发行说明 012"
 
 #: features.php:335
 msgid "Release 0.12 - December 2011"
@@ -612,7 +612,7 @@ msgstr "0.12 版本发布 - 2011年12月"
 
 #: features.php:336
 msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
-msgstr "https://wiki.freecad.org/Release_notes_011\" title=\"更新日志 011"
+msgstr "https://wiki.freecad.org/Release_notes_011\" title=\"发行说明 011"
 
 #: features.php:336
 msgid "Release 0.11 - March 2011"
@@ -687,7 +687,7 @@ msgstr "https://wiki.freecad.org/Getting_started"
 
 #: header.php:89
 msgid "Getting started"
-msgstr "开始"
+msgstr "入门指南"
 
 #: header.php:90
 msgid "https://wiki.freecad.org/User_hub"
@@ -719,7 +719,7 @@ msgstr "https://wiki.freecad.org/Power_users_hub"
 
 #: header.php:93
 msgid "Python coding documentation"
-msgstr "Python 编码文档"
+msgstr "Python 编程文档"
 
 #: header.php:94
 msgid "https://wiki.freecad.org/Developer_hub"
@@ -727,7 +727,7 @@ msgstr "https://wiki.freecad.org/Developer_hub"
 
 #: header.php:94
 msgid "C++ coding documentation"
-msgstr "C++ 编码文档"
+msgstr "C++ 编程文档"
 
 #: header.php:95 thankyou.php:158
 msgid "https://wiki.freecad.org/Tutorials"
@@ -895,11 +895,7 @@ msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
 "          teacher, you will feel right at home with FreeCAD."
-msgstr "FreeCAD 的设计适合广泛的用途，包括产品。\n"
-"          设计、机械工程和建筑专业。\n"
-"          无论您是。\n"
-"          业余爱好者、程序员、有经验的 CAD 用户、学生或。\n"
-"          老师，使用 FreeCAD 您会有宾至如归的感觉。"
+msgstr "FreeCAD 的设计适合广泛的用途，包括产品、设计、机械工程和建筑专业。无论您是业余爱好者、程序员、有经验的 CAD 用户、学生或老师，使用 FreeCAD 您会有宾至如归的感觉。"
 
 #: index.php:104
 msgid "Modelled by rider_mortagnais"

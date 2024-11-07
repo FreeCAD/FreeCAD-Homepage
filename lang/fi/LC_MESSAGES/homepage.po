@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-24 09:27+0200\n"
-"PO-Revision-Date: 2024-10-14 08:04\n"
+"PO-Revision-Date: 2024-11-07 09:48\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
@@ -31,7 +31,7 @@ msgstr "Lue lisää"
 
 #: blog.php:263
 msgid "All Blogs"
-msgstr ""
+msgstr "Kaikki Blogit"
 
 #: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
@@ -155,7 +155,7 @@ msgstr "Windows 7 on vanhin tuettu versio. Jos haluat lisätietoja asennuksesta,
 
 #: downloads.php:47
 msgid "https://wiki.freecad.org/Install_on_Windows"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Windows"
 
 #: downloads.php:47 downloads.php:68 downloads.php:90
 msgid "wiki"
@@ -167,7 +167,7 @@ msgstr "Mac OS X 10.12 Sierra on vanhin tuettu versio. Jos haluat lisätietoja a
 
 #: downloads.php:68
 msgid "https://wiki.freecad.org/Install_on_Mac"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Mac"
 
 #: downloads.php:88
 msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
@@ -179,7 +179,7 @@ msgstr "Muiden jakelukohtaisten asennusohjeiden, kuten Ubuntu PPA: n, ja muiden 
 
 #: downloads.php:90
 msgid "https://wiki.freecad.org/Install_on_Unix"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Linux"
 
 #: downloads.php:103
 msgid "See what has changed since last version in the"
@@ -195,11 +195,11 @@ msgstr "FreeCAD 0.21 julkaisutiedot"
 
 #: downloads.php:114
 msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs"
-msgstr ""
+msgstr "FreeCAD 1.0 julkaisu tapahtuu pian! Auta meitä kukistamaan viime hetken vikoja"
 
 #: downloads.php:116
 msgid "Download and try a 1.0 Release Candidate build!"
-msgstr ""
+msgstr "Lataa ja kokeile 1.0 Release Candidate koontivesiota!"
 
 #: downloads.php:126
 msgid "Development versions"
@@ -211,7 +211,7 @@ msgstr "FreeCADiä kehitetään joka päivä!"
 
 #: downloads.php:129
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
-msgstr ""
+msgstr "FreeCAD yhteisö tuottsa viikottaisia koontiversioita jotka pohjautuvat <i>viimeisimpään</i> FreeCAD-koodiin, jotta käyttäjät voivat testata virheenkorjauksia/regressioita sekä uusia ominaisuuksia."
 
 #: downloads.php:130
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
@@ -227,23 +227,23 @@ msgstr "Kehitysversioiden voi odottaa olevan hitaampia, kuluttavan enemmän muis
 
 #: downloads.php:134
 msgid "Download here a "
-msgstr ""
+msgstr "Lataa tästä "
 
 #: downloads.php:134
 msgid "Weekly Build"
-msgstr ""
+msgstr "Viikottainen Koontiversio"
 
 #: downloads.php:134
 msgid " for Windows, macOS or Linux. "
-msgstr ""
+msgstr " Windowsille, macOS:lle tai Linuxille. "
 
 #: downloads.php:135
 msgid "On Linux"
-msgstr ""
+msgstr "Linuxissa"
 
 #: downloads.php:135
 msgid "https://wiki.freecad.org/Snap"
-msgstr ""
+msgstr "https://wiki.freecad.org/Ubuntu_Snap"
 
 #: downloads.php:136 footer.php:36
 msgid "and"
@@ -251,11 +251,11 @@ msgstr "ja"
 
 #: downloads.php:136
 msgid "https://wiki.freecad.org/Flatpak"
-msgstr ""
+msgstr "https://wiki.freecad.org/Flatpak"
 
 #: downloads.php:137
 msgid "also provide developement channels"
-msgstr ""
+msgstr "tarjoavat kehityskanavia"
 
 #: downloads.php:147
 msgid "Additional modules and macros"
@@ -268,7 +268,7 @@ msgstr "FreeCAD-yhteisö tarjoaa runsaasti lisämoduuleja ja makroja. Niitä voi
 
 #: downloads.php:151
 msgid "https://wiki.freecad.org/Std_AddonMgr"
-msgstr ""
+msgstr "https://wiki.freecad.org/Std_AddonMgr"
 
 #: downloads.php:151
 msgid "Addon manager."
@@ -351,7 +351,7 @@ msgstr "Kaikki FreeCAD-objektit ovat luonnostaan parametrisia, mikä tarkoittaa,
 
 #: features.php:145
 msgid "Assembly solutions for every need"
-msgstr ""
+msgstr "Kokoonpanoratkaisut kaikkiin tarpeisiin"
 
 #: features.php:147
 msgid "FreeCAD offers since long several great community-made add-on assembly\n"
@@ -361,18 +361,18 @@ msgid "FreeCAD offers since long several great community-made add-on assembly\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
 "                  This workbench allows to define 3D constraints between parts, assemble the\n"
 "                  different components of a model, and animate everything."
-msgstr ""
+msgstr "FreeCAD on tarjonnut jo kauan monia hienoja yhteisön tekemiä lisäosa kokoonpano               työpöytiä, jotka käyttävät erilaisia ratkaisijoita ja jopa ratkaisijattonta työnkulkua      tekemiesi osien kokoonpanoa varten. FreeCAD 1.0:n myötä uusi sisäänrakennettu kokoonpano työpöytä sisältyy, joka pohjautuu <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solveriin</a>. Työpöytä mahdollistaa 3D rajojen määrittelemisen eri osien välillä, kokoonpanna mallin eri komponentteja ja animoida kaiken."
 
 #: features.php:170
 msgid "Also for architects"
-msgstr ""
+msgstr "Myös arkkitehdeille"
 
 #: features.php:172
 msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and\n"
 "              an external BIM workbench added on top of that. With version 1.0, both of them have\n"
 "              merged and now we have a built-in BIM workbench. Now you can do your building and\n"
 "              construction related projects right out of the box."
-msgstr ""
+msgstr "Versioon 1.0 saakka, FreeCAD:issa oli sisäänrakennettu Arch-työpöytä ja lisäksi ulkoinen BIM-työpöytä. Version 1.0 myötä, molemmat ominaisuudet on  yhdistetty toisiinsa ja nyt meillä on sisäänrakennettu BIM-työpöytä. Nyt voit tehdä projektiisi liittyvät rakennus ja rakentelutehtävät suoraan ohjelmistossa."
 
 #: features.php:188
 msgid "Python everywhere"
@@ -450,7 +450,7 @@ msgstr "FreeCAD tarjoaa <a href=\"https://wiki.freecad.org/Workbenches/fi\">työ
 
 #: features.php:280
 msgid "https://wiki.freecad.org/Feature_list"
-msgstr ""
+msgstr "https://wiki.freecad.org/Feature_list"
 
 #: features.php:294
 msgid "Developed by a community"
@@ -475,7 +475,7 @@ msgstr "Täältä löydät uusimman ja aiempien FreeCAD-versioiden julkaisutiedo
 
 #: features.php:326
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
 
 #: features.php:326
 msgid "Release 0.21 - August 2023"
@@ -773,7 +773,7 @@ msgstr "Lataa tästä"
 
 #: index.php:39
 msgid "Modelled by ppemawm"
-msgstr ""
+msgstr "Mallin mallintanut ppemawm"
 
 #: index.php:44
 msgid "Freedom to build what you want"
@@ -788,7 +788,7 @@ msgstr "FreeCAD on avoimen lähdekoodin parametrinen 3D-mallinnusohjelma, joka o
 
 #: index.php:55
 msgid "Modelled by r-frank"
-msgstr ""
+msgstr "Mallin mallintanut r-frank"
 
 #: index.php:60
 msgid "Create 3D from 2D & back"
@@ -1072,7 +1072,7 @@ msgid "If you are in, choose the amount and method of your\n"
 "            choice below. If you are interested in supporting the project better\n"
 "            with a recurring donation, check the <a href=sponsor.php>sponsoring\n"
 "            page</a> to see more options."
-msgstr ""
+msgstr "Jos olet mukana, valitse summa ja haluamasi tapaa alta. Jos olet kiinostunut projektin tukemisesta enemmän jatkuvalla lahjoituksella tarkista <a href=sponsor.php>sponsorointi sivu</a> nähdäksesi lisää vaihtoehtoja."
 
 #: thankyou.php:97
 msgid "There are also many other ways to help FreeCAD. For\n"
@@ -1104,7 +1104,7 @@ msgstr "Alla on joitakin tämän dokumentaation sivuja, jotka saattavat olla hy�
 
 #: thankyou.php:133
 msgid "https://wiki.freecad.org/Installing_on_Windows"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Windows"
 
 #: thankyou.php:133
 msgid "Installing FreeCAD on Windows"
@@ -1112,7 +1112,7 @@ msgstr "FreeCAD:in asentaminen Windowsiin"
 
 #: thankyou.php:134
 msgid "https://wiki.freecad.org/Installing_on_Linux"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Linux"
 
 #: thankyou.php:134
 msgid "Installing FreeCAD on Linux"
@@ -1120,7 +1120,7 @@ msgstr "FreeCAD:in asentaminen Linuxiin"
 
 #: thankyou.php:135
 msgid "https://wiki.freecad.org/Installing_on_Mac"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Mac"
 
 #: thankyou.php:135
 msgid "Installing FreeCAD on MacOS"
@@ -1128,7 +1128,7 @@ msgstr "FreeCAD:in asentaminen MacOS:iin"
 
 #: thankyou.php:136
 msgid "https://wiki.freecad.org/Installing_additional_components"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_additional_components"
 
 #: thankyou.php:136
 msgid "Installing additional components"
@@ -1175,7 +1175,13 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            skill levels. There you can seek advice of more advanced users, find\n"
 "            ways to solve a particular problem, or discuss ideas about and around\n"
 "            the FreeCAD world."
-msgstr ""
+msgstr "Jos kohtaat ongelmia FreeCADilla tai haluaisit\n"
+"            tavata ja jutella aiheista muiden käyttäjien kanssa, käväise\n"
+"            <a href=https://forum.freecad.org>FreeCAD keskustelupalstalla</a>. Keskustelupalsta on\n"
+"                        ensisijainen kohtaamispaikka FreeCAD käyttäjille ympäri maailman ja kaikilla\n"
+"            taitotasoilla. Siellä voit pyytää kokeneempien käyttäjien neuvoa, löytää\n"
+"            tapoja selvittää tietty ongelma tai jutella ideoista ja ympäri\n"
+"            FreeCAD -maailman."
 
 #: translation.php:67
 msgid "English"
@@ -1191,7 +1197,7 @@ msgstr "Arabialainen"
 
 #: translation.php:70
 msgid "Belarusian"
-msgstr ""
+msgstr "Valkovenäläinen"
 
 #: translation.php:71
 msgid "Catalan"

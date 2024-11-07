@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-24 09:27+0200\n"
-"PO-Revision-Date: 2024-10-14 08:04\n"
+"PO-Revision-Date: 2024-11-07 09:48\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -85,15 +85,15 @@ msgstr "請選擇"
 
 #: donation.php:71
 msgid "Direct SEPA bank transfer using your own bank apps"
-msgstr ""
+msgstr "使用您自己的銀行應用程式直接 SEPA （單一歐元支付區）銀行轉賬"
 
 #: donation.php:71
 msgid "SEPA bank transfer"
-msgstr ""
+msgstr "SEPA（單一歐元支付區）銀行轉賬"
 
 #: donation.php:72
 msgid "Credit card payment via Stripe"
-msgstr ""
+msgstr "透過 Stripe 進行信用卡支付"
 
 #: donation.php:72
 msgid "Credit card (Stripe)"
@@ -101,7 +101,7 @@ msgstr "信用卡（Stripe）"
 
 #: donation.php:73
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
-msgstr ""
+msgstr "Paypal 允許使用您的 Paypal 帳戶或信用卡進行捐贈"
 
 #: donation.php:73
 msgid "Paypal"
@@ -109,7 +109,7 @@ msgstr "Paypal"
 
 #: donation.php:74
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
-msgstr ""
+msgstr "GitHub 讓您可以使用 GitHub 帳戶和信用卡贊助您最喜歡的項目"
 
 #: donation.php:74
 msgid "GitHub"
@@ -117,19 +117,19 @@ msgstr "GitHub"
 
 #: donation.php:75
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
-msgstr ""
+msgstr "OpenCollective 充當開源專案的財務託管方。您可以使用信用卡或銀行帳戶捐款。 OpenCollective 是一個 501(c)3 組織，在美國提供減稅服務。"
 
 #: donation.php:75
 msgid "OpenCollective (501(c)3)"
-msgstr ""
+msgstr "OpenCollective (501(c)3)"
 
 #: donation.php:80
 msgid "SEPA Information"
-msgstr ""
+msgstr "SEPA 資訊"
 
 #: donation.php:81
 msgid "Please set up your SEPA bank transfer to"
-msgstr ""
+msgstr "請將您的 SEPA 銀行轉帳設定至"
 
 #: donation.php:85
 msgid "Bank agency"
@@ -146,7 +146,8 @@ msgstr "提交"
 #: donation.php:90
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr ""
+msgstr "有關不同捐贈方法和選項的更多信息，請訪問\n"
+" <a href=https://wiki.freecad.org/donate>捐贈</a>頁面。"
 
 #: downloads.php:24
 msgid "Current stable version:"
@@ -182,7 +183,7 @@ msgstr "在某些發行版中，您可能需要安裝 fuse 來執行 AppImage �
 
 #: downloads.php:89
 msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr ""
+msgstr "有關其他發行版特定的安裝說明，例如 Ubuntu PPA 以及在 Linux 上安裝的其他方法，請查看 "
 
 #: downloads.php:90
 msgid "https://wiki.freecad.org/Install_on_Unix"
@@ -190,7 +191,7 @@ msgstr "https://wiki.freecad.org/Install_on_Unix"
 
 #: downloads.php:103
 msgid "See what has changed since last version in the"
-msgstr ""
+msgstr "看看自上一個版本以來發生了什麼變化"
 
 #: downloads.php:104 index.php:29
 msgid "https://wiki.freecad.org/Release_notes_0.21"
@@ -202,11 +203,11 @@ msgstr "FreeCAD 0.21 發行說明"
 
 #: downloads.php:114
 msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs"
-msgstr ""
+msgstr "FreeCAD 1.0 即將發布！幫助我們消除最後一刻的錯誤"
 
 #: downloads.php:116
 msgid "Download and try a 1.0 Release Candidate build!"
-msgstr ""
+msgstr "下載並嘗試 1.0 候選發布版本！"
 
 #: downloads.php:126
 msgid "Development versions"
@@ -214,31 +215,31 @@ msgstr "開發版本"
 
 #: downloads.php:128
 msgid "FreeCAD's development happens daily!"
-msgstr ""
+msgstr "FreeCAD 的發展每天都在發生！"
 
 #: downloads.php:129
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
-msgstr ""
+msgstr "FreeCAD 社群每週產生基於<i>前沿</i> FreeCAD 程式碼的構建，以便使用者測試錯誤修復/回歸以及新功能。"
 
 #: downloads.php:130
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
-msgstr ""
+msgstr "我們要求高級用戶偶爾運行開發版本以協助測試新程式碼。"
 
 #: downloads.php:131
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
-msgstr ""
+msgstr "這些版本不適合生產使用，使用它們時應小心（定期備份文件等）。"
 
 #: downloads.php:132
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
-msgstr ""
+msgstr "與官方發布版本相比，開發版本預計會更慢、消耗更多記憶體並且穩定性較差。"
 
 #: downloads.php:134
 msgid "Download here a "
-msgstr ""
+msgstr "在這裡下載一個"
 
 #: downloads.php:134
 msgid "Weekly Build"
-msgstr ""
+msgstr "每週編譯的可執行檔"
 
 #: downloads.php:134
 msgid " for Windows, macOS or Linux. "
@@ -262,7 +263,7 @@ msgstr "https://wiki.freecad.org/Flatpak"
 
 #: downloads.php:137
 msgid "also provide developement channels"
-msgstr ""
+msgstr "也提供發展管道"
 
 #: downloads.php:147
 msgid "Additional modules and macros"
@@ -287,7 +288,7 @@ msgstr "原始碼"
 
 #: downloads.php:163
 msgid "The source code of FreeCAD is hosted primarily on "
-msgstr ""
+msgstr "FreeCAD 的原始碼主要託管在 "
 
 #: downloads.php:165
 msgid "and mirrored on "
@@ -303,11 +304,11 @@ msgstr "FreeCAD 事件"
 
 #: events.php:61
 msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
-msgstr ""
+msgstr "下面的日曆顯示了 FreeCAD 會議和其他社區活動即將舉行的日期。"
 
 #: events.php:79
 msgid "Subscribe to this calendar using this"
-msgstr ""
+msgstr "使用此訂閱此日曆"
 
 #: events.php:79
 msgid "ICS link"
@@ -326,7 +327,9 @@ msgid "FreeCAD is made primarily to design objects for the real world. Everythin
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr ""
+msgstr "FreeCAD 主要用於設計現實世界的物件。您在 FreeCAD 中所做的一切都使用現實世界的單位，無論是微米、公里、英吋或英尺，甚至是單位的任意組合。 FreeCAD 提供<a href=https://wiki.freecad.org/Workbenches>工具</a>來產生、匯出和\n"
+"編輯實體、全精度模型，將其匯出以進行3D 列印或CNC 加工，建立2D工程圖和模型視圖，\n"
+" 執行有限元素分析等分析，或匯出數量或物料清單等模型資料。"
 
 #: features.php:97
 msgid "A powerful solid-based geometry kernel"
@@ -341,7 +344,14 @@ msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
 "              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
-msgstr ""
+msgstr "FreeCAD 具有基於\n"
+" <a href=https://en.wikipedia.org/wiki/Open_CASCADE>開放 CASCADE 技術</a>的高級幾何引擎。它支援實體、\n"
+" <a href=https://en.wikipedia.org/wiki/Boundary_representation>邊界表示</a> (BRep) 物件和\n"
+" <a href=https://en.wikipedia。 /wiki/Non-uniform_rational_B-spline>非均勻有理基樣條</a> (NURBS)\n"
+" 曲線和曲面，並提供了廣泛的工具來建立和修改這些對象，包括複雜的\n"
+" <a href = https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>布林</a>運算，\n"
+" <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>圓角</a> 、形狀清理和\n"
+"<a href=https://wiki.freecad.org/OpenCASCADE>更多</a>。"
 
 #: features.php:119
 msgid "A wi(l)dly parametric environment"
@@ -358,7 +368,7 @@ msgstr "所有 FreeCAD 物件都是原生參數化，這意味著它們的形狀
 
 #: features.php:145
 msgid "Assembly solutions for every need"
-msgstr ""
+msgstr "滿足各種需求的組裝解決方案"
 
 #: features.php:147
 msgid "FreeCAD offers since long several great community-made add-on assembly\n"
@@ -368,18 +378,22 @@ msgid "FreeCAD offers since long several great community-made add-on assembly\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
 "                  This workbench allows to define 3D constraints between parts, assemble the\n"
 "                  different components of a model, and animate everything."
-msgstr ""
+msgstr "長期以來，FreeCAD 提供了幾個優秀的社群製作的附加組裝工作台，這些工作台使用不同的求解器甚至無需求解器的工作流程來組裝您建立的零件。 FreeCAD 1.0 還包含一個新的內建組裝工作台，\n"
+" 基於 <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>。拘束、組裝模型的\n"
+" 不同組件以及為所有內容設定動畫。"
 
 #: features.php:170
 msgid "Also for architects"
-msgstr ""
+msgstr "也適用於建築師"
 
 #: features.php:172
 msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and\n"
 "              an external BIM workbench added on top of that. With version 1.0, both of them have\n"
 "              merged and now we have a built-in BIM workbench. Now you can do your building and\n"
 "              construction related projects right out of the box."
-msgstr ""
+msgstr "在版本 1.0 之前，FreeCAD 具有內建的 Arch 工作台和\n"
+" 在其之上新增的外部 BIM 工作台。在 1.0 版本中，兩者已經合併，現在我們有了一個內建的 BIM 工作台。現在您可以開箱即用地執行您的建築和\n"
+" 施工相關項目。"
 
 #: features.php:188
 msgid "Python everywhere"
@@ -393,7 +407,8 @@ msgid "While the FreeCAD core functionality is coded in C++ for robustness and p
 "                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line\n"
 "                  commands in the integrated Python console to recording macros, coding your own tools up to\n"
 "                  full custom workbenches."
-msgstr ""
+msgstr "雖然 FreeCAD 核心功能採用 C++ 進行編碼以實現穩健性和性能，但大部分外部層、工作台以及核心與用戶界面之間的幾乎所有通信均採用 <a href=https://python.org> Python 程式碼</a>，\n"
+" 一種靈活、使用者友好且易於學習的程式語言。透過 Python 程式碼，您可以執行<a href=https://wiki.freecad.org/Power_users_hub>FreeCAD 中的任何操作</a>，從整合 Python 控制台中的簡單一行命令到記錄巨集、編寫您自己的工具直至完整的自訂工作台。"
 
 #: features.php:209
 msgid "File formats frenzy"
@@ -487,7 +502,7 @@ msgid "FreeCAD is made for everybody, by everybody. It is developed and maintain
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
 "              urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or\n"
 "              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
-msgstr ""
+msgstr "FreeCAD 是由每個人為每個人製作的。它是由開發人員、使用者、版主、翻譯人員組成的社群開發和維護的，他們的願望是讓 FreeCAD 成為一個免費且功能強大的工具。所做的決定背後沒有商業目的，也沒有催促您升級 FreeCAD 版本或將您限制在特定工作流程或生態系統中。 FreeCAD 以及您使用 FreeCAD 產生的文件和資料真正屬於您，永遠屬於您。"
 
 #: features.php:309
 msgid "Release notes"
@@ -496,7 +511,8 @@ msgstr "發行說明"
 #: features.php:319
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
-msgstr ""
+msgstr "於此處找到目前和之前 FreeCAD 版本的發行說明。\n"
+"                  發行說明內包含每個版本中的新增內容："
 
 #: features.php:326
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
@@ -592,7 +608,7 @@ msgstr "Release 0.11 - 2011年3月"
 
 #: features.php:347
 msgid "Follow the official FreeCAD channels for fresh news:"
-msgstr ""
+msgstr "關注 FreeCAD 官方頻道以獲取最新消息："
 
 #: features.php:353
 msgid "Official blog"
@@ -609,7 +625,8 @@ msgstr "取得聯繫!"
 #: footer.php:24
 msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
 "      r-frank, epileftric, regis, rider_mortagnais, bejant."
-msgstr ""
+msgstr "© FreeCAD 團隊。首頁圖片來源（由上至下）：ppemawm、\n"
+" r-frank、epileftric、regis、rider_mortagnais、bejant。"
 
 #: footer.php:28
 msgid "This project is supported by:"
@@ -690,7 +707,7 @@ msgstr "https://wiki.freecad.org/Power_users_hub"
 
 #: header.php:93
 msgid "Python coding documentation"
-msgstr ""
+msgstr "Python 程式設計文件"
 
 #: header.php:94
 msgid "https://wiki.freecad.org/Developer_hub"
@@ -698,7 +715,7 @@ msgstr "https://wiki.freecad.org/Developer_hub"
 
 #: header.php:94
 msgid "C++ coding documentation"
-msgstr ""
+msgstr "C++ 程式文件"
 
 #: header.php:95 thankyou.php:158
 msgid "https://wiki.freecad.org/Tutorials"
@@ -750,19 +767,19 @@ msgstr "回報錯誤"
 
 #: header.php:109
 msgid "Make a pull request"
-msgstr ""
+msgstr "提出 Pull Request (PR)"
 
 #: header.php:110
 msgid "Jobs and funding"
-msgstr ""
+msgstr "就業和資金"
 
 #: header.php:111
 msgid "Contribution guidelines"
-msgstr ""
+msgstr "貢獻指南"
 
 #: header.php:112
 msgid "Developers handbook"
-msgstr ""
+msgstr "開發者手冊"
 
 #: header.php:113
 msgid "https://wiki.freecad.org/Localisation"
@@ -770,7 +787,7 @@ msgstr "https://wiki.freecad.org/Localisation"
 
 #: header.php:113
 msgid "Translations"
-msgstr ""
+msgstr "翻譯"
 
 #: header.php:118
 msgid "Community"
@@ -778,15 +795,15 @@ msgstr "社群"
 
 #: header.php:121
 msgid "Code of conduct"
-msgstr ""
+msgstr "行為守則"
 
 #: header.php:122
 msgid "Forum"
-msgstr ""
+msgstr "論壇"
 
 #: header.php:137
 msgid "Calendar"
-msgstr ""
+msgstr "日曆"
 
 #: index.php:26
 msgid "Your own 3D parametric modeler"
@@ -798,7 +815,7 @@ msgstr "立即下載"
 
 #: index.php:39
 msgid "Modelled by ppemawm"
-msgstr ""
+msgstr "由 ppemawm 建模"
 
 #: index.php:44
 msgid "Freedom to build what you want"
@@ -816,7 +833,7 @@ msgstr "FreeCAD 是一款開源的參數化 3D 建模軟體，主要用於\n"
 
 #: index.php:55
 msgid "Modelled by r-frank"
-msgstr ""
+msgstr "由 r-frank 建模"
 
 #: index.php:60
 msgid "Create 3D from 2D & back"
@@ -827,11 +844,14 @@ msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
 "          create high quality production ready drawings."
-msgstr ""
+msgstr "FreeCAD 允許您繪製幾何約束的 2D 形狀，並使用\n"
+"          它們作為建造其他物件的基礎。 它包含許多元件，\n"
+"          用於調整尺寸或從 3D 模型中提取設計細節，從而\n"
+"          建立高品質的工作圖紙。"
 
 #: index.php:71
 msgid "Modelled by epileftric"
-msgstr ""
+msgstr "由 epileftric 建模"
 
 #: index.php:76
 msgid "Accessible, flexible & integrated"
@@ -851,7 +871,7 @@ msgstr "FreeCAD 是一款多平台（Windows、Mac 和 Linux）、高度\n"
 
 #: index.php:88
 msgid "Modelled by regis"
-msgstr ""
+msgstr "由 regis 建模"
 
 #: index.php:93
 msgid "Designed for your needs"
@@ -870,7 +890,7 @@ msgstr "FreeCAD 旨在適應廣泛的用途，包括產品設計、機械工程�
 
 #: index.php:104
 msgid "Modelled by rider_mortagnais"
-msgstr ""
+msgstr "由 rider_mortagnais建模"
 
 #: index.php:109
 msgid "And many more great features"
@@ -890,7 +910,7 @@ msgstr "FreeCAD 為您提供了滿足您需求的所有正確工具。您將獲�
 
 #: index.php:125
 msgid "Modelled by bejant"
-msgstr ""
+msgstr "由 bejant 建模"
 
 #: index.php:130
 msgid "Want to contribute to FreeCAD?"
@@ -909,16 +929,17 @@ msgstr "立即參與"
 
 #: sponsor.php:9
 msgid "Donating and sponsoring"
-msgstr ""
+msgstr "斗內與贊助"
 
 #: sponsor.php:16
 msgid "Donating to FreeCAD"
-msgstr ""
+msgstr "斗內給 FreeCAD"
 
 #: sponsor.php:21
 msgid "Thanks for your interest in helping the FreeCAD\n"
 "              project with donations."
-msgstr ""
+msgstr "感謝您有興趣透過捐贈來幫助 FreeCAD\n"
+" 計畫。"
 
 #: sponsor.php:25
 msgid "FreeCAD is a fast-growing project, developed by a\n"
@@ -938,7 +959,11 @@ msgid "However, money can help the project to achieve many\n"
 "              showcase FreeCAD and interest professional users. It can also help\n"
 "              to organize events ourselves so community members can meet, pay for\n"
 "              server space and web services, and many other things."
-msgstr ""
+msgstr "然而，資金可以幫助專案實現許多其他目標。它可以幫助一些開發人員\n"
+" 更頻繁地或更定期地參與該項目，透過支付他們的\n"
+" 時間，以便他們可以將更多的時間投入到FreeCAD 上，或者它可以幫助\n"
+" 社群將人們派遣到CAD相關活動，以便我們\n"
+" 展示 FreeCAD 並引起專業使用者的興趣。它還可以幫助我們自己組織活動，以便社區成員可以見面、支付伺服器空間和 Web 服務以及許多其他事情。"
 
 #: sponsor.php:43
 msgid "There are several ways you can donate money and help\n"
@@ -972,16 +997,16 @@ msgstr "一次性贊助"
 msgid "If you are not sure or not able to commit to a regular\n"
 "              donation, but still want to help the project, you can do a one-time\n"
 "              donation, of any amount."
-msgstr ""
+msgstr "如果您不確定或無法承諾定期捐款，但仍想幫助該項目，您可以進行一次性捐款，金額不限。"
 
 #: sponsor.php:79
 msgid "Choose freely the amount you wish to donate one\n"
 "              time only:"
-msgstr ""
+msgstr "自由選擇您希望捐贈一次的金額：\n"
 
 #: sponsor.php:94
 msgid "Sponsoring"
-msgstr ""
+msgstr "贊助"
 
 #: sponsor.php:99
 msgid "We call sponsoring the act of donating money\n"
@@ -995,7 +1020,11 @@ msgid "Sponsoring FreeCAD allows its developers to count on\n"
 "              a steady flow of income, so it allows the FPA to plan things ahead,\n"
 "              and the FreeCAD developers to invest themselves more seriously\n"
 "              into FreeCAD."
-msgstr ""
+msgstr "贊助 FreeCAD 可以讓其開發者\n"
+" 獲得穩定的收入流，因此 FPA 可以提前規劃\n"
+"，\n"
+" 並且 FreeCAD 開發者可以\n"
+" 更認真地投資於 FreeCAD。"
 
 #: sponsor.php:111
 msgid "To encourage persons and companies to sponsor the\n"
@@ -1007,27 +1036,28 @@ msgstr "為了鼓勵個人和公司贊助 FreeCAD 專案，我們設立了不同
 
 #: sponsor.php:118
 msgid "Normal sponsor"
-msgstr ""
+msgstr "普通贊助者"
 
 #: sponsor.php:119
 msgid "from 1 USD / 1 EUR per month. You will not have your\n"
 "                name displayed here, but you will have helped the project a lot\n"
 "                anyway. Together, normal sponsors maintain the project on its\n"
 "                feet as much as the bigger sponsors."
-msgstr ""
+msgstr "每月 1 美元/1 歐元起。這裡不會顯示您的名字，但無論如何您都會為該項目提供很多幫助。普通贊助商與大型贊助商一樣，共同維持計畫的運作。"
 
 #: sponsor.php:123
 msgid "Bronze sponsor"
-msgstr ""
+msgstr "銅級贊助商"
 
 #: sponsor.php:124
 msgid "from 25 USD / 25 EUR per month. Your name or\n"
 "                company name is displayed on this page."
-msgstr ""
+msgstr "每月 25 美元/25 歐元起。您的姓名或\n"
+" 公司名稱將顯示在此頁面上。"
 
 #: sponsor.php:126
 msgid "Silver sponsor"
-msgstr ""
+msgstr "銀級贊助者"
 
 #: sponsor.php:127
 msgid "from 100 USD / 100 EUR per month. Your name or\n"
@@ -1037,7 +1067,7 @@ msgstr "每月 100 美元/100 歐元起。您的姓名或公司名稱將顯示�
 
 #: sponsor.php:130
 msgid "Gold sponsor"
-msgstr ""
+msgstr "黃金級贊助商"
 
 #: sponsor.php:131
 msgid "from 200 USD / 200 EUR per month. Your name\n"
@@ -1052,34 +1082,38 @@ msgid "Instead of donating each month, you might find it\n"
 "              more comfortable to make a one-time donation that, when divided by\n"
 "              twelve, would give you right to enter a sponsoring tier. Don't\n"
 "              hesitate to do so!"
-msgstr ""
+msgstr "您可能會發現，比起每月捐款，\n"
+" 更方便的是進行一次性捐款，\n"
+" 除以十二後，您將有權進入贊助級別。不要猶豫要這樣做！"
 
 #: sponsor.php:144
 msgid "Choose freely the amount you wish to donate each\n"
 "              month:"
-msgstr ""
+msgstr "自由選擇您希望捐贈一次的金額：\n"
 
 #: sponsor.php:149
 msgid "Please inform your forum name or twitter handle as a note\n"
 "              in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>,\n"
 "              so we can give you proper credits!"
-msgstr ""
+msgstr "請在轉帳時註明您的論壇名稱或 Twitter 帳號，\n"
+" 或<a href=mailto:fpa@freecad.org>聯絡我們</a>，\n"
+"以便我們為您提供適當的積分！"
 
 #: sponsor.php:160
 msgid "Gold sponsors"
-msgstr ""
+msgstr "黃金級贊助商"
 
 #: sponsor.php:197
 msgid "Early sponsors"
-msgstr ""
+msgstr "早鳥贊助者"
 
 #: sponsor.php:239
 msgid "Silver sponsors"
-msgstr ""
+msgstr "銀級贊助者"
 
 #: sponsor.php:278
 msgid "Bronze sponsors"
-msgstr ""
+msgstr "銅級贊助商"
 
 #: thankyou.php:60
 msgid "Thank you!"
@@ -1088,15 +1122,16 @@ msgstr "謝謝你！"
 #: thankyou.php:63
 msgid "Your download should start automatically.\n"
 "            If not, click"
-msgstr ""
+msgstr "您的下載應該會自動開始。\n"
+"         若沒有，點選"
 
 #: thankyou.php:64
 msgid "here"
-msgstr ""
+msgstr "這裡"
 
 #: thankyou.php:65
 msgid "to download the file."
-msgstr ""
+msgstr "以下載檔案。"
 
 #: thankyou.php:74
 msgid "Support FreeCAD!"
@@ -1108,14 +1143,18 @@ msgid "If you are happy with FreeCAD, and would like to help\n"
 "            open-source, paying to use FreeCAD will never be required, and\n"
 "            FreeCAD does not need money to survive, but donations help us to go\n"
 "            further, faster."
-msgstr ""
+msgstr "如果您對 FreeCAD 感到滿意，並願意幫助\n"
+"它蓬勃發展，為什麼不為該專案捐贈一點錢呢？ \n"
+" 作為開源軟體，使用 FreeCAD 永遠不需要付費，而且 FreeCAD 不需要金錢來生存，但捐款可以幫助我們走得更遠、更快。"
 
 #: thankyou.php:88
 msgid "If you are in, choose the amount and method of your\n"
 "            choice below. If you are interested in supporting the project better\n"
 "            with a recurring donation, check the <a href=sponsor.php>sponsoring\n"
 "            page</a> to see more options."
-msgstr ""
+msgstr "如果您參與，請在下面選擇您選擇的金額和方式。如果您有興趣透過定期捐款來更好地\n"
+"支持該項目，請查看<a href=sponsor.php>贊助\n"
+"頁面</a>以查看更多選項。"
 
 #: thankyou.php:97
 msgid "There are also many other ways to help FreeCAD. For\n"
@@ -1124,11 +1163,12 @@ msgid "There are also many other ways to help FreeCAD. For\n"
 "            all you need to know on the\n"
 "            <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a>\n"
 "            page."
-msgstr ""
+msgstr "還有許多其他方法可以幫助 FreeCAD。例如，您可以編寫程式碼、協助撰寫文件、翻譯 FreeCAD 介面和文件、協助新使用者等。 /a>\n"
+" 頁面。"
 
 #: thankyou.php:112
 msgid "Need help?"
-msgstr ""
+msgstr "需要協助嗎？"
 
 #: thankyou.php:118
 msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
@@ -1143,7 +1183,7 @@ msgstr "如果您是 FreeCAD 或 3D CAD 建模的新手，我們已為您準備�
 #: thankyou.php:128
 msgid "Below are some pages of this documentation that could\n"
 "            be useful to you:"
-msgstr ""
+msgstr "以下是本文件的一些可能對您有用的頁面："
 
 #: thankyou.php:133
 msgid "https://wiki.freecad.org/Installing_on_Windows"
@@ -1179,20 +1219,21 @@ msgstr "安裝附件元件"
 
 #: thankyou.php:137
 msgid "Getting started with FreeCAD"
-msgstr ""
+msgstr "FreeCAD 入門"
 
 #: thankyou.php:138
 msgid "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
-msgstr ""
+msgstr "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
 
 #: thankyou.php:138
 msgid "Migrating from other software?"
-msgstr ""
+msgstr "從其他軟體遷移？"
 
 #: thankyou.php:144
 msgid "FreeCAD also offers a complete user manual, that can\n"
 "            be downloaded as a pdf or epub file or printed:"
-msgstr ""
+msgstr "FreeCAD 還提供完整的使用手冊，\n"
+" 可以以 pdf 或 epub 文件形式下載或列印："
 
 #: thankyou.php:149
 msgid "The FreeCAD user manual"
@@ -1201,14 +1242,16 @@ msgstr "FreeCAD 使用手冊"
 #: thankyou.php:153
 msgid "and many tutorials, in written or video form, created by\n"
 "            the FreeCAD community:"
-msgstr ""
+msgstr "以及由 FreeCAD 社群建立的許多書面或視訊形式的教程："
 
 #: thankyou.php:162
 msgid "On behalf of all of the worldwide community of users,\n"
 "            developers, translators, editors, writers, testers who work hard to\n"
 "            make FreeCAD the best CAD modeller out there, we thank you for\n"
 "            downloading our baby! We hope you will like it as much as we do."
-msgstr ""
+msgstr "我們謹代表全球所有使用者、開發人員、翻譯人員、編輯人員、作家、測試人員，\n"
+" 為使 FreeCAD 成為最好的 CAD 建模工具而努力\n"
+"，感謝您下載我們的寶貝！我們希望您和我們一樣喜歡它。"
 
 #: thankyou.php:169
 msgid "If you encounter issues with FreeCAD, or would like to\n"
@@ -1218,7 +1261,9 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            skill levels. There you can seek advice of more advanced users, find\n"
 "            ways to solve a particular problem, or discuss ideas about and around\n"
 "            the FreeCAD world."
-msgstr ""
+msgstr "如果您遇到 FreeCAD 問題，或想要\n"
+" 與其他使用者會面並討論主題，請造訪\n"
+" <a href=https://forum.freecad.org>FreeCAD 論壇</a>。該論壇是世界各地、各種技能水平的 FreeCAD 用戶的主要聚會點。您可以在那裡尋求更高級用戶的建議，找到解決特定問題的方法，或討論有關 FreeCAD 世界及其周圍的想法。"
 
 #: translation.php:67
 msgid "English"

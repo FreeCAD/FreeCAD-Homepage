@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-24 09:27+0200\n"
-"PO-Revision-Date: 2024-10-14 08:04\n"
+"PO-Revision-Date: 2024-11-07 09:48\n"
 "Last-Translator: \n"
 "Language-Team: Croatian\n"
 "Language: hr_HR\n"
@@ -31,7 +31,7 @@ msgstr "Saznajte više"
 
 #: blog.php:263
 msgid "All Blogs"
-msgstr ""
+msgstr "Svi blogovi"
 
 #: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
@@ -203,11 +203,13 @@ msgstr "FreeCAD 0.21 Bilješka Izdanja"
 
 #: downloads.php:114
 msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs"
-msgstr ""
+msgstr "Izdanje FreeCAD 1.0 će se dogoditi uskoro! Pomozite nam u rješavanju grešaka u zadnji čas\n"
+"\n"
+""
 
 #: downloads.php:116
 msgid "Download and try a 1.0 Release Candidate build!"
-msgstr ""
+msgstr "Preuzmite i isprobajte verziju 1.0 Release Candidate!"
 
 #: downloads.php:126
 msgid "Development versions"
@@ -219,7 +221,7 @@ msgstr "Razvoj FreeCAD-a je na dnevnoj bazi!"
 
 #: downloads.php:129
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
-msgstr ""
+msgstr "FreeCAD zajednica generira tjedno verzije koje su zasnovane na <i>beeding edge</i> FreeCAD kodu kako bi korisnici testirali ispravke grešaka/regresije zajedno sa novim funkcijama."
 
 #: downloads.php:130
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
@@ -235,19 +237,19 @@ msgstr "Očekuje se da će razvojne izrade biti sporije, trošiti više memorije
 
 #: downloads.php:134
 msgid "Download here a "
-msgstr ""
+msgstr "Preuzmi ovdje "
 
 #: downloads.php:134
 msgid "Weekly Build"
-msgstr ""
+msgstr "Tjedno izdanje"
 
 #: downloads.php:134
 msgid " for Windows, macOS or Linux. "
-msgstr ""
+msgstr " za Windows, macOS ili Linux. "
 
 #: downloads.php:135
 msgid "On Linux"
-msgstr ""
+msgstr "Na Linux-u"
 
 #: downloads.php:135
 msgid "https://wiki.freecad.org/Snap"
@@ -263,7 +265,7 @@ msgstr "https://wiki.freecad.org/Flatpak/hr"
 
 #: downloads.php:137
 msgid "also provide developement channels"
-msgstr ""
+msgstr "također pružaju razvojne kanale"
 
 #: downloads.php:147
 msgid "Additional modules and macros"
@@ -375,7 +377,7 @@ msgstr "Svi FreeCAD objekti su izvorno parametarski, što znači da se njihov ob
 
 #: features.php:145
 msgid "Assembly solutions for every need"
-msgstr ""
+msgstr "Montažna rješenja za svaku potrebu"
 
 #: features.php:147
 msgid "FreeCAD offers since long several great community-made add-on assembly\n"
@@ -385,18 +387,27 @@ msgid "FreeCAD offers since long several great community-made add-on assembly\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
 "                  This workbench allows to define 3D constraints between parts, assemble the\n"
 "                  different components of a model, and animate everything."
-msgstr ""
+msgstr "FreeCAD već dugo nudi nekoliko izvrsnih dodatnih\n"
+" radnih alata za sklapanje koje je izradila zajednica i koji koriste različite rješavače, pa čak i tijekove rada bez rješavača za sastavljanje\n"
+" dijelova koje izradite. Uz FreeCAD 1.0 također je\n"
+" uključen i novi ugrađeni radni prostor za sklapanje, temeljen na\n"
+" <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
+" Ovaj radni prostor omogućuje definiranje 3D ograničenja između dijelova, sastavljanje\n"
+" različitih komponenti modela i animiranje svega.\n"
+"\n"
+""
 
 #: features.php:170
 msgid "Also for architects"
-msgstr ""
+msgstr "Takođe za arhitekte"
 
 #: features.php:172
 msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and\n"
 "              an external BIM workbench added on top of that. With version 1.0, both of them have\n"
 "              merged and now we have a built-in BIM workbench. Now you can do your building and\n"
 "              construction related projects right out of the box."
-msgstr ""
+msgstr "Do verzije 1.0 FreeCAD je imao ugrađeni Arhitektura radni prostor i\n"
+" vanjski BIM radni prostor dodan povrh toga. S verzijom 1.0 obje su se spojile i sada imamo ugrađeni BIM radni prostor. Sada možete raditi svoje građevinske i građevinske projekte izravno iz bloka."
 
 #: features.php:188
 msgid "Python everywhere"
@@ -767,7 +778,7 @@ msgstr "Često postavljena pitanja       "
 
 #: header.php:97
 msgid "Privacy policy"
-msgstr ""
+msgstr "Pravila privatnosti"
 
 #: header.php:98
 msgid "https://wiki.freecad.org/About_FreeCAD"
@@ -827,15 +838,15 @@ msgstr "Zajednica"
 
 #: header.php:121
 msgid "Code of conduct"
-msgstr ""
+msgstr "Kodeks ponašanja"
 
 #: header.php:122
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #: header.php:137
 msgid "Calendar"
-msgstr ""
+msgstr "Kalendar"
 
 #: index.php:26
 msgid "Your own 3D parametric modeler"
@@ -847,7 +858,9 @@ msgstr "Preuzmi sada"
 
 #: index.php:39
 msgid "Modelled by ppemawm"
-msgstr ""
+msgstr "Stvoreno od  ppemawm\n"
+"\n"
+" "
 
 #: index.php:44
 msgid "Freedom to build what you want"
@@ -868,7 +881,7 @@ msgstr "FreeCAD je program otvorenog koda za parametarsko 3D modeliranje\n"
 
 #: index.php:55
 msgid "Modelled by r-frank"
-msgstr ""
+msgstr "Stvoreno od  r-frank"
 
 #: index.php:60
 msgid "Create 3D from 2D & back"
@@ -887,7 +900,7 @@ msgstr "FreeCAD vam omogućuje skiciranje geometrija ograničenih 2D oblikom\n"
 
 #: index.php:71
 msgid "Modelled by epileftric"
-msgstr ""
+msgstr "Stvoreno od epileftric"
 
 #: index.php:76
 msgid "Accessible, flexible & integrated"
@@ -906,7 +919,7 @@ msgstr "FreeCAD je više platfomski (Windows, Mac i Linux), visoko prilagodljiv\
 
 #: index.php:88
 msgid "Modelled by regis"
-msgstr ""
+msgstr "Stvoreno od regis"
 
 #: index.php:93
 msgid "Designed for your needs"
@@ -924,7 +937,7 @@ msgstr "FreeCAD je namijenjen za široki raspon korištenja uključujući dizajn
 
 #: index.php:104
 msgid "Modelled by rider_mortagnais"
-msgstr ""
+msgstr "Stvoreno od ider_mortagnais"
 
 #: index.php:109
 msgid "And many more great features"
@@ -946,7 +959,7 @@ msgstr "FreeCAD vas opskrbljuje sa svim pravim alatima za vaše potrebe. Dobivat
 
 #: index.php:125
 msgid "Modelled by bejant"
-msgstr ""
+msgstr "Stvoreno od bejant"
 
 #: index.php:130
 msgid "Want to contribute to FreeCAD?"
