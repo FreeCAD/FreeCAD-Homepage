@@ -59,7 +59,7 @@
           <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
             <img class="w-100 p-4" src="svg/icon-apple.svg" alt="Mac">
             <h3 class="card-title download-platform-name m-0 pb-3">Mac</h3>
-            <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-macOS-arm64.dmg">ARM (M1/M2) disk image</a>
+            <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-macOS-arm64.dmg">Apple Silicon disk image</a>
             <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-macOS-intel-x86_64.dmg">Intel disk image</a>
           </div>
           <div class="card-footer px-xl-5 py-xl-4">
