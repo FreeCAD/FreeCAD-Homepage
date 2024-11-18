@@ -323,7 +323,8 @@
 
           <div class="col-lg-7 text-light text-left px-md-4 rounded text-backround">
               <ul class="d-block whitelinks releases mt-3">
-                <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.21" title="Release notes 0.21'); ?>"><?php echo _('Release 0.21 - August 2023'); ?></a> (<?php echo _('current stable release'); ?>)</li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_1.0" title="Release notes 1.0'); ?>"><?php echo _('Release 1.0 - November 2024'); ?></a> (<?php echo _('current stable release'); ?>)</li>
+                <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.21" title="Release notes 0.21'); ?>"><?php echo _('Release 0.21 - August 2023'); ?></a></li>
                 <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.20" title="Release notes 0.20'); ?>"><?php echo _('Release 0.20 - June 2022'); ?></a></li>
                 <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.19" title="Release notes 0.19'); ?>"><?php echo _('Release 0.19 - March 2021'); ?></a></li>
                 <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.18" title="Release notes 0.18'); ?>"><?php echo _('Release 0.18 - March 2019'); ?></a></li>
