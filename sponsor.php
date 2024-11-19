@@ -63,6 +63,29 @@ updateLatestCategoryFromFeed(
         <section class="row section d-flex justify-content-around whitelinks">
 
           <div class="col-lg-4">
+            <h3><?php echo _('One-time donation'); ?></h3>
+          </div>
+
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
+              <p>
+              <?php echo _('If you are not sure or not able to commit to a regular
+              donation, but still want to help the project, you can do a one-time
+              donation, of any amount.'); ?>
+              </p>
+              <p>
+              <?php echo _('Choose freely the amount you wish to donate one
+              time only:'); ?>
+              </p>
+              <?php $formid = "donation"; include("donation.php"); ?>
+
+          </div>
+
+        </section>
+
+        
+        <section class="row section d-flex justify-content-around whitelinks">
+
+          <div class="col-lg-4">
             <h3><?php echo _('Donating to FreeCAD'); ?></h3>
           </div>
 
@@ -110,32 +133,6 @@ updateLatestCategoryFromFeed(
           </div>
 
         </section>
-
-
-
-        <section class="row section d-flex justify-content-around whitelinks">
-
-          <div class="col-lg-4">
-            <h3><?php echo _('One-time donation'); ?></h3>
-          </div>
-
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
-              <p>
-              <?php echo _('If you are not sure or not able to commit to a regular
-              donation, but still want to help the project, you can do a one-time
-              donation, of any amount.'); ?>
-              </p>
-              <p>
-              <?php echo _('Choose freely the amount you wish to donate one
-              time only:'); ?>
-              </p>
-              <?php $formid = "donation"; include("donation.php"); ?>
-
-          </div>
-
-        </section>
-
-
 
 
         <section class="row section d-flex justify-content-around whitelinks">
