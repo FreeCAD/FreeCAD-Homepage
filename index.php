@@ -43,7 +43,7 @@
       <div class="col-lg-4 text-light text-center text-lg-start rounded text-backround">
         <h3 class="section-title mt-3"><?php echo _('Freedom to build what you want'); ?></h3>
         <p class="section-body">
-          <?php echo _('FreeCAD is an open-source parametric 3D modeler made primarily to
+          <?php echo _('FreeCAD is a free and open-source parametric 3D modeler made primarily to
           design real-life objects of any size. Parametric modeling allows you
           to easily modify your design by going back into your model history
           and changing its parameters.'); ?>
