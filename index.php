@@ -15,14 +15,14 @@
     });
   </script>
 
-  <div id="main" class="container-fluid">
+  <main id="main" class="container-fluid">
     <section class="row section-cover d-flex align-items-center">
       <div class="col-lg-8">
         <img class="img-fluid" src="images/cover-photo.avif" alt="Cover Photo"/>
       </div>
 
       <div class="col-lg-4 text-center text-lg-start align-content-center order-lg-first">
-        <h1 class="home-title text-light mt-n5 mb-0 mt-lg-0"><img class="home-image" src="svg/freecad-home.svg"/></h1>
+        <h1 class="home-title text-light mt-n5 mb-0 mt-lg-0"><img class="home-image" src="svg/freecad-home.svg" alt="FreeCAD" /></h1>
         <h2 class="home-subtitle text-light mb-4"><?php echo _('Your own 3D parametric modeler'); ?></h2>
         <div class="flex-column flex-lg-row">
           <a class="btn btn-light rounded-pill mt-2" role="button" href="<?php echo $downloadurl; ?>"><?php echo _('Download now'); ?></a>
@@ -31,7 +31,7 @@
       </div>
     </section>
 
-    <div class="d-flex justify-content-center"><img id="floating-arrow" src="svg/icon-down.svg" onClick="onClickArrow()" onmouseover="" style="cursor: pointer;"/></div>
+    <div class="d-flex justify-content-center"><img id="floating-arrow" src="svg/icon-down.svg" onClick="onClickArrow()" onmouseover="" style="cursor: pointer;" alt="" /></div>
 
     <a id="belowArrow"></a>
 
@@ -139,6 +139,6 @@
         </a>
       </div>
     </section>
-  </div>
+  </main>
 
 <?php include 'footer.php'; ?>

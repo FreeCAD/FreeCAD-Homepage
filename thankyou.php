@@ -54,7 +54,7 @@
         }
     </script>
 
-    <div id="main" class="container-fluid whitelinks">
+    <main id="main" class="container-fluid whitelinks">
 
         <div class="download-notes text-center">
             <h2 class="downloads-notes-title"><?php echo _('Thank you!'); ?></h2>
@@ -178,7 +178,7 @@
           </div>
 
         </section>
-    </div>
+    </main>
 
 <?php
     include 'footer.php';
