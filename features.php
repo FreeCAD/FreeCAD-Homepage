@@ -60,7 +60,7 @@
   }
   </script>
 
-    <div id="main" class="container-fluid">
+    <main id="main" class="container-fluid">
 
         <div class="download-notes text-center">
             <h2 class="features-title"><?php echo _('Key FreeCAD Features'); ?></h2>
@@ -358,6 +358,6 @@
         </section>
 
 
-    </div>
+    </main>
 
 <?php include 'footer.php'; ?>

@@ -10,7 +10,7 @@ function updateLatestCategoryFromFeed(xmlUrl, titleId, bodyId, buttonId, imageId
     if (xhr.readyState === 4 && xhr.status === 200) {
       var parser = new DOMParser();
       var xml = parser.parseFromString(xhr.responseText, 'application/xml');
-      
+
       var latestEventsPost = xml.getElementsByTagName('item')[0];
 
       var sectionTitle = document.getElementById(titleId);
@@ -43,9 +43,9 @@ function updateLatestCategoryFromFeed(xmlUrl, titleId, bodyId, buttonId, imageId
 }
 
 updateLatestCategoryFromFeed(
-  'proxy-xml.php?url=https://blog.freecad.org/category/events/feed/', 
-  'events-title', 
-  'events-description', 
+  'proxy-xml.php?url=https://blog.freecad.org/category/events/feed/',
+  'events-title',
+  'events-description',
   'events-link',
   'events-image'
 );
@@ -53,7 +53,7 @@ updateLatestCategoryFromFeed(
 
     </script>
 
-    <div id="main" class="container-fluid">
+    <main id="main" class="container-fluid">
 
         <div class="download-notes text-center">
           <h2 class="downloads-notes-title"><?php echo _('FreeCAD events'); ?></h2>
@@ -68,11 +68,11 @@ updateLatestCategoryFromFeed(
                   scrolling="no">
           </iframe>
           -->
-          <iframe id="open-web-calendar" 
+          <iframe id="open-web-calendar"
                   style="background:url('images/loader-freecad-small.gif') center center no-repeat;"
                   src="https://open-web-calendar.hosted.quelltext.eu/calendar.html?url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fical%2F6e6cc81260051a3c49fdf915c472f2d62576820129f0e0b2cacb7025ed62f960%2540group.calendar.google.com%2Fpublic%2Fbasic.ics?prefer_browser_language=true"
                   sandbox="allow-scripts allow-same-origin allow-top-navigation"
-                  allowTransparency="true" scrolling="no" 
+                  allowTransparency="true" scrolling="no"
                   frameborder="0" height="600px" width="100%">
           </iframe>
           <p>
@@ -101,6 +101,6 @@ updateLatestCategoryFromFeed(
                 </div>
             </section>
 
-    </div>
+    </main>
 
 <?php include 'footer.php'; ?>

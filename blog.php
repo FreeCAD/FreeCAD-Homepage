@@ -67,7 +67,7 @@
     request.send();
   </script>
 
-    <div id="main" class="container-fluid">
+    <main id="main" class="container-fluid">
         <div id="rss-content" >
             <section class="row section d-flex align-items-center justify-content-around rounded mb-5">
                 <div class="col-lg-5 rounded model-backround p-2 ">
@@ -262,7 +262,7 @@
         <div class="text-center">
         <a class="btn btn-light rounded-pill mt-3 " role="button" href="https://blog.freecad.org/page/2/"><?php echo _('All Blogs'); ?></a>
         </div>
-    </div>
+    </main>
 
 
 <?php include 'footer.php'; ?>
