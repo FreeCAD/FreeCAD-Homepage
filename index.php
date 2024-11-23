@@ -140,7 +140,7 @@
       </div>
     </section>
 
-    
+
     <section class="row section d-flex align-items-center justify-content-around rounded">
       <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('PUMA microscope developed by Paul Tadrous'); ?>">
         <a href="https://blog.freecad.org/2023/02/13/a-research-grade-open-source-microscope-made-with-freecad">
@@ -160,7 +160,7 @@
     </section>
 
   </div>
-  
+
   </main>
 
 
