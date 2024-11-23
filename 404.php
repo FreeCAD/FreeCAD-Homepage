@@ -9,7 +9,7 @@
     }
 </script>
 
-  <div id="main" class="container-fluid">
+  <main id="main" class="container-fluid">
     <section class="row section-cover d-flex align-items-center">
       <div class="col-lg-8">
         <img class="img-fluid" src="svg/WhatsThis.svg" alt="Error Photo"/>
@@ -28,5 +28,5 @@
 
     <div class="d-flex justify-content-center "><img id="floating-arrow" src="svg/icon-down.svg" onClick="onClickArrow()" onmouseover="" style="cursor: pointer;"/></div>
     <a id="belowArrow"></a>
-  <div>
+  <main>
 <?php include 'footer.php'; ?>
