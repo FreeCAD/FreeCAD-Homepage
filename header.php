@@ -9,6 +9,7 @@
     $contributingurl = "contributing.php".$langStr;
     $privacyurl = "privacy.php".$langStr;
     $blogurl = "blog.php".$langStr;
+    $researchurl = "research.php".$langStr;
 ?>
 
 <!DOCTYPE html>
