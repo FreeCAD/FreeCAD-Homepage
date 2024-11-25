@@ -4,7 +4,7 @@
 ?>
 
 
-<div id="main" class="container-fluid">
+<main id="main" class="container-fluid">
 
 <div class="download-notes text-center">
     <h2 class="features-title"><?php echo _('FreeCAD in Science and Research'); ?></h2>
@@ -138,6 +138,13 @@
             OTSunWebApp: A ray tracing web application for the analysis of concentrating solar-thermal and photovoltaic solar cells
           </a>, <i>SoftwareX</i>, 23: 10.1016/j.softx.2023.101449.
         </li>
+        <li>
+          Tadrous, P. J. (2023).
+          <a href="https://www.researchgate.net/publication/374804574_Use_of_a_refractive_index-coupled_diffuser_to_both_generate_and_measure_high-numerical_aperture_illumination_for_light_microscopy">
+            Use of a refractive index–coupled diffuser to both generate and measure high‐numerical aperture illumination for light microscopy
+          </a>, <i>Journal of Microscopy</i>, 292(3), 135-147.
+          <a href="https://doi.org/10.1111/jmi.13237">10.1111/jmi.13237</a>.
+        </li>
       </ul>
     </div>
   </section>
@@ -178,6 +185,13 @@
             Research and Development of Railway Alignment Design System Using FreeCAD Software
           </a>.
           IOP Conference Series: Earth and Environmental Science. 719. 032009. 10.1088/1755-1315/719/3/032009.
+        </li>
+        <li>
+          Tadrous, P. J. (2021).
+          <a href="https://www.researchgate.net/publication/352568049_PUMA_-_An_open_source_3D_printed_direct_vision_microscope_with_augmented_reality_and_spatial_light_modulator_functions">
+            PUMA–An open‐source 3D‐printed direct vision microscope with augmented reality and spatial light modulator functions
+          </a>, <i>Journal of Microscopy</i>, 283(3), 259-280.
+          <a href="https://doi.org/10.1111/jmi.13043">10.1111/jmi.13043</a>.
         </li>
       </ul>
     </div>
@@ -243,7 +257,7 @@
       </ul>
     </div>
   </section>
-</div>
+</main>
 
 
 
