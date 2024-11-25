@@ -299,7 +299,7 @@ updateLatestCategoryFromFeed(
               </a>
           </div>
         </section>
- 
+
 
     </main>
 
