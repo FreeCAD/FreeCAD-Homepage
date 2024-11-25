@@ -4,7 +4,7 @@
     include("header.php");
 ?>
 
-    <div id="main" class="container-fluid whitelinks">
+    <main id="main" class="container-fluid whitelinks">
 
         <div class="download-notes text-center">
             <h2 class="downloads-notes-title">
@@ -33,7 +33,7 @@
             </p>
 
         </div>
-    </div>
+    </main>
 
 <?php
     include 'footer.php';

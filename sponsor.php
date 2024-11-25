@@ -10,7 +10,7 @@ function updateLatestCategoryFromFeed(xmlUrl, titleId, bodyId, buttonId, imageId
     if (xhr.readyState === 4 && xhr.status === 200) {
       var parser = new DOMParser();
       var xml = parser.parseFromString(xhr.responseText, 'application/xml');
-      
+
       var latestEventsPost = xml.getElementsByTagName('item')[0];
 
       var sectionTitle = document.getElementById(titleId);
@@ -43,17 +43,17 @@ function updateLatestCategoryFromFeed(xmlUrl, titleId, bodyId, buttonId, imageId
 }
 
 updateLatestCategoryFromFeed(
-  'proxy-xml.php?url=https://blog.freecad.org/category/grants/feed/', 
-  'grants-title', 
-  'grants-description', 
+  'proxy-xml.php?url=https://blog.freecad.org/category/grants/feed/',
+  'grants-title',
+  'grants-description',
   'grants-link',
   'grants-image'
 );
 
 
     </script>
-    
-    <div id="main" class="container-fluid">
+
+    <main id="main" class="container-fluid">
 
         <div class="download-notes text-center">
             <h2 class="downloads-notes-title"><?php echo _('Donating and sponsoring'); ?></h2>
@@ -298,9 +298,9 @@ updateLatestCategoryFromFeed(
                 <div class="silver sponsor">
                     <img class="logo" src="images/sponsors/chudovo.png">
                     <a class="title" href="https://chudovo.com">Chudovo</a>
-                     is an international software development company with representative 
-                     offices in Kyiv, Cologne, New York, Tallinn and London. It has been working 
-                     on the market since 2006. Company has domain expertise in video security, 
+                     is an international software development company with representative
+                     offices in Kyiv, Cologne, New York, Tallinn and London. It has been working
+                     on the market since 2006. Company has domain expertise in video security,
                      logistics, medicine, finance
                 </div>
 
@@ -377,6 +377,6 @@ updateLatestCategoryFromFeed(
               </a>
           </div>
         </section>
-    </div>
+    </main>
 
 <?php include 'footer.php'; ?>

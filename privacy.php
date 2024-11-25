@@ -8,7 +8,7 @@
     $gitpage = "PRIVACY_POLICY.md";
 ?>
 
-    <div id="main" class="container-fluid whitelinks md">
+    <main id="main" class="container-fluid whitelinks md">
 
 <?php
     $text = file_get_contents($rawurl.$gitpage);
@@ -19,7 +19,7 @@
             <?php echo _("This page is retrieved from"); ?>
             <a href="<?php echo $giturl.$gitpage; ?>"><?php echo $giturl.$gitpage; ?></a>
         </p>
-    </div>
+    </main>
 
 <?php
     include 'footer.php';
