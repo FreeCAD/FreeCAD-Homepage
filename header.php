@@ -87,17 +87,17 @@
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Documentation'); ?></a>
 
           <div class="dropdown-menu-mobile-right dropdown-community dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Main_Page'); ?>"><?php echo _('Documentation index'); ?></a>
-            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Getting_started'); ?>"><?php echo _('Getting started'); ?></a>
-            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/User_hub'); ?>"><?php echo _('Users documentation'); ?></a>
-            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Manual'); ?>"><?php echo _('The FreeCAD manual'); ?></a>
-            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Workbenches'); ?>"><?php echo _('Workbenches documentation'); ?></a>
-            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Power_users_hub'); ?>"><?php echo _('Python coding documentation'); ?></a>
-            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Developer_hub'); ?>"><?php echo _('C++ coding documentation'); ?></a>
-            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Tutorials'); ?>"><?php echo _('Tutorials'); ?></a>
-            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Frequently_asked_questions'); ?>"><?php echo _('Frequently asked questions'); ?></a>
+            <a class="dropdown-item text-dark" href="wiki-Main_Page.php<?php echo $langStr; ?>"><?php echo _('Documentation index'); ?></a>
+            <a class="dropdown-item text-dark" href="wiki-Getting_started.php<?php echo $langStr; ?>"><?php echo _('Getting started'); ?></a>
+            <a class="dropdown-item text-dark" href="wiki-User_hub.php<?php echo $langStr; ?>"><?php echo _('Users documentation'); ?></a>
+            <a class="dropdown-item text-dark" href="wiki-Manual.php<?php echo $langStr; ?>"><?php echo _('The FreeCAD manual'); ?></a>
+            <a class="dropdown-item text-dark" href="wiki-Workbenches.php<?php echo $langStr; ?>"><?php echo _('Workbenches documentation'); ?></a>
+            <a class="dropdown-item text-dark" href="wiki-Power_users_hub.php<?php echo $langStr; ?>"><?php echo _('Python coding documentation'); ?></a>
+            <a class="dropdown-item text-dark" href="wiki-Developer_hub.php<?php echo $langStr; ?>"><?php echo _('C++ coding documentation'); ?></a>
+            <a class="dropdown-item text-dark" href="wiki-Tutorials.php<?php echo $langStr; ?>"><?php echo _('Tutorials'); ?></a>
+            <a class="dropdown-item text-dark" href="wiki-Frequently_asked_questions.php<?php echo $langStr; ?>"><?php echo _('Frequently asked questions'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo $privacyurl; ?>"><?php echo _('Privacy policy'); ?></a>
-            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/About_FreeCAD'); ?>"><?php echo _('About FreeCAD'); ?></a>
+            <a class="dropdown-item text-dark" href="wiki-About_FreeCAD.php<?php echo $langStr; ?>"><?php echo _('About FreeCAD'); ?></a>
           </div>
         </li>
 
@@ -105,14 +105,14 @@
           <a class="nav-link my-2 rounded-pill dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _('Contribute'); ?></a>
 
           <div class="dropdown-menu-mobile-left dropdown-community dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Help_FreeCAD'); ?>"><?php echo _('How to help'); ?></a>
+            <a class="dropdown-item text-dark" href="wiki-Help_FreeCAD.php<?php echo $langStr; ?>"><?php echo _('How to help'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo $sponsorurl; ?>"><?php echo _('Donate / Sponsor'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/issues"><?php echo _('Report a bug'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls"><?php echo _('Make a pull request'); ?></a>
             <a class="dropdown-item text-dark" href="https://fpa.freecad.org/programs.html"><?php echo _('Jobs and funding'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo $contributingurl; ?>"><?php echo _('Contribution guidelines'); ?></a>
             <a class="dropdown-item text-dark" href="https://freecad.github.io/DevelopersHandbook/"><?php echo _('Developers handbook'); ?></a>
-            <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Localisation'); ?>"><?php echo _('Translations'); ?></a>
+            <a class="dropdown-item text-dark" href="wiki-Localisation.php<?php echo $langStr; ?>"><?php echo _('Translations'); ?></a>
           </div>
         </li>
 
