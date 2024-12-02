@@ -67,13 +67,13 @@
         </div>
 
 
-        <section class="row section d-flex justify-content-around rounded">
+        <section class="row section d-flex align-items-center justify-content-around rounded">
 
-          <div class="col-lg-4 order-lg-last d-flex justify-content-center rounded model-backround p-2">
+          <div class="col-lg-6 order-lg-last rounded model-backround p-2 d-flex justify-content-center">
             <img class="img-fluid" src="images/feature-06.avif" alt="Feature 06"/>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+          <div class="col-lg-5 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('Made to build for the real world'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD is made primarily to design objects for the real world. Everything you do in FreeCAD uses real-world
@@ -87,13 +87,13 @@
 
 
 
-        <section class="row section d-flex justify-content-around rounded">
+        <section class="row section d-flex align-items-center justify-content-around rounded">
 
-          <div class="col-lg-4 d-flex justify-content-center rounded model-backround p-2">
+          <div class="col-lg-6 rounded model-backround p-2 d-flex justify-content-center">
             <img class="img-fluid" src="images/feature-01.avif" alt="Feature 01"/>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+          <div class="col-lg-5 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('A powerful solid-based geometry kernel'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD features an advanced geometry engine based on
@@ -109,13 +109,13 @@
         </section>
 
 
-        <section class="row section d-flex justify-content-around rounded">
+        <section class="row section d-flex align-items-center justify-content-around rounded">
 
-          <div class="col-lg-4 order-lg-last d-flex justify-content-center rounded model-backround p-2">
+          <div class="col-lg-6 order-lg-last rounded model-backround p-2 d-flex justify-content-center">
             <img class="img-fluid" src="images/feature-03.avif" alt="Feature 03"/>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+          <div class="col-lg-5 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('A wi(l)dly parametric environment'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('All FreeCAD objects are natively parametric, meaning their shape can be based on
@@ -178,13 +178,13 @@
         </section>
 
 
-        <section class="row section d-flex justify-content-around rounded">
+        <section class="row section d-flex align-items-center justify-content-around rounded">
 
-          <div class="col-lg-4 d-flex justify-content-center rounded model-backround p-2">
+          <div class="col-lg-5 rounded model-backround p-2 d-flex justify-content-center">
             <img class="img-fluid" src="images/feature-04.avif" alt="Feature 04"/>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+          <div class="col-lg-6 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('Python everywhere'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('While the FreeCAD core functionality is coded in C++ for robustness and performance,
@@ -199,13 +199,13 @@
         </section>
 
 
-        <section class="row section d-flex justify-content-around rounded">
+        <section class="row section d-flex align-items-center justify-content-around rounded">
 
-          <div class="col-lg-4 order-lg-last d-flex justify-content-center rounded model-backround p-2">
+          <div class="col-lg-5 order-lg-last rounded model-backround p-2 d-flex justify-content-center">
             <img class="img-fluid" src="images/feature-08.avif" alt="Feature 08"/>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+          <div class="col-lg-6 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('File formats frenzy'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD allows you to import and export models and many other kinds of data from your models such as
@@ -232,13 +232,13 @@
         </section>
 
 
-        <section class="row section d-flex justify-content-around rounded">
+        <section class="row section d-flex align-items-center justify-content-around rounded">
 
-          <div class="col-lg-4 d-flex justify-content-center rounded model-backround p-2">
+          <div class="col-lg-5 rounded model-backround p-2 d-flex justify-content-center">
             <img class="img-fluid" src="images/feature-02.avif" alt="Feature 02"/>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+          <div class="col-lg-6 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('A parametric constraints-based 2D sketcher'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>
@@ -252,13 +252,13 @@
 
 
 
-        <section class="row section d-flex justify-content-around rounded">
+        <section class="row section d-flex align-items-center justify-content-around rounded">
 
-          <div class="col-lg-4 order-lg-last d-flex justify-content-center rounded model-backround p-2">
+          <div class="col-lg-6 order-lg-last rounded model-backround p-2 d-flex justify-content-center">
             <img class="img-fluid" src="images/feature-05.avif" alt="Feature 05"/>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+          <div class="col-lg-5 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('A large (and growing) multi-specialty ecosystem'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD offers dedicated <a href="https://wiki.freecad.org/Workbenches">workbenches</a> for a variety of purposes
@@ -284,13 +284,13 @@
         </section>
 
 
-        <section class="row section d-flex justify-content-around rounded">
+        <section class="row section d-flex align-items-center justify-content-around rounded">
 
-          <div class="col-lg-4 d-flex justify-content-center rounded model-backround p-2">
+          <div class="col-lg-6 rounded model-backround p-2 d-flex justify-content-center">
             <img class="img-fluid" src="images/feature-07.avif" alt="Feature 07"/>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
+          <div class="col-lg-5 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('Developed by a community'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD is made for everybody, by everybody. It is developed and maintained
@@ -311,7 +311,7 @@
 
 
 
-        <section class="row section d-flex justify-content-around rounded">
+        <section class="row section d-flex align-items-center justify-content-around rounded">
 
 
           <div class="col-lg-4 rounded text-backround">
@@ -340,7 +340,7 @@
         </section>
 
 
-        <section class="row section d-flex justify-content-around rounded">
+        <section class="row section d-flex align-items-center justify-content-around rounded">
 
 
           <div class="col-lg-4 rounded text-backround">
