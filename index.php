@@ -13,6 +13,60 @@
             return new bootstrap.Tooltip(tooltipTriggerEl);
         });
     });
+      document.addEventListener('DOMContentLoaded', function() {
+          var animatedSpriteElements = document.querySelectorAll('.animated-sprite');
+
+          animatedSpriteElements.forEach(function(animatedSpriteElement) {
+              setAspectRatio(animatedSpriteElement);
+              setBackgroundSize(animatedSpriteElement);
+
+              window.addEventListener('scroll', function() {
+                  handleScroll(animatedSpriteElement);
+              });
+              handleScroll(animatedSpriteElement);
+          });
+      });
+
+  function setAspectRatio(element) {
+      var frameWidth = parseInt(element.getAttribute('data-frame-width'), 10);
+      var frameHeight = parseInt(element.getAttribute('data-frame-height'), 10);
+
+      if (frameWidth && frameHeight) {
+          var aspectRatioPercentage = (frameHeight / frameWidth) * 100;
+          element.style.setProperty('--bs-aspect-ratio', aspectRatioPercentage + '%');
+      }
+  }
+
+  function setBackgroundSize(element) {
+      var frameCount = parseInt(element.getAttribute('data-frame-count'), 10);
+      var framesPerRow = parseInt(element.getAttribute('data-frames-per-row'), 10) || frameCount;
+
+      var backgroundSizePercentage = framesPerRow * 100;
+      element.style.backgroundSize = backgroundSizePercentage + '% auto';
+  }
+
+  function handleScroll(element) {
+      var frameCount = parseInt(element.getAttribute('data-frame-count'), 10);
+      var elementRect = element.getBoundingClientRect();
+      var elementTopPosition = elementRect.top;
+      var viewportHeight = window.innerHeight;
+
+      var scrollProgress = (elementTopPosition - viewportHeight * 0.2) / (viewportHeight * 0.5);
+      scrollProgress = 1 - Math.max(0, Math.min(1, scrollProgress));
+      var currentFrame = Math.floor(scrollProgress * (frameCount - 1));
+
+      updateBackgroundPosition(element, currentFrame);
+  }
+
+  function updateBackgroundPosition(element, frame) {
+      var frameCount = parseInt(element.getAttribute('data-frame-count'), 10);
+      var framesPerRow = parseInt(element.getAttribute('data-frames-per-row'), 10) || frameCount;
+
+      var backgroundPositionX = -(frame % framesPerRow) * 100;
+      var backgroundPositionY = -Math.floor(frame / framesPerRow) * 100;
+
+      element.style.backgroundPosition = backgroundPositionX + '% ' + backgroundPositionY + '%';
+  }
   </script>
 
   <main id="main" class="container-fluid">
@@ -66,6 +120,44 @@
         </p>
       </div>
     </section>
+
+        <section class="row section d-flex align-items-center justify-content-around rounded">
+
+          <div class="col-lg-7 d-flex justify-content-center rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Modelled by ppemawm'); ?>">
+            <div class="animated-sprite ratio ratio-4x3"
+                data-frame-count="39"
+                data-frames-per-row="12"
+                style="background-image: url('images/f16-main-landing-gear-spritesheet.avif')">
+            </div>
+          </div>
+
+          <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
+            <h3 class="section-title mt-3"><?php echo _('For All Professional Needs...'); ?></h3>
+            <p class="section-body whitelinks">
+              <?php echo _('FreeCAD somehow contains everything that can be needed in an industrial environment. It has been available for “real work” for a very long time and now it has become official with 1.0. You can do all your professional work by really owning everything you do and without worrying about license costs.'); ?>
+            </p>
+          </div>
+        </section>
+
+        <section class="row section d-flex align-items-center justify-content-around rounded">
+
+          <div class="col-lg-7 order-lg-last d-flex justify-content-center rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Baked by Kris Wilk'); ?>">
+            <div class="animated-sprite ratio"
+                data-frame-count="113"
+                data-frames-per-row="12"
+                data-frame-width="1190"
+                data-frame-height="940"
+                style="background-image: url('images/gingerbread-spritesheet.avif')">
+            </div>
+          </div>
+
+          <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
+            <h3 class="section-title mt-3"><?php echo _('...and For Everything Else'); ?></h3>
+            <p class="section-body whitelinks">
+              <?php echo _("If you want to make something real, the first place you should go is probably FreeCAD. With its vast pool of tools and incredible community, it is possible to make anything you can think of. You don't have to sign up, approve anything, and most importantly, you don't have to pay anything to use it. FreeCAD is completely open source, which makes it free. And more importantly, it sets you free without any shackles."); ?>
+            </p>
+          </div>
+        </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
       <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Modelled by epileftric'); ?>">
