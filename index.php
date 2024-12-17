@@ -134,7 +134,7 @@
           <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('For All Professional Needs...'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _('FreeCAD somehow contains everything that can be needed in an industrial environment. It has been available for “real work” for a very long time and now it has become official with 1.0. You can do all your professional work by really owning everything you do and without worrying about license costs.'); ?>
+              <?php echo _('Looking for something that contains everything you need in an industrial environment? FreeCAD is the answer. After being available for "real work" for a very long time, it finally has become official publishing version 1.0. Stop worrying about license costs and start doing all your professional work as a real owner.'); ?>
             </p>
           </div>
         </section>
@@ -154,7 +154,7 @@
           <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('...and For Everything Else'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _("If you want to make something real, the first place you should go is probably FreeCAD. With its vast pool of tools and incredible community, it is possible to make anything you can think of. You don't have to sign up, approve anything, and most importantly, you don't have to pay anything to use it. FreeCAD is completely open source, which makes it free. And more importantly, it sets you free without any shackles."); ?>
+              <?php echo _("If you want to make something real, perhaps the first place you should visit is FreeCAD. Thanks to its vast arsenal of tools and fantastic community, it's possible to make anything you can imagine. Signing up? Not necessary. Approving anything? No way. What about the price? Good news, none! FreeCAD is a completely open source software, which makes it as free as a bird and consequently makes you also unchained without restrictions. Start using today, and say goodbye to your shackles."); ?>
             </p>
           </div>
         </section>
