@@ -147,12 +147,12 @@ def generatePHP(lcodes):
     phpfile.write("$langStr = \"?lang=\".$_GET[\"lang\"];\n    $langattrib = \"&lang=\".$_GET[\"lang\"];\n}")
     phpfile.write("function getFlags($href='/') {\n")
 
-    phpfile.write("    echo('						<a class=\"dropdown-item\" href=\"'.$href.'\"><img src=\"lang/en/flag.jpg\"/>'._('English').'</a>');\n")
+    phpfile.write("    echo('						<a class=\"dropdown-item\" href=\"'.$href.'\"><img src=\"lang/en/flag.jpg\" alt=\"\" />'._('English').'</a>');\n")
     for lncode in lcodes:
         ql = QtCore.QLocale(lncode)
         lname = ql.languageToString(ql.language())
         if lncode == "val_ES": lname = "Valencian" # fix qt bug
-        phpfile.write("    echo('						<a class=\"dropdown-item\" href=\"'.$href.'?lang="+lncode+"\"><img src=\"lang/"+lncode+"/flag.jpg\"/>'._('"+lname+"').'</a>');\n")
+        phpfile.write("    echo('						<a class=\"dropdown-item\" href=\"'.$href.'?lang="+lncode+"\"><img src=\"lang/"+lncode+"/flag.jpg\" alt=\"\" />'._('"+lname+"').'</a>');\n")
 
     phpfile.write("}\n\nfunction getTranslatedDownloadLink() {\n")
     phpfile.write("    $tr = \"\";\n")
