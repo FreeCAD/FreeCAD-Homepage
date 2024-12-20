@@ -330,6 +330,7 @@ updateLatestCategoryFromFeed(
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
+              <div class="bronze sponsor">Mario Zuena</div>
               <div class="bronze sponsor">Genysys Engine ltd</div>
               <div class="bronze sponsor">JR</div>
               <div class="bronze sponsor">Vinicius Dupuit</div>
