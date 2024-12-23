@@ -210,7 +210,7 @@ updateLatestCategoryFromFeed(
 
 
 
- 
+
         <section class="row section d-flex align-items-center justify-content-around rounded mb-5">
           <div class="col-lg-5 rounded model-backround p-2 ">
               <div class="placeholder-glow">
