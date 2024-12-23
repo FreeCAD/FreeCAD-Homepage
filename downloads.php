@@ -178,20 +178,6 @@ updateLatestCategoryFromFeed(
       </div>
 
       <!-- ----------------------------- -->
-      <!-- ADDITIONAL MODULES AND MACROS -->
-      <!-- ----------------------------- -->
-
-      <div class="download-notes text-center">
-        <h2 class="downloads-notes-title"><?php echo _('Additional modules and macros'); ?></h2>
-        <p>
-          <?php echo _('The FreeCAD community provides a wealth of additional modules and macros. They can
-          now easily be installed directly from within FreeCAD using the '); ?>
-          <a href="<?php echo _('https://wiki.freecad.org/Std_AddonMgr'); ?>" class="badge text-bg-light text-decoration-none"><?php echo _('Addon manager.'); ?></a>
-        </p>
-      </div>
-
-
-      <!-- ----------------------------- -->
       <!-- SOURCE CODE -->
       <!-- ----------------------------- -->
 
