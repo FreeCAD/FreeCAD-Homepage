@@ -208,77 +208,9 @@ updateLatestCategoryFromFeed(
         </p>
       </div>
 
-    </div> <!-- class="row mx-auto download-platform" -->
-
-    <!-- ------------- -->
-    <!-- RELEASE NOTES -->
-    <!-- ------------- -->
-
-    <div class="download-notes text-center">
-      <p>
-        <?php echo _("See what has changed since last version in the"); ?>
-        <a class="badge text-bg-light text-decoration-none" href="<?php echo _('https://wiki.freecad.org/Release_notes_1.0'); ?>"><?php echo _('FreeCAD 1.0 release notes'); ?></a>
-      </p>
-    </div>
-
-    <!-- ------------- -->
-    <!-- NEXT VERSION  -->
-    <!-- ------------- -->
 
 
-
-    <!-- -------------------- -->
-    <!-- DEVELOPMENT VERSIONS -->
-    <!-- -------------------- -->
-
-    <div class="download-notes text-center">
-      <h2 class="downloads-notes-title"><?php echo _('Development versions'); ?></h2>
-      <p>
-        <?php echo _("FreeCAD's development happens daily!"); ?>
-        <?php echo _("The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."); ?>
-        <?php echo _("We ask that advanced users occasionally run the development builds to assist with testing new code."); ?>
-        <?php echo _("These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."); ?>
-        <?php echo _("Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."); ?>
-        <br/><br/>
-        <?php echo _('Download here a '); ?><a href="https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds" class="badge text-bg-light text-decoration-none"><?php echo _('Weekly Build'); ?></a><?php echo _(' for Windows, macOS or Linux. '); ?>
-        <?php echo _("On Linux"); ?>, <a href="<?php echo _('https://wiki.freecad.org/Snap'); ?>" class="badge text-bg-light text-decoration-none"><?php echo ('Snap'); ?></a>
-        <?php echo _("and"); ?> <a href="<?php echo _('https://wiki.freecad.org/Flatpak'); ?>" class="badge text-bg-light text-decoration-none"><?php echo ('Flatpak'); ?></a>
-        <?php echo _("also provide developement channels"); ?>.
-        <br /><br />
-      </p>
-    </div>
-
-    <!-- ----------------------------- -->
-    <!-- ADDITIONAL MODULES AND MACROS -->
-    <!-- ----------------------------- -->
-
-    <div class="download-notes text-center">
-      <h2 class="downloads-notes-title"><?php echo _('Additional modules and macros'); ?></h2>
-      <p>
-        <?php echo _('The FreeCAD community provides a wealth of additional modules and macros. They can
-        now easily be installed directly from within FreeCAD using the '); ?>
-        <a href="<?php echo _('https://wiki.freecad.org/Std_AddonMgr'); ?>" class="badge text-bg-light text-decoration-none"><?php echo _('Addon manager.'); ?></a>
-      </p>
-    </div>
-
-
-    <!-- ----------------------------- -->
-    <!-- SOURCE CODE -->
-    <!-- ----------------------------- -->
-
-    <div class="download-notes text-center">
-      <h2 class="downloads-notes-title"><?php echo _('Source code'); ?></h2>
-      <p>
-        <?php echo _('The source code of FreeCAD is hosted primarily on '); ?>
-        <a href="https://github.com/FreeCAD/FreeCAD" class="badge text-bg-light text-decoration-none">GitHub</a>
-        <?php echo _('and mirrored on '); ?>
-        <a href="https://gitlab.com/FreeCAD/FreeCAD" class="badge text-bg-light text-decoration-none">GitLab</a>,
-        <a href="https://codeberg.org/FreeCAD/FreeCAD" class="badge text-bg-light text-decoration-none">Codeberg</a>
-        <?php echo _('and '); ?>
-        <a href="https://sourceforge.net/projects/free-cad/" class="badge text-bg-light text-decoration-none">Sourceforge</a>
-      </p>
-    </div>
-
+ 
         <section class="row section d-flex align-items-center justify-content-around rounded mb-5">
           <div class="col-lg-5 rounded model-backround p-2 ">
               <div class="placeholder-glow">
