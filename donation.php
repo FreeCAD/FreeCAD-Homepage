@@ -1,7 +1,5 @@
 <script>
-    function process (select) {
-        form = select.parentElement.parentElement;
-        method = select.value;
+    function process (form,method) {
         if (method == "sepa") {
             form.querySelector(".sepainfo").classList.remove("hidden");
             form.querySelector(".submit").classList.add("hidden");
@@ -11,10 +9,7 @@
         }
     }
 
-    function send (button) {
-        form = button.parentElement.parentElement;
-        method = form.method.value;
-        amount = form.amount.value;
+    function send (form, method, amount) {
         if (amount == "") {
             amount = "5";
         }
@@ -27,13 +22,9 @@
             }
         } else if (method == "opencollective") {
             if (type == "sponsor") {
-                if (Number(amount) > 99) {
-                    window.location = "https://opencollective.com/freecad/contribute/sponsor-38077/checkout?amount="+amount;
-                } else {
-                    window.location = "https://opencollective.com/freecad/contribute/backer-38077/checkout?amount="+amount;
-                }
+                window.location = "https://opencollective.com/freecad/donate?interval=month&amount="+amount;
             } else {
-                window.location = "https://opencollective.com/freecad/donate?amount="+amount;
+                window.location = "https://opencollective.com/freecad/donate?interval=oneTime&amount="+amount;
             }
         } else if (method == "paypal") {
             window.location = "https://www.paypal.com/donate/?hosted_button_id=M3Z8BGW6DB69Q";
@@ -51,6 +42,26 @@
             //});
         }
     }
+    document.addEventListener('DOMContentLoaded', function () {
+        var methodselects = document.querySelectorAll('.method');
+        methodselects.forEach(function (select) {
+            select.addEventListener('change', function () {
+                var form = select.parentElement.parentElement;
+                var method = select.value;
+                process(form, method);
+            });
+        });
+
+        var submitButtons = document.querySelectorAll('.submit');
+        submitButtons.forEach(function (button) {
+            button.addEventListener('click', function () {
+                var form = button.parentElement.parentElement;
+                var method = form.method.value;
+                var amount = form.amount.value;
+                send(form, method, amount);
+            });
+        });
+    });
 </script>
 
 <!--<script src="https://js.stripe.com/v3/"></script>-->
@@ -59,14 +70,14 @@
     <fieldset>
       <label for="amount"><?php echo _('Amount'); ?>:</label>
       <input name="amount" type="text" placeholder="5.00" />
-      <select id="currency" name="currency">
+      <select class="currency" name="currency">
              <option value="usd" selected>USD</option>
              <!--<option value="eur">EUR</option>-->
       </select>
       <br/>
       <br/>
       <label for="method"><?php echo _('Donation method'); ?>:</label>
-      <select id="method" name="method" onClick="process(this)">
+      <select class="method" name="method">
              <option value="null" selected><?php echo _('Please choose'); ?>...</option>
              <option value="sepa" title="<?php echo _('Direct SEPA bank transfer using your own bank apps'); ?>"><?php echo _('SEPA bank transfer'); ?></option>
              <option value="stripe" title="<?php echo _('Credit card payment via Stripe'); ?>"><?php echo _('Credit card (Stripe)'); ?></option>
@@ -85,7 +96,7 @@
           <?php echo _('Bank agency'); ?>: BNP Paribas Fortis<br/>
           <?php echo _('Address'); ?>: Rue de la Station 64, 1360 Perwez, Belgium<br/>
       </div>
-      <input type="Button" value="<?php echo _('Submit'); ?>" class="submit" onCLick="send(this)" />
+      <input type="Button" value="<?php echo _('Submit'); ?>" class="submit"/>
       <br/>
       <?php echo _('More information about the different donation methods and options on the
       <a href=https://wiki.freecad.org/donate>donations</a> page.'); ?>
