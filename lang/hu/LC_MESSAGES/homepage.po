@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-24 09:27+0200\n"
-"PO-Revision-Date: 2024-12-20 09:06\n"
+"PO-Revision-Date: 2025-01-07 15:06\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -328,7 +328,7 @@ msgid "FreeCAD is made primarily to design objects for the real world. Everythin
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr "A FreeCAD elsősorban a való világ tárgyainak tervezésére készült. Minden, amit a FreeCAD-ben csinálsz, valós\n"
+msgstr "A FreeCAD elsősorban a való világ ojektumainak tervezésére készült. Minden, amit a FreeCAD-ben csinálsz, valós\n"
 "    egységeket használ, legyen az mikron, kilométer, hüvelyk vagy láb, vagy akár az egységek bármilyen kombinációja. A FreeCAD <a href=https://wiki.freecad.org/Workbenches>eszközöket kínál</a> szilárd, teljes\n"
 "               pontosságú modellek előállításához, exportálásához és szerkesztéséhez, exportálásához 3D nyomtatáshoz vagy CNC megmunkáláshoz, modellek 2D rajzainak és nézeteinek létrehozásához,\n"
 "               elemzések, például végeselem-elemzések elvégzéséhez, vagy modelladatok, például mennyiségek vagy anyagjegyzékek exportálásához."
@@ -350,9 +350,9 @@ msgstr "A FreeCAD fejlett geometriai motorral rendelkezik, amely a következőn 
 "          <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>. Támogatja a szilárd testeket,\n"
 "         <a href=https://en.wikipedia.org/wiki/Boundary_representation>Határ ábrázolás</a> (BRep) tárgyakat, és\n"
 " <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>Nem egységes racionális alap B-görbét</a> (NURBS)\n"
-"         görbék és felületek, és számos eszközök széles skáláját kínálja ezen tárgyak létrehozásához és módosításához, beleértve a komplex\n"
+"         görbék és felületek, és számos eszközök széles skáláját kínálja ezen objektumok létrehozásához és módosításához, beleértve a komplex\n"
 "          <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Logikai</a>  műveletek,\n"
-"         <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>lekerektések</a>, alaktisztítás és\n"
+"         <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>lekerekítések</a>, alaktisztítás és\n"
 "          <a href=https://wiki.freecad.org/OpenCASCADE>még sok más</a>."
 
 #: features.php:119
@@ -366,11 +366,11 @@ msgid "All FreeCAD objects are natively parametric, meaning their shape can be b
 "                a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing\n"
 "                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are\n"
 "                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>."
-msgstr "Minden FreeCAD objektum natívan parametrikus, ami azt jelenti, hogy alakjuk alapulhat\n"
+msgstr "Minden FreeCAD objektum natívan változós, ami azt jelenti, hogy alakjuk\n"
 "            <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">tulajdonságok</a> például numerikus értékeken, szövegeken, be-/ki gombokon,\n"
-"             vagy akár más tárgyakon alapulhat. Minden alakváltozást igény szerint újraszámolunk, egy visszavonási/újramegállapítási köteg rögzíti, és lehetővé teszi\n"
-"             a pontos modellezési előzmények fenntartását. Az egyik tárgy tulajdonságai más tárgyak tulajdonságainak értékét is növelhetik, lehetővé téve\n"
-"            összetett, egyedi parametrikus láncokat, amelyek csak a legvadabb álmaidban létezhetnek. Az új parametrikus tárgyakat\n"
+"             vagy akár más objektumokon alapulhat. Minden alakváltozást igény szerint újraszámolunk, egy visszavonási/újramegállapítási köteg rögzíti, és lehetővé teszi\n"
+"             a pontos modellezési előzmények fenntartását. Az egyik objektum tulajdonságai más objektum elemek tulajdonságainak értékét is növelhetik, lehetővé téve\n"
+"            összetett, egyedi változós láncokat, amelyek csak a legvadabb álmaidban létezhetnek. Az új változós objektumokat\n"
 "           <a href=\"https://wiki.freecad.org/Scripted_objects\">könnyű kódolni</a>."
 
 #: features.php:145
@@ -473,7 +473,7 @@ msgstr "A FreeCAD lehetővé teszi a modellek és számos más típusú adat imp
 
 #: features.php:242
 msgid "A parametric constraints-based 2D sketcher"
-msgstr "Parametrikus kényszerítéseken alapuló 2D rajzoló"
+msgstr "Parametrikus kényszereken alapuló 2D vázlatkészítő"
 
 #: features.php:244
 msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
@@ -482,9 +482,9 @@ msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sket
 "                  objects throughout FreeCAD, be it either with the\n"
 "                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
 msgstr "A FreeCAD a legkorszerűbb <a href=https://wiki.freecad.org/Sketcher_Workbench>Vázlatkészítő</a>\n"
-"            integrált kényszermegoldóval rendelkezik, amely lehetővé teszi a geometria által kényszerített 2D alakzatok vázlatát. A vázlatok a FreeCAD fő\n"
-"           építőelemei, és a vele épített kényszerített 2D alakzatok alapként használhatók más\n"
-"            tárgyak építéséhez a FreeCAD egész területén, legyen szó\n"
+"            integrált kényszermegoldóval rendelkezik, amely lehetővé teszi a geometria által kényszerített 2D formák vázlatát. A vázlatok a FreeCAD fő\n"
+"           építőelemei, és a vele épített kényszerített 2D formák alapként használhatók más\n"
+"            objektumok építéséhez a FreeCAD egész területén, legyen szó\n"
 "            dedikált <a href=https://wiki.freecad.org/PartDesign_Workbench>Alkatrész szerkesztő munkafelületről</a> vagy bármely más munkafelületről."
 
 #: features.php:262
@@ -866,10 +866,10 @@ msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
 "          and changing its parameters."
-msgstr "A FreeCAD egy nyílt forrású parametrikus 3D modellező,  kifejezetten\n"
-"         a tetszőleges méretű, valós tárgyak tervezéséhez. A parametrikus modellezés lehetővé teszi\n"
+msgstr "A FreeCAD egy nyílt forrású változós 3D modellező,  kifejezetten\n"
+"         a tetszőleges méretű, valós objektumok tervezéséhez. A változós modellezés lehetővé teszi\n"
 ", hogy könnyen módosíthassa a terveit a modell történetében való visszalépéssel\n"
-"        és megváltoztathassa annak paramétereit."
+"        és megváltoztathassa annak változóit."
 
 #: index.php:55
 msgid "Modelled by r-frank"
@@ -884,8 +884,8 @@ msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
 "          create high quality production ready drawings."
-msgstr "A FreeCAD lehetővé teszi, hogy csomópont kényszerítéses 2D alakzatú \n"
-" vázlatot hozzon létre és azokat használja másik tárgyak alapjául. Számos komponenst tartalmaz, \n"
+msgstr "A FreeCAD lehetővé teszi, hogy csomópont kényszerek 2D formájú \n"
+" vázlatot hozzon létre és azokat használja másik objektumok alapjául. Számos komponenst tartalmaz, \n"
 "       amelyekkel méreteket illeszthet vagy kivonhat szerkezeti részleteket 3D modellekből\n"
 "         a magas minőségű, sorozatgyártásra kész rajzok létrehozásához."
 
