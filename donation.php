@@ -83,7 +83,7 @@
              <option value="stripe" title="<?php echo _('Credit card payment via Stripe'); ?>"><?php echo _('Credit card (Stripe)'); ?></option>
              <option value="paypal" title="<?php echo _('Paypal allows to donate using your Paypal account, or a credit card') ?>"><?php echo _('Paypal'); ?></option>
              <option value="github" title="<?php echo _('GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card') ?>"><?php echo _('GitHub'); ?></option>
-             <option value="opencollective" title="<?php echo _('OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US.') ?>"><?php echo _('OpenCollective (501(c)3)'); ?></option>
+             <option value="opencollective" title="<?php echo _('OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account.') ?>"><?php echo _('OpenCollective'); ?></option>
       </select>
       <br/>
       <br/>
