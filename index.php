@@ -105,7 +105,7 @@
         <img class="img-fluid" src="images/screenshot-05.avif" alt="Screenshot 5"/>
       </div>
 
-      <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
+      <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround pb-3">
         <h3 class="section-title mt-3"><?php echo _('And many more great features'); ?></h3>
         <p class="section-body">
           <?php echo _('FreeCAD equips you with all the right tools for your needs. You get
@@ -126,7 +126,7 @@
         <img class="img-fluid" src="images/screenshot-06.avif" alt="Screenshot 6"/>
       </div>
 
-      <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
+      <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround pb-3">
         <h3 class="section-title mt-3"><?php echo _('Want to contribute to FreeCAD?'); ?></h3>
         <p class="section-body">
           <?php echo _('FreeCAD is a truly open source project and if you would like to help

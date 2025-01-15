@@ -258,7 +258,7 @@
             <img class="img-fluid" src="images/feature-05.avif" alt="Feature 05"/>
           </div>
 
-          <div class="col-lg-5 text-light text-center text-lg-start px-md-4 rounded text-backround">
+          <div class="col-lg-5 text-light text-center text-lg-start px-md-4 rounded text-backround pb-3">
             <h3 class="section-title mt-3"><?php echo _('A large (and growing) multi-specialty ecosystem'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD offers dedicated <a href="https://wiki.freecad.org/Workbenches">workbenches</a> for a variety of purposes

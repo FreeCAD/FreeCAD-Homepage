@@ -49,7 +49,7 @@
                         <img class="img-fluid" src="${imageUrl}" alt="Blog Image" loading="lazy"/>
                     </div>
 
-                    <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround">
+                    <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
                         <h3 class="section-title mt-3">${title}</h3>
                         <p class="section-body">
                             ${description}
@@ -75,7 +75,7 @@
                         <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround">
+                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
                     <h3 class="section-title mt-3 placeholder-glow">
                         <span class="placeholder col-6 bg-secondary"></span>
                     </h3>
@@ -94,7 +94,7 @@
                         <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround">
+                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
                     <h3 class="section-title mt-3 placeholder-glow">
                         <span class="placeholder col-6 bg-secondary"></span>
                     </h3>
@@ -113,7 +113,7 @@
                         <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround">
+                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
                     <h3 class="section-title mt-3 placeholder-glow">
                         <span class="placeholder col-6 bg-secondary"></span>
                     </h3>
@@ -132,7 +132,7 @@
                         <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround">
+                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
                     <h3 class="section-title mt-3 placeholder-glow">
                         <span class="placeholder col-6 bg-secondary"></span>
                     </h3>
@@ -151,7 +151,7 @@
                         <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround">
+                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
                     <h3 class="section-title mt-3 placeholder-glow">
                         <span class="placeholder col-6 bg-secondary"></span>
                     </h3>
@@ -170,7 +170,7 @@
                         <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround">
+                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
                     <h3 class="section-title mt-3 placeholder-glow">
                         <span class="placeholder col-6 bg-secondary"></span>
                     </h3>
@@ -189,7 +189,7 @@
                         <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround">
+                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
                     <h3 class="section-title mt-3 placeholder-glow">
                         <span class="placeholder col-6 bg-secondary"></span>
                     </h3>
@@ -208,7 +208,7 @@
                         <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround">
+                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
                     <h3 class="section-title mt-3 placeholder-glow">
                         <span class="placeholder col-6 bg-secondary"></span>
                     </h3>
@@ -227,7 +227,7 @@
                         <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround">
+                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
                     <h3 class="section-title mt-3 placeholder-glow">
                         <span class="placeholder col-6 bg-secondary"></span>
                     </h3>
@@ -246,7 +246,7 @@
                         <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround">
+                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
                     <h3 class="section-title mt-3 placeholder-glow">
                         <span class="placeholder col-6 bg-secondary"></span>
                     </h3>
