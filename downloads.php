@@ -217,7 +217,7 @@ updateLatestCategoryFromFeed(
                   <img id="releases-image" class="img-fluid" alt="Release Image" loading="lazy">
               </div>
           </div>
-          <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround">
+          <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
               <h3 id="releases-title" class="section-title mt-3 placeholder-glow">
                   <span class="placeholder col-6 bg-secondary"></span>
               </h3>
