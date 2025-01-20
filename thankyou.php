@@ -85,13 +85,8 @@
             </p>
 
             <p>
-            <?php echo _('If you are in, choose the amount and method of your
-            choice below. If you are interested in supporting the project better
-            with a recurring donation, check the <a href=sponsor.php>sponsoring
-            page</a> to see more options.'); ?>
+            <?php echo _('If you are in, choose the amount and method of your choice below. If you are interested in supporting the project better with a recurring donation, check the <a data-bs-toggle="modal" data-bs-target="#donateModal">donate page</a> to see more options.'); ?>
             </p>
-
-            <?php $formid = "donation"; include("donation.php"); ?>
 
             <p>
             <?php echo _('There are also many other ways to help FreeCAD. For
