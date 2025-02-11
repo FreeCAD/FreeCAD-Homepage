@@ -141,7 +141,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link my-2 rounded-pill" data-bs-toggle="modal" data-bs-target="#donateModal">♥ <?php echo _('Donate'); ?></a>
+          <a class="nav-link my-2 rounded-pill donate-btn" data-bs-toggle="modal" data-bs-target="#donateModal">♥ <?php echo _('Donate'); ?></a>
         </li>
 
       </ul>
