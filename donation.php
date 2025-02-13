@@ -32,6 +32,7 @@ function send(type, method, amount) {
 document.addEventListener('DOMContentLoaded', function() {
 
     var typesRadios = document.getElementById("types");
+    var presetsRadios = document.getElementById("presets");
     var methodSelect = document.getElementById("method");
     var sepainfo = document.getElementById("sepainfo");
     var submitButton = document.getElementById("submit");
@@ -39,13 +40,22 @@ document.addEventListener('DOMContentLoaded', function() {
     var donateModal = document.getElementById('donateModal');
     var donationInfo = document.getElementById("donationInfo");
     var sponsorInfo = document.getElementById("sponsorInfo");
-
+    var presetValues = {
+        "preset5": "5.00",
+        "preset10": "10.00",
+        "preset25": "25.00",
+        "preset100": "100.00",
+        "preset200": "200.00"
+    };
 
     function methodProcess(method) {
         if (method == "sepa") {
             sepainfo.classList.remove("hidden");
             submitButton.classList.add("disabled");
-        } else {
+        }else if(method == "null") {
+            sepainfo.classList.add("hidden");
+            submitButton.classList.add("disabled");
+        }else {
             sepainfo.classList.add("hidden");
             submitButton.classList.remove("disabled");
         }
@@ -61,13 +71,61 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    function presetProcess(preset) {
+        if (preset === "other") {
+            amountInput.value = "";
+            amountInput.focus();
+        } else {
+            amountInput.value = preset;
+        }
+    }
+
+    function amountProcess(amount) {
+        var numericAmount = parseFloat(amount.trim()).toFixed(2);
+        var matchedPreset = Object.keys(presetValues).find(key => presetValues[key] === numericAmount);
+
+        if (matchedPreset) {
+            document.getElementById(matchedPreset).checked = true;
+        } else {
+            document.getElementById("presetother").checked = true;
+        }
+    }
+    function showAccordion(amount) {
+        amount = parseFloat(amount);
+
+        var accordions = document.querySelectorAll('.accordion-collapse');
+        accordions.forEach(accordion => {
+            new bootstrap.Collapse(accordion, { toggle: false }).hide();
+        });
+
+        var targetAccordion = null;
+
+        if (amount >= 25 && amount < 100) {
+            targetAccordion = document.getElementById('collapseBronze');
+        } else if (amount >= 100 && amount < 200) {
+            targetAccordion = document.getElementById('collapseSilver');
+        } else if (amount >= 200) {
+            targetAccordion = document.getElementById('collapseGold');
+        } else {
+            targetAccordion = document.getElementById('collapseNormal');
+        }
+
+        if (targetAccordion) {
+            new bootstrap.Collapse(targetAccordion).show();
+        }
+}
+
+
 
     var type = document.querySelector('input[name="type"]:checked').id;
+    var preset = document.querySelector('input[name="preset"]:checked').id;
     var method = methodSelect.value;
     var amount = amountInput.value;
 
     methodProcess(method);
     typeProcess(type);
+	amountProcess(amount);
+	showAccordion(amount)
 
 
     typesRadios.addEventListener("change", function() {
@@ -83,6 +141,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     });
 
+    presetsRadios.addEventListener("change", function () {
+        var selectedPreset = document.querySelector("input[name='preset']:checked");
+        var preset;
+
+        if (selectedPreset.id === "presetother") {
+            preset = "other";
+        } else {
+            preset = presetValues[selectedPreset.id];
+        }
+
+        presetProcess(preset);
+		showAccordion(preset)
+    });
+
     methodSelect.addEventListener('change', function() {
         method = methodSelect.value;
         methodProcess(method);
@@ -91,8 +163,10 @@ document.addEventListener('DOMContentLoaded', function() {
     amountInput.addEventListener("input", function() {
         amount = amountInput.value;
         if (amount == "") {
-            amount = "5";
+            amount = "5.00";
         }
+        amountProcess(amount);
+		showAccordion(amount)
     });
 
     submitButton.addEventListener('click', function() {
@@ -112,6 +186,8 @@ document.addEventListener('DOMContentLoaded', function() {
         if (amountAttribute) {
             amountInput.value = amountAttribute;
             amount = amountAttribute;
+			amountProcess(amount);
+			showAccordion(amount)
         }
         if (methodAttribute) {
             methodSelect.value = methodAttribute;
@@ -138,6 +214,20 @@ document.addEventListener('DOMContentLoaded', function() {
                 <label class="btn btn-outline-light text-center flex-fill" for="donation"> <?php echo _('Donation'); ?> </label>
                 <input type="radio" class="btn-check" name="type" id="sponsor" autocomplete="off">
                 <label class="btn btn-outline-light text-center flex-fill" for="sponsor"> <?php echo _('Sponsor'); ?> </label>
+              </div>
+              <div role="group" aria-label="preset" id="presets" class="d-flex flex-wrap mt-3  row-cols-4 gap-2">
+                <input type="radio" class="btn-check" name="preset" id="preset5" autocomplete="off" checked=>
+                <label class="btn btn-outline-light text-center flex-fill col" for="preset5"> $5 </label>
+                <input type="radio" class="btn-check" name="preset" id="preset10" autocomplete="off">
+                <label class="btn btn-outline-light text-center flex-fill col" for="preset10"> $10 </label>
+                <input type="radio" class="btn-check" name="preset" id="preset25" autocomplete="off">
+                <label class="btn btn-outline-light text-center flex-fill col" for="preset25"> $25 </label>
+                <input type="radio" class="btn-check" name="preset" id="preset100" autocomplete="off">
+                <label class="btn btn-outline-light text-center flex-fill col" for="preset100"> $100 </label>
+                <input type="radio" class="btn-check" name="preset" id="preset200" autocomplete="off">
+                <label class="btn btn-outline-light text-center flex-fill col" for="preset200"> $200 </label>
+                <input type="radio" class="btn-check" name="preset" id="presetother" autocomplete="off">
+                <label class="btn btn-outline-light text-center flex-fill col" for="presetother"> Other </label>
               </div>
               <div class="input-group mt-3">
                 <span class="input-group-text bg-dark text-light border-secondary">$</span>
@@ -169,18 +259,44 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p> <?php echo _('We call sponsoring the act of donating money recurrently to the FreeCAD project. You can do that as an individual or as a company or institution, through different channels or platforms, depending on your preferences.'); ?> </p>
                 <p> <?php echo _('Sponsoring FreeCAD allows its developers to count on a steady flow of income, so it allows the FPA to plan things ahead, and the FreeCAD developers to invest themselves more seriously into FreeCAD.'); ?> </p>
                 <p> <?php echo _('To encourage persons and companies to sponsor the FreeCAD project, we have created different sponsoring tiers. When donating regularly to the project, unless you prefer to stay anonymous, your name, company name and/or logo will be featured on this website, depending on the tier you fit into:'); ?> </p>
-                <ul class="sponsortitle">
-                  <li>♥ <b class="normal"> <?php echo _('Normal sponsor'); ?> </b>: <?php echo _('from 1 USD / 1 EUR per month. You will not have your name displayed here, but you will have helped the project a lot anyway. Together, normal sponsors maintain the project on its feet as much as the bigger sponsors.'); ?> </li>
-                  <li>
-                    <b class="bronze">🥉 <?php echo _('Bronze sponsor'); ?> </b>: <?php echo _('from 25 USD / 25 EUR per month. Your name or company name is displayed on this page.'); ?>
-                  </li>
-                  <li>
-                    <b class="silver">🥈 <?php echo _('Silver sponsor'); ?> </b>: <?php echo _('from 100 USD / 100 EUR per month. Your name or company name is displayed on this page, with a link to your website, and a one-line description text.'); ?>
-                  </li>
-                  <li>
-                    <b class="gold">🥇 <?php echo _('Gold sponsor'); ?> </b>: <?php echo _('from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors.'); ?>
-                  </li>
-                </ul>
+                <div class="accordion accordion-dark bg-dark text-white" id="sponsorAccordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingNormal">
+                      <button class="accordion-button text-white bg-dark border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNormal" aria-expanded="true" aria-controls="collapseNormal"> ♥ <b class="normal"> <?php echo _('Normal sponsor'); ?> </b>
+                      </button>
+                    </h2>
+                    <div id="collapseNormal" class="accordion-collapse collapse show" aria-labelledby="headingNormal" data-bs-parent="#sponsorAccordion">
+                      <div class="accordion-body"> <?php echo _('from 1 USD / 1 EUR per month. You will not have your name displayed here, but you will have helped the project a lot anyway. Together, normal sponsors maintain the project on its feet as much as the bigger sponsors.'); ?> </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingBronze">
+                      <button class="accordion-button text-white bg-dark border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBronze" aria-expanded="false" aria-controls="collapseBronze"> 🥉 <b class="bronze"> <?php echo _('Bronze sponsor'); ?> </b>
+                      </button>
+                    </h2>
+                    <div id="collapseBronze" class="accordion-collapse collapse" aria-labelledby="headingBronze" data-bs-parent="#sponsorAccordion">
+                      <div class="accordion-body"> <?php echo _('from 25 USD / 25 EUR per month. Your name or company name is displayed on this page.'); ?> </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSilver">
+                      <button class="accordion-button text-white bg-dark border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSilver" aria-expanded="false" aria-controls="collapseSilver"> 🥈 <b class="silver"> <?php echo _('Silver sponsor'); ?> </b>
+                      </button>
+                    </h2>
+                    <div id="collapseSilver" class="accordion-collapse collapse" aria-labelledby="headingSilver" data-bs-parent="#sponsorAccordion">
+                      <div class="accordion-body"> <?php echo _('from 100 USD / 100 EUR per month. Your name or company name is displayed on this page, with a link to your website, and a one-line description text.'); ?> </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingGold">
+                      <button class="accordion-button text-white bg-dark border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGold" aria-expanded="false" aria-controls="collapseGold"> 🥇 <b class="gold"> <?php echo _('Gold sponsor'); ?> </b>
+                      </button>
+                    </h2>
+                    <div id="collapseGold" class="accordion-collapse collapse" aria-labelledby="headingGold" data-bs-parent="#sponsorAccordion">
+                      <div class="accordion-body"> <?php echo _('from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors.'); ?> </div>
+                    </div>
+                  </div>
+                </div>
                 <p> <?php echo _("Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"); ?> </p>
                 <p> <?php echo _('Choose freely the amount you wish to donate each month.'); ?> </p>
                 <p> <?php echo _('Please inform your forum name or twitter handle as a notein your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!'); ?> </p>
