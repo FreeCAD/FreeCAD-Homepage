@@ -256,9 +256,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p> <?php echo _('Choose freely the amount you wish to donate one time only.'); ?> </p>
               </div>
               <div id="sponsorInfo" class="hidden">
-                <p> <?php echo _('We call sponsoring the act of donating money recurrently to the FreeCAD project. You can do that as an individual or as a company or institution, through different channels or platforms, depending on your preferences.'); ?> </p>
-                <p> <?php echo _('Sponsoring FreeCAD allows its developers to count on a steady flow of income, so it allows the FPA to plan things ahead, and the FreeCAD developers to invest themselves more seriously into FreeCAD.'); ?> </p>
-                <p> <?php echo _('To encourage persons and companies to sponsor the FreeCAD project, we have created different sponsoring tiers. When donating regularly to the project, unless you prefer to stay anonymous, your name, company name and/or logo will be featured on this website, depending on the tier you fit into:'); ?> </p>
+                <p> <?php echo _('You can support FreeCAD by sponsoring it as an individual or organization through various platforms. Sponsorship provides a steady income for developers, allowing the FPA to plan ahead and enabling greater investment in FreeCAD. To encourage sponsorship, we offer different tiers, and unless you choose to remain anonymous, your name or company logo will be featured on our website accordingly.'); ?> </p>
                 <div class="accordion accordion-dark bg-dark text-white" id="sponsorAccordion">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingNormal">
