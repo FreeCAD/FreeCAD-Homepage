@@ -134,7 +134,7 @@
           <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('For All Professional Needs...'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _('Looking for something that contains everything you need in an industrial environment? FreeCAD is the answer. After being available for "real work" for a very long time, it finally has become official publishing version 1.0. Stop worrying about license costs and start doing all your professional work as a real owner.'); ?>
+              <?php echo _('Looking for something that contains everything you need in an industrial environment? FreeCAD is the answer. After being available for "real work" for a very long time, it finally has become official, publishing version 1.0. Stop worrying about license costs and start doing all your professional work as a real owner.'); ?>
             </p>
           </div>
         </section>
