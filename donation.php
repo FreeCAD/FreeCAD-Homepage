@@ -211,9 +211,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-5 mb-3">
               <div class="btn-group d-flex flex-wrap" role="group" aria-label="type" id="types">
                 <input type="radio" class="btn-check" name="type" id="donation" autocomplete="off" checked>
-                <label class="btn btn-outline-light text-center flex-fill" for="donation"> <?php echo _('Donation'); ?> </label>
+                <label class="btn btn-outline-light text-center flex-fill" for="donation"> <?php echo _('One-Time'); ?> </label>
                 <input type="radio" class="btn-check" name="type" id="sponsor" autocomplete="off">
-                <label class="btn btn-outline-light text-center flex-fill" for="sponsor"> <?php echo _('Sponsor'); ?> </label>
+                <label class="btn btn-outline-light text-center flex-fill" for="sponsor"> <?php echo _('Monthly'); ?> </label>
               </div>
               <div role="group" aria-label="preset" id="presets" class="d-flex flex-wrap mt-3  row-cols-4 gap-2">
                 <input type="radio" class="btn-check" name="preset" id="preset5" autocomplete="off" checked=>
