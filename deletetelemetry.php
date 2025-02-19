@@ -8,6 +8,7 @@
     curl_setopt($ch, CURLOPT_URL, "https://eu.posthog.com/api/projects/{$project_id}/persons/?distinct_id={$distinct_id}");
     curl_setopt($ch, CURLOPT_HTTPGET, true);
     curl_setopt($ch, CURLOPT_HTTPHEADER, ["Content-Type: application/json", "Authorization: Bearer {$_SERVER["POSTHOG_API_KEY"]}"]);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     $result = curl_exec($ch);
     $data = json_decode($result, true);
     $uuid = $data['results'][0]['uuid'] ?? null;
