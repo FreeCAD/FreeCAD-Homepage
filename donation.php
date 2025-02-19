@@ -149,6 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
             preset = "other";
         } else {
             preset = presetValues[selectedPreset.id];
+			amount = preset;
         }
 
         presetProcess(preset);
@@ -231,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function() {
               </div>
               <div class="input-group mt-3">
                 <span class="input-group-text bg-dark text-light border-secondary">$</span>
-                <input type="text" class="form-control bg-dark text-light border-secondary form-control-lg" name="amount" id="amount" type="text" value="5.00">
+                <input type="text" class="form-control bg-dark text-light border-secondary form-control-lg" name="amount" id="amount" value="5.00">
               </div>
               <div class="input-group mt-3">
                 <select class="form-select bg-dark text-light border-secondary" id="method" name="method">
