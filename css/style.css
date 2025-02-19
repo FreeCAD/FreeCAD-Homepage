@@ -442,8 +442,8 @@ code {
     #76428a,
     #337bba,
     #CB333B,
-    #9b59b6,
-    #FF585D
+    #9b59b6, 
+    #FF585D  
   );
   background-size: 400%;
   z-index: -1;
@@ -463,4 +463,14 @@ code {
 .donate-btn:hover {
   transform: scale(1.08);
   box-shadow: 0 0 15px rgba(118, 66, 138, 0.8);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
 }

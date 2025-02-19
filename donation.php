@@ -163,7 +163,12 @@ document.addEventListener('DOMContentLoaded', function() {
     amountInput.addEventListener("input", function() {
         amount = amountInput.value;
         if (amount == "") {
+            if (amount === "" || isNaN(amount)) {
+                amountInput.reportValidity(); // Tarayıcının hata mesajını tetikle
+                return;
+            } else {
             amount = "5.00";
+			}
         }
         amountProcess(amount);
 		showAccordion(amount)
@@ -231,7 +236,7 @@ document.addEventListener('DOMContentLoaded', function() {
               </div>
               <div class="input-group mt-3">
                 <span class="input-group-text bg-dark text-light border-secondary">$</span>
-                <input type="text" class="form-control bg-dark text-light border-secondary form-control-lg" name="amount" id="amount" value="5.00">
+                <input type="number" class="form-control bg-dark text-light border-secondary form-control-lg" name="amount" id="amount" min="0" step="0.01" value="5.00">
               </div>
               <div class="input-group mt-3">
                 <select class="form-select bg-dark text-light border-secondary" id="method" name="method">
