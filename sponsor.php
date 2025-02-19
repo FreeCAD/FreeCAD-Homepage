@@ -43,16 +43,15 @@ function updateLatestCategoryFromFeed(xmlUrl, titleId, bodyId, buttonId, imageId
 }
 
 updateLatestCategoryFromFeed(
-  'proxy-xml.php?url=https://blog.freecad.org/category/grants/feed/', 
-  'grants-title', 
-  'grants-description', 
+  'proxy-xml.php?url=https://blog.freecad.org/category/grants/feed/',
+  'grants-title',
+  'grants-description',
   'grants-link',
   'grants-image'
 );
 
 
     </script>
-    
     <main id="main" class="container-fluid">
 
         <div class="download-notes text-center">
@@ -204,9 +203,9 @@ updateLatestCategoryFromFeed(
                 <div class="silver sponsor">
                     <img class="logo" src="images/sponsors/chudovo.png">
                     <a class="title" href="https://chudovo.com">Chudovo</a>
-                     is an international software development company with representative 
-                     offices in Kyiv, Cologne, New York, Tallinn and London. It has been working 
-                     on the market since 2006. Company has domain expertise in video security, 
+                     is an international software development company with representative
+                     offices in Kyiv, Cologne, New York, Tallinn and London. It has been working
+                     on the market since 2006. Company has domain expertise in video security,
                      logistics, medicine, finance
                 </div>
 

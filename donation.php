@@ -113,8 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (targetAccordion) {
             new bootstrap.Collapse(targetAccordion).show();
         }
-}
-
+        }
 
 
     var type = document.querySelector('input[name="type"]:checked').id;
@@ -124,8 +123,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     methodProcess(method);
     typeProcess(type);
-	amountProcess(amount);
-	showAccordion(amount)
+    amountProcess(amount);
+    showAccordion(amount)
 
 
     typesRadios.addEventListener("change", function() {
@@ -149,11 +148,11 @@ document.addEventListener('DOMContentLoaded', function() {
             preset = "other";
         } else {
             preset = presetValues[selectedPreset.id];
-			amount = preset;
+            amount = preset;
         }
 
         presetProcess(preset);
-		showAccordion(preset)
+        showAccordion(preset)
     });
 
     methodSelect.addEventListener('change', function() {
@@ -187,8 +186,8 @@ document.addEventListener('DOMContentLoaded', function() {
         if (amountAttribute) {
             amountInput.value = amountAttribute;
             amount = amountAttribute;
-			amountProcess(amount);
-			showAccordion(amount)
+            amountProcess(amount);
+            showAccordion(amount)
         }
         if (methodAttribute) {
             methodSelect.value = methodAttribute;
