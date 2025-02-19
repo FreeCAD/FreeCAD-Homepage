@@ -250,9 +250,40 @@ document.addEventListener('DOMContentLoaded', function() {
                 <button class="btn btn-outline-light input-group-text" value="Submit" id="submit" type="button"> <?php echo _('Submit'); ?> </button>
               </div>
               <div class="sepainfo hidden" id="sepainfo">
-                <b> <?php echo _('SEPA Information'); ?> </b>
-                <br /> <?php echo _('Please set up your SEPA bank transfer to'); ?>: <br /> The FreeCAD project association <br /> IBAN: <b>BE04 0019 2896 4531</b>
-                <br /> BIC/SWIFT code: GEBABEBBXXX <br /> <?php echo _('Bank agency'); ?>: BNP Paribas Fortis <br /> <?php echo _('Address'); ?>: Rue de la Station 64, 1360 Perwez, Belgium <br />
+                  <table class="table table-dark table-borderless">
+                      <thead>
+                          <tr>
+                              <th colspan="2" class="fw-bold">
+                                  <?php echo _('SEPA Information'); ?>
+                              </th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td colspan="2"> <?php echo _('Please set up your SEPA bank transfer to'); ?>: </td>
+                          </tr>
+                          <tr>
+                              <td><?php echo _('Beneficiary'); ?>:</td>
+                              <td>The FreeCAD project association</td>
+                          </tr>
+                          <tr>
+                              <td>IBAN:</td>
+                              <td><b>BE04 0019 2896 4531</b></td>
+                          </tr>
+                          <tr>
+                              <td>BIC/SWIFT:</td>
+                              <td>GEBABEBBXXX</td>
+                          </tr>
+                          <tr>
+                              <td><?php echo _('Bank agency'); ?>:</td>
+                              <td>BNP Paribas Fortis</td>
+                          </tr>
+                          <tr>
+                              <td><?php echo _('Address'); ?>:</td>
+                              <td>Rue de la Station 64, 1360 Perwez, Belgium</td>
+                          </tr>
+                      </tbody>
+                  </table>
               </div>
             </div>
             <div class="col-lg-7 text-light text-center text-lg-start px-md-4 ">
