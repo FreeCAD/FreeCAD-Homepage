@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var presetsRadios = document.getElementById("presets");
     var methodSelect = document.getElementById("method");
     var sepainfo = document.getElementById("sepainfo");
+    var stripeinfo = document.getElementById("stripeinfo");
     var submitButton = document.getElementById("submit");
     var amountInput = document.getElementById("amount");
     var donateModal = document.getElementById('donateModal');
@@ -52,12 +53,19 @@ document.addEventListener('DOMContentLoaded', function() {
         if (method == "sepa") {
             sepainfo.classList.remove("hidden");
             submitButton.classList.add("disabled");
+            stripeinfo.classList.add("hidden");
+        }else if(method == "stripe" && type == "sponsor") {
+            sepainfo.classList.add("hidden");
+            submitButton.classList.add("disabled");
+            stripeinfo.classList.remove("hidden");
         }else if(method == "null") {
             sepainfo.classList.add("hidden");
             submitButton.classList.add("disabled");
+            stripeinfo.classList.add("hidden");
         }else {
             sepainfo.classList.add("hidden");
             submitButton.classList.remove("disabled");
+            stripeinfo.classList.add("hidden");
         }
     }
 
@@ -136,6 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
             sponsorInfo.classList.add("hidden");
             donationInfo.classList.remove("hidden");
         }
+        methodProcess(method);
 
 
     });
@@ -285,8 +294,11 @@ document.addEventListener('DOMContentLoaded', function() {
                       </tbody>
                   </table>
               </div>
-            </div>
-            <div class="col-lg-7 text-light text-center text-lg-start px-md-4 ">
+              <div class="stripeinfo hidden mt-3" id="stripeinfo">
+                <p><?php echo _("While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."); ?></p>
+              </div>
+              </div>
+              <div class="col-lg-7 text-light text-center text-lg-start px-md-4 ">
               <div id="donationInfo">
                 <p> <?php echo _('If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount.'); ?> </p>
                 <p> <?php echo _('Choose freely the amount you wish to donate one time only.'); ?> </p>
