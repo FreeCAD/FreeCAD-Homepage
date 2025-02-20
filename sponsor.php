@@ -58,13 +58,13 @@ updateLatestCategoryFromFeed(
         </div>
 
 
-        <section class="row section d-flex justify-content-around whitelinks">
+        <section class="row section d-flex justify-content-around">
 
-          <div class="col-lg-4">
+          <div data-bs-toggle="modal" data-bs-target="#donateModal" class="col-lg-4">
             <h3><?php echo _('Donating to FreeCAD'); ?></h3>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround p-3">
               <p>
               <?php echo _('Thanks for your interest in helping the FreeCAD
               project with donations.'); ?>
@@ -87,7 +87,7 @@ updateLatestCategoryFromFeed(
               to organize events ourselves so community members can meet, pay for
               server space and web services, and many other things.'); ?>
               </p>
-              <p>
+              <p class="whitelinks">
               <?php echo _('There are several ways you can donate money and help
               the FreeCAD project, being an individual, a company or an
               institution, depending on your preferences. The money you donate
@@ -105,6 +105,9 @@ updateLatestCategoryFromFeed(
               donation will be welcome, and can help a lot, but you will never
               be required to pay anything to access any of the FreeCAD features.'); ?>
               </p>
+              <a class="btn btn-light rounded-pill mt-3" data-bs-toggle="modal" data-bs-target="#donateModal">
+			  ♥ <?php echo _('Donate'); ?>
+			  </a>
           </div>
 
         </section>
