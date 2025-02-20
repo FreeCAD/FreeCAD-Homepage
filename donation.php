@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (targetAccordion) {
             new bootstrap.Collapse(targetAccordion).show();
         }
-        }
+    }
 
 
     var type = document.querySelector('input[name="type"]:checked').id;

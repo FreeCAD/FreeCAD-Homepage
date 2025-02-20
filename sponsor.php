@@ -10,7 +10,6 @@ function updateLatestCategoryFromFeed(xmlUrl, titleId, bodyId, buttonId, imageId
     if (xhr.readyState === 4 && xhr.status === 200) {
       var parser = new DOMParser();
       var xml = parser.parseFromString(xhr.responseText, 'application/xml');
-      
       var latestEventsPost = xml.getElementsByTagName('item')[0];
 
       var sectionTitle = document.getElementById(titleId);
