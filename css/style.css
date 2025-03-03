@@ -422,3 +422,55 @@ code {
         width: 97%;
     }
 }
+
+[data-bs-toggle="modal"] {
+    cursor: pointer;
+}
+
+.donate-btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.donate-btn::before,
+.donate-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg,
+    #418FDE,
+    #76428a,
+    #337bba,
+    #CB333B,
+    #9b59b6, 
+    #FF585D  
+  );
+  background-size: 400%;
+  z-index: -1;
+  animation: glow 8s ease-in-out infinite;
+  border-radius: inherit;
+}
+
+.donate-btn::after {
+  filter: blur(15px);
+}
+
+@keyframes glow {
+  0%, 100% { background-position: 0 0; }
+  50% { background-position: 100% 0; }
+}
+
+.donate-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(118, 66, 138, 0.8);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}

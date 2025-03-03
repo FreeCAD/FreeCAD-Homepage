@@ -106,7 +106,7 @@
 
           <div class="dropdown-menu-mobile-left dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Help_FreeCAD'); ?>"><?php echo _('How to help'); ?></a>
-            <a class="dropdown-item text-dark" href="<?php echo $sponsorurl; ?>"><?php echo _('Donate / Sponsor'); ?></a>
+            <a class="dropdown-item text-dark" href="<?php echo $sponsorurl; ?>"><?php echo _('Sponsor'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/issues"><?php echo _('Report a bug'); ?></a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD/pulls"><?php echo _('Make a pull request'); ?></a>
             <a class="dropdown-item text-dark" href="https://fpa.freecad.org/programs.html"><?php echo _('Jobs and funding'); ?></a>
@@ -140,6 +140,11 @@
           </div>
         </li>
 
+        <li class="nav-item">
+          <a class="nav-link my-2 rounded-pill donate-btn" data-bs-toggle="modal" data-bs-target="#donateModal">♥ <?php echo _('Donate'); ?></a>
+        </li>
+
       </ul>
     </div>
   </nav>
+<?php include("donation.php"); ?>
