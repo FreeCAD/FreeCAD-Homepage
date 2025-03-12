@@ -10,7 +10,6 @@ function updateLatestCategoryFromFeed(xmlUrl, titleId, bodyId, buttonId, imageId
     if (xhr.readyState === 4 && xhr.status === 200) {
       var parser = new DOMParser();
       var xml = parser.parseFromString(xhr.responseText, 'application/xml');
-
       var latestEventsPost = xml.getElementsByTagName('item')[0];
 
       var sectionTitle = document.getElementById(titleId);
@@ -52,7 +51,6 @@ updateLatestCategoryFromFeed(
 
 
     </script>
-
     <main id="main" class="container-fluid">
 
         <div class="download-notes text-center">
@@ -60,13 +58,13 @@ updateLatestCategoryFromFeed(
         </div>
 
 
-        <section class="row section d-flex justify-content-around whitelinks">
+        <section class="row section d-flex justify-content-around">
 
-          <div class="col-lg-4">
+          <div data-bs-toggle="modal" data-bs-target="#donateModal" class="col-lg-4">
             <h3><?php echo _('Donating to FreeCAD'); ?></h3>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround p-3">
               <p>
               <?php echo _('Thanks for your interest in helping the FreeCAD
               project with donations.'); ?>
@@ -89,7 +87,7 @@ updateLatestCategoryFromFeed(
               to organize events ourselves so community members can meet, pay for
               server space and web services, and many other things.'); ?>
               </p>
-              <p>
+              <p class="whitelinks">
               <?php echo _('There are several ways you can donate money and help
               the FreeCAD project, being an individual, a company or an
               institution, depending on your preferences. The money you donate
@@ -107,106 +105,15 @@ updateLatestCategoryFromFeed(
               donation will be welcome, and can help a lot, but you will never
               be required to pay anything to access any of the FreeCAD features.'); ?>
               </p>
+              <a class="btn btn-light rounded-pill mt-3" data-bs-toggle="modal" data-bs-target="#donateModal">
+			  ♥ <?php echo _('Donate'); ?>
+			  </a>
           </div>
 
         </section>
 
-
-
         <section class="row section d-flex justify-content-around whitelinks">
-
-          <div class="col-lg-4">
-            <h3><?php echo _('One-time donation'); ?></h3>
-          </div>
-
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
-              <p>
-              <?php echo _('If you are not sure or not able to commit to a regular
-              donation, but still want to help the project, you can do a one-time
-              donation, of any amount.'); ?>
-              </p>
-              <p>
-              <?php echo _('Choose freely the amount you wish to donate one
-              time only:'); ?>
-              </p>
-              <?php $formid = "donation"; include("donation.php"); ?>
-
-          </div>
-
-        </section>
-
-
-
-
-        <section class="row section d-flex justify-content-around whitelinks">
-
-          <div class="col-lg-4">
-            <h3><?php echo _('Sponsoring'); ?></h3>
-          </div>
-
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
-              <p>
-              <?php echo _('We call sponsoring the act of donating money
-              recurrently to the FreeCAD project. You can do that as an
-              individual or as a company or institution, through different
-              channels or platforms, depending on your preferences.'); ?>
-              </p>
-              <p>
-              <?php echo _('Sponsoring FreeCAD allows its developers to count on
-              a steady flow of income, so it allows the FPA to plan things ahead,
-              and the FreeCAD developers to invest themselves more seriously
-              into FreeCAD.'); ?>
-              </p>
-              <p>
-              <?php echo _('To encourage persons and companies to sponsor the
-              FreeCAD project, we have created different sponsoring tiers. When
-              donating regularly to the project, unless you prefer to stay
-              anonymous, your name, company name and/or logo will be featured
-              on this website, depending on the tier you fit into:'); ?>
-              </p>
-              <ul class="sponsortitle">
-                <li>♥ <b class="normal"><?php echo _('Normal sponsor'); ?></b>:
-                <?php echo _('from 1 USD / 1 EUR per month. You will not have your
-                name displayed here, but you will have helped the project a lot
-                anyway. Together, normal sponsors maintain the project on its
-                feet as much as the bigger sponsors.'); ?></li>
-                <li><b class="bronze">🥉 <?php echo _('Bronze sponsor'); ?></b>:
-                <?php echo _('from 25 USD / 25 EUR per month. Your name or
-                company name is displayed on this page.'); ?></li>
-                <li><b class="silver">🥈 <?php echo _('Silver sponsor'); ?></b>:
-                <?php echo _('from 100 USD / 100 EUR per month. Your name or
-                company name is displayed on this page, with a link to
-                your website, and a one-line description text.'); ?></li>
-                <li><b class="gold">🥇 <?php echo _('Gold sponsor'); ?></b>:
-                <?php echo _('from 200 USD / 200 EUR per month. Your name
-                or company name and logo displayed on this page,
-                with a link to your website and a custom description text.
-                Companies that have helped FreeCAD early on also appear
-                under Gold sponsors.'); ?></li>
-              </ul>
-              <p>
-              <?php echo _("Instead of donating each month, you might find it
-              more comfortable to make a one-time donation that, when divided by
-              twelve, would give you right to enter a sponsoring tier. Don't
-              hesitate to do so!"); ?>
-              </p>
-              <p>
-              <?php echo _('Choose freely the amount you wish to donate each
-              month:'); ?>
-              </p>
-              <?php $formid = "sponsor"; include("donation.php"); ?>
-              <p>
-              <?php echo _('Please inform your forum name or twitter handle as a note
-              in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>,
-              so we can give you proper credits!'); ?>
-              </p>
-          </div>
-
-        </section>
-
-
-        <section class="row section d-flex justify-content-around whitelinks">
-          <div class="col-lg-4">
+          <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="200.00" class="col-lg-4">
             <h3><?php echo _('Gold sponsors'); ?></h3>
           </div>
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
@@ -285,7 +192,7 @@ updateLatestCategoryFromFeed(
         </section>
 
         <section class="row section d-flex justify-content-around whitelinks">
-          <div class="col-lg-4">
+          <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="100.00" class="col-lg-4">
             <h3><?php echo _('Silver sponsors'); ?></h3>
           </div>
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
@@ -324,7 +231,7 @@ updateLatestCategoryFromFeed(
         </section>
 
         <section class="row section d-flex justify-content-around whitelinks">
-          <div class="col-lg-4">
+          <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="25.00" class="col-lg-4">
             <h3><?php echo _('Bronze sponsors'); ?></h3>
           </div>
 

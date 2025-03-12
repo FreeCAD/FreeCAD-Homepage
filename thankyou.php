@@ -54,7 +54,7 @@
         }
     </script>
 
-    <main id="main" class="container-fluid whitelinks">
+    <main id="main" class="container-fluid">
 
         <div class="download-notes text-center">
             <h2 class="downloads-notes-title"><?php echo _('Thank you!'); ?></h2>
@@ -74,7 +74,7 @@
             <h3><?php echo _('Support FreeCAD!'); ?></h3>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround p-3">
 
             <p>
             <?php echo _('If you are happy with FreeCAD, and would like to help
@@ -85,15 +85,10 @@
             </p>
 
             <p>
-            <?php echo _('If you are in, choose the amount and method of your
-            choice below. If you are interested in supporting the project better
-            with a recurring donation, check the <a href=sponsor.php>sponsoring
-            page</a> to see more options.'); ?>
+            <?php echo _('If you are in, choose the amount and method of your choice below. If you are interested in supporting the project better with a recurring donation, check the <a data-bs-toggle="modal" data-bs-target="#donateModal">donate page</a> to see more options.'); ?>
             </p>
 
-            <?php $formid = "donation"; include("donation.php"); ?>
-
-            <p>
+            <p class="whitelinks">
             <?php echo _('There are also many other ways to help FreeCAD. For
             example, you can write code, help writing documentation, translate
             the FreeCAD interface and documentation, help new users, etc. See
@@ -101,20 +96,22 @@
             <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a>
             page.'); ?>
             </p>
-
-            <br/><br/>
+            <a class="btn btn-light rounded-pill mt-3" data-bs-toggle="modal" data-bs-target="#donateModal">
+            ♥ <?php echo _('Donate'); ?>
+            </a>
 
           </div>
+        </section>
 
 
-
+        <section class="row section d-flex justify-content-around">
           <div class="col-lg-4">
             <h3><?php echo _('Need help?'); ?></h3>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
+          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround p-3">
 
-            <p>
+            <p class="whitelinks">
             <?php echo _('If you are new to FreeCAD, or to 3D CAD modelling, we
             have you covered! FreeCAD features an
             <a href=https://wiki.freecad.org>extensive documentation</a>, which
@@ -165,7 +162,7 @@
             downloading our baby! We hope you will like it as much as we do.'); ?>
             </p>
 
-            <p>
+            <p class="whitelinks">
             <?php echo _('If you encounter issues with FreeCAD, or would like to
             meet and discuss topics with other users, pay a visit to the
             <a href=https://forum.freecad.org>FreeCAD forum</a>. The forum is the
