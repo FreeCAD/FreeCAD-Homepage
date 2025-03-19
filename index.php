@@ -139,6 +139,29 @@
         </a>
       </div>
     </section>
+
+
+    <section class="row section d-flex align-items-center justify-content-around rounded">
+      <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('PUMA microscope developed by Paul Tadrous'); ?>">
+        <a href="https://blog.freecad.org/2023/02/13/a-research-grade-open-source-microscope-made-with-freecad">
+          <img class="img-fluid" src="images/PUMA_Frontice.avif" alt="PUMA Frontice"/>
+        </a>
+      </div>
+
+      <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
+        <h3 class="section-title mt-3"><?php echo _('Extremely Scientific'); ?></h3>
+        <p class="section-body whitelinks">
+          <?php echo _("FreeCAD is an open-source tool where you can understand how every component works, making it ideal for scientific projects. Its Python integration and active community further enhance its appeal. Over the years, FreeCAD has been both the subject and tool of many studies. If your research could benefit the FreeCAD community, consider applying for a grant from the <a href=https://fpa.freecad.org/>FreeCAD Project Association<a>."); ?>
+        </p>
+        <a class="btn btn-light rounded-pill mt-3" role="button" href="<?php echo $researchurl; ?>">
+          <?php echo _('Learn more'); ?>
+        </a>
+      </div>
+    </section>
+
+  </div>
+
   </main>
+
 
 <?php include 'footer.php'; ?>
