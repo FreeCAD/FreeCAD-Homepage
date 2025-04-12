@@ -224,7 +224,7 @@ class CrowdinUpdater:
         return response["id"]
 
     def status(self):
-        
+
         # {protocol}://{host}/api/v2/projects/{projectId}/files/{fileId}/languages/progress
         # fileid = 27908
         response = self._make_project_api_req("/files/27908/languages/progress?limit=100")
