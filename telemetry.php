@@ -17,7 +17,25 @@
   <div class="download-notes text-center">
     <h2 class="features-title"><?php echo _('Telemetry Data'); ?></h2>
   </div>
+        <section class="row section d-flex align-items-center justify-content-around rounded">
 
+          <div class="col-lg-6 order-lg-last rounded model-backround p-2 d-flex justify-content-center">
+		  <div class="ratio ratio-16x9">
+             <iframe src="https://www.youtube.com/watch?v=OluDQYR9HlQ" title="Enable Telemetry Addon to Help with FreeCAD Development" allowfullscreen></iframe>
+			 </div>
+          </div>
+
+          <div class="col-lg-5 text-light text-center text-lg-start px-md-4 rounded text-backround pb-3">
+            <h3 class="section-title mt-3"><?php echo _('Improve FreeCAD — Anonymously'); ?></h3>
+            <p class="section-body whitelinks">
+              <?php echo _("Telemetry helps us understand how FreeCAD is used by collecting anonymous data about its environment and usage patterns. We've developed this GDPR-compliant add-on to improve FreeCAD based on real-world insights — completely anonymously and with full respect for your privacy. By enabling it, you’re helping make FreeCAD better for everyone."); ?>
+            </p>
+            <a class="btn btn-light rounded-pill mt-3" role="button" href="<?php echo _('https://github.com/FreeCAD/FreeCAD-Telemetry'); ?>">
+              <?php echo _('Learn more'); ?>
+            </a>
+          </div>
+
+        </section>
   <div class="row justify-content-around">
     <div class="p-2 m-2 rounded text-backround col-md-5">
       <h2><?php echo _('System'); ?></h2>
