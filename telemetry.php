@@ -88,6 +88,23 @@
     "language": { type: "pie" }
   };
 
+  document.addEventListener("DOMContentLoaded", () => {
+    const loaderSrc = "images/loader-freecad-small.gif";
+
+    document.querySelectorAll("canvas[id^='canvas-']").forEach(canvas => {
+      const container = document.createElement("div");
+      container.className = "position-relative";
+      canvas.parentNode.insertBefore(container, canvas);
+      container.appendChild(canvas);
+
+      const loader = document.createElement("img");
+      loader.className = "loader position-absolute top-50 start-50 translate-middle";
+      loader.src = loaderSrc;
+      loader.alt = "Loading...";
+      container.appendChild(loader);
+    });
+  });
+
   fetch(jsonURL)
     .then(response => response.json())
     .then(data => processEvents(data))
@@ -126,14 +143,20 @@
       }
     }
 
+    const totalUsers = Object.keys(userMap).length;
+
     for (const [property, config] of Object.entries(chartSettings)) {
       if (aggregated[property]) {
-        drawChartForProperty(property, aggregated[property], config);
+        showLoader(property);
+        setTimeout(() => {
+          drawChartForProperty(property, aggregated[property], config, totalUsers);
+          hideLoader(property);
+        }, 0);
       }
     }
   }
 
-  function drawChartForProperty(property, dataMap, config) {
+  function drawChartForProperty(property, dataMap, config, totalUsers) {
     const canvas = document.getElementById(`canvas-${property}`);
     if (!canvas) return;
 
@@ -163,15 +186,15 @@
         responsive: true,
         plugins: {
           legend: {
+            display: config.type !== 'bar',
             position: 'right',
             labels: { color: '#fff' }
           },
           tooltip: {
             callbacks: {
               label: function(ctx) {
-                const total = ctx.chart._metasets[0].total || ctx.dataset.data.reduce((a, b) => a + b, 0);
                 const value = ctx.raw;
-                const percent = ((value / total) * 100).toFixed(1);
+                const percent = ((value / totalUsers) * 100).toFixed(1);
                 return `${ctx.label}: ${value} <?php echo _('users'); ?> (${percent}%)`;
               }
             }
@@ -181,13 +204,24 @@
           indexAxis: config.axis || 'x',
           scales: {
             x: {
-              ticks: { display: false },
-            },
-
+              ticks: { display: false }
+            }
           }
         } : {})
       }
     });
+  }
+
+  function showLoader(property) {
+    const canvas = document.getElementById(`canvas-${property}`);
+    const loader = canvas?.parentElement?.querySelector('.loader');
+    if (loader) loader.style.display = 'block';
+  }
+
+  function hideLoader(property) {
+    const canvas = document.getElementById(`canvas-${property}`);
+    const loader = canvas?.parentElement?.querySelector('.loader');
+    if (loader) loader.style.display = 'none';
   }
 
   function getColors(count) {
