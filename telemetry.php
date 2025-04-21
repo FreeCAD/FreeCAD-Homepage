@@ -21,7 +21,7 @@
 
           <div class="col-lg-6 order-lg-last rounded model-backround p-2 d-flex justify-content-center">
 		  <div class="ratio ratio-16x9">
-             <iframe src="https://www.youtube.com/watch?v=OluDQYR9HlQ" title="Enable Telemetry Addon to Help with FreeCAD Development" allowfullscreen></iframe>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/OluDQYR9HlQ?si=HAbd2lHOKvrBuMyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 			 </div>
           </div>
 
