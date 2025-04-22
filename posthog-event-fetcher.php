@@ -4,72 +4,92 @@ $filename = 'posthog_events.json';
 
 if (file_exists($filename)) {
     $lastModified = filemtime($filename);
-    $now = time();
-    $minutesSinceLastUpdate = ($now - $lastModified) / 60;
-
-    if ($minutesSinceLastUpdate < 30) {
+    if ((time() - $lastModified) < 1800) {
         echo "The file '$filename' was updated less than 30 minutes ago. No new request sent.\n";
         exit;
     }
 }
 
-$baseUrl = 'https://eu.posthog.com/api/event/';
 $apiKey = getenv('POSTHOG_API_KEY');
+$projectId = '51229';
+$url = "https://eu.posthog.com/api/projects/{$projectId}/query/";
+$startDate = date('Y-m-d', strtotime('-30 days'));
+$limit = 100;
+$offset = 0;
 $allResults = [];
-$url = $baseUrl . '?limit=500&after=' . urlencode(date('Y-m-d\TH:i:s\Z', strtotime('-30 days')));
-$hasError = false;
 
 do {
-    $ch = curl_init();
+    $query = [
+        'query' => [
+            'kind' => 'HogQLQuery',
+            'query' => "
+                SELECT
+                    e.distinct_id,
+                    e.event,
+                    toString(e.properties) AS properties_json,
+                    e.timestamp
+                FROM events e
+                JOIN (
+                    SELECT
+                        distinct_id,
+                        event,
+                        max(timestamp) AS latest_ts
+                    FROM events
+                    WHERE timestamp >= '$startDate'
+                    GROUP BY distinct_id, event
+                ) latest ON e.distinct_id = latest.distinct_id AND e.timestamp = latest.latest_ts AND e.event = latest.event
+                ORDER BY e.timestamp DESC
+                LIMIT $limit OFFSET $offset
+            "
+        ]
+    ];
 
+    $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_HTTPHEADER, [
         'Authorization: Bearer ' . $apiKey,
+        'Content-Type: application/json'
     ]);
-
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($query));
     $response = curl_exec($ch);
 
     if ($response === false) {
         echo 'cURL Error: ' . curl_error($ch) . "\n";
-        $hasError = true;
         curl_close($ch);
-        break;
+        exit;
     }
 
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-
-    if ($httpCode === 429) {
-        echo "Rate limit reached (HTTP 429). Waiting 10 seconds before retrying...\n";
-        curl_close($ch);
-        sleep(10);
-        continue;
-    }
+    curl_close($ch);
 
     if ($httpCode !== 200) {
-        echo "API Error: Received HTTP status code $httpCode\n";
-        $hasError = true;
-        curl_close($ch);
+        echo "API Error: HTTP $httpCode\n";
+        echo "Response: $response\n";
+        exit;
+    }
+
+    $data = json_decode($response, true);
+    $results = $data['results'] ?? [];
+
+    if (!empty($results)) {
+        foreach ($results as &$event) {
+            $event = [
+                'distinct_id' => $event[0],
+                'event' => $event[1],
+                'properties' => json_decode($event[2], true),
+                'timestamp' => $event[3]
+            ];
+        }
+        $allResults = array_merge($allResults, $results);
+        $offset += $limit;
+    } else {
         break;
     }
 
-    $responseData = json_decode($response, true);
-    curl_close($ch);
+} while (count($results) === $limit);
 
-    if (isset($responseData['results'])) {
-        $allResults = array_merge($allResults, $responseData['results']);
-    }
+file_put_contents($filename, json_encode($allResults));
+echo "Data successfully saved to '$filename'. Total rows: " . count($allResults) . "\n";
 
-    $url = $responseData['next'] ?? null;
-
-    sleep(1);
-
-} while ($url);
-
-if ($hasError) {
-    echo "No data was saved due to an error during the API request.\n";
-} else {
-    file_put_contents($filename, json_encode($allResults, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
-    echo "Data successfully saved to $filename. Total events: " . count($allResults) . "\n";
-}
 ?>
