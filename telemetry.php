@@ -65,7 +65,11 @@
       <h2><?php echo _('Default Workbench'); ?></h2>
       <canvas id="canvas-workbench_default"></canvas>
     </div>
-    <div class="p-2 m-2 rounded text-backround col-md-11">
+    <div class="p-2 m-2 rounded text-backround col-md-5">
+      <h2><?php echo _('FreeCAD Version'); ?></h2>
+      <canvas id="canvas-version"></canvas>
+    </div>
+    <div class="p-2 m-2 rounded text-backround col-md-5">
       <h2><?php echo _('Screen Resolution'); ?></h2>
       <canvas id="canvas-screen_resolution"></canvas>
     </div>
@@ -92,6 +96,7 @@
   const jsonURL = "https://www.freecad.org/posthog_events.json";
 
   const chartSettings = {
+    "version": { type: "pie" },
     "mods": { type: "bar", limit: 10, axis: 'y' },
     "python_version__minor": { type: "pie" },
     "machine": { type: "pie" },
@@ -136,7 +141,17 @@
       const props = entry.properties || {};
       if (!userMap[id]) userMap[id] = {};
 
+      // Handle version combination first
+      if (props.version_major && props.version_minor && props.version_patch) {
+        const version = `${props.version_major}.${props.version_minor}.${props.version_patch}`;
+        if (!userMap[id].version) userMap[id].version = new Set();
+        userMap[id].version.add(version);
+      }
+
       for (const [key, val] of Object.entries(props)) {
+        // Skip individual version components as they're handled above
+        if (key === 'version_major' || key === 'version_minor' || key === 'version_patch') continue;
+
         if (Array.isArray(val)) {
           if (!userMap[id][key]) userMap[id][key] = new Set(val);
           else val.forEach(v => userMap[id][key].add(v));
