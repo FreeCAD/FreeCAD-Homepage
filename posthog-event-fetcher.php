@@ -74,8 +74,9 @@ do {
 
     if (!empty($results)) {
         foreach ($results as &$event) {
+			$hashedId = hash_hmac('sha256', $event[0], $apiKey);
             $event = [
-                'distinct_id' => $event[0],
+                'distinct_id' => $hashedId,
                 'event' => $event[1],
                 'properties' => json_decode($event[2], true),
                 'timestamp' => $event[3]
