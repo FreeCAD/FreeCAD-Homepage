@@ -1,4 +1,5 @@
 <?php
+    error_reporting(0);
     $currentpage = "telemetry.php";
     include("header.php");
 ?>
@@ -28,7 +29,7 @@
           <div class="col-lg-5 text-light text-center text-lg-start px-md-4 rounded text-backround pb-3">
             <h3 class="section-title mt-3"><?php echo _('Improve FreeCAD — Anonymously'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _("Telemetry helps us understand how FreeCAD is used by collecting anonymous data about its environment and usage patterns. We've developed this GDPR-compliant add-on to improve FreeCAD based on real-world insights — completely anonymously and with full respect for your privacy. By enabling it, you’re helping make FreeCAD better for everyone."); ?>
+              <?php echo _("Telemetry helps us understand how FreeCAD is used by collecting anonymous data about its environment and usage patterns. We've developed this GDPR-compliant add-on to improve FreeCAD based on real-world insights — completely anonymously and with full respect for your privacy. By enabling it, you're helping make FreeCAD better for everyone."); ?>
             </p>
             <a class="btn btn-light rounded-pill mt-3" role="button" href="<?php echo _('https://github.com/FreeCAD/FreeCAD-Telemetry'); ?>">
               <?php echo _('Learn more'); ?>
@@ -93,8 +94,6 @@
 </main>
 
 <script>
-  const jsonURL = "https://www.freecad.org/posthog_events.json";
-
   const chartSettings = {
     "version": { type: "pie" },
     "mods": { type: "bar", limit: 10, axis: 'y' },
@@ -126,74 +125,25 @@
       loader.alt = "Loading...";
       container.appendChild(loader);
     });
-  });
 
-  fetch(jsonURL)
-    .then(response => response.json())
-    .then(data => processEvents(data))
-    .catch(error => console.error("Failed to load JSON:", error));
-
-  function processEvents(events) {
-    const userMap = {};
-
-    events.forEach(entry => {
-      const id = entry.distinct_id;
-      const props = entry.properties || {};
-      if (!userMap[id]) userMap[id] = {};
-
-      // Handle version combination first
-      if (props.version_major && props.version_minor && props.version_patch) {
-        const version = `${props.version_major}.${props.version_minor}.${props.version_patch}`;
-        if (!userMap[id].version) userMap[id].version = new Set();
-        userMap[id].version.add(version);
-      }
-
-      for (const [key, val] of Object.entries(props)) {
-        // Skip individual version components as they're handled above
-        if (key === 'version_major' || key === 'version_minor' || key === 'version_patch') continue;
-
-        if (Array.isArray(val)) {
-          if (!userMap[id][key]) userMap[id][key] = new Set(val);
-          else val.forEach(v => userMap[id][key].add(v));
-        } else {
-          userMap[id][key] = val;
-        }
-      }
-    });
-
-    const aggregated = {};
-    for (const props of Object.values(userMap)) {
-      for (const [key, value] of Object.entries(props)) {
-        if (!aggregated[key]) aggregated[key] = {};
-
-        const processValue = (val) => {
-          const filteredValue = filterDisplayValue(key, val);
-          if (filteredValue === '') return;
-          aggregated[key][filteredValue] = (aggregated[key][filteredValue] || 0) + 1;
-        };
-
-        if (value instanceof Set) {
-          for (const item of value) {
-            processValue(item);
+    // Load data from PHP endpoint
+    fetch('telemetry_data.php')
+      .then(response => response.json())
+      .then(data => {
+        const { data: aggregated, totalUsers } = data;
+        
+        for (const [property, config] of Object.entries(chartSettings)) {
+          if (aggregated[property]) {
+            showLoader(property);
+            setTimeout(() => {
+              drawChartForProperty(property, aggregated[property], config, totalUsers);
+              hideLoader(property);
+            }, 0);
           }
-        } else {
-          processValue(value);
         }
-      }
-    }
-
-    const totalUsers = Object.keys(userMap).length;
-
-    for (const [property, config] of Object.entries(chartSettings)) {
-      if (aggregated[property]) {
-        showLoader(property);
-        setTimeout(() => {
-          drawChartForProperty(property, aggregated[property], config, totalUsers);
-          hideLoader(property);
-        }, 0);
-      }
-    }
-  }
+      })
+      .catch(error => console.error("Failed to load data:", error));
+  });
 
   function drawChartForProperty(property, dataMap, config, totalUsers) {
     const canvas = document.getElementById(`canvas-${property}`);
@@ -272,27 +222,5 @@
     return Array.from({ length: count }, (_, i) => baseColors[i % baseColors.length]);
   }
 
-  function filterDisplayValue(key, value) {
-    switch(key) {
-      case '$python_version':
-        // Convert 3.11.4 to 3.11
-        return value.split('.').slice(0, 2).join('.');
-      case 'system':
-        // Convert Darwin to macOS
-        return value === 'Darwin' ? 'macOS' : value;
-      case 'mods':
-        // Remove telemetry from the list (all users)
-        return value.replace('telemetry', '');
-      case 'workbench_enabled_list':  // fall through
-      case 'workbench_disabled_list':  // fall through
-      case 'workbench_default':
-        // Remove the 'Workbench' suffix
-        return value.replace('Workbench', '');
-      case 'navigation_style':
-        return value.replace('Gui::', '').replace('NavigationStyle', '');
-      default:
-        return value;
-    }
-  }
 </script>
 <?php include 'footer.php'; ?>
