@@ -9,6 +9,7 @@
     $contributingurl = "contributing.php".$langStr;
     $privacyurl = "privacy.php".$langStr;
     $blogurl = "blog.php".$langStr;
+    $telemetryurl = "telemetry.php".$langStr;
 ?>
 
 <!DOCTYPE html>
@@ -113,6 +114,7 @@
             <a class="dropdown-item text-dark" href="<?php echo $contributingurl; ?>"><?php echo _('Contribution guidelines'); ?></a>
             <a class="dropdown-item text-dark" href="https://freecad.github.io/DevelopersHandbook/"><?php echo _('Developers handbook'); ?></a>
             <a class="dropdown-item text-dark" href="<?php echo _('https://wiki.freecad.org/Localisation'); ?>"><?php echo _('Translations'); ?></a>
+            <a class="dropdown-item text-dark" href="<?php echo $telemetryurl; ?>"><?php echo _('Telemetry'); ?></a>
           </div>
         </li>
 
