@@ -131,7 +131,7 @@
       .then(response => response.json())
       .then(data => {
         const { data: aggregated, totalUsers } = data;
-        
+
         for (const [property, config] of Object.entries(chartSettings)) {
           if (aggregated[property]) {
             showLoader(property);

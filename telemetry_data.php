@@ -42,7 +42,7 @@ error_reporting(0);
         foreach ($data as $entry) {
             $id = $entry['distinct_id'];
             $props = $entry['properties'] ?? [];
-            
+
             if (!isset($userMap[$id])) {
                 $userMap[$id] = [];
             }
@@ -102,4 +102,4 @@ error_reporting(0);
 
     header('Content-Type: application/json');
     echo json_encode(processTelemetryData());
-?> 
+?>
