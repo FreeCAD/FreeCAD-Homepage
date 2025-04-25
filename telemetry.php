@@ -50,8 +50,8 @@
       <canvas id="canvas-theme"></canvas>
     </div>
     <div class="p-2 m-2 rounded text-backround col-md-5">
-      <h2><?php echo _('Minor Python Version'); ?></h2>
-      <canvas id="canvas-python_version__minor"></canvas>
+      <h2><?php echo _('Python Version'); ?></h2>
+      <canvas id="canvas-$python_version"></canvas>
     </div>
     <div class="p-2 m-2 rounded text-backround col-md-11">
       <h2><?php echo _('Mods'); ?></h2>
@@ -93,7 +93,7 @@
 
   const chartSettings = {
     "mods": { type: "bar", limit: 10, axis: 'y' },
-    "python_version__minor": { type: "pie" },
+    "$python_version": { type: "pie" },
     "machine": { type: "pie" },
     "screen_resolution": { type: "bar", limit: 10, axis: 'y' },
     "system": { type: "pie" },
@@ -151,12 +151,17 @@
       for (const [key, value] of Object.entries(props)) {
         if (!aggregated[key]) aggregated[key] = {};
 
+        const processValue = (val) => {
+          const filteredValue = filterDisplayValue(key, val);
+          aggregated[key][filteredValue] = (aggregated[key][filteredValue] || 0) + 1;
+        };
+
         if (value instanceof Set) {
           for (const item of value) {
-            aggregated[key][item] = (aggregated[key][item] || 0) + 1;
+            processValue(item);
           }
         } else {
-          aggregated[key][value] = (aggregated[key][value] || 0) + 1;
+          processValue(value);
         }
       }
     }
@@ -249,6 +254,19 @@
       '#E91E63', '#3F51B5', '#009688', '#795548'
     ];
     return Array.from({ length: count }, (_, i) => baseColors[i % baseColors.length]);
+  }
+
+  function filterDisplayValue(key, value) {
+    switch(key) {
+      case '$python_version':
+        // Convert 3.11.4 to 3.11
+        return value.split('.').slice(0, 2).join('.');
+      case 'system':
+        // Convert Darwin to macOS
+        return value === 'Darwin' ? 'macOS' : value;
+      default:
+        return value;
+    }
   }
 </script>
 <?php include 'footer.php'; ?>
