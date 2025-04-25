@@ -54,7 +54,7 @@
       <canvas id="canvas-$python_version"></canvas>
     </div>
     <div class="p-2 m-2 rounded text-backround col-md-11">
-      <h2><?php echo _('Mods'); ?></h2>
+      <h2><?php echo _('Addons'); ?></h2>
       <canvas id="canvas-mods"></canvas>
     </div>
     <div class="p-2 m-2 rounded text-backround col-md-5">
@@ -168,6 +168,7 @@
 
         const processValue = (val) => {
           const filteredValue = filterDisplayValue(key, val);
+          if (filteredValue === '') return;
           aggregated[key][filteredValue] = (aggregated[key][filteredValue] || 0) + 1;
         };
 
@@ -279,6 +280,16 @@
       case 'system':
         // Convert Darwin to macOS
         return value === 'Darwin' ? 'macOS' : value;
+      case 'mods':
+        // Remove telemetry from the list (all users)
+        return value.replace('telemetry', '');
+      case 'workbench_enabled_list':  // fall through
+      case 'workbench_disabled_list':  // fall through
+      case 'workbench_default':
+        // Remove the 'Workbench' suffix
+        return value.replace('Workbench', '');
+      case 'navigation_style':
+        return value.replace('Gui::', '').replace('NavigationStyle', '');
       default:
         return value;
     }
