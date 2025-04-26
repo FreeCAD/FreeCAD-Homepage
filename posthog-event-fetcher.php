@@ -1,7 +1,6 @@
 <?php
 
-$filename = 'posthog_events.json';
-
+$filename = 'chart_data.json';
 if (file_exists($filename)) {
     $lastModified = filemtime($filename);
     if ((time() - $lastModified) < 1800) {
@@ -17,6 +16,21 @@ $startDate = date('Y-m-d', strtotime('-30 days'));
 $limit = 100;
 $offset = 0;
 $allResults = [];
+
+$propertiesToTrack = [
+    "mods",
+    "python_version__minor",
+    "machine",
+    "screen_resolution",
+    "system",
+    "ui_toolbar_icon_size",
+    "theme",
+    "navigation_style",
+    "workbench_enabled_list",
+    "workbench_default",
+    "workbench_disabled_list",
+    "language"
+];
 
 do {
     $query = [
@@ -89,7 +103,60 @@ do {
 
 } while (count($results) === $limit);
 
-file_put_contents($filename, json_encode($allResults));
-echo "Data successfully saved to '$filename'. Total rows: " . count($allResults) . "\n";
+usort($allResults, function ($a, $b) {
+    return strtotime($a['timestamp']) <=> strtotime($b['timestamp']);
+});
+
+$userMap = [];
+foreach ($allResults as $entry) {
+    $id = $entry['distinct_id'];
+    $props = $entry['properties'] ?? [];
+
+    if (!isset($userMap[$id])) $userMap[$id] = [];
+
+    foreach ($props as $key => $val) {
+        if (!in_array($key, $propertiesToTrack)) continue;
+
+        if (is_array($val)) {
+            if (!isset($userMap[$id][$key])) $userMap[$id][$key] = [];
+            foreach ($val as $v) {
+                $userMap[$id][$key][$v] = true;
+            }
+        } else {
+            $userMap[$id][$key] = $val; 
+        }
+    }
+}
+
+$totalUsers = count($userMap);
+$chartData = [];
+
+foreach ($propertiesToTrack as $key) {
+    $counts = [];
+
+    foreach ($userMap as $props) {
+        if (!isset($props[$key])) continue;
+
+        $val = $props[$key];
+
+        if (is_array($val)) {
+            foreach ($val as $item => $_) {
+                $counts[$item] = ($counts[$item] ?? 0) + 1;
+            }
+        } else {
+            $counts[$val] = ($counts[$val] ?? 0) + 1;
+        }
+    }
+
+    arsort($counts);
+
+    $chartData[$key] = [
+        'labels' => array_keys($counts),
+        'data' => array_values($counts),
+        'totalUsers' => $totalUsers
+    ];
+}
+file_put_contents($filename, json_encode($chartData));
+echo "Chart data written to '$filename'.\n";
 
 ?>
