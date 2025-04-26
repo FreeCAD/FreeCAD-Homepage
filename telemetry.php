@@ -38,6 +38,10 @@
         </section>
   <div class="row justify-content-around">
     <div class="p-2 m-2 rounded text-backround col-md-5">
+      <h2><?php echo _('FreeCAD Version'); ?></h2>
+      <canvas id="canvas-freecad_version"></canvas>
+    </div>
+    <div class="p-2 m-2 rounded text-backround col-md-5">
       <h2><?php echo _('System'); ?></h2>
       <canvas id="canvas-system"></canvas>
     </div>
@@ -50,8 +54,8 @@
       <canvas id="canvas-theme"></canvas>
     </div>
     <div class="p-2 m-2 rounded text-backround col-md-5">
-      <h2><?php echo _('Minor Python Version'); ?></h2>
-      <canvas id="canvas-python_version__minor"></canvas>
+      <h2><?php echo _('Python Version'); ?></h2>
+      <canvas id="canvas-$python_version"></canvas>
     </div>
     <div class="p-2 m-2 rounded text-backround col-md-11">
       <h2><?php echo _('Mods'); ?></h2>
@@ -89,11 +93,11 @@
 </main>
 
 <script>
-const jsonURL = "https://www.freecad.org/chart_data.json";
+const jsonURL = "./chart_data.json";
 
 const chartSettings = {
   "mods": { type: "bar", limit: 10, axis: 'y' },
-  "python_version__minor": { type: "pie" },
+  "$python_version": { type: "pie" },
   "machine": { type: "pie" },
   "screen_resolution": { type: "bar", limit: 10, axis: 'y' },
   "system": { type: "pie" },
@@ -103,7 +107,8 @@ const chartSettings = {
   "workbench_enabled_list": { type: "bar", limit: 10, axis: 'y' },
   "workbench_default": { type: "pie" },
   "workbench_disabled_list": { type: "bar", limit: 10, axis: 'y' },
-  "language": { type: "pie" }
+  "language": { type: "pie" },
+  "freecad_version": { type: "pie" }
 };
 
 document.addEventListener("DOMContentLoaded", () => {
