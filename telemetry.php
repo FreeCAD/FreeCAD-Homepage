@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const loader = document.createElement("img");
     loader.className = "loader position-absolute top-50 start-50 translate-middle";
     loader.src = loaderSrc;
-    loader.alt = "Loading...";
+    loader.alt = "<?php echo _('Loading...'); ?>";
     container.appendChild(loader);
   });
 });
@@ -179,7 +179,7 @@ function drawChart(property, labels, counts, totalUsers, config) {
             label: function(ctx) {
               const value = ctx.raw;
               const percent = ((value / totalUsers) * 100).toFixed(1);
-              return `${ctx.label}: ${value} kullanıcı (${percent}%)`;
+              return `${ctx.label}: ${value} <?php echo _('user'); ?> (${percent}%)`;
             }
           }
         }
