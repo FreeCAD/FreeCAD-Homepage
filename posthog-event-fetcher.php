@@ -123,7 +123,7 @@ foreach ($allResults as $entry) {
                 $userMap[$id][$key][$v] = true;
             }
         } else {
-            $userMap[$id][$key] = $val; 
+            $userMap[$id][$key] = $val;
         }
     }
 }
