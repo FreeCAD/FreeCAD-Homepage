@@ -50,10 +50,6 @@
       <canvas id="canvas-language"></canvas>
     </div>
     <div class="p-2 m-2 rounded text-backround col-md-5">
-      <h2><?php echo _('Theme'); ?></h2>
-      <canvas id="canvas-theme"></canvas>
-    </div>
-    <div class="p-2 m-2 rounded text-backround col-md-5">
       <h2><?php echo _('Python Version'); ?></h2>
       <canvas id="canvas-$python_version"></canvas>
     </div>
@@ -78,8 +74,16 @@
       <canvas id="canvas-ui_toolbar_icon_size"></canvas>
     </div>
     <div class="p-2 m-2 rounded text-backround col-md-5">
+      <h2><?php echo _('Theme'); ?></h2>
+      <canvas id="canvas-theme"></canvas>
+    </div>
+    <div class="p-2 m-2 rounded text-backround col-md-5">
       <h2><?php echo _('Navigation Style'); ?></h2>
       <canvas id="canvas-navigation_style"></canvas>
+    </div>
+    <div class="p-2 m-2 rounded text-backround col-md-5">
+      <h2><?php echo _('Navigation Orbit Style'); ?></h2>
+      <canvas id="canvas-navigation_orbit_style"></canvas>
     </div>
     <div class="p-2 m-2 rounded text-backround col-md-11">
       <h2><?php echo _('Workbench Enabled'); ?></h2>
@@ -104,6 +108,7 @@ const chartSettings = {
   "ui_toolbar_icon_size": { type: "pie" },
   "theme": { type: "pie" },
   "navigation_style": { type: "pie" },
+  "navigation_orbit_style": { type: "pie" },
   "workbench_enabled_list": { type: "bar", limit: 10, axis: 'y' },
   "workbench_default": { type: "pie" },
   "workbench_disabled_list": { type: "bar", limit: 10, axis: 'y' },

@@ -11,6 +11,7 @@ $propertiesToTrack = [
     "ui_toolbar_icon_size",
     "theme",
     "navigation_style",
+    "navigation_orbit_style",
     "workbench_enabled_list",
     "workbench_default",
     "workbench_disabled_list",
@@ -37,6 +38,17 @@ function filterDisplayValue($key, $value) {
             return str_replace('Workbench', '', $value);
         case 'navigation_style':
             return str_replace(['Gui::', 'NavigationStyle'], '', $value);
+        case 'navigation_orbit_style':
+            switch($value) {
+                case '0':
+                    return 'Turntable';
+                case '1':
+                    return 'Trackball';
+                case '2':
+                    return 'Free Turntable';
+                default:
+                    return 'Unknown';
+            }
         default:
             return $value;
     }
