@@ -46,6 +46,10 @@ function filterDisplayValue($key, $value) {
                     return 'Trackball';
                 case '2':
                     return 'Free Turntable';
+                case '3':
+                    return 'Trackball Classic';
+                case '4':
+                    return 'Rounded Arcball';
                 default:
                     return 'Unknown';
             }
