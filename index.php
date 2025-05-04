@@ -65,7 +65,7 @@
       var backgroundPositionX = -(frame % framesPerRow) * 100;
       var backgroundPositionY = -Math.floor(frame / framesPerRow) * 100;
 
-      element.style.backgroundPosition = backgroundPositionX + '% ' + backgroundPositionY + '%';
+      element.style.backgroundPosition = `${backgroundPositionX}% ${backgroundPositionY}%`;
   }
   </script>
 
