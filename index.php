@@ -132,9 +132,9 @@
           </div>
 
           <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
-            <h3 class="section-title mt-3"><?php echo _('For All Professional Needs...'); ?></h3>
+            <h3 class="section-title mt-3"><?php echo _('For Professional Design Needs...'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _('Looking for something that contains everything you need in an industrial environment? FreeCAD is the answer. After being available for "real work" for a very long time, it finally has become official, publishing version 1.0. Stop worrying about license costs and start doing all your professional work as a real owner.'); ?>
+              <?php echo _("FreeCAD is a powerful and evolving open-source parametric 3D modeler, well-suited for many professional and technical tasks. With the release of version 1.0, it marks a new milestone in stability and usability. FreeCAD puts you in control - no licensing fees, no vendor lock-in. It's not just cost-effective - it’s yours to adapt and build upon."); ?>
             </p>
           </div>
         </section>
@@ -152,9 +152,9 @@
           </div>
 
           <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
-            <h3 class="section-title mt-3"><?php echo _('...and For Everything Else'); ?></h3>
+            <h3 class="section-title mt-3"><?php echo _('...And For Everything Else'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _("If you want to make something real, perhaps the first place you should visit is FreeCAD. Thanks to its vast arsenal of tools and fantastic community, it's possible to make anything you can imagine. Signing up? Not necessary. Approving anything? No way. What about the price? Good news, none! FreeCAD is a completely open source software, which makes it as free as a bird and consequently makes you also unchained without restrictions. Start using today, and say goodbye to your shackles."); ?>
+              <?php echo _("Whether you're prototyping, 3D printing, designing furniture, or learning CAD, FreeCAD offers the tools to support your creativity. With a strong community, extensive documentation, and a growing ecosystem of add-ons, it’s a great place to start - and to grow. No sign-up, no paywall, no restrictions. Just open-source freedom at your fingertips."); ?>
             </p>
           </div>
         </section>
