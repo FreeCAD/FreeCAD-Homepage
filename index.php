@@ -132,7 +132,7 @@
           </div>
 
           <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
-            <h3 class="section-title mt-3"><?php echo _('For Professional Design Needs...'); ?></h3>
+            <h3 class="section-title mt-3"><?php echo _('For professional design needs...'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _("FreeCAD is a powerful and evolving open-source parametric 3D modeler, well-suited for many professional and technical tasks. With the release of version 1.0, it marks a new milestone in stability and usability. FreeCAD puts you in control - no licensing fees, no vendor lock-in. It's not just cost-effective - it’s yours to adapt and build upon."); ?>
             </p>
@@ -152,7 +152,7 @@
           </div>
 
           <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
-            <h3 class="section-title mt-3"><?php echo _('...And For Everything Else'); ?></h3>
+            <h3 class="section-title mt-3"><?php echo _('...And for everything else'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _("Whether you're prototyping, 3D printing, designing furniture, or learning CAD, FreeCAD offers the tools to support your creativity. With a strong community, extensive documentation, and a growing ecosystem of add-ons, it’s a great place to start - and to grow. No sign-up, no paywall, no restrictions. Just open-source freedom at your fingertips."); ?>
             </p>
