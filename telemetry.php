@@ -182,9 +182,22 @@ function drawChart(property, labels, counts, totalUsers, config) {
         legend: {
           display: config.type !== 'bar',
           position: 'right',
-          labels: { color: '#fff' }
+          labels: { color: '#fff' },
+          onHover: function(event, legendItem, legend) {
+            const index = legendItem.index;
+            const value = counts[index];
+            const percent = ((value / totalUsers) * 100).toFixed(1);
+
+            this.chart.tooltip.setActiveElements(
+              [{ datasetIndex: 0, index: index }],
+              { x: event.x, y: event.y }
+            );
+            this.chart.tooltip.update();
+            this.chart.tooltip.show();
+          }
         },
         tooltip: {
+          enabled: true,
           callbacks: {
             label: function(ctx) {
               const value = ctx.raw;
@@ -193,6 +206,10 @@ function drawChart(property, labels, counts, totalUsers, config) {
             }
           }
         }
+      },
+      hover: {
+        mode: 'index',
+        intersect: false
       },
       ...(config.type === 'bar' ? {
         indexAxis: config.axis || 'x',
