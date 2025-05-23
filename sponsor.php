@@ -237,6 +237,7 @@ updateLatestCategoryFromFeed(
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
+              <div class="bronze sponsor">Elevated Sensors</div>
               <div class="bronze sponsor">MabeeSteve</div>
               <div class="bronze sponsor">Mario Zuena</div>
               <div class="bronze sponsor">Genysys Engine ltd</div>
