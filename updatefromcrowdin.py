@@ -134,7 +134,8 @@ def generatePHP(lcodes):
 
     "generates translation.php file"
 
-    lcodes = lcodes.sorted()
+    lcodes = [l for l in lcodes if l]
+    lcodes.sort()
     phpfile = open("translation.php","w")
     phpfile.write("<?php\n\n$localeMap = array(\n")
     phpfile.write("    'en' => 'en_US',\n")

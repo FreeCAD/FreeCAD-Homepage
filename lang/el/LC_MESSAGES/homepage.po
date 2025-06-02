@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 09:27+0200\n"
-"PO-Revision-Date: 2025-01-07 15:05\n"
+"POT-Creation-Date: 2025-01-07 16:21+0100\n"
+"PO-Revision-Date: 2025-06-02 09:32\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -25,7 +25,8 @@ msgstr "Αρχική"
 msgid "See what's new"
 msgstr "Δες τι νέα υπάρχουν"
 
-#: blog.php:57 events.php:99 features.php:281 index.php:119
+#: blog.php:57 downloads.php:230 events.php:99 features.php:281 index.php:119
+#: sponsor.php:378
 msgid "Learn more"
 msgstr "Μάθετε περισσότερα"
 
@@ -71,231 +72,218 @@ msgstr "Ευχαριστούμε!"
 msgid "The FreeCAD project association"
 msgstr "Ο σύνδεσμος έργου FreeCAD"
 
-#: donation.php:60
+#: donation.php:71
 msgid "Amount"
 msgstr "Ποσό:"
 
-#: donation.php:68
+#: donation.php:79
 msgid "Donation method"
 msgstr "Μέθοδος δωρεάς"
 
-#: donation.php:70
+#: donation.php:81
 msgid "Please choose"
 msgstr "Παρακαλώ επιλέξτε"
 
-#: donation.php:71
+#: donation.php:82
 msgid "Direct SEPA bank transfer using your own bank apps"
 msgstr "Απευθείας τραπεζική μεταφορά SEPA χρησιμοποιώντας τις δικές σας τραπεζικές εφαρμογές"
 
-#: donation.php:71
+#: donation.php:82
 msgid "SEPA bank transfer"
 msgstr "Τραπεζικό έμβασμα SEPA"
 
-#: donation.php:72
+#: donation.php:83
 msgid "Credit card payment via Stripe"
 msgstr "Πληρωμή με πιστωτική κάρτα μέσω Stripe"
 
-#: donation.php:72
+#: donation.php:83
 msgid "Credit card (Stripe)"
 msgstr "Πιστωτική κάρτα (Stripe)"
 
-#: donation.php:73
+#: donation.php:84
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
 msgstr "PayPal επιτρέπει να δωρίσετε χρησιμοποιώντας το λογαριασμό σας Paypal, ή μια πιστωτική κάρτα"
 
-#: donation.php:73
+#: donation.php:84
 msgid "Paypal"
 msgstr "Paypal"
 
-#: donation.php:74
+#: donation.php:85
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
 msgstr "Το Github σας επιτρέπει να χορηγήσετε τα αγαπημένα σας έργα χρησιμοποιώντας τον λογαριασμό σας github και μια πιστωτική κάρτα"
 
-#: donation.php:74
+#: donation.php:85
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donation.php:75
+#: donation.php:86
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
 msgstr "Το OpenCollective λειτουργεί ως φορολογικός οικοδεσπότης για έργα ανοιχτού κώδικα. Μπορείτε να κάνετε δωρεά με πιστωτική κάρτα ή τραπεζικό λογαριασμό. Το OpenCollective είναι ένας οργανισμός 501(c)3 και παρέχει φορολογική έκπτωση στις ΗΠΑ."
 
-#: donation.php:75
+#: donation.php:86
 msgid "OpenCollective (501(c)3)"
 msgstr "ΑνοιχτήΣυλλογικότητα (501(c)3)"
 
-#: donation.php:80
+#: donation.php:91
 msgid "SEPA Information"
 msgstr "Πληροφορίες SEPA"
 
-#: donation.php:81
+#: donation.php:92
 msgid "Please set up your SEPA bank transfer to"
 msgstr "Παρακαλώ ρυθμίστε το τραπεζικό έμβασμα SEPA σε"
 
-#: donation.php:85
+#: donation.php:96
 msgid "Bank agency"
 msgstr "Τραπεζική υπηρεσία"
 
-#: donation.php:86
+#: donation.php:97
 msgid "Address"
 msgstr "Διεύθυνση"
 
-#: donation.php:88
+#: donation.php:99
 msgid "Submit"
 msgstr "Υποβολή"
 
-#: donation.php:90
+#: donation.php:101
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
 msgstr "Περισσότερες πληροφορίες σχετικά με τις διάφορες μεθόδους και επιλογές δωρεάς στη σελίδα\n"
 " <a href=https://wiki.freecad.org/donate>δωρεές</a>."
 
-#: downloads.php:24
+#: downloads.php:70
 msgid "Current stable version:"
 msgstr "Τρέχουσα σταθερή έκδοση:"
 
-#: downloads.php:25
+#: downloads.php:71
 msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
 msgstr "Επιλέξτε την επιθυμητή πλατφόρμα σας (σημειώστε ότι όλες οι λήψεις είναι για 64-bit συστήματα):"
 
-#: downloads.php:46
-msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
-msgstr "Τα Windows 7 είναι η ελάχιστη υποστηριζόμενη έκδοση. Για περισσότερες πληροφορίες σχετικά με την εγκατάσταση, παρακαλώ ελέγξτε το "
+#: downloads.php:92
+msgid "Windows 8 is the minimum supported version. For more info on installation, please check out the "
+msgstr ""
 
-#: downloads.php:47
+#: downloads.php:93
 msgid "https://wiki.freecad.org/Install_on_Windows"
 msgstr "https://wiki.freecad.org/Install_on_Windows"
 
-#: downloads.php:47 downloads.php:68 downloads.php:90
+#: downloads.php:93 downloads.php:114 downloads.php:135
 msgid "wiki"
 msgstr "wiki"
 
-#: downloads.php:67
-msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
-msgstr "Τα Windows 10.12 είναι η ελάχιστη υποστηριζόμενη έκδοση. Για περισσότερες πληροφορίες σχετικά με την εγκατάσταση, παρακαλώ ελέγξτε το "
+#: downloads.php:113
+msgid "macOS 10.13 High Sierra is the minimum supported version. For more info on installation, please check out the "
+msgstr ""
 
-#: downloads.php:68
+#: downloads.php:114
 msgid "https://wiki.freecad.org/Install_on_Mac"
 msgstr "https://wiki.freecad.org/Install_on_Mac"
 
-#: downloads.php:88
-msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
-msgstr "Σε ορισμένες διανομές μπορεί να χρειαστεί να εγκαταστήσετε ασφάλεια για να μπορέσετε να εκτελέσετε τα πακέτα εικόνων εφαρμογής."
+#: downloads.php:134
+msgid "For distro-specific install instructions such as Ubuntu PPA and other ways to install on Linux please check out the "
+msgstr ""
 
-#: downloads.php:89
-msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr "Για ειδικές οδηγίες, όπως Ubuntu PPA, και άλλους τρόπους για εγκατάσταση στο Linux, παρακαλούμε ελέγξτε το "
-
-#: downloads.php:90
+#: downloads.php:135
 msgid "https://wiki.freecad.org/Install_on_Unix"
 msgstr "https://wiki.freecad.org/Install_on_Unix"
 
-#: downloads.php:103
+#: downloads.php:148
 msgid "See what has changed since last version in the"
 msgstr "Δείτε τι έχει αλλάξει από την τελευταία έκδοση στην"
 
-#: downloads.php:104 index.php:29
-msgid "https://wiki.freecad.org/Release_notes_0.21"
-msgstr "https://wiki.freecad.org/Σημειώσεις_έκδοσης 0.21"
+#: downloads.php:149 index.php:29
+msgid "https://wiki.freecad.org/Release_notes_1.0"
+msgstr ""
 
-#: downloads.php:104
-msgid "FreeCAD 0.21 release notes"
-msgstr "Σημειώσεις έκδοσης του FreeCAD 0.21"
+#: downloads.php:149
+msgid "FreeCAD 1.0 release notes"
+msgstr ""
 
-#: downloads.php:114
-msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs"
-msgstr "Η κυκλοφορία του FreeCAD 1.0 θα γίνει σύντομα!\n"
-"Βοηθήστε μας να καταπολεμήσουμε τα σφάλματα της τελευταίας στιγμής"
-
-#: downloads.php:116
-msgid "Download and try a 1.0 Release Candidate build!"
-msgstr "Κατεβάστε και δοκιμάστε την υποψήφια έκδοση 1.0!"
-
-#: downloads.php:126
+#: downloads.php:164
 msgid "Development versions"
 msgstr "Αναπτυσσόμενη έκδοση"
 
-#: downloads.php:128
+#: downloads.php:166
 msgid "FreeCAD's development happens daily!"
 msgstr "Η ανάπτυξη του FreeCAD γίνεται καθημερινά!"
 
-#: downloads.php:129
+#: downloads.php:167
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
 msgstr "Η κοινότητα του FreeCAD δημιουργεί εβδομαδιαίες εκδόσεις βασισμένες στον <i>πιο πρόσφατο</i> κώδικα του FreeCAD προκειμένου οι χρήστες να δοκιμάζουν διορθώσεις σφαλμάτων/οπισθοδρομήσεις καθώς και νέες δυνατότητες."
 
-#: downloads.php:130
+#: downloads.php:168
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
 msgstr "Ζητούμε από προχωρημένους χρήστες να τρέχουν περιστασιακά τις κατασκευές ανάπτυξης για να βοηθήσουν με τη δοκιμή του νέου κώδικα."
 
-#: downloads.php:131
+#: downloads.php:169
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
 msgstr "Αυτές οι εκδόσεις δεν είναι κατάλληλες για παραγωγική χρήση και θα πρέπει να δίνεται προσοχή κατά τη χρήση τους (δημιουργήστε αντίγραφα ασφαλείας των αρχείων σας τακτικά, κ.λπ.)."
 
-#: downloads.php:132
+#: downloads.php:170
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
 msgstr "Οι εκδόσεις ανάπτυξης ίσως να είναι πιο αργές, να καταναλώνουν περισσότερη μνήμη και να είναι λιγότερο σταθερές από τις επίσημες εκδόσεις κυκλοφορίας."
 
-#: downloads.php:134
+#: downloads.php:172
 msgid "Download here a "
 msgstr "Κατεβάστε εδώ ένα "
 
-#: downloads.php:134
+#: downloads.php:172
 msgid "Weekly Build"
 msgstr "Εβδομαδιαία έκδοση"
 
-#: downloads.php:134
+#: downloads.php:172
 msgid " for Windows, macOS or Linux. "
 msgstr " για Windows, macOS ή Linux. "
 
-#: downloads.php:135
+#: downloads.php:173
 msgid "On Linux"
 msgstr "Στα Linux"
 
-#: downloads.php:135
+#: downloads.php:173
 msgid "https://wiki.freecad.org/Snap"
 msgstr "https://wiki.freecad.org/Snap"
 
-#: downloads.php:136 footer.php:36
+#: downloads.php:174 footer.php:35
 msgid "and"
 msgstr "και"
 
-#: downloads.php:136
+#: downloads.php:174
 msgid "https://wiki.freecad.org/Flatpak"
 msgstr "https://wiki.freecad.org/Flatpak"
 
-#: downloads.php:137
-msgid "also provide developement channels"
-msgstr "παρέχουν επίσης κανάλια ανάπτυξης"
+#: downloads.php:175
+msgid "also provide development channels"
+msgstr ""
 
-#: downloads.php:147
+#: downloads.php:185
 msgid "Additional modules and macros"
 msgstr "Πρόσθετες ενότητες και μακροεντολές"
 
-#: downloads.php:149
+#: downloads.php:187
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
-"        now easily be installed directly from within FreeCAD using the "
-msgstr "Η κοινότητα του FreeCAD παρέχει μια πληθώρα πρόσθετων μονάδων και μακροεντολών. Μπορούν εύκολα να εγκατασταθούν απευθείας από το FreeCAD χρησιμοποιώντας το "
+"          now easily be installed directly from within FreeCAD using the "
+msgstr ""
 
-#: downloads.php:151
+#: downloads.php:189
 msgid "https://wiki.freecad.org/Std_AddonMgr"
 msgstr "https://wiki.freecad.org/Std_AddonMgr"
 
-#: downloads.php:151
+#: downloads.php:189
 msgid "Addon manager."
 msgstr "Διαχειριστής προσθέτων."
 
-#: downloads.php:161
+#: downloads.php:199
 msgid "Source code"
 msgstr "Πηγαίος κώδικας"
 
-#: downloads.php:163
+#: downloads.php:201
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr "Ο πηγαίος κώδικας του FreeCAD φιλοξενείται κυρίως στο "
 
-#: downloads.php:165
+#: downloads.php:203
 msgid "and mirrored on "
 msgstr "και αντικατοπτρίζεται"
 
-#: downloads.php:168
+#: downloads.php:206
 msgid "and "
 msgstr "και "
 
@@ -485,109 +473,118 @@ msgstr "Σημειώσεις έκδοσης"
 #: features.php:319
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
+msgstr "Βρείτε εδώ τις σημειώσεις έκδοσης για την τρέχουσα και τις προηγούμενες εκδόσεις του FreeCAD.\n"
+"                  Οι σημειώσεις έκδοσης περιγράφουν τι νέο υπάρχει σε κάθε κυκλοφορία:"
+
+#: features.php:326
+msgid "https://wiki.freecad.org/Release_notes_1.0\" title=\"Release notes 1.0"
 msgstr ""
 
 #: features.php:326
-msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
-msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Σημειώσεις έκδοσης 0.21"
-
-#: features.php:326
-msgid "Release 0.21 - August 2023"
-msgstr "Έκδοση 0.21 - Αύγουστος 2023"
+msgid "Release 1.0 - November 2024"
+msgstr "Έκδοση 1.0 - Νοέμβριος 2024"
 
 #: features.php:326
 msgid "current stable release"
 msgstr "τρέχουσα σταθερή έκδοση"
 
 #: features.php:327
+msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Σημειώσεις έκδοσης 0.21"
+
+#: features.php:327
+msgid "Release 0.21 - August 2023"
+msgstr "Έκδοση 0.21 - Αύγουστος 2023"
+
+#: features.php:328
 msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
 msgstr "https://wiki.freecad.org/Release_notes_0.20\" title=\"Σημειώσεις έκδοσης 0.20"
 
-#: features.php:327
+#: features.php:328
 msgid "Release 0.20 - June 2022"
 msgstr "Έκδοση 0.20 - Ιούνιος 2022"
 
-#: features.php:328
+#: features.php:329
 msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
 msgstr "https://wiki.freecad.org/Release_notes_0.19\" title=\"Σημειώσεις έκδοσης 0.19"
 
-#: features.php:328
+#: features.php:329
 msgid "Release 0.19 - March 2021"
 msgstr "Κυκλοφορία 0.19 - Μάρτιος 2021"
 
-#: features.php:329
+#: features.php:330
 msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
 msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"Σημειώσεις έκδοσης 0.18"
 
-#: features.php:329
+#: features.php:330
 msgid "Release 0.18 - March 2019"
 msgstr "Κυκλοφορία 0.18 - Μάρτιος 2019"
 
-#: features.php:330
+#: features.php:331
 msgid "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
 msgstr "https://wiki.freecad.org/Release_notes_0.17\" title=\"Σημειώσεις έκδοσης 0.17"
 
-#: features.php:330
+#: features.php:331
 msgid "Release 0.17 - April 2018"
 msgstr "Κυκλοφορία 0.17 - Απρίλιος 2018"
 
-#: features.php:331
+#: features.php:332
 msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
 msgstr "https://wiki.freecad.org/Release_notes_0.16\" title=\"Σημειώσεις έκδοσης 0.16"
 
-#: features.php:331
+#: features.php:332
 msgid "Release 0.16 - April 2016"
 msgstr "Κυκλοφορία 0.16 - Απρίλιος 2016"
 
-#: features.php:332
+#: features.php:333
 msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
 msgstr "https://wiki.freecad.org/Release_notes_0.15\" title=\"Σημειώσεις έκδοσης 0.15"
 
-#: features.php:332
+#: features.php:333
 msgid "Release 0.15 - March 2015"
 msgstr "Κυκλοφορία 0.15 - Μάρτιος 2015"
 
-#: features.php:333
+#: features.php:334
 msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
 msgstr "https://wiki.freecad.org/Release_notes_0.14\" title=\"Σημειώσεις έκδοσης 0.14"
 
-#: features.php:333
+#: features.php:334
 msgid "Release 0.14 - March 2014"
 msgstr "Κυκλοφορία 0.14 - Μάρτιος 2014"
 
-#: features.php:334
+#: features.php:335
 msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
 msgstr "https://wiki.freecad.org/Release_notes_013\" title=\"Σημειώσεις έκδοσης 013"
 
-#: features.php:334
+#: features.php:335
 msgid "Release 0.13 - January 2013"
 msgstr "Κυκλοφορία 0.13 - Ιανουάριος 2013"
 
-#: features.php:335
+#: features.php:336
 msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
 msgstr "https://wiki.freecad.org/Release_notes_012\" title=\"Σημειώσεις έκδοσης 012"
 
-#: features.php:335
+#: features.php:336
 msgid "Release 0.12 - December 2011"
 msgstr "Κυκλοφορία 0.12 - Δεκέμβριος 2011"
 
-#: features.php:336
+#: features.php:337
 msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
 msgstr "https://wiki.freecad.org/Release_notes_011\" title=\"Σημειώσεις έκδοσης 011"
 
-#: features.php:336
+#: features.php:337
 msgid "Release 0.11 - March 2011"
 msgstr "Κυκλοφορία 0.11 - Μάρτιος 2011"
 
-#: features.php:347
+#: features.php:348
 msgid "Follow the official FreeCAD channels for fresh news:"
 msgstr "Ακολουθήστε τα επίσημα κανάλια του FreeCAD για φρέσκα νέα:"
 
-#: features.php:353
+#: features.php:354
 msgid "Official blog"
 msgstr "Επίσημο ιστολόγιο"
 
-#: features.php:354
+#: features.php:355
 msgid "Twitter account"
 msgstr "Λογαριασμός Twitter"
 
@@ -596,20 +593,18 @@ msgid "Get in touch!"
 msgstr "Ελάτε σε επαφή!"
 
 #: footer.php:24
-msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
-"      r-frank, epileftric, regis, rider_mortagnais, bejant."
-msgstr "©️ Η ομάδα του FreeCAD. Αρχική σελίδα πιστώσεις εικόνας (πάνω προς τα κάτω): ppemawm,\n"
-"      r-frank, epileftric, regis, rider_mortagnais, bejant."
+msgid "© The FreeCAD Team."
+msgstr ""
 
-#: footer.php:28
+#: footer.php:27
 msgid "This project is supported by:"
 msgstr "Το έργο υποστηρίζεται από:"
 
-#: footer.php:37
+#: footer.php:36
 msgid "other sponsors"
 msgstr "άλλοι χορηγοί"
 
-#: footer.php:41
+#: footer.php:40
 msgid "Improve this\n"
 "      page on GitHub"
 msgstr "Βελτίωση αυτής της σελίδας\n"
@@ -619,163 +614,163 @@ msgstr "Βελτίωση αυτής της σελίδας\n"
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Το δικό σας 3D παραμετρικό μοντέλο"
 
-#: header.php:73
+#: header.php:75
 msgid "Features"
 msgstr "Χαρακτηριστικά"
 
-#: header.php:77
+#: header.php:79
 msgid "Download"
 msgstr "Λήψη"
 
-#: header.php:81
+#: header.php:83
 msgid "Blog"
 msgstr "Ιστολόγιο"
 
-#: header.php:85
+#: header.php:87
 msgid "Documentation"
 msgstr "Οδηγίες"
 
-#: header.php:88
+#: header.php:90
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:88
+#: header.php:90
 msgid "Documentation index"
 msgstr "Ευρετήριο εγγράφων"
 
-#: header.php:89 thankyou.php:137
+#: header.php:91 thankyou.php:137
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:89
+#: header.php:91
 msgid "Getting started"
 msgstr "Ξεκινώντας"
 
-#: header.php:90
+#: header.php:92
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:90
+#: header.php:92
 msgid "Users documentation"
 msgstr "Έγγραφα βοήθειας για τους χρήστες"
 
-#: header.php:91 thankyou.php:149
+#: header.php:93 thankyou.php:149
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:91
+#: header.php:93
 msgid "The FreeCAD manual"
 msgstr "Το εγχειρίδιο του FreeCAD"
 
-#: header.php:92 thankyou.php:139
+#: header.php:94 thankyou.php:139
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:92 thankyou.php:139
+#: header.php:94 thankyou.php:139
 msgid "Workbenches documentation"
 msgstr "Οδηγίες χρήσης προγραμμάτων Εργαλειοθήκης"
 
-#: header.php:93
+#: header.php:95
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:93
+#: header.php:95
 msgid "Python coding documentation"
 msgstr "Εγχειρίδια, οδηγίες και προγράμματα κωδικοποίησης Python"
 
-#: header.php:94
+#: header.php:96
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:94
+#: header.php:96
 msgid "C++ coding documentation"
 msgstr "Τεκμηρίωση κωδικοποίησης C++"
 
-#: header.php:95 thankyou.php:158
+#: header.php:97 thankyou.php:158
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:95 thankyou.php:158
+#: header.php:97 thankyou.php:158
 msgid "Tutorials"
 msgstr "Επιδείξεις/Σεμηνάρια"
 
-#: header.php:96 thankyou.php:140
+#: header.php:98 thankyou.php:140
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:96 thankyou.php:140
+#: header.php:98 thankyou.php:140
 msgid "Frequently asked questions"
 msgstr "Συχνές ερωτήσεις"
 
-#: header.php:97
+#: header.php:99
 msgid "Privacy policy"
 msgstr "Πολιτική απορρήτου"
 
-#: header.php:98
+#: header.php:100
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/Σχετικά με το FreeCAD"
 
-#: header.php:98
+#: header.php:100
 msgid "About FreeCAD"
 msgstr "Σχετικά Με FreeCAD"
 
-#: header.php:103
+#: header.php:105
 msgid "Contribute"
 msgstr "Συνεισφέρετε"
 
-#: header.php:106
+#: header.php:108
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
-#: header.php:106
+#: header.php:108
 msgid "How to help"
 msgstr "Πώς να βοηθήσετε"
 
-#: header.php:107
+#: header.php:109
 msgid "Donate / Sponsor"
 msgstr "Δωρεά / Χορηγός"
 
-#: header.php:108
+#: header.php:110
 msgid "Report a bug"
 msgstr "Αναφορά Σφάλματος"
 
-#: header.php:109
+#: header.php:111
 msgid "Make a pull request"
 msgstr "Δημιουργήστε ένα αίτημα ελέγχου αλλαγών (pull request)"
 
-#: header.php:110
+#: header.php:112
 msgid "Jobs and funding"
 msgstr "Εργασίες και χρηματοδότηση"
 
-#: header.php:111
+#: header.php:113
 msgid "Contribution guidelines"
 msgstr "Οδηγίες συνεισφοράς"
 
-#: header.php:112
+#: header.php:114
 msgid "Developers handbook"
 msgstr "Εγχειρίδιο προγραμματιστών"
 
-#: header.php:113
+#: header.php:115
 msgid "https://wiki.freecad.org/Localisation"
 msgstr "https://wiki.freecad.org/Localisation"
 
-#: header.php:113
+#: header.php:115
 msgid "Translations"
 msgstr "Μεταφράσεις"
 
-#: header.php:118
+#: header.php:120
 msgid "Community"
 msgstr "Κοινότητα"
 
-#: header.php:121
+#: header.php:123
 msgid "Code of conduct"
 msgstr "Κώδικας Δεοντολογίας"
 
-#: header.php:122
+#: header.php:124
 msgid "Forum"
 msgstr "Φορουμ"
 
-#: header.php:137
+#: header.php:139
 msgid "Calendar"
 msgstr "Ημερολόγιο"
 
@@ -887,21 +882,21 @@ msgstr "Το FreeCAD είναι ένα πρόγραμμα ανοικτού κώ�
 msgid "Get involved"
 msgstr "Συμμετέχετε"
 
-#: sponsor.php:9
+#: sponsor.php:59
 msgid "Donating and sponsoring"
 msgstr "Δωρεά και χορηγία"
 
-#: sponsor.php:16
+#: sponsor.php:66
 msgid "Donating to FreeCAD"
 msgstr "Δωρεά στο FreeCAD"
 
-#: sponsor.php:21
+#: sponsor.php:71
 msgid "Thanks for your interest in helping the FreeCAD\n"
 "              project with donations."
 msgstr "Ευχαριστούμε για το ενδιαφέρον σας να βοηθήσετε το έργο FreeCAD\n"
 "              με δωρεές."
 
-#: sponsor.php:25
+#: sponsor.php:75
 msgid "FreeCAD is a fast-growing project, developed by a\n"
 "              community of developers and users working mostly on a voluntary\n"
 "              basis, motivated mainly by their will to build a great, free 3D\n"
@@ -910,7 +905,7 @@ msgid "FreeCAD is a fast-growing project, developed by a\n"
 "              money."
 msgstr ""
 
-#: sponsor.php:33
+#: sponsor.php:83
 msgid "However, money can help the project to achieve many\n"
 "              other goals. It can help some of its developers to work more\n"
 "              frequently or more regularly on the project, by paying for their\n"
@@ -921,7 +916,7 @@ msgid "However, money can help the project to achieve many\n"
 "              server space and web services, and many other things."
 msgstr ""
 
-#: sponsor.php:43
+#: sponsor.php:93
 msgid "There are several ways you can donate money and help\n"
 "              the FreeCAD project, being an individual, a company or an\n"
 "              institution, depending on your preferences. The money you donate\n"
@@ -933,7 +928,7 @@ msgid "There are several ways you can donate money and help\n"
 "              and ideas to fuel the development of FreeCAD."
 msgstr ""
 
-#: sponsor.php:54
+#: sponsor.php:104
 msgid "Remember, however: FreeCAD is free, and will always\n"
 "              be free. You are not required, and never will be, to donate anything\n"
 "              in order to use FreeCAD, neither to modify or distribute it. Your\n"
@@ -941,11 +936,11 @@ msgid "Remember, however: FreeCAD is free, and will always\n"
 "              be required to pay anything to access any of the FreeCAD features."
 msgstr ""
 
-#: sponsor.php:69
+#: sponsor.php:119
 msgid "One-time donation"
 msgstr "Δωρεά μόνο μία φορά"
 
-#: sponsor.php:74
+#: sponsor.php:124
 msgid "If you are not sure or not able to commit to a regular\n"
 "              donation, but still want to help the project, you can do a one-time\n"
 "              donation, of any amount."
@@ -953,17 +948,17 @@ msgstr "Εάν δεν είστε βέβαιοι ή δεν μπορείτε να 
 "   δωρεά, αλλά εξακολουθείτε να θέλετε να βοηθήσετε το έργο, μπορείτε να κάνετε μια εφάπαξ\n"
 " δωρεά, οποιουδήποτε ποσού."
 
-#: sponsor.php:79
+#: sponsor.php:129
 msgid "Choose freely the amount you wish to donate one\n"
 "              time only:"
 msgstr "Επιλέξτε ελεύθερα το ποσό που θέλετε να δωρίσετε ένα\n"
 "              μια φορά:"
 
-#: sponsor.php:94
+#: sponsor.php:144
 msgid "Sponsoring"
 msgstr "Χορηγός"
 
-#: sponsor.php:99
+#: sponsor.php:149
 msgid "We call sponsoring the act of donating money\n"
 "              recurrently to the FreeCAD project. You can do that as an\n"
 "              individual or as a company or institution, through different\n"
@@ -972,7 +967,7 @@ msgstr "Αποκαλούμε χορηγία την πράξη της δωρεά�
 " στο έργο FreeCAD. Μπορείτε να το κάνετε αυτό ως άτομο, ως εταιρεία ή ίδρυμα, μέσω διαφορετικών\n"
 " καναλιών ή πλατφορμών, ανάλογα με τις προτιμήσεις σας."
 
-#: sponsor.php:105
+#: sponsor.php:155
 msgid "Sponsoring FreeCAD allows its developers to count on\n"
 "              a steady flow of income, so it allows the FPA to plan things ahead,\n"
 "              and the FreeCAD developers to invest themselves more seriously\n"
@@ -982,7 +977,7 @@ msgstr "Κάνοντας χορηγίες στο FreeCAD επιτρέπει στ
 "              και οι προγραμματιστές του FreeCAD να επενδύσουν πιο σοβαρά\n"
 "              στο FreeCAD."
 
-#: sponsor.php:111
+#: sponsor.php:161
 msgid "To encourage persons and companies to sponsor the\n"
 "              FreeCAD project, we have created different sponsoring tiers. When\n"
 "              donating regularly to the project, unless you prefer to stay\n"
@@ -994,11 +989,11 @@ msgstr "Να ενθαρρύνει άτομα και εταιρείες να χο
 "              να έχετε το όνομά σας, το όνομα της εταιρείας και/ή το λογότυπο που θα εμφανίζεται σε αυτή την ιστοσελίδα\n"
 ", ανάλογα με την βαθμίδα που ταιριάζει:"
 
-#: sponsor.php:118
+#: sponsor.php:168
 msgid "Normal sponsor"
 msgstr "Κανονικός χορηγός"
 
-#: sponsor.php:119
+#: sponsor.php:169
 msgid "from 1 USD / 1 EUR per month. You will not have your\n"
 "                name displayed here, but you will have helped the project a lot\n"
 "                anyway. Together, normal sponsors maintain the project on its\n"
@@ -1008,21 +1003,21 @@ msgstr "από 1 USD / 1 EUR το μήνα. Δε θα εμφανιστεί το 
 "                ούτως ή άλλως. Μαζί, οι συνήθεις χορηγοί διατηρούν το έργο στα πόδια του\n"
 "                όσο και οι μεγαλύτεροι χορηγοί."
 
-#: sponsor.php:123
+#: sponsor.php:173
 msgid "Bronze sponsor"
 msgstr "Χάλκινος χορηγός"
 
-#: sponsor.php:124
+#: sponsor.php:174
 msgid "from 25 USD / 25 EUR per month. Your name or\n"
 "                company name is displayed on this page."
 msgstr "από 25 USD / 25 EUR ανά μήνα. Το όνομά σας ή\n"
 "                όνομα της εταιρείας εμφανίζεται σε αυτή τη σελίδα."
 
-#: sponsor.php:126
+#: sponsor.php:176
 msgid "Silver sponsor"
 msgstr "Χορηγός αργύρου"
 
-#: sponsor.php:127
+#: sponsor.php:177
 msgid "from 100 USD / 100 EUR per month. Your name or\n"
 "                company name is displayed on this page, with a link to\n"
 "                your website, and a one-line description text."
@@ -1030,11 +1025,11 @@ msgstr "από 100 USD / 100 EUR το μήνα. Σας επιτρέπει να �
 "                το όνομά σας ή το όνομα της εταιρείας σας σε αυτή τη σελίδα, with a link to\n"
 "                την ιστοσελίδα σου και ένα κείμενο περιγραφής μιας γραμμής."
 
-#: sponsor.php:130
+#: sponsor.php:180
 msgid "Gold sponsor"
 msgstr "Χρυσός χορηγός"
 
-#: sponsor.php:131
+#: sponsor.php:181
 msgid "from 200 USD / 200 EUR per month. Your name\n"
 "                or company name and logo displayed on this page,\n"
 "                with a link to your website and a custom description text.\n"
@@ -1046,7 +1041,7 @@ msgstr "από 200 USD / 200 EUR το μήνα. Σας επιτρέπει να\n
 "                Εταιρείες που έχουν βοηθήσει το FreeCAD νωρίς θα εμφανιστούν\n"
 "                υπό Χρυσούς χορηγούς."
 
-#: sponsor.php:138
+#: sponsor.php:188
 msgid "Instead of donating each month, you might find it\n"
 "              more comfortable to make a one-time donation that, when divided by\n"
 "              twelve, would give you right to enter a sponsoring tier. Don't\n"
@@ -1055,13 +1050,13 @@ msgstr "Αντί να κάνετε δωρεά κάθε μήνα, μπορεί ν
 " να κάνετε μια δωρεά εφάπαξ, η οποία, όταν διαιρεθεί με\n"
 " με δώδεκα, θα σας έδινε το δικαίωμα να εισέλθετε σε ένα επίπεδο χορηγίας. Μην διστάσετε να το κάνετε!"
 
-#: sponsor.php:144
+#: sponsor.php:194
 msgid "Choose freely the amount you wish to donate each\n"
 "              month:"
 msgstr "Επιλέξτε ελεύθερα το ποσό που θέλετε να δωρίσετε κάθε\n"
 "              μήνα:"
 
-#: sponsor.php:149
+#: sponsor.php:199
 msgid "Please inform your forum name or twitter handle as a note\n"
 "              in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>,\n"
 "              so we can give you proper credits!"
@@ -1069,19 +1064,19 @@ msgstr "Ενημερώστε το όνομα του φόρουμ σας ή το 
 " στη μεταφορά σας ή <a href=mailto:fpa@freecad.org>επικοινωνήστε μαζί μας</a>,\n"
 " ώστε να σας δώσουμε τις κατάλληλες πιστώσεις!"
 
-#: sponsor.php:160
+#: sponsor.php:210
 msgid "Gold sponsors"
 msgstr "Χρυσοί χορηγοί"
 
-#: sponsor.php:197
+#: sponsor.php:247
 msgid "Early sponsors"
 msgstr "Χορηγοί από τα πρώτα βήματα"
 
-#: sponsor.php:239
+#: sponsor.php:289
 msgid "Silver sponsors"
 msgstr "Αργυροί Χορηγοί"
 
-#: sponsor.php:278
+#: sponsor.php:328
 msgid "Bronze sponsors"
 msgstr "Χάλκινοι χορηγοί"
 
@@ -1235,9 +1230,9 @@ msgid "On behalf of all of the worldwide community of users,\n"
 "            make FreeCAD the best CAD modeller out there, we thank you for\n"
 "            downloading our baby! We hope you will like it as much as we do."
 msgstr "Εκ μέρους όλης της παγκόσμιας κοινότητας χρηστών,\n"
-"            προγραμματιστές, μεταφραστές, συντάκτες, συγγραφείς, οι δοκιμαστές που εργάζονται σκληρά για να\n"
-"            κάνουν το FreeCAD το καλύτερο μοντέλο CAD εκεί έξω, σας ευχαριστούμε για την\n"
-"            λήψη του μωρού μας! Ελπίζουμε ότι θα σας αρέσει όσο και εμείς."
+"            προγραμματιστές, μεταφραστές, συντάκτες, συγγραφείς, οι δοκιμαστές            που εργάζονται σκληρά για να\n"
+" κάνουν το FreeCAD το καλύτερο μοντέλο            CAD εκεί έξω, σας ευχαριστούμε για την\n"
+" λήψη του μωρού μας!            Ελπίζουμε ότι θα σας αρέσει όσο και εμείς."
 
 #: thankyou.php:169
 msgid "If you encounter issues with FreeCAD, or would like to\n"
@@ -1247,10 +1242,13 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            skill levels. There you can seek advice of more advanced users, find\n"
 "            ways to solve a particular problem, or discuss ideas about and around\n"
 "            the FreeCAD world."
-msgstr "Εάν αντιμετωπίζετε προβλήματα με το FreeCAD ή θέλετε να\n"
-" συναντήσετε και να συζητήσετε θέματα με άλλους χρήστες, επισκεφθείτε το\n"
-" <a href=https://forum.freecad.org>φόρουμ του FreeCAD</a>. Το φόρουμ είναι το κύριο σημείο συνάντησης για χρήστες FreeCAD από όλα τα μέρη του κόσμου και όλα τα επίπεδα δεξιοτήτων. Εκεί μπορείτε να ζητήσετε συμβουλές από πιο προχωρημένους χρήστες, να βρείτε\n"
-" τρόπους επίλυσης ενός συγκεκριμένου προβλήματος ή να συζητήσετε ιδέες για και γύρω από τον κόσμο του FreeCAD."
+msgstr "Αν αντιμετωπίσετε προβλήματα με το FreeCAD ή θέλετε να\n"
+"           συναντήστε και να συζητήστε θέματα με άλλους χρήστες, επισκεφθείτε το\n"
+"          <a href=https://forum.freecad.org>Φόρουμ FreeCAD</a>. Το φόρουμ είναι το\n"
+"           κύριο σημείο συνάντησης για χρήστες του FreeCAD από όλα τα μέρη του κόσμου και όλων\n"
+"           επίπεδα δεξιοτήτων. Εκεί μπορείτε να ζητήσετε συμβουλές από πιο προχωρημένους χρήστες, βρείτε\n"
+"           τρόποι επίλυσης ενός συγκεκριμένου προβλήματος ή συζήτησης ιδεών για και γύρω από\n"
+"           ο κόσμος του FreeCAD."
 
 #: translation.php:67
 msgid "English"

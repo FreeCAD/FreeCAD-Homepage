@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 09:27+0200\n"
-"PO-Revision-Date: 2025-01-07 15:05\n"
+"POT-Creation-Date: 2025-01-07 16:21+0100\n"
+"PO-Revision-Date: 2025-06-02 09:31\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -25,7 +25,8 @@ msgstr "Domů"
 msgid "See what's new"
 msgstr "Podívejte se, co je nového"
 
-#: blog.php:57 events.php:99 features.php:281 index.php:119
+#: blog.php:57 downloads.php:230 events.php:99 features.php:281 index.php:119
+#: sponsor.php:378
 msgid "Learn more"
 msgstr "Zjistěte více"
 
@@ -71,231 +72,218 @@ msgstr "Děkujeme!"
 msgid "The FreeCAD project association"
 msgstr "Sdružení projektu FreeCAD"
 
-#: donation.php:60
+#: donation.php:71
 msgid "Amount"
 msgstr "Částka"
 
-#: donation.php:68
+#: donation.php:79
 msgid "Donation method"
 msgstr "Metoda daru"
 
-#: donation.php:70
+#: donation.php:81
 msgid "Please choose"
 msgstr "Vyberte prosím"
 
-#: donation.php:71
+#: donation.php:82
 msgid "Direct SEPA bank transfer using your own bank apps"
 msgstr "Přímý SEPA bankovní převod pomocí aplikací vaší banky"
 
-#: donation.php:71
+#: donation.php:82
 msgid "SEPA bank transfer"
 msgstr "Bankovní převod SEPA"
 
-#: donation.php:72
+#: donation.php:83
 msgid "Credit card payment via Stripe"
 msgstr "Platba kreditní kartou přes Stripe"
 
-#: donation.php:72
+#: donation.php:83
 msgid "Credit card (Stripe)"
 msgstr "Kreditní karta (Stripe)"
 
-#: donation.php:73
+#: donation.php:84
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
 msgstr "Paypal umožňuje darovat pomocí účtu Paypal nebo kreditní karty"
 
-#: donation.php:73
+#: donation.php:84
 msgid "Paypal"
 msgstr "Paypal"
 
-#: donation.php:74
+#: donation.php:85
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
 msgstr "GitHub vám umožňuje sponzorovat vaše oblíbené projekty pomocí vašeho účtu GitHub a kreditní karty"
 
-#: donation.php:74
+#: donation.php:85
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donation.php:75
+#: donation.php:86
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
 msgstr "OpenCollective funguje jako fiskální hostitel pro open-source projekty. Přispět můžete kreditní kartou nebo bankovním účtem. OpenCollective je organizace 501(c)3 a poskytuje daňový odpočet v USA."
 
-#: donation.php:75
+#: donation.php:86
 msgid "OpenCollective (501(c)3)"
 msgstr "OpenCollective (501(c)3)"
 
-#: donation.php:80
+#: donation.php:91
 msgid "SEPA Information"
 msgstr "SEPA informace"
 
-#: donation.php:81
+#: donation.php:92
 msgid "Please set up your SEPA bank transfer to"
 msgstr "Nastavte prosím Váš SEPA bankovní převod na"
 
-#: donation.php:85
+#: donation.php:96
 msgid "Bank agency"
 msgstr "Bankovní agentura"
 
-#: donation.php:86
+#: donation.php:97
 msgid "Address"
 msgstr "Adresa"
 
-#: donation.php:88
+#: donation.php:99
 msgid "Submit"
 msgstr "Potvrdit"
 
-#: donation.php:90
+#: donation.php:101
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
 msgstr "Další informace o různých metodách a možnostech darování na stránce\n"
 "      <a href=https://wiki.freecad.org/donate>dary</a>."
 
-#: downloads.php:24
+#: downloads.php:70
 msgid "Current stable version:"
 msgstr "Aktuální stabilní verze:"
 
-#: downloads.php:25
+#: downloads.php:71
 msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
 msgstr "Vyberte si požadovanou platformu (všimněte si, že všechna stahování jsou pro 64bitové systémy):"
 
-#: downloads.php:46
-msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
-msgstr "Windows 7 je minimální podporovaná verze. Pro více informací o instalaci navštivte "
+#: downloads.php:92
+msgid "Windows 8 is the minimum supported version. For more info on installation, please check out the "
+msgstr ""
 
-#: downloads.php:47
+#: downloads.php:93
 msgid "https://wiki.freecad.org/Install_on_Windows"
 msgstr "https://wiki.freecad.org/Install_on_Windows/cs"
 
-#: downloads.php:47 downloads.php:68 downloads.php:90
+#: downloads.php:93 downloads.php:114 downloads.php:135
 msgid "wiki"
 msgstr "wiki"
 
-#: downloads.php:67
-msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
-msgstr "Mac OS X 10.12 Sierra je minimální podporovaná verze. Pro více informací o instalaci navštivte "
+#: downloads.php:113
+msgid "macOS 10.13 High Sierra is the minimum supported version. For more info on installation, please check out the "
+msgstr ""
 
-#: downloads.php:68
+#: downloads.php:114
 msgid "https://wiki.freecad.org/Install_on_Mac"
 msgstr "https://wiki.freecad.org/Install_on_Mac/cs"
 
-#: downloads.php:88
-msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
-msgstr "V některých distribucích možná budete muset nainstalovat fuse, abyste mohli spustit balíčky AppImage."
+#: downloads.php:134
+msgid "For distro-specific install instructions such as Ubuntu PPA and other ways to install on Linux please check out the "
+msgstr ""
 
-#: downloads.php:89
-msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr "Pro instalační pokyny k jiným specifickým distribucím, jako je Ubuntu PPA a další způsoby instalace na Linuxu, prosím navštivte "
-
-#: downloads.php:90
+#: downloads.php:135
 msgid "https://wiki.freecad.org/Install_on_Unix"
 msgstr "https://wiki.freecad.org/Install_on_Unix/cs"
 
-#: downloads.php:103
+#: downloads.php:148
 msgid "See what has changed since last version in the"
 msgstr "Podívejte se, co se změnilo od poslední verze:"
 
-#: downloads.php:104 index.php:29
-msgid "https://wiki.freecad.org/Release_notes_0.21"
-msgstr "https://wiki.freecad.org/Release_notes_0.21"
+#: downloads.php:149 index.php:29
+msgid "https://wiki.freecad.org/Release_notes_1.0"
+msgstr ""
 
-#: downloads.php:104
-msgid "FreeCAD 0.21 release notes"
-msgstr "Poznámky k vydání FreeCAD 0.21"
+#: downloads.php:149
+msgid "FreeCAD 1.0 release notes"
+msgstr ""
 
-#: downloads.php:114
-msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs"
-msgstr "Vydání FreeCADu 1.0 se nezadržitelně blíží! Pomozte nám odstranit poslední chyby"
-
-#: downloads.php:116
-msgid "Download and try a 1.0 Release Candidate build!"
-msgstr "Stáhnout a vyzkoušet kandidáta (RC) na vydání verze 1.0!"
-
-#: downloads.php:126
+#: downloads.php:164
 msgid "Development versions"
 msgstr "Verze pro vývojáře"
 
-#: downloads.php:128
+#: downloads.php:166
 msgid "FreeCAD's development happens daily!"
 msgstr "Vývoj FreeCADu probíhá denně!"
 
-#: downloads.php:129
+#: downloads.php:167
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
 msgstr "Komunita FreeCADu generuje týdenní verze, které jsou založeny na <i>nejnovějším</i> kódu FreeCADu, aby uživatelé mohli testovat opravy chyb/regrese spolu s novými funkcemi."
 
-#: downloads.php:130
+#: downloads.php:168
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
 msgstr "Žádáme, aby pokročilí uživatelé příležitostně spouštěli vývojová sestavení pro asistenci s testováním nového kódu."
 
-#: downloads.php:131
+#: downloads.php:169
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
 msgstr "Tato sestavení nejsou vhodná pro produkční použití a při jejich používání je třeba dávat pozor (pravidelně zálohovat soubory atd.)."
 
-#: downloads.php:132
+#: downloads.php:170
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
 msgstr "U vývojového sestavení by se mělo očekávat, že bude pomalejší, spotřebovávající více paměti a méně stabilní než oficiální verze."
 
-#: downloads.php:134
+#: downloads.php:172
 msgid "Download here a "
 msgstr "Zde si stáhněte "
 
-#: downloads.php:134
+#: downloads.php:172
 msgid "Weekly Build"
 msgstr "Týdenní sestavení"
 
-#: downloads.php:134
+#: downloads.php:172
 msgid " for Windows, macOS or Linux. "
 msgstr " pro Windows, macOS nebo Linux. "
 
-#: downloads.php:135
+#: downloads.php:173
 msgid "On Linux"
 msgstr "Na Linuxu"
 
-#: downloads.php:135
+#: downloads.php:173
 msgid "https://wiki.freecad.org/Snap"
 msgstr "https://wiki.freecad.org/Snap"
 
-#: downloads.php:136 footer.php:36
+#: downloads.php:174 footer.php:35
 msgid "and"
 msgstr "a"
 
-#: downloads.php:136
+#: downloads.php:174
 msgid "https://wiki.freecad.org/Flatpak"
 msgstr "https://wiki.freecad.org/Flatpak"
 
-#: downloads.php:137
-msgid "also provide developement channels"
-msgstr "poskytuje také vývojové kanály"
+#: downloads.php:175
+msgid "also provide development channels"
+msgstr ""
 
-#: downloads.php:147
+#: downloads.php:185
 msgid "Additional modules and macros"
 msgstr "Doplňkové moduly a makra"
 
-#: downloads.php:149
+#: downloads.php:187
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
-"        now easily be installed directly from within FreeCAD using the "
-msgstr "Komunita FreeCADu spravuje spoustu doplňkových modulů a maker, které mohou\n"
-"        být snadno instalovány přímo z FreeCADu za pomoci "
+"          now easily be installed directly from within FreeCAD using the "
+msgstr ""
 
-#: downloads.php:151
+#: downloads.php:189
 msgid "https://wiki.freecad.org/Std_AddonMgr"
 msgstr "https://wiki.freecad.org/Std_AddonMgr"
 
-#: downloads.php:151
+#: downloads.php:189
 msgid "Addon manager."
 msgstr "Manažera doplňků."
 
-#: downloads.php:161
+#: downloads.php:199
 msgid "Source code"
 msgstr "Zdrojový kód"
 
-#: downloads.php:163
+#: downloads.php:201
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr "Zdrojový kód FreeCADu je hostován především na "
 
-#: downloads.php:165
+#: downloads.php:203
 msgid "and mirrored on "
 msgstr "a zrcadlově na "
 
-#: downloads.php:168
+#: downloads.php:206
 msgid "and "
 msgstr "a "
 
@@ -554,106 +542,114 @@ msgstr "Zde naleznete poznámky k vydání pro aktuální a předchozí verze Fr
 "                  Poznámky k vydání popisují, co je nového v každém vydání:"
 
 #: features.php:326
-msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
-msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Poznámky k vydání 0.21"
+msgid "https://wiki.freecad.org/Release_notes_1.0\" title=\"Release notes 1.0"
+msgstr ""
 
 #: features.php:326
-msgid "Release 0.21 - August 2023"
-msgstr "Vydání 0.21 - srpen 2023"
+msgid "Release 1.0 - November 2024"
+msgstr ""
 
 #: features.php:326
 msgid "current stable release"
 msgstr "aktuální stabilní vydání"
 
 #: features.php:327
+msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Poznámky k vydání 0.21"
+
+#: features.php:327
+msgid "Release 0.21 - August 2023"
+msgstr "Vydání 0.21 - srpen 2023"
+
+#: features.php:328
 msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
 msgstr "https://wiki.freecad.org/Release_notes_0.20\" title=\"Poznámky k vydání 0.20"
 
-#: features.php:327
+#: features.php:328
 msgid "Release 0.20 - June 2022"
 msgstr "Vydání 0.20 - červen 2022"
 
-#: features.php:328
+#: features.php:329
 msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
 msgstr "https://wiki.freecad.org/Release_notes_0.19\" title=\"Poznámky k vydání 0.19"
 
-#: features.php:328
+#: features.php:329
 msgid "Release 0.19 - March 2021"
 msgstr "Vydání 0.19 - březen 2021"
 
-#: features.php:329
+#: features.php:330
 msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
 msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"Poznámky k vydání 0.18"
 
-#: features.php:329
+#: features.php:330
 msgid "Release 0.18 - March 2019"
 msgstr "Vydání 0.18 - březen 2019"
 
-#: features.php:330
+#: features.php:331
 msgid "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
 msgstr "https://wiki.freecad.org/Release_notes_0.17\" title=\"Poznámky k vydání 0.17"
 
-#: features.php:330
+#: features.php:331
 msgid "Release 0.17 - April 2018"
 msgstr "Vydání 0.17 - duben 2018"
 
-#: features.php:331
+#: features.php:332
 msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
 msgstr "https://wiki.freecad.org/Release_notes_0.16\" title=\"Poznámky k vydání 0.16"
 
-#: features.php:331
+#: features.php:332
 msgid "Release 0.16 - April 2016"
 msgstr "Vydání 0.16 - duben 2016"
 
-#: features.php:332
+#: features.php:333
 msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
 msgstr "https://wiki.freecad.org/Release_notes_0.15\" title=\"Poznámky k vydání 0.15"
 
-#: features.php:332
+#: features.php:333
 msgid "Release 0.15 - March 2015"
 msgstr "Vydání 0.15 - březen 2015"
 
-#: features.php:333
+#: features.php:334
 msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
 msgstr "https://wiki.freecad.org/Release_notes_0.14/cs\" title=\"Poznámky k vydání 0.14"
 
-#: features.php:333
+#: features.php:334
 msgid "Release 0.14 - March 2014"
 msgstr "Vydání 0.14 - březen 2014"
 
-#: features.php:334
+#: features.php:335
 msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
 msgstr "https://wiki.freecad.org/Release_notes_0.13\" title=\"Poznámky k vydání 0.13"
 
-#: features.php:334
+#: features.php:335
 msgid "Release 0.13 - January 2013"
 msgstr "Vydání 0.13 - leden 2013"
 
-#: features.php:335
+#: features.php:336
 msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
 msgstr "https://wiki.freecad.org/Release_notes_0.12\" title=\"Poznámky k vydání 0.12"
 
-#: features.php:335
+#: features.php:336
 msgid "Release 0.12 - December 2011"
 msgstr "Vydání 0.12 - prosinec 2011"
 
-#: features.php:336
+#: features.php:337
 msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
 msgstr "https://wiki.freecad.org/Release_notes_0.11\" title=\"Poznámky k vydání 0.11"
 
-#: features.php:336
+#: features.php:337
 msgid "Release 0.11 - March 2011"
 msgstr "Vydání 0.11- březen 2011"
 
-#: features.php:347
+#: features.php:348
 msgid "Follow the official FreeCAD channels for fresh news:"
 msgstr "Sledujte oficiální kanály FreeCAD pro čerstvé novinky:"
 
-#: features.php:353
+#: features.php:354
 msgid "Official blog"
 msgstr "Oficiální blog"
 
-#: features.php:354
+#: features.php:355
 msgid "Twitter account"
 msgstr "Účet Twitter"
 
@@ -662,20 +658,18 @@ msgid "Get in touch!"
 msgstr "Buďte v kontaktu!"
 
 #: footer.php:24
-msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
-"      r-frank, epileftric, regis, rider_mortagnais, bejant."
-msgstr "© Tým FreeCAD. Autorství obrázků úvodní stránky (od zhora dolů):  ppemawm,\n"
-"      r-frank, epileftric, regis, rider_mortagnais, bejant."
+msgid "© The FreeCAD Team."
+msgstr ""
 
-#: footer.php:28
+#: footer.php:27
 msgid "This project is supported by:"
 msgstr "Tento projekt podporují:"
 
-#: footer.php:37
+#: footer.php:36
 msgid "other sponsors"
 msgstr "ostatní sponzoři"
 
-#: footer.php:41
+#: footer.php:40
 msgid "Improve this\n"
 "      page on GitHub"
 msgstr "Vylepšete tuto\n"
@@ -685,163 +679,163 @@ msgstr "Vylepšete tuto\n"
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Váš vlastní 3D parametrický modelář"
 
-#: header.php:73
+#: header.php:75
 msgid "Features"
 msgstr "Funkce"
 
-#: header.php:77
+#: header.php:79
 msgid "Download"
 msgstr "Stáhnout"
 
-#: header.php:81
+#: header.php:83
 msgid "Blog"
 msgstr "Blog"
 
-#: header.php:85
+#: header.php:87
 msgid "Documentation"
 msgstr "Dokumentace"
 
-#: header.php:88
+#: header.php:90
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:88
+#: header.php:90
 msgid "Documentation index"
 msgstr "Hlavní strana dokumentace"
 
-#: header.php:89 thankyou.php:137
+#: header.php:91 thankyou.php:137
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:89
+#: header.php:91
 msgid "Getting started"
 msgstr "Začínáme"
 
-#: header.php:90
+#: header.php:92
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:90
+#: header.php:92
 msgid "Users documentation"
 msgstr "Uživatelská dokumentace"
 
-#: header.php:91 thankyou.php:149
+#: header.php:93 thankyou.php:149
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:91
+#: header.php:93
 msgid "The FreeCAD manual"
 msgstr "Příručka FreeCAD"
 
-#: header.php:92 thankyou.php:139
+#: header.php:94 thankyou.php:139
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:92 thankyou.php:139
+#: header.php:94 thankyou.php:139
 msgid "Workbenches documentation"
 msgstr "Dokumentace pracovních prostředí"
 
-#: header.php:93
+#: header.php:95
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:93
+#: header.php:95
 msgid "Python coding documentation"
 msgstr "Dokumentace o skriptování v Pythonu"
 
-#: header.php:94
+#: header.php:96
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:94
+#: header.php:96
 msgid "C++ coding documentation"
 msgstr "Dokumentace o programování v C++"
 
-#: header.php:95 thankyou.php:158
+#: header.php:97 thankyou.php:158
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:95 thankyou.php:158
+#: header.php:97 thankyou.php:158
 msgid "Tutorials"
 msgstr "Tutoriály"
 
-#: header.php:96 thankyou.php:140
+#: header.php:98 thankyou.php:140
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:96 thankyou.php:140
+#: header.php:98 thankyou.php:140
 msgid "Frequently asked questions"
 msgstr "Často kladené otázky"
 
-#: header.php:97
+#: header.php:99
 msgid "Privacy policy"
 msgstr "Zásady ochrany soukromí"
 
-#: header.php:98
+#: header.php:100
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/About_FreeCAD"
 
-#: header.php:98
+#: header.php:100
 msgid "About FreeCAD"
 msgstr "O FreeCADu"
 
-#: header.php:103
+#: header.php:105
 msgid "Contribute"
 msgstr "Zapojte se"
 
-#: header.php:106
+#: header.php:108
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
-#: header.php:106
+#: header.php:108
 msgid "How to help"
 msgstr "Jak pomoci"
 
-#: header.php:107
+#: header.php:109
 msgid "Donate / Sponsor"
 msgstr "Darovat / Sponzorovat"
 
-#: header.php:108
+#: header.php:110
 msgid "Report a bug"
 msgstr "Nahlásit chybu"
 
-#: header.php:109
+#: header.php:111
 msgid "Make a pull request"
 msgstr "Vytvořit žádost o změnu"
 
-#: header.php:110
+#: header.php:112
 msgid "Jobs and funding"
 msgstr "Pracovní místa a financování"
 
-#: header.php:111
+#: header.php:113
 msgid "Contribution guidelines"
 msgstr "Pokyny pro příspěvky"
 
-#: header.php:112
+#: header.php:114
 msgid "Developers handbook"
 msgstr "Příručka pro vývojáře"
 
-#: header.php:113
+#: header.php:115
 msgid "https://wiki.freecad.org/Localisation"
 msgstr "https://wiki.freecad.org/Localisation/cs"
 
-#: header.php:113
+#: header.php:115
 msgid "Translations"
 msgstr "Překlady"
 
-#: header.php:118
+#: header.php:120
 msgid "Community"
 msgstr "Komunita"
 
-#: header.php:121
+#: header.php:123
 msgid "Code of conduct"
 msgstr "Etický kodex"
 
-#: header.php:122
+#: header.php:124
 msgid "Forum"
 msgstr "Fórum"
 
-#: header.php:137
+#: header.php:139
 msgid "Calendar"
 msgstr "Kalendář"
 
@@ -971,21 +965,21 @@ msgstr "FreeCAD je skutečně projekt s otevřeným zdrojem a pokud byste chtěl
 msgid "Get involved"
 msgstr "Zapojit se"
 
-#: sponsor.php:9
+#: sponsor.php:59
 msgid "Donating and sponsoring"
 msgstr "Darování a sponzorování"
 
-#: sponsor.php:16
+#: sponsor.php:66
 msgid "Donating to FreeCAD"
 msgstr "Přispění na FreeCAD"
 
-#: sponsor.php:21
+#: sponsor.php:71
 msgid "Thanks for your interest in helping the FreeCAD\n"
 "              project with donations."
 msgstr "Děkujeme za váš zájem pomoci projektu FreeCAD\n"
 "              formou příspěvku."
 
-#: sponsor.php:25
+#: sponsor.php:75
 msgid "FreeCAD is a fast-growing project, developed by a\n"
 "              community of developers and users working mostly on a voluntary\n"
 "              basis, motivated mainly by their will to build a great, free 3D\n"
@@ -999,7 +993,7 @@ msgstr "FreeCAD je rychle se rozvíjející projekt, vyvinutý\n"
 "              díky energii všech těchto lidí, bez potřeby\n"
 "              peněz."
 
-#: sponsor.php:33
+#: sponsor.php:83
 msgid "However, money can help the project to achieve many\n"
 "              other goals. It can help some of its developers to work more\n"
 "              frequently or more regularly on the project, by paying for their\n"
@@ -1017,7 +1011,7 @@ msgstr "Peníze však mohou projektu pomoci dosáhnout mnoha\n"
 "              organizovat akce samostatně, aby se členové komunity mohli setkávat, platit za\n"
 "              prostor na serveru a webové služby a mnoho dalších věcí."
 
-#: sponsor.php:43
+#: sponsor.php:93
 msgid "There are several ways you can donate money and help\n"
 "              the FreeCAD project, being an individual, a company or an\n"
 "              institution, depending on your preferences. The money you donate\n"
@@ -1037,7 +1031,7 @@ msgstr "Existuje několik způsobů, jak můžete darovat peníze a pomoci\n"
 "              bude sama sponzorovat několik projektů, snah a nápadů\n"
 "              na podporu vývoje FreeCADu."
 
-#: sponsor.php:54
+#: sponsor.php:104
 msgid "Remember, however: FreeCAD is free, and will always\n"
 "              be free. You are not required, and never will be, to donate anything\n"
 "              in order to use FreeCAD, neither to modify or distribute it. Your\n"
@@ -1049,11 +1043,11 @@ msgstr "Nezapomeňte však: FreeCAD je zdarma a vždy\n"
 "              Váš dar bude vítán a může hodně pomoci, ale nikdy nebudete\n"
 "              nuceni platit za přístup k jakékoli z funkcí FreeCADu."
 
-#: sponsor.php:69
+#: sponsor.php:119
 msgid "One-time donation"
 msgstr "Jednorázový dar"
 
-#: sponsor.php:74
+#: sponsor.php:124
 msgid "If you are not sure or not able to commit to a regular\n"
 "              donation, but still want to help the project, you can do a one-time\n"
 "              donation, of any amount."
@@ -1061,16 +1055,16 @@ msgstr "Pokud si nejste jisti nebo nejste schopni se zavázat k pravidelnému\n"
 "              dárcovství, ale přesto chcete projektu pomoci, můžete přispět\n"
 "              jednorázovým darem v libovolné výši."
 
-#: sponsor.php:79
+#: sponsor.php:129
 msgid "Choose freely the amount you wish to donate one\n"
 "              time only:"
 msgstr "Zvolte částku, kterou chcete darovat jednorázově:"
 
-#: sponsor.php:94
+#: sponsor.php:144
 msgid "Sponsoring"
 msgstr "Sponzoři"
 
-#: sponsor.php:99
+#: sponsor.php:149
 msgid "We call sponsoring the act of donating money\n"
 "              recurrently to the FreeCAD project. You can do that as an\n"
 "              individual or as a company or institution, through different\n"
@@ -1080,7 +1074,7 @@ msgstr "Sponzorováním nazýváme opakované darování peněz\n"
 "              jednotlivec nebo jako společnost nebo instituce prostřednictvím různých\n"
 "              kanálů nebo platforem, v závislosti na vašich preferencích."
 
-#: sponsor.php:105
+#: sponsor.php:155
 msgid "Sponsoring FreeCAD allows its developers to count on\n"
 "              a steady flow of income, so it allows the FPA to plan things ahead,\n"
 "              and the FreeCAD developers to invest themselves more seriously\n"
@@ -1089,7 +1083,7 @@ msgstr "Sponzorování FreeCADu umožňuje jeho vývojářům počítat\n"
 "              se stálým tokem příjmů, takže umožňuje FPA plánovat věci dopředu a\n"
 "              vývojářům FreeCADu účinněji investovat do FreeCADu."
 
-#: sponsor.php:111
+#: sponsor.php:161
 msgid "To encourage persons and companies to sponsor the\n"
 "              FreeCAD project, we have created different sponsoring tiers. When\n"
 "              donating regularly to the project, unless you prefer to stay\n"
@@ -1101,11 +1095,11 @@ msgstr "Abychom povzbudili osoby a společnosti, aby sponzorovali\n"
 "              anonymní, bude na tomto webu uvedeno vaše jméno, název společnosti\n"
 "              a/nebo logo v závislosti na úrovni, do které spadáte:"
 
-#: sponsor.php:118
+#: sponsor.php:168
 msgid "Normal sponsor"
 msgstr "Normální sponzor"
 
-#: sponsor.php:119
+#: sponsor.php:169
 msgid "from 1 USD / 1 EUR per month. You will not have your\n"
 "                name displayed here, but you will have helped the project a lot\n"
 "                anyway. Together, normal sponsors maintain the project on its\n"
@@ -1114,21 +1108,21 @@ msgstr "od 1 USD / 1 EUR měsíčně. Nebudete zde mít své\n"
 "                jméno, ale i tak projektu velmi pomůžete.\n"
 "                Normální sponzoři společně udržují projekt na nohou stejně jako větší sponzoři."
 
-#: sponsor.php:123
+#: sponsor.php:173
 msgid "Bronze sponsor"
 msgstr "Bronzový sponzor"
 
-#: sponsor.php:124
+#: sponsor.php:174
 msgid "from 25 USD / 25 EUR per month. Your name or\n"
 "                company name is displayed on this page."
 msgstr "od 25 USD / 25 EUR měsíčně. Na této stránce se\n"
 "                zobrazí vaše jméno nebo název společnosti."
 
-#: sponsor.php:126
+#: sponsor.php:176
 msgid "Silver sponsor"
 msgstr "Stříbrný sponzor"
 
-#: sponsor.php:127
+#: sponsor.php:177
 msgid "from 100 USD / 100 EUR per month. Your name or\n"
 "                company name is displayed on this page, with a link to\n"
 "                your website, and a one-line description text."
@@ -1136,11 +1130,11 @@ msgstr "od 100 USD / 100 EUR měsíčně. Na této stránce se\n"
 "                zobrazí vaše jméno nebo název společnosti s odkazem\n"
 "                na váš web a jednořádkovým textovým popisem."
 
-#: sponsor.php:130
+#: sponsor.php:180
 msgid "Gold sponsor"
 msgstr "Zlatý sponzor"
 
-#: sponsor.php:131
+#: sponsor.php:181
 msgid "from 200 USD / 200 EUR per month. Your name\n"
 "                or company name and logo displayed on this page,\n"
 "                with a link to your website and a custom description text.\n"
@@ -1152,7 +1146,7 @@ msgstr "od 200 USD / 200 EUR měsíčně. Na této stránce se\n"
 "                Společnosti, které pomohly FreeCADu dříve, se také objevují\n"
 "                pod zlatými sponzory."
 
-#: sponsor.php:138
+#: sponsor.php:188
 msgid "Instead of donating each month, you might find it\n"
 "              more comfortable to make a one-time donation that, when divided by\n"
 "              twelve, would give you right to enter a sponsoring tier. Don't\n"
@@ -1162,12 +1156,12 @@ msgstr "Namísto darování každý měsíc může být pro vás\n"
 "              vám dá právo vstoupit do sponzorské úrovně. Neváhejte\n"
 "              a udělejte to!"
 
-#: sponsor.php:144
+#: sponsor.php:194
 msgid "Choose freely the amount you wish to donate each\n"
 "              month:"
 msgstr "Zvolte částku, kterou chcete darovat každý měsíc:"
 
-#: sponsor.php:149
+#: sponsor.php:199
 msgid "Please inform your forum name or twitter handle as a note\n"
 "              in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>,\n"
 "              so we can give you proper credits!"
@@ -1175,19 +1169,19 @@ msgstr "Uveďte prosím své jméno na fóru nebo twitteru jako poznámku\n"
 "              ve vašem převodu, nebo <a href=mailto:fpa@freecad.org>nás kontaktujte</a>,\n"
 "              abychom vás mohli řádně zviditelnit!"
 
-#: sponsor.php:160
+#: sponsor.php:210
 msgid "Gold sponsors"
 msgstr "Zlatí sponzoři"
 
-#: sponsor.php:197
+#: sponsor.php:247
 msgid "Early sponsors"
 msgstr "První sponzoři"
 
-#: sponsor.php:239
+#: sponsor.php:289
 msgid "Silver sponsors"
 msgstr "Stříbrní sponzoři"
 
-#: sponsor.php:278
+#: sponsor.php:328
 msgid "Bronze sponsors"
 msgstr "Bronzoví sponzoři"
 

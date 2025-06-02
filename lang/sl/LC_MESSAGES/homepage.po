@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 09:27+0200\n"
-"PO-Revision-Date: 2025-01-07 15:07\n"
+"POT-Creation-Date: 2025-01-07 16:21+0100\n"
+"PO-Revision-Date: 2025-06-02 09:33\n"
 "Last-Translator: \n"
 "Language-Team: Slovenian\n"
 "Language: sl_SI\n"
@@ -25,17 +25,18 @@ msgstr "Domov"
 msgid "See what's new"
 msgstr "Oglejte si, kaj je novega"
 
-#: blog.php:57 events.php:99 features.php:281 index.php:119
+#: blog.php:57 downloads.php:230 events.php:99 features.php:281 index.php:119
+#: sponsor.php:378
 msgid "Learn more"
 msgstr "Preberite več"
 
 #: blog.php:263
 msgid "All Blogs"
-msgstr ""
+msgstr "Vsi blogi"
 
 #: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
-msgstr ""
+msgstr "Ta stran je prenesena iz"
 
 #: contributor.php:11
 msgid "Thank you for your contribution!"
@@ -45,7 +46,7 @@ msgstr "Hvala za vaš prispevek!"
 msgid "Thank you for supporting FreeCAD!\n"
 "            Whether you donated a little or a lot, all efforts contribute to\n"
 "            make FreeCAD development go further and faster."
-msgstr ""
+msgstr "Hvala, ker podpirate FreeCAD! Ne glede na to, ali ste darovali malo ali veliko, vsak prispevek pripomore k nadaljnjemu in hitrejšemu razvoju programa."
 
 #: contributor.php:20
 msgid "If you have made a recurring donation above 25 USD/EUR\n"
@@ -54,7 +55,7 @@ msgid "If you have made a recurring donation above 25 USD/EUR\n"
 "            your name, company name or logo displayed on the FreeCAD website,\n"
 "            depending on the tier you fit in. If you have not yet informed us of\n"
 "            the name you wish to see displayed, please reach to us at"
-msgstr ""
+msgstr "Če ste redno donirali več kot 25 USD/EUR na mesec (ali naredili enkratno donacijo nad 300 USD/EUR), ste upravičeni do naziva bronasti, srebrni ali zlati sponzor. Vaše ime, ime podjetja ali logotip se lahko prikažejo na FreeCAD spletni strani, odvisno od naziva. Če nas še niste obvestili o imenu, ki ga želite prikazati, nas kontaktirajte na"
 
 #: contributor.php:29
 msgid "Thanks!"
@@ -64,252 +65,239 @@ msgstr "Hvala!"
 msgid "The FreeCAD project association"
 msgstr "Združenje projekta FreeCAD"
 
-#: donation.php:60
+#: donation.php:71
 msgid "Amount"
 msgstr "Znesek"
 
-#: donation.php:68
+#: donation.php:79
 msgid "Donation method"
-msgstr "Način darovanja"
+msgstr "Način donacije"
 
-#: donation.php:70
+#: donation.php:81
 msgid "Please choose"
-msgstr "Izberite"
+msgstr "Prosimo, izberite"
 
-#: donation.php:71
+#: donation.php:82
 msgid "Direct SEPA bank transfer using your own bank apps"
-msgstr "Neposredno bančno nakazilo SEPA z vašo bančno aplikacijo"
+msgstr "Neposredno bančno nakazilo SEPA prek vaše bančne aplikacije"
 
-#: donation.php:71
+#: donation.php:82
 msgid "SEPA bank transfer"
 msgstr "SEPA bančno nakazilo"
 
-#: donation.php:72
+#: donation.php:83
 msgid "Credit card payment via Stripe"
 msgstr "Plačilo s kreditno kartico preko Stripa"
 
-#: donation.php:72
+#: donation.php:83
 msgid "Credit card (Stripe)"
 msgstr "Kreditna kartica (Stripe)"
 
-#: donation.php:73
+#: donation.php:84
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
-msgstr "Paypal dopušča darovanje z vašim Paypal računom ali kreditno kartico"
+msgstr "Paypal omogoča doniranje prek vašega Paypal računa ali s kreditno kartico"
 
-#: donation.php:73
+#: donation.php:84
 msgid "Paypal"
 msgstr "Paypal"
 
-#: donation.php:74
+#: donation.php:85
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
-msgstr ""
+msgstr "GitHub omogoča sponzoriranje vaših najljubših projektov prek vašega GitHub računa ali s kreditno kartico"
 
-#: donation.php:74
+#: donation.php:85
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
-#: donation.php:75
+#: donation.php:86
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
-msgstr "OpenCollective deluje kot denarni gostitelj odprtokodnim projektom. Darujete lahko s kreditno kartico ali bančnim računom. OpenCollective je 501(c)3 družba, ki v ZDA omogoča davčne olajšave."
+msgstr "OpenCollective deluje kot denarni gostitelj odprtokodnim projektom. Donirate lahko s kreditno kartico ali bančnim računom. OpenCollective je 501(c)3 družba, ki v ZDA omogoča davčne olajšave."
 
-#: donation.php:75
+#: donation.php:86
 msgid "OpenCollective (501(c)3)"
 msgstr "OpenCollective (501(c)3)"
 
-#: donation.php:80
+#: donation.php:91
 msgid "SEPA Information"
 msgstr "Podatki o SEPA"
 
-#: donation.php:81
+#: donation.php:92
 msgid "Please set up your SEPA bank transfer to"
-msgstr "Nastavite vaše SEPA bančno nakazilo na"
+msgstr "Prosimo, izvedite vaše SEPA bančno nakazilo na"
 
-#: donation.php:85
+#: donation.php:96
 msgid "Bank agency"
 msgstr "Bančna agencija"
 
-#: donation.php:86
+#: donation.php:97
 msgid "Address"
 msgstr "Naslov"
 
-#: donation.php:88
+#: donation.php:99
 msgid "Submit"
 msgstr "Pošlji"
 
-#: donation.php:90
+#: donation.php:101
 msgid "More information about the different donation methods and options on the\n"
 "      <a href=https://wiki.freecad.org/donate>donations</a> page."
-msgstr "Več o različnih načinih in možnostih darovanja na strani\n"
-"      <a href=https://wiki.freecad.org/donate>darovi</a>."
+msgstr "Več informacij o različnih načinih in možnostih doniranja je na strani <a href=https://wiki.freecad.org/donate>donacije</a>."
 
-#: downloads.php:24
+#: downloads.php:70
 msgid "Current stable version:"
-msgstr ""
+msgstr "Trenutna stabilna različica:"
 
-#: downloads.php:25
+#: downloads.php:71
 msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
-msgstr "Izberite željeno podstat (vsi prenosi so za 64-bitne sisteme):"
+msgstr "Izberite želeno platformo (vsi prenosi so za 64-bitne sisteme):"
 
-#: downloads.php:46
-msgid "Windows 7 is the minimum supported version. For more info on installation, please check out the "
-msgstr "Windows 7 je najnižja podprta različica. Za več podatkov o namestitvi preverite "
+#: downloads.php:92
+msgid "Windows 8 is the minimum supported version. For more info on installation, please check out the "
+msgstr "Windows 8 je najstarejša še podprta različica. Za več informacij o namestitvi obiščite "
 
-#: downloads.php:47
+#: downloads.php:93
 msgid "https://wiki.freecad.org/Install_on_Windows"
-msgstr ""
+msgstr "https://wiki.freecad.org/Install_on_Windows"
 
-#: downloads.php:47 downloads.php:68 downloads.php:90
+#: downloads.php:93 downloads.php:114 downloads.php:135
 msgid "wiki"
 msgstr "wiki"
 
-#: downloads.php:67
-msgid "Mac OS X 10.12 Sierra is the minimum supported version. For more info on installation, please check out the "
-msgstr "Mac OS X 10.12 Sierra je najnižja podprta različica. Za več informacij glede namestitve, preverite "
-
-#: downloads.php:68
-msgid "https://wiki.freecad.org/Install_on_Mac"
-msgstr ""
-
-#: downloads.php:88
-msgid "In some distros you might need to install fuse to be able to run the AppImage bundles."
-msgstr ""
-
-#: downloads.php:89
-msgid "For other distro-specific install instructions, such as Ubuntu PPA, and other ways to install on Linux, please check out the "
-msgstr ""
-
-#: downloads.php:90
-msgid "https://wiki.freecad.org/Install_on_Unix"
-msgstr ""
-
-#: downloads.php:103
-msgid "See what has changed since last version in the"
-msgstr "Oglejte si novosti od zadnje zazličice v"
-
-#: downloads.php:104 index.php:29
-msgid "https://wiki.freecad.org/Release_notes_0.21"
-msgstr "https://wiki.freecad.org/Opombe k različici 0.21"
-
-#: downloads.php:104
-msgid "FreeCAD 0.21 release notes"
-msgstr "Opombe ob različici FreeCADa 0.21"
+#: downloads.php:113
+msgid "macOS 10.13 High Sierra is the minimum supported version. For more info on installation, please check out the "
+msgstr "macOS 10.13 High Sierra je najstarejša še podprta različica. Za več informacij o namestitvi obiščite "
 
 #: downloads.php:114
-msgid "The release of FreeCAD 1.0 is happening soon! Help us squashing last-minute bugs"
-msgstr ""
+msgid "https://wiki.freecad.org/Install_on_Mac"
+msgstr "https://wiki.freecad.org/Install_on_Mac"
 
-#: downloads.php:116
-msgid "Download and try a 1.0 Release Candidate build!"
-msgstr ""
+#: downloads.php:134
+msgid "For distro-specific install instructions such as Ubuntu PPA and other ways to install on Linux please check out the "
+msgstr "Za navodila namestitve na specifično distribucijo, kot je Ubuntu PPA in ostale načine namestitve na Linux, obiščite "
 
-#: downloads.php:126
+#: downloads.php:135
+msgid "https://wiki.freecad.org/Install_on_Unix"
+msgstr "https://wiki.freecad.org/Install_on_Unix"
+
+#: downloads.php:148
+msgid "See what has changed since last version in the"
+msgstr "Oglejte si novosti od zadnje različice v"
+
+#: downloads.php:149 index.php:29
+msgid "https://wiki.freecad.org/Release_notes_1.0"
+msgstr "https://wiki.freecad.org/Release_notes_1.0"
+
+#: downloads.php:149
+msgid "FreeCAD 1.0 release notes"
+msgstr "FreeCAD 1.0 opombe ob izidu"
+
+#: downloads.php:164
 msgid "Development versions"
-msgstr "Različice v razvoju"
+msgstr "Razvojne različice"
 
-#: downloads.php:128
+#: downloads.php:166
 msgid "FreeCAD's development happens daily!"
 msgstr "FreeCAD se razvija dnevno!"
 
-#: downloads.php:129
+#: downloads.php:167
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
-msgstr "FreeCADova skupnost objavlja tedenske izgradnje z <i>najsodobejšo</i> kodo FreeCADa, da lahko uporabniki preizkusijo popravke hroščev/nazadovanja skupaj z novimi zmožnostmi."
+msgstr "FreeCAD skupnost objavlja tedenske izgradnje z <i>najsodobnejšo</i> kodo FreeCADa, da lahko uporabniki preizkusijo popravke hroščev/nazadovanja skupaj z novimi zmožnostmi."
 
-#: downloads.php:130
+#: downloads.php:168
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
-msgstr "Prosimo napredne uporabnike, da občasno uporabijo razvojno izgradnjo za preizkušanje nove kode."
+msgstr "Prosimo napredne uporabnike, da občasno uporabijo razvojno izgradnjo in pomagajo s preizkušanje nove kode."
 
-#: downloads.php:131
+#: downloads.php:169
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
-msgstr "Te izgradnje niso primerne za resno uporabo, zato je potrebno pri njihovi uporabi biti posebno pozoren (redno varnostno shranjevanje datotek ...)."
+msgstr "Te izgradnje niso primerne za proizvodno okolje in zahtevajo dodatno pozornost pri uporabi (redna izdelava varnostnih kopij, itd.)."
 
-#: downloads.php:132
+#: downloads.php:170
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
-msgstr "Za pričakovati je, da bo razvojna izgradnja počasnejša, potratnejša s spominom in manj stabilna, kot uradne izdaje."
+msgstr "Pričakuje se lahko, da so razvojne izgradnje bolj počasne, potratne s spominom in nestabilne, kot uradne izdaje."
 
-#: downloads.php:134
+#: downloads.php:172
 msgid "Download here a "
-msgstr ""
+msgstr "Tukaj prenesite "
 
-#: downloads.php:134
+#: downloads.php:172
 msgid "Weekly Build"
-msgstr ""
+msgstr "Tedensko izgradnjo"
 
-#: downloads.php:134
+#: downloads.php:172
 msgid " for Windows, macOS or Linux. "
-msgstr ""
+msgstr " za Windows, macOS ali Linux. "
 
-#: downloads.php:135
+#: downloads.php:173
 msgid "On Linux"
-msgstr ""
+msgstr "Na Linuxu"
 
-#: downloads.php:135
+#: downloads.php:173
 msgid "https://wiki.freecad.org/Snap"
-msgstr ""
+msgstr "https://wiki.freecad.org/Snap"
 
-#: downloads.php:136 footer.php:36
+#: downloads.php:174 footer.php:35
 msgid "and"
 msgstr "in"
 
-#: downloads.php:136
+#: downloads.php:174
 msgid "https://wiki.freecad.org/Flatpak"
-msgstr ""
+msgstr "https://wiki.freecad.org/Flatpak"
 
-#: downloads.php:137
-msgid "also provide developement channels"
-msgstr ""
+#: downloads.php:175
+msgid "also provide development channels"
+msgstr "ponujata tudi razvojne kanale"
 
-#: downloads.php:147
+#: downloads.php:185
 msgid "Additional modules and macros"
 msgstr "Dodatni moduli in makri"
 
-#: downloads.php:149
+#: downloads.php:187
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
-"        now easily be installed directly from within FreeCAD using the "
-msgstr ""
+"          now easily be installed directly from within FreeCAD using the "
+msgstr "FreeCAD skupnost ponuja celo paleto dodatnih modulov in makrov. Sedaj jih je enostavno namestiti kar neposredno iz programa s pomočjo "
 
-#: downloads.php:151
+#: downloads.php:189
 msgid "https://wiki.freecad.org/Std_AddonMgr"
-msgstr ""
+msgstr "https://wiki.freecad.org/Std_AddonMgr"
 
-#: downloads.php:151
+#: downloads.php:189
 msgid "Addon manager."
-msgstr "Upravljalnik dodatkov."
+msgstr "Upravljalnika dodatkov."
 
-#: downloads.php:161
+#: downloads.php:199
 msgid "Source code"
 msgstr "Izvorna koda"
 
-#: downloads.php:163
+#: downloads.php:201
 msgid "The source code of FreeCAD is hosted primarily on "
 msgstr "FreeCADova izvorna koda gostuje predvsem na "
 
-#: downloads.php:165
+#: downloads.php:203
 msgid "and mirrored on "
 msgstr "in je preslikana na "
 
-#: downloads.php:168
+#: downloads.php:206
 msgid "and "
 msgstr "in "
 
 #: events.php:59
 msgid "FreeCAD events"
-msgstr ""
+msgstr "FreeCAD dogodki"
 
 #: events.php:61
 msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
-msgstr ""
+msgstr "V spodnjem koledarju so prikazani prihajajoči datumi FreeCAD srečanj in drugih dogodkov skupnosti."
 
 #: events.php:79
 msgid "Subscribe to this calendar using this"
-msgstr ""
+msgstr "Naročite se na ta koledar s pomočjo te"
 
 #: events.php:79
 msgid "ICS link"
-msgstr ""
+msgstr "ICS povezave"
 
 #: features.php:66
 msgid "Key FreeCAD Features"
-msgstr "Ključne FreeCAD-ve zmožnosti"
+msgstr "Ključne FreeCAD-ove funkcije"
 
 #: features.php:77
 msgid "Made to build for the real world"
@@ -320,7 +308,7 @@ msgid "FreeCAD is made primarily to design objects for the real world. Everythin
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr ""
+msgstr "FreeCAD je namenjen predvsem snovanju objektov, ki bodo ugledali luč sveta. Vse, kar izdelate v FreeCADu uporablja resnične enote, naj bodo to mikroni, kilometri, palci ali čevlji, ter celo poljubna mešanica enot. FreeCAD ponuja <a href=https://wiki.freecad.org/Workbenches>orodja</a> za izdelavo, izvoz in urejanje natančnih modelov. Te lahko izvozite za 3D tiskanje ali CNC obdelavo, ustvarite 2D risbe in prikaze vašega modela, izvedete analize, kot so metoda končnih elementov (FEM), ali izvozite podatke, kot so količine in kosovnica."
 
 #: features.php:97
 msgid "A powerful solid-based geometry kernel"
@@ -335,11 +323,11 @@ msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
 "              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
-msgstr ""
+msgstr "FreeCAD je opremljen z naprednim geometrijskim pogonom, ki temelji na tehnologiji <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE</a>. Podpira polna telesa, objekte sestavljene iz <a href=https://en.wikipedia.org/wiki/Boundary_representation>mejnih elementov</a> (BRep), <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>neenakomerne racionalne osnovne</a> (NURBS) krivulje in površine, ter ponuja široko paleto orodij za ustvarjanje in spreminjanje teh objektov, vključno s kompleksnimi <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>logičnimi</a> operacijami, <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>zaorkožitvami</a>, brisanjem oblik in <a href=https://wiki.freecad.org/OpenCASCADE>še mnogo več</a>."
 
 #: features.php:119
 msgid "A wi(l)dly parametric environment"
-msgstr "Pestro določilovno okolje"
+msgstr "Široko parametrično okolje"
 
 #: features.php:121
 msgid "All FreeCAD objects are natively parametric, meaning their shape can be based on\n"
@@ -348,17 +336,11 @@ msgid "All FreeCAD objects are natively parametric, meaning their shape can be b
 "                a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing\n"
 "                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are\n"
 "                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>."
-msgstr "Vsi FreeCAD-ovi predmeti so v osnovi določilovni, kar pomeni, da njihova oblika temelji na\n"
-"                 <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">lastnostih,</a> kot so številčne vrednosti, besedila, gumbi za vklop/izklop,\n"
-"              ali celo na drugih predmetih. Vse spremembe oblik se preračunajo na zahtevo, beležijo se v pomnilniku razveljavitve/povrnitve\n"
-"                in so lahko shranjene v natančni zgodovini oblikovanja. Lastnosti enega predmeta so lahko vir za\n"
-"                vrednosti lastnosti drugega predmeta, kar omogoča zapletene določilovne verige po meri, ki si jih niste mogli predstavljati \n"
-"                niti v najbolj norih sanjah. Za nove določilovne predmete  je\n"
-"                <a href=https://wiki.freecad.org/Scripted_objects>enostavno pisati kodo</a>."
+msgstr "Vsi FreeCAD objekti so v osnovi parametrični, kar pomeni, da njihova oblika temelji na <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">lastnostih</a>, kot so številčne vrednosti, besedila, gumbi za vklop/izklop, ali celo na drugih predmetih. Vse spremembe oblik se preračunajo na zahtevo, lahko se jih razveljavi/povrne in imamo natančen pregled nad zgodovino modeliranja. Lastnosti enega objekta so lahko vir podatkov za lastnosti drugega objekta, kar omogoča zapletene, prilagojene paramertične povezave, ki si jih niste mogli predstavljati niti v najbolj norih sanjah. Za nove parametrične objekte je <a href=https://wiki.freecad.org/Scripted_objects>enostavno pisati kodo</a>."
 
 #: features.php:145
 msgid "Assembly solutions for every need"
-msgstr ""
+msgstr "Sestav kot rešitev za vse zahteve"
 
 #: features.php:147
 msgid "FreeCAD offers since long several great community-made add-on assembly\n"
@@ -368,18 +350,21 @@ msgid "FreeCAD offers since long several great community-made add-on assembly\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
 "                  This workbench allows to define 3D constraints between parts, assemble the\n"
 "                  different components of a model, and animate everything."
-msgstr ""
+msgstr "Skupnost je za FreeCAD že dolgo nazaj ustvarila več odličnih dodatnih delovnih okolij za sestave, ki uporabljajo različne reševalnike in celo načine dela brez reševalnikov. FreeCAD 1.0 pa vključuje tudi novo vgrajeno delovno okolje za sestave, ki temelji na <a href=https://github.com/Ondsel-Development/OndselSolver>reševalniku Ondsel</a>. To delovno okolje omogoča določanje 3D omejitev med elementi, sestavljanje različnih komponent modela in animiranje vsega tega."
 
 #: features.php:170
 msgid "Also for architects"
-msgstr ""
+msgstr "Tudi za arhitekte"
 
 #: features.php:172
 msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and\n"
 "              an external BIM workbench added on top of that. With version 1.0, both of them have\n"
 "              merged and now we have a built-in BIM workbench. Now you can do your building and\n"
 "              construction related projects right out of the box."
-msgstr ""
+msgstr "Do različice 1.0 je imel FreeCAD vgrajeno arhitekturno delovno okolje in\n"
+"              nadgrajeno z zunanjim BIM delovnim okolje.  V različici 1.0 sta obe okolji\n"
+"              združeni v vgrajeno BIM dolovno okolje. Sedaj lahko z gradnjo in stavbami povezane projekte\n"
+"              obdelujete že z osnovnim programom."
 
 #: features.php:188
 msgid "Python everywhere"
@@ -393,11 +378,11 @@ msgid "While the FreeCAD core functionality is coded in C++ for robustness and p
 "                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line\n"
 "                  commands in the integrated Python console to recording macros, coding your own tools up to\n"
 "                  full custom workbenches."
-msgstr ""
+msgstr "Medtem, ko so FreeCAD-ove ključne funkcije zaradi robustnosti in učinkovitosti napisane v C++, je večina zunanjih plasti, delovna okolja, ter skoraj vsa komunikacija med jedrom in uporabniškim vmesnikom napisanih v jeziku <a href=https://python.org>Python</a>, ki je fleksibilen, uporabniku prijazen in enostaven za učenje. S Python kodo lahko v FreeCAD-u naredite <a href=https://wiki.freecad.org/Power_users_hub>prav vse</a>, od enostavnih enovrstičnih ukazov v vgrajeni Python konzoli, do snemanja makrov, programiranja lastnih orodij ali celih delovnih okolij po vaši meri."
 
 #: features.php:209
 msgid "File formats frenzy"
-msgstr "Blaznost datotečnih zapisov"
+msgstr "Nora podpora datotečnih formatov"
 
 #: features.php:211
 msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
@@ -419,11 +404,11 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              and many more, in addition to FreeCAD&apos;s native\n"
 "              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
 "              file formats."
-msgstr ""
+msgstr "FreeCAD vam omogoča uvoz in izvoz modelov in veliko drugih oblik podatkov iz vaših modelov, kot so rezultati analiz ali podatki o količinah, v ducate različnih <a href=\"https://wiki.freecad.org/Category:File_Formats\">datotečnih formatov</a>, kot so <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Wavefront_.obj_file\">OBJ</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> ali <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OFF_(file_format)\">OFF</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a> in mnoge druge, poleg lastnega FreeCAD <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> datotečnega formata. Dodana delovna okolja lahko podprejo še druge datotečne formate."
 
 #: features.php:242
 msgid "A parametric constraints-based 2D sketcher"
-msgstr "Določilovni 2D očrtovalnik na osnovi omejil"
+msgstr "Parametrična 2D skicirka, ki temelji na omejitvah"
 
 #: features.php:244
 msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
@@ -431,11 +416,11 @@ msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sket
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
 "                  objects throughout FreeCAD, be it either with the\n"
 "                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
-msgstr ""
+msgstr "FreeCAD odlikuje najsodobnejša <a href=https://wiki.freecad.org/Sketcher_Workbench>Skicirka</a>, z vgrajenim reševalnikom omejitev, kar omogoča risanje 2D oblik, ki jih definirajo geometrijske omejitve. Skice so FreeCAD-ov osnovni gradnik, omejene 2D oblike v njih pa se nato lahko uporabijo kot osnova za izdelavo drugih objektov v FreeCAD-u, bodisi v namenskem <a href=https://wiki.freecad.org/PartDesign_Workbench>delovnem okolju Snovanje delov</a> ali katerem koli drugem delovnem okolju."
 
 #: features.php:262
 msgid "A large (and growing) multi-specialty ecosystem"
-msgstr "Obsežen večstrokoven ekosistem, (ki se še povečuje)"
+msgstr "Obsežen (in še vedno rastoč) ekosistem različnih strok"
 
 #: features.php:264
 msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\">workbenches</a> for a variety of purposes\n"
@@ -453,11 +438,11 @@ msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\"
 "              <a href=\"https://wiki.freecad.org/External_workbenches\">add-on workbenches</a> and\n"
 "              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> developed by the users\n"
 "              community."
-msgstr ""
+msgstr "FreeCAD ponuja namenska <a href=\"https://wiki.freecad.org/Workbenches\">delovna okolja</a> za različne namene, kot so <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG modeliranje</a>, priprava preprostih <a href=\"https://wiki.freecad.org/Draft_Workbench\">2D CAD osnutkov</a>, <a href=\"https://wiki.freecad.org/Surface_Module\">NURBS površine</a>, <a href=\"https://wiki.freecad.org/Arch_Module\">arhitekturno ali BIM modeliranje</a>, <a href=\"https://wiki.freecad.org/Path_Workbench\">3D tiskanje, CAM in CNC</a>, <a href=\"https://wiki.freecad.org/Points_Module\">oblaki točk</a>, delo z <a href=\"https://wiki.freecad.org/OpenSCAD_Module\">OpenSCAD datotekami</a>, načrtovanje <a href=\"https://wiki.freecad.org/Robot_Workbench\">trajektorij industrijskih robotov</a>, izvajanje <a href=\"https://wiki.freecad.org/FEM_Module\">FEM analiz</a> in še mnogo drugega. FreeCAD ponuja tudi enostavna orodja za namestitev in upravljanje <a href=\"https://wiki.freecad.org/External_workbenches\">dodatnih delovnih okolij</a> in <a href=\"https://wiki.freecad.org/Macros_recipes\">markov</a>, ki jih je razvila skupnost uporabnikov."
 
 #: features.php:280
 msgid "https://wiki.freecad.org/Feature_list"
-msgstr ""
+msgstr "https://wiki.freecad.org/Feature_list"
 
 #: features.php:294
 msgid "Developed by a community"
@@ -469,7 +454,7 @@ msgid "FreeCAD is made for everybody, by everybody. It is developed and maintain
 "              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
 "              urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or\n"
 "              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
-msgstr ""
+msgstr "FreeCAD je ustvarjen za vsakogar, s strani kogarkoli. Razvija in vzdržuje ga skupnost razvijalcev, uporabnikov, moderatorjev, prevajalcev, vsi enotni v želji narediti FreeCAD brezplačno in zmogljivo orodje. Pri sprejemanju odločitev nimamo tržnih namenov ali potrebe po tem, da vam vsiljujemo nadgradnjo FreeCAD-a, določen potek dela ali ekosistem. FreeCAD ter datoteke in podatki, ki jih ustvarite z FreeCAD-om, so samo vaši, za vedno."
 
 #: features.php:309
 msgid "Release notes"
@@ -478,301 +463,308 @@ msgstr "Opombe k izdaji"
 #: features.php:319
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
-msgstr ""
+msgstr "Tukaj lahko najdete opombe ob izidu trenutne in preteklih FreeCAD različic. V njih so predstavljene novosti vsake izdaje:"
 
 #: features.php:326
-msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
-msgstr ""
+msgid "https://wiki.freecad.org/Release_notes_1.0\" title=\"Release notes 1.0"
+msgstr "https://wiki.freecad.org/Release_notes_1.0\" title=\"Release notes 1.0"
 
 #: features.php:326
-msgid "Release 0.21 - August 2023"
-msgstr "Različica 0.21 - avgust 2023"
+msgid "Release 1.0 - November 2024"
+msgstr "Različica 1.0 - november 2024"
 
 #: features.php:326
 msgid "current stable release"
 msgstr "trenutna stabilna različica"
 
 #: features.php:327
-msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
-msgstr ""
+msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
 
 #: features.php:327
+msgid "Release 0.21 - August 2023"
+msgstr "Različica 0.21 - avgust 2023"
+
+#: features.php:328
+msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
+msgstr "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
+
+#: features.php:328
 msgid "Release 0.20 - June 2022"
 msgstr "Različica 0.20 - junij 2022"
 
-#: features.php:328
+#: features.php:329
 msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
 
-#: features.php:328
+#: features.php:329
 msgid "Release 0.19 - March 2021"
 msgstr "Različica 0.19 - marec 2021"
 
-#: features.php:329
+#: features.php:330
 msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
 
-#: features.php:329
+#: features.php:330
 msgid "Release 0.18 - March 2019"
 msgstr "Različica 0.18 - marec 2019"
 
-#: features.php:330
+#: features.php:331
 msgid "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
 
-#: features.php:330
+#: features.php:331
 msgid "Release 0.17 - April 2018"
 msgstr "Različica 0.17 - april 2018"
 
-#: features.php:331
+#: features.php:332
 msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
 
-#: features.php:331
+#: features.php:332
 msgid "Release 0.16 - April 2016"
 msgstr "Različica 0.16 - april 2016"
 
-#: features.php:332
+#: features.php:333
 msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
 
-#: features.php:332
+#: features.php:333
 msgid "Release 0.15 - March 2015"
 msgstr "Različica 0.15 - marec 2015"
 
-#: features.php:333
+#: features.php:334
 msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
 
-#: features.php:333
+#: features.php:334
 msgid "Release 0.14 - March 2014"
 msgstr "Različica 0.14 - marec 2014"
 
-#: features.php:334
+#: features.php:335
 msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
 
-#: features.php:334
+#: features.php:335
 msgid "Release 0.13 - January 2013"
 msgstr "Različica 0.13 - januar 2013"
 
-#: features.php:335
+#: features.php:336
 msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
 
-#: features.php:335
+#: features.php:336
 msgid "Release 0.12 - December 2011"
 msgstr "Različica 0.12 - december 2011"
 
-#: features.php:336
+#: features.php:337
 msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
 
-#: features.php:336
+#: features.php:337
 msgid "Release 0.11 - March 2011"
 msgstr "Različica 0.11 - marec 2011"
 
-#: features.php:347
+#: features.php:348
 msgid "Follow the official FreeCAD channels for fresh news:"
-msgstr "Spremljajte sveže novice na uradnih FreeCADovih kanalih:"
-
-#: features.php:353
-msgid "Official blog"
-msgstr "Uradni spletnik"
+msgstr "Za sveže novice spremljajte uradne FreeCAD kanale:"
 
 #: features.php:354
+msgid "Official blog"
+msgstr "Uradni blog"
+
+#: features.php:355
 msgid "Twitter account"
 msgstr "Twitter račun"
 
 #: footer.php:9
 msgid "Get in touch!"
-msgstr "Oglasite se nam!"
+msgstr "Stopite v stik z nami!"
 
 #: footer.php:24
-msgid "© The FreeCAD Team. Homepage image credits (top to bottom): ppemawm,\n"
-"      r-frank, epileftric, regis, rider_mortagnais, bejant."
-msgstr ""
+msgid "© The FreeCAD Team."
+msgstr "© FreeCAD ekipa."
 
-#: footer.php:28
+#: footer.php:27
 msgid "This project is supported by:"
 msgstr "Ta projekt podpirajo:"
 
-#: footer.php:37
+#: footer.php:36
 msgid "other sponsors"
-msgstr "drugi pokrovitelji"
+msgstr "drugi sponzorji"
 
-#: footer.php:41
+#: footer.php:40
 msgid "Improve this\n"
 "      page on GitHub"
-msgstr ""
+msgstr "Izboljšajte to stran na GitHubu"
 
 #: header.php:23 header.php:36
 msgid "FreeCAD: Your own 3D parametric modeler"
-msgstr "FreeCAD: Vaš lasten določilovni 3d oblikovalnik"
+msgstr "FreeCAD: Vaš lastni 3D parametrični modelirnik"
 
-#: header.php:73
+#: header.php:75
 msgid "Features"
 msgstr "Značilnosti"
 
-#: header.php:77
+#: header.php:79
 msgid "Download"
-msgstr "Prejmi"
+msgstr "Prenesi"
 
-#: header.php:81
+#: header.php:83
 msgid "Blog"
-msgstr "Spletnik"
+msgstr "Blog"
 
-#: header.php:85
+#: header.php:87
 msgid "Documentation"
 msgstr "Dokumentacija"
 
-#: header.php:88
+#: header.php:90
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:88
+#: header.php:90
 msgid "Documentation index"
 msgstr "Kazalo dokumentacije"
 
-#: header.php:89 thankyou.php:137
+#: header.php:91 thankyou.php:137
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:89
+#: header.php:91
 msgid "Getting started"
 msgstr "Prvi koraki"
 
-#: header.php:90
+#: header.php:92
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:90
+#: header.php:92
 msgid "Users documentation"
-msgstr "Dokumentacija za uporabnike"
+msgstr "Uporabniška dokumentacija"
 
-#: header.php:91 thankyou.php:149
+#: header.php:93 thankyou.php:149
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:91
+#: header.php:93
 msgid "The FreeCAD manual"
-msgstr "Priročnik o FreeCADu"
+msgstr "Navodilo za FreeCAD"
 
-#: header.php:92 thankyou.php:139
+#: header.php:94 thankyou.php:139
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:92 thankyou.php:139
+#: header.php:94 thankyou.php:139
 msgid "Workbenches documentation"
-msgstr "Dokumentacija delovnih okolij"
+msgstr "Dokumentacija za delovna okolja"
 
-#: header.php:93
+#: header.php:95
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:93
+#: header.php:95
 msgid "Python coding documentation"
-msgstr "Gradivo o pisanju kode v Pythonu"
+msgstr "Dokumentacija za pisanje Python kode"
 
-#: header.php:94
+#: header.php:96
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:94
+#: header.php:96
 msgid "C++ coding documentation"
-msgstr "Gradivo o pisanju kode v C++"
+msgstr "Dokumentacija za pisanje C++ kode"
 
-#: header.php:95 thankyou.php:158
+#: header.php:97 thankyou.php:158
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:95 thankyou.php:158
+#: header.php:97 thankyou.php:158
 msgid "Tutorials"
-msgstr "Vadnice"
+msgstr "Vodiči"
 
-#: header.php:96 thankyou.php:140
+#: header.php:98 thankyou.php:140
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:96 thankyou.php:140
+#: header.php:98 thankyou.php:140
 msgid "Frequently asked questions"
 msgstr "Pogosta vprašanja"
 
-#: header.php:97
+#: header.php:99
 msgid "Privacy policy"
-msgstr ""
+msgstr "Politika zasebnosti"
 
-#: header.php:98
+#: header.php:100
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/About_FreeCAD"
 
-#: header.php:98
+#: header.php:100
 msgid "About FreeCAD"
 msgstr "O FreeCADu"
 
-#: header.php:103
+#: header.php:105
 msgid "Contribute"
 msgstr "Prispevajte"
 
-#: header.php:106
+#: header.php:108
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
-#: header.php:106
+#: header.php:108
 msgid "How to help"
 msgstr "Kako pomagati"
 
-#: header.php:107
+#: header.php:109
 msgid "Donate / Sponsor"
-msgstr "Darujte / Bodite pokrovitelj"
+msgstr "Donirajte / Sponzorirajte"
 
-#: header.php:108
+#: header.php:110
 msgid "Report a bug"
 msgstr "Prijavite napako"
 
-#: header.php:109
-msgid "Make a pull request"
-msgstr "Ustvari zahtevo za uveljavitev sprememb"
-
-#: header.php:110
-msgid "Jobs and funding"
-msgstr "Delo in financiranje"
-
 #: header.php:111
+msgid "Make a pull request"
+msgstr "Ustvarite predlog za spremembo"
+
+#: header.php:112
+msgid "Jobs and funding"
+msgstr "Zaposlitve in financiranje"
+
+#: header.php:113
 msgid "Contribution guidelines"
 msgstr "Usmeritve za prispevanje"
 
-#: header.php:112
+#: header.php:114
 msgid "Developers handbook"
-msgstr "Razvijalski priročnik"
+msgstr "Priročnik za razvijalce"
 
-#: header.php:113
+#: header.php:115
 msgid "https://wiki.freecad.org/Localisation"
-msgstr ""
+msgstr "https://wiki.freecad.org/Localisation"
 
-#: header.php:113
+#: header.php:115
 msgid "Translations"
-msgstr ""
+msgstr "Prevodi"
 
-#: header.php:118
+#: header.php:120
 msgid "Community"
 msgstr "Skupnost"
 
-#: header.php:121
+#: header.php:123
 msgid "Code of conduct"
-msgstr ""
+msgstr "Kodeks obnašanja"
 
-#: header.php:122
+#: header.php:124
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
-#: header.php:137
+#: header.php:139
 msgid "Calendar"
-msgstr ""
+msgstr "Koledar"
 
 #: index.php:26
 msgid "Your own 3D parametric modeler"
-msgstr "Vaš lasten določilovni 3D oblikovalnik"
+msgstr "Vaš lastni 3D parametrični modelirnik"
 
 #: index.php:28
 msgid "Download now"
@@ -780,7 +772,7 @@ msgstr "Prenesi zdaj"
 
 #: index.php:39
 msgid "Modelled by ppemawm"
-msgstr ""
+msgstr "Zasnoval ppemawm"
 
 #: index.php:44
 msgid "Freedom to build what you want"
@@ -791,11 +783,11 @@ msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
 "          design real-life objects of any size. Parametric modeling allows you\n"
 "          to easily modify your design by going back into your model history\n"
 "          and changing its parameters."
-msgstr ""
+msgstr "FreeCAD je odprtokodni, parametrični 3D modelirnik, namenjen predvsem načrtovanju resničnih objektov vseh velikosti. Parametrično modeliranje omogoča enostavno spreminjanje vašega modela tako, da v zgodovini načrtovanja spremenimo njegove parametre."
 
 #: index.php:55
 msgid "Modelled by r-frank"
-msgstr ""
+msgstr "Zasnoval r-frank"
 
 #: index.php:60
 msgid "Create 3D from 2D & back"
@@ -806,11 +798,12 @@ msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
 "          create high quality production ready drawings."
-msgstr ""
+msgstr "FreeCAD omogoča risanje geometrijsko omejenih 2D oblik in njihovo uporabo kot osnovo za izdelavo novih objektov.\n"
+"Vsebuje številne komponente za spreminjanje dimenzij ali črpanje detajlov iz 3D modelov za ustvarjanje visokokakovostnih risb, pripravljenih za proizvodnjo."
 
 #: index.php:71
 msgid "Modelled by epileftric"
-msgstr ""
+msgstr "Zasnoval epileftric"
 
 #: index.php:76
 msgid "Accessible, flexible & integrated"
@@ -822,11 +815,11 @@ msgid "FreeCAD is a multiplatform (Windows, Mac and Linux), highly\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
 "          and many others, making it possible to seamlessly integrate it into\n"
 "          your workflow."
-msgstr ""
+msgstr "FreeCAD deluje na več platformah (Windows, Mac in Linux), lahko se ga močno prilagodi in razširi. Zna brati in pisati številne odprte datotečne formate, kot so STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE in mnogi drugi, zato ga je mogoče preprosto vključiti v svoj delovni proces."
 
 #: index.php:88
 msgid "Modelled by regis"
-msgstr ""
+msgstr "Zasnoval regis"
 
 #: index.php:93
 msgid "Designed for your needs"
@@ -837,11 +830,11 @@ msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
 "          teacher, you will feel right at home with FreeCAD."
-msgstr ""
+msgstr "FreeCAD je zasnovan za širok spekter področij, vključno s snovanjem izdelkov, strojništvom in arhitekturo. Ne glede na to, ali ste ljubiteljski uporabnik, programer, izkušen CAD uporabnik, študent ali učitelj, se boste s FreeCAD-om počutili kot doma."
 
 #: index.php:104
 msgid "Modelled by rider_mortagnais"
-msgstr ""
+msgstr "Zasnoval rider_mortagnais"
 
 #: index.php:109
 msgid "And many more great features"
@@ -854,11 +847,11 @@ msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          allows you to study robot movements and many more features. FreeCAD\n"
 "          really is a Swiss Army knife of general-purpose engineering\n"
 "          toolkits."
-msgstr ""
+msgstr "FreeCAD vas bo opremil s pravimi orodji za vaše potrebe. Dobili boste sodobna orodja za analizo končnih elementov (FEA), eksperimentalni CFD, namenski BIM, delovna okolja za Geodata ali CAM/CNC, modul za simulacijo robota, ki omogoča preučevanje gibanja robotov in številne druge funkcije. FreeCAD je resnično švicarski vojaški nož med splošnimi inženirskimi kompleti."
 
 #: index.php:125
 msgid "Modelled by bejant"
-msgstr ""
+msgstr "Zasnoval bejant"
 
 #: index.php:130
 msgid "Want to contribute to FreeCAD?"
@@ -869,35 +862,35 @@ msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
 "          whole community."
-msgstr ""
+msgstr "FreeCAD je resnično odprtokodni projekt in če želite pomagati pri odpravljanju hroščev, dodajanju novih super funkcij ali pisanju dokumentacije, vas vabimo, da se nam pridružite in ustvarite programsko opremo, ki koristi celotni skupnosti."
 
 #: index.php:138
 msgid "Get involved"
 msgstr "Vključite se"
 
-#: sponsor.php:9
+#: sponsor.php:59
 msgid "Donating and sponsoring"
-msgstr "Darovanje in pokroviteljstvo"
+msgstr "Donacije in sponzorstvo"
 
-#: sponsor.php:16
+#: sponsor.php:66
 msgid "Donating to FreeCAD"
-msgstr "Darovanje FreeCADu"
+msgstr "Doniranje FreeCAD-u"
 
-#: sponsor.php:21
+#: sponsor.php:71
 msgid "Thanks for your interest in helping the FreeCAD\n"
 "              project with donations."
-msgstr ""
+msgstr "Hvala, da želite pomagati FreeCAD-u z donacijami."
 
-#: sponsor.php:25
+#: sponsor.php:75
 msgid "FreeCAD is a fast-growing project, developed by a\n"
 "              community of developers and users working mostly on a voluntary\n"
 "              basis, motivated mainly by their will to build a great, free 3D\n"
 "              parametric modeller. The development of FreeCAD happens mostly\n"
 "              because of the energy of all these people, without the need for\n"
 "              money."
-msgstr ""
+msgstr "FreeCAD je hitro rastoč projekt, razvit v skupnosti razvijalcev in uporabnikov, povečini prostovoljcev, motivira pa jih predvsem njihova želja, da bi ustvarili odličen, brezplačen 3D parametrični modelirnik. Razvoj FreeCAD-a poganja predvsem energija vseh teh ljudi, za to pa ni potreben denar."
 
-#: sponsor.php:33
+#: sponsor.php:83
 msgid "However, money can help the project to achieve many\n"
 "              other goals. It can help some of its developers to work more\n"
 "              frequently or more regularly on the project, by paying for their\n"
@@ -906,9 +899,9 @@ msgid "However, money can help the project to achieve many\n"
 "              showcase FreeCAD and interest professional users. It can also help\n"
 "              to organize events ourselves so community members can meet, pay for\n"
 "              server space and web services, and many other things."
-msgstr ""
+msgstr "Kljub temu pa lahko sredstva pomagajo projektu doseči številne druge cilje. Omogočijo lahko, da del razvijalcev na projektu dela intenzivneje in bolj redno, tako da za plačilo več svojega časa posvetijo FreeCAD-u, ali pa pomagajo skupnosti, da pošlje ljudi na CAD dogodke, kjer lahko predstavimo FreeCAD in pritegnemo profesionalne uporabnike. Omogočajo nam tudi prirejanje dogodkov, da se člani skupnosti lahko srečajo, z njimi plačujemo prostor na strežniku in spletne storitve ter počnemo mnoge druge stvari."
 
-#: sponsor.php:43
+#: sponsor.php:93
 msgid "There are several ways you can donate money and help\n"
 "              the FreeCAD project, being an individual, a company or an\n"
 "              institution, depending on your preferences. The money you donate\n"
@@ -918,132 +911,132 @@ msgid "There are several ways you can donate money and help\n"
 "              and core developers. The FPA will redistribute the money it gathers\n"
 "              to FreeCAD developers and sponsor itself several projects, efforts\n"
 "              and ideas to fuel the development of FreeCAD."
-msgstr ""
+msgstr "Kot posameznik, podjetje ali ustanova lahko donirate denar in pomagate projektu FreeCAD na več načinov, odvisno od vaših želja. Denar, ki ga donirate projektu FreeCAD, prejeme in z njim upravlja <a href=https://fpa.freecad.org>Združenje projekta FreeCAD</a> (FPA), neprofitno združenje, ki so ga ustanovili FreeCAD skrbniki in glavni razvijalci. FPA bo zbrani denar razdelila razvijalcem in finančno podprla številne lastne projekte, aktivnosti in ideje, ki bodo pospešili razvoj programa FreeCAD."
 
-#: sponsor.php:54
+#: sponsor.php:104
 msgid "Remember, however: FreeCAD is free, and will always\n"
 "              be free. You are not required, and never will be, to donate anything\n"
 "              in order to use FreeCAD, neither to modify or distribute it. Your\n"
 "              donation will be welcome, and can help a lot, but you will never\n"
 "              be required to pay anything to access any of the FreeCAD features."
-msgstr ""
+msgstr "Pa vendar vedite: FreeCAD je brezplačen in bo vedno ostal brezplačen. Za njegovo uporabo, spreminjanje ali nadaljnje širjenje vam ni treba donirati ničesar, niti vam nikoli ne bo treba. Vaša donacija bo dobrodošla in lahko zelo pomaga, vendar ne bo nikdar pogoj za koriščenje katerih koli FreeCAD-ovih zmožnosti."
 
-#: sponsor.php:69
+#: sponsor.php:119
 msgid "One-time donation"
-msgstr "Enkraten dar"
+msgstr "Enkratna donacija"
 
-#: sponsor.php:74
+#: sponsor.php:124
 msgid "If you are not sure or not able to commit to a regular\n"
 "              donation, but still want to help the project, you can do a one-time\n"
 "              donation, of any amount."
-msgstr ""
+msgstr "Če niste prepričani ali se ne morete zavezati k redni donaciji, vendar želite pomagati projektu, lahko naredite enkratno donacijo v poljubnem znesku."
 
-#: sponsor.php:79
+#: sponsor.php:129
 msgid "Choose freely the amount you wish to donate one\n"
 "              time only:"
-msgstr ""
+msgstr "Izberite poljuben znesek za enkratno donacijo:"
 
-#: sponsor.php:94
+#: sponsor.php:144
 msgid "Sponsoring"
-msgstr "Pokroviteljstvo"
+msgstr "Sponzoriranje"
 
-#: sponsor.php:99
+#: sponsor.php:149
 msgid "We call sponsoring the act of donating money\n"
 "              recurrently to the FreeCAD project. You can do that as an\n"
 "              individual or as a company or institution, through different\n"
 "              channels or platforms, depending on your preferences."
-msgstr ""
+msgstr "Kadar projektu FreeCAD redno namenjamo denar, to štejemo kot sponzorstvo. To lahko storite kot posameznik, podjetje ali ustanova prek različnih kanalov ali platform, odvisno kje vam bolj ustreza."
 
-#: sponsor.php:105
+#: sponsor.php:155
 msgid "Sponsoring FreeCAD allows its developers to count on\n"
 "              a steady flow of income, so it allows the FPA to plan things ahead,\n"
 "              and the FreeCAD developers to invest themselves more seriously\n"
 "              into FreeCAD."
-msgstr ""
+msgstr "Sponzoriranje omogoča FreeCAD-ovim razvijalcem, da lahko računajo na stalen pritok prihodkov in tako FPA lažje načrtuje dejavnosti vnaprej, razvijalci FreeCAD-a pa se lahko bolj resno posvetijo programu."
 
-#: sponsor.php:111
+#: sponsor.php:161
 msgid "To encourage persons and companies to sponsor the\n"
 "              FreeCAD project, we have created different sponsoring tiers. When\n"
 "              donating regularly to the project, unless you prefer to stay\n"
 "              anonymous, your name, company name and/or logo will be featured\n"
 "              on this website, depending on the tier you fit into:"
-msgstr ""
+msgstr "Da bi posameznike in podjetja spodbudili k sponzoriranju projekta FreeCAD, smo uvedli različne sponzorske nazive. Če redno donirate projektu bo, razen če želite ostati anonimni, vaše ime, naziv podjetja in/ali logotip prikazan na tej spletni strani, odvisno od sponzorskega naziva, ki ste ga pridobili:"
 
-#: sponsor.php:118
+#: sponsor.php:168
 msgid "Normal sponsor"
-msgstr "Navadni pokrovitelj"
+msgstr "Navadni sponzor"
 
-#: sponsor.php:119
+#: sponsor.php:169
 msgid "from 1 USD / 1 EUR per month. You will not have your\n"
 "                name displayed here, but you will have helped the project a lot\n"
 "                anyway. Together, normal sponsors maintain the project on its\n"
 "                feet as much as the bigger sponsors."
-msgstr ""
+msgstr "od 1 USD / 1 EUR na mesec. Vašega imena tukaj ne bo prikazanega, vendar boste kljub temu zelo pomagali projektu. Običajni sponzorji skupaj podpirajo projekt v enaki meri kot večji sponzorji."
 
-#: sponsor.php:123
+#: sponsor.php:173
 msgid "Bronze sponsor"
-msgstr "Bronasti pokrovitelj"
+msgstr "Bronasti sponzor"
 
-#: sponsor.php:124
+#: sponsor.php:174
 msgid "from 25 USD / 25 EUR per month. Your name or\n"
 "                company name is displayed on this page."
-msgstr ""
+msgstr "od 25 USD / 25 EUR na mesec. Vaše ime ali naziv podjetja bo prikazano na tej strani."
 
-#: sponsor.php:126
+#: sponsor.php:176
 msgid "Silver sponsor"
-msgstr "Srebrni pokrovitelj"
+msgstr "Srebrni sponzor"
 
-#: sponsor.php:127
+#: sponsor.php:177
 msgid "from 100 USD / 100 EUR per month. Your name or\n"
 "                company name is displayed on this page, with a link to\n"
 "                your website, and a one-line description text."
-msgstr ""
+msgstr "od 100 USD / 100 EUR na mesec. Vaše ime ali naziv podjetja bo prikazano na tej strani, skupaj s povezavo na vašo spletno stran in enovrstičnim opisom."
 
-#: sponsor.php:130
+#: sponsor.php:180
 msgid "Gold sponsor"
-msgstr "Zlati pokrovitelj"
+msgstr "Zlati sponzor"
 
-#: sponsor.php:131
+#: sponsor.php:181
 msgid "from 200 USD / 200 EUR per month. Your name\n"
 "                or company name and logo displayed on this page,\n"
 "                with a link to your website and a custom description text.\n"
 "                Companies that have helped FreeCAD early on also appear\n"
 "                under Gold sponsors."
-msgstr ""
+msgstr "od 200 USD / 200 EUR na mesec. Vaše ime ali naziv podjetja z logotipom bo prikazano na tej strani, skupaj s povezavo na vašo spletno stran in opisom po vaši izbiri. Podjetja, ki so FreeCAD-u pomagala že na začetku so prav tako navedena med zlatimi sponzorji."
 
-#: sponsor.php:138
+#: sponsor.php:188
 msgid "Instead of donating each month, you might find it\n"
 "              more comfortable to make a one-time donation that, when divided by\n"
 "              twelve, would give you right to enter a sponsoring tier. Don't\n"
 "              hesitate to do so!"
-msgstr ""
+msgstr "Namesto mesečne donacije vam bo morda bolj ustrezala enkratna donacija, ki vam, če jo delite z dvanajst, prav tako omogoči pravico do sponzorskega naziva. Brez oklevanja lahko naredite tudi tako!"
 
-#: sponsor.php:144
+#: sponsor.php:194
 msgid "Choose freely the amount you wish to donate each\n"
 "              month:"
-msgstr ""
+msgstr "Izberite poljuben znesek, ki ga želite donirati vsak mesec:"
 
-#: sponsor.php:149
+#: sponsor.php:199
 msgid "Please inform your forum name or twitter handle as a note\n"
 "              in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>,\n"
 "              so we can give you proper credits!"
-msgstr ""
+msgstr "Prosimo, navedite kot opombo pri nakazilu svoje uporabniško ime na forumu ali twitterju, ali pa <a href=mailto:fpa@freecad.org>nas kontaktirajte</a>, da vam bomo lahko pripisali ustrezne zasluge!"
 
-#: sponsor.php:160
+#: sponsor.php:210
 msgid "Gold sponsors"
-msgstr "Zlati pokrovitelji"
+msgstr "Zlati sponzorji"
 
-#: sponsor.php:197
+#: sponsor.php:247
 msgid "Early sponsors"
-msgstr "Začetni pokrovitelji"
+msgstr "Začetni sponzorji"
 
-#: sponsor.php:239
+#: sponsor.php:289
 msgid "Silver sponsors"
-msgstr "Srebrni pokrovitelji"
+msgstr "Srebrni sponzorji"
 
-#: sponsor.php:278
+#: sponsor.php:328
 msgid "Bronze sponsors"
-msgstr "Bronasti pokrovitelji"
+msgstr "Bronasti sponzorji"
 
 #: thankyou.php:60
 msgid "Thank you!"
@@ -1052,7 +1045,7 @@ msgstr "Hvala!"
 #: thankyou.php:63
 msgid "Your download should start automatically.\n"
 "            If not, click"
-msgstr ""
+msgstr "Vaš prenos bi se moral začeti samodejno. V nasprotnem primeru kliknite"
 
 #: thankyou.php:64
 msgid "here"
@@ -1072,14 +1065,14 @@ msgid "If you are happy with FreeCAD, and would like to help\n"
 "            open-source, paying to use FreeCAD will never be required, and\n"
 "            FreeCAD does not need money to survive, but donations help us to go\n"
 "            further, faster."
-msgstr ""
+msgstr "Če ste s FreeCAD-om zadovoljni in bi radi pripomogli k njegovi rasti, zakaj ne bi projektu nekaj malega donirali? Ker je FreeCAD odprtokoden, za njegovo uporabo nikoli ne bo treba plačevati, niti ne potrebuje denarja za preživetje, vendar nam donacije pomagajo, da gremo še dlje, še hitreje."
 
 #: thankyou.php:88
 msgid "If you are in, choose the amount and method of your\n"
 "            choice below. If you are interested in supporting the project better\n"
 "            with a recurring donation, check the <a href=sponsor.php>sponsoring\n"
 "            page</a> to see more options."
-msgstr ""
+msgstr "Če se za to odločite, spodaj izberite želeni znesek in način. Če bi radi še bolj podprli projekt z rednimi donacijami, preverite <a href=sponsor.php>stran za sponzorje</a> in si oglejte več možnosti."
 
 #: thankyou.php:97
 msgid "There are also many other ways to help FreeCAD. For\n"
@@ -1088,7 +1081,7 @@ msgid "There are also many other ways to help FreeCAD. For\n"
 "            all you need to know on the\n"
 "            <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a>\n"
 "            page."
-msgstr ""
+msgstr "FreeCAD-u lahko pomagate tudi na številne druge načine. Lahko na primer pišete kodo, sodelujete pri pisanju dokumentacije, prevajate uporabniški vmesnik in dokumentacijo, pomagate novim uporabnikom, itd. Vse, kar morate vedeti, si oglejte na spletni strani <a href=https://wiki.freecad.org/Help_FreeCAD>Pomagaj FreeCAD-u</a>."
 
 #: thankyou.php:112
 msgid "Need help?"
@@ -1102,44 +1095,44 @@ msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
 "            It covers everything from installing and launching FreeCAD, using it\n"
 "            and its different workbenches, up to creating Python scripts to\n"
 "            automate it and developing your own tools and extensions."
-msgstr ""
+msgstr "Če ste začetnik v FreeCAD-u ali 3D CAD modeliranju, smo poskrbeli za vas! Program FreeCAD ponuja <a href=https://wiki.freecad.org>obsežno dokumentacijo</a>, ki je na voljo na spletu, pa tudi neposredno v programu. Zajema vse od namestitve in zagona FreeCAD-a, uporabe programa in njegovih različnih delovnih okolij, do ustvarjanja Python skript za avtomatizacijo, ter razvoja lastnih orodij in razširitev."
 
 #: thankyou.php:128
 msgid "Below are some pages of this documentation that could\n"
 "            be useful to you:"
-msgstr ""
+msgstr "Spodaj je navedenih nekaj strani te dokumentacije, ki bi vam lahko prišle prav:"
 
 #: thankyou.php:133
 msgid "https://wiki.freecad.org/Installing_on_Windows"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Windows"
 
 #: thankyou.php:133
 msgid "Installing FreeCAD on Windows"
-msgstr "Nameščanje FreeCADa na Windowsu"
+msgstr "Namestitev FreeCAD-a na Windows"
 
 #: thankyou.php:134
 msgid "https://wiki.freecad.org/Installing_on_Linux"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Linux"
 
 #: thankyou.php:134
 msgid "Installing FreeCAD on Linux"
-msgstr "Nameščanje FreeCADa na Linuxu"
+msgstr "Namestitev FreeCAD-a na Linux"
 
 #: thankyou.php:135
 msgid "https://wiki.freecad.org/Installing_on_Mac"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_on_Mac"
 
 #: thankyou.php:135
 msgid "Installing FreeCAD on MacOS"
-msgstr "Nameščanje FreeCADa na MacOS"
+msgstr "Namestitev FreeCAD-a na MacOS"
 
 #: thankyou.php:136
 msgid "https://wiki.freecad.org/Installing_additional_components"
-msgstr ""
+msgstr "https://wiki.freecad.org/Installing_additional_components"
 
 #: thankyou.php:136
 msgid "Installing additional components"
-msgstr "Nameščanje dodatnih komponent"
+msgstr "Namestitev dodatnih komponent"
 
 #: thankyou.php:137
 msgid "Getting started with FreeCAD"
@@ -1147,32 +1140,32 @@ msgstr "Kako začeti s FreeCADom"
 
 #: thankyou.php:138
 msgid "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
-msgstr ""
+msgstr "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
 
 #: thankyou.php:138
 msgid "Migrating from other software?"
-msgstr "Prehod z drugega programja?"
+msgstr "Prihajate z drugega programa?"
 
 #: thankyou.php:144
 msgid "FreeCAD also offers a complete user manual, that can\n"
 "            be downloaded as a pdf or epub file or printed:"
-msgstr ""
+msgstr "FreeCAD ponuja tudi celovit uporabniški priročnik, ki ga lahko prenesete kot pdf ali epub datoteko, ali natisnete:"
 
 #: thankyou.php:149
 msgid "The FreeCAD user manual"
-msgstr "Priročnik o FreeCADu"
+msgstr "FreeCAD navodilo"
 
 #: thankyou.php:153
 msgid "and many tutorials, in written or video form, created by\n"
 "            the FreeCAD community:"
-msgstr ""
+msgstr "in številne vodiče v pisni ali video obliki, ki jih je ustvarila FreeCAD skupnost:"
 
 #: thankyou.php:162
 msgid "On behalf of all of the worldwide community of users,\n"
 "            developers, translators, editors, writers, testers who work hard to\n"
 "            make FreeCAD the best CAD modeller out there, we thank you for\n"
 "            downloading our baby! We hope you will like it as much as we do."
-msgstr ""
+msgstr "V imenu celotne globalne skupnosti uporabnikov, razvijalcev, prevajalcev, urednikov, piscev in preizkuševalcev, ki se trudijo, da bi FreeCAD postal najboljši CAD modelirnik, se vam zahvaljujemo, da ste prenesli našega otročička! Upamo, da vam bo všeč tako, kot je nam."
 
 #: thankyou.php:169
 msgid "If you encounter issues with FreeCAD, or would like to\n"
@@ -1182,7 +1175,7 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            skill levels. There you can seek advice of more advanced users, find\n"
 "            ways to solve a particular problem, or discuss ideas about and around\n"
 "            the FreeCAD world."
-msgstr ""
+msgstr "Če v FreeCAD-u naletite na težave ali bi se radi spoznali in razpravljali o različnih temah z drugimi uporabniki, obiščite <a href=https://forum.freecad.org>FreeCAD forum</a>. Forum je glavno zbirališče za FreeCAD uporabnike z vseh koncev sveta in vseh ravni znanja. Tu lahko poiščete nasvet izkušenejših uporabnikov, poiščete načine za rešitev določene težave ali razpravljate o idejah, ki se pojavijo v FreeCAD svetu."
 
 #: translation.php:67
 msgid "English"
