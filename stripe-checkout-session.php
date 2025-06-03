@@ -68,7 +68,6 @@ if (function_exists('curl_init')) {
     $response = curl_exec($ch);
     $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
-
     if ($response === false) {
         $transportError = curl_error($ch);
         error_log('[stripe-checkout] cURL error: ' . $transportError);
