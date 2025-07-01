@@ -227,6 +227,10 @@ updateLatestCategoryFromFeed(
                     is a manufacturer of PCB boards, 3D-printed and CNC-produced parts
                 </div>
 
+                <div class="silver sponsor">
+                    Colombe DU POUGET DE NADAILLAC. A French C, C++, and Python developer who designs her own parametric drone aircraft with FreeCAD and contributes bug fixes.
+                </div>
+
           </div>
         </section>
 
