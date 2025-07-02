@@ -216,6 +216,13 @@ updateLatestCategoryFromFeed(
                 </div>
 
                 <div class="silver sponsor">
+                    <a class="title" href="#">Colombe DU POUGET DE NADAILLAC</a>
+                    is a French C, C++ and Python developer who develops under UNIX her own parametric
+                    drone aircraft with FreeCAD and sometimes even contributes to it by fixing bugs
+                    she encounters
+                </div>
+
+                <div class="silver sponsor">
                     <img class="logo" src="images/sponsors/packt.png">
                     <a class="title" href="https://www.packtpub.com/">Packt Publishing</a>
                     is a publisher of books about open-source software
