@@ -77,7 +77,7 @@
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround p-3">
 
             <p>
-            <?php echo _('If you are happy with FreeCAD, and would like to support the project, 
+            <?php echo _('If you are happy with FreeCAD, and would like to support the project,
             why not make a donation to the project? Being
             open-source, FreeCAD will ALWAYS be free for anyone to use, and
             FreeCAD could survive without any donations, however with donations we can go
