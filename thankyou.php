@@ -77,22 +77,22 @@
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround p-3">
 
             <p>
-            <?php echo _('If you are happy with FreeCAD, and would like to help
-            it thrive, why not donate a bit of money to the project? Being
-            open-source, paying to use FreeCAD will never be required, and
-            FreeCAD does not need money to survive, but donations help us to go
-            further, faster.'); ?>
+            <?php echo _('If you are happy with FreeCAD, and would like to support the project, 
+            why not make a donation to the project? Being
+            open-source, FreeCAD will ALWAYS be free for anyone to use, and
+            FreeCAD could survive without any donations, however with donations we can go
+            further and faster together.'); ?>
             </p>
 
             <p>
-            <?php echo _('If you are in, choose the amount and method of your choice below. If you are interested in supporting the project better with a recurring donation, check the <a data-bs-toggle="modal" data-bs-target="#donateModal">donate page</a> to see more options.'); ?>
+            <?php echo _('If you would like to support, choose the amount and payment method of your choice below. If you are interested in supporting with a recurring donation, check the <a data-bs-toggle="modal" data-bs-target="#donateModal">donate page</a> to see more options.'); ?>
             </p>
 
             <p class="whitelinks">
             <?php echo _('There are also many other ways to help FreeCAD. For
-            example, you can write code, help writing documentation, translate
-            the FreeCAD interface and documentation, help new users, etc. See
-            all you need to know on the
+            example, you can write code, help with writing documentation, help translate
+            the FreeCAD interface and documentation, help new users, etc. Everything you need
+            to know to get involved is available over on this
             <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a>
             page.'); ?>
             </p>
