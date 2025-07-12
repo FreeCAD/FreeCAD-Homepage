@@ -156,6 +156,12 @@ updateLatestCategoryFromFeed(
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
                 <div class="gold sponsor">
+                    <img class="logo" src="images/sponsors/microsoft.png">
+                    <a class="title" href="https://www.microsoft.com/">Microsoft</a>
+                    is donating hardware to the FreeCAD project
+                </div>
+
+                <div class="gold sponsor">
                     <img class="logo" src="images/sponsors/aleph.svg">
                     <a class="title" href="https://www.lulzbot.com/">Aleph Objects</a>
                     was a small manufacturing company based in Loveland, Colorado.
