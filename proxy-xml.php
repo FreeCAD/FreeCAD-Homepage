@@ -8,22 +8,22 @@ function is_url_safe($url, $whitelist) {
     if (!$parsed || !isset($parsed['host'])) {
         return false;
     }
-   
+
     $host = strtolower($parsed['host']);
-   
+
     if (in_array($host, $whitelist)) {
         return true;
     }
-   
+
     $ip = gethostbyname($host);
     if ($ip === $host) {
         return false;
     }
-   
+
     if (in_array($ip, $whitelist)) {
         return true;
     }
-   
+
     return false;
 }
 
