@@ -118,6 +118,12 @@ updateLatestCategoryFromFeed(
           </div>
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
+                <div class="gold sponsor">
+                    <img class="logo" src="images/sponsors/microsoft.png">
+                    <a class="title" href="https://www.microsoft.com/">Microsoft</a>
+                    is donating hardware to the FreeCAD project
+                </div>
+
                 <div class="silver sponsor">
                     <img class="logo" src="images/sponsors/librespace.png">
                     <a class="title" href="https://libre.space">Libre Space Foundation</a>
@@ -154,12 +160,6 @@ updateLatestCategoryFromFeed(
             <h3><?php echo _('Early sponsors'); ?></h3>
           </div>
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
-
-                <div class="gold sponsor">
-                    <img class="logo" src="images/sponsors/microsoft.png">
-                    <a class="title" href="https://www.microsoft.com/">Microsoft</a>
-                    is donating hardware to the FreeCAD project
-                </div>
 
                 <div class="gold sponsor">
                     <img class="logo" src="images/sponsors/aleph.svg">
