@@ -25,6 +25,7 @@ $localeMap = array(
     'sl' => 'sl_SI',
     'sr' => 'sr_RS',
     'sr' => 'sr_RS',
+    'sv' => 'sv_SE',
     'tr' => 'tr_TR',
     'uk' => 'uk_UA',
     'zh' => 'zh_CN',
@@ -76,6 +77,7 @@ if ($_GET["lang"] != "") {$langStr = "?lang=".$_GET["lang"];
     echo('						<a class="dropdown-item" href="'.$href.'?lang=sl"><img src="lang/sl/flag.jpg" alt="" />'._('Slovenian').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=sr"><img src="lang/sr/flag.jpg" alt="" />'._('Serbian').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=sr_CS"><img src="lang/sr_CS/flag.jpg" alt="" />'._('Serbian').'</a>');
+    echo('						<a class="dropdown-item" href="'.$href.'?lang=sv_SE"><img src="lang/sv_SE/flag.jpg" alt="" />'._('Swedish').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=tr"><img src="lang/tr/flag.jpg" alt="" />'._('Turkish').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=uk"><img src="lang/uk/flag.jpg" alt="" />'._('Ukrainian').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=zh_CN"><img src="lang/zh_CN/flag.jpg" alt="" />'._('Chinese').'</a>');
