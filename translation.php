@@ -7,7 +7,6 @@ $localeMap = array(
     'cs' => 'cs_CZ',
     'de' => 'de_DE',
     'el' => 'el_GR',
-    'es' => 'es_CO',
     'es' => 'es_ES',
     'eu' => 'eu_ES',
     'fa' => 'fa_IR',
@@ -24,7 +23,6 @@ $localeMap = array(
     'ru' => 'ru_RU',
     'sl' => 'sl_SI',
     'sr' => 'sr_RS',
-    'sr' => 'sr_RS',
     'sv' => 'sv_SE',
     'tr' => 'tr_TR',
     'uk' => 'uk_UA',
@@ -32,8 +30,15 @@ $localeMap = array(
     'zh' => 'zh_TW',
 );
 
-$lang = "en";
-if (isSet($_GET["lang"])) $lang = $_GET["lang"];
+function getLangParam(): string {
+    if (empty($_GET['lang'])) {
+        return 'en';
+    }
+    $lang = preg_replace('/[^a-zA-Z0-9_-]/', '', $_GET['lang']);
+    return $lang !== '' ? $lang : 'en';
+}
+
+$lang = getLangParam();
 $locale = isset($localeMap[$lang]) ? $localeMap[$lang] : $lang;
 putenv("LC_ALL=$locale");
 setlocale(LC_ALL, $locale);
@@ -48,10 +53,8 @@ if (strpos($flagcode, '_') !== false) {
 $flagcode = explode("_", $flagcode)[0];
 }
 }
-$langattrib = "";
-$langStr = "";
-if ($_GET["lang"] != "") {$langStr = "?lang=".$_GET["lang"];
-    $langattrib = "&lang=".$_GET["lang"];
+$langStr    = "?lang=" . urlencode($lang);
+$langattrib = "&lang=" . urlencode($lang);
 }function getFlags($href='/') {
     echo('						<a class="dropdown-item" href="'.$href.'"><img src="lang/en/flag.jpg" alt="" />'._('English').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=be"><img src="lang/be/flag.jpg" alt="" />'._('Belarusian').'</a>');
@@ -85,10 +88,7 @@ if ($_GET["lang"] != "") {$langStr = "?lang=".$_GET["lang"];
 }
 
 function getTranslatedDownloadLink() {
-    $tr = "";
-    if (isSet($_GET["lang"])) {
-        $tr = "?lang=".$_GET["lang"];
-    }
-    echo("downloads.php".$tr);
+    $lang = getLangParam();
+    echo "downloads.php?lang=" . urlencode($lang);
 }
 ?>
