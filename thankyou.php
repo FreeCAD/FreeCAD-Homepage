@@ -77,7 +77,7 @@
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround p-3">
 
             <p>
-            <?php echo _('If you are happy with FreeCAD, and would like to support the project, Why not make a donation to the project? Being open-source, FreeCAD will ALWAYS be free for anyone to use, and FreeCAD could survive without any donations, however with donations we can go further and faster together.'); ?>
+            <?php echo _('If you are happy with FreeCAD, and would like to support the project, why not make a donation to the project? Being open-source, FreeCAD will ALWAYS be free for anyone to use, and FreeCAD could survive without any donations, however with donations we can go further and faster together.'); ?>
             </p>
 
             <p>
@@ -85,7 +85,7 @@
             </p>
 
             <p class="whitelinks">
-            <?php echo _('There are also many other ways to help FreeCAD. For example, you can write code, help with writing documentation, help translate the FreeCAD interface and documentation, help new users, etc. Everything you needto know to get involved is available over on this<a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a> page.'); ?>
+            <?php echo _('There are also many other ways to help FreeCAD. For example, you can write code, help with writing documentation, help translate the FreeCAD interface and documentation, help new users, etc. Everything you need to know to get involved is available over on this page <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a> '); ?>
             </p>
             <a class="btn btn-light rounded-pill mt-3" data-bs-toggle="modal" data-bs-target="#donateModal">
             ♥ <?php echo _('Donate'); ?>
