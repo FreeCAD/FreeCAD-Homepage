@@ -91,78 +91,23 @@ function getValue($arr, $paths, $default=''){
 $sortedAddonsMap = [];
 
 foreach ($addonsMap as $addonKey => $entries) {
-  if (!is_array($entries) || empty($entries)) continue;
-  $entry = $entries[0];
+	if (!is_array($entries) || empty($entries)) continue;
+	$entry = $entries[0];
 
-  $pkgDate = '';
-  if (isset($entry['metadata']['package_xml']) && $entry['metadata']['package_xml']) {
-    $xml = @simplexml_load_string($entry['metadata']['package_xml']);
-    if ($xml && isset($xml->date)) $pkgDate = (string)$xml->date;
-  }
+	$rawLast = isset($entry['last_update_time']) ? (string)$entry['last_update_time'] : '';
+	$ts = $rawLast !== '' ? (strtotime($rawLast) ?: 0) : 0;
 
-  $rawDate = $pkgDate ?: ($entry['last_update_time'] ?? '');
-  $ts = 0;
-
-  if ($rawDate !== '') {
-    $raw  = trim((string)$rawDate);
-    $norm = preg_replace('~[./]~', '-', $raw);
-    $try  = strtotime($norm);
-
-    if ($try) {
-      $ts = $try;
-    } else {
-      if (preg_match('~^(\d{4})-(\d{1,2}|mm)-(\d{1,2}|dd)$~i', $norm, $m)) {
-        $y  = (int)$m[1];
-        $m2 = strtolower($m[2]) === 'mm' ? 1 : (int)$m[2];
-        $d2 = strtolower($m[3]) === 'dd' ? 1 : (int)$m[3];
-
-        if ($m2 > 12 && $d2 >= 1 && $d2 <= 12) { $tmp = $m2; $m2 = $d2; $d2 = $tmp; }
-        if ($m2 < 1 || $m2 > 12) $m2 = 1;
-        if ($d2 < 1 || $d2 > 31) $d2 = 1;
-
-        $ts = strtotime(sprintf('%04d-%02d-%02d', $y, $m2, $d2)) ?: 0;
-
-      } elseif (preg_match('~^(\d{4})$~', $norm, $m)) {
-        $ts = strtotime($m[1] . '-01-01') ?: 0;
-
-      } elseif (preg_match('~^(\d{4})-(\d{1,2})$~', $norm, $m)) {
-        $y  = (int)$m[1];
-        $mo = (int)$m[2];
-        if ($mo < 1 || $mo > 12) $mo = 1;
-        $ts = strtotime(sprintf('%04d-%02d-01', $y, $mo)) ?: 0;
-
-      } else {
-        if (preg_match('~^(\d{4})-(\d{1,2})-(\d{1,2})$~', $norm, $m)) {
-          $y = (int)$m[1];
-          $b = (int)$m[2];
-          $c = (int)$m[3];
-          if ($b > 12 && $c >= 1 && $c <= 12) {
-            $ts = strtotime(sprintf('%04d-%02d-%02d', $y, $c, $b)) ?: 0;
-          } else {
-            $ts = strtotime(sprintf('%04d-%02d-%02d', $y, max(1, min(12, $b)), max(1, min(31, $c)))) ?: 0;
-          }
-        }
-      }
-    }
-  }
-
-  if (!$ts) {
-    $fallback = strtotime((string)($entry['last_update_time'] ?? ''));
-    if ($fallback) $ts = $fallback;
-  }
-
-  $sortedAddonsMap[] = [
-    'key'      => $addonKey,
-    'entries'  => $entries,
-    'ts'       => $ts,
-    'date_raw' => $rawDate
-  ];
+	$sortedAddonsMap[] = [
+		'key'      => $addonKey,
+		'entries'  => $entries,
+		'ts'       => $ts,
+		'last_raw' => $rawLast
+	];
 }
 
 usort($sortedAddonsMap, function($a, $b){
-  if ($a['ts'] === $b['ts']) return strcmp((string)$b['date_raw'], (string)$a['date_raw']);
-  return $b['ts'] <=> $a['ts'];
-});
+	return $b['ts'] <=> $a['ts'];
+})
 ?>
 
 <main id="main" class="container-fluid">
@@ -229,52 +174,15 @@ usort($sortedAddonsMap, function($a, $b){
 
               <?php
                 $displayDate = '';
-                if ($date) {
-                  $raw  = trim((string)$date);
-                  $norm = preg_replace('~[./]~','-', $raw);
-                  $norm = preg_split('/[T\s]/', $norm)[0];
-
-                  $hasMM = stripos($norm, 'mm') !== false;
-                  $hasDD = stripos($norm, 'dd') !== false;
-
-                  if ($hasMM || $hasDD) {
-                    if (preg_match('~^(\d{4})-(\d{1,2})~', $norm, $m) && !$hasMM) {
-                      $y  = (int)$m[1];
-                      $mo = (int)$m[2];
-                      if ($mo >= 1 && $mo <= 12) {
-                        $displayDate = sprintf('%04d-%02d', $y, $mo);
-                      } else {
-                        $displayDate = sprintf('%04d', $y);
-                      }
-                    } elseif (preg_match('~^(\d{4})~', $norm, $m)) {
-                      $displayDate = sprintf('%04d', (int)$m[1]);
-                    }
-                  } else {
-                    if (preg_match('~^(\d{4})-(\d{1,2})-(\d{1,2})$~', $norm, $m)) {
-                      $y  = (int)$m[1];
-                      $mo = (int)$m[2];
-                      $dy = (int)$m[3];
-                      if ($mo > 12 && $dy >= 1 && $dy <= 12) { $tmp = $mo; $mo = $dy; $dy = $tmp; }
-                      if ($mo < 1 || $mo > 12) $mo = 1;
-                      if ($dy < 1 || $dy > 31) $dy = 1;
-                      $displayDate = sprintf('%04d-%02d-%02d', $y, $mo, $dy);
-                    } elseif (preg_match('~^(\d{4})-(\d{1,2})$~', $norm, $m)) {
-                      $y  = (int)$m[1];
-                      $mo = (int)$m[2];
-                      if ($mo < 1 || $mo > 12) $mo = 1;
-                      $displayDate = sprintf('%04d-%02d', $y, $mo);
-                    } elseif (preg_match('~^(\d{4})$~', $norm, $m)) {
-                      $displayDate = sprintf('%04d', (int)$m[1]);
-                    } else {
-                      $ts = strtotime($norm);
-                      if ($ts) $displayDate = date('Y-m-d', $ts);
-                    }
-                  }
+                $lastUpdateRaw = getValue($entry, ['last_update_time'], '');
+                if ($lastUpdateRaw) {
+                	$t = strtotime($lastUpdateRaw);
+                	if ($t) $displayDate = date('Y-m-d', $t);
                 }
               ?>
 
               <?php if ($displayDate): ?>
-                <span class="me-2"><?php echo _('Date:'); ?> <?= esc($displayDate) ?></span>
+                <span class="me-2"><?php echo _('Last update:'); ?> <?= esc($displayDate) ?></span>
               <?php endif; ?>
 
               <?php if ($license): ?>
