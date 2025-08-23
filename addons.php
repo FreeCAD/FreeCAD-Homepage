@@ -104,6 +104,15 @@ function getValue($arr, $paths, $default=''){
   return $default;
 }
 
+function firstOfArray($v){
+	if (is_array($v)) {
+		$vals = array_values($v);
+		$first = $vals[0] ?? '';
+		return is_scalar($first) ? (string)$first : '';
+	}
+	return is_scalar($v) ? (string)$v : '';
+}
+
 $sortedAddonsMap = [];
 
 foreach ($addonsMap as $addonKey => $entries) {
@@ -144,8 +153,11 @@ usort($sortedAddonsMap, function($a, $b){
         if ($xml) $xmlArr = json_decode(json_encode($xml), true) ?: [];
       }
 
-      $name         = getValue($xmlArr, ['name'], (string)$addonKey);
-      $description  = getValue($xmlArr, ['description'], '');
+      $nameRaw        = getValue($xmlArr, ['name'], (string)$addonKey);
+      $descriptionRaw = getValue($xmlArr, ['description'], '');
+      $name        = trim(firstOfArray($nameRaw));
+      if ($name === '') $name = (string)$addonKey;
+      $description = trim(firstOfArray($descriptionRaw));
       $version      = getValue($xmlArr, ['version'], '');
       $date         = getValue($xmlArr, ['date'], getValue($entry, ['last_update_time'], ''));
       $license      = getValue($xmlArr, ['license','content.workbench.license'], '');
