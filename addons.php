@@ -24,6 +24,22 @@ include("header.php");
     height:72%;
     object-fit:contain;
   }
+  
+@media (max-width: 400px){
+  .card .d-flex.align-items-start.gap-3.mb-3{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .75rem;
+  }
+  .card .d-flex.align-items-start.gap-3.mb-3 .min-w-0{
+    width: 100%;
+  }
+  /* LOGO’YU ORTALA */
+  .card .addon-logo{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 </style>
 
 <?php
