@@ -77,6 +77,72 @@ function getValue($arr, $paths, $default=''){
   }
   return $default;
 }
+
+$sortedAddonsMap = [];
+
+foreach ($addonsMap as $addonKey => $entries){
+  if (!is_array($entries) || empty($entries)) continue;
+  $entry = $entries[0];
+
+  $pkgDate = '';
+  if (isset($entry['metadata']['package_xml']) && $entry['metadata']['package_xml']) {
+    $xml = @simplexml_load_string($entry['metadata']['package_xml']);
+    if ($xml && isset($xml->date)) $pkgDate = (string)$xml->date;
+  }
+
+  $rawDate = $pkgDate ?: ($entry['last_update_time'] ?? '');
+  $ts = 0;
+
+  if ($rawDate !== '') {
+    $raw = trim((string)$rawDate);
+    $norm = preg_replace('~[./]~', '-', $raw);
+    $try = strtotime($norm);
+
+    if ($try) {
+      $ts = $try;
+    } else {
+      if (preg_match('~^(\d{4})-(\d{1,2}|mm)-(\d{1,2}|dd)$~i', $norm, $m)) {
+        $y = (int)$m[1];
+        $m2 = strtolower($m[2]) === 'mm' ? 1 : (int)$m[2];
+        $d2 = strtolower($m[3]) === 'dd' ? 1 : (int)$m[3];
+
+        if ($m2 > 12 && $d2 >= 1 && $d2 <= 12) { $tmp = $m2; $m2 = $d2; $d2 = $tmp; }
+
+        if ($m2 < 1 || $m2 > 12) $m2 = 1;
+        if ($d2 < 1 || $d2 > 31) $d2 = 1;
+
+        $ts = strtotime(sprintf('%04d-%02d-%02d', $y, $m2, $d2)) ?: 0;
+
+      } elseif (preg_match('~^(\d{4})$~', $norm, $m)) {
+        $ts = strtotime($m[1] . '-01-01') ?: 0;
+
+      } elseif (preg_match('~^(\d{4})-(\d{1,2})$~', $norm, $m)) {
+        $y = (int)$m[1]; $mo = (int)$m[2];
+        if ($mo < 1 || $mo > 12) $mo = 1;
+        $ts = strtotime(sprintf('%04d-%02d-01', $y, $mo)) ?: 0;
+
+      } else {
+        if (preg_match('~^(\d{4})-(\d{1,2})-(\d{1,2})$~', $norm, $m)) {
+          $y=(int)$m[1]; $b=(int)$m[2]; $c=(int)$m[3];
+          if ($b > 12 && $c >= 1 && $c <= 12) { $ts = strtotime(sprintf('%04d-%02d-%02d',$y,$c,$b)) ?: 0; }
+          else { $ts = strtotime(sprintf('%04d-%02d-%02d',$y,max(1,min(12,$b)),max(1,min(31,$c)))) ?: 0; }
+        }
+      }
+    }
+  }
+
+  if (!$ts) {
+    $fallback = strtotime((string)($entry['last_update_time'] ?? ''));
+    if ($fallback) $ts = $fallback;
+  }
+
+  $sortedAddonsMap[] = ['key'=>$addonKey, 'entries'=>$entries, 'ts'=>$ts, 'date_raw'=>$rawDate];
+}
+
+usort($sortedAddonsMap, function($a,$b){
+  if ($a['ts'] === $b['ts']) return strcmp((string)$b['date_raw'], (string)$a['date_raw']);
+  return $b['ts'] <=> $a['ts'];  // en yeni üstte
+});
 ?>
 
 <main id="main" class="container-fluid">
@@ -84,7 +150,9 @@ function getValue($arr, $paths, $default=''){
     <h2 class="features-title"><?php echo _('Addons'); ?></h2>
   </div>
     <div class="row g-3 row-cols-1 row-cols-lg-2">
-      <?php foreach ($addonsMap as $addonKey => $entries):
+      <?php foreach ($sortedAddonsMap as $row):
+          $addonKey = $row['key'];
+          $entries  = $row['entries'];
           if (!is_array($entries) || empty($entries)) continue;
           $entry = $entries[0];
           $xmlArr = [];
