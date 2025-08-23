@@ -24,7 +24,7 @@ include("header.php");
     height:72%;
     object-fit:contain;
   }
-  
+
 @media (max-width: 400px){
   .card .d-flex.align-items-start.gap-3.mb-3{
     flex-direction: column;
