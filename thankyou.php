@@ -85,7 +85,7 @@
             </p>
 
             <p class="whitelinks">
-            <?php echo _('There are also many other ways to help FreeCAD. For example, you can write code, help with writing documentation, help translate the FreeCAD interface and documentation, help new users, etc. Everything you need to know to get involved is available over on this page <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a> '); ?>
+            <?php echo _('There are also many other ways to help FreeCAD. For example, you can write code, help with writing documentation, help translate the FreeCAD interface and documentation, help new users, etc. Everything you need to know to get involved is available over on this <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a> page.'); ?>
             </p>
             <a class="btn btn-light rounded-pill mt-3" data-bs-toggle="modal" data-bs-target="#donateModal">
             ♥ <?php echo _('Donate'); ?>
