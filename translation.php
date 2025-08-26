@@ -49,13 +49,14 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 $flagcode = $lang;
 
 if (!file_exists('lang/'.$flagcode."/flag.jpg")) {
-if (strpos($flagcode, '_') !== false) {
-$flagcode = explode("_", $flagcode)[0];
-}
+    if (strpos($flagcode, '_') !== false) {
+        $flagcode = explode("_", $flagcode)[0];
+    }
 }
 $langStr    = "?lang=" . urlencode($lang);
 $langattrib = "&lang=" . urlencode($lang);
-}function getFlags($href='/') {
+
+function getFlags($href='/') {
     echo('						<a class="dropdown-item" href="'.$href.'"><img src="lang/en/flag.jpg" alt="" />'._('English').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=be"><img src="lang/be/flag.jpg" alt="" />'._('Belarusian').'</a>');
     echo('						<a class="dropdown-item" href="'.$href.'?lang=ca"><img src="lang/ca/flag.jpg" alt="" />'._('Catalan').'</a>');
