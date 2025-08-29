@@ -9,6 +9,7 @@
     $contributingurl = "contributing.php".$langStr;
     $privacyurl = "privacy.php".$langStr;
     $blogurl = "blog.php".$langStr;
+    $professionalnetworkurl = "professional-network.php".$langStr;
 ?>
 
 <!DOCTYPE html>
@@ -121,6 +122,7 @@
 
           <div class="dropdown-menu-mobile-right dropdown-community dropdown-menu dropdown-menu-right">
             <a class="dropdown-item text-dark" href="<?php echo $codeofconducturl; ?>"><?php echo _('Code of conduct'); ?></a>
+            <a class="dropdown-item text-dark font-weight-bold" href="<?php echo $professionalnetworkurl; ?>"><?php echo _('Professional Network'); ?></a>
             <a class="dropdown-item text-dark font-weight-bold" href="https://forum.freecad.org/"><?php echo _('Forum'); ?></a>
             <a class="dropdown-item text-dark" href="https://fpa.freecad.org">The FPA</a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD">GitHub</a>
