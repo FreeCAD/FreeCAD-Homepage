@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-07 16:21+0100\n"
-"PO-Revision-Date: 2025-06-02 09:31\n"
+"PO-Revision-Date: 2025-08-30 18:52\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -160,7 +160,7 @@ msgstr "最低支持 Windows 8。要了解更多安装信息，请查看 "
 
 #: downloads.php:93
 msgid "https://wiki.freecad.org/Install_on_Windows"
-msgstr "https://wiki.freecad.org/Install_on_Windows"
+msgstr "https://wiki.freecad.org/Installing_on_Windows/zh-cn"
 
 #: downloads.php:93 downloads.php:114 downloads.php:135
 msgid "wiki"
@@ -168,19 +168,19 @@ msgstr "维基"
 
 #: downloads.php:113
 msgid "macOS 10.13 High Sierra is the minimum supported version. For more info on installation, please check out the "
-msgstr ""
+msgstr "macOS 10.13 High Sierra 是最低支持版本。有关安装的更多信息，请查看"
 
 #: downloads.php:114
 msgid "https://wiki.freecad.org/Install_on_Mac"
-msgstr "https://wiki.freecad.org/Install_on_Mac"
+msgstr "https://wiki.freecad.org/Installing_on_Mac/zh-cn"
 
 #: downloads.php:134
 msgid "For distro-specific install instructions such as Ubuntu PPA and other ways to install on Linux please check out the "
-msgstr ""
+msgstr "有关特定发行版的安装说明（例如 Ubuntu PPA）以及在 Linux 上安装的其他方法，请查看"
 
 #: downloads.php:135
 msgid "https://wiki.freecad.org/Install_on_Unix"
-msgstr "https://wiki.freecad.org/Install_on_Unix"
+msgstr "https://wiki.freecad.org/Installing_on_Linux/zh-cn"
 
 #: downloads.php:148
 msgid "See what has changed since last version in the"
@@ -188,7 +188,7 @@ msgstr "查看自上一版以来发生的变化"
 
 #: downloads.php:149 index.php:29
 msgid "https://wiki.freecad.org/Release_notes_1.0"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_1.0/zh-cn"
 
 #: downloads.php:149
 msgid "FreeCAD 1.0 release notes"
@@ -236,7 +236,7 @@ msgstr "在 Linux 上"
 
 #: downloads.php:173
 msgid "https://wiki.freecad.org/Snap"
-msgstr "https://wiki.freecad.org/Snap"
+msgstr "https://wiki.freecad.org/Ubuntu_Snap/zh-cn"
 
 #: downloads.php:174 footer.php:35
 msgid "and"
@@ -244,7 +244,7 @@ msgstr "和"
 
 #: downloads.php:174
 msgid "https://wiki.freecad.org/Flatpak"
-msgstr "https://wiki.freecad.org/Flatpak"
+msgstr "https://wiki.freecad.org/Flatpak/zh-cn"
 
 #: downloads.php:175
 msgid "also provide development channels"
@@ -257,11 +257,11 @@ msgstr "附加模块和宏包"
 #: downloads.php:187
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "          now easily be installed directly from within FreeCAD using the "
-msgstr ""
+msgstr "FreeCAD 社区提供了丰富的附加模块和宏。现在可以直接在 FreeCAD 中轻松安装，通过使用"
 
 #: downloads.php:189
 msgid "https://wiki.freecad.org/Std_AddonMgr"
-msgstr "https://wiki.freecad.org/Std_AddonMgr"
+msgstr "https://wiki.freecad.org/Std_AddonMgr/zh-cn"
 
 #: downloads.php:189
 msgid "Addon manager."
@@ -424,24 +424,24 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              and many more, in addition to FreeCAD&apos;s native\n"
 "              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
 "              file formats."
-msgstr "FreeCAD 允许您从您的模型导入和导出模型和许多其他类型的数据，例如\n"
-"              分析结果或数量数据到数十种不同的 <a href=\"https://wiki.freecad.org/Category:File_Formats\">文件格式</a> 例如\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Wavefront_.obj_file\">OBJ</a>\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> or\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OFF_(file_format)\">OFF</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
-"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD</a>\n"
-"              和更多更多 除了FreeCAD&apos;s 原生\n"
-"              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> 文件格式。 附加组件工作台也可以添加更多的\n"
+msgstr "FreeCAD 允许您从模型中导入和导出模型以及许多其他类型的数据，\n"
+"              例如分析结果或数量数据，支持数十种不同的<a href=\"https://wiki.freecad.org/Category:File_Formats\">文件格式</a>，例如\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>、\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>、\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Wavefront_.obj_file\">OBJ</a>、\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>、\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>、\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>、\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>、\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>、\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>、\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> 或\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OFF_(file_format)\">OFF</a>、\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>、\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>、\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
+"             以及更多格式，此外还包括FreeCAD原生的\n"
+"              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> 文件格式。附加的附加模块工作台还可以增加更多\n"
 "              文件格式。"
 
 #: features.php:242
@@ -486,7 +486,7 @@ msgstr "FreeCAD 提供了专用的<a href=\"https://wiki.freecad.org/Workbenches
 
 #: features.php:280
 msgid "https://wiki.freecad.org/Feature_list"
-msgstr "https://wiki.freecad.org/Feature_list"
+msgstr "https://wiki.freecad.org/Feature_list/zh-cn"
 
 #: features.php:294
 msgid "Developed by a community"
@@ -516,7 +516,7 @@ msgstr "在这里查找当前版本和之前的 FreeCAD 版本的发行说明。
 
 #: features.php:326
 msgid "https://wiki.freecad.org/Release_notes_1.0\" title=\"Release notes 1.0"
-msgstr ""
+msgstr "https://wiki.freecad.org/Release_notes_1.0\" title=\"发行说明 1.0"
 
 #: features.php:326
 msgid "Release 1.0 - November 2024"
@@ -632,7 +632,7 @@ msgstr "和我们联系！"
 
 #: footer.php:24
 msgid "© The FreeCAD Team."
-msgstr ""
+msgstr "© FreeCAD 团队。"
 
 #: footer.php:27
 msgid "This project is supported by:"
@@ -669,7 +669,7 @@ msgstr "文档"
 
 #: header.php:90
 msgid "https://wiki.freecad.org/Main_Page"
-msgstr "https://wiki.freecad.org/Main_Page"
+msgstr "https://wiki.freecad.org/Main_Page/zh-cn"
 
 #: header.php:90
 msgid "Documentation index"
@@ -677,7 +677,7 @@ msgstr "文档索引"
 
 #: header.php:91 thankyou.php:137
 msgid "https://wiki.freecad.org/Getting_started"
-msgstr "https://wiki.freecad.org/Getting_started"
+msgstr "https://wiki.freecad.org/Getting_started/zh-cn"
 
 #: header.php:91
 msgid "Getting started"
@@ -685,7 +685,7 @@ msgstr "入门指南"
 
 #: header.php:92
 msgid "https://wiki.freecad.org/User_hub"
-msgstr "https://wiki.freecad.org/User_hub"
+msgstr "https://wiki.freecad.org/User_hub/zh-cn"
 
 #: header.php:92
 msgid "Users documentation"
@@ -693,7 +693,7 @@ msgstr "用户文档"
 
 #: header.php:93 thankyou.php:149
 msgid "https://wiki.freecad.org/Manual"
-msgstr "https://wiki.freecad.org/Manual"
+msgstr "https://wiki.freecad.org/Manual/zh-cn"
 
 #: header.php:93
 msgid "The FreeCAD manual"
@@ -701,7 +701,7 @@ msgstr "FreeCAD 手册"
 
 #: header.php:94 thankyou.php:139
 msgid "https://wiki.freecad.org/Workbenches"
-msgstr "https://wiki.freecad.org/Workbenches"
+msgstr "https://wiki.freecad.org/Workbenches/zh-cn"
 
 #: header.php:94 thankyou.php:139
 msgid "Workbenches documentation"
@@ -709,7 +709,7 @@ msgstr "工作台文档"
 
 #: header.php:95
 msgid "https://wiki.freecad.org/Power_users_hub"
-msgstr "https://wiki.freecad.org/Power_users_hub"
+msgstr "https://wiki.freecad.org/Power_users_hub/zh-cn"
 
 #: header.php:95
 msgid "Python coding documentation"
@@ -717,7 +717,7 @@ msgstr "Python 编程文档"
 
 #: header.php:96
 msgid "https://wiki.freecad.org/Developer_hub"
-msgstr "https://wiki.freecad.org/Developer_hub"
+msgstr "https://wiki.freecad.org/Developer_hub/zh-cn"
 
 #: header.php:96
 msgid "C++ coding documentation"
@@ -725,7 +725,7 @@ msgstr "C++ 编程文档"
 
 #: header.php:97 thankyou.php:158
 msgid "https://wiki.freecad.org/Tutorials"
-msgstr "https://wiki.freecad.org/Tutorials"
+msgstr "https://wiki.freecad.org/Tutorials/zh-cn"
 
 #: header.php:97 thankyou.php:158
 msgid "Tutorials"
@@ -733,7 +733,7 @@ msgstr "教程"
 
 #: header.php:98 thankyou.php:140
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
-msgstr "https://wiki.freecad.org/Frequently_asked_questions"
+msgstr "https://wiki.freecad.org/Frequently_asked_questions/zh-cn"
 
 #: header.php:98 thankyou.php:140
 msgid "Frequently asked questions"
@@ -745,7 +745,7 @@ msgstr "隐私政策"
 
 #: header.php:100
 msgid "https://wiki.freecad.org/About_FreeCAD"
-msgstr "https://wiki.freecad.org/About_FreeCAD"
+msgstr "https://wiki.freecad.org/About_FreeCAD/zh-cn"
 
 #: header.php:100
 msgid "About FreeCAD"
@@ -757,7 +757,7 @@ msgstr "贡献"
 
 #: header.php:108
 msgid "https://wiki.freecad.org/Help_FreeCAD"
-msgstr "https://wiki.freecad.org/Help_FreeCAD"
+msgstr "https://wiki.freecad.org/Help_FreeCAD/zh-cn"
 
 #: header.php:108
 msgid "How to help"
@@ -789,7 +789,7 @@ msgstr "开发者手册"
 
 #: header.php:115
 msgid "https://wiki.freecad.org/Localisation"
-msgstr "https://wiki.freecad.org/Localisation"
+msgstr "https://wiki.freecad.org/Localisation/zh-cn"
 
 #: header.php:115
 msgid "Translations"
@@ -1223,7 +1223,7 @@ msgstr "以下是此文档的一些页面，或许\n"
 
 #: thankyou.php:133
 msgid "https://wiki.freecad.org/Installing_on_Windows"
-msgstr "https://wiki.freecad.org/Installing_on_Windows"
+msgstr "https://wiki.freecad.org/Installing_on_Windows/zh-cn"
 
 #: thankyou.php:133
 msgid "Installing FreeCAD on Windows"
@@ -1231,7 +1231,7 @@ msgstr "在 Windows 上安装 FreeCAD"
 
 #: thankyou.php:134
 msgid "https://wiki.freecad.org/Installing_on_Linux"
-msgstr "https://wiki.freecad.org/Installing_on_Linux"
+msgstr "https://wiki.freecad.org/Installing_on_Linux/zh-cn"
 
 #: thankyou.php:134
 msgid "Installing FreeCAD on Linux"
@@ -1239,7 +1239,7 @@ msgstr "在 Linux 上安装 FreeCAD"
 
 #: thankyou.php:135
 msgid "https://wiki.freecad.org/Installing_on_Mac"
-msgstr "https://wiki.freecad.org/Installing_on_Mac"
+msgstr "https://wiki.freecad.org/Installing_on_Mac/zh-cn"
 
 #: thankyou.php:135
 msgid "Installing FreeCAD on MacOS"
@@ -1247,7 +1247,7 @@ msgstr "在 MacOS 上安装 FreeCAD"
 
 #: thankyou.php:136
 msgid "https://wiki.freecad.org/Installing_additional_components"
-msgstr "https://wiki.freecad.org/Installing_additional_components"
+msgstr "https://wiki.freecad.org/Installing_additional_components/zh-cn"
 
 #: thankyou.php:136
 msgid "Installing additional components"
