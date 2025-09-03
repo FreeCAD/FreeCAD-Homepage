@@ -41,9 +41,9 @@
 </head>
 
 <?php if ($currentpage == "thankyou.php") { ?>
-<body onload="startDownload()">
+<body onload="startDownload()" class="<?php echo ($currentpage == 'professional-network.php') ? 'professional-network' : ''; ?>">
 <?php } else { ?>
-<body>
+<body class="<?php echo ($currentpage == 'professional-network.php') ? 'professional-network' : ''; ?>">
 <?php } ?>
   <nav class="navbar fixed-top navbar-expand-xl navbar-dark py-1 navbar-custom">
     <a class="navbar-brand" href="<?php echo $homeurl; ?>">

@@ -157,6 +157,11 @@ code {
   background-color: rgba(52, 58, 64, 0.5);
 }
 
+/* Professional Network page specific styles */
+.professional-network #main .section {
+  margin: 1em 0 1em 0;
+}
+
 .section-title {
   font-size: 2em;
 }
@@ -297,6 +302,10 @@ code {
 	background-color: transparent;
   }
 
+  .professional-network #main .section {
+    margin: 1.5em 0 1.5em 0;
+  }
+
   .navbar-custom .nav-pills .nav-link {
     font-size: 0.6em;
   }
@@ -331,6 +340,10 @@ code {
 
   #main .section {
     margin: 8em 0 8em 0;
+  }
+
+  .professional-network #main .section {
+    margin: 2em 0 2em 0;
   }
 
   .home-title {
@@ -382,6 +395,10 @@ code {
     margin: 10em 0 10em 0;
   }
 
+  .professional-network #main .section {
+    margin: 2.5em 0 2.5em 0;
+  }
+
   .download-platform {
     max-width: 60vw;
   }
@@ -406,6 +423,10 @@ code {
 
   #main .section {
     margin: 12em 0 12em 0;
+  }
+
+  .professional-network #main .section {
+    margin: 3em 0 3em 0;
   }
 
   #floating-arrow {

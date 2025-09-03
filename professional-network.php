@@ -11,7 +11,6 @@
                     <div class="mb-4">
                         <img src="images/professional-network-logo.png" alt="FreeCAD Professional Network Logo" class="img-fluid" style="max-width: 300px; height: auto;">
                     </div>
-                    <h1 class="display-4 text-light mb-4"><?php echo _('FreeCAD Professional Network'); ?></h1>
                     <p class="lead text-light mb-5"><strong><?php echo _('Join the community shaping the future of FreeCAD.'); ?></strong></p>
                 </div>
             </div>
@@ -67,14 +66,49 @@
 
         <!-- Membership Section -->
         <div class="row section rounded">
-            <div class="col-lg-8 mx-auto text-light px-4">
-                <h2 class="section-title"><?php echo _('Membership'); ?></h2>
-                <ul class="section-body">
-                    <li><strong><?php echo _('$100 per year'); ?></strong></li>
-                    <li><?php echo _('Individual membership (not tied to organizations)'); ?></li>
-                    <li><?php echo _('Funds support the ongoing operations of the FPN and its activities'); ?></li>
-                </ul>
-                <p class="section-body">
+            <div class="col-lg-10 mx-auto text-light px-4">
+                <h2 class="section-title text-center mb-4"><?php echo _('Membership Tiers'); ?></h2>
+                
+                <div class="row">
+                    <!-- Individual Membership -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card bg-dark border-light h-100">
+                            <div class="card-body text-center">
+                                <h3 class="card-title text-primary"><?php echo _('Individual'); ?></h3>
+                                <div class="display-6 text-light mb-3">€100<small class="fs-6 text-muted">/year</small></div>
+                                <ul class="list-unstyled text-start section-body text-light">
+                                    <li class="mb-2 text-light">✓ <?php echo _('Access to professional network'); ?></li>
+                                    <li class="mb-2 text-light">✓ <?php echo _('Access to FPN private discord channel'); ?></li>
+                                    <li class="mb-2 text-light">✓ <?php echo _('Voting rights on FPN initiatives'); ?></li>
+                                    <li class="mb-2 text-light">✓ <?php echo _('Quarterly newsletter'); ?></li>
+                                </ul>
+                                <div class="mt-4">
+                                    <a href="https://buy.stripe.com/eVqaEX2IteaO8bc7zVdZ602" class="btn btn-primary btn-lg rounded-pill px-4" target="_blank"><?php echo _('Join Individual'); ?></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Organization Membership -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card bg-dark border-primary h-100">
+                            <div class="card-body text-center">
+                                <h3 class="card-title text-primary"><?php echo _('Organization'); ?></h3>
+                                <div class="display-6 text-light mb-3">€1,000<small class="fs-6 text-muted">/year</small></div>
+                                <ul class="list-unstyled text-start section-body text-light">
+                                    <li class="mb-2 text-light">✓ <?php echo _('All individual membership benefits'); ?></li>
+                                    <li class="mb-2 text-light">✓ <?php echo _('Unlimited employee memberships included'); ?></li>
+                                    <li class="mb-2 text-light">✓ <?php echo _('Logo recognition as FPN supporter'); ?></li>
+                                </ul>
+                                <div class="mt-4">
+                                    <a href="https://buy.stripe.com/aFa9AT2It7MqfDE4nJdZ603" class="btn btn-primary btn-lg rounded-pill px-4" target="_blank"><?php echo _('Join Organization'); ?></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="section-body text-center mt-4">
                     <?php echo _('Membership isn\'t just a fee—it\'s an investment in FreeCAD\'s future and in your own professional ecosystem.'); ?>
                 </p>
             </div>
@@ -94,13 +128,6 @@
             </div>
         </div>
 
-        <!-- Call to Action Section -->
-        <div class="row section rounded">
-            <div class="col-lg-8 mx-auto text-center text-light px-4">
-                <p class="lead mb-4">👉 <strong><?php echo _('Be part of the network. Help shape the future of FreeCAD.'); ?></strong></p>
-                <a href="https://buy.stripe.com/eVqaEX2IteaO8bc7zVdZ602" class="btn btn-primary btn-lg rounded-pill px-5" target="_blank"><?php echo _('Join Now'); ?></a>
-            </div>
-        </div>
     </main>
 
 <?php include 'footer.php'; ?>
