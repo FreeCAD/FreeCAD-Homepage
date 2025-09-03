@@ -68,7 +68,7 @@
         <div class="row section rounded">
             <div class="col-lg-10 mx-auto text-light px-4">
                 <h2 class="section-title text-center mb-4"><?php echo _('Membership Tiers'); ?></h2>
-                
+
                 <div class="row">
                     <!-- Individual Membership -->
                     <div class="col-md-6 mb-4">
@@ -88,7 +88,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- Organization Membership -->
                     <div class="col-md-6 mb-4">
                         <div class="card bg-dark border-primary h-100">
@@ -107,7 +107,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <p class="section-body text-center mt-4">
                     <?php echo _('Membership isn\'t just a fee—it\'s an investment in FreeCAD\'s future and in your own professional ecosystem.'); ?>
                 </p>
