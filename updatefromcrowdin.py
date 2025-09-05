@@ -1,36 +1,38 @@
 #!/usr/bin/python
 
-#***************************************************************************
-#*                                                                         *
-#*   Copyright (c) 2009 Yorik van Havre <yorik@uncreated.net>              *
-#*                                                                         *
-#*   This program is free software; you can redistribute it and/or modify  *
-#*   it under the terms of the GNU Library General Public License (LGPL)   *
-#*   as published by the Free Software Foundation; either version 2 of     *
-#*   the License, or (at your option) any later version.                   *
-#*   for detail see the LICENCE text file.                                 *
-#*                                                                         *
-#*   This program is distributed in the hope that it will be useful,       *
-#*   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
-#*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
-#*   GNU Library General Public License for more details.                  *
-#*                                                                         *
-#*   You should have received a copy of the GNU Library General Public     *
-#*   License along with this program; if not, write to the Free Software   *
-#*   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  *
-#*   USA                                                                   *
-#*                                                                         *
-#***************************************************************************
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# ***************************************************************************
+# *                                                                         *
+# *   Copyright (c) 2025 The FreeCAD project association AISBL              *
+# *   Copyright (c) 2009 Yorik van Havre <yorik@uncreated.net>              *
+# *                                                                         *
+# *   This file is part of FreeCAD project.                                 *
+# *                                                                         *
+# *   FreeCAD is free software: you can redistribute it and/or modify it    *
+# *   under the terms of the GNU Lesser General Public License as           *
+# *   published by the Free Software Foundation, either version 2.1 of the  *
+# *   License, or (at your option) any later version.                       *
+# *                                                                         *
+# *   FreeCAD is distributed in the hope that it will be useful, but        *
+# *   WITHOUT ANY WARRANTY; without even the implied warranty of            *
+# *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU      *
+# *   Lesser General Public License for more details.                       *
+# *                                                                         *
+# *   You should have received a copy of the GNU Lesser General Public      *
+# *   License along with FreeCAD. If not, see                               *
+# *   <https://www.gnu.org/licenses/>.                                      *
+# *                                                                         *
+# ***************************************************************************
 
 
 '''
 Usage:
 
-    updatefromcrowdin.py [options] [LANGCODE] [LANGCODE LANGCODE...]
+    updatefromcrowdin.py [-d path | -z file] [LANGCODE] [LANGCODE LANGCODE...]
 
 Example:
 
-    ./updatefromcrowdin.py [-d <directory>] fr nl pt_BR
+    ./updatefromcrowdin.py -z freecad.zip fr nl pt_BR
 
 Options:
 
@@ -62,120 +64,104 @@ user's folder, that contains the API V2 access token that gives access to the
 crowdin FreeCAD project. The API token can also be specified in the
 CROWDIN_TOKEN environment variable.
 
-To generate the .pot file to be uploaded on crowdin:
+To generate the .po file to be uploaded on CrowdIn use the xgettext tool on
+any UNIX-like OS.
 
-xgettext --from-code=UTF-8 -o lang/homepage.pot *.php
+xgettext --from-code=UTF-8 -o lang/homepage.po *.php
 
 '''
-from __future__ import print_function
 
-import sys, os, shutil, tempfile, zipfile, getopt, re
-from urllib.request import urlopen
+from PySide6 import QtCore
+from functools import lru_cache
 from io import StringIO
+from typing import List, Dict
+from urllib.request import Request
+from urllib.request import urlopen
+
+import getopt
+import json
+import os
+import shutil
+import sys
+import tempfile
+import zipfile
+
 try:
     import Image
-except:
+except ImportError:
     from PIL import Image
-from PySide2 import QtCore,QtGui
-from functools import lru_cache
-from urllib.request import Request
-import json
 
-
-crowdinpath = "http://crowdin.net/download/project/freecad.zip"
 
 def doLanguage(lncode):
-
-
     " treats a single language"
-
 
     if lncode == "en":
         # never treat "english" translation... For now :)
         return
     basefilepath = tempfolder + os.sep + lncode + os.sep + "homepage.po"
-    lncode = lncode.replace("-","_")
-    langpath = os.path.join(os.path.abspath("lang"),lncode)
-    popath = os.path.join(langpath,"LC_MESSAGES")
-    flagfile = os.path.join(langpath,"flag.jpg")
-    print("language:",lncode)
-    print("language file:",basefilepath)
-    print("target path:",langpath)
+    lncode = lncode.replace("-", "_")
+    langpath = os.path.join(os.path.abspath("lang"), lncode)
+    popath = os.path.join(langpath, "LC_MESSAGES")
+    flagfile = os.path.join(langpath, "flag.jpg")
+    print("language:", lncode)
+    print("language file:", basefilepath)
+    print("target path:", langpath)
     if not os.path.exists(langpath):
         print("creating folders")
         os.mkdir(langpath)
         os.mkdir(popath)
     print("copying translation file")
-    shutil.copyfile(basefilepath,os.path.join(popath,"homepage.po"))
+    shutil.copyfile(basefilepath, os.path.join(popath, "homepage.po"))
     print("compiling translation file")
-    os.system("msgfmt -c -o "+os.path.join(popath,"homepage.mo")+" "+os.path.join(popath,"homepage.po"))
+    os.system("msgfmt -c -o " + os.path.join(popath, "homepage.mo") + " " + os.path.join(popath,
+                                                                                         "homepage.po"))
     if not os.path.exists(flagfile):
-        print("image not found:",flagfile)
+        print("image not found:", flagfile)
         if "_" in lncode:
             lflag = lncode.split("_")[0]
         else:
             lflag = lncode
-        flagurl = "http://www.unilang.org/images/langicons/"+lflag+ ".png"
-        print("downloading flag from ",flagurl)
+        flagurl = "http://www.unilang.org/images/langicons/" + lflag + ".png"
+        print("downloading flag from ", flagurl)
         try:
             im = Image.open(StringIO(urlopen(flagurl).read()))
         except:
             print("Unable to download image above. Please do it manually")
             sys.exit()
         im = im.convert("RGB")
-        print("saving flag to ",flagfile)
+        print("saving flag to ", flagfile)
         im.save(flagfile)
     return lncode
 
 
+def generate_locale_map_json(lang_codes:List[str], output_file:str= "localeMap.json") -> Dict[str, str]:
+    """
+    Generate a JSON file mapping language codes to full locale names.
 
-def generatePHP(lcodes):
+    :param lang_codes: A list of locale codes (e.g., ["en", "de", "zh_CN"])
+    :param output_file: The filename where the JSON data will be saved
+    """
+    locale_map = {}
 
+    for language_code in lang_codes:
+        if not language_code:
+            continue
 
-    "generates translation.php file"
+        ql = QtCore.QLocale(language_code)
+        language_name = ql.name()
+        short_code = language_code.split("_")[0]
+        if short_code in locale_map:
+            short_code = language_name
 
-    lcodes = [l for l in lcodes if l]
-    lcodes.sort()
-    phpfile = open("translation.php","w")
-    phpfile.write("<?php\n\n$localeMap = array(\n")
-    phpfile.write("    'en' => 'en_US',\n")
-    for lncode in lcodes:
-        if lncode:
-            ql = QtCore.QLocale(lncode)
-            lname = ql.name()
-            if lncode == "val_ES":
-                lname = "val_ES" # fix qt bug
-            phpfile.write("    '"+lncode.split("_")[0]+"' => '"+lname+"',\n")
+        locale_map[short_code] = language_name
 
-    phpfile.write(");\n\n$lang = \"en\";\nif (isSet($_GET[\"lang\"])) $lang = $_GET[\"lang\"];\n")
-    phpfile.write("$locale = isset($localeMap[$lang]) ? $localeMap[$lang] : $lang;\nputenv(\"LC_ALL=$locale\");\n")
-    phpfile.write("setlocale(LC_ALL, $locale);\nbindtextdomain(\"homepage\", \"lang\");\n")
-    phpfile.write("textdomain(\"homepage\");\nbind_textdomain_codeset(\"homepage\", 'UTF-8');\n\n")
-    phpfile.write("$flagcode = $lang;\n\nif (!file_exists('lang/'.$flagcode.\"/flag.jpg\")) {\n")
-    phpfile.write("if (strpos($flagcode, '_') !== false) {\n$flagcode = explode(\"_\", $flagcode)[0];\n}\n}\n")
-    phpfile.write("$langattrib = \"\";\n$langStr = \"\";\nif ($_GET[\"lang\"] != \"\") {")
-    phpfile.write("$langStr = \"?lang=\".$_GET[\"lang\"];\n    $langattrib = \"&lang=\".$_GET[\"lang\"];\n}")
-    phpfile.write("function getFlags($href='/') {\n")
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(locale_map, f, indent=2)
 
-    phpfile.write("    echo('						<a class=\"dropdown-item\" href=\"'.$href.'\"><img src=\"lang/en/flag.jpg\" alt=\"\" />'._('English').'</a>');\n")
-    for lncode in lcodes:
-        if lncode:
-            ql = QtCore.QLocale(lncode)
-            lname = ql.languageToString(ql.language())
-            if lncode == "val_ES": lname = "Valencian" # fix qt bug
-            phpfile.write("    echo('						<a class=\"dropdown-item\" href=\"'.$href.'?lang="+lncode+"\"><img src=\"lang/"+lncode+"/flag.jpg\" alt=\"\" />'._('"+lname+"').'</a>');\n")
-
-    phpfile.write("}\n\nfunction getTranslatedDownloadLink() {\n")
-    phpfile.write("    $tr = \"\";\n")
-    phpfile.write("    if (isSet($_GET[\"lang\"])) {\n")
-    phpfile.write("        $tr = \"?lang=\".$_GET[\"lang\"];\n    }\n")
-    phpfile.write("    echo(\"downloads.php\".$tr);\n")
-    phpfile.write("}\n?>")
-
+    return locale_map
 
 
 class CrowdinUpdater:
-
     BASE_URL = "https://api.crowdin.com/api/v2"
 
     def __init__(self, token, project_identifier, multithread=True):
@@ -198,7 +184,10 @@ class CrowdinUpdater:
         url = f"{self.BASE_URL}/projects/{self._get_project_id()}{project_path}"
         return self._make_api_req(url=url, *args, **kwargs)
 
-    def _make_api_req(self, url, extra_headers={}, method="GET", data=None):
+    @staticmethod
+    def _make_api_req(url, extra_headers=None, method="GET", data=None):
+        if extra_headers is None:
+            extra_headers = {}
         headers = {"Authorization": "Bearer " + load_token(), **extra_headers}
 
         if type(data) is dict:
@@ -231,6 +220,7 @@ class CrowdinUpdater:
         response = self._make_project_api_req("/files/27908/languages/progress?limit=100")
         return [item["data"] for item in response]
 
+
 def load_token():
     # load API token stored in ~/.crowdin-freecad-token
     config_file = os.path.expanduser("~") + os.sep + ".crowdin-freecad-token"
@@ -238,7 +228,6 @@ def load_token():
         with open(config_file) as file:
             return file.read().strip()
     return None
-
 
 
 def get_default_languages(updater):
@@ -251,21 +240,19 @@ def get_default_languages(updater):
     languages = [
         item["languageId"] for item in status if item["translationProgress"] > 50
     ]
-    print("languages above 50%:",languages)
+    print("languages above 50%:", languages)
     return languages
 
 
 if __name__ == "__main__":
 
-    args = sys.argv[1:]
-    if len(args) < 1:
-        print(__doc__)
-        sys.exit()
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "hd:z:", ["help", "directory=","zipfile="])
+        opts, args = getopt.getopt(sys.argv[1:], "hd:z:", ["help", "directory=", "zipfile="])
     except getopt.GetoptError:
         print(__doc__)
         sys.exit()
+
+
 
     token = os.environ.get("CROWDIN_TOKEN", load_token())
     if not token:
@@ -290,9 +277,15 @@ if __name__ == "__main__":
         if o in ("-z", "--zipfile"):
             inputzip = a
 
+    if inputdir and inputzip:
+        print("ERROR: only one of -d or -z can be specified")
+        sys.exit()
+
+    if not inputdir and not inputzip:
+        print("ERROR: one of -d or -z must be specified")
+        sys.exit()
+
     global tempfolder
-    global crowdinpage
-    crowdinpage = urlopen("https://crowdin.com/project/freecad").read()
     currentfolder = os.getcwd()
     if inputdir:
         tempfolder = os.path.realpath(inputdir)
@@ -303,28 +296,16 @@ if __name__ == "__main__":
         tempfolder = tempfile.mkdtemp()
         print("creating temp folder " + tempfolder)
         os.chdir(tempfolder)
-        inputzip=os.path.realpath(inputzip)
+        inputzip = os.path.realpath(inputzip)
         if not os.path.exists(inputzip):
             print("ERROR: " + inputzip + " not found")
             sys.exit()
-        shutil.copy(inputzip,tempfolder)
-        zfile=zipfile.ZipFile("freecad.zip")
-        print("extracting freecad.zip...")
-        zfile.extractall()
-    else:
-        tempfolder = tempfile.mkdtemp()
-        print("creating temp folder " + tempfolder)
-        os.chdir(tempfolder)
-        os.system("wget "+crowdinpath)
-        if not os.path.exists("freecad.zip"):
-            print("download failed!")
-            sys.exit()
-        zfile=zipfile.ZipFile("freecad.zip")
-        print("extracting freecad.zip...")
+        zfile = zipfile.ZipFile(inputzip)
+        print(f"Extracting {inputzip} to {tempfolder}")
         zfile.extractall()
     os.chdir(currentfolder)
     if not args:
-        #args = [o for o in os.listdir(tempfolder) if o != "freecad.zip"]
+        # args = [o for o in os.listdir(tempfolder) if o != "freecad.zip"]
         # do not treat all languages in the zip file. Some are not translated enough.
         args = get_default_languages(updater)
     lcodes = []
@@ -333,4 +314,4 @@ if __name__ == "__main__":
             print("ERROR: language path for " + ln + " not found!")
         else:
             lcodes.append(doLanguage(ln))
-    generatePHP(lcodes)
+    generate_locale_map_json(lcodes)
