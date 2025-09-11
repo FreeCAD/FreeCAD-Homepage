@@ -250,6 +250,7 @@ updateLatestCategoryFromFeed(
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
+              <div class="bronze sponsor">flightmansam</div>
               <div class="bronze sponsor">Ustun Design</div>
               <div class="bronze sponsor">Glen G</div>
               <div class="bronze sponsor">Elevated Sensors</div>
