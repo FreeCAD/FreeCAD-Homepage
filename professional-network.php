@@ -7,11 +7,11 @@
         <!-- Hero Section -->
         <div class="row">
             <div class="col-12">
-                <div class="text-center py-5">
+                <div class="text-center pt-5">
                     <div class="mb-4">
                         <img src="images/professional-network-logo.png" alt="FreeCAD Professional Network Logo" class="img-fluid" style="max-width: 300px; height: auto;">
                     </div>
-                    <p class="lead text-light mb-5"><strong><?php echo _('Join the community shaping the future of FreeCAD.'); ?></strong></p>
+                    <p class="lead text-light"><strong><?php echo _('Join the community shaping the future of FreeCAD.'); ?></strong></p>
                 </div>
             </div>
         </div>
