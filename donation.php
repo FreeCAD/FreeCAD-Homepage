@@ -343,9 +343,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                   </div>
                 </div>
+                <p> <?php echo _("The FPA's <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">donation rules</a> apply to all donations."); ?> </p>
                 <p> <?php echo _("Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"); ?> </p>
                 <p> <?php echo _('Choose freely the amount you wish to donate each month.'); ?> </p>
-                <p> <?php echo _('Please inform your forum name or twitter handle as a notein your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!'); ?> </p>
+                <p> <?php echo _('Please inform your forum name or twitter handle as a note in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!'); ?> </p>
               </div>
             </div>
           </div>
