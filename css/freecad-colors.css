@@ -1,0 +1,135 @@
+/**
+ * FreeCAD Brand Color System
+ * Based on the official logo manual and design guidelines
+ * Implements a modern, accessible color palette with dark mode support
+ */
+
+:root {
+  /* === Brand Colors === */
+  --fc-blue: #389BE0;
+  --fc-blue-deep: #226AAE;
+  --fc-teal-soft: #42B6C9;
+  --fc-red: #C34347;
+  --fc-red-bright: #FF595E;
+  --fc-ink: #212529;
+  
+  /* === Neutral Ramp === */
+  --fc-n900: #0F1216;
+  --fc-n800: #15181C;
+  --fc-n700: #1B2026;
+  --fc-n600: #2A313A;
+  --fc-n500: #3A4450;
+  --fc-n400: #5B6776;
+  --fc-n300: #8B96A3;
+  --fc-n200: #C5CCD4;
+  --fc-n100: #E6EBEF;
+  --fc-n050: #F3F6F8;
+  --fc-white: #FFFFFF;
+  
+  /* === Semantic Colors === */
+  --fc-success: #28A745;
+  --fc-warning: #F5A623;
+  --fc-error: #D64545;
+  
+  /* === Background Gradients === */
+  --fc-gradient-hero: linear-gradient(135deg, var(--fc-blue-deep) 0%, var(--fc-blue) 60%, var(--fc-teal-soft) 120%);
+  --fc-gradient-dark: linear-gradient(135deg, #12243B 0%, #1B4E78 60%, #1E6B78 120%);
+  
+  /* === Shadows === */
+  --fc-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --fc-shadow-md: 0 8px 24px rgba(0, 0, 0, 0.06);
+  --fc-shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.08);
+  --fc-shadow-hover: 0 12px 32px rgba(56, 155, 224, 0.12);
+  
+  /* === Border Radius === */
+  --fc-radius-sm: 6px;
+  --fc-radius-md: 12px;
+  --fc-radius-lg: 20px;
+  --fc-radius-pill: 999px;
+  
+  /* === Transitions === */
+  --fc-transition-fast: 150ms ease;
+  --fc-transition-base: 300ms ease;
+  --fc-transition-slow: 500ms ease;
+  
+  /* === Applied Theme Colors (Light Mode) === */
+  --fc-bg-primary: var(--fc-white);
+  --fc-bg-secondary: var(--fc-n050);
+  --fc-bg-tertiary: var(--fc-n100);
+  --fc-bg-hero: var(--fc-gradient-hero);
+  
+  --fc-text-primary: var(--fc-ink);
+  --fc-text-secondary: rgba(33, 37, 41, 0.8);
+  --fc-text-tertiary: var(--fc-n400);
+  --fc-text-on-dark: var(--fc-white);
+  --fc-text-muted: var(--fc-n300);
+  
+  --fc-border-light: var(--fc-n100);
+  --fc-border-medium: var(--fc-n200);
+  --fc-border-dark: var(--fc-n300);
+  
+  --fc-link-color: var(--fc-blue);
+  --fc-link-hover: var(--fc-blue-deep);
+  --fc-link-active: var(--fc-red);
+}
+
+/* === Dark Mode === */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fc-bg-primary: var(--fc-n800);
+    --fc-bg-secondary: var(--fc-n700);
+    --fc-bg-tertiary: var(--fc-n600);
+    --fc-bg-hero: var(--fc-gradient-dark);
+    
+    --fc-text-primary: #F2F4F6;
+    --fc-text-secondary: rgba(242, 244, 246, 0.85);
+    --fc-text-tertiary: var(--fc-n300);
+    --fc-text-on-dark: var(--fc-white);
+    --fc-text-muted: var(--fc-n400);
+    
+    --fc-border-light: var(--fc-n600);
+    --fc-border-medium: var(--fc-n500);
+    --fc-border-dark: var(--fc-n400);
+    
+    --fc-link-color: #4AA6E8;
+    --fc-link-hover: var(--fc-blue);
+    --fc-link-active: var(--fc-red-bright);
+    
+    /* Adjust shadows for dark mode */
+    --fc-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
+    --fc-shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+    --fc-shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.6);
+    --fc-shadow-hover: 0 12px 32px rgba(74, 166, 232, 0.24);
+  }
+}
+
+/* === Utility Classes === */
+
+/* Background utilities */
+.bg-gradient-hero { background: var(--fc-bg-hero); }
+.bg-primary { background-color: var(--fc-bg-primary); }
+.bg-secondary { background-color: var(--fc-bg-secondary); }
+.bg-tertiary { background-color: var(--fc-bg-tertiary); }
+
+/* Text utilities */
+.text-ink { color: var(--fc-ink); }
+.text-primary-theme { color: var(--fc-text-primary); }
+.text-secondary-theme { color: var(--fc-text-secondary); }
+.text-on-dark { color: var(--fc-text-on-dark); }
+.text-muted-theme { color: var(--fc-text-muted); }
+
+/* Brand color utilities */
+.text-brand-blue { color: var(--fc-blue); }
+.text-brand-red { color: var(--fc-red); }
+.bg-brand-blue { background-color: var(--fc-blue); }
+.bg-brand-red { background-color: var(--fc-red); }
+
+/* Border utilities */
+.border-brand-blue { border-color: var(--fc-blue); }
+.border-light-theme { border-color: var(--fc-border-light); }
+.border-medium-theme { border-color: var(--fc-border-medium); }
+
+/* Shadow utilities */
+.shadow-sm-theme { box-shadow: var(--fc-shadow-sm); }
+.shadow-md-theme { box-shadow: var(--fc-shadow-md); }
+.shadow-lg-theme { box-shadow: var(--fc-shadow-lg); }

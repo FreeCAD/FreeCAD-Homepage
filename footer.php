@@ -3,7 +3,7 @@
     <!-- FOOTER -->
     <!-- ------ -->
 
-  <footer class="container-fluid footer-custom bg-dark text-center text-light">
+  <footer class=" w-100 text-center">
 
     <div class="justify-content-center my-3 my-md-5">
       <?php echo _('Get in touch!'); ?><br/>
@@ -20,11 +20,10 @@
       <a href="https://www.linkedin.com/groups/4295230"><img class="icon-social m-2" src="svg/icon-linkedin-light.svg" alt="LinkedIn"/></a>
     </div>
 
-    <p class="footer-credits mt-3">
-      <?php echo _('© The FreeCAD Team.'); ?>
-    </p>
-
-    <p><?php echo _('This project is supported by:'); ?>
+    <p><small>
+      <?php echo _('This project is supported by'); ?>
+    </small></p>
+    <p>
       <a href="https://www.digitalocean.com/?utm_medium=opensource&utm_source=FreeCAD">
         <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="180px" alt="DigitalOcean">
       </a>
@@ -36,15 +35,9 @@
       <a href="<?php echo $sponsorurl; ?>"><?php echo _('other sponsors'); ?></a>
     </p>
 
-    <div class="float-sm-end">
-    <a id="githubLink" href="#"><img class="icon-social m-3" src="svg/icon-github-light.svg" alt="GitHub" /><?php echo _('Improve this
-      page on GitHub'); ?></a>
-    <?php
-      $currentUrl = $_SERVER['REQUEST_URI'];
-      $githubEditUrl = 'https://github.com/FreeCAD/FreeCAD-Homepage/blob/master/' . $currentpage;
-      echo '<script>document.getElementById("githubLink").setAttribute("href", "' . $githubEditUrl . '");</script>';
-      ?>
-    </div>
+      <p class="footer-credits mt-3 text-muted">
+      <?php echo _('© The FreeCAD Team.'); ?>
+    </p>
 
   </footer>
 

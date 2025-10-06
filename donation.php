@@ -213,8 +213,8 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 <!-- Modal -->
 <div class="modal fade" id="donateModal" tabindex="-1">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content bg-dark">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content card">
       <div class="modal-header border-secondary">
         <h1 class="modal-title fs-5" id="donateModalLabel"> <?php echo _('Donate'); ?> </h1>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>

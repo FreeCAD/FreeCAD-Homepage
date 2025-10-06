@@ -4,6 +4,16 @@
 ?>
 
   <script>
+    // Navbar scroll effect
+    window.addEventListener('scroll', function() {
+        const navbar = document.querySelector('.navbar-custom');
+        if (window.scrollY > 100) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+
     function onClickArrow() {
         document.getElementById('belowArrow').scrollIntoView();
     }
@@ -69,28 +79,44 @@
   }
   </script>
 
-  <main id="main" class="container-fluid">
-    <section class="row section-cover d-flex align-items-center">
+ <header class="container-fluid">
+  <section class="row section-cover d-flex align-items-center fc-nodefield">
+      
+      
       <div class="col-lg-8">
         <img class="img-fluid" src="images/cover-photo.avif" alt="Cover Photo"/>
       </div>
 
       <div class="col-lg-4 text-center text-lg-start align-content-center order-lg-first">
         <h1 class="home-title text-light mt-n5 mb-0 mt-lg-0"><img class="home-image" src="svg/freecad-home.svg" alt="FreeCAD" /></h1>
-        <h2 class="home-subtitle text-light mb-4"><?php echo _('Your own 3D parametric modeler'); ?></h2>
+        <h2 class="home-subtitle text-light mb-4 font-bold" style="font-weight: 600;">
+
+        <?php echo _('Design Anything.  <span class="text-red">Build Everything.</span>'); ?>
+
+        </h2>
         <div class="flex-column flex-lg-row">
           <a class="btn btn-light rounded-pill mt-2" role="button" href="<?php echo $downloadurl; ?>"><?php echo _('Download now'); ?></a>
           <a class="btn btn-outline-light rounded-pill mt-2" role="button" href="<?php echo _('https://wiki.freecad.org/Release_notes_1.0'); ?>"><?php echo _("See what's new"); ?></a>
         </div>
       </div>
+
+
     </section>
 
-    <div class="d-flex justify-content-center"><img id="floating-arrow" src="svg/icon-down.svg" onClick="onClickArrow()" onmouseover="" style="cursor: pointer;" alt="" /></div>
+      <img id="floating-arrow" src="svg/icon-down.svg" onClick="onClickArrow()" onmouseover="" alt="" />
+
+
+
+ </header>
+
+
+
+  <main id="main" class="container-fluid">
 
     <a id="belowArrow"></a>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Modelled by ppemawm'); ?>">
+      <div class="col-lg-7 " data-bs-toggle="tooltip" title="<?php echo _('Modelled by ppemawm'); ?>">
         <img class="img-fluid" src="images/screenshot-01.avif" alt="Screenshot 1"/>
       </div>
 
@@ -106,8 +132,8 @@
     </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 order-lg-last rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Modelled by r-frank'); ?>">
-        <img class="img-fluid" src="images/screenshot-07.avif" alt="Screenshot 7"/>
+      <div class="col-lg-7 order-lg-last" data-bs-toggle="tooltip" title="<?php echo _('Modelled by r-frank'); ?>">
+        <img class="img-fluid" src="images/screenshot-07.png" alt="Screenshot 7"/>
       </div>
 
       <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
@@ -123,7 +149,7 @@
 
         <section class="row section d-flex align-items-center justify-content-around rounded">
 
-          <div class="col-lg-7 d-flex justify-content-center rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Modelled by ppemawm'); ?>">
+          <div class="col-lg-7 d-flex justify-content-center" data-bs-toggle="tooltip" title="<?php echo _('Modelled by ppemawm'); ?>">
             <div class="animated-sprite ratio ratio-4x3"
                 data-frame-count="39"
                 data-frames-per-row="12"
@@ -160,7 +186,7 @@
         </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Modelled by epileftric'); ?>">
+      <div class="col-lg-8" data-bs-toggle="tooltip" title="<?php echo _('Modelled by epileftric'); ?>">
         <img class="img-fluid" src="images/screenshot-03.avif" alt="Screenshot 3"/>
       </div>
 
@@ -193,8 +219,8 @@
     </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-7 rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Modelled by rider_mortagnais'); ?>">
-        <img class="img-fluid" src="images/screenshot-05.avif" alt="Screenshot 5"/>
+      <div class="col-lg-7" data-bs-toggle="tooltip" title="<?php echo _('Modelled by rider_mortagnais'); ?>">
+        <img class="img-fluid" src="images/screenshot-05.png" alt="Screenshot 5"/>
       </div>
 
       <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround pb-3">

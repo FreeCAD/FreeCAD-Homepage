@@ -1,0 +1,55 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+!README.md
+DESIGN_SYSTEM.md
+STYLE_GUIDE.md
+REDESIGN_SUMMARY.md
+VISUAL_CHANGES.md
+DEPLOYMENT.md
+LOCAL_DEVELOPMENT.md
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose*.yml
+compose.yml
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Node (if used)
+node_modules/
+npm-debug.log
+
+# PHP
+vendor/
+composer.lock
+composer.phar

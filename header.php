@@ -23,11 +23,14 @@
 
   <title><?php echo _('FreeCAD: Your own 3D parametric modeler'); ?></title>
   <link rel="shortcut icon" href="images/favicon.ico"/>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <!-- Include bootstrap CSS file -->
    <link rel="stylesheet" href="css/bootstrap-5.3.3.min.css"/>
 
   <!-- Custom Styles -->
+  <link rel="stylesheet" type="text/css" href="css/freecad-colors.css"/>
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
   <!-- Social networks -->
@@ -48,9 +51,6 @@
   <nav class="navbar fixed-top navbar-expand-xl navbar-dark py-1 navbar-custom">
     <a class="navbar-brand" href="<?php echo $homeurl; ?>">
       <img class="img-fluid" src="svg/logo-freecad.svg" alt="FreeCAD Logo"/>
-    </a>
-    <a class="navbar-brand" href="<?php echo $downloadurl; ?>">
-      <img class="img-fluid" src="svg/stylized-1.0.svg" alt="FreeCAD 1.0"/>
     </a>
     <ul class="nav nav-pills ms-auto order-xl-last">
       <li class="nav-item dropdown">
