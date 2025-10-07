@@ -43,7 +43,7 @@
 
 </head>
 
-<?php 
+<?php
   $bodyClasses = [];
   if ($currentpage == 'professional-network.php') {
     $bodyClasses[] = 'professional-network';
@@ -52,7 +52,7 @@
     $bodyClasses[] = 'page-home';
   }
   $bodyClassString = implode(' ', $bodyClasses);
-  
+
   // Navbar color class: dark for home page, light for others
   $navbarColorClass = ($currentpage == 'index.php') ? 'navbar-dark' : 'navbar-light';
   $langLinkColorClass = ($currentpage == 'index.php') ? 'text-light' : 'text-dark';

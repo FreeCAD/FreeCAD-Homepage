@@ -12,7 +12,7 @@
   --fc-red: #C34347;
   --fc-red-bright: #FF595E;
   --fc-ink: #212529;
-  
+
   /* === Neutral Ramp === */
   --fc-n900: #0F1216;
   --fc-n800: #15181C;
@@ -25,49 +25,49 @@
   --fc-n100: #E6EBEF;
   --fc-n050: #F3F6F8;
   --fc-white: #FFFFFF;
-  
+
   /* === Semantic Colors === */
   --fc-success: #28A745;
   --fc-warning: #F5A623;
   --fc-error: #D64545;
-  
+
   /* === Background Gradients === */
   --fc-gradient-hero: linear-gradient(135deg, var(--fc-blue-deep) 0%, var(--fc-blue) 60%, var(--fc-teal-soft) 120%);
   --fc-gradient-dark: linear-gradient(135deg, #12243B 0%, #1B4E78 60%, #1E6B78 120%);
-  
+
   /* === Shadows === */
   --fc-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
   --fc-shadow-md: 0 8px 24px rgba(0, 0, 0, 0.06);
   --fc-shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.08);
   --fc-shadow-hover: 0 12px 32px rgba(56, 155, 224, 0.12);
-  
+
   /* === Border Radius === */
   --fc-radius-sm: 6px;
   --fc-radius-md: 12px;
   --fc-radius-lg: 20px;
   --fc-radius-pill: 999px;
-  
+
   /* === Transitions === */
   --fc-transition-fast: 150ms ease;
   --fc-transition-base: 300ms ease;
   --fc-transition-slow: 500ms ease;
-  
+
   /* === Applied Theme Colors (Light Mode) === */
   --fc-bg-primary: var(--fc-white);
   --fc-bg-secondary: var(--fc-n050);
   --fc-bg-tertiary: var(--fc-n100);
   --fc-bg-hero: var(--fc-gradient-hero);
-  
+
   --fc-text-primary: var(--fc-ink);
   --fc-text-secondary: rgba(33, 37, 41, 0.8);
   --fc-text-tertiary: var(--fc-n400);
   --fc-text-on-dark: var(--fc-white);
   --fc-text-muted: var(--fc-n300);
-  
+
   --fc-border-light: var(--fc-n100);
   --fc-border-medium: var(--fc-n200);
   --fc-border-dark: var(--fc-n300);
-  
+
   --fc-link-color: var(--fc-blue);
   --fc-link-hover: var(--fc-blue-deep);
   --fc-link-active: var(--fc-red);
@@ -80,21 +80,21 @@
     --fc-bg-secondary: var(--fc-n700);
     --fc-bg-tertiary: var(--fc-n600);
     --fc-bg-hero: var(--fc-gradient-dark);
-    
+
     --fc-text-primary: #F2F4F6;
     --fc-text-secondary: rgba(242, 244, 246, 0.85);
     --fc-text-tertiary: var(--fc-n300);
     --fc-text-on-dark: var(--fc-white);
     --fc-text-muted: var(--fc-n400);
-    
+
     --fc-border-light: var(--fc-n600);
     --fc-border-medium: var(--fc-n500);
     --fc-border-dark: var(--fc-n400);
-    
+
     --fc-link-color: #4AA6E8;
     --fc-link-hover: var(--fc-blue);
     --fc-link-active: var(--fc-red-bright);
-    
+
     /* Adjust shadows for dark mode */
     --fc-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
     --fc-shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);

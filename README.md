@@ -51,4 +51,3 @@ The page can be translated on [Crowdin](https://crowdin.com/project/freecad). Fo
 ## License
 
 See [LICENSE](LICENSE) file for details.
-

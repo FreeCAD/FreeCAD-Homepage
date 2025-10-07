@@ -8,7 +8,7 @@
     window.addEventListener('scroll', function() {
         const navbar = document.querySelector('.navbar-custom');
         const blurThreshold = 10; // 10px - add blur and distortion
-        
+
         if (window.scrollY > blurThreshold) {
             // Scrolled past 10px: transparent with blur
             navbar.classList.add('blurred');
@@ -85,8 +85,8 @@
 
  <header class="container-fluid">
   <section class="row section-cover d-flex align-items-center fc-nodefield">
-      
-      
+
+
       <div class="col-lg-8">
         <img class="img-fluid" src="images/cover-photo.avif" alt="Cover Photo"/>
       </div>
