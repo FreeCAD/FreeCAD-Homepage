@@ -186,11 +186,11 @@ body::before {
     right: -20%;
     top: -5%;
   }
-  
+
   .fc-gear-arc {
     width: 70vmax;
   }
-  
+
   /* Reduce pattern density on mobile for performance */
   .fc-nodefield::before,
   .fc-facet-tiles::before {
@@ -202,7 +202,7 @@ body::before {
   .fc-facet {
     display: none; /* Hide large watermark on very small screens */
   }
-  
+
   .fc-gear-arc {
     width: 90vmax;
     bottom: -20%;
@@ -214,7 +214,7 @@ body::before {
   .fc-facet {
     animation: subtleDrift 60s ease-in-out infinite alternate;
   }
-  
+
   .fc-gear-arc {
     animation: gentleRotate 120s linear infinite;
   }

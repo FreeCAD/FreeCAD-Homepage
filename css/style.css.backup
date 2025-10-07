@@ -27,14 +27,14 @@ body::before {
   height: 100%;
   pointer-events: none;
   opacity: 0.12;
-  background-image: 
+  background-image:
     /* Major grid lines (every 5th line) */
     linear-gradient(to right, rgba(255, 255, 255, 0.3) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 1px, transparent 1px),
     /* Minor grid lines */
     linear-gradient(to right, rgba(255, 255, 255, 0.15) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
-  background-size: 
+  background-size:
     100px 100px,  /* Major grid */
     100px 100px,
     20px 20px,    /* Minor grid */
@@ -48,7 +48,7 @@ body::before {
 @media (prefers-color-scheme: dark) {
   body::before {
     opacity: 0.15;
-    background-image: 
+    background-image:
       linear-gradient(to right, rgba(255, 255, 255, 0.4) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 1px, transparent 1px),
       linear-gradient(to right, rgba(255, 255, 255, 0.2) 1px, transparent 1px),
@@ -79,7 +79,7 @@ h6 {
   transition: background-color var(--fc-transition-base, 300ms ease);
 }
 
-ul.releases li a, 
+ul.releases li a,
 ul.releases li{
   line-height: 1.4em;
   font-size: 0.8em;
@@ -353,7 +353,7 @@ svg{
 .development-versions-title {
   font-size: 1em;
   margin-bottom: 0.5em;
-} 
+}
 
 .card.featured {
   border-top: 2px solid var(--fc-blue, #389BE0);
@@ -623,12 +623,12 @@ small {
   body {
     color: var(--fc-text-primary, #F2F4F6);
   }
-  
+
   .card {
     background: var(--fc-bg-secondary, #1B2026);
     box-shadow: var(--fc-shadow-md, 0 8px 24px rgba(0, 0, 0, 0.4));
   }
-  
+
   .navbar-custom.scrolled {
     background-color: rgba(15, 18, 22, 0.9);
   }
@@ -636,30 +636,30 @@ small {
   .model-background {
     background-color: transparent;
   }
-  
+
   .text-backround {
     background-color: var(--fc-bg-secondary, #1B2026);
     color: var(--fc-text-primary, #F2F4F6);
   }
-  
+
   .text-backround h3 {
     color: var(--fc-text-primary, #F2F4F6);
   }
-  
+
   .text-backround p {
     color: var(--fc-text-secondary, rgba(242, 244, 246, 0.85));
   }
-  
+
   .btn-light {
     background-color: var(--fc-white, #ffffff);
     color: var(--fc-blue, #389BE0);
   }
-  
+
   .btn-outline-light {
     border-color: var(--fc-white, #ffffff);
     color: var(--fc-white, #ffffff);
   }
-  
+
   .whitelinks a {
     color: var(--fc-blue, #4AA6E8);
   }
