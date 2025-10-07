@@ -90,7 +90,7 @@ updateLatestCategoryFromFeed(
                 <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.0.2/FreeCAD_1.0.2-conda-Windows-x86_64-py311.7z">x86_64 portable (.7z)</a>
               </div>
             </div>
-            <div class="card-footer px-xl-5 py-xl-4">
+            <div class="card-footer px-xl-5 lh-1 py-xl-4">
               <small class="text-muted">
                 <?php echo _('Windows 8 is the minimum supported version. For more info on installation, please check out the '); ?>
                 <a href="<?php echo _('https://wiki.freecad.org/Install_on_Windows'); ?>"><?php echo _('wiki'); ?></a>.
@@ -115,7 +115,7 @@ updateLatestCategoryFromFeed(
               <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.0.2/FreeCAD_1.0.2-conda-macOS-arm64-py311.dmg">Apple Silicon</a>
               <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.0.2/FreeCAD_1.0.2-conda-macOS-x86_64-py311.dmg">Intel</a>
             </div>
-            <div class="card-footer px-xl-5 py-xl-4">
+            <div class="card-footer px-xl-5 lh-1 py-xl-4">
               <small class="text-muted">
                 <?php echo _('macOS 10.13 High Sierra is the minimum supported version. For more info on installation, please check out the '); ?>
                 <a href="<?php echo _('https://wiki.freecad.org/Install_on_Mac'); ?>"><?php echo _('wiki'); ?></a>.
@@ -136,7 +136,7 @@ updateLatestCategoryFromFeed(
               <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.0.2/FreeCAD_1.0.2-conda-Linux-x86_64-py311.AppImage">x86_64 AppImage</a>
               <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.0.2/FreeCAD_1.0.2-conda-Linux-aarch64-py311.AppImage">aarch64 AppImage</a>
             </div>
-            <div class="card-footer px-xl-5 py-xl-4">
+            <div class="card-footer px-xl-5 lh-1 py-xl-4">
               <small class="text-muted">
                 <?php echo _('For distro-specific install instructions such as Ubuntu PPA and other ways to install on Linux please check out the '); ?>
                 <a href="<?php echo _('https://wiki.freecad.org/Install_on_Unix'); ?>"><?php echo _('wiki'); ?></a>.
@@ -205,7 +205,7 @@ updateLatestCategoryFromFeed(
 
       <section class="row">
 
-      <div class="col-md-5 ">
+      <div class="col-md-5 px-0 mb-4 mb-md-0">
 
 
       <div class="card p-4 me-auto h-100">

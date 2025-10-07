@@ -4,13 +4,17 @@
 ?>
 
   <script>
-    // Navbar scroll effect
+    // Navbar scroll effect - only for home page
     window.addEventListener('scroll', function() {
         const navbar = document.querySelector('.navbar-custom');
-        if (window.scrollY > 100) {
-            navbar.classList.add('scrolled');
+        const blurThreshold = 10; // 10px - add blur and distortion
+        
+        if (window.scrollY > blurThreshold) {
+            // Scrolled past 10px: transparent with blur
+            navbar.classList.add('blurred');
         } else {
-            navbar.classList.remove('scrolled');
+            // At top: completely transparent, no blur
+            navbar.classList.remove('blurred');
         }
     });
 
@@ -167,14 +171,9 @@
 
         <section class="row section d-flex align-items-center justify-content-around rounded">
 
-          <div class="col-lg-7 order-lg-last d-flex justify-content-center rounded model-backround p-2" data-bs-toggle="tooltip" title="<?php echo _('Baked by Kris Wilk'); ?>">
-            <div class="animated-sprite ratio"
-                data-frame-count="113"
-                data-frames-per-row="12"
-                data-frame-width="1190"
-                data-frame-height="940"
-                style="background-image: url('images/gingerbread-spritesheet.avif')">
-            </div>
+          <div class="col-lg-7 order-lg-last d-flex justify-content-center">
+              <img class="img-fluid" src="images/themes_inverted_.png" alt="FreeCAD Interface"/>
+
           </div>
 
           <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
@@ -186,11 +185,15 @@
         </section>
 
     <section class="row section d-flex align-items-center justify-content-around rounded">
-      <div class="col-lg-8" data-bs-toggle="tooltip" title="<?php echo _('Modelled by epileftric'); ?>">
-        <img class="img-fluid" src="images/screenshot-03.avif" alt="Screenshot 3"/>
+      <div class="col-lg-5">
+
+
+          <img class="img-fluid" src="images/filetypes.png" alt="FreeCAD Interface"/>
+
+
       </div>
 
-      <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
+      <div class="col-lg-6 ms-auto text-light text-center text-lg-start px-md-4 rounded text-backround">
         <h3 class="section-title mt-3"><?php echo _('Accessible, flexible & integrated'); ?></h3>
         <p class="section-body">
           <?php echo _('FreeCAD is a multiplatform (Windows, Mac and Linux), highly

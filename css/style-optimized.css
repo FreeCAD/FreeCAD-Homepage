@@ -29,11 +29,11 @@ body::before {
   opacity: 0.12;
   background-image: 
     /* Major grid lines (every 5th line) */
-    linear-gradient(to right, rgba(255, 255, 255, 0.8) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 1px, transparent 1px),
-    /* Minor grid lines */
     linear-gradient(to right, rgba(255, 255, 255, 0.3) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 1px, transparent 1px);
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 1px, transparent 1px),
+    /* Minor grid lines */
+    linear-gradient(to right, rgba(255, 255, 255, 0.15) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
   background-size: 
     100px 100px,  /* Major grid */
     100px 100px,
@@ -56,62 +56,33 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
-/* === NAVBAR STYLING === */
-/* Default navbar for non-home pages: solid background */
 .navbar-custom {
-  background-color: rgba(255, 255, 255, 0.98);
+  background-color: transparent;
   padding: 0 6vw 0 6vw;
   backdrop-filter: saturate(180%) blur(10px);
-  transition: background-color var(--fc-transition-base, 300ms ease), backdrop-filter var(--fc-transition-base, 300ms ease);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: background-color var(--fc-transition-base, 300ms ease);
 }
 
-/* Home page navbar: completely transparent by default (no blur) */
-.page-home .navbar-custom {
-  background-color: transparent;
-  backdrop-filter: none;
-  box-shadow: none;
-}
-
-/* Home page navbar after 10px scroll: add blur with darker backdrop in light mode */
-.page-home .navbar-custom.blurred {
-  background-color: rgba(0, 0, 0, 0.15); /* Darker semi-transparent backdrop for better text visibility */
-  backdrop-filter: saturate(180%) blur(20px); /* Increased blur for more effect */
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+.navbar-custom.scrolled {
+  background-color: rgba(15, 18, 22, 0.8);
+  backdrop-filter: saturate(180%) blur(10px);
 }
 
 .navbar-custom .nav-pills .nav-link {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 1em;
-  color: #212529; /* Dark text for non-home pages in light mode */
+  color: #ffffff;
   transition: all 0.3s ease;
   margin: 3px;
 }
 
-/* Home page: white text always (works on transparent background) */
-.page-home .navbar-custom .nav-pills .nav-link {
-  color: #ffffff;
-}
-
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  background-color: rgba(0, 0, 0, 0.08); /* Subtle dark hover for light mode */
-}
-
-/* Home page: white hover effect */
-.page-home .navbar .nav-link:hover,
-.page-home .navbar .nav-link:focus {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
 .navbar .nav-link.active {
-  background-color: #212529; /* Dark background for active */
-  color: #ffffff; /* White text for active */
-}
-
-/* Home page: white active background */
-.page-home .navbar .nav-link.active {
   background-color: #ffffff;
   color: #404040;
 }
@@ -312,7 +283,7 @@ footer {
 }
 
 svg {
-  fill: var(--fc-text-primary, #ffffff);
+  fill: var(--fc-text-on-dark, #ffffff);
 }
 
 .icon-social {
@@ -325,183 +296,12 @@ svg {
   margin-bottom: 0.2em;
 }
 
-/* === DONATE MODAL STYLES === */
-/* Light mode defaults */
-#donateModal .modal-content {
-  background-color: var(--fc-bg-primary, #ffffff);
-  color: var(--fc-text-primary, #1d2b38);
-}
-
 #donateModal .modal-header {
   border-bottom: none;
 }
 
 #donateModal p {
   font-size: 0.9rem;
-  color: var(--fc-text-primary, #1d2b38);
-}
-
-/* Close button - light mode */
-#donateModal .btn-close {
-  filter: invert(1);
-}
-
-/* Button outlines - light mode */
-#donateModal .btn-outline-light {
-  color: var(--fc-text-primary, #1d2b38);
-  border-color: var(--fc-border-color, #dee2e6);
-}
-
-#donateModal .btn-outline-light:hover,
-#donateModal .btn-outline-light:focus {
-  background-color: var(--fc-blue, #1976d2);
-  color: #ffffff;
-  border-color: var(--fc-blue, #1976d2);
-}
-
-#donateModal .btn-check:checked + .btn-outline-light {
-  background-color: var(--fc-blue, #1976d2);
-  color: #ffffff;
-  border-color: var(--fc-blue, #1976d2);
-}
-
-/* Input groups - light mode */
-#donateModal .input-group-text {
-  background-color: var(--fc-bg-secondary, #f8f9fa);
-  color: var(--fc-text-primary, #1d2b38);
-  border-color: var(--fc-border-color, #dee2e6);
-}
-
-#donateModal .form-control,
-#donateModal .form-select {
-  background-color: var(--fc-bg-primary, #ffffff);
-  color: var(--fc-text-primary, #1d2b38);
-  border-color: var(--fc-border-color, #dee2e6);
-}
-
-#donateModal .form-control:focus,
-#donateModal .form-select:focus {
-  border-color: var(--fc-blue, #1976d2);
-  box-shadow: 0 0 0 0.25rem rgba(25, 118, 210, 0.25);
-}
-
-/* Table - light mode */
-#donateModal .table {
-  color: var(--fc-text-primary, #1d2b38);
-}
-
-#donateModal .table td,
-#donateModal .table th {
-  border-color: var(--fc-border-color, #dee2e6);
-}
-
-/* Accordion - light mode */
-#donateModal .accordion-item {
-  background-color: var(--fc-bg-secondary, #f8f9fa);
-  border-color: var(--fc-border-color, #dee2e6);
-}
-
-#donateModal .accordion-button {
-  background-color: var(--fc-bg-secondary, #f8f9fa);
-  color: var(--fc-text-primary, #1d2b38);
-}
-
-#donateModal .accordion-button:not(.collapsed) {
-  background-color: var(--fc-bg-primary, #ffffff);
-  color: var(--fc-blue, #1976d2);
-}
-
-#donateModal .accordion-body {
-  background-color: var(--fc-bg-primary, #ffffff);
-  color: var(--fc-text-primary, #1d2b38);
-}
-
-/* Dark mode overrides */
-@media (prefers-color-scheme: dark) {
-  #donateModal .modal-content {
-    background-color: var(--fc-n800, #1d2b38);
-    color: var(--fc-text-on-dark, #ffffff);
-  }
-
-  #donateModal p,
-  #donateModal .text-light {
-    color: var(--fc-text-on-dark, #ffffff);
-  }
-
-  /* Close button - dark mode */
-  #donateModal .btn-close {
-    filter: invert(1) grayscale(100%) brightness(200%);
-  }
-
-  /* Button outlines - dark mode */
-  #donateModal .btn-outline-light {
-    color: var(--fc-text-on-dark, #ffffff);
-    border-color: rgba(255, 255, 255, 0.3);
-  }
-
-  #donateModal .btn-outline-light:hover,
-  #donateModal .btn-outline-light:focus {
-    background-color: var(--fc-blue, #1976d2);
-    color: #ffffff;
-    border-color: var(--fc-blue, #1976d2);
-  }
-
-  #donateModal .btn-check:checked + .btn-outline-light {
-    background-color: var(--fc-blue, #1976d2);
-    color: #ffffff;
-    border-color: var(--fc-blue, #1976d2);
-  }
-
-  /* Input groups - dark mode */
-  #donateModal .input-group-text {
-    background-color: var(--fc-n700, #2d3e50);
-    color: var(--fc-text-on-dark, #ffffff);
-    border-color: rgba(255, 255, 255, 0.2);
-  }
-
-  #donateModal .form-control,
-  #donateModal .form-select {
-    background-color: var(--fc-n700, #2d3e50);
-    color: var(--fc-text-on-dark, #ffffff);
-    border-color: rgba(255, 255, 255, 0.2);
-  }
-
-  #donateModal .form-control:focus,
-  #donateModal .form-select:focus {
-    border-color: var(--fc-blue, #1976d2);
-    box-shadow: 0 0 0 0.25rem rgba(25, 118, 210, 0.25);
-  }
-
-  /* Table - dark mode */
-  #donateModal .table {
-    color: var(--fc-text-on-dark, #ffffff);
-  }
-
-  #donateModal .table td,
-  #donateModal .table th {
-    border-color: rgba(255, 255, 255, 0.2);
-  }
-
-  /* Accordion - dark mode */
-  #donateModal .accordion-item {
-    background-color: var(--fc-n700, #2d3e50);
-    border-color: rgba(255, 255, 255, 0.2);
-  }
-
-  #donateModal .accordion-button {
-    background-color: var(--fc-n700, #2d3e50);
-    color: var(--fc-text-on-dark, #ffffff);
-  }
-
-  #donateModal .accordion-button:not(.collapsed) {
-    background-color: var(--fc-n800, #1d2b38);
-    color: var(--fc-blue, #1976d2);
-  }
-
-  #donateModal .accordion-body {
-    background-color: var(--fc-n800, #1d2b38);
-    color: var(--fc-text-on-dark, #ffffff);
-  }
 }
 
 ul.releases li a, 
@@ -604,20 +404,15 @@ ul.releases li {
   border-radius: 4px;
 }
 
-.logo-text{
-    fill: var(--fc-text-primary);
-}
-
 .sponsor {
-    display: inline-block;
   width: 47%;
   max-width: 100%;
-text-align: center;
-  background: var(--fc-bg-primary);
-  color: var(--fc-text-primary);
-  border-radius: 10px;
+  float: left;
+  background: rgba(255, 255, 255, 0.3);
+  color: #444;
+  border-radius: 3px;
   margin: 8px;
-  padding: 10px;
+  padding: 8px;
 }
 
 .sponsor img {
@@ -818,43 +613,6 @@ small {
       linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
   }
   
-  /* Navbar for non-home pages in dark mode: solid dark background */
-  .navbar-custom {
-    background-color: rgba(27, 32, 38, 0.98);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  }
-  
-  /* Home page navbar in dark mode: completely transparent by default (no blur) */
-  .page-home .navbar-custom {
-    background-color: transparent;
-    backdrop-filter: none;
-    box-shadow: none;
-  }
-  
-  /* Home page navbar after 10px scroll in dark mode: with blur and subtle backdrop */
-  .page-home .navbar-custom.blurred {
-    background-color: rgba(0, 0, 0, 0.25); /* Subtle dark backdrop in dark mode */
-    backdrop-filter: saturate(180%) blur(20px); /* Increased blur to match light mode */
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
-  }
-  
-  /* Navbar links: white text in dark mode */
-  .navbar-custom .nav-pills .nav-link {
-    color: #ffffff;
-  }
-  
-  /* Navbar hover in dark mode */
-  .navbar .nav-link:hover,
-  .navbar .nav-link:focus {
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-  
-  /* Active link in dark mode */
-  .navbar .nav-link.active {
-    background-color: #ffffff;
-    color: #212529;
-  }
-  
   .card {
     background: var(--fc-bg-secondary, #1B2026);
     box-shadow: var(--fc-shadow-md, 0 8px 24px rgba(0, 0, 0, 0.4));
@@ -867,6 +625,10 @@ small {
   .card h2,
   .card h3 {
     color: var(--fc-text-primary, #F2F4F6);
+  }
+  
+  .navbar-custom.scrolled {
+    background-color: rgba(15, 18, 22, 0.9);
   }
 
   .model-backround {
