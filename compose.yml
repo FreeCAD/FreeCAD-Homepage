@@ -6,8 +6,8 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./:/var/www/html/public
+      - ./:/var/www/html
     environment:
       - APP_ENV=development
-    container_name: freecad-website
+    container_name: web
     
