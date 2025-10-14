@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var methodSelect = document.getElementById("method");
     var sepainfo = document.getElementById("sepainfo");
     var stripeinfo = document.getElementById("stripeinfo");
+    var paypalinfo = document.getElementById("paypalinfo");
     var submitButton = document.getElementById("submit");
     var amountInput = document.getElementById("amount");
     var donateModal = document.getElementById('donateModal');
@@ -54,18 +55,27 @@ document.addEventListener('DOMContentLoaded', function() {
             sepainfo.classList.remove("hidden");
             submitButton.classList.add("disabled");
             stripeinfo.classList.add("hidden");
+            paypalinfo.classList.add("hidden");
         }else if(method == "stripe" && type == "sponsor") {
             sepainfo.classList.add("hidden");
             submitButton.classList.add("disabled");
             stripeinfo.classList.remove("hidden");
+            paypalinfo.classList.add("hidden");
+        }else if(method == "paypal") {
+            sepainfo.classList.add("hidden");
+            submitButton.classList.add("disabled");
+            stripeinfo.classList.add("hidden");
+            paypalinfo.classList.remove("hidden");
         }else if(method == "null") {
             sepainfo.classList.add("hidden");
             submitButton.classList.add("disabled");
             stripeinfo.classList.add("hidden");
+            paypalinfo.classList.add("hidden");
         }else {
             sepainfo.classList.add("hidden");
             submitButton.classList.remove("disabled");
             stripeinfo.classList.add("hidden");
+            paypalinfo.classList.add("hidden");
         }
     }
 
@@ -296,6 +306,9 @@ document.addEventListener('DOMContentLoaded', function() {
               </div>
               <div class="stripeinfo hidden mt-3" id="stripeinfo">
                 <p><?php echo _("While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."); ?></p>
+              </div>
+              <div class="paypalinfo hidden mt-3" id="paypalinfo">
+                <p><?php echo _("Paypal charges up to 35% transaction fee for transactions under $5. If you are going to make such a donation, we recommend using other methods. We do not recommend making donations under $5 via Paypal."); ?></p>
               </div>
               </div>
               <div class="col-lg-7 text-light text-center text-lg-start px-md-4 ">
