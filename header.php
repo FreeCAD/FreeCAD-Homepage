@@ -10,6 +10,7 @@
     $privacyurl = "privacy.php".$langStr;
     $blogurl = "blog.php".$langStr;
     $professionalnetworkurl = "professional-network.php".$langStr;
+    $addonsurl = "addons.php".$langStr;
 ?>
 
 <!DOCTYPE html>
@@ -135,6 +136,7 @@
             <a class="dropdown-item text-dark" href="https://www.facebook.com/FreeCAD">Facebook</a>
             <a class="dropdown-item text-dark" href="https://www.linkedin.com/groups/4295230">LinkedIn</a>
             <a class="dropdown-item text-dark" href="<?php echo $eventsurl; ?>"><?php echo _('Calendar'); ?></a>
+            <a class="dropdown-item text-dark" href="<?php echo $addonsurl; ?>"><?php echo _('Addons'); ?></a>
           </div>
         </li>
 
