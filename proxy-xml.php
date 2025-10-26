@@ -28,7 +28,9 @@ function is_url_safe($url, $whitelist) {
 }
 
 $url = $_GET['url'] ?? '';
-if (is_url_safe($url, $whitelist)) {
+if (empty($url)) {
+    echo "No URL provided";
+} elseif (is_url_safe($url, $whitelist)) {
     $response = file_get_contents($url);
     header('Content-Type: application/xml');
     echo $response;
