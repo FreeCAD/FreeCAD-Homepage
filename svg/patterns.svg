@@ -1,0 +1,44 @@
+<!-- FreeCAD Background Pattern SVG Elements -->
+<!-- Include these in specific sections as needed -->
+
+<!-- Pattern 1: Faceted "F" Watermark (for Hero) -->
+<svg class="fc-facet" aria-hidden="true" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="facetGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Simple beveled "F" shape -->
+  <path d="M80,60 h220 l-30,60 h-120 v50 h90 v60 h-90 v110 h-70z" fill="url(#facetGradient)"/>
+</svg>
+
+<!-- Pattern 4: Cog Arc Stencil (for CTA/Download sections) -->
+<svg class="fc-gear-arc" viewBox="0 0 800 300" aria-hidden="true">
+  <defs>
+    <linearGradient id="arcGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M-50,250 A300,300 0 0 1 350,250 l10,-24 a300,300 0 0 0 -420,0z" fill="url(#arcGradient)"/>
+</svg>
+
+<!-- Dark mode versions with adjusted opacity -->
+<svg class="fc-facet-dark" aria-hidden="true" viewBox="0 0 600 600" style="display:none">
+  <defs>
+    <linearGradient id="facetGradientDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M80,60 h220 l-30,60 h-120 v50 h90 v60 h-90 v110 h-70z" fill="url(#facetGradientDark)"/>
+</svg>
+
+<!-- Show dark mode SVG only in dark mode -->
+<style>
+  @media (prefers-color-scheme: dark) {
+    .fc-facet { display: none; }
+    .fc-facet-dark { display: block; }
+  }
+</style>

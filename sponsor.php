@@ -60,11 +60,11 @@ updateLatestCategoryFromFeed(
 
         <section class="row section d-flex justify-content-around">
 
-          <div data-bs-toggle="modal" data-bs-target="#donateModal" class="col-lg-4">
+          <div data-bs-toggle="modal" data-bs-target="#donateModal" class="col-12 text-center mb-4">
             <h3><?php echo _('Donating to FreeCAD'); ?></h3>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround p-3">
+          <div class="col-12 text-light text-left text-lg-start px-md-4 rounded text-backround p-3">
               <p>
               <?php echo _('Thanks for your interest in helping the FreeCAD
               project with donations.'); ?>
@@ -105,7 +105,7 @@ updateLatestCategoryFromFeed(
               donation will be welcome, and can help a lot, but you will never
               be required to pay anything to access any of the FreeCAD features.'); ?>
               </p>
-              <a class="btn btn-light rounded-pill mt-3" data-bs-toggle="modal" data-bs-target="#donateModal">
+              <a class="btn btn-primary btn-lg rounded-pill float-end mt-3" data-bs-toggle="modal" data-bs-target="#donateModal">
 			  ♥ <?php echo _('Donate'); ?>
 			  </a>
           </div>
@@ -113,10 +113,10 @@ updateLatestCategoryFromFeed(
         </section>
 
         <section class="row section d-flex justify-content-around whitelinks">
-          <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="200.00" class="col-lg-4">
+          <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="200.00" class="col-12 text-center mb-4">
             <h3><?php echo _('Gold sponsors'); ?></h3>
           </div>
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
+          <div class="col-12 text-light text-center text-lg-start px-md-4">
 
                 <div class="gold sponsor">
                     <img class="logo" src="images/sponsors/microsoft.png">
@@ -156,10 +156,10 @@ updateLatestCategoryFromFeed(
         </section>
 
         <section class="row section d-flex justify-content-around whitelinks">
-          <div class="col-lg-4">
+          <div class="col-12 mb-4 text-center">
             <h3><?php echo _('Early sponsors'); ?></h3>
           </div>
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
+          <div class="col-12 text-light text-center text-lg-start px-md-4">
 
                 <div class="gold sponsor">
                     <img class="logo" src="images/sponsors/aleph.svg">
@@ -198,10 +198,10 @@ updateLatestCategoryFromFeed(
         </section>
 
         <section class="row section d-flex justify-content-around whitelinks">
-          <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="100.00" class="col-lg-4">
+          <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="100.00" class="col-12 text-center mb-4">
             <h3><?php echo _('Silver sponsors'); ?></h3>
           </div>
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
+          <div class="col-12 text-light text-center text-lg-start px-md-4">
 
                 <div class="silver sponsor">
                     <a href="https://route4me.com">Route4Me Route Planner</a>
@@ -244,11 +244,11 @@ updateLatestCategoryFromFeed(
         </section>
 
         <section class="row section d-flex justify-content-around whitelinks">
-          <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="25.00" class="col-lg-4">
+          <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="25.00" class="text-center col-12 mb-4">
             <h3><?php echo _('Bronze sponsors'); ?></h3>
           </div>
 
-          <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
+          <div class="col-12  text-light text-center text-lg-start px-md-4">
 
               <div class="bronze sponsor">Hydroexigiantiki SA</div>
               <div class="bronze sponsor">flightmansam</div>

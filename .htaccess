@@ -10,6 +10,10 @@ FileETag None
 </IfModule>
 
 RewriteEngine On
+
+# HTTPS redirect - only in production (not in development)
+# Set APP_ENV=development in your environment to disable HTTPS redirect
+RewriteCond %{ENV:APP_ENV} !^development$ [NC]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
