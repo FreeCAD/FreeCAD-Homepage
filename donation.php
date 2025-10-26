@@ -62,8 +62,8 @@ document.addEventListener('DOMContentLoaded', function() {
             stripeinfo.classList.remove("hidden");
             paypalinfo.classList.add("hidden");
         }else if(method == "paypal") {
+            submitButton.classList.remove("disabled");
             sepainfo.classList.add("hidden");
-            submitButton.classList.add("disabled");
             stripeinfo.classList.add("hidden");
             paypalinfo.classList.remove("hidden");
         }else if(method == "null") {
