@@ -32,9 +32,10 @@ function getFlags($href = '/')
         if (!$localeObj) {
             $localeObj = $locale; // fallback
         }
+        $flagcode = isset($localeMap[$shortCode]) ? $localeMap[$shortCode] : $shortCode;
 
         echo('<a class="dropdown-item" href="' . $href . '?lang=' . $shortCode . '">
-                <img src="lang/' . $shortCode . '/flag.jpg" alt="" />' . _($localeObj) . '</a>');
+                <img src="lang/' . $flagcode . '/flag.jpg" alt="" />' . _($localeObj) . '</a>');
     }
 }
 
@@ -56,11 +57,11 @@ bindtextdomain("homepage", "lang");
 textdomain("homepage");
 bind_textdomain_codeset("homepage", 'UTF-8');
 
-$flagcode = $lang;
+$flagcode = isset($localeMap[$lang]) ? $localeMap[$lang] : $lang;
 
 if (!file_exists('lang/'.$flagcode."/flag.jpg")) {
     if (strpos($flagcode, '_') !== false) {
-        $flagcode = explode("_", $flagcode)[0];
+        $flagcode = $lang;
     }
 }
 $langStr    = "?lang=" . urlencode($lang);
