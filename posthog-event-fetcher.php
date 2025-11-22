@@ -425,4 +425,3 @@ file_put_contents($filename, json_encode($chartData));
 echo "Chart data written to '$filename'.\n";
 
 ?>
-
