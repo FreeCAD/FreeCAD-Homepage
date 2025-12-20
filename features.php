@@ -144,7 +144,7 @@
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('Assembly solutions for every need'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _('FreeCAD offers since long several great community-made add-on assembly
+              <?php echo _('FreeCAD has long offered several great community-made add-on assembly
                   workbenches that use different solvers and even solver-free workflows to assemble
                   the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also
                   included, based on the
