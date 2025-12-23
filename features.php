@@ -131,7 +131,7 @@
 
         <section class="row section d-flex align-items-center justify-content-around rounded">
 
-          <div class="col-lg-4 d-flex justify-content-center rounded model-backround p-2">
+          <div class="col-lg-5 d-flex justify-content-center">
             <div class="animated-sprite ratio"
                 data-frame-count="121"
                 data-frames-per-row="12"
@@ -158,7 +158,7 @@
 
         <section class="row section d-flex align-items-center justify-content-around rounded">
 
-          <div class="col-lg-5 order-lg-last d-flex justify-content-center rounded model-backround p-2">
+          <div class="col-lg-8 order-lg-last d-flex justify-content-center">
             <div class="animated-sprite ratio ratio-16x9"
                 data-frame-count="72"
                 data-frames-per-row="12"
@@ -166,7 +166,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6 text-light text-center text-lg-start px-md-4 rounded text-backround">
+          <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('Also for architects'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('Until version 1.0, FreeCAD had a built-in Arch workbench and
@@ -313,15 +313,13 @@
 
         <section class="row section d-flex align-items-center justify-content-around rounded">
 
+          <div class="col-lg-7 text-light text-left px-md-4 rounded text-backround">
 
-          <div class="col-lg-4 rounded text-backround">
-            <p class="section-body whitelinks mt-3">
+          <p class="section-body whitelinks mt-3">
               <?php echo _('Find here the release notes for current and previous FreeCAD versions.
                   Release notes describe what&apos;s new in each release:'); ?>
             </p>
-          </div>
 
-          <div class="col-lg-7 text-light text-left px-md-4 rounded text-backround">
               <ul class="d-block whitelinks releases mt-3">
                 <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_1.0" title="Release notes 1.0'); ?>"><?php echo _('Release 1.0 - November 2024'); ?></a> (<?php echo _('current stable release'); ?>)</li>
                 <li><a href="<?php echo _('https://wiki.freecad.org/Release_notes_0.21" title="Release notes 0.21'); ?>"><?php echo _('Release 0.21 - August 2023'); ?></a></li>
