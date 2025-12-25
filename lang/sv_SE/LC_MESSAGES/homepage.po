@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 15:01-0500\n"
-"PO-Revision-Date: 2025-09-10 02:42\n"
+"POT-Creation-Date: 2025-09-03 14:35-0500\n"
+"PO-Revision-Date: 2025-12-17 20:53\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -85,7 +85,7 @@ msgstr "Tack!"
 msgid "The FreeCAD project association"
 msgstr "The FreeCAD project association"
 
-#: donation.php:219 donation.php:259 header.php:140 sponsor.php:109
+#: donation.php:219 donation.php:259 header.php:142 sponsor.php:109
 #: thankyou.php:91
 msgid "Donate"
 msgstr "Donera"
@@ -135,12 +135,12 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: donation.php:257
-msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
-msgstr "OpenCollective fungerar som en finansiell värd för öppen källkodsprojekt. Du kan donera med kreditkort eller bankkonto. OpenCollective är en 501(c)3-organisation och erbjuder skatteavdrag i USA."
+msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account."
+msgstr "OpenCollective fungerar som en skattevärd för projekt med öppen källkod. Du kan donera med kreditkort eller bankkonto."
 
 #: donation.php:257
-msgid "OpenCollective (501(c)3)"
-msgstr "OpenCollective (501(c)3)"
+msgid "OpenCollective"
+msgstr "OpenCollective"
 
 #: donation.php:266
 msgid "SEPA Information"
@@ -220,7 +220,7 @@ msgstr "Välj fritt det belopp du vill donera varje månad."
 
 #: donation.php:348
 msgid "Please inform your forum name or twitter handle as a notein your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
-msgstr "Vänligen ange ditt forumnamn eller Twitter-användarnamn som en anteckning i din överföring, eller <a href=mailto:fpa@freecad.org>kontakta oss</a>, så att vi kan tacka dig på rätt sätt!"
+msgstr "Ange ditt forumnamn eller Twitter-användarnamn som en anteckning i din överföring, eller <a href=mailto:fpa@freecad.org>kontakta oss</a>, så att vi kan tacka dig på rätt sätt!"
 
 #: downloads.php:70
 msgid "Current stable version:"
@@ -412,7 +412,7 @@ msgstr "FreeCAD har en avancerad geometrimotor baserad på\n"
 "              <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>Non-uniform rational basis spline</a> (NURBS)\n"
 "              kurvor och ytor, och erbjuder ett brett utbud av verktyg för att skapa och modifiera dessa objekt, inklusive komplexa\n"
 "              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Booleska</a> operationer,\n"
-"              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fileter</a>, formrengöring och\n"
+"              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>avrundningar</a>, formrensning och\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>mycket mer</a>."
 
 #: features.php:119
@@ -426,7 +426,7 @@ msgid "All FreeCAD objects are natively parametric, meaning their shape can be b
 "                a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing\n"
 "                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are\n"
 "                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>."
-msgstr "Alla FreeCAD-objekt är parametrisk, vilket innebär att deras form kan baseras på\n"
+msgstr "Alla FreeCAD-objekt är parametriska, vilket innebär att deras form kan baseras på\n"
 "                <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">egenskaper</a> såsom numeriska värden, texter, på/av-knappar\n"
 "                eller till och med andra objekt. Alla formändringar beräknas om vid behov, registreras av en ångra/göra om-stack och gör det möjligt att behålla\n"
 "                en exakt modelleringshistorik. Egenskaper hos ett objekt kan styra värdet på egenskaper hos andra objekt, vilket möjliggör\n"
@@ -482,7 +482,7 @@ msgstr "Vid FreeCAD:s kärnfunktioner är kodade i C++ för robusthet och presta
 " ett flexibelt, användarvänligt och lättlärt programmeringsspråk. Från Python-koden kan du göra\n"
 " precis <a href=https://wiki.freecad.org/Power_users_hub>vad som helst i FreeCAD</a>, från enkla enradiga\n"
 " kommandon i den integrerade Python-konsolen till att spela in makron, koda dina egna verktyg\n"
-" och skapa helt anpassade arbetsytor."
+" och skapa helt anpassade arbetsbänkar."
 
 #: features.php:209
 msgid "File formats frenzy"
@@ -525,7 +525,7 @@ msgstr "FreeCAD låter dig importera och exportera modeller och många andra typ
 "              <a rel=\"nofollow\" class=\"external text\" href=”https://en.wikipedia.org/wiki/VRML”>VRML</a>,\n"
 "              <a rel=\"nofollow\" class=\"external text\" href=”https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
 "              och många fler, utöver FreeCAD:s inbyggda\n"
-"              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> filformat. Tilläggsarbetsytor kan också lägga till fler\n"
+"              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> filformat. Tilläggsarbetsbänkar kan också lägga till fler\n"
 "              filformat."
 
 #: features.php:242
@@ -564,7 +564,7 @@ msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\"
 "              <a href=\"https://wiki.freecad.org/External_workbenches\">add-on workbenches</a> and\n"
 "              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> developed by the users\n"
 "              community."
-msgstr "FreeCAD erbjuder dedikerade <a href=\"https://wiki.freecad.org/Workbenches\">arbetsytor</a> för en mängd olika ändamål\n"
+msgstr "<a href=\"https://wiki.freecad.org/OpenSCAD_Module\">FreeCAD erbjuder dedikerade <a href=\"https://wiki.freecad.org/Workbenches\">arbetsbänkar</a> för en mängd olika ändamål\n"
 "              såsom\n"
 "              <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG-modellering</a>,\n"
 "              enkel <a href=\"https://wiki.freecad.org/Draft_Workbench”>2D CAD-ritning</a>,\n"
@@ -576,7 +576,7 @@ msgstr "FreeCAD erbjuder dedikerade <a href=\"https://wiki.freecad.org/Workbench
 "              design av <a href=\"https://wiki.freecad.org/Robot_Workbench\">industriella robotbanor</a>,\n"
 "              utförande av <a href=\"https://wiki.freecad.org/FEM_Module\">finita elementanalyser</a>,\n"
 "              och mycket mer. FreeCAD erbjuder också enkla verktyg för att installera och hantera\n"
-"              <a href=\"https://wiki.freecad.org/External_workbenches\">tilläggsarbetsytor</a> och\n"
+"              <a href=\"https://wiki.freecad.org/External_workbenches\">tilläggsarbetsbänkar</a> och\n"
 "              <a href=\"https://wiki.freecad.org/Macros_recipes\">makron</a> som utvecklats av\n"
 " användargemenskapen."
 
@@ -744,173 +744,177 @@ msgid "Improve this\n"
 msgstr "Förbättra denna\n"
 " sida på GitHub"
 
-#: header.php:23 header.php:36
+#: header.php:24 header.php:37
 msgid "FreeCAD: Your own 3D parametric modeler"
-msgstr "FreeCAD: Din egen parametriska 3D-modellerare"
+msgstr "FreeCAD: Din egna parametriska 3D-modellerare"
 
-#: header.php:75
+#: header.php:76
 msgid "Features"
 msgstr "Funktioner"
 
-#: header.php:79
+#: header.php:80
 msgid "Download"
 msgstr "Ladda ner"
 
-#: header.php:83
+#: header.php:84
 msgid "Blog"
 msgstr "Blogg"
 
-#: header.php:87
+#: header.php:88
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: header.php:90
+#: header.php:91
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:90
+#: header.php:91
 msgid "Documentation index"
 msgstr "Dokumentationsindex"
 
-#: header.php:91 thankyou.php:125
+#: header.php:92 thankyou.php:125
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:91
+#: header.php:92
 msgid "Getting started"
 msgstr "Kom igång"
 
-#: header.php:92
+#: header.php:93
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:92
+#: header.php:93
 msgid "Users documentation"
 msgstr "Användardokumentation"
 
-#: header.php:93 thankyou.php:137
+#: header.php:94 thankyou.php:137
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:93
+#: header.php:94
 msgid "The FreeCAD manual"
 msgstr "FreeCAD-manualen"
 
-#: header.php:94 thankyou.php:127
+#: header.php:95 thankyou.php:127
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:94 thankyou.php:127
+#: header.php:95 thankyou.php:127
 msgid "Workbenches documentation"
-msgstr "Dokumentation för arbetsytor"
+msgstr "Dokumentation för arbetsbänkar"
 
-#: header.php:95
+#: header.php:96
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:95
+#: header.php:96
 msgid "Python coding documentation"
 msgstr "Dokumentation för Python-kodning"
 
-#: header.php:96
+#: header.php:97
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:96
+#: header.php:97
 msgid "C++ coding documentation"
 msgstr "Dokumentation för C++-kodning"
 
-#: header.php:97 thankyou.php:146
+#: header.php:98 thankyou.php:146
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:97 thankyou.php:146
+#: header.php:98 thankyou.php:146
 msgid "Tutorials"
-msgstr "Övningar"
+msgstr "Handledningar"
 
-#: header.php:98 thankyou.php:128
+#: header.php:99 thankyou.php:128
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:98 thankyou.php:128
+#: header.php:99 thankyou.php:128
 msgid "Frequently asked questions"
 msgstr "Frågor och svar"
 
-#: header.php:99
+#: header.php:100
 msgid "Privacy policy"
 msgstr "Integritetspolicy"
 
-#: header.php:100
+#: header.php:101
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/About_FreeCAD"
 
-#: header.php:100
+#: header.php:101
 msgid "About FreeCAD"
 msgstr "Om FreeCAD"
 
-#: header.php:105
+#: header.php:106
 msgid "Contribute"
 msgstr "Bidra"
 
-#: header.php:108
+#: header.php:109
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
-#: header.php:108
+#: header.php:109
 msgid "How to help"
 msgstr "Hur hjälper du till"
 
-#: header.php:109
+#: header.php:110
 msgid "Sponsor"
 msgstr "Sponsor"
 
-#: header.php:110
+#: header.php:111
 msgid "Report a bug"
 msgstr "Rapportera en bugg"
 
-#: header.php:111
+#: header.php:112
 msgid "Make a pull request"
 msgstr "Skapa en pull-begäran"
 
-#: header.php:112
+#: header.php:113
 msgid "Jobs and funding"
 msgstr "Jobb och finansiering"
 
-#: header.php:113
+#: header.php:114
 msgid "Contribution guidelines"
 msgstr "Riktlinjer för bidrag"
 
-#: header.php:114
+#: header.php:115
 msgid "Developers handbook"
 msgstr "Handbok för utvecklare"
 
-#: header.php:115
+#: header.php:116
 msgid "https://wiki.freecad.org/Localisation"
 msgstr "https://wiki.freecad.org/Localisation"
 
-#: header.php:115
+#: header.php:116
 msgid "Translations"
 msgstr "Översättningar"
 
-#: header.php:120
+#: header.php:121
 msgid "Community"
 msgstr "Gemenskap"
 
-#: header.php:123
+#: header.php:124
 msgid "Code of conduct"
 msgstr "Uppförandekod"
 
-#: header.php:124
+#: header.php:125
+msgid "Professional Network"
+msgstr "Professionellt nätverk"
+
+#: header.php:126
 msgid "Forum"
 msgstr "Forum"
 
-#: header.php:135
+#: header.php:137
 msgid "Calendar"
 msgstr "Kalender"
 
 #: index.php:80
 msgid "Your own 3D parametric modeler"
-msgstr "Din egen parametriska 3D-modellerare"
+msgstr "Din egna parametriska 3D-modellerare"
 
 #: index.php:82
 msgid "Download now"
@@ -1027,7 +1031,7 @@ msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          toolkits."
 msgstr "FreeCAD förser dig med alla verktyg du behöver. Du får\n"
 " moderna verktyg för finita elementanalys (FEA), experimentell CFD, dedikerade BIM-,\n"
-" geodata- eller CAM/CNC-arbetsytor, en robotsimuleringsmodul som\n"
+" geodata- eller CAM/CNC-arbetsbänkar, en robotsimuleringsmodul som\n"
 " låter dig studera robotrörelser och många fler funktioner. FreeCAD\n"
 " är verkligen en schweizisk armékniv bland verktygslådor för allmänna tekniska ändamål."
 
@@ -1052,6 +1056,166 @@ msgstr "FreeCAD är ett helt öppet källkodsprojekt och om du vill hjälpa\n"
 #: index.php:230
 msgid "Get involved"
 msgstr "Engagera dig"
+
+#: professional-network.php:14
+msgid "Join the community shaping the future of FreeCAD."
+msgstr "Gå med i gemenskapen som formar FreeCAD:s framtid."
+
+#: professional-network.php:23
+msgid "The FreeCAD Professional Network (FPN) is a voluntary association of professionals committed to strengthening the FreeCAD ecosystem for long-term growth and success."
+msgstr "FreeCAD Professional Network (FPN) är en frivillig sammanslutning av yrkesverksamma som har åtagit sig att stärka FreeCAD-ekosystemet för långsiktig tillväxt och framgång."
+
+#: professional-network.php:26
+msgid "If FreeCAD is part of your livelihood—whether you design, teach, manufacture, research, or create content—the FPN is your place to connect, collaborate, and make an impact."
+msgstr "Om FreeCAD är en del av ditt levebröd - oavsett om du designar, undervisar, tillverkar, forskar eller skapar innehåll - är FPN din plats för att ansluta, samarbeta och påverka."
+
+#: professional-network.php:34
+msgid "Who is a FreeCAD Professional?"
+msgstr "Vem är en FreeCAD Professional?"
+
+#: professional-network.php:35
+msgid "Anyone with a commercial interest in FreeCAD:"
+msgstr "Alla som har ett kommersiellt intresse av FreeCAD:"
+
+#: professional-network.php:37
+msgid "Engineers, designers, and makers who use FreeCAD at work"
+msgstr "Ingenjörer, konstruktörer och tillverkare som använder FreeCAD i sitt arbete"
+
+#: professional-network.php:38
+msgid "Content creators, YouTubers, authors, and Patreon publishers"
+msgstr "Innehållsskapare, YouTubers, upphovspersoner och Patreon-utgivare"
+
+#: professional-network.php:39
+msgid "Educators and trainers in classrooms or workshops"
+msgstr "Pedagoger och utbildare i klassrum eller workshops"
+
+#: professional-network.php:40
+msgid "Researchers exploring open CAD in academia"
+msgstr "Forskare utforskar öppen CAD i den akademiska världen"
+
+#: professional-network.php:41
+msgid "Hardware manufacturers supporting CAD users"
+msgstr "Hårdvarutillverkare som stöder CAD-användare"
+
+#: professional-network.php:42
+msgid "Software developers and consultants working with FreeCAD and Addons"
+msgstr "Mjukvaruutvecklare och konsulter som arbetar med FreeCAD och Addons"
+
+#: professional-network.php:43
+msgid "Businesses building products and services on FreeCAD"
+msgstr "Företag som bygger produkter och tjänster på FreeCAD"
+
+#: professional-network.php:51
+msgid "What We Do"
+msgstr "Vad vi gör"
+
+#: professional-network.php:52
+msgid "The FPN brings professionals together to:"
+msgstr "FPN för samman yrkesverksamma för att:"
+
+#: professional-network.php:54
+msgid "Advocate for features and improvements that matter most"
+msgstr "Förespråka de funktioner och förbättringar som är viktigast"
+
+#: professional-network.php:55
+msgid "Help set priorities for FreeCAD development"
+msgstr "Hjälp till att sätta prioriteringar för FreeCAD-utveckling"
+
+#: professional-network.php:56
+msgid "Provide domain expertise directly to maintainers and contributors"
+msgstr "Tillhandahålla domänexpertis direkt till underhållare och bidragsgivare"
+
+#: professional-network.php:57
+msgid "Organize real-world meetups and events"
+msgstr "Organisera möten och evenemang i den verkliga världen"
+
+#: professional-network.php:58
+msgid "Share knowledge, best practices, and support"
+msgstr "Dela kunskap, bästa praxis och stöd"
+
+#: professional-network.php:59
+msgid "Co-develop tools and solutions for the community"
+msgstr "Samutveckla verktyg och lösningar för gemenskapen"
+
+#: professional-network.php:62
+msgid "This is where professionals make their voice heard and pool their strengths to move FreeCAD forward."
+msgstr "Det är här yrkesverksamma gör sin röst hörd och samlar sina styrkor för att flytta FreeCAD framåt."
+
+#: professional-network.php:70
+msgid "Membership Tiers"
+msgstr "Medlemskapsnivåer"
+
+#: professional-network.php:77
+msgid "Individual"
+msgstr "Privatperson"
+
+#: professional-network.php:80
+msgid "Access to professional network"
+msgstr "Tillgång till professionellt nätverk"
+
+#: professional-network.php:81
+msgid "Access to FPN private discord channel"
+msgstr "Tillgång till FPN:s privata discord-kanal"
+
+#: professional-network.php:82
+msgid "Voting rights on FPN initiatives"
+msgstr "Rösträtt på FPN-initiativ"
+
+#: professional-network.php:83
+msgid "Quarterly newsletter"
+msgstr "Kvartalsvisa nyhetsbrev"
+
+#: professional-network.php:86
+msgid "Join Individual"
+msgstr "Gå med som privatperson"
+
+#: professional-network.php:96
+msgid "Organization"
+msgstr "Organisation"
+
+#: professional-network.php:99
+msgid "All individual membership benefits"
+msgstr "Alla individuella medlemsförmåner"
+
+#: professional-network.php:100
+msgid "Unlimited employee memberships included"
+msgstr "Obegränsat antal medlemskap för anställda ingår"
+
+#: professional-network.php:101
+msgid "Logo recognition as FPN supporter"
+msgstr "Logotyp som erkänner er som FPN-supporter"
+
+#: professional-network.php:104
+msgid "Join Organization"
+msgstr "Gå med i organisationen"
+
+#: professional-network.php:112
+msgid "Membership isn't just a fee—it's an investment in FreeCAD's future and in your own professional ecosystem."
+msgstr "Medlemskap är inte bara en avgift - det är en investering i FreeCAD:s framtid och i ditt eget professionella ekosystem."
+
+#: professional-network.php:120
+msgid "Why Join?"
+msgstr "Varför gå med?"
+
+#: professional-network.php:121
+msgid "Because FreeCAD is already part of your professional life. Together, we can:"
+msgstr "Eftersom FreeCAD redan är en del av ditt yrkesliv. Tillsammans kan vi göra:"
+
+#: professional-network.php:123
+msgid "Influence its direction"
+msgstr "Påverka dess riktning"
+
+#: professional-network.php:124
+msgid "Create an ecosystem that is friendly to commercial interest"
+msgstr "Skapa ett ekosystem som är gynnsamt för kommersiella intressen"
+
+#: professional-network.php:125
+msgid "Build stronger connections across industries"
+msgstr "Skapa starkare kontakter mellan olika branscher"
+
+#: professional-network.php:126
+msgid "Ensure FreeCAD continues to thrive as a tool you can rely on"
+msgstr "Säkerställa att FreeCAD fortsätter att utvecklas som ett verktyg du kan lita på"
 
 #: sponsor.php:57
 msgid "Donating and sponsoring"
@@ -1358,107 +1522,7 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            the FreeCAD world."
 msgstr "Om du stöter på problem med FreeCAD eller vill träffa och diskutera ämnen med andra användare, besök <a href=https://forum.freecad.org>FreeCAD-forumet</a>. Forumet är den huvudsakliga mötesplatsen för FreeCAD-användare från alla delar av världen och alla kunskapsnivåer. Där kan du få råd från mer erfarna användare, hitta sätt att lösa ett specifikt problem eller diskutera idéer om och kring FreeCAD-världen."
 
-#: translation.php:60
+#: translation.php:25
 msgid "English"
 msgstr "Engelska"
-
-#: translation.php:61
-msgid "Belarusian"
-msgstr "Vitryska"
-
-#: translation.php:62
-msgid "Catalan"
-msgstr "Katalanska"
-
-#: translation.php:63
-msgid "Czech"
-msgstr "Tjeckiska"
-
-#: translation.php:64
-msgid "German"
-msgstr "Tyska"
-
-#: translation.php:65
-msgid "Greek"
-msgstr "Grekiska"
-
-#: translation.php:66 translation.php:67
-msgid "Spanish"
-msgstr "Spanska"
-
-#: translation.php:68
-msgid "Basque"
-msgstr "Baskisk"
-
-#: translation.php:69
-msgid "Persian"
-msgstr "Persiska"
-
-#: translation.php:70
-msgid "Finnish"
-msgstr "Finska"
-
-#: translation.php:71
-msgid "French"
-msgstr "Franska"
-
-#: translation.php:72
-msgid "Croatian"
-msgstr "Kroatiska"
-
-#: translation.php:73
-msgid "Hungarian"
-msgstr "Ungerska"
-
-#: translation.php:74
-msgid "Italian"
-msgstr "Italienska"
-
-#: translation.php:75
-msgid "Japanese"
-msgstr "Japanska"
-
-#: translation.php:76
-msgid "Georgian"
-msgstr "Georgiskt"
-
-#: translation.php:77
-msgid "Dutch"
-msgstr "Nederländska"
-
-#: translation.php:78
-msgid "Polish"
-msgstr "Polska"
-
-#: translation.php:79
-msgid "Portuguese"
-msgstr "Portugisiska"
-
-#: translation.php:80
-msgid "Russian"
-msgstr "Ryska"
-
-#: translation.php:81
-msgid "Slovenian"
-msgstr "Slovenska"
-
-#: translation.php:82 translation.php:83
-msgid "Serbian"
-msgstr "Serbiska"
-
-#: translation.php:84
-msgid "Swedish"
-msgstr "Svenska"
-
-#: translation.php:85
-msgid "Turkish"
-msgstr "Turkiska"
-
-#: translation.php:86
-msgid "Ukrainian"
-msgstr "Ukrainska"
-
-#: translation.php:87 translation.php:88
-msgid "Chinese"
-msgstr "Kinesiska"
 

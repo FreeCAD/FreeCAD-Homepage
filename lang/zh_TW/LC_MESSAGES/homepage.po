@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 15:01-0500\n"
-"PO-Revision-Date: 2025-09-10 02:40\n"
+"POT-Creation-Date: 2025-09-03 14:35-0500\n"
+"PO-Revision-Date: 2025-12-22 00:19\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -92,14 +92,14 @@ msgstr "謝謝您！"
 msgid "The FreeCAD project association"
 msgstr "FreeCAD 專案協會"
 
-#: donation.php:219 donation.php:259 header.php:140 sponsor.php:109
+#: donation.php:219 donation.php:259 header.php:142 sponsor.php:109
 #: thankyou.php:91
 msgid "Donate"
 msgstr "斗內"
 
 #: donation.php:228
 msgid "One-Time"
-msgstr ""
+msgstr "一次性"
 
 #: donation.php:230
 msgid "Monthly"
@@ -142,12 +142,12 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: donation.php:257
-msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
-msgstr "OpenCollective 充當開源專案的財務託管方。您可以使用信用卡或銀行帳戶捐款。 OpenCollective 是一個 501(c)3 組織，在美國提供減稅服務。"
+msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account."
+msgstr "OpenCollective 為開源專案提供財務託管服務。您可以使用信用卡或銀行帳戶進行捐贈。"
 
 #: donation.php:257
-msgid "OpenCollective (501(c)3)"
-msgstr "OpenCollective (501(c)3)"
+msgid "OpenCollective"
+msgstr "OpenCollective"
 
 #: donation.php:266
 msgid "SEPA Information"
@@ -159,7 +159,7 @@ msgstr "請將您的 SEPA 銀行轉帳設定至"
 
 #: donation.php:275
 msgid "Beneficiary"
-msgstr ""
+msgstr "受益人"
 
 #: donation.php:287
 msgid "Bank agency"
@@ -171,19 +171,19 @@ msgstr "位址"
 
 #: donation.php:298
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
-msgstr ""
+msgstr "雖然 Stripe 不支持每月捐贈，但您仍然可以成為贊助者！只需一次性捐贈相當於 12 個月贊助金額的款項，即可獲得相應的贊助等級。這是一種簡單靈活的捐贈方式。"
 
 #: donation.php:303
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
-msgstr ""
+msgstr "如果您不確定或無法承諾定期捐款，但仍然想幫助該項目，您可以進行一次性捐款，金額不限。"
 
 #: donation.php:304
 msgid "Choose freely the amount you wish to donate one time only."
-msgstr ""
+msgstr "您可以自由選擇一次性捐贈金額。"
 
 #: donation.php:307
 msgid "You can support FreeCAD by sponsoring it as an individual or organization through various platforms. Sponsorship provides a steady income for developers, allowing the FPA to plan ahead and enabling greater investment in FreeCAD. To encourage sponsorship, we offer different tiers, and unless you choose to remain anonymous, your name or company logo will be featured on our website accordingly."
-msgstr ""
+msgstr "您可以透過各種平台以個人或組織的身份贊助 FreeCAD。贊助能為開發者提供穩定的收入來源，使 FPA 能夠事先規劃並增加對 FreeCAD 的投入。為了鼓勵贊助，我們提供不同等級的贊助方案。除非您選擇匿名，否則您的姓名或公司標誌將根據贊助情況在我們的網站上展示。"
 
 #: donation.php:311
 msgid "Normal sponsor"
@@ -191,7 +191,7 @@ msgstr "普通贊助者"
 
 #: donation.php:315
 msgid "from 1 USD / 1 EUR per month. You will not have your name displayed here, but you will have helped the project a lot anyway. Together, normal sponsors maintain the project on its feet as much as the bigger sponsors."
-msgstr ""
+msgstr "每月 1 美元/1 歐元起。這裡不會顯示您的名字，但無論如何您都會為該項目提供很多幫助。普通贊助商與大型贊助商一樣，共同維持計畫的運作。"
 
 #: donation.php:320
 msgid "Bronze sponsor"
@@ -199,7 +199,7 @@ msgstr "銅級贊助商"
 
 #: donation.php:324
 msgid "from 25 USD / 25 EUR per month. Your name or company name is displayed on this page."
-msgstr ""
+msgstr "每月 25 美元/25 歐元起。您的姓名或 公司名稱將顯示在此頁面上。"
 
 #: donation.php:329
 msgid "Silver sponsor"
@@ -207,7 +207,7 @@ msgstr "銀級贊助者"
 
 #: donation.php:333
 msgid "from 100 USD / 100 EUR per month. Your name or company name is displayed on this page, with a link to your website, and a one-line description text."
-msgstr ""
+msgstr "每月 100 美元/100 歐元起。您的姓名或公司名稱將顯示在此頁面上，並帶有指向您網站的連結以及一行描述文字。"
 
 #: donation.php:338
 msgid "Gold sponsor"
@@ -215,19 +215,19 @@ msgstr "黃金級贊助商"
 
 #: donation.php:342
 msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
-msgstr ""
+msgstr "每月 200 美元/200 歐元起。您的姓名或公司名稱及徽標將顯示在此頁面上，並附有指向您網站的連結和自訂描述文字。早期為 FreeCAD 提供幫助的公司也將以黃金贊助商的身份出現。"
 
 #: donation.php:346
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
-msgstr ""
+msgstr "您可能會發現，比起每月捐款， 更方便的是進行一次性捐款， 除以十二後，您將有權進入贊助級別。不要猶豫要這樣做！"
 
 #: donation.php:347
 msgid "Choose freely the amount you wish to donate each month."
-msgstr ""
+msgstr "您可以自由選擇每月希望捐贈的金額。"
 
 #: donation.php:348
 msgid "Please inform your forum name or twitter handle as a notein your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
-msgstr ""
+msgstr "請在轉帳時註明您的論壇名稱或 Twitter 帳號， 或<a href=mailto:fpa@freecad.org>聯絡我們</a>，以便我們為您提供適當的積分！"
 
 #: downloads.php:70
 msgid "Current stable version:"
@@ -715,167 +715,171 @@ msgid "Improve this\n"
 "      page on GitHub"
 msgstr "在 Github 上改善此頁面"
 
-#: header.php:23 header.php:36
+#: header.php:24 header.php:37
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD：屬於您的 3D 參數化建模軟體"
 
-#: header.php:75
+#: header.php:76
 msgid "Features"
 msgstr "功能"
 
-#: header.php:79
+#: header.php:80
 msgid "Download"
 msgstr "下載"
 
-#: header.php:83
+#: header.php:84
 msgid "Blog"
 msgstr "部落格"
 
-#: header.php:87
+#: header.php:88
 msgid "Documentation"
 msgstr "文件"
 
-#: header.php:90
+#: header.php:91
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:90
+#: header.php:91
 msgid "Documentation index"
 msgstr "文件索引"
 
-#: header.php:91 thankyou.php:125
+#: header.php:92 thankyou.php:125
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:91
+#: header.php:92
 msgid "Getting started"
 msgstr "開始"
 
-#: header.php:92
+#: header.php:93
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:92
+#: header.php:93
 msgid "Users documentation"
 msgstr "使用者文件"
 
-#: header.php:93 thankyou.php:137
+#: header.php:94 thankyou.php:137
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:93
+#: header.php:94
 msgid "The FreeCAD manual"
 msgstr "FreeCAD 手冊"
 
-#: header.php:94 thankyou.php:127
+#: header.php:95 thankyou.php:127
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:94 thankyou.php:127
+#: header.php:95 thankyou.php:127
 msgid "Workbenches documentation"
 msgstr "工作台文件"
 
-#: header.php:95
+#: header.php:96
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:95
+#: header.php:96
 msgid "Python coding documentation"
 msgstr "Python 程式設計文件"
 
-#: header.php:96
+#: header.php:97
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:96
+#: header.php:97
 msgid "C++ coding documentation"
 msgstr "C++ 程式文件"
 
-#: header.php:97 thankyou.php:146
+#: header.php:98 thankyou.php:146
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:97 thankyou.php:146
+#: header.php:98 thankyou.php:146
 msgid "Tutorials"
 msgstr "教學"
 
-#: header.php:98 thankyou.php:128
+#: header.php:99 thankyou.php:128
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:98 thankyou.php:128
+#: header.php:99 thankyou.php:128
 msgid "Frequently asked questions"
 msgstr "常見問題"
 
-#: header.php:99
+#: header.php:100
 msgid "Privacy policy"
 msgstr "隱私條款"
 
-#: header.php:100
+#: header.php:101
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/About_FreeCAD"
 
-#: header.php:100
+#: header.php:101
 msgid "About FreeCAD"
 msgstr "關於 FreeCAD"
 
-#: header.php:105
+#: header.php:106
 msgid "Contribute"
 msgstr "貢獻"
 
-#: header.php:108
+#: header.php:109
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
-#: header.php:108
+#: header.php:109
 msgid "How to help"
 msgstr "如何幫助"
 
-#: header.php:109
-msgid "Sponsor"
-msgstr ""
-
 #: header.php:110
+msgid "Sponsor"
+msgstr "贊助者"
+
+#: header.php:111
 msgid "Report a bug"
 msgstr "回報錯誤"
 
-#: header.php:111
+#: header.php:112
 msgid "Make a pull request"
 msgstr "提出 Pull Request (PR)"
 
-#: header.php:112
+#: header.php:113
 msgid "Jobs and funding"
 msgstr "就業和資金"
 
-#: header.php:113
+#: header.php:114
 msgid "Contribution guidelines"
 msgstr "貢獻指南"
 
-#: header.php:114
+#: header.php:115
 msgid "Developers handbook"
 msgstr "開發者手冊"
 
-#: header.php:115
+#: header.php:116
 msgid "https://wiki.freecad.org/Localisation"
 msgstr "https://wiki.freecad.org/Localisation"
 
-#: header.php:115
+#: header.php:116
 msgid "Translations"
 msgstr "翻譯"
 
-#: header.php:120
+#: header.php:121
 msgid "Community"
 msgstr "社群"
 
-#: header.php:123
+#: header.php:124
 msgid "Code of conduct"
 msgstr "行為守則"
 
-#: header.php:124
+#: header.php:125
+msgid "Professional Network"
+msgstr "專業網路"
+
+#: header.php:126
 msgid "Forum"
 msgstr "論壇"
 
-#: header.php:135
+#: header.php:137
 msgid "Calendar"
 msgstr "日曆"
 
@@ -925,23 +929,23 @@ msgstr "FreeCAD 允許您繪製幾何約束的 2D 形狀，並使用\n"
 
 #: index.php:135
 msgid "For professional design needs..."
-msgstr ""
+msgstr "滿足專業設計需求…"
 
 #: index.php:137
 msgid "FreeCAD is a powerful and evolving open-source parametric 3D modeler, well-suited for many professional and technical tasks. With the release of version 1.0, it marks a new milestone in stability and usability. FreeCAD puts you in control - no licensing fees, no vendor lock-in. It's not just cost-effective - it’s yours to adapt and build upon."
-msgstr ""
+msgstr "FreeCAD 是一款功能強大且不斷發展的開源參數化 3D 建模軟體，非常適合各種專業和技術任務。 1.0 版本的發布標誌著其穩定性和易用性邁上了一個新的里程碑。 FreeCAD 讓您完全掌控一切－無需支付授權費，也無需擔心廠商鎖定。它不僅經濟實惠，而且您可以根據自身需求進行調整和擴展。"
 
 #: index.php:144
 msgid "Baked by Kris Wilk"
-msgstr ""
+msgstr "由克里斯·威爾克 (Kris Wilk) 烘焙"
 
 #: index.php:155
 msgid "...And for everything else"
-msgstr ""
+msgstr "……以及其他一切"
 
 #: index.php:157
 msgid "Whether you're prototyping, 3D printing, designing furniture, or learning CAD, FreeCAD offers the tools to support your creativity. With a strong community, extensive documentation, and a growing ecosystem of add-ons, it’s a great place to start - and to grow. No sign-up, no paywall, no restrictions. Just open-source freedom at your fingertips."
-msgstr ""
+msgstr "無論您是進行原型製作、3D 列印、家具設計或學習 CAD，FreeCAD 都能提供各種工具來支持您的創造力。它擁有強大的社群、豐富的文件和不斷增長的附加元件生態系統，是您入門和成長的理想之選。無需註冊，沒有付費牆，沒有任何限制。開源的自由觸手可及。"
 
 #: index.php:163
 msgid "Modelled by epileftric"
@@ -1020,6 +1024,166 @@ msgstr "FreeCAD 是一個真正的開源專案，如果您想幫助修復錯誤�
 #: index.php:230
 msgid "Get involved"
 msgstr "立即參與"
+
+#: professional-network.php:14
+msgid "Join the community shaping the future of FreeCAD."
+msgstr "加入社群，共同塑造 FreeCAD 的未來。"
+
+#: professional-network.php:23
+msgid "The FreeCAD Professional Network (FPN) is a voluntary association of professionals committed to strengthening the FreeCAD ecosystem for long-term growth and success."
+msgstr "FreeCAD 專業網路 (FPN) 是一個由專業人士組成的自願性協會，致力於加強 FreeCAD 生態系統，以實現長期成長和成功。"
+
+#: professional-network.php:26
+msgid "If FreeCAD is part of your livelihood—whether you design, teach, manufacture, research, or create content—the FPN is your place to connect, collaborate, and make an impact."
+msgstr "如果 FreeCAD 是您生活的一部分——無論您是設計、教學、製造、研究還是創作內容——FPN 就是您聯繫、合作和產生影響的地方。"
+
+#: professional-network.php:34
+msgid "Who is a FreeCAD Professional?"
+msgstr "什麼是 FreeCAD 專業人士？"
+
+#: professional-network.php:35
+msgid "Anyone with a commercial interest in FreeCAD:"
+msgstr "任何對FreeCAD有商業利益的人："
+
+#: professional-network.php:37
+msgid "Engineers, designers, and makers who use FreeCAD at work"
+msgstr ""
+
+#: professional-network.php:38
+msgid "Content creators, YouTubers, authors, and Patreon publishers"
+msgstr ""
+
+#: professional-network.php:39
+msgid "Educators and trainers in classrooms or workshops"
+msgstr ""
+
+#: professional-network.php:40
+msgid "Researchers exploring open CAD in academia"
+msgstr ""
+
+#: professional-network.php:41
+msgid "Hardware manufacturers supporting CAD users"
+msgstr ""
+
+#: professional-network.php:42
+msgid "Software developers and consultants working with FreeCAD and Addons"
+msgstr ""
+
+#: professional-network.php:43
+msgid "Businesses building products and services on FreeCAD"
+msgstr ""
+
+#: professional-network.php:51
+msgid "What We Do"
+msgstr "我們的工作"
+
+#: professional-network.php:52
+msgid "The FPN brings professionals together to:"
+msgstr ""
+
+#: professional-network.php:54
+msgid "Advocate for features and improvements that matter most"
+msgstr ""
+
+#: professional-network.php:55
+msgid "Help set priorities for FreeCAD development"
+msgstr ""
+
+#: professional-network.php:56
+msgid "Provide domain expertise directly to maintainers and contributors"
+msgstr ""
+
+#: professional-network.php:57
+msgid "Organize real-world meetups and events"
+msgstr ""
+
+#: professional-network.php:58
+msgid "Share knowledge, best practices, and support"
+msgstr ""
+
+#: professional-network.php:59
+msgid "Co-develop tools and solutions for the community"
+msgstr ""
+
+#: professional-network.php:62
+msgid "This is where professionals make their voice heard and pool their strengths to move FreeCAD forward."
+msgstr ""
+
+#: professional-network.php:70
+msgid "Membership Tiers"
+msgstr "會員等級"
+
+#: professional-network.php:77
+msgid "Individual"
+msgstr "個人"
+
+#: professional-network.php:80
+msgid "Access to professional network"
+msgstr "存取專業網路"
+
+#: professional-network.php:81
+msgid "Access to FPN private discord channel"
+msgstr ""
+
+#: professional-network.php:82
+msgid "Voting rights on FPN initiatives"
+msgstr ""
+
+#: professional-network.php:83
+msgid "Quarterly newsletter"
+msgstr "季刊通訊"
+
+#: professional-network.php:86
+msgid "Join Individual"
+msgstr "加入個人"
+
+#: professional-network.php:96
+msgid "Organization"
+msgstr "組織"
+
+#: professional-network.php:99
+msgid "All individual membership benefits"
+msgstr "所有個人會員權益"
+
+#: professional-network.php:100
+msgid "Unlimited employee memberships included"
+msgstr "包含無限員工會員資格"
+
+#: professional-network.php:101
+msgid "Logo recognition as FPN supporter"
+msgstr "標誌識別為 FPN 支持者"
+
+#: professional-network.php:104
+msgid "Join Organization"
+msgstr "加入組織"
+
+#: professional-network.php:112
+msgid "Membership isn't just a fee—it's an investment in FreeCAD's future and in your own professional ecosystem."
+msgstr "會員資格不僅僅是一筆費用，更是對 FreeCAD 的未來以及您自身專業生態系統的投資。"
+
+#: professional-network.php:120
+msgid "Why Join?"
+msgstr "為何加入?"
+
+#: professional-network.php:121
+msgid "Because FreeCAD is already part of your professional life. Together, we can:"
+msgstr "因為 FreeCAD 已經成為您職涯的一部分。攜手共進，我們可以："
+
+#: professional-network.php:123
+msgid "Influence its direction"
+msgstr "影響其方向"
+
+#: professional-network.php:124
+msgid "Create an ecosystem that is friendly to commercial interest"
+msgstr "創造一個有利於商業利益的生態系統"
+
+#: professional-network.php:125
+msgid "Build stronger connections across industries"
+msgstr "加強跨行業的聯繫"
+
+#: professional-network.php:126
+msgid "Ensure FreeCAD continues to thrive as a tool you can rely on"
+msgstr "確保 FreeCAD 繼續蓬勃發展，成為一款值得信賴的工具"
 
 #: sponsor.php:57
 msgid "Donating and sponsoring"
@@ -1101,27 +1265,27 @@ msgstr "銅級贊助商"
 
 #: telemetry.php:18
 msgid "Telemetry Data"
-msgstr ""
+msgstr "遙測數據"
 
 #: telemetry.php:29
 msgid "Improve FreeCAD — Anonymously"
-msgstr ""
+msgstr "匿名改進 FreeCAD"
 
 #: telemetry.php:31
 msgid "Telemetry helps us understand how FreeCAD is used by collecting anonymous data about its environment and usage patterns. We've developed this GDPR-compliant add-on to improve FreeCAD based on real-world insights — completely anonymously and with full respect for your privacy. By enabling it, you’re helping make FreeCAD better for everyone."
-msgstr ""
+msgstr "遙測技術透過收集 FreeCAD 環境和使用模式的匿名數據，幫助我們了解 FreeCAD 的使用情況。我們開發了這款符合 GDPR 標準的附加元件，旨在基於真實世界的洞察改進 FreeCAD——所有操作均完全匿名，並充分尊重您的隱私。啟用此附加元件，您將幫助 FreeCAD 變得更好，造福所有人。"
 
 #: telemetry.php:33
 msgid "https://github.com/FreeCAD/FreeCAD-Telemetry"
-msgstr ""
+msgstr "https://github.com/FreeCAD/FreeCAD-Telemetry"
 
 #: telemetry.php:41
 msgid "FreeCAD Version"
-msgstr ""
+msgstr "FreeCAD 版本"
 
 #: telemetry.php:45
 msgid "System"
-msgstr ""
+msgstr "系統"
 
 #: telemetry.php:49
 msgid "Language"
@@ -1129,27 +1293,27 @@ msgstr "語言"
 
 #: telemetry.php:53
 msgid "Python Version"
-msgstr ""
+msgstr "Python 版本"
 
 #: telemetry.php:57
 msgid "Mods"
-msgstr ""
+msgstr "模組"
 
 #: telemetry.php:61
 msgid "Machine"
-msgstr ""
+msgstr "機器"
 
 #: telemetry.php:65
 msgid "Default Workbench"
-msgstr ""
+msgstr "預設工作台"
 
 #: telemetry.php:69
 msgid "Screen Resolution"
-msgstr ""
+msgstr "螢幕解析度"
 
 #: telemetry.php:73
 msgid "Toolbar Icon Size"
-msgstr ""
+msgstr "工具列圖示大小"
 
 #: telemetry.php:77
 msgid "Theme"
@@ -1161,23 +1325,23 @@ msgstr "導航風格"
 
 #: telemetry.php:85
 msgid "Navigation Orbit Style"
-msgstr ""
+msgstr "導航風格"
 
 #: telemetry.php:89
 msgid "Workbench Enabled"
-msgstr ""
+msgstr "工作台啟用"
 
 #: telemetry.php:93
 msgid "Workbench Disabled"
-msgstr ""
+msgstr "工作台停用"
 
 #: telemetry.php:131
 msgid "Loading..."
-msgstr ""
+msgstr "正在載入…"
 
 #: telemetry.php:205
 msgid "user"
-msgstr ""
+msgstr "使用者"
 
 #: thankyou.php:60
 msgid "Thank you!"
@@ -1203,15 +1367,15 @@ msgstr "支持 FreeCAD!"
 
 #: thankyou.php:80
 msgid "If you are happy with FreeCAD, and would like to support the project, why not make a donation to the project? Being open-source, FreeCAD will ALWAYS be free for anyone to use, and FreeCAD could survive without any donations, however with donations we can go further and faster together."
-msgstr ""
+msgstr "如果您對 FreeCAD 感到滿意，並希望支持該項目，何不向該項目捐款呢？作為開源軟體，FreeCAD 將永遠​​免費供所有人使用，即使沒有捐款，FreeCAD 也能生存下去，但有了捐款，我們可以攜手走得更遠、更快。"
 
 #: thankyou.php:84
 msgid "If you would like to support, choose the amount and payment method of your choice below. If you are interested in supporting with a recurring donation, check the <a data-bs-toggle=\"modal\" data-bs-target=\"#donateModal\">donate page</a> to see more options."
-msgstr ""
+msgstr "如果您想提供支持，請在下方選擇金額和付款方式。如果您有興趣進行定期捐贈，請查看<a data-bs-toggle=\"modal\" data-bs-target=\"#donateModal\">捐贈頁面</a>以了解更多選項。"
 
 #: thankyou.php:88
 msgid "There are also many other ways to help FreeCAD. For example, you can write code, help with writing documentation, help translate the FreeCAD interface and documentation, help new users, etc. Everything you need to know to get involved is available over on this <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a> page."
-msgstr ""
+msgstr "您也可以透過許多其他方式幫助 FreeCAD。例如，您可以編寫程式碼、協助編寫文件、幫助翻譯 FreeCAD 介面和文件、幫助新使用者等等。您需要了解的所有參與方式都可以在此 <a href=https://wiki.freecad.org/Help_FreeCAD>幫助 FreeCAD</a> 頁面上找到。"
 
 #: thankyou.php:100
 msgid "Need help?"
@@ -1312,107 +1476,7 @@ msgstr "如果您遇到 FreeCAD 問題，或想要\n"
 " 與其他使用者會面並討論主題，請造訪\n"
 " <a href=https://forum.freecad.org>FreeCAD 論壇</a>。該論壇是世界各地、各種技能水平的 FreeCAD 用戶的主要聚會點。您可以在那裡尋求更高級用戶的建議，找到解決特定問題的方法，或討論有關 FreeCAD 世界及其周圍的想法。"
 
-#: translation.php:60
+#: translation.php:25
 msgid "English"
 msgstr "英文"
-
-#: translation.php:61
-msgid "Belarusian"
-msgstr "白俄羅斯語"
-
-#: translation.php:62
-msgid "Catalan"
-msgstr "加泰隆尼亞語"
-
-#: translation.php:63
-msgid "Czech"
-msgstr "捷克語"
-
-#: translation.php:64
-msgid "German"
-msgstr "德文"
-
-#: translation.php:65
-msgid "Greek"
-msgstr "希臘語"
-
-#: translation.php:66 translation.php:67
-msgid "Spanish"
-msgstr "西班牙文"
-
-#: translation.php:68
-msgid "Basque"
-msgstr "巴斯克語"
-
-#: translation.php:69
-msgid "Persian"
-msgstr ""
-
-#: translation.php:70
-msgid "Finnish"
-msgstr "芬蘭語"
-
-#: translation.php:71
-msgid "French"
-msgstr "法文"
-
-#: translation.php:72
-msgid "Croatian"
-msgstr "克羅埃西亞語"
-
-#: translation.php:73
-msgid "Hungarian"
-msgstr "匈牙利語"
-
-#: translation.php:74
-msgid "Italian"
-msgstr "義大利文"
-
-#: translation.php:75
-msgid "Japanese"
-msgstr "日文"
-
-#: translation.php:76
-msgid "Georgian"
-msgstr "喬治亞語"
-
-#: translation.php:77
-msgid "Dutch"
-msgstr "荷蘭文"
-
-#: translation.php:78
-msgid "Polish"
-msgstr "波蘭文"
-
-#: translation.php:79
-msgid "Portuguese"
-msgstr "葡萄牙文"
-
-#: translation.php:80
-msgid "Russian"
-msgstr "俄文"
-
-#: translation.php:81
-msgid "Slovenian"
-msgstr "斯洛維尼亞語"
-
-#: translation.php:82 translation.php:83
-msgid "Serbian"
-msgstr "塞爾維亞語"
-
-#: translation.php:84
-msgid "Swedish"
-msgstr "瑞典語"
-
-#: translation.php:85
-msgid "Turkish"
-msgstr "土耳其語"
-
-#: translation.php:86
-msgid "Ukrainian"
-msgstr "烏克蘭語"
-
-#: translation.php:87 translation.php:88
-msgid "Chinese"
-msgstr "中文"
 

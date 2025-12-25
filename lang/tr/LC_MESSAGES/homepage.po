@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 15:01-0500\n"
-"PO-Revision-Date: 2025-09-10 02:42\n"
+"POT-Creation-Date: 2025-09-03 14:35-0500\n"
+"PO-Revision-Date: 2025-12-17 20:53\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -31,15 +31,15 @@ msgstr "Eklentiler"
 
 #: addons.php:200
 msgid "Version:"
-msgstr "Versiyon:"
+msgstr "Sürüm:"
 
 #: addons.php:213
 msgid "Last update:"
-msgstr "En son güncelleme:"
+msgstr "Son güncelleme:"
 
 #: addons.php:217
 msgid "License:"
-msgstr "Lisans"
+msgstr "Lisans:"
 
 #: addons.php:224
 msgid "Open repository"
@@ -56,7 +56,7 @@ msgstr "Tüm Bloglar"
 
 #: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
-msgstr "Bu sayfa şu adresten alınmıştır"
+msgstr "Bu sayfa şu adresten alınmıştır:"
 
 #: contributor.php:11
 msgid "Thank you for your contribution!"
@@ -66,7 +66,11 @@ msgstr "Katkınız için teşekkür ederiz!"
 msgid "Thank you for supporting FreeCAD!\n"
 "            Whether you donated a little or a lot, all efforts contribute to\n"
 "            make FreeCAD development go further and faster."
-msgstr "FreeCAD'i desteklediğiniz için teşekkürler! İster az ister çok bağış yapın, tüm bağışlar FreeCAD'in daha ileri ve daha hızlı gelişmesine katkı sağlar."
+msgstr "FreeCAD’i desteklediğiniz için teşekkürler!\n"
+"\n"
+"İster az ister çok bağış yapın, tüm bağışlar FreeCAD’in\n"
+"\n"
+"daha ileri ve daha hızlı gelişmesine katkı sağlar."
 
 #: contributor.php:20
 msgid "If you have made a recurring donation above 25 USD/EUR\n"
@@ -75,7 +79,7 @@ msgid "If you have made a recurring donation above 25 USD/EUR\n"
 "            your name, company name or logo displayed on the FreeCAD website,\n"
 "            depending on the tier you fit in. If you have not yet informed us of\n"
 "            the name you wish to see displayed, please reach to us at"
-msgstr "Aylık düzenli olarak 25 USD/EUR'nun üzerinde bağışta bulunduysanız (veya 300 USD/EUR'nun üzerinde tek seferlik bir bağışta bulunduysanız), bronz, gümüş veya altın sponsor olmaya hak kazanırsınız ve  FreeCAD web sitesinde görüntülenen ad, şirket adı veya logo,  bulunduğunuz seviyeye bağlıdır. Görüntülenmesini istediğiniz  ad veya logo hakkında bize henüz bir bilgi vermediyseniz, lütfen şu adresten bize ulaşın"
+msgstr "Aylık düzenli olarak 25 USD/EUR üzerinde bağışta bulunduysanız (veya 300 USD/EUR üzerinde tek seferlik bir bağışta bulunduysanız) bronz, gümüş veya altın sponsor olmaya hak kazanırsınız ve FreeCAD web sitesinde görüntülenen ad, şirket adı veya logo, bulunduğunuz seviyeye bağlıdır. Görüntülenmesini istediğiniz ad veya logo hakkında bize henüz bir bilgi vermediyseniz lütfen şu adresten bize ulaşın"
 
 #: contributor.php:29
 msgid "Thanks!"
@@ -85,7 +89,7 @@ msgstr "Teşekkürler!"
 msgid "The FreeCAD project association"
 msgstr "FreeCAD proje birliği"
 
-#: donation.php:219 donation.php:259 header.php:140 sponsor.php:109
+#: donation.php:219 donation.php:259 header.php:142 sponsor.php:109
 #: thankyou.php:91
 msgid "Donate"
 msgstr "Bağış Yap"
@@ -135,12 +139,12 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: donation.php:257
-msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account. OpenCollective is a 501(c)3 org and provides tax deduction in the US."
-msgstr "OpenCollective, açık kaynaklı projeler için mali ana bilgisayar görevi görür. Kredi kartı veya banka hesabı ile bağış yapabilirsiniz. OpenCollective bir 501(c)3 kuruluşudur ve ABD'de vergi indirimi sağlar."
+msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account."
+msgstr "OpenCollective, açık kaynaklı projeler için malî bir ana bilgisayar görevi görür. Kredi kartı veya banka hesabı ile bağış yapabilirsiniz."
 
 #: donation.php:257
-msgid "OpenCollective (501(c)3)"
-msgstr "OpenCollective (501(c)3)"
+msgid "OpenCollective"
+msgstr "OpenCollective"
 
 #: donation.php:266
 msgid "SEPA Information"
@@ -684,167 +688,171 @@ msgid "Improve this\n"
 msgstr "Github'da bu\n"
 "  sayfayı geliştir"
 
-#: header.php:23 header.php:36
+#: header.php:24 header.php:37
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Kendi 3B parametrik modelleyiciniz"
 
-#: header.php:75
+#: header.php:76
 msgid "Features"
 msgstr "Özellikler"
 
-#: header.php:79
+#: header.php:80
 msgid "Download"
 msgstr "İndir"
 
-#: header.php:83
+#: header.php:84
 msgid "Blog"
 msgstr "Blog"
 
-#: header.php:87
+#: header.php:88
 msgid "Documentation"
 msgstr "Dökümanlar"
 
-#: header.php:90
+#: header.php:91
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:90
+#: header.php:91
 msgid "Documentation index"
 msgstr "Belge dizini"
 
-#: header.php:91 thankyou.php:125
+#: header.php:92 thankyou.php:125
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:91
+#: header.php:92
 msgid "Getting started"
 msgstr "Başlarken"
 
-#: header.php:92
+#: header.php:93
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:92
+#: header.php:93
 msgid "Users documentation"
 msgstr "Kullanıcı belgeleri"
 
-#: header.php:93 thankyou.php:137
+#: header.php:94 thankyou.php:137
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:93
+#: header.php:94
 msgid "The FreeCAD manual"
 msgstr "FreeCAD kılavuzu"
 
-#: header.php:94 thankyou.php:127
+#: header.php:95 thankyou.php:127
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:94 thankyou.php:127
+#: header.php:95 thankyou.php:127
 msgid "Workbenches documentation"
 msgstr "Çalışma Tezgahları Belgeleri"
 
-#: header.php:95
+#: header.php:96
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:95
+#: header.php:96
 msgid "Python coding documentation"
 msgstr "Python kodlama belgeleri"
 
-#: header.php:96
+#: header.php:97
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:96
+#: header.php:97
 msgid "C++ coding documentation"
 msgstr "C++ kodlama belgeleri"
 
-#: header.php:97 thankyou.php:146
+#: header.php:98 thankyou.php:146
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:97 thankyou.php:146
+#: header.php:98 thankyou.php:146
 msgid "Tutorials"
 msgstr "Öğreticiler"
 
-#: header.php:98 thankyou.php:128
+#: header.php:99 thankyou.php:128
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:98 thankyou.php:128
+#: header.php:99 thankyou.php:128
 msgid "Frequently asked questions"
 msgstr "Sıkça Sorulan Sorular"
 
-#: header.php:99
+#: header.php:100
 msgid "Privacy policy"
 msgstr "Gizlilik politikası"
 
-#: header.php:100
+#: header.php:101
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/About_FreeCAD"
 
-#: header.php:100
+#: header.php:101
 msgid "About FreeCAD"
 msgstr "FreeCAD hakkında"
 
-#: header.php:105
+#: header.php:106
 msgid "Contribute"
 msgstr "Katkıda bulun"
 
-#: header.php:108
+#: header.php:109
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
-#: header.php:108
+#: header.php:109
 msgid "How to help"
 msgstr "Nasıl yardım edilir"
 
-#: header.php:109
+#: header.php:110
 msgid "Sponsor"
 msgstr "Sponsor"
 
-#: header.php:110
+#: header.php:111
 msgid "Report a bug"
 msgstr "Bir hata bildir"
 
-#: header.php:111
+#: header.php:112
 msgid "Make a pull request"
 msgstr "Çekme isteğinde bulunun"
 
-#: header.php:112
+#: header.php:113
 msgid "Jobs and funding"
 msgstr "İşler ve finansman"
 
-#: header.php:113
+#: header.php:114
 msgid "Contribution guidelines"
 msgstr "Katılımcı Yönergeleri"
 
-#: header.php:114
+#: header.php:115
 msgid "Developers handbook"
 msgstr "Geliştirici el kitabı"
 
-#: header.php:115
+#: header.php:116
 msgid "https://wiki.freecad.org/Localisation"
 msgstr "https://wiki.freecad.org/Localisation/tr"
 
-#: header.php:115
+#: header.php:116
 msgid "Translations"
 msgstr "Çeviriler"
 
-#: header.php:120
+#: header.php:121
 msgid "Community"
 msgstr "Topluluk"
 
-#: header.php:123
+#: header.php:124
 msgid "Code of conduct"
 msgstr "Davranış kuralları"
 
-#: header.php:124
+#: header.php:125
+msgid "Professional Network"
+msgstr "Profesyonel Ağ"
+
+#: header.php:126
 msgid "Forum"
 msgstr "Forum"
 
-#: header.php:135
+#: header.php:137
 msgid "Calendar"
 msgstr "Takvim"
 
@@ -975,6 +983,166 @@ msgstr "FreeCAD gerçekten açık kaynak kodlu bir projedir ve hataların düzel
 #: index.php:230
 msgid "Get involved"
 msgstr "Katkıda Bulun"
+
+#: professional-network.php:14
+msgid "Join the community shaping the future of FreeCAD."
+msgstr "FreeCAD'in geleceğini şekillendiren topluluğa katılın."
+
+#: professional-network.php:23
+msgid "The FreeCAD Professional Network (FPN) is a voluntary association of professionals committed to strengthening the FreeCAD ecosystem for long-term growth and success."
+msgstr "FreeCAD Profesyonel Ağı (FPN), uzun vadeli büyüme ve başarı için FreeCAD ekosistemini güçlendirmeye kendini adamış profesyonellerden oluşan gönüllü bir birliktir."
+
+#: professional-network.php:26
+msgid "If FreeCAD is part of your livelihood—whether you design, teach, manufacture, research, or create content—the FPN is your place to connect, collaborate, and make an impact."
+msgstr "FreeCAD geçim kaynağınızın bir parçasıysa (ister tasarım yapın, ister eğitim verin, ister üretim yapın, ister araştırma yapın veya içerik oluşturun) FPN bağlantı kuracağınız, iş birliği yapacağınız ve etki yaratacağınız yerdir."
+
+#: professional-network.php:34
+msgid "Who is a FreeCAD Professional?"
+msgstr "Bir FreeCAD profesyoneli kime denir?"
+
+#: professional-network.php:35
+msgid "Anyone with a commercial interest in FreeCAD:"
+msgstr "FreeCAD üzerinde ticarî bir ilgisi olan herkes:"
+
+#: professional-network.php:37
+msgid "Engineers, designers, and makers who use FreeCAD at work"
+msgstr "FreeCAD'i iş ortamında kullanan mühendisler, tasarımcılar ve yapıcılar"
+
+#: professional-network.php:38
+msgid "Content creators, YouTubers, authors, and Patreon publishers"
+msgstr "İçerik üreticileri, YouTuber'lar, yazarlar ve Patreon yayımcıları"
+
+#: professional-network.php:39
+msgid "Educators and trainers in classrooms or workshops"
+msgstr "Sınıflardaki veya çalıştaylardaki eğitimciler ve çalıştırıcılar"
+
+#: professional-network.php:40
+msgid "Researchers exploring open CAD in academia"
+msgstr "Akademik ortamda açık bir CAD ortamı arayan araştırmacılar"
+
+#: professional-network.php:41
+msgid "Hardware manufacturers supporting CAD users"
+msgstr "CAD kullanıcılarını destekleyen donanım üreticileri"
+
+#: professional-network.php:42
+msgid "Software developers and consultants working with FreeCAD and Addons"
+msgstr "FreeCAD ve onun eklentileriyle çalışan yazılım geliştiricileri ve danışmanları"
+
+#: professional-network.php:43
+msgid "Businesses building products and services on FreeCAD"
+msgstr "FreeCAD üzerinde işlerini yapan, ürünler geliştiren, hizmetler sunan iş mecraları"
+
+#: professional-network.php:51
+msgid "What We Do"
+msgstr "Ne Yapıyoruz"
+
+#: professional-network.php:52
+msgid "The FPN brings professionals together to:"
+msgstr "FPN, profesyonelleri şunun için bir araya getirir:"
+
+#: professional-network.php:54
+msgid "Advocate for features and improvements that matter most"
+msgstr ""
+
+#: professional-network.php:55
+msgid "Help set priorities for FreeCAD development"
+msgstr ""
+
+#: professional-network.php:56
+msgid "Provide domain expertise directly to maintainers and contributors"
+msgstr ""
+
+#: professional-network.php:57
+msgid "Organize real-world meetups and events"
+msgstr ""
+
+#: professional-network.php:58
+msgid "Share knowledge, best practices, and support"
+msgstr ""
+
+#: professional-network.php:59
+msgid "Co-develop tools and solutions for the community"
+msgstr ""
+
+#: professional-network.php:62
+msgid "This is where professionals make their voice heard and pool their strengths to move FreeCAD forward."
+msgstr ""
+
+#: professional-network.php:70
+msgid "Membership Tiers"
+msgstr ""
+
+#: professional-network.php:77
+msgid "Individual"
+msgstr ""
+
+#: professional-network.php:80
+msgid "Access to professional network"
+msgstr ""
+
+#: professional-network.php:81
+msgid "Access to FPN private discord channel"
+msgstr ""
+
+#: professional-network.php:82
+msgid "Voting rights on FPN initiatives"
+msgstr ""
+
+#: professional-network.php:83
+msgid "Quarterly newsletter"
+msgstr ""
+
+#: professional-network.php:86
+msgid "Join Individual"
+msgstr ""
+
+#: professional-network.php:96
+msgid "Organization"
+msgstr ""
+
+#: professional-network.php:99
+msgid "All individual membership benefits"
+msgstr ""
+
+#: professional-network.php:100
+msgid "Unlimited employee memberships included"
+msgstr ""
+
+#: professional-network.php:101
+msgid "Logo recognition as FPN supporter"
+msgstr ""
+
+#: professional-network.php:104
+msgid "Join Organization"
+msgstr ""
+
+#: professional-network.php:112
+msgid "Membership isn't just a fee—it's an investment in FreeCAD's future and in your own professional ecosystem."
+msgstr ""
+
+#: professional-network.php:120
+msgid "Why Join?"
+msgstr ""
+
+#: professional-network.php:121
+msgid "Because FreeCAD is already part of your professional life. Together, we can:"
+msgstr ""
+
+#: professional-network.php:123
+msgid "Influence its direction"
+msgstr ""
+
+#: professional-network.php:124
+msgid "Create an ecosystem that is friendly to commercial interest"
+msgstr ""
+
+#: professional-network.php:125
+msgid "Build stronger connections across industries"
+msgstr ""
+
+#: professional-network.php:126
+msgid "Ensure FreeCAD continues to thrive as a tool you can rely on"
+msgstr ""
 
 #: sponsor.php:57
 msgid "Donating and sponsoring"
@@ -1257,107 +1425,7 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            the FreeCAD world."
 msgstr "FreeCAD ile ilgili sorunlarla karşılaşırsanız veya   diğer kullanıcılarla buluşup konuları tartışmak isterseniz,   <a href=https://forum.freecad.org>FreeCAD forumunu</a> ziyaret edin. Forum,   dünyanın her yerinden ve her beceri seviyesinden FreeCAD kullanıcıları için ana   buluşma noktasıdır. Burada, daha ileri düzey kullanıcıların tavsiyelerini alabilir, belirli bir   sorunu çözmenin yollarını bulabilir veya FreeCAD dünyası   hakkında fikirlerinizi tartışabilirsiniz."
 
-#: translation.php:60
+#: translation.php:25
 msgid "English"
 msgstr "İngilizce"
-
-#: translation.php:61
-msgid "Belarusian"
-msgstr "Belarusça"
-
-#: translation.php:62
-msgid "Catalan"
-msgstr "Katalanca"
-
-#: translation.php:63
-msgid "Czech"
-msgstr "Çekçe"
-
-#: translation.php:64
-msgid "German"
-msgstr "Almanca"
-
-#: translation.php:65
-msgid "Greek"
-msgstr "Yunanca"
-
-#: translation.php:66 translation.php:67
-msgid "Spanish"
-msgstr "İspanyolca"
-
-#: translation.php:68
-msgid "Basque"
-msgstr "Baskça"
-
-#: translation.php:69
-msgid "Persian"
-msgstr "Farsça"
-
-#: translation.php:70
-msgid "Finnish"
-msgstr "Fince"
-
-#: translation.php:71
-msgid "French"
-msgstr "Fransızca"
-
-#: translation.php:72
-msgid "Croatian"
-msgstr "Hırvatça"
-
-#: translation.php:73
-msgid "Hungarian"
-msgstr "Macarca"
-
-#: translation.php:74
-msgid "Italian"
-msgstr "İtalyanca"
-
-#: translation.php:75
-msgid "Japanese"
-msgstr "Japonca"
-
-#: translation.php:76
-msgid "Georgian"
-msgstr "Gürcüce"
-
-#: translation.php:77
-msgid "Dutch"
-msgstr "Flemenkçe"
-
-#: translation.php:78
-msgid "Polish"
-msgstr "Lehçe"
-
-#: translation.php:79
-msgid "Portuguese"
-msgstr "Portekizce"
-
-#: translation.php:80
-msgid "Russian"
-msgstr "Rusça"
-
-#: translation.php:81
-msgid "Slovenian"
-msgstr "Slovence"
-
-#: translation.php:82 translation.php:83
-msgid "Serbian"
-msgstr "Sırpça"
-
-#: translation.php:84
-msgid "Swedish"
-msgstr "İsveççe"
-
-#: translation.php:85
-msgid "Turkish"
-msgstr "Türkçe"
-
-#: translation.php:86
-msgid "Ukrainian"
-msgstr "Ukraynaca"
-
-#: translation.php:87 translation.php:88
-msgid "Chinese"
-msgstr "Çince"
 
