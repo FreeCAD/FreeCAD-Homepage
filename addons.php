@@ -34,7 +34,6 @@ include("header.php");
   .card .d-flex.align-items-start.gap-3.mb-3 .min-w-0{
     width: 100%;
   }
-  /* LOGO’YU ORTALA */
   .card .addon-logo{
     margin-left: auto;
     margin-right: auto;
@@ -113,6 +112,50 @@ function firstOfArray($v){
 	return is_scalar($v) ? (string)$v : '';
 }
 
+function normalizeAddonId($s){
+    $s = (string)$s;
+    $s = strtolower($s);
+    $s = preg_replace('~[^a-z0-9._-]+~i', '', $s);
+    return $s ?: '';
+}
+
+function fetchAddonDownloadTotals($url){
+    $raw = null;
+
+    if (function_exists('curl_init')) {
+        $ch = curl_init($url);
+        curl_setopt_array($ch, [
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_SSL_VERIFYPEER => false,
+            CURLOPT_SSL_VERIFYHOST => 0,
+            CURLOPT_TIMEOUT        => 10,
+        ]);
+        $raw = curl_exec($ch);
+        $http = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+        if ($raw === false || $http < 200 || $http >= 300) $raw = null;
+    } else {
+        $raw = @file_get_contents($url);
+    }
+
+    $decoded = $raw ? json_decode($raw, true) : null;
+    if (!is_array($decoded)) return [];
+
+    $out = [];
+    foreach ($decoded as $k => $v) {
+        $id = normalizeAddonId($k);
+        if ($id === '') continue;
+        $out[$id] = (int)$v;
+    }
+    return $out;
+}
+
+$downloadsBase = 'https://www.freecad.org/matomo-all-addons-downloads.php';
+$downloadsLast30Days = fetchAddonDownloadTotals($downloadsBase . '?period=range&date=last30');
+$downloadsLast90Days = fetchAddonDownloadTotals($downloadsBase . '?period=range&date=last90');
+$downloadsAllTime = fetchAddonDownloadTotals($downloadsBase . '?period=range&date=2016-01-01,today');
+
 $sortedAddonsMap = [];
 
 foreach ($addonsMap as $addonKey => $entries) {
@@ -173,6 +216,11 @@ usort($sortedAddonsMap, function($a, $b){
         elseif (str_starts_with($iconDataB64, 'R0lGOD')) $prefix = 'image/gif';
         $iconUrl = 'data:' . $prefix . ';base64,' . $iconDataB64;
       }
+
+      $addonId = normalizeAddonId($addonKey);
+      $d30 = (int)($downloadsLast30Days[$addonId] ?? 0);
+      $d90 = (int)($downloadsLast90Days[$addonId] ?? 0);
+      $da = (int)($downloadsAllTime[$addonId] ?? 0);
     ?>
       <div class="col">
         <div class="card h-100 position-relative text-light">
@@ -217,6 +265,15 @@ usort($sortedAddonsMap, function($a, $b){
                 <span class="me-2"><?php echo _('License:'); ?> <?= esc(is_array($license) ? ($license[0] ?? '') : $license) ?></span>
               <?php endif; ?>
             </div>
+
+            <?php if ($d30 || $d90 || $da): ?>
+              <div class="small mt-3 d-flex flex-row flex-nowrap align-items-baseline gap-2 overflow-auto">
+                <div class="text-white-50">Downloads</div>
+                <?php if ($d30): ?><div>&bull; 30 days: <?= esc($d30) ?></div><?php endif; ?>
+                <?php if ($d90): ?><div>&bull; 90 days: <?= esc($d90) ?></div><?php endif; ?>
+                <?php if ($da):  ?><div>&bull; All time: <?= esc($da) ?></div><?php endif; ?>
+              </div>
+            <?php endif; ?>
           </div>
 
           <?php if ($repositoryUrl): ?>
