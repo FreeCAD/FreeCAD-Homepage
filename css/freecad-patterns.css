@@ -1,0 +1,255 @@
+/**
+ * FreeCAD Background Patterns
+ * Subtle, brand-aligned patterns that echo the logo and CAD aesthetics
+ * Each pattern designed at 2-6% opacity to add depth without distraction
+ */
+
+/* === Pattern 1: Faceted "F" Watermark (Hero Only) === */
+.fc-facet {
+  position: absolute;
+  right: -10%;
+  top: -10%;
+  width: 70vmin;
+  height: auto;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+  opacity: 0.05;
+  z-index: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .fc-facet {
+    mix-blend-mode: soft-light;
+    opacity: 0.08;
+  }
+}
+
+/* === Pattern 2: Parametric Nodefield (Hero + Features) === */
+.fc-nodefield::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.06;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160"><g fill="none" stroke="%23fff" stroke-opacity=".9"><circle cx="24" cy="28" r="1.2"/><circle cx="112" cy="52" r="1.2"/><circle cx="64" cy="120" r="1.2"/><circle cx="140" cy="96" r="1.2"/><path d="M20 100h12"/><path d="M90 22h14"/><path d="M132 140h10"/></g></svg>');
+  background-size: 160px 160px;
+  z-index: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .fc-nodefield::before {
+    opacity: 0.08;
+  }
+}
+
+/* === Pattern 3: Isometric Blueprint Grid (Hero + Docs) === */
+.fc-isometric::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="28"><path d="M0 14 L24 0 L48 14 L24 28 Z" fill="none" stroke="%23fff" stroke-width=".5" stroke-opacity=".8"/></svg>');
+  background-size: 48px 28px;
+  mix-blend-mode: overlay;
+  z-index: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .fc-isometric::after {
+    opacity: 0.05;
+  }
+}
+
+/* === Pattern 4: Cog Arc Stencil (Section Separators) === */
+.fc-gear-arc {
+  position: absolute;
+  left: -5%;
+  bottom: -10%;
+  width: 60vmax;
+  height: auto;
+  pointer-events: none;
+  filter: blur(2px);
+  opacity: 0.06;
+  z-index: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .fc-gear-arc {
+    opacity: 0.08;
+  }
+}
+
+/* Prevent motion for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .fc-facet,
+  .fc-gear-arc {
+    animation: none;
+    transform: none;
+  }
+}
+
+/* === Pattern 5: Facet Tiling (Feature Sections) === */
+.fc-facet-tiles {
+  position: relative;
+  overflow: hidden;
+}
+
+.fc-facet-tiles::before {
+  content: "";
+  position: absolute;
+  inset: -20% -10%;
+  pointer-events: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><polygon points="14,2 26,14 14,26 2,14" fill="%23fff" fill-opacity=".02"/><polygon points="14,6 22,14 14,22 6,14" fill="%23fff" fill-opacity=".03"/></svg>');
+  background-size: 28px 28px;
+  transform: rotate(2deg);
+  z-index: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .fc-facet-tiles::before {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><polygon points="14,2 26,14 14,26 2,14" fill="%23fff" fill-opacity=".04"/><polygon points="14,6 22,14 14,22 6,14" fill="%23fff" fill-opacity=".05"/></svg>');
+  }
+}
+
+/* === Hero Section Enhancement === */
+.section-cover {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Remove old blueprint grid from body, apply patterns per section */
+body::before {
+  display: none; /* We'll use specific patterns per section instead */
+}
+
+/* Hero gets both facet watermark and nodefield */
+.section-cover.fc-nodefield {
+  /* Nodefield already applied via class */
+
+  margin-top: 20vh !important;
+}
+
+/* === Feature Section Patterns === */
+.section.fc-pattern-features {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Alternating pattern approach for visual rhythm */
+.section:nth-of-type(odd).fc-pattern-features {
+  /* Use facet tiles */
+}
+
+.section:nth-of-type(even).fc-pattern-features::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.03;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160"><g fill="none" stroke="%23fff" stroke-opacity=".8"><circle cx="24" cy="28" r="1.2"/><circle cx="112" cy="52" r="1.2"/><circle cx="64" cy="120" r="1.2"/><circle cx="140" cy="96" r="1.2"/></g></svg>');
+  background-size: 160px 160px;
+  z-index: 0;
+}
+
+/* === CTA/Special Sections (Contribute, Download) === */
+.section-cta {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--fc-n050);
+}
+
+@media (prefers-color-scheme: dark) {
+  .section-cta {
+    background-color: var(--fc-n800);
+  }
+}
+
+/* === Safe Text Zones === */
+/* Ensure patterns don't interfere with readability */
+.section > .col-lg-4,
+.section > .col-lg-7 {
+  position: relative;
+  z-index: 1;
+}
+
+.text-backround,
+.model-backround {
+  position: relative;
+  z-index: 1;
+}
+
+/* === Responsive Adjustments === */
+@media (max-width: 992px) {
+  .fc-facet {
+    width: 80vmin;
+    right: -20%;
+    top: -5%;
+  }
+
+  .fc-gear-arc {
+    width: 70vmax;
+  }
+
+  /* Reduce pattern density on mobile for performance */
+  .fc-nodefield::before,
+  .fc-facet-tiles::before {
+    opacity: 0.03;
+  }
+}
+
+@media (max-width: 576px) {
+  .fc-facet {
+    display: none; /* Hide large watermark on very small screens */
+  }
+
+  .fc-gear-arc {
+    width: 90vmax;
+    bottom: -20%;
+  }
+}
+
+/* === Animation (Subtle, Optional) === */
+@media (prefers-reduced-motion: no-preference) {
+  .fc-facet {
+    animation: subtleDrift 60s ease-in-out infinite alternate;
+  }
+
+  .fc-gear-arc {
+    animation: gentleRotate 120s linear infinite;
+  }
+}
+
+@keyframes subtleDrift {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate(-2%, 2%) rotate(1deg);
+  }
+}
+
+@keyframes gentleRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(2deg);
+  }
+}
+
+/* === Composition Guidelines === */
+/*
+USAGE RULES:
+1. One pattern per section maximum
+2. Opacity discipline: 2-6%
+3. Keep 24-32px padding from strong edges
+4. Avoid perfect alignment with content columns
+5. Disable motion via prefers-reduced-motion
+
+RECOMMENDED COMBO:
+- Hero: .fc-nodefield (applied to section-cover)
+- Feature bands: .fc-facet-tiles (alternating sections)
+- CTA/Download: .section-cta with cog arc
+- Footer: No pattern, solid dark neutral
+*/

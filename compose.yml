@@ -1,0 +1,13 @@
+services:
+  web:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/var/www/html
+    environment:
+      - APP_ENV=development
+    container_name: web
+    

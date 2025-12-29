@@ -223,11 +223,11 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 <!-- Modal -->
 <div class="modal fade" id="donateModal" tabindex="-1">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content bg-dark">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content card">
       <div class="modal-header border-secondary">
         <h1 class="modal-title fs-5" id="donateModalLabel"> <?php echo _('Donate'); ?> </h1>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div class="container-fluid">
@@ -254,11 +254,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 <label class="btn btn-outline-light text-center flex-fill col" for="presetother"> Other </label>
               </div>
               <div class="input-group mt-3">
-                <span class="input-group-text bg-dark text-light border-secondary">$</span>
-                <input type="number" class="form-control bg-dark text-light border-secondary form-control-lg" name="amount" id="amount" min="0" step="0.01" value="5.00">
+                <span class="input-group-text">$</span>
+                <input type="number" class="form-control form-control-lg" name="amount" id="amount" min="0" step="0.01" value="5.00">
               </div>
               <div class="input-group mt-3">
-                <select class="form-select bg-dark text-light border-secondary" id="method" name="method">
+                <select class="form-select" id="method" name="method">
                   <option value="null" selected> <?php echo _('Please choose'); ?>... </option>
                   <option value="sepa" title="<?php echo _('Direct SEPA bank transfer using your own bank apps'); ?>"> <?php echo _('SEPA bank transfer'); ?> </option>
                   <option value="stripe" title="<?php echo _('Credit card payment via Stripe'); ?>"> <?php echo _('Credit card (Stripe)'); ?> </option>
@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <button class="btn btn-outline-light input-group-text" value="Submit" id="submit" type="button"> <?php echo _('Donate'); ?> </button>
               </div>
               <div class="sepainfo hidden" id="sepainfo">
-                  <table class="table table-dark table-borderless">
+                  <table class="table table-borderless">
                       <thead>
                           <tr>
                               <th colspan="2" class="fw-bold">
@@ -311,17 +311,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p><?php echo _("Paypal charges up to 35% fee for transactions under $5. For small donations we recommend using other methods."); ?></p>
               </div>
               </div>
-              <div class="col-lg-7 text-light text-center text-lg-start px-md-4 ">
+              <div class="col-lg-7 text-center text-lg-start px-md-4 ">
               <div id="donationInfo">
                 <p> <?php echo _('If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount.'); ?> </p>
                 <p> <?php echo _('Choose freely the amount you wish to donate one time only.'); ?> </p>
               </div>
               <div id="sponsorInfo" class="hidden">
                 <p> <?php echo _('You can support FreeCAD by sponsoring it as an individual or organization through various platforms. Sponsorship provides a steady income for developers, allowing the FPA to plan ahead and enabling greater investment in FreeCAD. To encourage sponsorship, we offer different tiers, and unless you choose to remain anonymous, your name or company logo will be featured on our website accordingly.'); ?> </p>
-                <div class="accordion accordion-dark bg-dark text-white" id="sponsorAccordion">
+                <div class="accordion" id="sponsorAccordion">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingNormal">
-                      <button class="accordion-button text-white bg-dark border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNormal" aria-expanded="true" aria-controls="collapseNormal"> ♥ <b class="normal"> <?php echo _('Normal sponsor'); ?> </b>
+                      <button class="accordion-button border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNormal" aria-expanded="true" aria-controls="collapseNormal"> ♥ <b class="normal"> <?php echo _('Normal sponsor'); ?> </b>
                       </button>
                     </h2>
                     <div id="collapseNormal" class="accordion-collapse collapse show" aria-labelledby="headingNormal" data-bs-parent="#sponsorAccordion">
@@ -330,7 +330,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   </div>
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingBronze">
-                      <button class="accordion-button text-white bg-dark border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBronze" aria-expanded="false" aria-controls="collapseBronze"> 🥉 <b class="bronze"> <?php echo _('Bronze sponsor'); ?> </b>
+                      <button class="accordion-button border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBronze" aria-expanded="false" aria-controls="collapseBronze"> 🥉 <b class="bronze"> <?php echo _('Bronze sponsor'); ?> </b>
                       </button>
                     </h2>
                     <div id="collapseBronze" class="accordion-collapse collapse" aria-labelledby="headingBronze" data-bs-parent="#sponsorAccordion">
@@ -339,7 +339,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   </div>
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingSilver">
-                      <button class="accordion-button text-white bg-dark border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSilver" aria-expanded="false" aria-controls="collapseSilver"> 🥈 <b class="silver"> <?php echo _('Silver sponsor'); ?> </b>
+                      <button class="accordion-button border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSilver" aria-expanded="false" aria-controls="collapseSilver"> 🥈 <b class="silver"> <?php echo _('Silver sponsor'); ?> </b>
                       </button>
                     </h2>
                     <div id="collapseSilver" class="accordion-collapse collapse" aria-labelledby="headingSilver" data-bs-parent="#sponsorAccordion">
@@ -348,7 +348,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   </div>
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingGold">
-                      <button class="accordion-button text-white bg-dark border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGold" aria-expanded="false" aria-controls="collapseGold"> 🥇 <b class="gold"> <?php echo _('Gold sponsor'); ?> </b>
+                      <button class="accordion-button border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGold" aria-expanded="false" aria-controls="collapseGold"> 🥇 <b class="gold"> <?php echo _('Gold sponsor'); ?> </b>
                       </button>
                     </h2>
                     <div id="collapseGold" class="accordion-collapse collapse" aria-labelledby="headingGold" data-bs-parent="#sponsorAccordion">
