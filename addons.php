@@ -238,6 +238,9 @@ usort($sortedAddonsMap, function($a, $b){
                   <div class="text-white-50 small"><?= esc(is_array($maintainer) ? ($maintainer[0] ?? '') : $maintainer) ?></div>
                 <?php endif; ?>
               </div>
+              <?php if ($repositoryUrl): ?>
+                  <a class="btn btn-sm btn-outline-light"href="<?= esc($repositoryUrl) ?>"target="_blank"rel="noopener"><?php echo _('Repo Page'); ?></a>
+              <?php endif; ?>
             </div>
 
             <?php if ($description): ?>
