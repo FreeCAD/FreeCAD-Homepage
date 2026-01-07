@@ -271,6 +271,7 @@ usort($sortedAddonsMap, function($a, $b){
             </div>
 
             <?php if ($d30 || $d90 || $da || $cachePath): ?>
+              <hr>
               <div class="d-flex align-items-start gap-3 mt-3 mb-3">
                 <div class="text-white-50 small flex-shrink-0"><?php echo _('Downloads'); ?></div>
 
