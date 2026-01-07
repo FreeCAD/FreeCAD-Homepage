@@ -232,7 +232,7 @@ usort($sortedAddonsMap, function($a, $b){
                   <img src="<?= esc($iconUrl) ?>" alt="" loading="lazy" decoding="async">
                 </div>
               <?php endif; ?>
-              <div class="min-w-0">
+              <div class="flex-grow-1 min-w-0">
                 <h5 class="card-title" title="<?= esc($name) ?>"><?= esc($name) ?></h5>
                 <?php if ($maintainer): ?>
                   <div class="text-white-50 small"><?= esc(is_array($maintainer) ? ($maintainer[0] ?? '') : $maintainer) ?></div>
