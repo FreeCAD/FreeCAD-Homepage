@@ -294,7 +294,7 @@
             <h3 class="section-title mt-3"><?php echo _('Developed by a community'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD is made for everybody, by everybody. It is developed and maintained
-              by a community of developers, users, moderators, translators, all united by their wish make
+              by a community of developers, users, moderators, translators, all united by their wish to make
               FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no
               urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or
               ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever.'); ?>
