@@ -162,6 +162,13 @@ updateLatestCategoryFromFeed(
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
                 <div class="gold sponsor">
+                    <img class="logo" src="images/sponsors/kanardia.png">
+                    <a class="title" href="https://www.kanardia.eu/">Kanardia</a>
+                    Kanardia develops and manufactures high-performance avionics
+                    for ultralight aeroplanes, helicopters, and autogyros.
+                </div>
+
+                <div class="gold sponsor">
                     <img class="logo" src="images/sponsors/aleph.svg">
                     <a class="title" href="https://www.lulzbot.com/">Aleph Objects</a>
                     was a small manufacturing company based in Loveland, Colorado.
