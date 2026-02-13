@@ -50,9 +50,7 @@
     <a class="navbar-brand" href="<?php echo $homeurl; ?>">
       <img class="img-fluid" src="svg/logo-freecad.svg" alt="FreeCAD Logo"/>
     </a>
-    <a class="navbar-brand" href="<?php echo $downloadurl; ?>">
-      <img class="img-fluid" src="svg/stylized-1.0.svg" alt="FreeCAD 1.0"/>
-    </a>
+
     <ul class="nav nav-pills ms-auto order-xl-last">
       <li class="nav-item dropdown">
         <a class="nav-link text-light rounded-pill dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
