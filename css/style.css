@@ -490,6 +490,49 @@ code {
   box-shadow: 0 0 15px rgba(118, 66, 138, 0.8);
 }
 
+/* Release Candidate Banner */
+.rc-banner {
+  max-width: 800px;
+}
+
+.rc-banner-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  padding: 0.8em 1.2em;
+  background: linear-gradient(135deg, rgba(65, 143, 222, 0.25), rgba(118, 66, 138, 0.25));
+  border: 1px solid rgba(65, 143, 222, 0.5);
+  border-radius: 0.8em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rc-banner-text {
+  flex: 1;
+  font-size: 0.75em;
+  color: rgba(255, 255, 255, 0.85);
+  min-width: 250px;
+  text-align: left !important;
+  line-height: 1.5;
+}
+
+.rc-banner-text strong {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 1.3em;
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  .rc-banner-text {
+    text-align: center !important;
+  }
+}
+
+.rc-banner-link {
+  white-space: nowrap;
+  font-size: 0.7em !important;
+}
+
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
