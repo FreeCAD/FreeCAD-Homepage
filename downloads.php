@@ -147,7 +147,7 @@ updateLatestCategoryFromFeed(
             </div>
             <div class="card-footer px-xl-5 py-xl-4">
               <small class="text-muted">
-                <?php echo _('For distro-specific install instructions such as Ubuntu PPA and other ways to install on Linux please check out the '); ?>
+                <?php echo _('Multiple Linux-based OSs are supported. For more info on installation please check out the '); ?>
                 <a href="<?php echo _('https://wiki.freecad.org/Install_on_Unix'); ?>"><?php echo _('wiki'); ?></a>.
               </small>
             </div>
