@@ -124,6 +124,12 @@ updateLatestCategoryFromFeed(
                     is donating hardware to the FreeCAD project
                 </div>
 
+                <div class="gold sponsor">
+                    <img class="logo" src="images/sponsors/jetbrains.svg">
+                    <a class="title" href="https://jb.gg/OpenSource">JetBrains</a>
+                    is donating software licenses to the FreeCAD project
+                </div>
+
                 <div class="silver sponsor">
                     <img class="logo" src="images/sponsors/librespace.png">
                     <a class="title" href="https://libre.space">Libre Space Foundation</a>
