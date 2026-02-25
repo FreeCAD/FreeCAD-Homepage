@@ -71,10 +71,10 @@ updateLatestCategoryFromFeed(
           <div class="rc-banner-inner">
             <span class="rc-banner-text">
               <strong><?php echo _('FreeCAD 1.1 is almost here!'); ?></strong><br>
-              <?php echo _('Help us test Release Candidate 2 and report any issues before the final release.'); ?>
+              <?php echo _('Help us test Release Candidate 3 and report any issues before the final release.'); ?>
             </span>
-            <a href="https://github.com/FreeCAD/FreeCAD/releases/tag/1.1rc2" class="btn btn-light btn-sm rounded-pill rc-banner-link">
-              <?php echo _('Try FreeCAD 1.1 RC2'); ?> &rarr;
+            <a href="https://github.com/FreeCAD/FreeCAD/releases/tag/1.1rc3" class="btn btn-light btn-sm rounded-pill rc-banner-link">
+              <?php echo _('Try FreeCAD 1.1 RC3'); ?> &rarr;
             </a>
           </div>
         </div>
