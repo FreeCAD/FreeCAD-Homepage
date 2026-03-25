@@ -119,6 +119,13 @@ updateLatestCategoryFromFeed(
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
                 <div class="gold sponsor">
+                    <img class="logo" src="images/sponsors/kanardia.png">
+                    <a class="title" href="https://www.kanardia.eu/">Kanardia</a>
+                    Kanardia develops and manufactures high-performance avionics
+                    for ultralight aeroplanes, helicopters, and autogyros.
+                </div>
+
+                <div class="gold sponsor">
                     <img class="logo" src="images/sponsors/microsoft.png">
                     <a class="title" href="https://www.microsoft.com/">Microsoft</a>
                     is donating hardware to the FreeCAD project
@@ -166,13 +173,6 @@ updateLatestCategoryFromFeed(
             <h3><?php echo _('Early sponsors'); ?></h3>
           </div>
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
-
-                <div class="gold sponsor">
-                    <img class="logo" src="images/sponsors/kanardia.png">
-                    <a class="title" href="https://www.kanardia.eu/">Kanardia</a>
-                    Kanardia develops and manufactures high-performance avionics
-                    for ultralight aeroplanes, helicopters, and autogyros.
-                </div>
 
                 <div class="gold sponsor">
                     <img class="logo" src="images/sponsors/aleph.svg">
