@@ -83,7 +83,7 @@ updateLatestCategoryFromFeed(
               <img class="w-100 p-4" src="svg/icon-windows.svg" alt="Windows">
               <h3 class="card-title download-platform-name m-0 pb-3">Windows</h3>
               <div class="flex-column flex-lg-row">
-                <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.0/FreeCAD_1.1.0-Windows-x86_64-installer-1.exe">x86_64 installer</a>
+                <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.0/FreeCAD_1.1.0-Windows-x86_64-py311-installer.exe">x86_64 installer</a>
                 <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.0/FreeCAD_1.1.0-Windows-x86_64-py311.7z">x86_64 portable (.7z)</a>
               </div>
             </div>
