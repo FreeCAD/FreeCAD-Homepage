@@ -80,7 +80,7 @@
         <h2 class="home-subtitle text-light mb-4"><?php echo _('Your own 3D parametric modeler'); ?></h2>
         <div class="flex-column flex-lg-row">
           <a class="btn btn-light rounded-pill mt-2" role="button" href="<?php echo $downloadurl; ?>"><?php echo _('Download now'); ?></a>
-          <a class="btn btn-outline-light rounded-pill mt-2" role="button" href="<?php echo _('https://wiki.freecad.org/Release_notes_1.0'); ?>"><?php echo _("See what's new"); ?></a>
+          <a class="btn btn-outline-light rounded-pill mt-2" role="button" href="<?php echo _('https://wiki.freecad.org/Release_notes_1.1'); ?>"><?php echo _("See what's new"); ?></a>
         </div>
       </div>
     </section>
@@ -134,7 +134,7 @@
           <div class="col-lg-4 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('For professional design needs...'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _("FreeCAD is a powerful and evolving open-source parametric 3D modeler, well-suited for many professional and technical tasks. With the release of version 1.0, it marks a new milestone in stability and usability. FreeCAD puts you in control - no licensing fees, no vendor lock-in. It's not just cost-effective - it’s yours to adapt and build upon."); ?>
+              <?php echo _("FreeCAD is a powerful and evolving open-source parametric 3D modeler, well-suited for many professional and technical tasks. Each new release marks a milestone in stability and usability. FreeCAD puts you in control - no licensing fees, no vendor lock-in. It's not just cost-effective - it’s yours to adapt and build upon."); ?>
             </p>
           </div>
         </section>
