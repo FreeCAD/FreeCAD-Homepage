@@ -28,7 +28,7 @@ from urllib.parse import urlparse
 from typing import List, Dict, Tuple
 
 # CONFIGURATION
-addon_list_url = "https://raw.githubusercontent.com/FreeCAD/FreeCAD-addons/master/.gitmodules"
+addon_list_url = "https://raw.githubusercontent.com/FreeCAD/Addons/main/Data/Index.json"
 #gitlab_access_token = ""  # Read from the file specified by the environment variable GITLAB_ACCESS_TOKEN_FILE
 github_access_token = ""  # Read from the file specified by the environment variable GITHUB_ACCESS_TOKEN_FILE
 
@@ -70,24 +70,29 @@ class StatsWriter:
             return f.readline().strip()
 
     def get_addon_url_list(self) -> List[str]:
-        """ Return a list of URLs to FreeCAD Addons found in the .gitmodules file of the FreeCAD-addons repo """
+        """ Return a list of URLs to FreeCAD Addons found in the Index.json file of the FreeCAD/Addons repo """
         r = requests.get(addon_list_url, timeout=5)
         if r.status_code != 200:
             print(f"Failed to access addons list: got HTTP{r.status_code} response")
             return []
-        return self.parse_submodules_file(r.text)
 
-    @staticmethod
-    def parse_submodules_file(submodules: str) -> List[str]:
-        """ Parse a .gitmodules file to obtain the individual urls. All other data is ignored. """
-        lines = submodules.splitlines()
-        urls = []
-        for line in lines:
-            if "url = http" in line:
-                _, _, url = line.partition(" = ")
-                if url:
-                    urls.append(url)
-        return urls
+        data = r.json()
+        if not isinstance(data, dict):
+            print(f"Failed to parse addons list from response")
+            return []
+
+        urls = set()
+        for _, items in data.items():
+            if not isinstance(items, list):
+                continue
+            for item in items:
+                if not isinstance(item, dict):
+                    continue
+                repository = item.get("repository")
+                if repository:
+                    urls.add(repository)
+
+        return list(urls)
 
     def get_stats_for_repo(self, repo_url: str) -> Dict[str, int]:
         parsed_url = urlparse(repo_url)
@@ -140,7 +145,7 @@ class StatsWriter:
                            "forks_count",
                            "open_issues_count",
                            "network_count",
-                           "subscribers_count", 
+                           "subscribers_count",
                            "created_at", ]
         for field in expected_fields:
             if field in stats:
