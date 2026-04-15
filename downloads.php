@@ -89,7 +89,7 @@ updateLatestCategoryFromFeed(
             </div>
             <div class="card-footer px-xl-5 py-xl-4">
               <small class="text-muted">
-                <?php echo _('Windows 8 is the minimum supported version. For more info on installation, please check out the '); ?>
+                <?php echo _('Windows 10 is the minimum supported version. For more info on installation, please check out the '); ?>
                 <a href="<?php echo _('https://wiki.freecad.org/Install_on_Windows'); ?>"><?php echo _('wiki'); ?></a>.
               </small>
             </div>
