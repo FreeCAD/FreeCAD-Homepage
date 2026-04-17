@@ -60,12 +60,14 @@ updateLatestCategoryFromFeed(
           <p>
             <?php echo _('The calendar belows shows upcoming dates of FreeCAD meetings and other community events.'); ?>
           </p>
-          <iframe id="open-web-calendar"
-                  style="background:url('images/loader-freecad-small.gif') center center no-repeat;"
-                  src="https://cloud.freecad.org/apps/calendar/embed/ZtJiizXtSqBaacwo"
-                  sandbox="allow-scripts allow-same-origin allow-top-navigation"
-                  allowTransparency="true" scrolling="no"
-                  frameborder="0" height="800px" width="100%">
+          <iframe id="open-web-calendar" 
+                  style="background:url('images/loader-freecad-small.gif') center center no-repeat;" 
+                  src="https://open-web-calendar.hosted.quelltext.eu/calendar.html?url=https://open-web-calendar.hosted.quelltext.eu/calendar.html?url=https%3A%2F%2F%3A%40cloud.freecad.org%2Fremote.php%2Fdav%2Fpublic-calendars%2FZtJiizXtSqBaacwo%2F"
+                  sandbox="allow-scripts allow-same-origin allow-top-navigation" 
+                  allowtransparency="true" 
+                  scrolling="no" 
+                  frameborder="0" 
+                  height="600px" width="100%">
           </iframe>
           <p>
             <?php echo _('Subscribe to this calendar using this'); ?> <a href="https://cloud.freecad.org/remote.php/dav/public-calendars/ZtJiizXtSqBaacwo?export" class="badge text-bg-light text-decoration-none"><?php echo _('ICS link'); ?></a>.
