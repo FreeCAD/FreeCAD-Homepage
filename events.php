@@ -65,7 +65,7 @@ updateLatestCategoryFromFeed(
                   src="https://cloud.freecad.org/apps/calendar/embed/ZtJiizXtSqBaacwo"
                   sandbox="allow-scripts allow-same-origin allow-top-navigation"
                   allowTransparency="true" scrolling="no"
-                  frameborder="0" height="600px" width="100%">
+                  frameborder="0" height="800px" width="100%">
           </iframe>
           <p>
             <?php echo _('Subscribe to this calendar using this'); ?> <a href="https://cloud.freecad.org/remote.php/dav/public-calendars/ZtJiizXtSqBaacwo?export" class="badge text-bg-light text-decoration-none"><?php echo _('ICS link'); ?></a>.
