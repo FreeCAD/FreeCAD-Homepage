@@ -286,6 +286,10 @@ document.addEventListener('DOMContentLoaded', function() {
                               <td>The FreeCAD project association</td>
                           </tr>
                           <tr>
+                              <td><?php echo _('Address'); ?>:</td>
+                              <td>Rue Docteur Kuborn 31/46, 1070 Anderlecht, Belgium</td>
+                          </tr>
+                          <tr>
                               <td>IBAN:</td>
                               <td><b>BE04 0019 2896 4531</b></td>
                           </tr>
@@ -296,9 +300,6 @@ document.addEventListener('DOMContentLoaded', function() {
                           <tr>
                               <td><?php echo _('Bank agency'); ?>:</td>
                               <td>BNP Paribas Fortis</td>
-                          </tr>
-                          <tr>
-                              <td><?php echo _('Address'); ?>:</td>
                               <td>Rue de la Station 64, 1360 Perwez, Belgium</td>
                           </tr>
                       </tbody>
