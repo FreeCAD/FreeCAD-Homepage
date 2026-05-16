@@ -2,31 +2,41 @@
     Header set Access-Control-Allow-Origin "*"
     Header unset ETag
 </IfModule>
+# Disable ETags for all files (helps prevent caching issues)
 FileETag None
 
+# Set default expiry headers (everything expires 2 months after it is accessed)
 <IfModule mod_expires.c>
     ExpiresActive On
     ExpiresDefault "access plus 2 months"
 </IfModule>
 
+# Start URL rewriting
 RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
-RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
-RewriteRule ^/?wiki(/.*)?$ %{DOCUMENT_ROOT}/wiki/index.php [L]
+# Redirect all plain‑HTTP requests to HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Drop the .php extension when it is requested in the browser bar
+RewriteCond %{THE_REQUEST} \s/+([^\s]+?)\.php([?\s]|$) [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Send /download and /download.php to the /downloads page
+RewriteRule ^download\.php$ /downloads [L,R=301]
+RewriteRule ^download/?$ /downloads [L,R=301]
+
+# Route any /wiki/... URL to MediaWiki’s front controller
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^wiki(/.*)?$ /wiki/index.php [L]
 
 #remove php file extension-e.g. https://example.com/file.php will become https://example.com/file
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php [NC,L]
 
-RedirectPermanent /download.php /downloads
-RedirectPermanent /download /downloads
-
-ErrorDocument 404 /404.php
-
+# Serve a custom 404 page if the file or directory does not exist
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /404.php [L]
+RewriteRule ^ /404.php [L,R=404]
