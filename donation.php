@@ -1,5 +1,5 @@
 <script>
-function send(type, method, amount) {
+function send(type, method, amount, currency) {
     if (method == "github") {
         if (type == "sponsor") {
             window.location = "https://github.com/sponsors/FreeCAD?frequency=recurring&amount=" + amount;
@@ -15,17 +15,10 @@ function send(type, method, amount) {
     } else if (method == "paypal") {
         window.location = "https://www.paypal.com/donate/?hosted_button_id=M3Z8BGW6DB69Q";
     } else if (method == "stripe") {
-        // window.location = "https://buy.stripe.com/fZe0263vA809dpu5kk";
-        window.location = "https://donate.stripe.com/14k3ei9TYgwFclq145";
-        //key = 'pk_live_51LBbBhG41gbfoxVMdipYZmLiMEFcvny3hRbWLp6uJ3JrTNEelJgZiPcSeQZLYaubp4FsmNj5ErUzaNdgzAnFLoJZ00sJo45QgI'
-        //stripe.redirectToCheckout({
-        //    items: [{
-        //        sku: 'price_1LMtrnG41gbfoxVMqiuZsJg4',
-        //        quantity: amount,
-        //    }],
-        //    successUrl: 'https://example.com/success',
-        //    cancelUrl: 'https://example.com/cancel',
-        //});
+        var checkoutUrl = new URL("stripe-checkout-session.php", window.location.href);
+        checkoutUrl.searchParams.set("amount", amount);
+        checkoutUrl.searchParams.set("currency", currency);
+        window.location = checkoutUrl.toString();
     }
 }
 
@@ -34,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var typesRadios = document.getElementById("types");
     var presetsRadios = document.getElementById("presets");
     var methodSelect = document.getElementById("method");
+    var currencySelect = document.getElementById("currency");
     var sepainfo = document.getElementById("sepainfo");
     var stripeinfo = document.getElementById("stripeinfo");
     var paypalinfo = document.getElementById("paypalinfo");
@@ -49,6 +43,22 @@ document.addEventListener('DOMContentLoaded', function() {
         "preset100": "100.00",
         "preset200": "200.00"
     };
+    var currencySymbols = {
+        "eur": "€",
+        "usd": "$"
+    };
+
+    function updateCurrencyDisplay(currency) {
+        var symbol = currencySymbols[currency] || currencySymbols[defaultCurrency];
+
+        Object.keys(presetValues).forEach(function(key) {
+            var label = document.querySelector("label[for='" + key + "']");
+            var presetAmount = parseFloat(presetValues[key]);
+            if (label) {
+                label.textContent = " " + symbol + (Number.isInteger(presetAmount) ? presetAmount : presetAmount.toFixed(2)) + " ";
+            }
+        });
+    }
 
     function methodProcess(method) {
         if (method == "sepa") {
@@ -66,11 +76,6 @@ document.addEventListener('DOMContentLoaded', function() {
             sepainfo.classList.add("hidden");
             stripeinfo.classList.add("hidden");
             paypalinfo.classList.remove("hidden");
-        }else if(method == "null") {
-            sepainfo.classList.add("hidden");
-            submitButton.classList.add("disabled");
-            stripeinfo.classList.add("hidden");
-            paypalinfo.classList.add("hidden");
         }else {
             sepainfo.classList.add("hidden");
             submitButton.classList.remove("disabled");
@@ -99,7 +104,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function amountProcess(amount) {
-        var numericAmount = parseFloat(amount.trim()).toFixed(2);
+        var parsedAmount = parseFloat(String(amount).trim());
+        if (isNaN(parsedAmount)) {
+            return;
+        }
+
+        var numericAmount = parsedAmount.toFixed(2);
         var matchedPreset = Object.keys(presetValues).find(key => presetValues[key] === numericAmount);
 
         if (matchedPreset) {
@@ -135,10 +145,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     var type = document.querySelector('input[name="type"]:checked').id;
-    var preset = document.querySelector('input[name="preset"]:checked').id;
     var method = methodSelect.value;
     var amount = amountInput.value;
-
+    var currency = currencySelect.value;
+    updateCurrencyDisplay(currency);
     methodProcess(method);
     typeProcess(type);
     amountProcess(amount);
@@ -147,16 +157,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     typesRadios.addEventListener("change", function() {
         type = document.querySelector('input[name="type"]:checked').id;
-        if (type == "sponsor") {
-            sponsorInfo.classList.remove("hidden");
-            donationInfo.classList.add("hidden");
-        } else {
-            sponsorInfo.classList.add("hidden");
-            donationInfo.classList.remove("hidden");
-        }
+        typeProcess(type);
         methodProcess(method);
-
-
     });
 
     presetsRadios.addEventListener("change", function () {
@@ -179,22 +181,27 @@ document.addEventListener('DOMContentLoaded', function() {
         methodProcess(method);
     });
 
+    currencySelect.addEventListener('change', function() {
+        currency = currencySelect.value || defaultCurrency;
+        updateCurrencyDisplay(currency);
+    });
+
     amountInput.addEventListener("input", function() {
         amount = amountInput.value;
-        if (amount == "") {
-            if (amount === "" || isNaN(amount)) {
-                amountInput.reportValidity(); // Tarayıcının hata mesajını tetikle
-                return;
-            } else {
-            amount = "5.00";
-			}
+        if (amount === "" || isNaN(amount)) {
+            amountInput.reportValidity();
+            return;
         }
         amountProcess(amount);
-		showAccordion(amount)
+        showAccordion(amount)
     });
 
     submitButton.addEventListener('click', function() {
-        send(type, method, amount);
+        if (submitButton.classList.contains("disabled")) {
+            return;
+        }
+
+        send(type, method, amount, currency);
     });
 
     donateModal.addEventListener('show.bs.modal', function(event) {
@@ -221,7 +228,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-<!-- Modal -->
 <div class="modal fade" id="donateModal" tabindex="-1">
   <div class="modal-dialog modal-xl">
     <div class="modal-content bg-dark">
@@ -241,27 +247,29 @@ document.addEventListener('DOMContentLoaded', function() {
               </div>
               <div role="group" aria-label="preset" id="presets" class="d-flex flex-wrap mt-3  row-cols-4 gap-2">
                 <input type="radio" class="btn-check" name="preset" id="preset5" autocomplete="off" checked=>
-                <label class="btn btn-outline-light text-center flex-fill col" for="preset5"> $5 </label>
+                <label class="btn btn-outline-light text-center flex-fill col" for="preset5"> €5 </label>
                 <input type="radio" class="btn-check" name="preset" id="preset10" autocomplete="off">
-                <label class="btn btn-outline-light text-center flex-fill col" for="preset10"> $10 </label>
+                <label class="btn btn-outline-light text-center flex-fill col" for="preset10"> €10 </label>
                 <input type="radio" class="btn-check" name="preset" id="preset25" autocomplete="off">
-                <label class="btn btn-outline-light text-center flex-fill col" for="preset25"> $25 </label>
+                <label class="btn btn-outline-light text-center flex-fill col" for="preset25"> €25 </label>
                 <input type="radio" class="btn-check" name="preset" id="preset100" autocomplete="off">
-                <label class="btn btn-outline-light text-center flex-fill col" for="preset100"> $100 </label>
+                <label class="btn btn-outline-light text-center flex-fill col" for="preset100"> €100 </label>
                 <input type="radio" class="btn-check" name="preset" id="preset200" autocomplete="off">
-                <label class="btn btn-outline-light text-center flex-fill col" for="preset200"> $200 </label>
+                <label class="btn btn-outline-light text-center flex-fill col" for="preset200"> €200 </label>
                 <input type="radio" class="btn-check" name="preset" id="presetother" autocomplete="off">
                 <label class="btn btn-outline-light text-center flex-fill col" for="presetother"> Other </label>
               </div>
               <div class="input-group mt-3">
-                <span class="input-group-text bg-dark text-light border-secondary">$</span>
-                <input type="number" class="form-control bg-dark text-light border-secondary form-control-lg" name="amount" id="amount" min="0" step="0.01" value="5.00">
+                <select class="form-select bg-dark text-light border-secondary border-end-0 rounded-end-0 w-auto" id="currency" name="currency" aria-label="Currency" title="Currency">
+                  <option value="eur" selected>€</option>
+                  <option value="usd">$</option>
+                </select>
+                <input type="number" class="form-control bg-dark text-light border-secondary border-start-0 rounded-start-0 form-control-lg" name="amount" id="amount" min="0" step="0.01" value="5.00">
               </div>
               <div class="input-group mt-3">
                 <select class="form-select bg-dark text-light border-secondary" id="method" name="method">
-                  <option value="null" selected> <?php echo _('Please choose'); ?>... </option>
+                  <option value="stripe" selected title="<?php echo _('Credit card payment via Stripe'); ?>"> <?php echo _('Credit card (Stripe)'); ?> </option>
                   <option value="sepa" title="<?php echo _('Direct SEPA bank transfer using your own bank apps'); ?>"> <?php echo _('SEPA bank transfer'); ?> </option>
-                  <option value="stripe" title="<?php echo _('Credit card payment via Stripe'); ?>"> <?php echo _('Credit card (Stripe)'); ?> </option>
                   <option value="paypal" title="<?php echo _('Paypal allows to donate using your Paypal account, or a credit card') ?>"> <?php echo _('Paypal'); ?> </option>
                   <option value="github" title="<?php echo _('GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card') ?>"> <?php echo _('GitHub'); ?> </option>
                   <option value="opencollective" title="<?php echo _('OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account.') ?>"> <?php echo _('OpenCollective'); ?> </option>
