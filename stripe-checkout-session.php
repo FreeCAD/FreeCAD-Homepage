@@ -44,7 +44,7 @@ $postFields = http_build_query([
     'line_items[0][quantity]' => 1,
     'line_items[0][price_data][currency]' => $currency,
     'line_items[0][price_data][unit_amount]' => (int) round($amount * 100),
-    'line_items[0][price_data][product_data][name]' => 'FreeCAD Donation',
+    'line_items[0][price_data][product_data][name]' => (_('FreeCAD Donation')),
     'metadata[donation_type]' => 'donation',
     'metadata[source]' => 'website',
 ]);
