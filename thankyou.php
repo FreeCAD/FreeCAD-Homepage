@@ -13,8 +13,9 @@
         }
     }
 
+    $isStripeDonation = isset($_GET['session_id']) || (isset($_GET['stripe']) && $_GET['stripe'] === 'success');
     $url = "#";
-    if (isset($_GET['url']) ) {
+    if (!$isStripeDonation && isset($_GET['url']) ) {
         $url = urldecode($_GET['url']);
         // Only allow downloads from trusted source
         if ( !str_starts_with($url, "https://github.com/FreeCAD/FreeCAD/releases") ) {
@@ -50,7 +51,9 @@
 
     <script>
         function startDownload() {
+            <?php if (!$isStripeDonation && $url !== "#") { ?>
             window.location = "<?php echo $url; ?>";
+            <?php } ?>
         }
     </script>
 
@@ -59,11 +62,17 @@
         <div class="download-notes text-center">
             <h2 class="downloads-notes-title"><?php echo _('Thank you!'); ?></h2>
 
+            <?php if ($isStripeDonation) { ?>
+            <p>
+            <?php echo _('Your donation has been received successfully. Thank you for supporting FreeCAD!'); ?>
+            </p>
+            <?php } else { ?>
             <p>
             <?php echo _('Your download should start automatically.
             If not, click') ?> <a href="<?php echo $url; ?>"><?php echo _('here'); ?></a>
             <?php echo _('to download the file.'); ?>
             </p>
+            <?php } ?>
 
         </div>
 
