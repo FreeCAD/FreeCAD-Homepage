@@ -217,6 +217,10 @@ updateLatestCategoryFromFeed(
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
                 <div class="silver sponsor">
+                    <a href="https://itworks.ag">itWorks AG</a>
+                </div>
+
+                <div class="silver sponsor">
                     <a href="https://route4me.com">Route4Me Route Planner</a>
                      - trusted for last-mile route planning and route optimization.
                 </div>
@@ -263,6 +267,21 @@ updateLatestCategoryFromFeed(
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
+              <div class="bronze sponsor">Björn Jürgens</div>
+              <div class="bronze sponsor">Daniel Davison</div>
+              <div class="bronze sponsor">Custom Cut GmbH</div>
+              <div class="bronze sponsor">Sintesi Labs Design</div>
+              <div class="bronze sponsor">Andrzej Skarżyński</div>
+              <div class="bronze sponsor">William Walker</div>
+              <div class="bronze sponsor">Matt Valentine</div>
+              <div class="bronze sponsor">3xxx</div>
+              <div class="bronze sponsor">schreinermueller</div>
+              <div class="bronze sponsor">P-i-U UG & Co. KG</div>
+              <div class="bronze sponsor">P. Smith</div>
+              <div class="bronze sponsor">James Waples</div>
+              <div class="bronze sponsor">nerd-sniped</div>
+              <div class="bronze sponsor">NateXVI</div>
+              <div class="bronze sponsor">Marcos Hernandez</div>
               <div class="bronze sponsor">Artem Vasiatkin</div>
               <div class="bronze sponsor">Bystroushaak</div>
               <div class="bronze sponsor">Hydroexigiantiki SA</div>
