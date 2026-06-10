@@ -4,7 +4,7 @@
 ?>
 
   <script>
-    var rssFeedUrl = 'proxy-xml.php?url=https://blog.freecad.org/feed/';
+    var rssFeedUrl = 'proxy-xml.php';
 
     var categoryImages = {
         'Development Updates': 'images/Development-Updates.avif',

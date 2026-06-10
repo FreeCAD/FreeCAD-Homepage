@@ -43,7 +43,7 @@ function updateLatestCategoryFromFeed(xmlUrl, titleId, bodyId, buttonId, imageId
 }
 
 updateLatestCategoryFromFeed(
-  'proxy-xml.php?url=https://blog.freecad.org/category/events/feed/',
+  'proxy-xml.php?category=events',
   'events-title',
   'events-description',
   'events-link',
