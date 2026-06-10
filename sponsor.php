@@ -42,7 +42,7 @@ function updateLatestCategoryFromFeed(xmlUrl, titleId, bodyId, buttonId, imageId
 }
 
 updateLatestCategoryFromFeed(
-  'proxy-xml.php?url=https://blog.freecad.org/category/grants/feed/',
+  'proxy-xml.php?category=grants',
   'grants-title',
   'grants-description',
   'grants-link',
