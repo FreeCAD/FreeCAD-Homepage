@@ -71,7 +71,7 @@
 
   <main id="main" class="container-fluid">
     <section class="row section-cover d-flex align-items-center">
-      <div class="col-lg-8">
+      <div class="col-lg-8 d-none d-lg-block">
         <img class="img-fluid" src="images/cover-photo.avif" alt="Cover Photo"/>
       </div>
 
