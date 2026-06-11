@@ -38,18 +38,10 @@ function getFlags($href = '/')
     }
 }
 
-
-function getLangParam(): string {
-    if (empty($_GET['lang'])) {
-        return 'en';
-    }
-    $lang = preg_replace('/[^a-zA-Z0-9_-]/', '', $_GET['lang']);
-    return $lang !== '' ? $lang : 'en';
-}
-
-$lang = getLangParam();
+$lang = $_GET['lang'] ?? '';
+$lang = preg_match('@^[a-z]{2}(?:_[A-Z]{2})?$@', $lang) ? $lang : 'en';
 $localeMap = loadLocaleMap(__DIR__ . '/localeMap.json');
-$locale = isset($localeMap[$lang]) ? $localeMap[$lang] : $lang;
+$locale = $localeMap[$lang] ?? $lang;
 putenv("LC_ALL=$locale");
 setlocale(LC_ALL, $locale);
 bindtextdomain("homepage", "lang");
@@ -65,10 +57,5 @@ if (!file_exists('lang/'.$flagcode."/flag.jpg")) {
 }
 $langStr    = "?lang=" . urlencode($lang);
 $langattrib = "&lang=" . urlencode($lang);
-
-function getTranslatedDownloadLink() {
-    $lang = getLangParam();
-    echo "downloads.php?lang=" . urlencode($lang);
-}
 
 ?>

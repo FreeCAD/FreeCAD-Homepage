@@ -15,44 +15,16 @@
 
     $isStripeDonation = isset($_GET['session_id']) || (isset($_GET['stripe']) && $_GET['stripe'] === 'success');
     $url = "#";
-    if (!$isStripeDonation && isset($_GET['url']) ) {
-        $url = urldecode($_GET['url']);
-        // Only allow downloads from trusted source
-        if ( !str_starts_with($url, "https://github.com/FreeCAD/FreeCAD/releases") ) {
-            $url = "#";
-        }
-        if ( strpos( $url, ".." ) !== false ) {
-            $url = "#";
-        }
-        if ( strpos( $url, "\"" ) !== false ) {
-            $url = "#";
-        }
-        if ( strpos( $url, "(" ) !== false ) {
-            $url = "#";
-        }
-        if ( strpos( $url, ";" ) !== false ) {
-            $url = "#";
-        }
-        if ( strpos( $url, "%" ) !== false ) {
-            $url = "#";
-        }
-        // for some reason this does not work on our version of php
-        //if ( !str_ends_with($url, ".7z") ) {
-        //    if ( !str_ends_with($url, ".exe") ) {
-        //        if ( !str_ends_with($url, ".dmg") ) {
-        //            if ( !str_ends_with($url, ".AppImage") ) {
-        //                $url = "#";
-        //            }
-        //        }
-        //    }
-        //}
+    if (!$isStripeDonation && isset($_GET['url']) &&
+        preg_match('@^https://github.com/FreeCAD/FreeCAD/releases/[/a-zA-Z0-9\._-]+$@', $_GET['url'])) {
+        $url = $_GET['url'];
     }
 ?>
 
     <script>
         function startDownload() {
             <?php if (!$isStripeDonation && $url !== "#") { ?>
-            window.location = "<?php echo $url; ?>";
+            window.location = <?php echo json_encode($url, JSON_UNESCAPED_SLASHES); ?>;
             <?php } ?>
         }
     </script>
@@ -69,7 +41,7 @@
             <?php } else { ?>
             <p>
             <?php echo _('Your download should start automatically.
-            If not, click') ?> <a href="<?php echo $url; ?>"><?php echo _('here'); ?></a>
+            If not, click') ?> <a href="<?php echo htmlentities($url); ?>"><?php echo _('here'); ?></a>
             <?php echo _('to download the file.'); ?>
             </p>
             <?php } ?>
