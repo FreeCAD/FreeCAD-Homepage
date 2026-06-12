@@ -7,9 +7,9 @@
     <main id="main" class="container-fluid whitelinks">
 
         <div class="download-notes text-center">
-            <h2 class="downloads-notes-title">
+            <h1 class="downloads-notes-title">
                 <?php echo _('Thank you for your contribution!'); ?>
-            </h2>
+            </h1>
 
             <p>
             <?php echo _('Thank you for supporting FreeCAD!

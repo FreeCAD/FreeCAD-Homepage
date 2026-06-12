@@ -50,7 +50,7 @@
                     </div>
 
                     <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-                        <h3 class="section-title mt-3">${title}</h3>
+                        <h2 class="section-title mt-3">${title}</h2>
                         <p class="section-body">
                             ${description}
                         </p>
@@ -68,17 +68,22 @@
   </script>
 
     <main id="main" class="container-fluid">
+        <div class="download-notes text-center visually-hidden">
+            <h1 class="downloads-notes-title">FreeCAD News</h1>
+        </div>
+
         <div id="rss-content" >
+<?php for ($i = 0; $i < 10; $i++) { ?>
             <section class="row section d-flex align-items-center justify-content-around rounded mb-5">
-                <div class="col-lg-5 rounded model-backround p-2 ">
+                <div class="col-lg-5 rounded model-backround p-2 <?php echo $i % 2 == 1 ? "order-lg-last" : ""; ?>">
                     <div class="placeholder-glow">
                         <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
                     </div>
                 </div>
                 <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-                    <h3 class="section-title mt-3 placeholder-glow">
+                    <h2 class="section-title mt-3 placeholder-glow">
                         <span class="placeholder col-6 bg-secondary"></span>
-                    </h3>
+                    </h2>
                     <p class="section-body placeholder-glow">
                         <span class="placeholder col-12 bg-secondary"></span>
                         <span class="placeholder col-8 bg-secondary"></span>
@@ -88,176 +93,7 @@
                 </div>
             </section>
 
-            <section class="row section d-flex align-items-center justify-content-around rounded mb-5">
-                <div class="col-lg-5 rounded model-backround p-2 order-lg-last">
-                    <div class="placeholder-glow">
-                        <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-                    <h3 class="section-title mt-3 placeholder-glow">
-                        <span class="placeholder col-6 bg-secondary"></span>
-                    </h3>
-                    <p class="section-body placeholder-glow">
-                        <span class="placeholder col-12 bg-secondary"></span>
-                        <span class="placeholder col-8 bg-secondary"></span>
-                        <span class="placeholder col-10 bg-secondary"></span>
-                    </p>
-                    <a href="#" class="btn btn-light rounded-pill mt-3 placeholder-glow disabled placeholder col-4"></a>
-                </div>
-            </section>
-
-            <section class="row section d-flex align-items-center justify-content-around rounded mb-5">
-                <div class="col-lg-5 rounded model-backround p-2 ">
-                    <div class="placeholder-glow">
-                        <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-                    <h3 class="section-title mt-3 placeholder-glow">
-                        <span class="placeholder col-6 bg-secondary"></span>
-                    </h3>
-                    <p class="section-body placeholder-glow">
-                        <span class="placeholder col-12 bg-secondary"></span>
-                        <span class="placeholder col-8 bg-secondary"></span>
-                        <span class="placeholder col-10 bg-secondary"></span>
-                    </p>
-                    <a href="#" class="btn btn-light rounded-pill mt-3 placeholder-glow disabled placeholder col-4"></a>
-                </div>
-            </section>
-
-            <section class="row section d-flex align-items-center justify-content-around rounded mb-5">
-                <div class="col-lg-5 rounded model-backround p-2 order-lg-last">
-                    <div class="placeholder-glow">
-                        <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-                    <h3 class="section-title mt-3 placeholder-glow">
-                        <span class="placeholder col-6 bg-secondary"></span>
-                    </h3>
-                    <p class="section-body placeholder-glow">
-                        <span class="placeholder col-12 bg-secondary"></span>
-                        <span class="placeholder col-8 bg-secondary"></span>
-                        <span class="placeholder col-10 bg-secondary"></span>
-                    </p>
-                    <a href="#" class="btn btn-light rounded-pill mt-3 placeholder-glow disabled placeholder col-4"></a>
-                </div>
-            </section>
-
-            <section class="row section d-flex align-items-center justify-content-around rounded mb-5">
-                <div class="col-lg-5 rounded model-backround p-2 ">
-                    <div class="placeholder-glow">
-                        <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-                    <h3 class="section-title mt-3 placeholder-glow">
-                        <span class="placeholder col-6 bg-secondary"></span>
-                    </h3>
-                    <p class="section-body placeholder-glow">
-                        <span class="placeholder col-12 bg-secondary"></span>
-                        <span class="placeholder col-8 bg-secondary"></span>
-                        <span class="placeholder col-10 bg-secondary"></span>
-                    </p>
-                    <a href="#" class="btn btn-light rounded-pill mt-3 placeholder-glow disabled placeholder col-4"></a>
-                </div>
-            </section>
-
-            <section class="row section d-flex align-items-center justify-content-around rounded mb-5">
-                <div class="col-lg-5 rounded model-backround p-2 order-lg-last">
-                    <div class="placeholder-glow">
-                        <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-                    <h3 class="section-title mt-3 placeholder-glow">
-                        <span class="placeholder col-6 bg-secondary"></span>
-                    </h3>
-                    <p class="section-body placeholder-glow">
-                        <span class="placeholder col-12 bg-secondary"></span>
-                        <span class="placeholder col-8 bg-secondary"></span>
-                        <span class="placeholder col-10 bg-secondary"></span>
-                    </p>
-                    <a href="#" class="btn btn-light rounded-pill mt-3 placeholder-glow disabled placeholder col-4"></a>
-                </div>
-            </section>
-
-            <section class="row section d-flex align-items-center justify-content-around rounded mb-5">
-                <div class="col-lg-5 rounded model-backround p-2 ">
-                    <div class="placeholder-glow">
-                        <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-                    <h3 class="section-title mt-3 placeholder-glow">
-                        <span class="placeholder col-6 bg-secondary"></span>
-                    </h3>
-                    <p class="section-body placeholder-glow">
-                        <span class="placeholder col-12 bg-secondary"></span>
-                        <span class="placeholder col-8 bg-secondary"></span>
-                        <span class="placeholder col-10 bg-secondary"></span>
-                    </p>
-                    <a href="#" class="btn btn-light rounded-pill mt-3 placeholder-glow disabled placeholder col-4"></a>
-                </div>
-            </section>
-
-            <section class="row section d-flex align-items-center justify-content-around rounded mb-5">
-                <div class="col-lg-5 rounded model-backround p-2 order-lg-last">
-                    <div class="placeholder-glow">
-                        <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-                    <h3 class="section-title mt-3 placeholder-glow">
-                        <span class="placeholder col-6 bg-secondary"></span>
-                    </h3>
-                    <p class="section-body placeholder-glow">
-                        <span class="placeholder col-12 bg-secondary"></span>
-                        <span class="placeholder col-8 bg-secondary"></span>
-                        <span class="placeholder col-10 bg-secondary"></span>
-                    </p>
-                    <a href="#" class="btn btn-light rounded-pill mt-3 placeholder-glow disabled placeholder col-4"></a>
-                </div>
-            </section>
-
-            <section class="row section d-flex align-items-center justify-content-around rounded mb-5">
-                <div class="col-lg-5 rounded model-backround p-2 ">
-                    <div class="placeholder-glow">
-                        <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-                    <h3 class="section-title mt-3 placeholder-glow">
-                        <span class="placeholder col-6 bg-secondary"></span>
-                    </h3>
-                    <p class="section-body placeholder-glow">
-                        <span class="placeholder col-12 bg-secondary"></span>
-                        <span class="placeholder col-8 bg-secondary"></span>
-                        <span class="placeholder col-10 bg-secondary"></span>
-                    </p>
-                    <a href="#" class="btn btn-light rounded-pill mt-3 placeholder-glow disabled placeholder col-4"></a>
-                </div>
-            </section>
-
-            <section class="row section d-flex align-items-center justify-content-around rounded mb-5">
-                <div class="col-lg-5 rounded model-backround p-2 order-lg-last">
-                    <div class="placeholder-glow">
-                        <div class="placeholder img-fluid bg-secondary" style="width: 100%; height: 350px;"></div>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-                    <h3 class="section-title mt-3 placeholder-glow">
-                        <span class="placeholder col-6 bg-secondary"></span>
-                    </h3>
-                    <p class="section-body placeholder-glow">
-                        <span class="placeholder col-12 bg-secondary"></span>
-                        <span class="placeholder col-8 bg-secondary"></span>
-                        <span class="placeholder col-10 bg-secondary"></span>
-                    </p>
-                    <a href="#" class="btn btn-light rounded-pill mt-3 placeholder-glow disabled placeholder col-4"></a>
-                </div>
-            </section>
+<?php } ?>
         </div>
         <div class="text-center">
         <a class="btn btn-light rounded-pill mt-3 " role="button" href="https://blog.freecad.org/page/2/"><?php echo _('All Blogs'); ?></a>

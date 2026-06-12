@@ -20,19 +20,13 @@ $localeMap = loadLocaleMap(__DIR__ . '/localeMap.json');
 
 function getFlags($href = '/')
 {
-    global $localeMap;
+    global $localeMap, $locale;
 
-    // Default English entry
-    echo('<a class="dropdown-item" href="' . $href . '">
-            <img src="lang/en/flag.jpg" alt="" />' . _('English') . '</a>');
-
-    foreach ($localeMap as $shortCode => $locale) {
-        if ($shortCode === 'en') {
-            continue;
-        }
-        $localeName = locale_get_display_language($locale, $locale) ?: $locale;
-        echo('<a class="dropdown-item" href="' . $href . '?lang=' . $shortCode . '">
-                <img src="lang/' . $locale . '/flag.jpg" alt="" />' . htmlentities($localeName) . '</a>');
+    foreach (['en'=>'en'] + $localeMap as $shortCode => $localeCode) {
+        $localeName = locale_get_display_language($localeCode, $localeCode) ?: $localeCode;
+        echo('<a class="dropdown-item" href="' . $href . '?lang=' . $shortCode . '"'.
+            ($localeCode == $locale ? ' aria-current="page"' : '').'>'.
+            '<img src="lang/' . $localeCode . '/flag.jpg" alt="" />' . htmlentities($localeName) . '</a>');
     }
 }
 
@@ -41,6 +35,7 @@ $localeMapFlip = array_flip($localeMap);
 $locale = $localeMap[$lang] ?? $lang;
 $lang = $localeMapFlip[$locale] ?? "en";
 if ($lang == "en") $locale = "en";
+$localeName = locale_get_display_language($locale, $locale) ?: $locale;
 putenv("LC_ALL=$locale");
 setlocale(LC_ALL, $locale);
 bindtextdomain("homepage", "lang");
