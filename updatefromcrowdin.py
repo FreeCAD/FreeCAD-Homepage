@@ -73,32 +73,29 @@ xgettext --from-code=UTF-8 -o lang/homepage.po *.php
 
 from PySide6 import QtCore
 from functools import lru_cache
-from io import StringIO
 from typing import List, Dict
 from urllib.request import Request
 from urllib.request import urlopen
 
-import getopt
+import argparse
 import json
 import os
+import polib
 import shutil
 import sys
 import tempfile
 import zipfile
 
 try:
-    import Image
+    import Image # type: ignore
 except ImportError:
     from PIL import Image
 
 
-def doLanguage(lncode):
+def doLanguage(tempfolder:str, lncode:str):
     " treats a single language"
 
-    if lncode == "en":
-        # never treat "english" translation... For now :)
-        return
-    basefilepath = tempfolder + os.sep + lncode + os.sep + "homepage.po"
+    basefilepath = os.path.join(tempfolder, lncode, "homepage.po")
     lncode = lncode.replace("-", "_")
     langpath = os.path.join(os.path.abspath("lang"), lncode)
     popath = os.path.join(langpath, "LC_MESSAGES")
@@ -113,25 +110,24 @@ def doLanguage(lncode):
     print("copying translation file")
     shutil.copyfile(basefilepath, os.path.join(popath, "homepage.po"))
     print("compiling translation file")
-    os.system("msgfmt -c -o " + os.path.join(popath, "homepage.mo") + " " + os.path.join(popath,
-                                                                                         "homepage.po"))
+    pofile = polib.pofile(os.path.join(popath, "homepage.po"))
+    if type(pofile) is not polib.POFile:
+        print("Unable to load po-file")
+        sys.exit()
+    pofile.save_as_mofile(os.path.join(popath, "homepage.mo"))
     if not os.path.exists(flagfile):
         print("image not found:", flagfile)
-        if "_" in lncode:
-            lflag = lncode.split("_")[0]
-        else:
-            lflag = lncode
-        flagurl = "http://www.unilang.org/images/langicons/" + lflag + ".png"
+        flagurl = "http://www.unilang.org/images/langicons/" + lncode.split("_")[0] + ".png"
         print("downloading flag from ", flagurl)
         try:
-            im = Image.open(StringIO(urlopen(flagurl).read()))
+            with urlopen(flagurl) as f:
+                im = Image.open(f)
         except:
             print("Unable to download image above. Please do it manually")
             sys.exit()
         im = im.convert("RGB")
         print("saving flag to ", flagfile)
         im.save(flagfile)
-    return lncode
 
 
 def generate_locale_map_json(lang_codes:List[str], output_file:str= "localeMap.json") -> Dict[str, str]:
@@ -164,18 +160,15 @@ def generate_locale_map_json(lang_codes:List[str], output_file:str= "localeMap.j
 class CrowdinUpdater:
     BASE_URL = "https://api.crowdin.com/api/v2"
 
-    def __init__(self, token, project_identifier, multithread=True):
+    def __init__(self, token:str, project_identifier:str):
         self.token = token
         self.project_identifier = project_identifier
-        self.multithread = multithread
 
     @lru_cache()
     def _get_project_id(self):
-        url = f"{self.BASE_URL}/projects/"
-        response = self._make_api_req(url)
-
+        response = self._make_api_req(f"{self.BASE_URL}/projects/")
         for project in [p["data"] for p in response]:
-            if project["identifier"] == project_identifier:
+            if project["identifier"] == self.project_identifier:
                 return project["id"]
 
         raise Exception("No project identifier found!")
@@ -184,11 +177,8 @@ class CrowdinUpdater:
         url = f"{self.BASE_URL}/projects/{self._get_project_id()}{project_path}"
         return self._make_api_req(url=url, *args, **kwargs)
 
-    @staticmethod
-    def _make_api_req(url, extra_headers=None, method="GET", data=None):
-        if extra_headers is None:
-            extra_headers = {}
-        headers = {"Authorization": "Bearer " + load_token(), **extra_headers}
+    def _make_api_req(self, url, extra_headers=None, method="GET", data=None):
+        headers = {"Authorization": "Bearer " + self.token, **(extra_headers or {})}
 
         if type(data) is dict:
             headers["Content-Type"] = "application/json"
@@ -223,7 +213,7 @@ class CrowdinUpdater:
 
 def load_token():
     # load API token stored in ~/.crowdin-freecad-token
-    config_file = os.path.expanduser("~") + os.sep + ".crowdin-freecad-token"
+    config_file = os.path.join(os.path.expanduser("~"), ".crowdin-freecad-token")
     if os.path.exists(config_file):
         with open(config_file) as file:
             return file.read().strip()
@@ -244,15 +234,25 @@ def get_default_languages(updater):
     return languages
 
 
-if __name__ == "__main__":
+def doLanguages(tempfolder:str, locales:list[str]):
+    # never treat "english" translation... For now :)
+    locales = [ln for ln in locales if ln != "en"]
+    exists = {ln: ln.replace("-", "_") for ln in locales if os.path.exists(os.path.join(tempfolder, ln))}
+    for ln in locales:
+        if ln not in exists:
+            print("ERROR: language path for " + ln + " not found!")
+    generate_locale_map_json(list(exists.values()))
+    for ln in exists:
+        doLanguage(tempfolder, ln)
 
-    try:
-        opts, args = getopt.getopt(sys.argv[1:], "hd:z:", ["help", "directory=", "zipfile="])
-    except getopt.GetoptError:
-        print(__doc__)
-        sys.exit()
 
-
+def main():
+    parser = argparse.ArgumentParser()
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("-d", "--directory", help="Read translations files from this directory")
+    group.add_argument("-z", "--zipfile", help="Read translations files from zip file")
+    parser.add_argument("locale", nargs='*', help="Update only translations for these locales")
+    args = parser.parse_args()
 
     token = os.environ.get("CROWDIN_TOKEN", load_token())
     if not token:
@@ -265,53 +265,24 @@ if __name__ == "__main__":
 
     updater = CrowdinUpdater(token, project_identifier)
 
-    # checking on the options
-    inputdir = ""
-    inputzip = ""
-    for o, a in opts:
-        if o in ("-h", "--help"):
-            print(__doc__)
-            sys.exit()
-        if o in ("-d", "--directory"):
-            inputdir = a
-        if o in ("-z", "--zipfile"):
-            inputzip = a
+    locales = args.locale or get_default_languages(updater)
 
-    if inputdir and inputzip:
-        print("ERROR: only one of -d or -z can be specified")
-        sys.exit()
-
-    if not inputdir and not inputzip:
-        print("ERROR: one of -d or -z must be specified")
-        sys.exit()
-
-    global tempfolder
-    currentfolder = os.getcwd()
-    if inputdir:
-        tempfolder = os.path.realpath(inputdir)
+    if args.directory:
+        tempfolder = os.path.realpath(args.directory)
         if not os.path.exists(tempfolder):
             print("ERROR: " + tempfolder + " not found")
             sys.exit()
-    elif inputzip:
-        tempfolder = tempfile.mkdtemp()
-        print("creating temp folder " + tempfolder)
-        os.chdir(tempfolder)
-        inputzip = os.path.realpath(inputzip)
+        doLanguages(tempfolder, locales)
+    elif args.zipfile:
+        inputzip = os.path.realpath(args.zipfile)
         if not os.path.exists(inputzip):
             print("ERROR: " + inputzip + " not found")
             sys.exit()
-        zfile = zipfile.ZipFile(inputzip)
-        print(f"Extracting {inputzip} to {tempfolder}")
-        zfile.extractall()
-    os.chdir(currentfolder)
-    if not args:
-        # args = [o for o in os.listdir(tempfolder) if o != "freecad.zip"]
-        # do not treat all languages in the zip file. Some are not translated enough.
-        args = get_default_languages(updater)
-    lcodes = []
-    for ln in args:
-        if not os.path.exists(tempfolder + os.sep + ln):
-            print("ERROR: language path for " + ln + " not found!")
-        else:
-            lcodes.append(doLanguage(ln))
-    generate_locale_map_json(lcodes)
+        with tempfile.TemporaryDirectory() as tempfolder:
+            print(f"Extracting {inputzip} to {tempfolder}")
+            with zipfile.ZipFile(inputzip) as zfile:
+                zfile.extractall(tempfolder)
+            doLanguages(tempfolder, locales)
+
+if __name__ == "__main__":
+    main()
