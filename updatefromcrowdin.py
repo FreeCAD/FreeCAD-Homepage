@@ -73,12 +73,13 @@ xgettext --from-code=UTF-8 -o lang/homepage.po *.php
 
 from PySide6 import QtCore
 from functools import lru_cache
-from typing import List, Dict
+from typing import List
 from urllib.request import Request
 from urllib.request import urlopen
 import urllib.error
 
 import argparse
+import dataclasses
 import json
 import os
 import polib
@@ -92,22 +93,24 @@ try:
 except ImportError:
     from PIL import Image
 
-def poPath(lncode:str):
-    return os.path.abspath(os.path.join("lang", lncode.replace("-", "_"), "LC_MESSAGES", "homepage.po"))
+@dataclasses.dataclass
+class Language: id:str; locale:str; progress:int
+
+def poPath(lang:Language):
+    return os.path.abspath(os.path.join("lang", lang.id.replace("-", "_"), "LC_MESSAGES", "homepage.po"))
 
 def compilePo(popath:str):
-    print("compiling translation file: " + popath)
     pofile = polib.pofile(popath)
     if type(pofile) is not polib.POFile:
         print("Unable to load po-file")
         sys.exit()
     pofile.save_as_mofile(os.path.join(os.path.splitext(popath)[0] + ".mo"))
 
-def downloadFlag(lncode:str):
-    flagfile = os.path.abspath(os.path.join("lang", lncode, "flag.jpg"))
+def downloadFlag(lang:Language):
+    flagfile = os.path.abspath(os.path.join("lang", lang.id.replace('-', '_'), "flag.jpg"))
     if not os.path.exists(flagfile):
         print("image not found:", flagfile)
-        flagurl = "http://www.unilang.org/images/langicons/" + lncode.split("_")[0] + ".png"
+        flagurl = "http://www.unilang.org/images/langicons/" + lang.id.split("-")[0] + ".png"
         print("downloading flag from ", flagurl)
         try:
             with urlopen(flagurl) as f:
@@ -119,13 +122,12 @@ def downloadFlag(lncode:str):
         print("saving flag to ", flagfile)
         im.save(flagfile)
 
-def doLanguage(tempfolder:str, lncode:str):
+def doLanguage(tempfolder:str, lang:Language):
     " treats a single language"
 
-    basefilepath = os.path.join(tempfolder, lncode, "homepage.po")
-    lncode = lncode.replace("-", "_")
-    popath = poPath(lncode)
-    print("language:", lncode)
+    basefilepath = os.path.join(tempfolder, lang.id, "homepage.po")
+    popath = poPath(lang)
+    print("language:", lang.id)
     print("language file:", basefilepath)
     print("target path:", popath)
     if not os.path.exists(os.path.dirname(popath)):
@@ -133,23 +135,19 @@ def doLanguage(tempfolder:str, lncode:str):
         os.makedirs(os.path.dirname(popath), exist_ok=True)
     print("copying translation file")
     shutil.copyfile(basefilepath, popath)
+    print("compiling translation file: " + popath)
     compilePo(popath)
-    downloadFlag(lncode)
+    downloadFlag(lang)
 
 
-def generate_locale_map_json(lang_codes:List[str], output_file:str= "localeMap.json") -> Dict[str, str]:
+def generate_locale_map_json(languages:List[Language], output_file:str= "localeMap.json"):
     """
     Generate a JSON file mapping language codes to full locale names.
-
-    :param lang_codes: A list of locale codes (e.g., ["en", "de", "zh_CN"])
-    :param output_file: The filename where the JSON data will be saved
     """
-    locale_map = {}
+    locale_map:dict[str, str] = {}
 
-    for language_code in lang_codes:
-        if not language_code:
-            continue
-
+    for lang in languages:
+        language_code = lang.id.replace("-", "_")
         ql = QtCore.QLocale(language_code)
         language_name = ql.name()
         short_code = language_code.split("_")[0]
@@ -160,9 +158,6 @@ def generate_locale_map_json(lang_codes:List[str], output_file:str= "localeMap.j
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(locale_map, f, indent=2)
-
-    return locale_map
-
 
 class CrowdinUpdater:
     BASE_URL = "https://api.crowdin.com/api/v2"
@@ -196,8 +191,9 @@ class CrowdinUpdater:
         return self._make_api_req(url=url, *args, **kwargs)
 
     def languages(self):
-        response = self._make_project_api_req(f"/files/{self.homepage_id}/languages/progress?limit=100")
-        return [item["data"] for item in response]
+        languages = self._make_project_api_req(f"/files/{self.homepage_id}/languages/progress?limit=100")
+        return [Language(lang["languageId"], lang["language"]["locale"], lang["translationProgress"])
+                for lang in [lang["data"] for lang in languages]]
 
     def fetch_translation(self, language_id:str, path:str):
         params = {"targetLanguageId": language_id, "fileIds": [self.homepage_id]}
@@ -221,25 +217,21 @@ def get_default_languages(updater:CrowdinUpdater):
     homepage.po is translated to more than 50%"""
 
     print("retrieving list of languages...")
-    status = updater.languages()
-    status = sorted(status, key=lambda item: item["translationProgress"], reverse=True)
-    languages = [
-        item["languageId"] for item in status if item["translationProgress"] > 50
-    ]
-    print("languages above 50%:", languages)
+    languages = updater.languages()
+    languages = sorted(languages, key=lambda item: item.progress, reverse=True)
+    languages = list(filter(lambda x: x.progress > 50,  languages))
+    print("languages above 50%:", [lang.id for lang in languages])
     return languages
 
 
-def doLanguages(tempfolder:str, locales:list[str]):
-    # never treat "english" translation... For now :)
-    locales = [ln for ln in locales if ln != "en"]
-    exists = {ln: ln.replace("-", "_") for ln in locales if os.path.exists(os.path.join(tempfolder, ln))}
-    for ln in locales:
-        if ln not in exists:
-            print("ERROR: language path for " + ln + " not found!")
+def doLanguages(tempfolder:str, languages:list[Language]):
+    exists = {lang.id: lang for lang in languages if os.path.exists(os.path.join(tempfolder, lang.id))}
+    for lang in languages:
+        if lang.id not in exists:
+            print("ERROR: language path for " + lang.id + " not found!")
     generate_locale_map_json(list(exists.values()))
-    for ln in exists:
-        doLanguage(tempfolder, ln)
+    for lang in exists.values():
+        doLanguage(tempfolder, lang)
 
 
 def main():
@@ -262,25 +254,26 @@ def main():
 
     updater = CrowdinUpdater(token, project_identifier)
 
-    locales = args.locale or get_default_languages(updater)
+    languages = get_default_languages(updater)
+    if args.locale:
+        languages = list(filter(lambda x: x.id in args.locale or x.locale in args.locale, languages))
+    languages = list(filter(lambda x: x.id != "en", languages))
 
     if args.api:
         dirs = [f.name for f in os.scandir(os.path.abspath("lang")) if f.is_dir() and f.name != "en"]
-        written = set(lang.replace("-", "_") for lang in locales)
-        remove = [name for name in dirs if name != 'en' and not name in written] \
-                 if len(args.locale) == 0 and len(written) != 0 else []
+        languageIds = set(lang.id.replace("-", "_") for lang in languages)
+        remove = [name for name in dirs if name != "en" and not name in languageIds] \
+                 if len(args.locale) == 0 and len(languageIds) != 0 else []
         if remove:
             print(f"Will remove {remove}")
         try:
-            generate_locale_map_json(list(written))
-            for lang in locales:
-                if lang == 'en':
-                    continue
-                lncode = lang.replace("-", "_")
-                path = poPath(lncode)
-                updater.fetch_translation(lang, path)
+            generate_locale_map_json(languages)
+            for lang in languages:
+                print(f'Processing "{lang.id}"...')
+                path = poPath(lang)
+                updater.fetch_translation(lang.id, path)
                 compilePo(path)
-                downloadFlag(lncode)
+                downloadFlag(lang)
             for name in remove:
                 print(f"Removing {name}")
                 shutil.rmtree(os.path.abspath(os.path.join("lang", name)))
@@ -292,7 +285,7 @@ def main():
         if not os.path.exists(tempfolder):
             print("ERROR: " + tempfolder + " not found")
             sys.exit()
-        doLanguages(tempfolder, locales)
+        doLanguages(tempfolder, languages)
     elif args.zipfile:
         inputzip = os.path.realpath(args.zipfile)
         if not os.path.exists(inputzip):
@@ -302,7 +295,7 @@ def main():
             print(f"Extracting {inputzip} to {tempfolder}")
             with zipfile.ZipFile(inputzip) as zfile:
                 zfile.extractall(tempfolder)
-            doLanguages(tempfolder, locales)
+            doLanguages(tempfolder, languages)
 
 if __name__ == "__main__":
     main()
