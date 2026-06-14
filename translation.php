@@ -16,9 +16,11 @@ function loadLocaleMap($filePath)
     return $localeMap;
 }
 
+$localeMap = loadLocaleMap(__DIR__ . '/localeMap.json');
+
 function getFlags($href = '/')
 {
-    $localeMap = loadLocaleMap(__DIR__ . '/localeMap.json');
+    global $localeMap;
 
     // Default English entry
     echo('<a class="dropdown-item" href="' . $href . '">
@@ -34,10 +36,11 @@ function getFlags($href = '/')
     }
 }
 
-$lang = $_GET['lang'] ?? '';
-$lang = preg_match('@^[a-z]{2}(?:_[A-Z]{2})?$@', $lang) ? $lang : 'en';
-$localeMap = loadLocaleMap(__DIR__ . '/localeMap.json');
+$lang = $_GET['lang'] ?? "en";
+$localeMapFlip = array_flip($localeMap);
 $locale = $localeMap[$lang] ?? $lang;
+$lang = $localeMapFlip[$locale] ?? "en";
+if ($lang == "en") $locale = "en";
 putenv("LC_ALL=$locale");
 setlocale(LC_ALL, $locale);
 bindtextdomain("homepage", "lang");
@@ -47,5 +50,3 @@ bind_textdomain_codeset("homepage", 'UTF-8');
 $flagcode = $locale;
 $langStr    = "?lang=" . urlencode($lang);
 $langattrib = "&lang=" . urlencode($lang);
-
-?>

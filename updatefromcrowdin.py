@@ -71,6 +71,7 @@ xgettext --from-code=UTF-8 -o lang/homepage.po *.php
 
 '''
 
+from collections import Counter
 from functools import lru_cache
 from typing import List
 from urllib.request import Request
@@ -151,13 +152,19 @@ def generate_locale_map_json(languages:List[Language], output_file:str= "localeM
     """
     Generate a JSON file mapping language codes to full locale names.
     """
-    locale_map:dict[str, str] = {}
+    langCodeCount = Counter(lang.locale.split('_')[0] for lang in languages)
+    # Use empty string to indicate than none of the locales should be shorted to the lang code
+    alias = {'es': 'es_ES', 'pt':'pt_PT', 'zh': ''}
 
+    locale_map:dict[str, str] = {}
     for lang in languages:
-        short_code = lang.locale.split("_")[0]
-        if short_code in locale_map:
-            short_code = lang.locale
-        locale_map[short_code] = lang.locale
+        langCode = lang.locale.split("_")[0]
+        if langCodeCount[langCode] > 1 and langCode not in alias:
+            print(f'Multiple locales with language-code "{langCode}" exists.')
+            print(f'Manually add alias in "generate_locale_map_json" to disambiguate.')
+            exit()
+        key = langCode if alias.get(langCode) == lang.locale or langCodeCount[langCode] == 1 and not alias.get(langCode) else lang.locale
+        locale_map[key] = lang.locale
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(locale_map, f, indent=2)
