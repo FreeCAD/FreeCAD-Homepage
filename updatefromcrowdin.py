@@ -76,6 +76,7 @@ from functools import lru_cache
 from typing import List, Dict
 from urllib.request import Request
 from urllib.request import urlopen
+import urllib.error
 
 import argparse
 import json
@@ -91,30 +92,19 @@ try:
 except ImportError:
     from PIL import Image
 
+def poPath(lncode:str):
+    return os.path.abspath(os.path.join("lang", lncode.replace("-", "_"), "LC_MESSAGES", "homepage.po"))
 
-def doLanguage(tempfolder:str, lncode:str):
-    " treats a single language"
-
-    basefilepath = os.path.join(tempfolder, lncode, "homepage.po")
-    lncode = lncode.replace("-", "_")
-    langpath = os.path.join(os.path.abspath("lang"), lncode)
-    popath = os.path.join(langpath, "LC_MESSAGES")
-    flagfile = os.path.join(langpath, "flag.jpg")
-    print("language:", lncode)
-    print("language file:", basefilepath)
-    print("target path:", langpath)
-    if not os.path.exists(langpath):
-        print("creating folders")
-        os.mkdir(langpath)
-        os.mkdir(popath)
-    print("copying translation file")
-    shutil.copyfile(basefilepath, os.path.join(popath, "homepage.po"))
-    print("compiling translation file")
-    pofile = polib.pofile(os.path.join(popath, "homepage.po"))
+def compilePo(popath:str):
+    print("compiling translation file: " + popath)
+    pofile = polib.pofile(popath)
     if type(pofile) is not polib.POFile:
         print("Unable to load po-file")
         sys.exit()
-    pofile.save_as_mofile(os.path.join(popath, "homepage.mo"))
+    pofile.save_as_mofile(os.path.join(os.path.splitext(popath)[0] + ".mo"))
+
+def downloadFlag(lncode:str):
+    flagfile = os.path.abspath(os.path.join("lang", lncode, "flag.jpg"))
     if not os.path.exists(flagfile):
         print("image not found:", flagfile)
         flagurl = "http://www.unilang.org/images/langicons/" + lncode.split("_")[0] + ".png"
@@ -128,6 +118,23 @@ def doLanguage(tempfolder:str, lncode:str):
         im = im.convert("RGB")
         print("saving flag to ", flagfile)
         im.save(flagfile)
+
+def doLanguage(tempfolder:str, lncode:str):
+    " treats a single language"
+
+    basefilepath = os.path.join(tempfolder, lncode, "homepage.po")
+    lncode = lncode.replace("-", "_")
+    popath = poPath(lncode)
+    print("language:", lncode)
+    print("language file:", basefilepath)
+    print("target path:", popath)
+    if not os.path.exists(os.path.dirname(popath)):
+        print("creating folders")
+        os.makedirs(os.path.dirname(popath), exist_ok=True)
+    print("copying translation file")
+    shutil.copyfile(basefilepath, popath)
+    compilePo(popath)
+    downloadFlag(lncode)
 
 
 def generate_locale_map_json(lang_codes:List[str], output_file:str= "localeMap.json") -> Dict[str, str]:
@@ -159,10 +166,21 @@ def generate_locale_map_json(lang_codes:List[str], output_file:str= "localeMap.j
 
 class CrowdinUpdater:
     BASE_URL = "https://api.crowdin.com/api/v2"
+    homepage_id = 27908
 
     def __init__(self, token:str, project_identifier:str):
         self.token = token
         self.project_identifier = project_identifier
+
+    def _make_api_req(self, url, extra_headers=None, method="GET", data=None):
+        headers = {"Authorization": "Bearer " + self.token, **(extra_headers or {})}
+
+        if type(data) is dict:
+            headers["Content-Type"] = "application/json"
+            data = json.dumps(data).encode("utf-8")
+
+        request = Request(url, headers=headers, method=method, data=data)
+        return json.loads(urlopen(request).read())["data"]
 
     @lru_cache()
     def _get_project_id(self):
@@ -177,38 +195,16 @@ class CrowdinUpdater:
         url = f"{self.BASE_URL}/projects/{self._get_project_id()}{project_path}"
         return self._make_api_req(url=url, *args, **kwargs)
 
-    def _make_api_req(self, url, extra_headers=None, method="GET", data=None):
-        headers = {"Authorization": "Bearer " + self.token, **(extra_headers or {})}
-
-        if type(data) is dict:
-            headers["Content-Type"] = "application/json"
-            data = json.dumps(data).encode("utf-8")
-
-        request = Request(url, headers=headers, method=method, data=data)
-        return json.loads(urlopen(request).read())["data"]
-
-    def _get_files_info(self):
-        files = self._make_project_api_req("/files?limit=250")
-        return {f["data"]["path"].strip("/"): str(f["data"]["id"]) for f in files}
-
-    def _add_storage(self, filename, fp):
-        response = self._make_api_req(
-            f"{self.BASE_URL}/storages",
-            data=fp,
-            method="POST",
-            extra_headers={
-                "Crowdin-API-FileName": filename,
-                "Content-Type": "application/octet-stream",
-            },
-        )
-        return response["id"]
-
-    def status(self):
-
-        # {protocol}://{host}/api/v2/projects/{projectId}/files/{fileId}/languages/progress
-        # fileid = 27908
-        response = self._make_project_api_req("/files/27908/languages/progress?limit=100")
+    def languages(self):
+        response = self._make_project_api_req(f"/files/{self.homepage_id}/languages/progress?limit=100")
         return [item["data"] for item in response]
+
+    def fetch_translation(self, language_id:str, path:str):
+        params = {"targetLanguageId": language_id, "fileIds": [self.homepage_id]}
+        res = self._make_project_api_req("/translations/exports", method="POST", data=params)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with urlopen(res["url"], ) as f, open(path, 'wb') as fout:
+            shutil.copyfileobj(f, fout)
 
 
 def load_token():
@@ -220,12 +216,12 @@ def load_token():
     return None
 
 
-def get_default_languages(updater):
+def get_default_languages(updater:CrowdinUpdater):
     """Retrieve language codes from crowdin for which
     homepage.po is translated to more than 50%"""
 
     print("retrieving list of languages...")
-    status = updater.status()
+    status = updater.languages()
     status = sorted(status, key=lambda item: item["translationProgress"], reverse=True)
     languages = [
         item["languageId"] for item in status if item["translationProgress"] > 50
@@ -249,6 +245,7 @@ def doLanguages(tempfolder:str, locales:list[str]):
 def main():
     parser = argparse.ArgumentParser()
     group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("-a", "--api", action='store_true', help="Read translations from api")
     group.add_argument("-d", "--directory", help="Read translations files from this directory")
     group.add_argument("-z", "--zipfile", help="Read translations files from zip file")
     parser.add_argument("locale", nargs='*', help="Update only translations for these locales")
@@ -267,7 +264,30 @@ def main():
 
     locales = args.locale or get_default_languages(updater)
 
-    if args.directory:
+    if args.api:
+        dirs = [f.name for f in os.scandir(os.path.abspath("lang")) if f.is_dir() and f.name != "en"]
+        written = set(lang.replace("-", "_") for lang in locales)
+        remove = [name for name in dirs if name != 'en' and not name in written] \
+                 if len(args.locale) == 0 and len(written) != 0 else []
+        if remove:
+            print(f"Will remove {remove}")
+        try:
+            generate_locale_map_json(list(written))
+            for lang in locales:
+                if lang == 'en':
+                    continue
+                lncode = lang.replace("-", "_")
+                path = poPath(lncode)
+                updater.fetch_translation(lang, path)
+                compilePo(path)
+                downloadFlag(lncode)
+            for name in remove:
+                print(f"Removing {name}")
+                shutil.rmtree(os.path.abspath(os.path.join("lang", name)))
+        except urllib.error.HTTPError as ex:
+            print(ex)
+            print(ex.read())
+    elif args.directory:
         tempfolder = os.path.realpath(args.directory)
         if not os.path.exists(tempfolder):
             print("ERROR: " + tempfolder + " not found")
