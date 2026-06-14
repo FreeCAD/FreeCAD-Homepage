@@ -110,15 +110,18 @@ def downloadFlag(lang:Language):
     flagfile = os.path.abspath(os.path.join("lang", lang.id.replace('-', '_'), "flag.jpg"))
     if not os.path.exists(flagfile):
         print("image not found:", flagfile)
-        flagurl = "http://www.unilang.org/images/langicons/" + lang.id.split("-")[0] + ".png"
+        flagurl = "https://flagcdn.com/w40/" + lang.locale.split("_")[-1].lower() + ".png"
         print("downloading flag from ", flagurl)
         try:
             with urlopen(flagurl) as f:
                 im = Image.open(f)
-        except:
+        except Exception as ex:
+            print(ex)
             print("Unable to download image above. Please do it manually")
             sys.exit()
         im = im.convert("RGB")
+        w, h = im.size
+        im = im.resize((25, int(h * (25 / w))), Image.Resampling.LANCZOS)
         print("saving flag to ", flagfile)
         im.save(flagfile)
 
