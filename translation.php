@@ -28,13 +28,9 @@ function getFlags($href = '/')
         if ($shortCode === 'en') {
             continue;
         }
-        $localeObj = locale_get_display_language($locale, $locale);
-        if (!$localeObj) {
-            $localeObj = $locale; // fallback
-        }
-
+        $localeName = locale_get_display_language($locale, $locale) ?: $locale;
         echo('<a class="dropdown-item" href="' . $href . '?lang=' . $shortCode . '">
-                <img src="lang/' . $shortCode . '/flag.jpg" alt="" />' . _($localeObj) . '</a>');
+                <img src="lang/' . $locale . '/flag.jpg" alt="" />' . htmlentities($localeName) . '</a>');
     }
 }
 
@@ -48,13 +44,7 @@ bindtextdomain("homepage", "lang");
 textdomain("homepage");
 bind_textdomain_codeset("homepage", 'UTF-8');
 
-$flagcode = $lang;
-
-if (!file_exists('lang/'.$flagcode."/flag.jpg")) {
-    if (strpos($flagcode, '_') !== false) {
-        $flagcode = explode("_", $flagcode)[0];
-    }
-}
+$flagcode = $locale;
 $langStr    = "?lang=" . urlencode($lang);
 $langattrib = "&lang=" . urlencode($lang);
 

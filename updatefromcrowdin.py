@@ -71,7 +71,6 @@ xgettext --from-code=UTF-8 -o lang/homepage.po *.php
 
 '''
 
-from PySide6 import QtCore
 from functools import lru_cache
 from typing import List
 from urllib.request import Request
@@ -97,7 +96,7 @@ except ImportError:
 class Language: id:str; locale:str; progress:int
 
 def poPath(lang:Language):
-    return os.path.abspath(os.path.join("lang", lang.id.replace("-", "_"), "LC_MESSAGES", "homepage.po"))
+    return os.path.abspath(os.path.join("lang", lang.locale, "LC_MESSAGES", "homepage.po"))
 
 def compilePo(popath:str):
     pofile = polib.pofile(popath)
@@ -107,8 +106,13 @@ def compilePo(popath:str):
     pofile.save_as_mofile(os.path.join(os.path.splitext(popath)[0] + ".mo"))
 
 def downloadFlag(lang:Language):
-    flagfile = os.path.abspath(os.path.join("lang", lang.id.replace('-', '_'), "flag.jpg"))
+    flagfile = os.path.abspath(os.path.join("lang", lang.locale, "flag.jpg"))
     if not os.path.exists(flagfile):
+        flagfileOld = os.path.abspath(os.path.join("lang", lang.id.replace("-", "_"), "flag.jpg"))
+        if os.path.exists(flagfileOld):
+            print("copying old image:", flagfileOld)
+            shutil.copyfile(flagfileOld, flagfile)
+            return
         print("image not found:", flagfile)
         flagurl = "https://flagcdn.com/w40/" + lang.locale.split("_")[-1].lower() + ".png"
         print("downloading flag from ", flagurl)
@@ -150,14 +154,10 @@ def generate_locale_map_json(languages:List[Language], output_file:str= "localeM
     locale_map:dict[str, str] = {}
 
     for lang in languages:
-        language_code = lang.id.replace("-", "_")
-        ql = QtCore.QLocale(language_code)
-        language_name = ql.name()
-        short_code = language_code.split("_")[0]
+        short_code = lang.locale.split("_")[0]
         if short_code in locale_map:
-            short_code = language_name
-
-        locale_map[short_code] = language_name
+            short_code = lang.locale
+        locale_map[short_code] = lang.locale
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(locale_map, f, indent=2)
@@ -195,8 +195,10 @@ class CrowdinUpdater:
 
     def languages(self):
         languages = self._make_project_api_req(f"/files/{self.homepage_id}/languages/progress?limit=100")
-        return [Language(lang["languageId"], lang["language"]["locale"], lang["translationProgress"])
-                for lang in [lang["data"] for lang in languages]]
+        def fixLocale(s:str):
+            return {'sr-CS': 'sr-RS'}.get(s, s).replace("-", "_")
+        return [Language(lang["languageId"], fixLocale(lang["language"]["locale"]), lang["translationProgress"])
+                for lang in [lang["data"] for lang in languages] if lang["language"]["locale"] != "sr-SP"]
 
     def fetch_translation(self, language_id:str, path:str):
         params = {"targetLanguageId": language_id, "fileIds": [self.homepage_id]}
@@ -264,9 +266,9 @@ def main():
 
     if args.api:
         dirs = [f.name for f in os.scandir(os.path.abspath("lang")) if f.is_dir() and f.name != "en"]
-        languageIds = set(lang.id.replace("-", "_") for lang in languages)
-        remove = [name for name in dirs if name != "en" and not name in languageIds] \
-                 if len(args.locale) == 0 and len(languageIds) != 0 else []
+        languageLocales = set(lang.locale for lang in languages)
+        remove = [name for name in dirs if name != "en" and not name in languageLocales] \
+                 if len(args.locale) == 0 and len(languageLocales) != 0 else []
         if remove:
             print(f"Will remove {remove}")
         try:
