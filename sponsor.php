@@ -268,6 +268,7 @@ updateLatestCategoryFromFeed(
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
+              <div class="bronze sponsor">Ēriks Klaužs</div>
               <div class="bronze sponsor">Brandon K</div>
               <div class="bronze sponsor">Björn Jürgens</div>
               <div class="bronze sponsor">Daniel Davison</div>
