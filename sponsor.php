@@ -218,6 +218,7 @@ updateLatestCategoryFromFeed(
 
                 <div class="silver sponsor">
                     <a href="https://itworks.ag">itWorks AG</a>
+                     is a management and IT consulting firm focused on aligning technology with business strategy
                 </div>
 
                 <div class="silver sponsor">
@@ -267,6 +268,7 @@ updateLatestCategoryFromFeed(
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
+              <div class="bronze sponsor">Brandon K</div>
               <div class="bronze sponsor">Björn Jürgens</div>
               <div class="bronze sponsor">Daniel Davison</div>
               <div class="bronze sponsor">Custom Cut GmbH</div>
