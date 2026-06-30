@@ -7,6 +7,9 @@ include("header.php");
   .card{
     background-color: rgba(52, 58, 64, 0.5);
   }
+  .card h2{
+    font-size: 1.25rem;
+  }
   .addon-logo{
     max-width:64px;
     min-width:64px;
@@ -180,7 +183,7 @@ usort($sortedAddonsMap, function($a, $b){
 
 <main id="main" class="container-fluid">
   <div class="download-notes text-center">
-    <h2 class="features-title"><?php echo _('Addons'); ?></h2>
+    <h1 class="features-title"><?php echo _('Addons'); ?></h1>
   </div>
 
   <div class="row g-3 row-cols-1 row-cols-lg-2">
@@ -233,7 +236,7 @@ usort($sortedAddonsMap, function($a, $b){
                 </div>
               <?php endif; ?>
               <div class="flex-grow-1 min-w-0">
-                <h5 class="card-title" title="<?= esc($name) ?>"><?= esc($name) ?></h5>
+                <h2><?= esc($name) ?></h2>
                 <?php if ($maintainer): ?>
                   <div class="text-white-50 small"><?= esc(is_array($maintainer) ? ($maintainer[0] ?? '') : $maintainer) ?></div>
                 <?php endif; ?>
@@ -298,7 +301,7 @@ usort($sortedAddonsMap, function($a, $b){
   <div class="modal-dialog modal-xl">
     <div class="modal-content bg-dark">
       <div class="modal-header border-secondary">
-        <h1 class="modal-title fs-6 text-light" id="chartModalLabel"><?php echo _('Downloads'); ?></h1>
+        <h2 class="modal-title fs-6 text-light" id="chartModalLabel"><?php echo _('Downloads'); ?></h2>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
 

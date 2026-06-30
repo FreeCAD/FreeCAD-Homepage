@@ -54,14 +54,14 @@ updateLatestCategoryFromFeed(
     <main id="main" class="container-fluid">
 
         <div class="download-notes text-center">
-            <h2 class="downloads-notes-title"><?php echo _('Donating and sponsoring'); ?></h2>
+            <h1 class="downloads-notes-title"><?php echo _('Donating and sponsoring'); ?></h1>
         </div>
 
 
         <section class="row section d-flex justify-content-around">
 
           <div data-bs-toggle="modal" data-bs-target="#donateModal" class="col-lg-4">
-            <h3><?php echo _('Donating to FreeCAD'); ?></h3>
+            <h2><?php echo _('Donating to FreeCAD'); ?></h2>
           </div>
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround p-3">
@@ -114,7 +114,7 @@ updateLatestCategoryFromFeed(
 
         <section class="row section d-flex justify-content-around whitelinks">
           <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="200.00" class="col-lg-4">
-            <h3><?php echo _('Gold sponsors'); ?></h3>
+            <h2><?php echo _('Gold sponsors'); ?></h2>
           </div>
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
@@ -170,7 +170,7 @@ updateLatestCategoryFromFeed(
 
         <section class="row section d-flex justify-content-around whitelinks">
           <div class="col-lg-4">
-            <h3><?php echo _('Early sponsors'); ?></h3>
+            <h2><?php echo _('Early sponsors'); ?></h2>
           </div>
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
@@ -212,7 +212,7 @@ updateLatestCategoryFromFeed(
 
         <section class="row section d-flex justify-content-around whitelinks">
           <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="100.00" class="col-lg-4">
-            <h3><?php echo _('Silver sponsors'); ?></h3>
+            <h2><?php echo _('Silver sponsors'); ?></h2>
           </div>
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
@@ -263,7 +263,7 @@ updateLatestCategoryFromFeed(
 
         <section class="row section d-flex justify-content-around whitelinks">
           <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="25.00" class="col-lg-4">
-            <h3><?php echo _('Bronze sponsors'); ?></h3>
+            <h2><?php echo _('Bronze sponsors'); ?></h2>
           </div>
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
@@ -329,9 +329,9 @@ updateLatestCategoryFromFeed(
               </div>
           </div>
           <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-              <h3 id="grants-title" class="section-title mt-3 placeholder-glow">
+              <h2 id="grants-title" class="section-title mt-3 placeholder-glow">
                   <span class="placeholder col-6 bg-secondary"></span>
-              </h3>
+              </h2>
               <p id="grants-description" class="section-body placeholder-glow">
                   <span class="placeholder col-12 bg-secondary"></span>
                   <span class="placeholder col-8 bg-secondary"></span>

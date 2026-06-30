@@ -32,7 +32,7 @@
     <main id="main" class="container-fluid">
 
         <div class="download-notes text-center">
-            <h2 class="downloads-notes-title"><?php echo _('Thank you!'); ?></h2>
+            <h1 class="downloads-notes-title"><?php echo _('Thank you!'); ?></h1>
 
             <?php if ($isStripeDonation) { ?>
             <p>
@@ -52,7 +52,7 @@
 
 
           <div class="col-lg-4">
-            <h3><?php echo _('Support FreeCAD!'); ?></h3>
+            <h2><?php echo _('Support FreeCAD!'); ?></h2>
           </div>
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround p-3">
@@ -78,7 +78,7 @@
 
         <section class="row section d-flex justify-content-around">
           <div class="col-lg-4">
-            <h3><?php echo _('Need help?'); ?></h3>
+            <h2><?php echo _('Need help?'); ?></h2>
           </div>
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround p-3">
