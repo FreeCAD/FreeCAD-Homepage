@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 14:35-0500\n"
-"PO-Revision-Date: 2025-11-08 18:41\n"
+"POT-Creation-Date: 2025-12-23 08:01-0600\n"
+"PO-Revision-Date: 2026-07-13 18:26\n"
 "Last-Translator: \n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
@@ -166,6 +166,11 @@ msgstr "نشانی"
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
 msgstr ""
 
+#: donation.php:311
+#, php-format
+msgid "Paypal charges up to 35% fee for transactions under $5. For small donations we recommend using other methods."
+msgstr ""
+
 #: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
 msgstr ""
@@ -210,6 +215,10 @@ msgstr "حامی طلائی"
 msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
 msgstr ""
 
+#: donation.php:359
+msgid "The FPA's <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">donation rules</a> apply to all donations."
+msgstr ""
+
 #: donation.php:360
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
 msgstr ""
@@ -218,8 +227,8 @@ msgstr ""
 msgid "Choose freely the amount you wish to donate each month."
 msgstr ""
 
-#: donation.php:348
-msgid "Please inform your forum name or twitter handle as a notein your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
+#: donation.php:362
+msgid "Please inform your forum name or twitter handle as a note in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
 msgstr ""
 
 #: downloads.php:70
@@ -423,14 +432,14 @@ msgid "Assembly solutions for every need"
 msgstr "راهکار‌های سر هم کردن و اسمبل قطعات برای نیاز‌های گوناگون"
 
 #: features.php:147
-msgid "FreeCAD offers since long several great community-made add-on assembly\n"
+msgid "FreeCAD has long offered several great community-made add-on assembly\n"
 "                  workbenches that use different solvers and even solver-free workflows to assemble\n"
 "                  the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also\n"
 "                  included, based on the\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
 "                  This workbench allows to define 3D constraints between parts, assemble the\n"
 "                  different components of a model, and animate everything."
-msgstr "FreeCAD برای مدت طولانی چندین محیط‌ کار اسمبلی عالی که توسط جامعه ساخته شده‌اند را ارائه می‌دهد که از حل‌کننده‌های مختلف و حتی جریان‌های کاری بدون حل‌کننده برای مونتاژ قطعاتی که ایجاد می‌کنید استفاده می‌کنند. با FreeCAD ۱/۰، یک کارگاه مونتاژ جدید داخلی نیز ارائه شده است که مبتنی بر <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a> می‌باشد. این محیط کار امکان تعریف محدودیت‌های سه‌بعدی بین قطعات، مونتاژ اجزای مختلف یک مدل و انیمیشن‌سازی هر چیزی را فراهم می‌کند."
+msgstr ""
 
 #: features.php:170
 msgid "Also for architects"

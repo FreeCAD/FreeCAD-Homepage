@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 14:35-0500\n"
-"PO-Revision-Date: 2025-12-17 20:53\n"
+"POT-Creation-Date: 2025-12-23 08:01-0600\n"
+"PO-Revision-Date: 2026-07-13 18:26\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -52,7 +52,7 @@ msgstr "Daha fazlasını öğren"
 
 #: blog.php:263
 msgid "All Blogs"
-msgstr "Tüm Bloglar"
+msgstr "Tüm Bloklar"
 
 #: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
@@ -66,7 +66,7 @@ msgstr "Katkınız için teşekkür ederiz!"
 msgid "Thank you for supporting FreeCAD!\n"
 "            Whether you donated a little or a lot, all efforts contribute to\n"
 "            make FreeCAD development go further and faster."
-msgstr "FreeCAD’i desteklediğiniz için teşekkürler!\n"
+msgstr "FreeCAD'i desteklediğiniz için teşekkürler!\n"
 "\n"
 "İster az ister çok bağış yapın, tüm bağışlar FreeCAD’in\n"
 "\n"
@@ -79,7 +79,19 @@ msgid "If you have made a recurring donation above 25 USD/EUR\n"
 "            your name, company name or logo displayed on the FreeCAD website,\n"
 "            depending on the tier you fit in. If you have not yet informed us of\n"
 "            the name you wish to see displayed, please reach to us at"
-msgstr "Aylık düzenli olarak 25 USD/EUR üzerinde bağışta bulunduysanız (veya 300 USD/EUR üzerinde tek seferlik bir bağışta bulunduysanız) bronz, gümüş veya altın sponsor olmaya hak kazanırsınız ve FreeCAD web sitesinde görüntülenen ad, şirket adı veya logo, bulunduğunuz seviyeye bağlıdır. Görüntülenmesini istediğiniz ad veya logo hakkında bize henüz bir bilgi vermediyseniz lütfen şu adresten bize ulaşın"
+msgstr "Aylık düzenli olarak 25 USD/EUR üzerinde bağışta bulunduysanız\n"
+"\n"
+"            (veya 300 USD/EUR üzerinde tek seferlik bir bağış yaptıysanız),\n"
+"\n"
+"            bronz, gümüş veya altın sponsor olmaya hak kazanırsınız ve\n"
+"\n"
+"            bulunduğunuz seviyeye bağlı olarak adınızın, şirket adınızın veya\n"
+"\n"
+"            logonuzun FreeCAD web sitesinde görüntülenmesini sağlayabilirsiniz.\n"
+"\n"
+"            Görüntülenmesini istediğiniz adı henüz bize bildirmediyseniz\n"
+"\n"
+"            lütfen şu adresten bizimle iletişime geçin"
 
 #: contributor.php:29
 msgid "Thanks!"
@@ -170,6 +182,11 @@ msgstr "Adres"
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
 msgstr "Stripe aylık bağışları desteklemese de yine de sponsor olabilirsiniz! 12 aylık desteğe eşdeğer tek seferlik bir bağışta bulunarak ilgili sponsorluk kademesine erişim kazanabilirsiniz. Katkıda bulunmanın kolay ve esnek bir yoludur."
 
+#: donation.php:311
+#, php-format
+msgid "Paypal charges up to 35% fee for transactions under $5. For small donations we recommend using other methods."
+msgstr "PayPal, 5 doların altındaki işlemler için %35'e varan komisyon ücreti almaktadır. Küçük bağışlar için diğer ödeme yöntemlerini kullanmanızı öneririz."
+
 #: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
 msgstr "Düzenli bağışta bulunup bulunamayacağınızdan emin değilseniz veya bunu yapamıyorsanız, ancak yine de projeye yardımcı olmak istiyorsanız, herhangi bir miktarda tek seferlik bağışta bulunabilirsiniz."
@@ -214,6 +231,10 @@ msgstr "Altın Sponsor"
 msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
 msgstr "aylık 200 USD / 200 EUR'dan başlayan fiyatlarla. Bu sayfada adınız veya şirket adınız ve logonuz, web sitenize bağlantı ve özel bir açıklama metniyle birlikte gösterilecektir. FreeCAD'e erken dönemde destek veren şirketler de Altın sponsorlar arasında yer alacaktır."
 
+#: donation.php:359
+msgid "The FPA's <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">donation rules</a> apply to all donations."
+msgstr "FPA'nın <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">bağış kuralları</a> tüm bağışlar için geçerlidir."
+
 #: donation.php:360
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
 msgstr "Her ay bağış yapmak yerine, on ikiye bölündüğünde sponsorluk kademesine girme hakkı kazandıracak tek seferlik bir bağış yapmak daha rahat gelebilir. Bunu yapmaktan çekinmeyin!"
@@ -222,9 +243,9 @@ msgstr "Her ay bağış yapmak yerine, on ikiye bölündüğünde sponsorluk kad
 msgid "Choose freely the amount you wish to donate each month."
 msgstr "Her ay bağışlamak istediğiniz miktarı özgürce seçin."
 
-#: donation.php:348
-msgid "Please inform your forum name or twitter handle as a notein your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
-msgstr "Lütfen transferinizde forum adınızı veya twitter adresinizi not olarak belirtin veya <a href=mailto:fpa@freecad.org>bize ulaşın</a>, böylece size uygun kredileri verebilelim!"
+#: donation.php:362
+msgid "Please inform your forum name or twitter handle as a note in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
+msgstr "Lütfen transferinizde forum adınızı veya X adresinizi not olarak belirtin veya <a href=mailto:fpa@freecad.org>bize ulaşın</a>, böylece size uygun kredileri verebilelim!"
 
 #: downloads.php:70
 msgid "Current stable version:"
@@ -433,14 +454,14 @@ msgid "Assembly solutions for every need"
 msgstr "Her ihtiyaca uygun montaj çözümleri"
 
 #: features.php:147
-msgid "FreeCAD offers since long several great community-made add-on assembly\n"
+msgid "FreeCAD has long offered several great community-made add-on assembly\n"
 "                  workbenches that use different solvers and even solver-free workflows to assemble\n"
 "                  the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also\n"
 "                  included, based on the\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
 "                  This workbench allows to define 3D constraints between parts, assemble the\n"
 "                  different components of a model, and animate everything."
-msgstr "FreeCAD, uzun zamandan beri, oluşturduğunuz parçaları birleştirmek için farklı çözücüler ve hatta çözücü içermeyen iş akışları kullanan, topluluk yapımı harika eklenti montaj çalışma tezgahları sunmaktadır. FreeCAD 1.0'a, <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Çözücü</a>'yü temel alan yeni bir yerleşik montaj tezgahı da dahildir. Bu Workbench, parçalar arasındaki 3 boyutlu kısıtlamaları tanımlamanıza, bir modelin farklı bileşenlerini birleştirmenize ve her şeyi canlandırmanıza olanak tanır."
+msgstr "FreeCAD, uzun zamandır farklı çözücüler ve hatta çözücü gerektirmeyen iş akışları kullanarak oluşturduğunuz parçaları bir araya getiren, topluluk tarafından geliştirilmiş birçok harika eklenti montaj çalışma ortamı sunmaktadır. FreeCAD 1.0 ile birlikte, <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Çözücüsü</a> temel alınarak yeni bir yerleşik montaj çalışma ortamı da eklenmiştir. Bu çalışma ortamı, parçalar arasında 3B kısıtlamalar tanımlamanıza, bir modelin farklı bileşenlerini bir araya getirmenize ve her şeyi canlandırmanıza olanak tanır."
 
 #: features.php:170
 msgid "Also for architects"
@@ -466,8 +487,19 @@ msgid "While the FreeCAD core functionality is coded in C++ for robustness and p
 "                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line\n"
 "                  commands in the integrated Python console to recording macros, coding your own tools up to\n"
 "                  full custom workbenches."
-msgstr "FreeCAD ‘in işlevsel çekirdeği, sağlamlık ve performans için C++ ile kodlanmışken, dış katmanların, çalışma tezgahlarının ve çekirdek ile kullanıcı arabirimi arasındaki neredeyse tüm iletişimin büyük bir kısmı esnek, kullanıcı dostu, öğrenmesi kolay bir programlama dili olan \n"
-"<a href=\"https://python.org\">Python</a> ‘da kodlanmıştır. Python kodundan, tümleşik Python konsolundaki basit tek satırlık komutlardan makroları kaydetmeye,tam özel çalışma tezgahları için kendi araçlarınızı kodlamaya kadar <a href=\"https://wiki.freecad.org/Power_users_hub\">herhangi bir şeyi FreeCAD 'de</a> yapabilirsiniz."
+msgstr "FreeCAD’in çekirdek işlevselliği sağlamlık ve performans için C++ ile kodlanmışken,\n"
+"\n"
+"dış katmanların, çalışma tezgahlarının ve çekirdek ile kullanıcı arayüzü arasındaki neredeyse tüm iletişimin büyük kısmı\n"
+"\n"
+"esnek, kullanıcı dostu ve öğrenmesi kolay bir programlama dili olan <a href=https://python.org>Python</a> ile kodlanmıştır,\n"
+"\n"
+"esnek, kullanıcı dostu ve öğrenmesi kolay bir programlama dili olan Python’dur.\n"
+"\n"
+"Python kodu ile, entegre Python konsolundaki basit tek satırlık komutlardan makro kaydetmeye,\n"
+"\n"
+"kendi araçlarınızı kodlamaya ve tamamen özel çalışma tezgahları oluşturmaya kadar\n"
+"\n"
+"<a href=https://wiki.freecad.org/Power_users_hub>FreeCAD’de her şeyi</a> yapabilirsiniz."
 
 #: features.php:209
 msgid "File formats frenzy"
@@ -912,7 +944,7 @@ msgstr "...Ve diğer her şey için"
 
 #: index.php:157
 msgid "Whether you're prototyping, 3D printing, designing furniture, or learning CAD, FreeCAD offers the tools to support your creativity. With a strong community, extensive documentation, and a growing ecosystem of add-ons, it’s a great place to start - and to grow. No sign-up, no paywall, no restrictions. Just open-source freedom at your fingertips."
-msgstr "İster prototip hazırlama, ister 3B baskı, ister mobilya tasarımı, ister CAD öğrenme olsun, FreeCAD yaratıcılığınızı destekleyecek araçlar sunar. Güçlü bir topluluk, kapsamlı dokümantasyon ve büyüyen bir eklenti ekosistemiyle, başlamak ve büyümek için harika bir yerdir. Kayıt yok, ödeme duvarı yok, kısıtlama yok. Parmaklarınızın ucunda açık kaynaklı özgürlük."
+msgstr "İster prototip hazırlama yada 3B baskı, mobilya tasarımı, CAD öğrenme olsun, FREECAD yaratıcılığınızı destekleyen araçlar sunar. Güçlü topluluk, kapsamlı dokümantasyon, büyüyen bir eklenti sistemiyle, başlamak ve büyümek için harika bir yerdir. Kayıt yok, ödeme duvarı yok, kısıtlama yok. Açık kaynaklı özgürlük parmaklarınızın ucunda."
 
 #: index.php:163
 msgid "Modelled by epileftric"
@@ -1042,107 +1074,107 @@ msgstr "FPN, profesyonelleri şunun için bir araya getirir:"
 
 #: professional-network.php:54
 msgid "Advocate for features and improvements that matter most"
-msgstr ""
+msgstr "En önemli özellikler ve iyileştirmeler için savunuculuk yapın."
 
 #: professional-network.php:55
 msgid "Help set priorities for FreeCAD development"
-msgstr ""
+msgstr "FreeCAD geliştirme önceliklerini belirlemeye yardım"
 
 #: professional-network.php:56
 msgid "Provide domain expertise directly to maintainers and contributors"
-msgstr ""
+msgstr "Bakımcılar ve katkıda bulunanlara direkt uzmanlık desteği sağlayın"
 
 #: professional-network.php:57
 msgid "Organize real-world meetups and events"
-msgstr ""
+msgstr "Gerçek hayatta buluşma organize edin"
 
 #: professional-network.php:58
 msgid "Share knowledge, best practices, and support"
-msgstr ""
+msgstr "Bilgi, iyi uygulamalar ve destek paylaşın"
 
 #: professional-network.php:59
 msgid "Co-develop tools and solutions for the community"
-msgstr ""
+msgstr "Topluluk için araç ve çözümleri birlikte geliştirin"
 
 #: professional-network.php:62
 msgid "This is where professionals make their voice heard and pool their strengths to move FreeCAD forward."
-msgstr ""
+msgstr "Bu, profesyonellerin güçlerini birleştirek seslerini duyurduğu ve FreeCAD’i ileriye taşıdığı noktadır."
 
 #: professional-network.php:70
 msgid "Membership Tiers"
-msgstr ""
+msgstr "Üyelik Seviyeleri"
 
 #: professional-network.php:77
 msgid "Individual"
-msgstr ""
+msgstr "Bireysel"
 
 #: professional-network.php:80
 msgid "Access to professional network"
-msgstr ""
+msgstr "Profesyonel ağa erişim"
 
 #: professional-network.php:81
 msgid "Access to FPN private discord channel"
-msgstr ""
+msgstr "FPN özel discord kanalına erişim"
 
 #: professional-network.php:82
 msgid "Voting rights on FPN initiatives"
-msgstr ""
+msgstr "FPN girişimlerinde oy hakkı"
 
 #: professional-network.php:83
 msgid "Quarterly newsletter"
-msgstr ""
+msgstr "Üç aylık bülten"
 
 #: professional-network.php:86
 msgid "Join Individual"
-msgstr ""
+msgstr "Bireysel Üyeliğe Katıl"
 
 #: professional-network.php:96
 msgid "Organization"
-msgstr ""
+msgstr "Kurumsal"
 
 #: professional-network.php:99
 msgid "All individual membership benefits"
-msgstr ""
+msgstr "Tüm bireysel üyelik avantajları"
 
 #: professional-network.php:100
 msgid "Unlimited employee memberships included"
-msgstr ""
+msgstr "Sınırsız \"çalışan üyeliği\" dahildir"
 
 #: professional-network.php:101
 msgid "Logo recognition as FPN supporter"
-msgstr ""
+msgstr "FPN destekçisi olarak logo gösterimi"
 
 #: professional-network.php:104
 msgid "Join Organization"
-msgstr ""
+msgstr "Kurumsal Üyeliğe Katıl"
 
 #: professional-network.php:112
 msgid "Membership isn't just a fee—it's an investment in FreeCAD's future and in your own professional ecosystem."
-msgstr ""
+msgstr "Üyelik sadece bir ücret değildir—FreeCAD’in geleceğine ve kendi profesyonel sisteminize yapılan bir yatırımdır."
 
 #: professional-network.php:120
 msgid "Why Join?"
-msgstr ""
+msgstr "Katılmalı mısınız?"
 
 #: professional-network.php:121
 msgid "Because FreeCAD is already part of your professional life. Together, we can:"
-msgstr ""
+msgstr "Çünkü FreeCAD zaten profesyonel yaşamınızın bir parçası. Birlikte şunları yapabiliriz:"
 
 #: professional-network.php:123
 msgid "Influence its direction"
-msgstr ""
+msgstr "Gelişimini etkileyebiliriz"
 
 #: professional-network.php:124
 msgid "Create an ecosystem that is friendly to commercial interest"
-msgstr ""
+msgstr "Ticari çıkarlarla uyumlu bir ekonomik sistem oluşturabiliriz"
 
 #: professional-network.php:125
 msgid "Build stronger connections across industries"
-msgstr ""
+msgstr "Sektörler arasında daha güçlü bağlantılar kurabiliriz"
 
 #: professional-network.php:126
 msgid "Ensure FreeCAD continues to thrive as a tool you can rely on"
-msgstr ""
+msgstr "FreeCAD’in güvenebileceğiniz bir araç olarak gelişmeye devam etmesini sağlayabiliriz"
 
 #: sponsor.php:57
 msgid "Donating and sponsoring"
@@ -1371,7 +1403,7 @@ msgstr "https://wiki.freecad.org/Installing_on_Mac/tr"
 
 #: thankyou.php:123
 msgid "Installing FreeCAD on MacOS"
-msgstr "FreeCAD'i MacOS'a Yükleme"
+msgstr "MacOS FreeCAD yükleme"
 
 #: thankyou.php:124
 msgid "https://wiki.freecad.org/Installing_additional_components"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 14:35-0500\n"
-"PO-Revision-Date: 2025-12-08 00:19\n"
+"POT-Creation-Date: 2025-12-23 08:01-0600\n"
+"PO-Revision-Date: 2026-07-13 18:25\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -173,6 +173,11 @@ msgstr "Διεύθυνση"
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
 msgstr "Αν και το Stripe δεν υποστηρίζει μηνιαίες δωρεές, μπορείτε να γίνετε χορηγός! Απλώς κάντε μια εφάπαξ δωρεά που ισοδυναμεί με 12 μήνες υποστήριξης και θα αποκτήσετε πρόσβαση στο αντίστοιχο επίπεδο χορηγίας. Είναι ένας εύκολος και ευέλικτος τρόπος για να συνεισφέρετε."
 
+#: donation.php:311
+#, php-format
+msgid "Paypal charges up to 35% fee for transactions under $5. For small donations we recommend using other methods."
+msgstr "Χρεώσεις Paypal μέχρι 35% για συναλλαγές κάτω των $ 5. Για μικρές δωρεές σας συνιστούμε να χρησιμοποιήσετε άλλες μεθόδους."
+
 #: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
 msgstr "Αν δεν είστε σίγουροι ή δεν μπορείτε να δεσμευτείτε για μια τακτική δωρεά, αλλά εξακολουθείτε να θέλετε να βοηθήσετε το έργο, μπορείτε να κάνετε μια εφάπαξ δωρεά, οποιουδήποτε ποσού."
@@ -218,6 +223,10 @@ msgstr "Χρυσός χορηγός"
 msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
 msgstr "από 200 USD / 200 EUR ανά μήνα. Το όνομά σας ή το όνομα και το λογότυπο της εταιρείας σας εμφανίζονται σε αυτήν τη σελίδα, με έναν σύνδεσμο προς τον ιστότοπό σας και ένα προσαρμοσμένο κείμενο περιγραφής. Οι εταιρείες που έχουν βοηθήσει το FreeCAD από νωρίς εμφανίζονται στους Gold. (Χρυσοί) χορηγο'ι."
 
+#: donation.php:359
+msgid "The FPA's <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">donation rules</a> apply to all donations."
+msgstr "Οι κανόνες δωρεάς <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\"></a> της FPA ισχύουν για όλες τις δωρεές."
+
 #: donation.php:360
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
 msgstr "Αντί να κάνετε δωρεές κάθε μήνα, ίσως σας φανεί πιο άνετο να κάνετε μια εφάπαξ δωρεά η οποία, διαιρούμενη με το δώδεκα, θα σας έδινε το δικαίωμα να εισέλθετε σε μια βαθμίδα χορηγίας. Μην διστάσετε να το κάνετε!"
@@ -226,8 +235,8 @@ msgstr "Αντί να κάνετε δωρεές κάθε μήνα, ίσως σα
 msgid "Choose freely the amount you wish to donate each month."
 msgstr "Επιλέξτε ελεύθερα το ποσό που επιθυμείτε να δωρίζετε κάθε μήνα."
 
-#: donation.php:348
-msgid "Please inform your forum name or twitter handle as a notein your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
+#: donation.php:362
+msgid "Please inform your forum name or twitter handle as a note in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
 msgstr "Παρακαλούμε ενημερώστε μας για το όνομα του φόρουμ ή το λογαριασμό σας στο Twitter κατά τη μεταφορά σας ή <a href=mailto:fpa@freecad.org>επικοινωνήστε μαζί μας</a>, ώστε να σας δώσουμε τα απαραίτητα credits!"
 
 #: downloads.php:70
@@ -450,7 +459,7 @@ msgid "Assembly solutions for every need"
 msgstr "Λύσεις συναρμολόγησης για κάθε ανάγκη"
 
 #: features.php:147
-msgid "FreeCAD offers since long several great community-made add-on assembly\n"
+msgid "FreeCAD has long offered several great community-made add-on assembly\n"
 "                  workbenches that use different solvers and even solver-free workflows to assemble\n"
 "                  the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also\n"
 "                  included, based on the\n"
@@ -460,7 +469,7 @@ msgid "FreeCAD offers since long several great community-made add-on assembly\n"
 msgstr "Το FreeCAD προσφέρει εδώ και καιρό αρκετούς εξαιρετικούς πάγκους εργασίας\n\n"
 "                  συναρμολόγησης, κατασκευασμένους από την κοινότητα, που χρησιμοποιούν\n\n"
 "                  διαφορετικούς επιλυτές, ακόμη και ροές εργασίας χωρίς επιλυτές, για να\n\n"
-"                  συναρμολογήσουν τα μέρη που δημιουργείτε. Με το FreeCAD 1.0, περιλαμβάνεται\n"
+"                  συναρμολογήσουν τα μέρη που δημιουργείτε. Με το FreeCAD 1.0  περιλαμβάνεται\n"
 "\"\n"
 "                  επίσης ένας νέος ενσωματωμένος πάγκος εργασίας συναρμολόγησης, βασισμένος στον\n\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n\n"
@@ -1376,7 +1385,7 @@ msgstr "Έκδοση Python"
 
 #: telemetry.php:57
 msgid "Mods"
-msgstr ""
+msgstr "Πρόσθετα"
 
 #: telemetry.php:61
 msgid "Machine"

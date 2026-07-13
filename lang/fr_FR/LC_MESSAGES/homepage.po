@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 14:35-0500\n"
-"PO-Revision-Date: 2025-12-22 00:19\n"
+"POT-Creation-Date: 2025-12-23 08:01-0600\n"
+"PO-Revision-Date: 2026-07-13 18:25\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -167,6 +167,11 @@ msgstr "Adresse"
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
 msgstr "Bien que Stripe ne prenne pas en charge les dons mensuels, vous pouvez tout de même devenir sponsor ! Il vous suffit de faire un don unique équivalent à 12 mois de soutien pour accéder au niveau de parrainage correspondant. C'est un moyen simple et flexible de contribuer."
 
+#: donation.php:311
+#, php-format
+msgid "Paypal charges up to 35% fee for transactions under $5. For small donations we recommend using other methods."
+msgstr "Paypal facture jusqu'à 35 % de frais pour les transactions inférieures à 5 $. Pour les petits dons, nous vous recommandons d'utiliser d'autres méthodes."
+
 #: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
 msgstr "Si vous n'êtes pas sûr ou n'êtes pas en mesure de vous engager à faire un don régulier, mais que vous souhaitez tout de même aider le projet, vous pouvez faire un don unique, quel qu'en soit le montant."
@@ -211,6 +216,10 @@ msgstr "Parrain Gold"
 msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
 msgstr "À partir de 200 USD/200 EUR par mois. Votre nom ou le nom de votre entreprise et le logo affichés sur cette page, avec un lien vers votre site web et un texte de description personnalisé. Les entreprises qui ont aidé FreeCAD dès le début apparaissent également sous les parrains Gold."
 
+#: donation.php:359
+msgid "The FPA's <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">donation rules</a> apply to all donations."
+msgstr "Les <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">règles des donations de la FPA</a> s'appliquent à tous les dons."
+
 #: donation.php:360
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
 msgstr "Au lieu de faire un don chaque mois, vous trouverez peut-être plus pratique de faire un don unique qui, divisé par douze, vous donnerait droit à un niveau de parrain. N'hésitez pas à le faire !"
@@ -219,9 +228,9 @@ msgstr "Au lieu de faire un don chaque mois, vous trouverez peut-être plus prat
 msgid "Choose freely the amount you wish to donate each month."
 msgstr "Choisissez librement le montant que vous souhaitez faire un don chaque mois."
 
-#: donation.php:348
-msgid "Please inform your forum name or twitter handle as a notein your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
-msgstr "Veuillez indiquer votre nom d'utilisateur sur le forum ou votre pseudo X dans la note accompagnant votre transfert, ou <a href=mailto:fpa@freecad.org>contactez nous</a> pour que nous puissions vous attribuer les crédits appropriés !"
+#: donation.php:362
+msgid "Please inform your forum name or twitter handle as a note in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
+msgstr "Veuillez indiquer votre nom d'utilisateur sur le forum ou votre pseudo X dans la note accompagnant votre transfert, ou <a href=mailto:fpa@freecad.org>contactez-nous</a> pour que nous puissions vous attribuer les crédits appropriés !"
 
 #: downloads.php:70
 msgid "Current stable version:"
@@ -407,7 +416,7 @@ msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
 "              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
-msgstr "FreeCAD dispose d'un moteur géométrique avancé, basé sur la <a href=https://fr.wikipedia.org/wiki/Open_CASCADE_Technology>technologie d'Open CASCADE</a>. Il prend en charge les solides, les objets <a href=https://fr.wikipedia.org/wiki/B-Rep>B-Rep</a> (Boundary Representation), ainsi que les courbes et surfaces <a href=https://fr.wikipedia.org/wiki/NURBS>NURBS</a> (Non-uniform rational basis spline). Il offre une large gamme d'outils pour créer et modifier ces objets, notamment des <a href=https://fr.wikipedia.org/wiki/Op%C3%A9rations_bool%C3%A9ennes_sur_les_polygones>opérations booléennes</a> complexes, des <a href=https://fr.wikipedia.org/wiki/Arrondi_et_cong%C3%A9>congés</a>, le nettoyage des formes et bien <a href=https://wiki.freecad.org/OpenCASCADE/fr>plus encore</a>."
+msgstr "FreeCAD dispose d'un noyau géométrique avancé, basé sur la <a href=https://fr.wikipedia.org/wiki/Open_CASCADE_Technology>technologie d'Open CASCADE</a>. Il prend en charge les solides, les objets <a href=https://fr.wikipedia.org/wiki/B-Rep>B-Rep</a> (Boundary Representation), ainsi que les courbes et surfaces <a href=https://fr.wikipedia.org/wiki/NURBS>NURBS</a> (Non-uniform rational basis spline). Il offre une large gamme d'outils pour créer et modifier ces objets, notamment des <a href=https://fr.wikipedia.org/wiki/Op%C3%A9rations_bool%C3%A9ennes_sur_les_polygones>opérations booléennes</a> complexes, des <a href=https://fr.wikipedia.org/wiki/Arrondi_et_cong%C3%A9>congés</a>, le nettoyage des formes et bien <a href=https://wiki.freecad.org/OpenCASCADE/fr>plus encore</a>."
 
 #: features.php:119
 msgid "A wi(l)dly parametric environment"
@@ -420,21 +429,21 @@ msgid "All FreeCAD objects are natively parametric, meaning their shape can be b
 "                a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing\n"
 "                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are\n"
 "                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>."
-msgstr "Tous les objets FreeCAD sont nativement paramétriques, ce qui signifie que leurs formes peuvent être basées sur des <a href=\"https://wiki.freecadweb.org/Property/fr\" title=\"Property\">propriétés</a> telles que des valeurs numériques, des textes, des boutons on/off, ou même d'autres objets. Toutes les modifications de forme sont recalculées à la demande, enregistrées dans une pile d'annulation/reprise, ce qui permet de maintenir un historique de modélisation précis. Les propriétés d'un objet peuvent piloter la valeur des propriétés d'autres objets, autorisant des chaînes paramétriques complexes et personnalisées qui n'existant que dans vos rêves les plus fous. Les nouveaux objets paramétriques sont <a href=\"https://wiki.freecadweb.org/Scripted_objects/fr\">faciles à coder</a>."
+msgstr "Tous les objets FreeCAD sont nativement paramétriques : leurs formes peuvent être basées sur des <a href=\"https://wiki.freecadweb.org/Property/fr\" title=\"Property\">propriétés</a> telles que des valeurs numériques, des textes, des boutons on/off, ou d'autres objets. Toutes les modifications des formes sont recalculées à la demande, enregistrées dans une pile d'annulation/reprise, ce qui permet de maintenir un historique de modélisation précis. Les propriétés d'un objet peuvent piloter la valeur de propriétés d'autres objets, autorisant des chaînes paramétriques complexes et personnalisées. Les nouveaux objets paramétriques sont <a href=\"https://wiki.freecadweb.org/Scripted_objects/fr\">faciles à coder</a>."
 
 #: features.php:145
 msgid "Assembly solutions for every need"
 msgstr "Des assemblages pour tous les besoins"
 
 #: features.php:147
-msgid "FreeCAD offers since long several great community-made add-on assembly\n"
+msgid "FreeCAD has long offered several great community-made add-on assembly\n"
 "                  workbenches that use different solvers and even solver-free workflows to assemble\n"
 "                  the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also\n"
 "                  included, based on the\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
 "                  This workbench allows to define 3D constraints between parts, assemble the\n"
 "                  different components of a model, and animate everything."
-msgstr "FreeCAD propose depuis longtemps plusieurs excellentes extensions d'assemblage créés par la communauté. Ils utilisent différents solveurs et même des flux de travail sans solveur pour assembler les pièces que vous créez. Avec FreeCAD 1.0, un nouvel atelier d'assemblage intégré est inclus, basé sur le <a href=https://github.com/Ondsel-Development/OndselSolver>solveur d'Ondsel</a>. Cet atelier permet de définir des contraintes 3D entre les pièces, d'assembler les différents composants d'un modèle et d'animer le tout."
+msgstr "FreeCAD propose depuis longtemps plusieurs excellentes extensions pour l'assemblage créés par la communauté. Elles utilisent différents solveurs et même des flux de travail sans solveur pour assembler les pièces que vous créez. Avec FreeCAD 1.0, un nouvel atelier d'assemblage intégré est également inclus, basé sur le  <a href=https://github.com/Ondsel-Development/OndselSolver>solveur Ondsel</a>. Cet atelier permet de définir des contraintes 3D entre les pièces, d'assembler les différents composants d'un modèle et d'animer le tout."
 
 #: features.php:170
 msgid "Also for architects"
@@ -463,7 +472,7 @@ msgstr "Alors que les fonctions principales de FreeCAD sont codées en C++ pour 
 
 #: features.php:209
 msgid "File formats frenzy"
-msgstr "La frénésie des formats de fichiers"
+msgstr "Quantité de formats de fichiers"
 
 #: features.php:211
 msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
@@ -501,7 +510,7 @@ msgstr "FreeCAD dispose d'un <a href=https://wiki.freecad.org/Sketcher_Workbench
 
 #: features.php:262
 msgid "A large (and growing) multi-specialty ecosystem"
-msgstr "Un vaste écosystème multidisciplinaire (et croissant)"
+msgstr "Un écosystème pluridisciplinaire"
 
 #: features.php:264
 msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\">workbenches</a> for a variety of purposes\n"
@@ -861,7 +870,7 @@ msgstr "Modélisé par ppemawm"
 
 #: index.php:98
 msgid "Freedom to build what you want"
-msgstr "La liberté de construire ce que vous voulez"
+msgstr "Libre de construire ce que vous voulez"
 
 #: index.php:100
 msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
@@ -887,7 +896,7 @@ msgstr "FreeCAD vous permet de dessiner des formes 2D avec des contraintes géom
 
 #: index.php:135
 msgid "For professional design needs..."
-msgstr "Pour des besoins professionnels en matière de conception..."
+msgstr "Pour de la conception professionnelle..."
 
 #: index.php:137
 msgid "FreeCAD is a powerful and evolving open-source parametric 3D modeler, well-suited for many professional and technical tasks. With the release of version 1.0, it marks a new milestone in stability and usability. FreeCAD puts you in control - no licensing fees, no vendor lock-in. It's not just cost-effective - it’s yours to adapt and build upon."
@@ -1240,7 +1249,7 @@ msgstr "Modifications"
 
 #: telemetry.php:61
 msgid "Machine"
-msgstr "Machine"
+msgstr "Machine-outil"
 
 #: telemetry.php:65
 msgid "Default Workbench"

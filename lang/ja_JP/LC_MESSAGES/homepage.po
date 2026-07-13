@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 14:35-0500\n"
-"PO-Revision-Date: 2025-12-25 18:21\n"
+"POT-Creation-Date: 2025-12-23 08:01-0600\n"
+"PO-Revision-Date: 2026-07-13 18:25\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -166,6 +166,11 @@ msgstr "アドレス"
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
 msgstr "Stripeは毎月の寄付をサポートしていませんが、それでもスポンサーになることができます！　12ヶ月分の支援に相当する一度限りの寄付をするだけで、対応するスポンサー階層へのアクセスを獲得できます。貢献するための簡単で柔軟な方法です。"
 
+#: donation.php:311
+#, php-format
+msgid "Paypal charges up to 35% fee for transactions under $5. For small donations we recommend using other methods."
+msgstr "Paypalは 5 ドル未満の取引に最大 35 %の手数料を請求します。 少額の寄付については他の方法を使用することをお勧めします。"
+
 #: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
 msgstr "定期的な寄付を確約できず、それでもこのプロジェクトを支援したい場合には、どんな額でも一度限りの寄付が行なえます。"
@@ -210,6 +215,10 @@ msgstr "ゴールドスポンサー"
 msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
 msgstr "毎月 200 USD/EUR から。あなたの名前、またが会社名がこのページに掲載され、さらにあなたのウェブサイトへのリンクとお好きな説明文が掲載されます。また初期に FreeCAD を支援した会社はゴールド・スポンサーの下に表示されます"
 
+#: donation.php:359
+msgid "The FPA's <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">donation rules</a> apply to all donations."
+msgstr "FPA（FreeCAD プロジェクト協会）の<a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">寄付ルール</a>は全ての寄付に適用されます。"
+
 #: donation.php:360
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
 msgstr "一度だけ寄付するほうが気楽かもしれませんが、代わりにそれを12で割って毎月寄付すると、支援レベルを得る資格が得られます。ためらわずにそうしましょう！"
@@ -218,8 +227,8 @@ msgstr "一度だけ寄付するほうが気楽かもしれませんが、代わ
 msgid "Choose freely the amount you wish to donate each month."
 msgstr "毎月寄付したい金額を自由に選択してください。"
 
-#: donation.php:348
-msgid "Please inform your forum name or twitter handle as a notein your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
+#: donation.php:362
+msgid "Please inform your forum name or twitter handle as a note in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
 msgstr "フォーラムでのアカウント名、または Twitter のハンドル名を振込の通信欄でお知らせいただくか、<a href=mailto:fpa@freecad.org>直接ご連絡</a>ください。適切なクレジット表示をいたします！"
 
 #: downloads.php:70
@@ -423,7 +432,7 @@ msgid "Assembly solutions for every need"
 msgstr "あらゆるニーズに対応したアセンブリ・ソリューション"
 
 #: features.php:147
-msgid "FreeCAD offers since long several great community-made add-on assembly\n"
+msgid "FreeCAD has long offered several great community-made add-on assembly\n"
 "                  workbenches that use different solvers and even solver-free workflows to assemble\n"
 "                  the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also\n"
 "                  included, based on the\n"
@@ -1176,7 +1185,7 @@ msgid "There are several ways you can donate money and help\n"
 "              and core developers. The FPA will redistribute the money it gathers\n"
 "              to FreeCAD developers and sponsor itself several projects, efforts\n"
 "              and ideas to fuel the development of FreeCAD."
-msgstr "寄付をして FreeCAD プロジェクトを手助けする方法をいくつかあり、あなたの都合に応じて個人や会社、何らかの組織として行なえます。FreeCAD プロジェクトにに寄付された金銭は、FreeCAD の管理者とコア開発者によって設立された非営利団体 <a href=https://fpa.freecad.org>FreeCAD プロジェクト協会</a>（FPA）によって受領・管理されます。FPA は集めた金銭を FreeCAD 開発者と、FreeCAD 開発を前進させる努力やアイデア、プロジェクトのスポンサーへ再分配します。"
+msgstr "寄付をして FreeCAD プロジェクトを手助けする方法をいくつかあり、あなたの都合に応じて個人や会社、何らかの組織として行なえます。FreeCAD プロジェクトに寄付された金銭は、FreeCAD の管理者とコア開発者によって設立された非営利団体 <a href=https://fpa.freecad.org>FreeCAD プロジェクト協会</a>（FPA）によって受領・管理されます。FPA は集めた金銭を FreeCAD 開発者と、FreeCAD 開発を前進させる努力やアイデア、プロジェクトのスポンサーへ再分配します。"
 
 #: sponsor.php:102
 msgid "Remember, however: FreeCAD is free, and will always\n"

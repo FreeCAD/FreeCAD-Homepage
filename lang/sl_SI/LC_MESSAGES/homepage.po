@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 14:35-0500\n"
-"PO-Revision-Date: 2025-11-17 00:19\n"
+"POT-Creation-Date: 2025-12-23 08:01-0600\n"
+"PO-Revision-Date: 2026-07-13 18:25\n"
 "Last-Translator: \n"
 "Language-Team: Slovenian\n"
 "Language: sl_SI\n"
@@ -43,7 +43,7 @@ msgstr "Licenca:"
 
 #: addons.php:224
 msgid "Open repository"
-msgstr ""
+msgstr "Odpri skladišče"
 
 #: blog.php:57 downloads.php:230 events.php:99 features.php:281 index.php:211
 #: sponsor.php:306 telemetry.php:34
@@ -166,6 +166,11 @@ msgstr "Naslov"
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
 msgstr "Čeprav Stripe ne podpira mesečnih donacij, lahko kljub temu postanete sponzor! Preprosto naredite enkratno donacijo v višini 12 mesečnih prispevkov in pridobili boste pripadajoči sponzorski naziv. To je enostaven in fleksibilen način za prispevanje."
 
+#: donation.php:311
+#, php-format
+msgid "Paypal charges up to 35% fee for transactions under $5. For small donations we recommend using other methods."
+msgstr "Papal za transakcije pod 5 $ zaračuna do 35% provizije, zato za manjše darove priporočamo druge načine."
+
 #: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
 msgstr "Če niste prepričani ali pa se ne morete zavezati rednim donacijam, vendar želite kljub temu pomagati projektu, lahko naredite enkratno donacijo v poljubnem znesku."
@@ -210,6 +215,10 @@ msgstr "Zlati sponzor"
 msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
 msgstr "od 200 USD / 200 EUR na mesec. Na tej strani je prikazano vaše ime ali ime podjetja z logotipom, povezava do vaše spletne strani in podrobnejši opis. Podjetja, ki so FreeCAD-u pomagala že v začetku, so prav tako navedena med zlatimi sponzorji."
 
+#: donation.php:359
+msgid "The FPA's <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">donation rules</a> apply to all donations."
+msgstr "Za vse donacije veljajo FPA <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">pravila za donacije</a>."
+
 #: donation.php:360
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
 msgstr "Namesto mesečnih donacij vam bo morda bolj ustrezala enkratna donacija, ki vam bo, če jo razdelite na dvanajst delov, omogočila sponzorski naziv. Brez oklevanja lahko naredite tudi tako!"
@@ -218,9 +227,9 @@ msgstr "Namesto mesečnih donacij vam bo morda bolj ustrezala enkratna donacija,
 msgid "Choose freely the amount you wish to donate each month."
 msgstr "Izberite poljuben znesek, ki ga želite donirati vsak mesec."
 
-#: donation.php:348
-msgid "Please inform your forum name or twitter handle as a notein your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
-msgstr "Prosimo, sporočite nam svoje uporabniško ime na forumu ali Twitterju kot opombo pri nakazilu ali <a href=mailto:fpa@freecad.org>nas kontaktirajte</a>, da vam bomo lahko pripisali ustrezne zasluge!"
+#: donation.php:362
+msgid "Please inform your forum name or twitter handle as a note in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
+msgstr "Prosimo, navedite kot opombo pri nakazilu svoje forumsko ime ali twitterjev oprimek, lahko pa preko <a href=mailto:fpa@freecad.org>stopite v stik z nami</a>, da vam pripišemo zasluge!"
 
 #: downloads.php:70
 msgid "Current stable version:"
@@ -423,14 +432,20 @@ msgid "Assembly solutions for every need"
 msgstr "Sestav kot rešitev za vse zahteve"
 
 #: features.php:147
-msgid "FreeCAD offers since long several great community-made add-on assembly\n"
+msgid "FreeCAD has long offered several great community-made add-on assembly\n"
 "                  workbenches that use different solvers and even solver-free workflows to assemble\n"
 "                  the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also\n"
 "                  included, based on the\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
 "                  This workbench allows to define 3D constraints between parts, assemble the\n"
 "                  different components of a model, and animate everything."
-msgstr "Skupnost je za FreeCAD že dolgo nazaj ustvarila več odličnih dodatnih delovnih okolij za sestave, ki uporabljajo različne reševalnike in celo načine dela brez reševalnikov. FreeCAD 1.0 pa vključuje tudi novo vgrajeno delovno okolje za sestave, ki temelji na <a href=https://github.com/Ondsel-Development/OndselSolver>reševalniku Ondsel</a>. To delovno okolje omogoča določanje 3D omejitev med elementi, sestavljanje različnih komponent modela in animiranje vsega tega."
+msgstr "Skupnost je za FreeCAD že dolgo nazaj ustvarila več odličnih dodatnih\n"
+"                  delovnih okolij za sestave, ki uporabljajo različne reševalnike in celo načine dela\n"
+"                   brez reševalnikov. FreeCAD 1.0 pa vključuje tudi novo vgrajeno delovno okolje za sestave,\n"
+"            ki temelji na\n"
+"                 <a href=https://github.com/Ondsel-Development/OndselSolver>reševalniku Ondsel</a>.\n"
+"                 To delovno okolje omogoča določanje 3D omejitev med elementi, sestavljanje različnih\n"
+"                  sestavin modela in animiranje vsega tega."
 
 #: features.php:170
 msgid "Also for architects"
@@ -1099,7 +1114,7 @@ msgstr "Vključuje neomejeno članstvo zaposlenih"
 
 #: professional-network.php:101
 msgid "Logo recognition as FPN supporter"
-msgstr ""
+msgstr "Priznanje logotipa kot FPN podpornika"
 
 #: professional-network.php:104
 msgid "Join Organization"

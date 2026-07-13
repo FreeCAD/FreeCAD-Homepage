@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 14:35-0500\n"
-"PO-Revision-Date: 2025-12-08 00:19\n"
+"POT-Creation-Date: 2025-12-23 08:01-0600\n"
+"PO-Revision-Date: 2026-07-13 18:26\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
@@ -23,27 +23,27 @@ msgstr "Koti"
 
 #: 404.php:24 index.php:83
 msgid "See what's new"
-msgstr "Mitä uutta"
+msgstr "Katso mitä uutta"
 
 #: addons.php:140 header.php:139
 msgid "Addons"
-msgstr ""
+msgstr "Lisäosat"
 
 #: addons.php:200
 msgid "Version:"
-msgstr ""
+msgstr "Versio:"
 
 #: addons.php:213
 msgid "Last update:"
-msgstr ""
+msgstr "Viimeisin päivitys:"
 
 #: addons.php:217
 msgid "License:"
-msgstr ""
+msgstr "Lisenssi:"
 
 #: addons.php:224
 msgid "Open repository"
-msgstr ""
+msgstr "Avaa tietovarasto"
 
 #: blog.php:57 downloads.php:230 events.php:99 features.php:281 index.php:211
 #: sponsor.php:306 telemetry.php:34
@@ -52,11 +52,11 @@ msgstr "Lue lisää"
 
 #: blog.php:263
 msgid "All Blogs"
-msgstr "Kaikki Blogit"
+msgstr "Kaikki blogit"
 
 #: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
-msgstr "Tämä sivu on haettu"
+msgstr "Täältä on tämä sivu haettu"
 
 #: contributor.php:11
 msgid "Thank you for your contribution!"
@@ -92,7 +92,7 @@ msgstr "Lahjoita"
 
 #: donation.php:238
 msgid "One-Time"
-msgstr ""
+msgstr "Kerran"
 
 #: donation.php:240
 msgid "Monthly"
@@ -136,11 +136,11 @@ msgstr "GitHub"
 
 #: donation.php:267
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account."
-msgstr ""
+msgstr "OpenCollective toimii avoimen lähdekoodin projektien taloudellisena isäntänä. Voit lahjoittaa luottokortilla tai pankkitilillä."
 
 #: donation.php:267
 msgid "OpenCollective"
-msgstr ""
+msgstr "OpenCollective"
 
 #: donation.php:276
 msgid "SEPA Information"
@@ -148,11 +148,11 @@ msgstr "SEPA-tiedot"
 
 #: donation.php:282
 msgid "Please set up your SEPA bank transfer to"
-msgstr "Ole hyvä ja määritä SEPA-tilisiirto osoitteeseen"
+msgstr "Määritä SEPA-tilisiirto osoitteeseen"
 
 #: donation.php:285
 msgid "Beneficiary"
-msgstr ""
+msgstr "Edunsaaja"
 
 #: donation.php:297
 msgid "Bank agency"
@@ -164,7 +164,12 @@ msgstr "Osoite"
 
 #: donation.php:308
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
-msgstr ""
+msgstr "Vaikka Stripe ei tue kuukausittaisia ​​lahjoituksia, voit silti ryhtyä sponsoriksi! Tee vain kertaluonteinen lahjoitus, joka vastaa 12 kuukauden tukea, ja saat pääsyn vastaavaan sponsorointitasoon. Se on helppo ja joustava tapa osallistua."
+
+#: donation.php:311
+#, php-format
+msgid "Paypal charges up to 35% fee for transactions under $5. For small donations we recommend using other methods."
+msgstr "Paypal veloittaa jopa 35 prosentin osuuden alle 5 dollarin maksuista. Pienien lahjoitusten osalta suosittelemme muita tapoja."
 
 #: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
@@ -210,6 +215,10 @@ msgstr "Kultasponsori"
 msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
 msgstr "alkaen 200 USD / 200 EUR kuukaudessa. Nimesi tai yrityksesi nimi ja logo näkyvät tällä sivulla, linkillä verkkosivustollesi sekä räätälöidyllä esittelytekstillä. Yritykset, jotka ovat tukeneet FreeCADia jo varhaisessa vaiheessa, esitellään myös Kultasponsoreina."
 
+#: donation.php:359
+msgid "The FPA's <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">donation rules</a> apply to all donations."
+msgstr "FPA:n <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">lahjoitussäännöt</a> koskevat kaikkia lahjoituksia."
+
 #: donation.php:360
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
 msgstr "Jos et halua lahjoittaa kuukausittain, voit tehdä kertalahjoituksen, jonka suuruus vastaa sponsoritasoa vuositasolla. Tukesi on arvokasta – kiitos jo etukäteen!"
@@ -218,9 +227,9 @@ msgstr "Jos et halua lahjoittaa kuukausittain, voit tehdä kertalahjoituksen, jo
 msgid "Choose freely the amount you wish to donate each month."
 msgstr "Valitse vapaasti kuukausittaisen lahjoituksesi määrä."
 
-#: donation.php:348
-msgid "Please inform your forum name or twitter handle as a notein your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
-msgstr ""
+#: donation.php:362
+msgid "Please inform your forum name or twitter handle as a note in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
+msgstr "Ilmoita foorumi- tai Twitter-tunnuksesi siirtosi viestissä, tai <a href=mailto:fpa@freecad.org>ota meihin yhteyttä</a>, jotta voimme antaa sinulle asianmukaisen tunnustuksen!"
 
 #: downloads.php:70
 msgid "Current stable version:"
@@ -268,7 +277,7 @@ msgstr "https://wiki.freecad.org/Release_notes_1.0"
 
 #: downloads.php:149
 msgid "FreeCAD 1.0 release notes"
-msgstr "FreeCAD 1.0 julkaisutiedot"
+msgstr "FreeCAD 1.0 -julkaisutiedot"
 
 #: downloads.php:164
 msgid "Development versions"
@@ -276,7 +285,7 @@ msgstr "Kehitysversiot"
 
 #: downloads.php:166
 msgid "FreeCAD's development happens daily!"
-msgstr "FreeCADiä kehitetään joka päivä!"
+msgstr "FreeCADin kehitys tapahtuu päivittäin!"
 
 #: downloads.php:167
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
@@ -300,7 +309,7 @@ msgstr "Lataa tästä "
 
 #: downloads.php:172
 msgid "Weekly Build"
-msgstr "Viikottainen Koontiversio"
+msgstr "Viikottainen koontiversio"
 
 #: downloads.php:172
 msgid " for Windows, macOS or Linux. "
@@ -349,7 +358,7 @@ msgstr "Lähdekoodi"
 
 #: downloads.php:201
 msgid "The source code of FreeCAD is hosted primarily on "
-msgstr "FreeCAD-lähdekoodi on pääasiassa saatavilla "
+msgstr "FreeCADin lähdekoodi isännöidään pääasiassa "
 
 #: downloads.php:203
 msgid "and mirrored on "
@@ -423,14 +432,20 @@ msgid "Assembly solutions for every need"
 msgstr "Kokoonpanoratkaisut kaikkiin tarpeisiin"
 
 #: features.php:147
-msgid "FreeCAD offers since long several great community-made add-on assembly\n"
+msgid "FreeCAD has long offered several great community-made add-on assembly\n"
 "                  workbenches that use different solvers and even solver-free workflows to assemble\n"
 "                  the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also\n"
 "                  included, based on the\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
 "                  This workbench allows to define 3D constraints between parts, assemble the\n"
 "                  different components of a model, and animate everything."
-msgstr "FreeCAD on tarjonnut jo kauan monia hienoja yhteisön tekemiä lisäosa kokoonpano               työpöytiä, jotka käyttävät erilaisia ratkaisijoita ja jopa ratkaisijattonta työnkulkua      tekemiesi osien kokoonpanoa varten. FreeCAD 1.0:n myötä uusi sisäänrakennettu kokoonpano työpöytä sisältyy, joka pohjautuu <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solveriin</a>. Työpöytä mahdollistaa 3D rajojen määrittelemisen eri osien välillä, kokoonpanna mallin eri komponentteja ja animoida kaiken."
+msgstr "FreeCAD has long offered several great community-made add-on assembly\n"
+"                  workbenches that use different solvers and even solver-free workflows to assemble\n"
+"                  the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also\n"
+"                  included, based on the\n"
+"                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
+"                  This workbench allows to define 3D constraints between parts, assemble the\n"
+"                  different components of a model, and animate everything."
 
 #: features.php:170
 msgid "Also for architects"
@@ -793,7 +808,7 @@ msgstr "Miten voit auttaa"
 
 #: header.php:111
 msgid "Sponsor"
-msgstr ""
+msgstr "Sponsori"
 
 #: header.php:112
 msgid "Report a bug"
@@ -833,7 +848,7 @@ msgstr "Ohjesääntö"
 
 #: header.php:126
 msgid "Professional Network"
-msgstr ""
+msgstr "Ammatillinen verkko"
 
 #: header.php:127
 msgid "Forum"
@@ -891,7 +906,7 @@ msgstr "FreeCAD on tehokas ja jatkuvasti kehittyvä avoimen lähdekoodin paramet
 
 #: index.php:144
 msgid "Baked by Kris Wilk"
-msgstr ""
+msgstr "Kris Wilkin kastama"
 
 #: index.php:155
 msgid "...And for everything else"
@@ -970,163 +985,163 @@ msgstr "Osallistu"
 
 #: professional-network.php:14
 msgid "Join the community shaping the future of FreeCAD."
-msgstr ""
+msgstr "Liity yhteisöön, joka muokkaa FreeCADin tulevaisuutta."
 
 #: professional-network.php:23
 msgid "The FreeCAD Professional Network (FPN) is a voluntary association of professionals committed to strengthening the FreeCAD ecosystem for long-term growth and success."
-msgstr ""
+msgstr "FreeCAD Professional Network (FPN) on vapaaehtoinen ammattilaisten järjestö, joka on sitoutunut vahvistamaan FreeCAD-ekosysteemiä pitkän aikavälin kasvun ja menestyksen edistämiseksi."
 
 #: professional-network.php:26
 msgid "If FreeCAD is part of your livelihood—whether you design, teach, manufacture, research, or create content—the FPN is your place to connect, collaborate, and make an impact."
-msgstr ""
+msgstr "Jos FreeCAD on osa toimeentuloasi - olitpa suunnittelussa, opetuksessa, valmistuksessa, tutkimuksessa, tai luo sisältöä – FPN on paikkasi yhdistää, tehdä yhteistyötä ja tehdä vaikutusta."
 
 #: professional-network.php:34
 msgid "Who is a FreeCAD Professional?"
-msgstr ""
+msgstr "Kuka on FreeCAD ammattilainen?"
 
 #: professional-network.php:35
 msgid "Anyone with a commercial interest in FreeCAD:"
-msgstr ""
+msgstr "Jokainen, jolla on kaupallinen kiinnostus FreeCADia kohtaan:"
 
 #: professional-network.php:37
 msgid "Engineers, designers, and makers who use FreeCAD at work"
-msgstr ""
+msgstr "Insinöörit, suunnittelijat ja tekijät, jotka käyttävät FreeCADia työssään"
 
 #: professional-network.php:38
 msgid "Content creators, YouTubers, authors, and Patreon publishers"
-msgstr ""
+msgstr "Sisällön luojat, YouTubers, kirjoittajat ja Patreon julkaisijat"
 
 #: professional-network.php:39
 msgid "Educators and trainers in classrooms or workshops"
-msgstr ""
+msgstr "Opettajat ja kouluttajat luokkahuoneissa tai työpajoissa"
 
 #: professional-network.php:40
 msgid "Researchers exploring open CAD in academia"
-msgstr ""
+msgstr "Tutkijat, jotka tutkivat avointa CAD-ohjelmaa yliopistossa"
 
 #: professional-network.php:41
 msgid "Hardware manufacturers supporting CAD users"
-msgstr ""
+msgstr "CAD-käyttäjiä tukevat laitevalmistajat"
 
 #: professional-network.php:42
 msgid "Software developers and consultants working with FreeCAD and Addons"
-msgstr ""
+msgstr "Ohjelmistokehittäjät ja konsultit, jotka työskentelevät FreeCADin ja lisäosien parissa"
 
 #: professional-network.php:43
 msgid "Businesses building products and services on FreeCAD"
-msgstr ""
+msgstr "Yritykset, jotka rakentavat tuotteita ja palveluita FreeCADin avulla"
 
 #: professional-network.php:51
 msgid "What We Do"
-msgstr ""
+msgstr "Mitä teemme"
 
 #: professional-network.php:52
 msgid "The FPN brings professionals together to:"
-msgstr ""
+msgstr "FPN kokoaa ammattilaisia ​​yhteen seuraaviin tarkoituksiin:"
 
 #: professional-network.php:54
 msgid "Advocate for features and improvements that matter most"
-msgstr ""
+msgstr "Kannata tärkeimpiä ominaisuuksia ja parannuksia"
 
 #: professional-network.php:55
 msgid "Help set priorities for FreeCAD development"
-msgstr ""
+msgstr "Auta FreeCAD-kehityksen prioriteettien asettamisessa"
 
 #: professional-network.php:56
 msgid "Provide domain expertise directly to maintainers and contributors"
-msgstr ""
+msgstr "Tarjoaa verkkotunnusasiantuntemusta suoraan ylläpitäjille ja avustajille"
 
 #: professional-network.php:57
 msgid "Organize real-world meetups and events"
-msgstr ""
+msgstr "Järjestä tosielämän tapaamisia ja tapahtumia"
 
 #: professional-network.php:58
 msgid "Share knowledge, best practices, and support"
-msgstr ""
+msgstr "Tiedon jakaminen, parhaat käytännöt ja tuki"
 
 #: professional-network.php:59
 msgid "Co-develop tools and solutions for the community"
-msgstr ""
+msgstr "Yhteistyössä kehitetään työkaluja ja ratkaisuja yhteisöä varten"
 
 #: professional-network.php:62
 msgid "This is where professionals make their voice heard and pool their strengths to move FreeCAD forward."
-msgstr ""
+msgstr "Täällä ammattilaiset saavat äänensä kuuluviin ja yhdistävät vahvuutensa viedäkseen FreeCADia eteenpäin."
 
 #: professional-network.php:70
 msgid "Membership Tiers"
-msgstr ""
+msgstr "Jäsenyystasot"
 
 #: professional-network.php:77
 msgid "Individual"
-msgstr ""
+msgstr "Yksityishenkilö"
 
 #: professional-network.php:80
 msgid "Access to professional network"
-msgstr ""
+msgstr "Ammatillisen verkon käyttöoikeus"
 
 #: professional-network.php:81
 msgid "Access to FPN private discord channel"
-msgstr ""
+msgstr "Pääsy FPN yksityiseen discord-kanavaan"
 
 #: professional-network.php:82
 msgid "Voting rights on FPN initiatives"
-msgstr ""
+msgstr "Äänioikeus FPN-aloitteissa"
 
 #: professional-network.php:83
 msgid "Quarterly newsletter"
-msgstr ""
+msgstr "Neljännesvuosittainen uutiskirje"
 
 #: professional-network.php:86
 msgid "Join Individual"
-msgstr ""
+msgstr "Liity Yksilöön"
 
 #: professional-network.php:96
 msgid "Organization"
-msgstr ""
+msgstr "Organisaatio"
 
 #: professional-network.php:99
 msgid "All individual membership benefits"
-msgstr ""
+msgstr "Kaikki yksityishenkilöjäsenyyden edut"
 
 #: professional-network.php:100
 msgid "Unlimited employee memberships included"
-msgstr ""
+msgstr "Rajattomat työntekijäjäsenyydet sisältyvät"
 
 #: professional-network.php:101
 msgid "Logo recognition as FPN supporter"
-msgstr ""
+msgstr "Logon tunnustaminen FPN:n tukijana"
 
 #: professional-network.php:104
 msgid "Join Organization"
-msgstr ""
+msgstr "Liity organisaatioon"
 
 #: professional-network.php:112
 msgid "Membership isn't just a fee—it's an investment in FreeCAD's future and in your own professional ecosystem."
-msgstr ""
+msgstr "Jäsenyys ei ole pelkkä maksu – se on sijoitus FreeCADin tulevaisuuteen ja omaan ammatilliseen ekosysteemiisi."
 
 #: professional-network.php:120
 msgid "Why Join?"
-msgstr ""
+msgstr "Miksi liittyä?"
 
 #: professional-network.php:121
 msgid "Because FreeCAD is already part of your professional life. Together, we can:"
-msgstr ""
+msgstr "Koska FreeCAD on jo osa ammatillista elämääsi. Yhdessä, voimme:"
 
 #: professional-network.php:123
 msgid "Influence its direction"
-msgstr ""
+msgstr "Vaikuttaa sen suuntaan"
 
 #: professional-network.php:124
 msgid "Create an ecosystem that is friendly to commercial interest"
-msgstr ""
+msgstr "Luo ekosysteemi, joka on ystävällinen kaupalliselle edulle"
 
 #: professional-network.php:125
 msgid "Build stronger connections across industries"
-msgstr ""
+msgstr "Rakentaa vahvempia yhteyksiä eri toimialojen välillä"
 
 #: professional-network.php:126
 msgid "Ensure FreeCAD continues to thrive as a tool you can rely on"
-msgstr ""
+msgstr "Varmista, että FreeCAD jatkaa menestymistään työkaluna, johon voit luottaa"
 
 #: sponsor.php:57
 msgid "Donating and sponsoring"
@@ -1199,15 +1214,15 @@ msgstr "Pronssisponsorit"
 
 #: telemetry.php:18
 msgid "Telemetry Data"
-msgstr ""
+msgstr "Telemetriatiedot"
 
 #: telemetry.php:29
 msgid "Improve FreeCAD — Anonymously"
-msgstr ""
+msgstr "Paranna FreeCADiä – anonyymisti"
 
 #: telemetry.php:31
 msgid "Telemetry helps us understand how FreeCAD is used by collecting anonymous data about its environment and usage patterns. We've developed this GDPR-compliant add-on to improve FreeCAD based on real-world insights — completely anonymously and with full respect for your privacy. By enabling it, you’re helping make FreeCAD better for everyone."
-msgstr ""
+msgstr "Telemetria auttaa meitä ymmärtämään FreeCADin käyttöä keräämällä nimettömiä tietoja sen ympäristöstä ja käyttömalleista. Olemme kehittäneet tämän GDPR-yhteensopivan lisäosan parantaaksemme FreeCADia reaalimaailman näkemysten perusteella – täysin nimettömästi ja yksityisyyttäsi täysin kunnioittaen. Ottamalla sen käyttöön autat tekemään FreeCADista paremman kaikille."
 
 #: telemetry.php:33
 msgid "https://github.com/FreeCAD/FreeCAD-Telemetry"
@@ -1215,11 +1230,11 @@ msgstr ""
 
 #: telemetry.php:41
 msgid "FreeCAD Version"
-msgstr ""
+msgstr "FreeCAD:in versio"
 
 #: telemetry.php:45
 msgid "System"
-msgstr ""
+msgstr "Järjestelmä"
 
 #: telemetry.php:49
 msgid "Language"
@@ -1227,27 +1242,27 @@ msgstr "Kieli"
 
 #: telemetry.php:53
 msgid "Python Version"
-msgstr ""
+msgstr "Python-versio"
 
 #: telemetry.php:57
 msgid "Mods"
-msgstr ""
+msgstr "Lisäosat"
 
 #: telemetry.php:61
 msgid "Machine"
-msgstr ""
+msgstr "Kone"
 
 #: telemetry.php:65
 msgid "Default Workbench"
-msgstr ""
+msgstr "Oletustyöympäristö"
 
 #: telemetry.php:69
 msgid "Screen Resolution"
-msgstr ""
+msgstr "Näytön resoluutio"
 
 #: telemetry.php:73
 msgid "Toolbar Icon Size"
-msgstr ""
+msgstr "Työkalupalkin kuvakkeen koko"
 
 #: telemetry.php:77
 msgid "Theme"
@@ -1259,23 +1274,23 @@ msgstr "Navigointityyli"
 
 #: telemetry.php:85
 msgid "Navigation Orbit Style"
-msgstr ""
+msgstr "Navigointityyli"
 
 #: telemetry.php:89
 msgid "Workbench Enabled"
-msgstr ""
+msgstr "Työympäristö käytössä"
 
 #: telemetry.php:93
 msgid "Workbench Disabled"
-msgstr ""
+msgstr "Työympäristö poistettu käytöstä"
 
 #: telemetry.php:131
 msgid "Loading..."
-msgstr ""
+msgstr "Ladataan..."
 
 #: telemetry.php:205
 msgid "user"
-msgstr ""
+msgstr "käyttäjä"
 
 #: thankyou.php:60
 msgid "Thank you!"
@@ -1300,15 +1315,15 @@ msgstr "Tue FreeCAD:ia!"
 
 #: thankyou.php:80
 msgid "If you are happy with FreeCAD, and would like to support the project, why not make a donation to the project? Being open-source, FreeCAD will ALWAYS be free for anyone to use, and FreeCAD could survive without any donations, however with donations we can go further and faster together."
-msgstr ""
+msgstr "Jos olet tyytyväinen FreeCADiin ja haluat tukea projektia, mikset lahjoittaisi sille? Avoimen lähdekoodin ansiosta FreeCAD on AINA ilmainen kenen tahansa käytettävissä, ja FreeCAD voisi selvitä ilman lahjoituksiakin, mutta lahjoitusten avulla voimme yhdessä päästä pidemmälle ja nopeammin."
 
 #: thankyou.php:84
 msgid "If you would like to support, choose the amount and payment method of your choice below. If you are interested in supporting with a recurring donation, check the <a data-bs-toggle=\"modal\" data-bs-target=\"#donateModal\">donate page</a> to see more options."
-msgstr ""
+msgstr "Jos haluat tukea, valitse haluamasi summa ja maksutapa alta. Jos olet kiinnostunut tukemaan toistuvalla lahjoituksella, katso lisää vaihtoehtoja <a data-bs-toggle=\"modal\" data-bs-target=\"#donateModal\">lahjoitussivulta</a>."
 
 #: thankyou.php:88
 msgid "There are also many other ways to help FreeCAD. For example, you can write code, help with writing documentation, help translate the FreeCAD interface and documentation, help new users, etc. Everything you need to know to get involved is available over on this <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a> page."
-msgstr ""
+msgstr "FreeCADia voi auttaa myös monella muulla tavalla. Voit esimerkiksi kirjoittaa koodia, auttaa dokumentaation kirjoittamisessa, auttaa FreeCAD-käyttöliittymän ja -dokumentaation kääntämisessä, auttaa uusia käyttäjiä jne. Kaikki mitä sinun tarvitsee tietää osallistuaksesi, on saatavilla tältä <a href=https://wiki.freecad.org/Help_FreeCAD>Apua FreeCADille</a>-sivulta."
 
 #: thankyou.php:100
 msgid "Need help?"

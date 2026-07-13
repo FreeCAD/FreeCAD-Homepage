@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 14:35-0500\n"
-"PO-Revision-Date: 2025-12-17 20:53\n"
+"POT-Creation-Date: 2025-12-23 08:01-0600\n"
+"PO-Revision-Date: 2026-07-13 18:25\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -166,6 +166,11 @@ msgstr "Adress"
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
 msgstr "Då Stripe inte stöder månatliga donationer, kan du ändå bli sponsor! Gör helt enkelt en engångsdonation motsvarande 12 månaders stöd, så får du tillgång till motsvarande sponsornivå. Det är ett enkelt och flexibelt sätt att bidra."
 
+#: donation.php:311
+#, php-format
+msgid "Paypal charges up to 35% fee for transactions under $5. For small donations we recommend using other methods."
+msgstr "PayPal debiterar upp till 35% avgift för transaktioner under $5. För små donationer rekommenderar vi att du använder andra metoder."
+
 #: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
 msgstr "Om du inte är säker på eller inte kan åta dig att göra regelbundna donationer, men ändå vill stödja projektet, kan du göra en engångsdonation på valfritt belopp."
@@ -210,6 +215,10 @@ msgstr "Guldsponsor"
 msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
 msgstr "från 200 USD/200 EUR per månad. Ditt namn eller företagsnamn och logotyp visas på denna sida, med en länk till din webbplats och en anpassad beskrivningstext. Företag som har hjälpt FreeCAD i ett tidigt skede visas också under Guldsponsorer."
 
+#: donation.php:359
+msgid "The FPA's <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">donation rules</a> apply to all donations."
+msgstr "FPA:s <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">donationsregler</a> gäller för alla donationer."
+
 #: donation.php:360
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
 msgstr "Istället för att donera varje månad kanske du tycker att det är bekvämare att göra en engångsdonation som, när den delas med tolv, ger dig rätt att gå med i en sponsornivå. Tveka inte att göra det!"
@@ -218,9 +227,9 @@ msgstr "Istället för att donera varje månad kanske du tycker att det är bekv
 msgid "Choose freely the amount you wish to donate each month."
 msgstr "Välj fritt det belopp du vill donera varje månad."
 
-#: donation.php:348
-msgid "Please inform your forum name or twitter handle as a notein your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
-msgstr "Ange ditt forumnamn eller Twitter-användarnamn som en anteckning i din överföring, eller <a href=mailto:fpa@freecad.org>kontakta oss</a>, så att vi kan tacka dig på rätt sätt!"
+#: donation.php:362
+msgid "Please inform your forum name or twitter handle as a note in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
+msgstr "Ange ditt forumnamn eller twitter-alias som en notering i din överföring, eller <a href=mailto:fpa@freecad.org>kontakta oss</a>, så att vi kan tacka dig på rätt sätt!"
 
 #: downloads.php:70
 msgid "Current stable version:"
@@ -438,20 +447,20 @@ msgid "Assembly solutions for every need"
 msgstr "Monteringslösningar för alla behov"
 
 #: features.php:147
-msgid "FreeCAD offers since long several great community-made add-on assembly\n"
+msgid "FreeCAD has long offered several great community-made add-on assembly\n"
 "                  workbenches that use different solvers and even solver-free workflows to assemble\n"
 "                  the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also\n"
 "                  included, based on the\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
 "                  This workbench allows to define 3D constraints between parts, assemble the\n"
 "                  different components of a model, and animate everything."
-msgstr "FreeCAD erbjuder sedan länge flera fantastiska tilläggsverktyg för montering\n"
-" som skapats av användarna och som använder olika lösare och till och med lösningsfria arbetsflöden\n"
-" för att montera de delar du skapar. Med FreeCAD 1.0 ingår också\n"
-" en ny inbyggd monteringsarbetsbänk, baserad på\n"
-"                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
-"                  Denna arbetsbänk gör det möjligt att definiera 3D-begränsningar mellan delar, montera\n"
-"                  olika komponenter i en modell och animera allt."
+msgstr "FreeCAD har länge erbjudit flera fantastiska tilläggsverktyg för montering\n"
+" som skapats av användarna och som använder olika lösare och till och med\n"
+" lösningsfria arbetsflöden för att montera de delar du skapar. Med FreeCAD 1.0\n"
+" ingår också en ny inbyggd monteringsarbetsbänk, baserad på\n"
+" <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
+" Denna arbetsbänk gör det möjligt att definiera 3D-begränsningar mellan delar,\n"
+" montera olika komponenter i en modell och animera allt."
 
 #: features.php:170
 msgid "Also for architects"

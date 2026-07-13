@@ -1,0 +1,1565 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: freecad\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-23 08:01-0600\n"
+"PO-Revision-Date: 2026-07-13 18:25\n"
+"Last-Translator: \n"
+"Language-Team: Irish\n"
+"Language: ga_IE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
+"X-Crowdin-Project: freecad\n"
+"X-Crowdin-Project-ID: 286\n"
+"X-Crowdin-Language: ga-IE\n"
+"X-Crowdin-File: homepage.po\n"
+"X-Crowdin-File-ID: 27908\n"
+
+#: 404.php:23
+msgid "Home"
+msgstr "Baile"
+
+#: 404.php:24 index.php:83
+msgid "See what's new"
+msgstr "Féach cad atá nua"
+
+#: addons.php:140 header.php:139
+msgid "Addons"
+msgstr "Breiseáin"
+
+#: addons.php:200
+msgid "Version:"
+msgstr "Leagan:"
+
+#: addons.php:213
+msgid "Last update:"
+msgstr "Nuashonrú deireanach:"
+
+#: addons.php:217
+msgid "License:"
+msgstr "Ceadúnas:"
+
+#: addons.php:224
+msgid "Open repository"
+msgstr "Oscail an stórlann"
+
+#: blog.php:57 downloads.php:230 events.php:99 features.php:281 index.php:211
+#: sponsor.php:306 telemetry.php:34
+msgid "Learn more"
+msgstr "Foghlaim níos mó"
+
+#: blog.php:263
+msgid "All Blogs"
+msgstr "Gach Blag"
+
+#: codeofconduct.php:19 contributing.php:19 privacy.php:19
+msgid "This page is retrieved from"
+msgstr "Aisghabhtar an leathanach seo ó"
+
+#: contributor.php:11
+msgid "Thank you for your contribution!"
+msgstr "Go raibh maith agat as do ranníocaíocht!"
+
+#: contributor.php:15
+msgid "Thank you for supporting FreeCAD!\n"
+"            Whether you donated a little or a lot, all efforts contribute to\n"
+"            make FreeCAD development go further and faster."
+msgstr "Go raibh maith agat as tacú le FreeCAD!\n"
+"            Cibé acu a thug tú beagán nó mórán, cuidíonn gach iarracht le\n"
+"            forbairt FreeCAD a dhéanamh níos faide agus níos tapúla."
+
+#: contributor.php:20
+msgid "If you have made a recurring donation above 25 USD/EUR\n"
+"            per month (or a one-time donation above 300 USD/EUR), you are\n"
+"            eligible to become a bronze, silver or gold sponsor and can have\n"
+"            your name, company name or logo displayed on the FreeCAD website,\n"
+"            depending on the tier you fit in. If you have not yet informed us of\n"
+"            the name you wish to see displayed, please reach to us at"
+msgstr "Má rinne tú síntiús athfhillteach os cionn 25 USD/EUR\n"
+"            in aghaidh na míosa (nó síntiús aonuaire os cionn 300 USD/EUR), tá tú\n"
+"            incháilithe chun bheith i d’urraitheoir cré-umha, airgid nó óir agus is féidir leat\n"
+"            d’ainm, d’ainm cuideachta nó do lógó a thaispeáint ar shuíomh Gréasáin FreeCAD,\n"
+"            ag brath ar an leibhéal ina bhfuil tú. Mura bhfuil\n"
+"            an t-ainm is mian leat a fheiceáil á thaispeáint curtha in iúl agat fós, déan teagmháil linn ag"
+
+#: contributor.php:29
+msgid "Thanks!"
+msgstr "Go raibh maith agat!"
+
+#: contributor.php:32
+msgid "The FreeCAD project association"
+msgstr "Cumann tionscadail FreeCAD"
+
+#: donation.php:229 donation.php:269 header.php:144 sponsor.php:109
+#: thankyou.php:91
+msgid "Donate"
+msgstr "Tabhair Síntiús"
+
+#: donation.php:238
+msgid "One-Time"
+msgstr "Aonuaire"
+
+#: donation.php:240
+msgid "Monthly"
+msgstr "Míosúil"
+
+#: donation.php:262
+msgid "Please choose"
+msgstr "Roghnaigh le do thoil"
+
+#: donation.php:263
+msgid "Direct SEPA bank transfer using your own bank apps"
+msgstr "Aistriú bainc díreach SEPA ag baint úsáide as d’aipeanna bainc féin"
+
+#: donation.php:263
+msgid "SEPA bank transfer"
+msgstr "Aistriú bainc SEPA"
+
+#: donation.php:264
+msgid "Credit card payment via Stripe"
+msgstr "Íocaíocht le cárta creidmheasa trí Stripe"
+
+#: donation.php:264
+msgid "Credit card (Stripe)"
+msgstr "Cárta creidmheasa (Stripe)"
+
+#: donation.php:265
+msgid "Paypal allows to donate using your Paypal account, or a credit card"
+msgstr "Ceadaíonn Paypal síntiús a thabhairt trí do chuntas Paypal, nó cárta creidmheasa"
+
+#: donation.php:265
+msgid "Paypal"
+msgstr "Paypal"
+
+#: donation.php:266
+msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
+msgstr "Ligeann GitHub duit urraíocht a dhéanamh ar do thionscadail is fearr leat trí úsáid a bhaint as do chuntas GitHub agus cárta creidmheasa"
+
+#: donation.php:266
+msgid "GitHub"
+msgstr "GitHub"
+
+#: donation.php:267
+msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account."
+msgstr "Feidhmíonn OpenCollective mar óstach fioscach do thionscadail foinse oscailte. Is féidir leat síntiús a thabhairt le cárta creidmheasa nó cuntas bainc."
+
+#: donation.php:267
+msgid "OpenCollective"
+msgstr "OpenCollective"
+
+#: donation.php:276
+msgid "SEPA Information"
+msgstr "Faisnéis SEPA"
+
+#: donation.php:282
+msgid "Please set up your SEPA bank transfer to"
+msgstr "Socraigh d’aistriú bainc SEPA chuig"
+
+#: donation.php:285
+msgid "Beneficiary"
+msgstr "Tairbhí"
+
+#: donation.php:297
+msgid "Bank agency"
+msgstr "Gníomhaireacht bhainc"
+
+#: donation.php:301
+msgid "Address"
+msgstr "Seoladh"
+
+#: donation.php:308
+msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
+msgstr "Cé nach dtacaíonn Stripe le síntiúis mhíosúla, is féidir leat a bheith i d’urraitheoir fós! Déan síntiús aonuaire arb ionann é agus 12 mhí de thacaíocht, agus gheobhaidh tú rochtain ar an leibhéal urraíochta comhfhreagrach. Is bealach éasca agus solúbtha é chun ranníocaíocht a dhéanamh."
+
+#: donation.php:311
+#, php-format
+msgid "Paypal charges up to 35% fee for transactions under $5. For small donations we recommend using other methods."
+msgstr "Gearrann Paypal táille suas le 35% ar idirbhearta faoi $5. I gcás síntiúis bheaga molaimid modhanna eile a úsáid."
+
+#: donation.php:316
+msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
+msgstr "Mura bhfuil tú cinnte nó mura bhfuil tú in ann gealltanas a thabhairt síntiús rialta a thabhairt, ach más mian leat cabhrú leis an tionscadal fós, is féidir leat síntiús aonuaire a dhéanamh, d’aon mhéid."
+
+#: donation.php:317
+msgid "Choose freely the amount you wish to donate one time only."
+msgstr "Roghnaigh go saor an méid is mian leat a bhronnadh uair amháin."
+
+#: donation.php:320
+msgid "You can support FreeCAD by sponsoring it as an individual or organization through various platforms. Sponsorship provides a steady income for developers, allowing the FPA to plan ahead and enabling greater investment in FreeCAD. To encourage sponsorship, we offer different tiers, and unless you choose to remain anonymous, your name or company logo will be featured on our website accordingly."
+msgstr "Is féidir leat tacú le FreeCAD trína urrú mar dhuine aonair nó mar eagraíocht trí ardáin éagsúla. Soláthraíonn urraíocht ioncam seasta d’fhorbróirí, rud a ligeann don FPA pleanáil roimh ré agus a chuireann ar chumas infheistíocht níos mó i FreeCAD. Chun urraíocht a spreagadh, cuirimid sraitheanna éagsúla ar fáil, agus mura roghnaíonn tú fanacht gan ainm, beidh d’ainm nó lógó do chuideachta le feiceáil ar ár suíomh Gréasáin dá réir."
+
+#: donation.php:324
+msgid "Normal sponsor"
+msgstr "Urraitheoir gnáth"
+
+#: donation.php:328
+msgid "from 1 USD / 1 EUR per month. You will not have your name displayed here, but you will have helped the project a lot anyway. Together, normal sponsors maintain the project on its feet as much as the bigger sponsors."
+msgstr "ó 1 USD / 1 EUR in aghaidh na míosa. Ní bheidh d’ainm le feiceáil anseo, ach beidh tú tar éis cabhrú go mór leis an tionscadal ar aon nós. Le chéile, coinníonn urraitheoirí gnáth an tionscadal ar a chosa chomh maith leis na hurraitheoirí níos mó."
+
+#: donation.php:333
+msgid "Bronze sponsor"
+msgstr "Urraitheoir cré-umha"
+
+#: donation.php:337
+msgid "from 25 USD / 25 EUR per month. Your name or company name is displayed on this page."
+msgstr "ó 25 USD / 25 EUR in aghaidh na míosa. Taispeántar d’ainm nó ainm do chuideachta ar an leathanach seo."
+
+#: donation.php:342
+msgid "Silver sponsor"
+msgstr "Urraitheoir airgid"
+
+#: donation.php:346
+msgid "from 100 USD / 100 EUR per month. Your name or company name is displayed on this page, with a link to your website, and a one-line description text."
+msgstr "ó 100 USD / 100 EUR in aghaidh na míosa. Taispeántar d’ainm nó ainm na cuideachta ar an leathanach seo, mar aon le nasc chuig do shuíomh Gréasáin, agus téacs cur síos aonlíne amháin."
+
+#: donation.php:351
+msgid "Gold sponsor"
+msgstr "Urraitheoir óir"
+
+#: donation.php:355
+msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
+msgstr "ó 200 USD / 200 EUR in aghaidh na míosa. Taispeántar d'ainm nó ainm agus lógó na cuideachta ar an leathanach seo, mar aon le nasc chuig do shuíomh Gréasáin agus téacs cur síos saincheaptha. Feictear cuideachtaí a chuidigh le FreeCAD go luath faoi urraitheoirí Óir freisin."
+
+#: donation.php:359
+msgid "The FPA's <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">donation rules</a> apply to all donations."
+msgstr "Baineann <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">rialacha síntiús</a> an FPA le gach síntiús."
+
+#: donation.php:360
+msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
+msgstr "In ionad síntiús a thabhairt gach mí, b’fhéidir go mbeadh sé níos compordaí duit síntiús aonuaire a dhéanamh a thabharfadh, nuair a roinntear é ar a dó dhéag, an ceart duit dul isteach i leibhéal urraíochta. Ná bíodh leisce ort é sin a dhéanamh!"
+
+#: donation.php:361
+msgid "Choose freely the amount you wish to donate each month."
+msgstr "Roghnaigh go saor an méid is mian leat a bhronnadh gach mí."
+
+#: donation.php:362
+msgid "Please inform your forum name or twitter handle as a note in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
+msgstr "Cuir d’ainm fóraim nó d’ainm úsáideora Twitter in iúl mar nóta i d’aistriú, nó <a href=mailto:fpa@freecad.org>déan teagmháil linn</a>, ionas gur féidir linn na creidmheasanna cuí a thabhairt duit!"
+
+#: downloads.php:70
+msgid "Current stable version:"
+msgstr "Leagan cobhsaí reatha:"
+
+#: downloads.php:71
+msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
+msgstr "Roghnaigh an t-ardán atá uait (tabhair faoi deara go bhfuil na híoslódálacha uile le haghaidh córais 64-giotán):"
+
+#: downloads.php:92
+msgid "Windows 8 is the minimum supported version. For more info on installation, please check out the "
+msgstr "Is é Windows 8 an leagan íosta a dtacaítear leis. Le haghaidh tuilleadh eolais faoin suiteáil, féach ar an "
+
+#: downloads.php:93
+msgid "https://wiki.freecad.org/Install_on_Windows"
+msgstr "https://wiki.freecad.org/Install_on_Windows"
+
+#: downloads.php:93 downloads.php:114 downloads.php:135
+msgid "wiki"
+msgstr "vicí"
+
+#: downloads.php:113
+msgid "macOS 10.13 High Sierra is the minimum supported version. For more info on installation, please check out the "
+msgstr "Is é macOS 10.13 High Sierra an leagan is lú a dtacaítear leis. Le haghaidh tuilleadh eolais faoin suiteáil, féach ar an "
+
+#: downloads.php:114
+msgid "https://wiki.freecad.org/Install_on_Mac"
+msgstr "https://wiki.freecad.org/Install_on_Mac"
+
+#: downloads.php:134
+msgid "For distro-specific install instructions such as Ubuntu PPA and other ways to install on Linux please check out the "
+msgstr "Chun treoracha suiteála sonracha don dáileadh a fháil, amhail Ubuntu PPA agus bealaí eile chun é a shuiteáil ar Linux, féach ar an "
+
+#: downloads.php:135
+msgid "https://wiki.freecad.org/Install_on_Unix"
+msgstr "https://wiki.freecad.org/Install_on_Unix"
+
+#: downloads.php:148
+msgid "See what has changed since last version in the"
+msgstr "Féach cad atá athraithe ó an leagan deireanach sa"
+
+#: downloads.php:149 index.php:83
+msgid "https://wiki.freecad.org/Release_notes_1.0"
+msgstr "https://wiki.freecad.org/Release_notes_1.0"
+
+#: downloads.php:149
+msgid "FreeCAD 1.0 release notes"
+msgstr "Nótaí scaoilte FreeCAD 1.0"
+
+#: downloads.php:164
+msgid "Development versions"
+msgstr "Leaganacha forbartha"
+
+#: downloads.php:166
+msgid "FreeCAD's development happens daily!"
+msgstr "Tarlaíonn forbairt FreeCAD go laethúil!"
+
+#: downloads.php:167
+msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
+msgstr "Gineann pobal FreeCAD tógálacha seachtainiúla atá bunaithe ar chód FreeCAD <i>is déanaí</i> chun go mbeidh úsáideoirí in ann ceartúcháin fabht/aisiompuithe a thástáil mar aon le gnéithe nua."
+
+#: downloads.php:168
+msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
+msgstr "Iarraimid ar úsáideoirí ardleibhéil na tógálacha forbartha a rith ó am go ham chun cabhrú le cód nua a thástáil."
+
+#: downloads.php:169
+msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
+msgstr "Níl na tógálacha seo oiriúnach le húsáid i dtáirgeadh, agus ba chóir a bheith cúramach agus iad á n-úsáid (déan cúltaca de do chuid comhad go rialta, srl.)."
+
+#: downloads.php:170
+msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
+msgstr "Ba cheart a bheith ag súil go mbeidh tógálacha forbartha níos moille, go n-úsáidfidh siad níos mó cuimhne, agus nach mbeidh siad chomh cobhsaí leis na leaganacha oifigiúla scaoilte."
+
+#: downloads.php:172
+msgid "Download here a "
+msgstr "Íoslódáil anseo a "
+
+#: downloads.php:172
+msgid "Weekly Build"
+msgstr "Tógáil Sheachtainiúil"
+
+#: downloads.php:172
+msgid " for Windows, macOS or Linux. "
+msgstr " le haghaidh Windows, macOS nó Linux. "
+
+#: downloads.php:173
+msgid "On Linux"
+msgstr "Ar Linux"
+
+#: downloads.php:173
+msgid "https://wiki.freecad.org/Snap"
+msgstr "https://wiki.freecad.org/Snap"
+
+#: downloads.php:174 footer.php:35
+msgid "and"
+msgstr "agus"
+
+#: downloads.php:174
+msgid "https://wiki.freecad.org/Flatpak"
+msgstr "https://wiki.freecad.org/Flatpak"
+
+#: downloads.php:175
+msgid "also provide development channels"
+msgstr "bealaí forbartha a sholáthar freisin"
+
+#: downloads.php:185
+msgid "Additional modules and macros"
+msgstr "Modúil agus macraí breise"
+
+#: downloads.php:187
+msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
+"          now easily be installed directly from within FreeCAD using the "
+msgstr "Cuireann pobal FreeCAD réimse leathan modúl agus macraí breise ar fáil. Is féidir\n"
+"          iad a shuiteáil go héasca anois ó FreeCAD ag baint úsáide as an "
+
+#: downloads.php:189
+msgid "https://wiki.freecad.org/Std_AddonMgr"
+msgstr "https://wiki.freecad.org/Std_AddonMgr"
+
+#: downloads.php:189
+msgid "Addon manager."
+msgstr "Bainisteoir breiseán."
+
+#: downloads.php:199
+msgid "Source code"
+msgstr "Cód foinse"
+
+#: downloads.php:201
+msgid "The source code of FreeCAD is hosted primarily on "
+msgstr "Tá cód foinse FreeCAD á óstáil go príomha ar "
+
+#: downloads.php:203
+msgid "and mirrored on "
+msgstr "agus scáthánaithe air "
+
+#: downloads.php:206
+msgid "and "
+msgstr "agus "
+
+#: events.php:59
+msgid "FreeCAD events"
+msgstr "Imeachtaí FreeCAD"
+
+#: events.php:61
+msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
+msgstr "Taispeánann an féilire thíos dátaí cruinnithe FreeCAD agus imeachtaí pobail eile atá le teacht."
+
+#: events.php:79
+msgid "Subscribe to this calendar using this"
+msgstr "Liostáil leis an bhféilire seo ag baint úsáide as seo"
+
+#: events.php:79
+msgid "ICS link"
+msgstr "Nasc ICS"
+
+#: features.php:66
+msgid "Key FreeCAD Features"
+msgstr "Príomhghnéithe FreeCAD"
+
+#: features.php:77
+msgid "Made to build for the real world"
+msgstr "Déanta chun tógáil don saol mór"
+
+#: features.php:79
+msgid "FreeCAD is made primarily to design objects for the real world. Everything you do in FreeCAD uses real-world\n"
+"              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
+"              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
+"              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
+msgstr "Tá FreeCAD déanta go príomha chun rudaí a dhearadh don saol réadúil. Úsáideann gach rud a dhéanann tú i FreeCAD aonaid an tsaoil réadúil,\n"
+"              bíodh sé ina mhicróin, ina chiliméadair, ina n-orlach nó ina throigh, nó fiú aon teaglaim d'aonaid. Cuireann FreeCAD <a href=https://wiki.freecad.org/Workbenches>uirlisí</a> ar fáil chun samhlacha soladacha, lánchruinneas a tháirgeadh, a onnmhairiú agus a chur in eagar,\n"
+"              iad a onnmhairiú le haghaidh priontála 3D nó meaisínithe CNC, líníochtaí 2D agus radhairc de do mhúnlaí a chruthú,\n"
+"              anailísí a dhéanamh ar nós Anailísí Eilimintí Críochta, nó sonraí samhail a onnmhairiú ar nós cainníochtaí nó billí ábhar."
+
+#: features.php:97
+msgid "A powerful solid-based geometry kernel"
+msgstr "Croílár geoiméadrachta cumhachtach atá bunaithe ar sholad"
+
+#: features.php:99
+msgid "FreeCAD features an advanced geometry engine based on\n"
+"              <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>. It supports solids,\n"
+"              <a href=https://en.wikipedia.org/wiki/Boundary_representation>Boundary Representation</a> (BRep) objects, and\n"
+"              <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>Non-uniform rational basis spline</a> (NURBS)\n"
+"              curves and surfaces, and offers a wide range of tools to create and modify these objects, including complex\n"
+"              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
+"              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
+"              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
+msgstr "Tá inneall geoiméadrachta ardleibhéil ag FreeCAD atá bunaithe ar\n"
+"              <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Teicneolaíocht Oscailte CASCADE</a>. Tacaíonn sé le solaid, réada\n"
+"              <a href=https://en.wikipedia.org/wiki/Boundary_representation>Ionadaíocht Teorann</a> (BRep), agus cuartha agus dromchlaí\n"
+"              <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>Splíne bonn réasúnach neamh-aonfhoirmeach</a> (NURBS)\n"
+", agus cuireann sé réimse leathan uirlisí ar fáil chun na réada seo a chruthú agus a mhodhnú, lena n-áirítear oibríochtaí casta\n"
+"              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a>,\n"
+"              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>filléid</a>, glanadh cruthanna agus\n"
+"              <a href=https://wiki.freecad.org/OpenCASCADE>i bhfad níos mó</a>."
+
+#: features.php:119
+msgid "A wi(l)dly parametric environment"
+msgstr "Timpeallacht atá go forleathan paraiméadrach"
+
+#: features.php:121
+msgid "All FreeCAD objects are natively parametric, meaning their shape can be based on\n"
+"                <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">properties</a> such as numeric values, texts, on/off buttons,\n"
+"                or even other objects. All shape changes are recalculated on demand, recorded by an undo/redo stack, and allow to maintain\n"
+"                a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing\n"
+"                complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are\n"
+"                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>."
+msgstr "Tá gach réad FreeCAD paraiméadrach dúchasach, rud a chiallaíonn gur féidir a gcruth a bhunú ar\n"
+"               <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">airíonna</a> amhail luachanna uimhriúla, téacsanna,\n"
+"               cnaipí ar siúl/as,\n"
+"               nó fiú réada eile. Déantar gach athrú crutha a athríomh ar éileamh, a thaifeadadh le cruach cealaithe/athdhéanta, agus ligeann siad do stair shamhaltaithe chruinn a choinneáil. Is féidir le hairíonna réada amháin luach airíonna réad eile a thiomáint,\n"
+"               rud a ligeann do shlabhraí paraiméadracha casta, saincheaptha a bheith ann nach mbeadh ann ach i do bhrionglóidí is fiáine. Tá réada paraiméadracha nua\n"
+"               <a href=https://wiki.freecad.org/Scripted_objects>éasca le códú</a>."
+
+#: features.php:145
+msgid "Assembly solutions for every need"
+msgstr "Réitigh tionóil do gach riachtanas"
+
+#: features.php:147
+msgid "FreeCAD has long offered several great community-made add-on assembly\n"
+"                  workbenches that use different solvers and even solver-free workflows to assemble\n"
+"                  the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also\n"
+"                  included, based on the\n"
+"                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
+"                  This workbench allows to define 3D constraints between parts, assemble the\n"
+"                  different components of a model, and animate everything."
+msgstr "Tá roinnt binse oibre tionóil breiseán pobail iontacha á dtairiscint ag FreeCAD le fada an lá a úsáideann\n"
+"                   réiteoirí éagsúla agus fiú sreafaí oibre gan réiteoirí chun na codanna a chruthaíonn tú a chur le chéile.\n"
+"                   Le FreeCAD 1.0, tá binse oibre tionóil nua ionsuite san áireamh freisin,\n"
+"                   bunaithe ar an\n"
+"                   <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel\n"
+" Solver</a>.\n"
+"                   Ligeann an binse oibre seo srianta 3T a shainiú idir codanna, na\n"
+"                   comhpháirteanna éagsúla de shamhaltán a chur le chéile, agus gach rud a bheochan."
+
+#: features.php:170
+msgid "Also for architects"
+msgstr "Chomh maith le haghaidh ailtirí"
+
+#: features.php:172
+msgid "Until version 1.0, FreeCAD had a built-in Arch workbench and\n"
+"              an external BIM workbench added on top of that. With version 1.0, both of them have\n"
+"              merged and now we have a built-in BIM workbench. Now you can do your building and\n"
+"              construction related projects right out of the box."
+msgstr "Go dtí leagan 1.0, bhí binse oibre Arch ionsuite i FreeCAD agus\n"
+"              binse oibre seachtrach BIM curtha leis. Le leagan 1.0, tá an dá cheann\n"
+"              acu cumasctha agus anois tá binse oibre BIM ionsuite againn. Anois is féidir leat do\n"
+"              thionscadail tógála agus tógála a dhéanamh díreach as an mbosca."
+
+#: features.php:188
+msgid "Python everywhere"
+msgstr "Python i ngach áit"
+
+#: features.php:190
+msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance,\n"
+"                  large parts of the external layers,  workbenches and almost all the communication between\n"
+"                  the core and the user interface is coded in <a href=https://python.org>Python</a>,\n"
+"                  a flexible, user-friendly, easy to learn programming language. From Python code, you are able to\n"
+"                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line\n"
+"                  commands in the integrated Python console to recording macros, coding your own tools up to\n"
+"                  full custom workbenches."
+msgstr "Cé go bhfuil feidhmiúlacht lárnach FreeCAD códaithe i C++ ar mhaithe le stóinseacht agus feidhmíocht,\n"
+"                  tá codanna móra de na sraitheanna seachtracha, na binse oibre agus beagnach an chumarsáid go léir idir\n"
+"                  an croí agus an comhéadan úsáideora códaithe i <a href=https://python.org>Python</a>,\n"
+"                  teanga ríomhchlárúcháin sholúbtha, atá furasta a fhoghlaim agus atá furasta a fhoghlaim. Ó chód Python, is féidir leat <a href=https://wiki.freecad.org/Power_users_hub>rud ar bith a dhéanamh\n"
+"                  i FreeCAD</a>, ó orduithe simplí aonlíne\n"
+"                  sa chonsól Python comhtháite go macraí a thaifeadadh, do chuid uirlisí féin a chódú suas go dtí\n"
+"                  binse oibre saincheaptha iomlána."
+
+#: features.php:209
+msgid "File formats frenzy"
+msgstr "Fuadar formáidí comhaid"
+
+#: features.php:211
+msgid "FreeCAD allows you to import and export models and many other kinds of data from your models such as\n"
+"              analyses results or quantities data to dozens of different <a href=\"https://wiki.freecad.org/Category:File_Formats\">file formats</a> such as\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Wavefront_.obj_file\">OBJ</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> or\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OFF_(file_format)\">OFF</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
+"              and many more, in addition to FreeCAD&apos;s native\n"
+"              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
+"              file formats."
+msgstr "Le FreeCAD is féidir leat samhlacha agus go leor cineálacha eile sonraí a allmhairiú agus a onnmhairiú ó do mhúnlaí amhail anailísí,\n"
+"              torthaí nó sonraí cainníochtaí chuig mórán formáidí comhaid éagsúla ar nós <a href=\"https://wiki.freecad.org/Category:File_Formats\">STEP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">IGES</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Wavefront_.obj_file\">OBJ</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/STL_%28file_format%29\">STL</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/.dwg\">DWG</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Dxf\">DXF</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Svg\">SVG</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Shapefile\">SHP</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/COLLADA\">DAE</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Industry_Foundation_Classes\">IFC</a> nó\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OFF_(file_format)\">OFF</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/NASTRAN\">NASTRAN</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/VRML\">VRML</a>,\n"
+"              <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
+"              agus go leor eile, chomh maith le formáid comhaid dhúchasach FreeCAD\n"
+"              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a>. Is féidir le binse oibre breiseán formáidí comhaid breise\n"
+"              a chur leis freisin."
+
+#: features.php:242
+msgid "A parametric constraints-based 2D sketcher"
+msgstr "Sceitseálaí 2T bunaithe ar shrianta paraiméadracha"
+
+#: features.php:244
+msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
+"                  with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. Sketches are the main\n"
+"                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
+"                  objects throughout FreeCAD, be it either with the\n"
+"                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
+msgstr "Tá <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>\n"
+"                  den scoth i FreeCAD le réiteoir srianta comhtháite, rud a ligeann duit cruthanna 2T atá srianta ag geoiméadracht a sceitseáil. Is iad sceitsí\n"
+"                  príomhbhloc\n"
+"                  tógála FreeCAD, agus is féidir na cruthanna 2T srianta a thógtar leis a úsáid mar bhonn chun \n"
+"                  rudaí eile a thógáil ar fud FreeCAD, bíodh sé leis an <a href=https://wiki.freecad.org/PartDesign_Workbench>binse oibre Dearaidh Páirteanna</a> tiomnaithe nó le haon bhinse oibre eile."
+
+#: features.php:262
+msgid "A large (and growing) multi-specialty ecosystem"
+msgstr "Éiceachóras il-speisialtachta mór (agus atá ag fás)"
+
+#: features.php:264
+msgid "FreeCAD offers dedicated <a href=\"https://wiki.freecad.org/Workbenches\">workbenches</a> for a variety of purposes\n"
+"              such as\n"
+"              <a href=\"https://wiki.freecad.org/Part_Workbench\">CSG modeling</a>,\n"
+"              simple <a href=\"https://wiki.freecad.org/Draft_Workbench\">2D CAD drafting</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Surface_Module\">NURBS surfaces</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Arch_Module\">architectural or BIM modeling</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Path_Workbench\">3D printing, CAM and CNC</a>,\n"
+"              <a href=\"https://wiki.freecad.org/Points_Module\">point clouds</a>,\n"
+"              working with <a href=\"https://wiki.freecad.org/OpenSCAD_Module\">OpenSCAD files</a>,\n"
+"              designing <a href=\"https://wiki.freecad.org/Robot_Workbench\">industrial robot trajectories</a>,\n"
+"              doing <a href=\"https://wiki.freecad.org/FEM_Module\">Finite Element Analyses</a>,\n"
+"              and much more. FreeCAD also provides easy tools to install and manage\n"
+"              <a href=\"https://wiki.freecad.org/External_workbenches\">add-on workbenches</a> and\n"
+"              <a href=\"https://wiki.freecad.org/Macros_recipes\">macros</a> developed by the users\n"
+"              community."
+msgstr "Cuireann FreeCAD <a href=\"https://wiki.freecad.org/Workbenches\">binse oibre</a> tiomnaithe ar fáil le haghaidh réimse críocha\n"
+"                   amhail\n"
+"                   <a href=\"https://wiki.freecad.org/Part_Workbench\">samhalta CSG</a>,\n"
+"                   <a href=\"https://wiki.freecad.org/Draft_Workbench\">dréachtú CAD 2T simplí</a>,\n"
+"                   <a href=\"https://wiki.freecad.org/Surface_Module\">dromchlaí NURBS</a>,\n"
+"                   <a href=\"https://wiki.freecad.org/Arch_Module\">samhalta ailtireachta nó BIM</a>,\n"
+"                   <a href=\"https://wiki.freecad.org/Path_Workbench\">priontáil 3T, CAM agus CNC</a>,\n"
+"                   <a href=\"https://wiki.freecad.org/Points_Module\">scamall pointe</a>,\n"
+"                   oibriú le <a href=\"https://wiki.freecad.org/OpenSCAD_Module\">OpenSCAD comhaid</a>,\n"
+"                   dearadh <a href=\"https://wiki.freecad.org/Robot_Workbench\">conairí róbat tionsclaíocha</a>,\n"
+"                   déanamh <a href=\"https://wiki.freecad.org/FEM_Module\">Anailísí ar Eilimintí Críochta</a>,\n"
+"                   agus i bhfad níos mó. Soláthraíonn FreeCAD uirlisí éasca freisin chun\n"
+"                  <a href=\"https://wiki.freecad.org/External_workbenches\">binse oibre breise</a> agus\n"
+"                   <a href=\"https://wiki.freecad.org/Macros_recipes\">macra</a> arna bhforbairt ag\n"
+"                  pobal na n-úsáideoirí a shuiteáil agus a bhainistiú."
+
+#: features.php:280
+msgid "https://wiki.freecad.org/Feature_list"
+msgstr "https://wiki.freecad.org/Feature_list"
+
+#: features.php:294
+msgid "Developed by a community"
+msgstr "Forbartha ag pobal"
+
+#: features.php:296
+msgid "FreeCAD is made for everybody, by everybody. It is developed and maintained\n"
+"              by a community of developers, users, moderators, translators, all united by their wish make\n"
+"              FreeCAD a free and powerful tool. There is no commercial aim behind decisions being taken, no\n"
+"              urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or\n"
+"              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
+msgstr "Tá FreeCAD déanta do chách, ag cách. Forbraítear agus cothabháiltear é ag pobal forbróirí,\n"
+"                  úsáideoirí, modhnóirí, aistritheoirí, agus iad uile aontaithe ag a mianta, rud a fhágann gur uirlis shaor agus chumhachtach é \n"
+"                  FreeCAD. Níl aon aidhm tráchtála taobh thiar de chinntí atá á ndéanamh, níl aon á\n"
+"                  teamh ann go n-uasghrádófá do leagan de FreeCAD nó go gcuirfí i bhfeidhm sreabha oibre nó\n"
+"                  éiceachóras ar leith thú. Is leatsa FreeCAD agus na comhaid agus na sonraí a tháirgeann tú le FreeCAD go deo."
+
+#: features.php:309
+msgid "Release notes"
+msgstr "Nótaí scaoilte"
+
+#: features.php:319
+msgid "Find here the release notes for current and previous FreeCAD versions.\n"
+"                  Release notes describe what&apos;s new in each release:"
+msgstr "Gheobhaidh tú anseo na nótaí scaoilte do leaganacha reatha agus roimhe seo de FreeCAD.\n"
+"                  Déanann na nótaí scaoilte cur síos ar a bhfuil nua i ngach scaoileadh:"
+
+#: features.php:326
+msgid "https://wiki.freecad.org/Release_notes_1.0\" title=\"Release notes 1.0"
+msgstr "https://wiki.freecad.org/Release_notes_1.0\" title=\"Release notes 1.0"
+
+#: features.php:326
+msgid "Release 1.0 - November 2024"
+msgstr "Scaoileadh 1.0 - Samhain 2024"
+
+#: features.php:326
+msgid "current stable release"
+msgstr "scaoileadh cobhsaí reatha"
+
+#: features.php:327
+msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Nótaí Eisiúna 0.21"
+
+#: features.php:327
+msgid "Release 0.21 - August 2023"
+msgstr "Scaoileadh 0.21 - Lúnasa 2023"
+
+#: features.php:328
+msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
+msgstr "https://wiki.freecad.org/Release_notes_0.20\" title=\"Nótaí Eisiúna 0.20"
+
+#: features.php:328
+msgid "Release 0.20 - June 2022"
+msgstr "Scaoileadh 0.20 - Meitheamh 2022"
+
+#: features.php:329
+msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
+msgstr "https://wiki.freecad.org/Release_notes_0.19\" title=\"Nótaí Eisiúna 0.19"
+
+#: features.php:329
+msgid "Release 0.19 - March 2021"
+msgstr "Scaoileadh 0.19 - Márta 2021"
+
+#: features.php:330
+msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
+msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"Nótaí Eisiúna 0.18"
+
+#: features.php:330
+msgid "Release 0.18 - March 2019"
+msgstr "Scaoileadh 0.18 - Márta 2019"
+
+#: features.php:331
+msgid "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
+msgstr "https://wiki.freecad.org/Release_notes_0.17\" title=\"Nótaí Eisiúna 0.17"
+
+#: features.php:331
+msgid "Release 0.17 - April 2018"
+msgstr "Scaoileadh 0.17 - Aibreán 2018"
+
+#: features.php:332
+msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
+msgstr "https://wiki.freecad.org/Release_notes_0.16\" title=\"Nótaí Eisiúna 0.16"
+
+#: features.php:332
+msgid "Release 0.16 - April 2016"
+msgstr "Scaoileadh 0.16 - Aibreán 2016"
+
+#: features.php:333
+msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
+msgstr "https://wiki.freecad.org/Release_notes_0.15\" title=\"Nótaí Eisiúna 0.15"
+
+#: features.php:333
+msgid "Release 0.15 - March 2015"
+msgstr "Scaoileadh 0.15 - Márta 2015"
+
+#: features.php:334
+msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
+msgstr "https://wiki.freecad.org/Release_notes_0.14\" title=\"Nótaí Eisiúna 0.14"
+
+#: features.php:334
+msgid "Release 0.14 - March 2014"
+msgstr "Scaoileadh 0.14 - Márta 2014"
+
+#: features.php:335
+msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
+msgstr "https://wiki.freecad.org/Release_notes_013\" title=\"Nótaí Eisiúna 013"
+
+#: features.php:335
+msgid "Release 0.13 - January 2013"
+msgstr "Scaoileadh 0.13 - Eanáir 2013"
+
+#: features.php:336
+msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
+msgstr "https://wiki.freecad.org/Release_notes_012\" title=\"Nótaí Eisiúna 012"
+
+#: features.php:336
+msgid "Release 0.12 - December 2011"
+msgstr "Scaoileadh 0.12 - Nollaig 2011"
+
+#: features.php:337
+msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
+msgstr "https://wiki.freecad.org/Release_notes_011\" title=\"Nótaí Eisiúna 011"
+
+#: features.php:337
+msgid "Release 0.11 - March 2011"
+msgstr "Scaoileadh 0.11 - Márta 2011"
+
+#: features.php:348
+msgid "Follow the official FreeCAD channels for fresh news:"
+msgstr "Lean na bealaí oifigiúla FreeCAD le haghaidh nuachta úra:"
+
+#: features.php:354
+msgid "Official blog"
+msgstr "Blag oifigiúil"
+
+#: features.php:355
+msgid "Twitter account"
+msgstr "Cuntas Twitter"
+
+#: footer.php:9
+msgid "Get in touch!"
+msgstr "Téigh i dteagmháil!"
+
+#: footer.php:24
+msgid "© The FreeCAD Team."
+msgstr "© Foireann FreeCAD."
+
+#: footer.php:27
+msgid "This project is supported by:"
+msgstr "Tá tacaíocht á fáil ag an tionscadal seo ó:"
+
+#: footer.php:36
+msgid "other sponsors"
+msgstr "urraitheoirí eile"
+
+#: footer.php:40
+msgid "Improve this\n"
+"      page on GitHub"
+msgstr "Feabhsaigh an leathanach\n"
+"      seo ar GitHub"
+
+#: header.php:25 header.php:38
+msgid "FreeCAD: Your own 3D parametric modeler"
+msgstr "FreeCAD: Do mhúnlaí paraiméadrach 3T féin"
+
+#: header.php:77
+msgid "Features"
+msgstr "Gnéithe"
+
+#: header.php:81
+msgid "Download"
+msgstr "Íoslódáil"
+
+#: header.php:85
+msgid "Blog"
+msgstr "Blag"
+
+#: header.php:89
+msgid "Documentation"
+msgstr "Doiciméadú"
+
+#: header.php:92
+msgid "https://wiki.freecad.org/Main_Page"
+msgstr "https://wiki.freecad.org/Main_Page"
+
+#: header.php:92
+msgid "Documentation index"
+msgstr "Innéacs doiciméadachta"
+
+#: header.php:93 thankyou.php:125
+msgid "https://wiki.freecad.org/Getting_started"
+msgstr "https://wiki.freecad.org/Getting_started"
+
+#: header.php:93
+msgid "Getting started"
+msgstr "Ag tosú"
+
+#: header.php:94
+msgid "https://wiki.freecad.org/User_hub"
+msgstr "https://wiki.freecad.org/User_hub"
+
+#: header.php:94
+msgid "Users documentation"
+msgstr "Doiciméadú úsáideoirí"
+
+#: header.php:95 thankyou.php:137
+msgid "https://wiki.freecad.org/Manual"
+msgstr "https://wiki.freecad.org/Manual"
+
+#: header.php:95
+msgid "The FreeCAD manual"
+msgstr "Lámhleabhar FreeCAD"
+
+#: header.php:96 thankyou.php:127
+msgid "https://wiki.freecad.org/Workbenches"
+msgstr "https://wiki.freecad.org/Workbenches"
+
+#: header.php:96 thankyou.php:127
+msgid "Workbenches documentation"
+msgstr "Doiciméadú na mbinse oibre"
+
+#: header.php:97
+msgid "https://wiki.freecad.org/Power_users_hub"
+msgstr "https://wiki.freecad.org/Power_users_hub"
+
+#: header.php:97
+msgid "Python coding documentation"
+msgstr "Doiciméadú códaithe Python"
+
+#: header.php:98
+msgid "https://wiki.freecad.org/Developer_hub"
+msgstr "https://wiki.freecad.org/Developer_hub"
+
+#: header.php:98
+msgid "C++ coding documentation"
+msgstr "Doiciméadú códaithe C++"
+
+#: header.php:99 thankyou.php:146
+msgid "https://wiki.freecad.org/Tutorials"
+msgstr "https://wiki.freecad.org/Tutorials"
+
+#: header.php:99 thankyou.php:146
+msgid "Tutorials"
+msgstr "Ranganna Teagaisc"
+
+#: header.php:100 thankyou.php:128
+msgid "https://wiki.freecad.org/Frequently_asked_questions"
+msgstr "https://wiki.freecad.org/Frequently_asked_questions"
+
+#: header.php:100 thankyou.php:128
+msgid "Frequently asked questions"
+msgstr "Ceisteanna Coitianta"
+
+#: header.php:101
+msgid "Privacy policy"
+msgstr "Polasaí príobháideachta"
+
+#: header.php:102
+msgid "https://wiki.freecad.org/About_FreeCAD"
+msgstr "https://wiki.freecad.org/About_FreeCAD"
+
+#: header.php:102
+msgid "About FreeCAD"
+msgstr "Maidir le FreeCAD"
+
+#: header.php:107
+msgid "Contribute"
+msgstr "Cuir leis"
+
+#: header.php:110
+msgid "https://wiki.freecad.org/Help_FreeCAD"
+msgstr "https://wiki.freecad.org/Help_FreeCAD"
+
+#: header.php:110
+msgid "How to help"
+msgstr "Conas cabhrú"
+
+#: header.php:111
+msgid "Sponsor"
+msgstr "Urraitheoir"
+
+#: header.php:112
+msgid "Report a bug"
+msgstr "Tuairiscigh fabht"
+
+#: header.php:113
+msgid "Make a pull request"
+msgstr "Déan iarratas tarraingthe"
+
+#: header.php:114
+msgid "Jobs and funding"
+msgstr "Poist agus maoiniú"
+
+#: header.php:115
+msgid "Contribution guidelines"
+msgstr "Treoirlínte ranníocaíochta"
+
+#: header.php:116
+msgid "Developers handbook"
+msgstr "Lámhleabhar na bhforbróirí"
+
+#: header.php:117
+msgid "https://wiki.freecad.org/Localisation"
+msgstr "https://wiki.freecad.org/Localisation"
+
+#: header.php:117
+msgid "Translations"
+msgstr "Aistriúcháin"
+
+#: header.php:122
+msgid "Community"
+msgstr "Pobal"
+
+#: header.php:125
+msgid "Code of conduct"
+msgstr "Cód iompair"
+
+#: header.php:126
+msgid "Professional Network"
+msgstr "Líonra Gairmiúil"
+
+#: header.php:127
+msgid "Forum"
+msgstr "Fóram"
+
+#: header.php:138
+msgid "Calendar"
+msgstr "Féilire"
+
+#: index.php:80
+msgid "Your own 3D parametric modeler"
+msgstr "Do mhúnlaí paraiméadrach 3T féin"
+
+#: index.php:82
+msgid "Download now"
+msgstr "Íoslódáil anois"
+
+#: index.php:93 index.php:126
+msgid "Modelled by ppemawm"
+msgstr "Samhlaithe ag ppemawm"
+
+#: index.php:98
+msgid "Freedom to build what you want"
+msgstr "Saoirse chun a bhfuil uait a thógáil"
+
+#: index.php:100
+msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
+"          design real-life objects of any size. Parametric modeling allows you\n"
+"          to easily modify your design by going back into your model history\n"
+"          and changing its parameters."
+msgstr "Is samhaltóir paraiméadrach 3T foinse oscailte é FreeCAD atá déanta go príomha\n"
+"          chun réada fíorshaoil ​​d'aon mhéid a dhearadh. Ligeann samhaltú paraiméadrach duit do\n"
+"          dhearadh a mhodhnú go héasca trí dhul ar ais chuig do stair\n"
+"          mhúnla agus a pharaiméadair a athrú."
+
+#: index.php:109
+msgid "Modelled by r-frank"
+msgstr "Samhlaithe ag r-frank"
+
+#: index.php:114
+msgid "Create 3D from 2D & back"
+msgstr "Cruthaigh 3T ó 2T & ar ais"
+
+#: index.php:116
+msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
+"          them as a base to build other objects. It contains many components\n"
+"          to adjust dimensions or extract design details from 3D models to\n"
+"          create high quality production ready drawings."
+msgstr "Le FreeCAD is féidir leat cruthanna 2T srianta geoiméadracha a sceitseáil agus iad a úsáid\n"
+"                  mar bhonn chun rudaí eile a thógáil. Tá go leor comhpháirteanna\n"
+"                  ann chun toisí a choigeartú nó sonraí dearaidh a bhaint as \n"
+"                  samhlacha 3T chun líníochtaí ardchaighdeáin réidh le haghaidh táirgeachta a chruthú."
+
+#: index.php:135
+msgid "For professional design needs..."
+msgstr "Le haghaidh riachtanais dearaidh ghairmiúla..."
+
+#: index.php:137
+msgid "FreeCAD is a powerful and evolving open-source parametric 3D modeler, well-suited for many professional and technical tasks. With the release of version 1.0, it marks a new milestone in stability and usability. FreeCAD puts you in control - no licensing fees, no vendor lock-in. It's not just cost-effective - it’s yours to adapt and build upon."
+msgstr "Is samhaltóir paraiméadrach 3T foinse oscailte cumhachtach agus atá ag teacht chun cinn é FreeCAD, atá oiriúnach do go leor tascanna gairmiúla agus teicniúla. Le heisiúint leagan 1.0, marcálann sé cloch mhíle nua i gcobhsaíocht agus inúsáidteacht. Tugann FreeCAD smacht duit - gan aon táillí ceadúnaithe, gan aon ghlasáil díoltóra. Ní hamháin go bhfuil sé cost-éifeachtach - is leatsa é a oiriúnú agus tógáil air."
+
+#: index.php:144
+msgid "Baked by Kris Wilk"
+msgstr "Bácáilte ag Kris Wilk"
+
+#: index.php:155
+msgid "...And for everything else"
+msgstr "...Agus i gcás gach rud eile"
+
+#: index.php:157
+msgid "Whether you're prototyping, 3D printing, designing furniture, or learning CAD, FreeCAD offers the tools to support your creativity. With a strong community, extensive documentation, and a growing ecosystem of add-ons, it’s a great place to start - and to grow. No sign-up, no paywall, no restrictions. Just open-source freedom at your fingertips."
+msgstr "Cibé acu atá tú ag déanamh fréamhshamhlacha, ag priontáil 3T, ag dearadh troscáin, nó ag foghlaim CAD, cuireann FreeCAD na huirlisí ar fáil chun tacú le do chruthaitheacht. Le pobal láidir, doiciméadacht fhairsing, agus éiceachóras breiseán atá ag fás, is áit iontach é le tosú - agus le fás. Gan chlárú, gan bhalla pá, gan srianta. Saoirse foinse oscailte ar fáil go héasca."
+
+#: index.php:163
+msgid "Modelled by epileftric"
+msgstr "Samhlaithe ag epileftric"
+
+#: index.php:168
+msgid "Accessible, flexible & integrated"
+msgstr "Inrochtana, solúbtha & comhtháite"
+
+#: index.php:170
+msgid "FreeCAD is a multiplatform (Windows, Mac and Linux), highly\n"
+"          customizable and extensible software. It reads and writes to many\n"
+"          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
+"          and many others, making it possible to seamlessly integrate it into\n"
+"          your workflow."
+msgstr "Is bogearraí il-ardáin (Windows, Mac agus Linux) é FreeCAD atá an-shaincheaptha\n"
+"                  agus inleathnaithe. Léann agus scríobhann sé chuig go leor formáidí comhaid\n"
+"                  oscailte ar nós STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
+"                  agus go leor eile, rud a fhágann gur féidir é a chomhtháthú go gan uaim i do shr\n"
+"                  abhadh oibre."
+
+#: index.php:180
+msgid "Modelled by regis"
+msgstr "Samhlaithe ag regis"
+
+#: index.php:185
+msgid "Designed for your needs"
+msgstr "Deartha do do riachtanais"
+
+#: index.php:187
+msgid "FreeCAD is designed to fit a wide range of uses including product\n"
+"          design, mechanical engineering and architecture. Whether you are a\n"
+"          hobbyist, a programmer, an experienced CAD user, a student or a\n"
+"          teacher, you will feel right at home with FreeCAD."
+msgstr "Tá FreeCAD deartha chun freastal ar raon leathan úsáidí lena n-áirítear dearadh\n"
+"                  táirgí, innealtóireacht mheicniúil agus ailtireacht. Cibé acu caitheamh aimsire thú,\n"
+"                  ríomhchláraitheoir, úsáideoir CAD a bhfuil taithí aige, mac léinn nó\n"
+"                  múinteoir, beidh tú ar do shuaimhneas le FreeCAD."
+
+#: index.php:196
+msgid "Modelled by rider_mortagnais"
+msgstr "Samhlaithe ag rider_mortagnais"
+
+#: index.php:201
+msgid "And many more great features"
+msgstr "Agus go leor gnéithe iontacha eile"
+
+#: index.php:203
+msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
+"          modern Finite Element Analysis (FEA) tools, experimental CFD, dedicated BIM,\n"
+"          Geodata or CAM/CNC workbenches, a robot simulation module that\n"
+"          allows you to study robot movements and many more features. FreeCAD\n"
+"          really is a Swiss Army knife of general-purpose engineering\n"
+"          toolkits."
+msgstr "Cuireann FreeCAD na huirlisí cearta ar fáil duit do do chuid riachtanas. Gheobhaidh tú uirlisí\n"
+"                  nua-aimseartha um Anailís Eilimintí Críochta (FEA),\n"
+"                  CFD turgnamhach, BIM tiomnaithe, binse oibre Geodata nó CAM/CNC,\n"
+"                  modúl insamhalta róbat a ligeann duit gluaiseachtaí róbat a scrúdú agus go leor gnéithe eile.\n"
+"                  Is scian Arm na hEilvéise de threalamh innealtóireachta ilchuspóireacha é\n"
+"                  FreeCAD i ndáiríre."
+
+#: index.php:217
+msgid "Modelled by bejant"
+msgstr "Samhlaithe ag bejant"
+
+#: index.php:222
+msgid "Want to contribute to FreeCAD?"
+msgstr "Ar mhaith leat cur le FreeCAD?"
+
+#: index.php:224
+msgid "FreeCAD is a truly open source project and if you would like to help\n"
+"          fix bugs, implement new cool features or work on the documentation,\n"
+"          we invite you to join us and create a software that benefits the\n"
+"          whole community."
+msgstr "Is tionscadal foinse oscailte i ndáiríre é FreeCAD agus más mian leat cabhrú\n"
+"                  le fabhtanna a shocrú, gnéithe nua fionnuara a chur i bhfeidhm nó oibriú ar an doiciméadú,\n"
+"                  tugaimid cuireadh duit páirt a ghlacadh linn \n"
+"                  agus bogearraí a chruthú a rachaidh chun tairbhe an phobail ar fad."
+
+#: index.php:230
+msgid "Get involved"
+msgstr "Bí páirteach"
+
+#: professional-network.php:14
+msgid "Join the community shaping the future of FreeCAD."
+msgstr "Bí páirteach sa phobal atá ag múnlú todhchaí FreeCAD."
+
+#: professional-network.php:23
+msgid "The FreeCAD Professional Network (FPN) is a voluntary association of professionals committed to strengthening the FreeCAD ecosystem for long-term growth and success."
+msgstr "Is cumann deonach gairmithe é Líonra Gairmiúil FreeCAD (FPN) atá tiomanta d'éiceachóras FreeCAD a neartú le haghaidh fáis agus rath fadtéarmach."
+
+#: professional-network.php:26
+msgid "If FreeCAD is part of your livelihood—whether you design, teach, manufacture, research, or create content—the FPN is your place to connect, collaborate, and make an impact."
+msgstr "Más cuid de do shlí bheatha é FreeCAD—cibé acu atá tú ag dearadh, ag múineadh, ag monarú, ag taighde, nó ag cruthú ábhair—is é an FPN an áit duit chun ceangal, comhoibriú agus tionchar a imirt."
+
+#: professional-network.php:34
+msgid "Who is a FreeCAD Professional?"
+msgstr "Cé hé Gairmí FreeCAD?"
+
+#: professional-network.php:35
+msgid "Anyone with a commercial interest in FreeCAD:"
+msgstr "Aon duine a bhfuil leas tráchtála aige i FreeCAD:"
+
+#: professional-network.php:37
+msgid "Engineers, designers, and makers who use FreeCAD at work"
+msgstr "Innealtóirí, dearthóirí, agus déantóirí a úsáideann FreeCAD ag an obair"
+
+#: professional-network.php:38
+msgid "Content creators, YouTubers, authors, and Patreon publishers"
+msgstr "Cruthaitheoirí ábhair, YouTubers, údair, agus foilsitheoirí Patreon"
+
+#: professional-network.php:39
+msgid "Educators and trainers in classrooms or workshops"
+msgstr "Oideachasóirí agus oiliúnóirí i seomraí ranga nó i gceardlanna"
+
+#: professional-network.php:40
+msgid "Researchers exploring open CAD in academia"
+msgstr "Taighdeoirí ag fiosrú CAD oscailte san acadamh"
+
+#: professional-network.php:41
+msgid "Hardware manufacturers supporting CAD users"
+msgstr "Monaróirí crua-earraí a thacaíonn le húsáideoirí CAD"
+
+#: professional-network.php:42
+msgid "Software developers and consultants working with FreeCAD and Addons"
+msgstr "Forbróirí bogearraí agus comhairleoirí ag obair le FreeCAD agus Breiseáin"
+
+#: professional-network.php:43
+msgid "Businesses building products and services on FreeCAD"
+msgstr "Gnólachtaí ag tógáil táirgí agus seirbhísí ar FreeCAD"
+
+#: professional-network.php:51
+msgid "What We Do"
+msgstr "Cad a Dhéanaimid"
+
+#: professional-network.php:52
+msgid "The FPN brings professionals together to:"
+msgstr "Tugann an FPN gairmithe le chéile chun:"
+
+#: professional-network.php:54
+msgid "Advocate for features and improvements that matter most"
+msgstr "Abhcóideacht ar son na ngnéithe agus na bhfeabhsuithe is tábhachtaí"
+
+#: professional-network.php:55
+msgid "Help set priorities for FreeCAD development"
+msgstr "Cabhraigh le tosaíochtaí a shocrú le haghaidh forbairt FreeCAD"
+
+#: professional-network.php:56
+msgid "Provide domain expertise directly to maintainers and contributors"
+msgstr "Saineolas fearainn a sholáthar go díreach do chothaitheoirí agus do rannpháirtithe"
+
+#: professional-network.php:57
+msgid "Organize real-world meetups and events"
+msgstr "Eagraigh cruinnithe agus imeachtaí sa saol fíor"
+
+#: professional-network.php:58
+msgid "Share knowledge, best practices, and support"
+msgstr "Eolas, dea-chleachtais agus tacaíocht a roinnt"
+
+#: professional-network.php:59
+msgid "Co-develop tools and solutions for the community"
+msgstr "Comhfhorbairt uirlisí agus réitigh don phobal"
+
+#: professional-network.php:62
+msgid "This is where professionals make their voice heard and pool their strengths to move FreeCAD forward."
+msgstr "Seo an áit a gcuireann gairmithe a nglór in iúl agus a dtagann siad le chéile chun FreeCAD a bhogadh ar aghaidh."
+
+#: professional-network.php:70
+msgid "Membership Tiers"
+msgstr "Leibhéil Ballraíochta"
+
+#: professional-network.php:77
+msgid "Individual"
+msgstr "Aonair"
+
+#: professional-network.php:80
+msgid "Access to professional network"
+msgstr "Rochtain ar líonra gairmiúil"
+
+#: professional-network.php:81
+msgid "Access to FPN private discord channel"
+msgstr "Rochtain ar chainéal discord príobháideach FPN"
+
+#: professional-network.php:82
+msgid "Voting rights on FPN initiatives"
+msgstr "Cearta vótála ar thionscnaimh FPN"
+
+#: professional-network.php:83
+msgid "Quarterly newsletter"
+msgstr "Nuachtlitir ráithiúil"
+
+#: professional-network.php:86
+msgid "Join Individual"
+msgstr "Bígí Linn Aonair"
+
+#: professional-network.php:96
+msgid "Organization"
+msgstr "Eagraíocht"
+
+#: professional-network.php:99
+msgid "All individual membership benefits"
+msgstr "Gach sochar ballraíochta aonair"
+
+#: professional-network.php:100
+msgid "Unlimited employee memberships included"
+msgstr "Ballraíocht fhostaithe gan teorainn san áireamh"
+
+#: professional-network.php:101
+msgid "Logo recognition as FPN supporter"
+msgstr "Aitheantas lógó mar thacadóir FPN"
+
+#: professional-network.php:104
+msgid "Join Organization"
+msgstr "Bígí Linn san Eagraíocht"
+
+#: professional-network.php:112
+msgid "Membership isn't just a fee—it's an investment in FreeCAD's future and in your own professional ecosystem."
+msgstr "Ní táille amháin atá i mballraíocht—is infheistíocht í i dtodhchaí FreeCAD agus i d’éiceachóras gairmiúil féin."
+
+#: professional-network.php:120
+msgid "Why Join?"
+msgstr "Cén fáth a mbeadh tú páirteach?"
+
+#: professional-network.php:121
+msgid "Because FreeCAD is already part of your professional life. Together, we can:"
+msgstr "Ós rud é gur cuid de do shaol gairmiúil é FreeCAD cheana féin. Le chéile, is féidir linn:"
+
+#: professional-network.php:123
+msgid "Influence its direction"
+msgstr "Tionchar a imirt ar a threo"
+
+#: professional-network.php:124
+msgid "Create an ecosystem that is friendly to commercial interest"
+msgstr "Éiceachóras a chruthú atá cairdiúil do leas tráchtála"
+
+#: professional-network.php:125
+msgid "Build stronger connections across industries"
+msgstr "Naisc níos láidre a thógáil idir tionscail"
+
+#: professional-network.php:126
+msgid "Ensure FreeCAD continues to thrive as a tool you can rely on"
+msgstr "Cinntigh go leanann FreeCAD ag rathú mar uirlis ar féidir leat brath uirthi"
+
+#: sponsor.php:57
+msgid "Donating and sponsoring"
+msgstr "Deonú agus urraíocht"
+
+#: sponsor.php:64
+msgid "Donating to FreeCAD"
+msgstr "Ag tabhairt síntiús do FreeCAD"
+
+#: sponsor.php:69
+msgid "Thanks for your interest in helping the FreeCAD\n"
+"              project with donations."
+msgstr "Go raibh maith agat as do spéis i gcabhrú le tionscadal FreeCAD\n"
+"              le síntiúis."
+
+#: sponsor.php:73
+msgid "FreeCAD is a fast-growing project, developed by a\n"
+"              community of developers and users working mostly on a voluntary\n"
+"              basis, motivated mainly by their will to build a great, free 3D\n"
+"              parametric modeller. The development of FreeCAD happens mostly\n"
+"              because of the energy of all these people, without the need for\n"
+"              money."
+msgstr "Is tionscadal atá ag fás go mear é FreeCAD, arna fhorbairt\n"
+"                  ag pobal forbróirí agus úsáideoirí atá ag obair den chuid is mó ar\n"
+"                  bhonn deonach, spreagtha den chuid is mó ag a dtoil samhaltóir paraiméadrach 3D\n"
+"                  iontach, saor in aisce a thógáil. Tarlaíonn forbairt FreeCAD den chuid is mó mar g\n"
+"                  eall ar fhuinneamh na ndaoine seo go léir, gan aon ghá\n"
+"                  le hairgead."
+
+#: sponsor.php:81
+msgid "However, money can help the project to achieve many\n"
+"              other goals. It can help some of its developers to work more\n"
+"              frequently or more regularly on the project, by paying for their\n"
+"              time so they can dedicate more of it to FreeCAD, or it can help\n"
+"              the community to send people to CAD-related events, so we can\n"
+"              showcase FreeCAD and interest professional users. It can also help\n"
+"              to organize events ourselves so community members can meet, pay for\n"
+"              server space and web services, and many other things."
+msgstr "Mar sin féin, is féidir le hairgead cabhrú leis an tionscadal go leor\n"
+"                  spriocanna eile a bhaint amach. Is féidir leis cabhrú le cuid dá fhorbróirí oibriú\n"
+"                  níos minice nó níos rialta ar an tionscadal, trí íoc as a gcuid ama ionas gur féidir leo níos mó de a thiomnú do FreeCAD, nó is féidir leis cabhrú leis an\n"
+"                  bpobal daoine a sheoladh chuig imeachtaí a\n"
+"                  bhaineann le CAD, ionas gur féidir linn FreeCAD\n"
+"                  a chur i láthair agus spéis a mhúscailt in úsáideoirí gairmiúla. Is féidir leis cabhrú\n"
+"                  freisin imeachtaí a eagrú muid féin ionas gur féidir le baill an phobail bualadh le chéile, íoc as spás\n"
+"                  freastalaí agus seirbhísí gréasáin, agus go leor rudaí eile."
+
+#: sponsor.php:91
+msgid "There are several ways you can donate money and help\n"
+"              the FreeCAD project, being an individual, a company or an\n"
+"              institution, depending on your preferences. The money you donate\n"
+"              to the FreeCAD project will be received and handled by the\n"
+"              <a href=https://fpa.freecad.org>FreeCAD Project Association</a>\n"
+"              (FPA), a non-profit association created by FreeCAD administrators\n"
+"              and core developers. The FPA will redistribute the money it gathers\n"
+"              to FreeCAD developers and sponsor itself several projects, efforts\n"
+"              and ideas to fuel the development of FreeCAD."
+msgstr "Tá roinnt bealaí ann ar féidir leat airgead a bhronnadh agus cabhrú\n"
+"                  leis an tionscadal FreeCAD, mar dhuine aonair, mar chuideachta nó mar\n"
+"                  institiúid, ag brath ar do chuid sainroghanna.\n"
+"                  Glacfaidh agus láimhseálfaidh an\n"
+"                  <a href=https://fpa.freecad.org>FreeCAD Project Association</a> (FPA),\n"
+"                  cumann neamhbhrabúis a chruthaigh riarthóirí FreeCAD agus\n"
+"                  forbróirí lárnacha, an t-airgead a bhronnann tú ar an tionscadal FreeCAD.\n"
+"                  Déanfaidh an FPA an t-airgead a bhailíonn sé a athdháileadh ar fhorbróirí FreeCAD agus déanfaidh sé urraíocht ar roinnt tionscadal,\n"
+"                  iarrachtaí agus smaointe chun forbairt FreeCAD a chothú."
+
+#: sponsor.php:102
+msgid "Remember, however: FreeCAD is free, and will always\n"
+"              be free. You are not required, and never will be, to donate anything\n"
+"              in order to use FreeCAD, neither to modify or distribute it. Your\n"
+"              donation will be welcome, and can help a lot, but you will never\n"
+"              be required to pay anything to access any of the FreeCAD features."
+msgstr "Cuimhnigh, áfach: tá FreeCAD saor in aisce,\n"
+"              agus beidh sé saor in aisce i gcónaí. Ní gá duit, agus ní bheidh ort choíche, aon rud\n"
+"              a bhronnadh chun FreeCAD a úsáid, ná é a mhodhnú ná a dháileadh. Cuirfear fáilte roimh do bhronntanas,\n"
+"              agus is féidir leis cabhrú go mór, ach ní gá duit aon rud a íoc\n"
+"              chun rochtain a fháil ar aon cheann de ghnéithe FreeCAD."
+
+#: sponsor.php:117
+msgid "Gold sponsors"
+msgstr "Urraitheoirí óir"
+
+#: sponsor.php:160
+msgid "Early sponsors"
+msgstr "Urraitheoirí luatha"
+
+#: sponsor.php:202
+msgid "Silver sponsors"
+msgstr "Urraitheoirí airgid"
+
+#: sponsor.php:248
+msgid "Bronze sponsors"
+msgstr "Urraitheoirí cré-umha"
+
+#: telemetry.php:18
+msgid "Telemetry Data"
+msgstr "Sonraí Teileiméadrachta"
+
+#: telemetry.php:29
+msgid "Improve FreeCAD — Anonymously"
+msgstr "Feabhsaigh FreeCAD — Gan Ainm"
+
+#: telemetry.php:31
+msgid "Telemetry helps us understand how FreeCAD is used by collecting anonymous data about its environment and usage patterns. We've developed this GDPR-compliant add-on to improve FreeCAD based on real-world insights — completely anonymously and with full respect for your privacy. By enabling it, you’re helping make FreeCAD better for everyone."
+msgstr "Cuidíonn teileiméadracht linn tuiscint a fháil ar an gcaoi a n-úsáidtear FreeCAD trí shonraí gan ainm a bhailiú faoina thimpeallacht agus faoi phatrúin úsáide. D'fhorbraíomar an breiseán seo atá i gcomhréir le GDPR chun FreeCAD a fheabhsú bunaithe ar léargais fíorshaoil ​​- go hiomlán gan ainm agus le meas iomlán ar do phríobháideacht. Trí é a chumasú, tá tú ag cabhrú le FreeCAD a dhéanamh níos fearr do gach duine."
+
+#: telemetry.php:33
+msgid "https://github.com/FreeCAD/FreeCAD-Telemetry"
+msgstr "https://github.com/FreeCAD/FreeCAD-Telemetry"
+
+#: telemetry.php:41
+msgid "FreeCAD Version"
+msgstr "Leagan SaorCAD"
+
+#: telemetry.php:45
+msgid "System"
+msgstr "Córas"
+
+#: telemetry.php:49
+msgid "Language"
+msgstr "Teanga"
+
+#: telemetry.php:53
+msgid "Python Version"
+msgstr "Leagan Python"
+
+#: telemetry.php:57
+msgid "Mods"
+msgstr "Modanna"
+
+#: telemetry.php:61
+msgid "Machine"
+msgstr "Meaisín"
+
+#: telemetry.php:65
+msgid "Default Workbench"
+msgstr "Binse Oibre Réamhshocraithe"
+
+#: telemetry.php:69
+msgid "Screen Resolution"
+msgstr "Rún Scáileáin"
+
+#: telemetry.php:73
+msgid "Toolbar Icon Size"
+msgstr "Méid Deilbhín an Bharra Uirlisí"
+
+#: telemetry.php:77
+msgid "Theme"
+msgstr "Téama"
+
+#: telemetry.php:81
+msgid "Navigation Style"
+msgstr "Stíl Loingseoireachta"
+
+#: telemetry.php:85
+msgid "Navigation Orbit Style"
+msgstr "Stíl Fhithis Loingseoireachta"
+
+#: telemetry.php:89
+msgid "Workbench Enabled"
+msgstr "Binse Oibre Cumasaithe"
+
+#: telemetry.php:93
+msgid "Workbench Disabled"
+msgstr "Binse Oibre Díchumasaithe"
+
+#: telemetry.php:131
+msgid "Loading..."
+msgstr "Ag lódáil..."
+
+#: telemetry.php:205
+msgid "user"
+msgstr "úsáideoir"
+
+#: thankyou.php:60
+msgid "Thank you!"
+msgstr "Go raibh maith agat!"
+
+#: thankyou.php:63
+msgid "Your download should start automatically.\n"
+"            If not, click"
+msgstr "Ba chóir go dtosódh d’íoslódáil go huathoibríoch.\n"
+"            Mura bhfuil, cliceáil"
+
+#: thankyou.php:64
+msgid "here"
+msgstr "anseo"
+
+#: thankyou.php:65
+msgid "to download the file."
+msgstr "chun an comhad a íoslódáil."
+
+#: thankyou.php:74
+msgid "Support FreeCAD!"
+msgstr "Tacaigh le FreeCAD!"
+
+#: thankyou.php:80
+msgid "If you are happy with FreeCAD, and would like to support the project, why not make a donation to the project? Being open-source, FreeCAD will ALWAYS be free for anyone to use, and FreeCAD could survive without any donations, however with donations we can go further and faster together."
+msgstr "Más sásta leat FreeCAD, agus más mian leat tacú leis an tionscadal, cén fáth nach ndéanfá síntiús don tionscadal? Ós rud é gur foinse oscailte é, beidh FreeCAD saor in aisce i gcónaí le húsáid ag aon duine, agus d'fhéadfadh FreeCAD maireachtáil gan aon síntiúis, ach le síntiúis is féidir linn dul níos faide agus níos tapúla le chéile."
+
+#: thankyou.php:84
+msgid "If you would like to support, choose the amount and payment method of your choice below. If you are interested in supporting with a recurring donation, check the <a data-bs-toggle=\"modal\" data-bs-target=\"#donateModal\">donate page</a> to see more options."
+msgstr "Más mian leat tacú leis, roghnaigh an méid agus an modh íocaíochta is rogha leat thíos. Más spéis leat tacú le síntiús athfhillteach, féach ar an <a data-bs-toggle=\"modal\" data-bs-target=\"#donateModal\">leathanach síntiús</a> chun tuilleadh roghanna a fheiceáil."
+
+#: thankyou.php:88
+msgid "There are also many other ways to help FreeCAD. For example, you can write code, help with writing documentation, help translate the FreeCAD interface and documentation, help new users, etc. Everything you need to know to get involved is available over on this <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a> page."
+msgstr "Tá go leor bealaí eile ann freisin chun cabhrú le FreeCAD. Mar shampla, is féidir leat cód a scríobh, cabhrú le doiciméadacht a scríobh, cabhrú le comhéadan agus doiciméadacht FreeCAD a aistriú, cabhrú le húsáideoirí nua, srl. Tá gach rud a theastaíonn uait a bheith ar eolas agat le bheith páirteach ar fáil ar an leathanach <a href=https://wiki.freecad.org/Help_FreeCAD>Cabhair le FreeCAD</a> seo."
+
+#: thankyou.php:100
+msgid "Need help?"
+msgstr "An bhfuil cabhair uait?"
+
+#: thankyou.php:106
+msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
+"            have you covered! FreeCAD features an\n"
+"            <a href=https://wiki.freecad.org>extensive documentation</a>, which\n"
+"            is available online but also directly within the FreeCAD application.\n"
+"            It covers everything from installing and launching FreeCAD, using it\n"
+"            and its different workbenches, up to creating Python scripts to\n"
+"            automate it and developing your own tools and extensions."
+msgstr "Más rud é gur duine nua thú i FreeCAD, nó i samhaltú 3T CAD,\n"
+"                  táimid anseo duit! Tá\n"
+"                  <a href=https://wiki.freecad.org>doiciméadacht fhairsing</a> ag FreeCAD,\n"
+"                  atá ar fáil ar líne ach go díreach laistigh den fheidhmchlár FreeCAD freisin.\n"
+"                  Clúdaíonn sé gach rud ó FreeCAD a shuiteáil agus a sheoladh,\n"
+"                  é agus a bhinse oibre éagsúla a úsáid, suas go dtí scripteanna Python a chruthú chun é a \n"
+"                  athoibriú agus do chuid uirlisí agus síntí féin a fhorbairt."
+
+#: thankyou.php:116
+msgid "Below are some pages of this documentation that could\n"
+"            be useful to you:"
+msgstr "Seo thíos roinnt leathanach den doiciméadú seo a d'fhéadfadh\n"
+"            a bheith úsáideach duit:"
+
+#: thankyou.php:121
+msgid "https://wiki.freecad.org/Installing_on_Windows"
+msgstr "https://wiki.freecad.org/Installing_on_Windows"
+
+#: thankyou.php:121
+msgid "Installing FreeCAD on Windows"
+msgstr "Suiteáil FreeCAD ar Windows"
+
+#: thankyou.php:122
+msgid "https://wiki.freecad.org/Installing_on_Linux"
+msgstr "https://wiki.freecad.org/Installing_on_Linux"
+
+#: thankyou.php:122
+msgid "Installing FreeCAD on Linux"
+msgstr "Suiteáil FreeCAD ar Linux"
+
+#: thankyou.php:123
+msgid "https://wiki.freecad.org/Installing_on_Mac"
+msgstr "https://wiki.freecad.org/Installing_on_Mac"
+
+#: thankyou.php:123
+msgid "Installing FreeCAD on MacOS"
+msgstr "Suiteáil FreeCAD ar MacOS"
+
+#: thankyou.php:124
+msgid "https://wiki.freecad.org/Installing_additional_components"
+msgstr "https://wiki.freecad.org/Installing_additional_components"
+
+#: thankyou.php:124
+msgid "Installing additional components"
+msgstr "Suiteáil comhpháirteanna breise"
+
+#: thankyou.php:125
+msgid "Getting started with FreeCAD"
+msgstr "Ag tosú le FreeCAD"
+
+#: thankyou.php:126
+msgid "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
+msgstr "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
+
+#: thankyou.php:126
+msgid "Migrating from other software?"
+msgstr "Ag aistriú ó bhogearraí eile?"
+
+#: thankyou.php:132
+msgid "FreeCAD also offers a complete user manual, that can\n"
+"            be downloaded as a pdf or epub file or printed:"
+msgstr "Cuireann FreeCAD lámhleabhar úsáideora iomlán ar fáil freisin, ar féidir\n"
+"            é a íoslódáil mar chomhad pdf nó epub nó a phriontáil:"
+
+#: thankyou.php:137
+msgid "The FreeCAD user manual"
+msgstr "Lámhleabhar úsáideora FreeCAD"
+
+#: thankyou.php:141
+msgid "and many tutorials, in written or video form, created by\n"
+"            the FreeCAD community:"
+msgstr "agus go leor ranganna teagaisc, i bhfoirm scríofa nó físe, cruthaithe ag\n"
+"            pobal FreeCAD:"
+
+#: thankyou.php:150
+msgid "On behalf of all of the worldwide community of users,\n"
+"            developers, translators, editors, writers, testers who work hard to\n"
+"            make FreeCAD the best CAD modeller out there, we thank you for\n"
+"            downloading our baby! We hope you will like it as much as we do."
+msgstr "Thar ceann phobal domhanda na n-úsáideoirí,\n"
+"                  forbróirí, aistritheoirí, eagarthóirí, scríbhneoirí, tástálaithe a oibríonn go dian\n"
+"                  chun FreeCAD a dhéanamh ar an samhaltóir CAD is fearr atá ar fáil, gabhaimid buíochas leat as ár leagan beag a íoslódáil! Tá súil againn go mbainfidh tú an oiread céanna\n"
+"                  taitneamh as agus a thaitníonn sé linne."
+
+#: thankyou.php:157
+msgid "If you encounter issues with FreeCAD, or would like to\n"
+"            meet and discuss topics with other users, pay a visit to the\n"
+"            <a href=https://forum.freecad.org>FreeCAD forum</a>. The forum is the\n"
+"            main meeting point for FreeCAD users of all parts of the world and all\n"
+"            skill levels. There you can seek advice of more advanced users, find\n"
+"            ways to solve a particular problem, or discuss ideas about and around\n"
+"            the FreeCAD world."
+msgstr "Má bhíonn fadhbanna agat le FreeCAD, nó más mian leat\n"
+"                  bualadh le húsáideoirí eile agus ábhair a phlé, tabhair cuairt ar fhóram\n"
+"                  <a href=https://forum.freecad.org>Fóram FreeCAD</a>. Is é an fóram an \n"
+"                  príomhphointe cruinnithe d'úsáideoirí FreeCAD ó gach cearn den domhan agus ó gach le\n"
+"                  bhéal scile. Ansin, is féidir leat comhairle a lorg ó úsáideoirí níos forbartha, bealaí\n"
+"                  a aimsiú chun fadhb ar leith a réiteach, nó smaointe a phlé faoi shaol FreeCAD a\n"
+"                  us timpeall air."
+
+#: translation.php:25
+msgid "English"
+msgstr "Béarla"
+
