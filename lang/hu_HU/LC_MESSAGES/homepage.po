@@ -25,7 +25,7 @@ msgstr "Kezdőoldal"
 msgid "See what's new"
 msgstr "Újdonságok megtekintése"
 
-#: addons.php:140
+#: addons.php:140 header.php:139
 msgid "Addons"
 msgstr "Kiegészítők"
 
@@ -46,7 +46,7 @@ msgid "Open repository"
 msgstr "Adattár megnyitása"
 
 #: blog.php:57 downloads.php:230 events.php:99 features.php:281 index.php:211
-#: sponsor.php:302 telemetry.php:34
+#: sponsor.php:306 telemetry.php:34
 msgid "Learn more"
 msgstr "Bővebben"
 
@@ -92,137 +92,137 @@ msgstr "Köszönet!"
 msgid "The FreeCAD project association"
 msgstr "A FreeCAD projekt társulás"
 
-#: donation.php:219 donation.php:259 header.php:142 sponsor.php:109
+#: donation.php:229 donation.php:269 header.php:144 sponsor.php:109
 #: thankyou.php:91
 msgid "Donate"
 msgstr "Támogatás"
 
-#: donation.php:228
+#: donation.php:238
 msgid "One-Time"
 msgstr "Egyszeri"
 
-#: donation.php:230
+#: donation.php:240
 msgid "Monthly"
 msgstr "Havonta"
 
-#: donation.php:252
+#: donation.php:262
 msgid "Please choose"
 msgstr "Kérem válasszon"
 
-#: donation.php:253
+#: donation.php:263
 msgid "Direct SEPA bank transfer using your own bank apps"
 msgstr "Közvetlen SEPA banki átutalás saját banki alkalmazásaival"
 
-#: donation.php:253
+#: donation.php:263
 msgid "SEPA bank transfer"
 msgstr "SEPA banki átutalás"
 
-#: donation.php:254
+#: donation.php:264
 msgid "Credit card payment via Stripe"
 msgstr "Hitelkártya Stripe fizetés"
 
-#: donation.php:254
+#: donation.php:264
 msgid "Credit card (Stripe)"
 msgstr "Bankkártya (Stripe)"
 
-#: donation.php:255
+#: donation.php:265
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
 msgstr "PayPal lehetővé teszi, hogy adományozzon a PayPal fiókjával vagy hitelkártyájával"
 
-#: donation.php:255
+#: donation.php:265
 msgid "Paypal"
 msgstr "Paypal"
 
-#: donation.php:256
+#: donation.php:266
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
 msgstr "A GitHub lehetővé teszi, hogy szponzorálja kedvenc projektjeit a GitHub-fiókjával és egy hitelkártyával"
 
-#: donation.php:256
+#: donation.php:266
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donation.php:257
+#: donation.php:267
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account."
 msgstr "Az OpenCollective a nyílt forráskódú projektek pénzügyi gazdagépeként működik. Adományozhat hitelkártyával vagy bankszámlával."
 
-#: donation.php:257
+#: donation.php:267
 msgid "OpenCollective"
 msgstr "OpenCollective"
 
-#: donation.php:266
+#: donation.php:276
 msgid "SEPA Information"
 msgstr "SEPA információ"
 
-#: donation.php:272
+#: donation.php:282
 msgid "Please set up your SEPA bank transfer to"
 msgstr "Kérjük, állítsa be a SEPA banki átutalást a következő címre:"
 
-#: donation.php:275
+#: donation.php:285
 msgid "Beneficiary"
 msgstr "Kedvezményezett"
 
-#: donation.php:287
+#: donation.php:297
 msgid "Bank agency"
 msgstr "Bankügynökség"
 
-#: donation.php:291
+#: donation.php:301
 msgid "Address"
 msgstr "Cím"
 
-#: donation.php:298
+#: donation.php:308
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
 msgstr "Bár a Stripe nem támogatja a havi adományokat, mégis válhatsz támogatóvá! Csak egyszeri adományt kell tenned, ami 12 hónapnyi támogatásnak felel meg, és hozzáférhetsz a megfelelő támogató szinthez. Ez egy könnyű és rugalmas módja a hozzájárulásnak."
 
-#: donation.php:303
+#: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
 msgstr "Ha nem vagy biztos benne, vagy nem tudsz elköteleződni egy rendszeres adomány mellett, de mégis szeretnéd segíteni a projektet, akkor egyszeri adományt tehetsz, bármilyen összegben."
 
-#: donation.php:304
+#: donation.php:317
 msgid "Choose freely the amount you wish to donate one time only."
 msgstr "Válassza ki szabadon azt az összeget, amelyet csak egyszer szeretne adományozni."
 
-#: donation.php:307
+#: donation.php:320
 msgid "You can support FreeCAD by sponsoring it as an individual or organization through various platforms. Sponsorship provides a steady income for developers, allowing the FPA to plan ahead and enabling greater investment in FreeCAD. To encourage sponsorship, we offer different tiers, and unless you choose to remain anonymous, your name or company logo will be featured on our website accordingly."
 msgstr "Támogathatja a FreeCAD-et úgy, hogy egyénként vagy szervezetként különböző platformokon keresztül szponzorálja. A szponzorálás stabil bevételt biztosít a fejlesztőknek, ami lehetővé teszi az FPA számára a tervezést és a FreeCAD-be történő nagyobb beruházást. A szponzorálás ösztönzése érdekében különböző szinteket kínálunk, és hacsak nem dönt úgy, hogy névtelen marad, a neve vagy a cégének logója ennek megfelelően megjelenik a weboldalunkon."
 
-#: donation.php:311
+#: donation.php:324
 msgid "Normal sponsor"
 msgstr "Alap fokozatú szponzor"
 
-#: donation.php:315
+#: donation.php:328
 msgid "from 1 USD / 1 EUR per month. You will not have your name displayed here, but you will have helped the project a lot anyway. Together, normal sponsors maintain the project on its feet as much as the bigger sponsors."
 msgstr "1 USD / 1 EUR havonta. Itt nem jelenik meg a neved, de amúgy is sokat segítettél a projektnek. A normál szponzorok együttesen ugyanúgy fenntartják a projektet a lábán, mint a nagyobb szponzorok."
 
-#: donation.php:320
+#: donation.php:333
 msgid "Bronze sponsor"
 msgstr "Bronz fokozatú szponzor"
 
-#: donation.php:324
+#: donation.php:337
 msgid "from 25 USD / 25 EUR per month. Your name or company name is displayed on this page."
 msgstr "25 USD / 25 EUR -tól havonta. Lehetővé teszi, hogy az Ön neve vagy cégneve megjelenjen ezen az oldalon."
 
-#: donation.php:329
+#: donation.php:342
 msgid "Silver sponsor"
 msgstr "Ezüst fokozatú szponzor"
 
-#: donation.php:333
+#: donation.php:346
 msgid "from 100 USD / 100 EUR per month. Your name or company name is displayed on this page, with a link to your website, and a one-line description text."
 msgstr "100 USD / 100 EUR -tól havonta. Lehetővé teszi, hogy ezen az oldalon megjelenjen a neve vagy a vállalat neve, a webhelyére mutató hivatkozással és egy egysoros leírásszöveggel."
 
-#: donation.php:338
+#: donation.php:351
 msgid "Gold sponsor"
 msgstr "Arany fokozatú szponzor"
 
-#: donation.php:342
+#: donation.php:355
 msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
 msgstr "200 USD / 200 EUR-tól havonta. Lehetővé teszi, hogy a neved vagy a céged neve és logója megjelenjen ezen az oldalon, a webhelyedre mutató hivatkozással és egy egyéni leírási szöveggel. Azok a vállalatok, amelyek korán segítettek a FreeCAD-nek, szintén megjelennek\n"
 " az Arany szponzorok alatt."
 
-#: donation.php:346
+#: donation.php:360
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
 msgstr "Ahelyett, hogy minden hónapban adományoznál, talán kényelmesebbnek találod, ha egyszeri adományt adsz, amely tizenkettővel elosztva feljogosít a támogatói szintre való belépésre. Ne tétovázzon!"
 
-#: donation.php:347
+#: donation.php:361
 msgid "Choose freely the amount you wish to donate each month."
 msgstr "Válassza ki szabadon azt az összeget, amelyet csak havonta egyszer szeretne adományozni."
 
@@ -756,171 +756,171 @@ msgid "Improve this\n"
 msgstr "Javítsa ezt\n"
 "     az oldalt a GitHubon"
 
-#: header.php:24 header.php:37
+#: header.php:25 header.php:38
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Az Ön saját 3D-s parametrikus modellezője"
 
-#: header.php:76
+#: header.php:77
 msgid "Features"
 msgstr "Jellemzők"
 
-#: header.php:80
+#: header.php:81
 msgid "Download"
 msgstr "Letöltés"
 
-#: header.php:84
+#: header.php:85
 msgid "Blog"
 msgstr "Blog"
 
-#: header.php:88
+#: header.php:89
 msgid "Documentation"
 msgstr "Dokumentáció"
 
-#: header.php:91
+#: header.php:92
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:91
+#: header.php:92
 msgid "Documentation index"
 msgstr "Dokumentáció tárgymutatója"
 
-#: header.php:92 thankyou.php:125
+#: header.php:93 thankyou.php:125
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:92
+#: header.php:93
 msgid "Getting started"
 msgstr "Első lépések"
 
-#: header.php:93
+#: header.php:94
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:93
+#: header.php:94
 msgid "Users documentation"
 msgstr "Felhasználói dokumentációk"
 
-#: header.php:94 thankyou.php:137
+#: header.php:95 thankyou.php:137
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:94
+#: header.php:95
 msgid "The FreeCAD manual"
 msgstr "A FreeCAD kézikönyv"
 
-#: header.php:95 thankyou.php:127
+#: header.php:96 thankyou.php:127
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:95 thankyou.php:127
+#: header.php:96 thankyou.php:127
 msgid "Workbenches documentation"
 msgstr "Munkafelületek dokumentációja"
 
-#: header.php:96
+#: header.php:97
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:96
+#: header.php:97
 msgid "Python coding documentation"
 msgstr "Python ködolási dokumentáció"
 
-#: header.php:97
+#: header.php:98
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:97
+#: header.php:98
 msgid "C++ coding documentation"
 msgstr "C++ kódolási dokumentáció"
 
-#: header.php:98 thankyou.php:146
+#: header.php:99 thankyou.php:146
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:98 thankyou.php:146
+#: header.php:99 thankyou.php:146
 msgid "Tutorials"
 msgstr "Oktatóanyagok"
 
-#: header.php:99 thankyou.php:128
+#: header.php:100 thankyou.php:128
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:99 thankyou.php:128
+#: header.php:100 thankyou.php:128
 msgid "Frequently asked questions"
 msgstr "Gyakran ismételt kérdések"
 
-#: header.php:100
+#: header.php:101
 msgid "Privacy policy"
 msgstr "Adatvédelmi nyilatkozat"
 
-#: header.php:101
+#: header.php:102
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/About_FreeCAD"
 
-#: header.php:101
+#: header.php:102
 msgid "About FreeCAD"
 msgstr "FreeCAD ismertető"
 
-#: header.php:106
+#: header.php:107
 msgid "Contribute"
 msgstr "Közreműködés"
 
-#: header.php:109
+#: header.php:110
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
-#: header.php:109
+#: header.php:110
 msgid "How to help"
 msgstr "Hogyan segíts"
 
-#: header.php:110
+#: header.php:111
 msgid "Sponsor"
 msgstr "Támogató"
 
-#: header.php:111
+#: header.php:112
 msgid "Report a bug"
 msgstr "Hiba bejelentése"
 
-#: header.php:112
+#: header.php:113
 msgid "Make a pull request"
 msgstr "Pull húzási kérelem készítése"
 
-#: header.php:113
+#: header.php:114
 msgid "Jobs and funding"
 msgstr "Munkahelyek és finanszírozás"
 
-#: header.php:114
+#: header.php:115
 msgid "Contribution guidelines"
 msgstr "Hozzájárulási irányelveket"
 
-#: header.php:115
+#: header.php:116
 msgid "Developers handbook"
 msgstr "Fejlesztői kézikönyv"
 
-#: header.php:116
+#: header.php:117
 msgid "https://wiki.freecad.org/Localisation"
 msgstr "https://wiki.freecad.org/Localisation"
 
-#: header.php:116
+#: header.php:117
 msgid "Translations"
 msgstr "Fordítások"
 
-#: header.php:121
+#: header.php:122
 msgid "Community"
 msgstr "Közösség"
 
-#: header.php:124
+#: header.php:125
 msgid "Code of conduct"
 msgstr "Illemszabályok (angolul)"
 
-#: header.php:125
+#: header.php:126
 msgid "Professional Network"
 msgstr "Szakmai hálózat"
 
-#: header.php:126
+#: header.php:127
 msgid "Forum"
 msgstr "Fórum"
 
-#: header.php:137
+#: header.php:138
 msgid "Calendar"
 msgstr "Naptár"
 

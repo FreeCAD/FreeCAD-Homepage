@@ -25,7 +25,7 @@ msgstr "主頁"
 msgid "See what's new"
 msgstr "看一眼新鮮事"
 
-#: addons.php:140
+#: addons.php:140 header.php:139
 msgid "Addons"
 msgstr "附加元件"
 
@@ -46,7 +46,7 @@ msgid "Open repository"
 msgstr "開啟儲存庫"
 
 #: blog.php:57 downloads.php:230 events.php:99 features.php:281 index.php:211
-#: sponsor.php:302 telemetry.php:34
+#: sponsor.php:306 telemetry.php:34
 msgid "Learn more"
 msgstr "了解更多"
 
@@ -92,136 +92,136 @@ msgstr "謝謝您！"
 msgid "The FreeCAD project association"
 msgstr "FreeCAD 專案協會"
 
-#: donation.php:219 donation.php:259 header.php:142 sponsor.php:109
+#: donation.php:229 donation.php:269 header.php:144 sponsor.php:109
 #: thankyou.php:91
 msgid "Donate"
 msgstr "斗內"
 
-#: donation.php:228
+#: donation.php:238
 msgid "One-Time"
 msgstr "一次性"
 
-#: donation.php:230
+#: donation.php:240
 msgid "Monthly"
 msgstr "每月"
 
-#: donation.php:252
+#: donation.php:262
 msgid "Please choose"
 msgstr "請選擇"
 
-#: donation.php:253
+#: donation.php:263
 msgid "Direct SEPA bank transfer using your own bank apps"
 msgstr "使用您自己的銀行應用程式直接 SEPA （單一歐元支付區）銀行轉賬"
 
-#: donation.php:253
+#: donation.php:263
 msgid "SEPA bank transfer"
 msgstr "SEPA（單一歐元支付區）銀行轉賬"
 
-#: donation.php:254
+#: donation.php:264
 msgid "Credit card payment via Stripe"
 msgstr "透過 Stripe 進行信用卡支付"
 
-#: donation.php:254
+#: donation.php:264
 msgid "Credit card (Stripe)"
 msgstr "信用卡（Stripe）"
 
-#: donation.php:255
+#: donation.php:265
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
 msgstr "Paypal 允許使用您的 Paypal 帳戶或信用卡進行捐贈"
 
-#: donation.php:255
+#: donation.php:265
 msgid "Paypal"
 msgstr "Paypal"
 
-#: donation.php:256
+#: donation.php:266
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
 msgstr "GitHub 讓您可以使用 GitHub 帳戶和信用卡贊助您最喜歡的項目"
 
-#: donation.php:256
+#: donation.php:266
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donation.php:257
+#: donation.php:267
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account."
 msgstr "OpenCollective 為開源專案提供財務託管服務。您可以使用信用卡或銀行帳戶進行捐贈。"
 
-#: donation.php:257
+#: donation.php:267
 msgid "OpenCollective"
 msgstr "OpenCollective"
 
-#: donation.php:266
+#: donation.php:276
 msgid "SEPA Information"
 msgstr "SEPA 資訊"
 
-#: donation.php:272
+#: donation.php:282
 msgid "Please set up your SEPA bank transfer to"
 msgstr "請將您的 SEPA 銀行轉帳設定至"
 
-#: donation.php:275
+#: donation.php:285
 msgid "Beneficiary"
 msgstr "受益人"
 
-#: donation.php:287
+#: donation.php:297
 msgid "Bank agency"
 msgstr "銀行代理"
 
-#: donation.php:291
+#: donation.php:301
 msgid "Address"
 msgstr "位址"
 
-#: donation.php:298
+#: donation.php:308
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
 msgstr "雖然 Stripe 不支持每月捐贈，但您仍然可以成為贊助者！只需一次性捐贈相當於 12 個月贊助金額的款項，即可獲得相應的贊助等級。這是一種簡單靈活的捐贈方式。"
 
-#: donation.php:303
+#: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
 msgstr "如果您不確定或無法承諾定期捐款，但仍然想幫助該項目，您可以進行一次性捐款，金額不限。"
 
-#: donation.php:304
+#: donation.php:317
 msgid "Choose freely the amount you wish to donate one time only."
 msgstr "您可以自由選擇一次性捐贈金額。"
 
-#: donation.php:307
+#: donation.php:320
 msgid "You can support FreeCAD by sponsoring it as an individual or organization through various platforms. Sponsorship provides a steady income for developers, allowing the FPA to plan ahead and enabling greater investment in FreeCAD. To encourage sponsorship, we offer different tiers, and unless you choose to remain anonymous, your name or company logo will be featured on our website accordingly."
 msgstr "您可以透過各種平台以個人或組織的身份贊助 FreeCAD。贊助能為開發者提供穩定的收入來源，使 FPA 能夠事先規劃並增加對 FreeCAD 的投入。為了鼓勵贊助，我們提供不同等級的贊助方案。除非您選擇匿名，否則您的姓名或公司標誌將根據贊助情況在我們的網站上展示。"
 
-#: donation.php:311
+#: donation.php:324
 msgid "Normal sponsor"
 msgstr "普通贊助者"
 
-#: donation.php:315
+#: donation.php:328
 msgid "from 1 USD / 1 EUR per month. You will not have your name displayed here, but you will have helped the project a lot anyway. Together, normal sponsors maintain the project on its feet as much as the bigger sponsors."
 msgstr "每月 1 美元/1 歐元起。這裡不會顯示您的名字，但無論如何您都會為該項目提供很多幫助。普通贊助商與大型贊助商一樣，共同維持計畫的運作。"
 
-#: donation.php:320
+#: donation.php:333
 msgid "Bronze sponsor"
 msgstr "銅級贊助商"
 
-#: donation.php:324
+#: donation.php:337
 msgid "from 25 USD / 25 EUR per month. Your name or company name is displayed on this page."
 msgstr "每月 25 美元/25 歐元起。您的姓名或 公司名稱將顯示在此頁面上。"
 
-#: donation.php:329
+#: donation.php:342
 msgid "Silver sponsor"
 msgstr "銀級贊助者"
 
-#: donation.php:333
+#: donation.php:346
 msgid "from 100 USD / 100 EUR per month. Your name or company name is displayed on this page, with a link to your website, and a one-line description text."
 msgstr "每月 100 美元/100 歐元起。您的姓名或公司名稱將顯示在此頁面上，並帶有指向您網站的連結以及一行描述文字。"
 
-#: donation.php:338
+#: donation.php:351
 msgid "Gold sponsor"
 msgstr "黃金級贊助商"
 
-#: donation.php:342
+#: donation.php:355
 msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
 msgstr "每月 200 美元/200 歐元起。您的姓名或公司名稱及徽標將顯示在此頁面上，並附有指向您網站的連結和自訂描述文字。早期為 FreeCAD 提供幫助的公司也將以黃金贊助商的身份出現。"
 
-#: donation.php:346
+#: donation.php:360
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
 msgstr "您可能會發現，比起每月捐款， 更方便的是進行一次性捐款， 除以十二後，您將有權進入贊助級別。不要猶豫要這樣做！"
 
-#: donation.php:347
+#: donation.php:361
 msgid "Choose freely the amount you wish to donate each month."
 msgstr "您可以自由選擇每月希望捐贈的金額。"
 
@@ -715,171 +715,171 @@ msgid "Improve this\n"
 "      page on GitHub"
 msgstr "在 Github 上改善此頁面"
 
-#: header.php:24 header.php:37
+#: header.php:25 header.php:38
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD：屬於您的 3D 參數化建模軟體"
 
-#: header.php:76
+#: header.php:77
 msgid "Features"
 msgstr "功能"
 
-#: header.php:80
+#: header.php:81
 msgid "Download"
 msgstr "下載"
 
-#: header.php:84
+#: header.php:85
 msgid "Blog"
 msgstr "部落格"
 
-#: header.php:88
+#: header.php:89
 msgid "Documentation"
 msgstr "文件"
 
-#: header.php:91
+#: header.php:92
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:91
+#: header.php:92
 msgid "Documentation index"
 msgstr "文件索引"
 
-#: header.php:92 thankyou.php:125
+#: header.php:93 thankyou.php:125
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:92
+#: header.php:93
 msgid "Getting started"
 msgstr "開始"
 
-#: header.php:93
+#: header.php:94
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:93
+#: header.php:94
 msgid "Users documentation"
 msgstr "使用者文件"
 
-#: header.php:94 thankyou.php:137
+#: header.php:95 thankyou.php:137
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:94
+#: header.php:95
 msgid "The FreeCAD manual"
 msgstr "FreeCAD 手冊"
 
-#: header.php:95 thankyou.php:127
+#: header.php:96 thankyou.php:127
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:95 thankyou.php:127
+#: header.php:96 thankyou.php:127
 msgid "Workbenches documentation"
 msgstr "工作台文件"
 
-#: header.php:96
+#: header.php:97
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:96
+#: header.php:97
 msgid "Python coding documentation"
 msgstr "Python 程式設計文件"
 
-#: header.php:97
+#: header.php:98
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:97
+#: header.php:98
 msgid "C++ coding documentation"
 msgstr "C++ 程式文件"
 
-#: header.php:98 thankyou.php:146
+#: header.php:99 thankyou.php:146
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:98 thankyou.php:146
+#: header.php:99 thankyou.php:146
 msgid "Tutorials"
 msgstr "教學"
 
-#: header.php:99 thankyou.php:128
+#: header.php:100 thankyou.php:128
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:99 thankyou.php:128
+#: header.php:100 thankyou.php:128
 msgid "Frequently asked questions"
 msgstr "常見問題"
 
-#: header.php:100
+#: header.php:101
 msgid "Privacy policy"
 msgstr "隱私條款"
 
-#: header.php:101
+#: header.php:102
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/About_FreeCAD"
 
-#: header.php:101
+#: header.php:102
 msgid "About FreeCAD"
 msgstr "關於 FreeCAD"
 
-#: header.php:106
+#: header.php:107
 msgid "Contribute"
 msgstr "貢獻"
 
-#: header.php:109
+#: header.php:110
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
-#: header.php:109
+#: header.php:110
 msgid "How to help"
 msgstr "如何幫助"
 
-#: header.php:110
+#: header.php:111
 msgid "Sponsor"
 msgstr "贊助者"
 
-#: header.php:111
+#: header.php:112
 msgid "Report a bug"
 msgstr "回報錯誤"
 
-#: header.php:112
+#: header.php:113
 msgid "Make a pull request"
 msgstr "提出 Pull Request (PR)"
 
-#: header.php:113
+#: header.php:114
 msgid "Jobs and funding"
 msgstr "就業和資金"
 
-#: header.php:114
+#: header.php:115
 msgid "Contribution guidelines"
 msgstr "貢獻指南"
 
-#: header.php:115
+#: header.php:116
 msgid "Developers handbook"
 msgstr "開發者手冊"
 
-#: header.php:116
+#: header.php:117
 msgid "https://wiki.freecad.org/Localisation"
 msgstr "https://wiki.freecad.org/Localisation"
 
-#: header.php:116
+#: header.php:117
 msgid "Translations"
 msgstr "翻譯"
 
-#: header.php:121
+#: header.php:122
 msgid "Community"
 msgstr "社群"
 
-#: header.php:124
+#: header.php:125
 msgid "Code of conduct"
 msgstr "行為守則"
 
-#: header.php:125
+#: header.php:126
 msgid "Professional Network"
 msgstr "專業網路"
 
-#: header.php:126
+#: header.php:127
 msgid "Forum"
 msgstr "論壇"
 
-#: header.php:137
+#: header.php:138
 msgid "Calendar"
 msgstr "日曆"
 

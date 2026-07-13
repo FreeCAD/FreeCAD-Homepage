@@ -25,7 +25,7 @@ msgstr "Domov"
 msgid "See what's new"
 msgstr "Oglejte si, kaj je novega"
 
-#: addons.php:140
+#: addons.php:140 header.php:139
 msgid "Addons"
 msgstr "Dodatki"
 
@@ -46,7 +46,7 @@ msgid "Open repository"
 msgstr ""
 
 #: blog.php:57 downloads.php:230 events.php:99 features.php:281 index.php:211
-#: sponsor.php:302 telemetry.php:34
+#: sponsor.php:306 telemetry.php:34
 msgid "Learn more"
 msgstr "Preberite več"
 
@@ -85,136 +85,136 @@ msgstr "Hvala!"
 msgid "The FreeCAD project association"
 msgstr "Združenje projekta FreeCAD"
 
-#: donation.php:219 donation.php:259 header.php:142 sponsor.php:109
+#: donation.php:229 donation.php:269 header.php:144 sponsor.php:109
 #: thankyou.php:91
 msgid "Donate"
 msgstr "Doniraj"
 
-#: donation.php:228
+#: donation.php:238
 msgid "One-Time"
 msgstr "Enkratno"
 
-#: donation.php:230
+#: donation.php:240
 msgid "Monthly"
 msgstr "Mesečno"
 
-#: donation.php:252
+#: donation.php:262
 msgid "Please choose"
 msgstr "Prosimo, izberite"
 
-#: donation.php:253
+#: donation.php:263
 msgid "Direct SEPA bank transfer using your own bank apps"
 msgstr "Neposredno bančno nakazilo SEPA prek vaše bančne aplikacije"
 
-#: donation.php:253
+#: donation.php:263
 msgid "SEPA bank transfer"
 msgstr "SEPA bančno nakazilo"
 
-#: donation.php:254
+#: donation.php:264
 msgid "Credit card payment via Stripe"
 msgstr "Plačilo s kreditno kartico preko Stripa"
 
-#: donation.php:254
+#: donation.php:264
 msgid "Credit card (Stripe)"
 msgstr "Kreditna kartica (Stripe)"
 
-#: donation.php:255
+#: donation.php:265
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
 msgstr "Paypal omogoča doniranje prek vašega Paypal računa ali s kreditno kartico"
 
-#: donation.php:255
+#: donation.php:265
 msgid "Paypal"
 msgstr "Paypal"
 
-#: donation.php:256
+#: donation.php:266
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
 msgstr "GitHub omogoča sponzoriranje vaših najljubših projektov prek vašega GitHub računa ali s kreditno kartico"
 
-#: donation.php:256
+#: donation.php:266
 msgid "GitHub"
 msgstr "GitHubu"
 
-#: donation.php:257
+#: donation.php:267
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account."
 msgstr "OpenCollective služi kot finančni posrednik za odprtokodne projekte. Donacijo lahko opravite s kreditno kartico ali bančnim računom."
 
-#: donation.php:257
+#: donation.php:267
 msgid "OpenCollective"
 msgstr "OpenCollective"
 
-#: donation.php:266
+#: donation.php:276
 msgid "SEPA Information"
 msgstr "Podatki o SEPA"
 
-#: donation.php:272
+#: donation.php:282
 msgid "Please set up your SEPA bank transfer to"
 msgstr "Prosimo, izvedite vaše SEPA bančno nakazilo na"
 
-#: donation.php:275
+#: donation.php:285
 msgid "Beneficiary"
 msgstr "Prejemnik"
 
-#: donation.php:287
+#: donation.php:297
 msgid "Bank agency"
 msgstr "Bančna agencija"
 
-#: donation.php:291
+#: donation.php:301
 msgid "Address"
 msgstr "Naslov"
 
-#: donation.php:298
+#: donation.php:308
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
 msgstr "Čeprav Stripe ne podpira mesečnih donacij, lahko kljub temu postanete sponzor! Preprosto naredite enkratno donacijo v višini 12 mesečnih prispevkov in pridobili boste pripadajoči sponzorski naziv. To je enostaven in fleksibilen način za prispevanje."
 
-#: donation.php:303
+#: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
 msgstr "Če niste prepričani ali pa se ne morete zavezati rednim donacijam, vendar želite kljub temu pomagati projektu, lahko naredite enkratno donacijo v poljubnem znesku."
 
-#: donation.php:304
+#: donation.php:317
 msgid "Choose freely the amount you wish to donate one time only."
 msgstr "Izberite poljuben znesek za enkratno donacijo."
 
-#: donation.php:307
+#: donation.php:320
 msgid "You can support FreeCAD by sponsoring it as an individual or organization through various platforms. Sponsorship provides a steady income for developers, allowing the FPA to plan ahead and enabling greater investment in FreeCAD. To encourage sponsorship, we offer different tiers, and unless you choose to remain anonymous, your name or company logo will be featured on our website accordingly."
 msgstr "FreeCAD lahko podprete s sponzorstvom kot posameznik ali organizacija prek različnih platform. Sponzorstvo zagotavlja stalni priliv sredstev za razvijalce, kar omogoča FPA dolgoročno načrtovanje in večja vlaganja v FreeCAD. Da bi spodbudili sponzorstvo, ponujamo različne nazive, skladno s katerimi bo vaše ime ali logotip podjetja prikazan na naši spletni strani, razen če želite ostati anonimni."
 
-#: donation.php:311
+#: donation.php:324
 msgid "Normal sponsor"
 msgstr "Navadni sponzor"
 
-#: donation.php:315
+#: donation.php:328
 msgid "from 1 USD / 1 EUR per month. You will not have your name displayed here, but you will have helped the project a lot anyway. Together, normal sponsors maintain the project on its feet as much as the bigger sponsors."
 msgstr "od 1 USD / 1 EUR na mesec. Vašega imena tukaj ne bo prikazanega, vendar boste kljub temu projektu zelo pomagali. Skupaj navadni sponzorji projekt podpirajo v enaki meri kot večji sponzorji."
 
-#: donation.php:320
+#: donation.php:333
 msgid "Bronze sponsor"
 msgstr "Bronasti sponzor"
 
-#: donation.php:324
+#: donation.php:337
 msgid "from 25 USD / 25 EUR per month. Your name or company name is displayed on this page."
 msgstr "od 25 USD / 25 EUR na mesec. Na tej strani je prikazano vaše ime ali ime podjetja."
 
-#: donation.php:329
+#: donation.php:342
 msgid "Silver sponsor"
 msgstr "Srebrni sponzor"
 
-#: donation.php:333
+#: donation.php:346
 msgid "from 100 USD / 100 EUR per month. Your name or company name is displayed on this page, with a link to your website, and a one-line description text."
 msgstr "od 100 USD / 100 EUR na mesec. Na tej strani je prikazano vaše ime ali ime podjetja, povezava do vaše spletne strani in enovrstični opis."
 
-#: donation.php:338
+#: donation.php:351
 msgid "Gold sponsor"
 msgstr "Zlati sponzor"
 
-#: donation.php:342
+#: donation.php:355
 msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
 msgstr "od 200 USD / 200 EUR na mesec. Na tej strani je prikazano vaše ime ali ime podjetja z logotipom, povezava do vaše spletne strani in podrobnejši opis. Podjetja, ki so FreeCAD-u pomagala že v začetku, so prav tako navedena med zlatimi sponzorji."
 
-#: donation.php:346
+#: donation.php:360
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
 msgstr "Namesto mesečnih donacij vam bo morda bolj ustrezala enkratna donacija, ki vam bo, če jo razdelite na dvanajst delov, omogočila sponzorski naziv. Brez oklevanja lahko naredite tudi tako!"
 
-#: donation.php:347
+#: donation.php:361
 msgid "Choose freely the amount you wish to donate each month."
 msgstr "Izberite poljuben znesek, ki ga želite donirati vsak mesec."
 
@@ -678,171 +678,171 @@ msgid "Improve this\n"
 "      page on GitHub"
 msgstr "Izboljšajte to stran na GitHubu"
 
-#: header.php:24 header.php:37
+#: header.php:25 header.php:38
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Vaš lastni 3D parametrični modelirnik"
 
-#: header.php:76
+#: header.php:77
 msgid "Features"
 msgstr "Značilnosti"
 
-#: header.php:80
+#: header.php:81
 msgid "Download"
 msgstr "Prenesi"
 
-#: header.php:84
+#: header.php:85
 msgid "Blog"
 msgstr "Blog"
 
-#: header.php:88
+#: header.php:89
 msgid "Documentation"
 msgstr "Dokumentacija"
 
-#: header.php:91
+#: header.php:92
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:91
+#: header.php:92
 msgid "Documentation index"
 msgstr "Kazalo dokumentacije"
 
-#: header.php:92 thankyou.php:125
+#: header.php:93 thankyou.php:125
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:92
+#: header.php:93
 msgid "Getting started"
 msgstr "Prvi koraki"
 
-#: header.php:93
+#: header.php:94
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:93
+#: header.php:94
 msgid "Users documentation"
 msgstr "Uporabniška dokumentacija"
 
-#: header.php:94 thankyou.php:137
+#: header.php:95 thankyou.php:137
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:94
+#: header.php:95
 msgid "The FreeCAD manual"
 msgstr "Navodilo za FreeCAD"
 
-#: header.php:95 thankyou.php:127
+#: header.php:96 thankyou.php:127
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:95 thankyou.php:127
+#: header.php:96 thankyou.php:127
 msgid "Workbenches documentation"
 msgstr "Dokumentacija za delovna okolja"
 
-#: header.php:96
+#: header.php:97
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:96
+#: header.php:97
 msgid "Python coding documentation"
 msgstr "Dokumentacija za pisanje Python kode"
 
-#: header.php:97
+#: header.php:98
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:97
+#: header.php:98
 msgid "C++ coding documentation"
 msgstr "Dokumentacija za pisanje C++ kode"
 
-#: header.php:98 thankyou.php:146
+#: header.php:99 thankyou.php:146
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:98 thankyou.php:146
+#: header.php:99 thankyou.php:146
 msgid "Tutorials"
 msgstr "Vodiči"
 
-#: header.php:99 thankyou.php:128
+#: header.php:100 thankyou.php:128
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:99 thankyou.php:128
+#: header.php:100 thankyou.php:128
 msgid "Frequently asked questions"
 msgstr "Pogosta vprašanja"
 
-#: header.php:100
+#: header.php:101
 msgid "Privacy policy"
 msgstr "Politika zasebnosti"
 
-#: header.php:101
+#: header.php:102
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/About_FreeCAD"
 
-#: header.php:101
+#: header.php:102
 msgid "About FreeCAD"
 msgstr "O FreeCAD-u"
 
-#: header.php:106
+#: header.php:107
 msgid "Contribute"
 msgstr "Prispevajte"
 
-#: header.php:109
+#: header.php:110
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
-#: header.php:109
+#: header.php:110
 msgid "How to help"
 msgstr "Kako pomagati"
 
-#: header.php:110
+#: header.php:111
 msgid "Sponsor"
 msgstr "Sponzoriranje"
 
-#: header.php:111
+#: header.php:112
 msgid "Report a bug"
 msgstr "Prijavite napako"
 
-#: header.php:112
+#: header.php:113
 msgid "Make a pull request"
 msgstr "Ustvarite predlog za spremembo"
 
-#: header.php:113
+#: header.php:114
 msgid "Jobs and funding"
 msgstr "Zaposlitve in financiranje"
 
-#: header.php:114
+#: header.php:115
 msgid "Contribution guidelines"
 msgstr "Usmeritve za prispevanje"
 
-#: header.php:115
+#: header.php:116
 msgid "Developers handbook"
 msgstr "Priročnik za razvijalce"
 
-#: header.php:116
+#: header.php:117
 msgid "https://wiki.freecad.org/Localisation"
 msgstr "https://wiki.freecad.org/Localisation"
 
-#: header.php:116
+#: header.php:117
 msgid "Translations"
 msgstr "Prevodi"
 
-#: header.php:121
+#: header.php:122
 msgid "Community"
 msgstr "Skupnost"
 
-#: header.php:124
+#: header.php:125
 msgid "Code of conduct"
 msgstr "Kodeks obnašanja"
 
-#: header.php:125
+#: header.php:126
 msgid "Professional Network"
 msgstr "Poslovno omrežje"
 
-#: header.php:126
+#: header.php:127
 msgid "Forum"
 msgstr "Forum"
 
-#: header.php:137
+#: header.php:138
 msgid "Calendar"
 msgstr "Koledar"
 

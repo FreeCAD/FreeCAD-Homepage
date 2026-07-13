@@ -25,7 +25,7 @@ msgstr "Hem"
 msgid "See what's new"
 msgstr "Se vad som är nytt"
 
-#: addons.php:140
+#: addons.php:140 header.php:139
 msgid "Addons"
 msgstr "Tillägg"
 
@@ -46,7 +46,7 @@ msgid "Open repository"
 msgstr "Öppna arkiv"
 
 #: blog.php:57 downloads.php:230 events.php:99 features.php:281 index.php:211
-#: sponsor.php:302 telemetry.php:34
+#: sponsor.php:306 telemetry.php:34
 msgid "Learn more"
 msgstr "Läs mer"
 
@@ -85,136 +85,136 @@ msgstr "Tack!"
 msgid "The FreeCAD project association"
 msgstr "The FreeCAD project association"
 
-#: donation.php:219 donation.php:259 header.php:142 sponsor.php:109
+#: donation.php:229 donation.php:269 header.php:144 sponsor.php:109
 #: thankyou.php:91
 msgid "Donate"
 msgstr "Donera"
 
-#: donation.php:228
+#: donation.php:238
 msgid "One-Time"
 msgstr "En gång"
 
-#: donation.php:230
+#: donation.php:240
 msgid "Monthly"
 msgstr "Månadsvis"
 
-#: donation.php:252
+#: donation.php:262
 msgid "Please choose"
 msgstr "Välj"
 
-#: donation.php:253
+#: donation.php:263
 msgid "Direct SEPA bank transfer using your own bank apps"
 msgstr "Direkt SEPA-banköverföring med egna bankappar"
 
-#: donation.php:253
+#: donation.php:263
 msgid "SEPA bank transfer"
 msgstr "SEPA-banköverföring"
 
-#: donation.php:254
+#: donation.php:264
 msgid "Credit card payment via Stripe"
 msgstr "Kreditkortsbetalning via Stripe"
 
-#: donation.php:254
+#: donation.php:264
 msgid "Credit card (Stripe)"
 msgstr "Kreditkort (Stripe)"
 
-#: donation.php:255
+#: donation.php:265
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
 msgstr "Paypal gör det möjligt att donera med ditt Paypal-konto eller ett kreditkort"
 
-#: donation.php:255
+#: donation.php:265
 msgid "Paypal"
 msgstr "Paypal"
 
-#: donation.php:256
+#: donation.php:266
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
 msgstr "GitHub låter dig sponsra dina favoritprojekt med ditt GitHub-konto och ett kreditkort"
 
-#: donation.php:256
+#: donation.php:266
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donation.php:257
+#: donation.php:267
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account."
 msgstr "OpenCollective fungerar som en skattevärd för projekt med öppen källkod. Du kan donera med kreditkort eller bankkonto."
 
-#: donation.php:257
+#: donation.php:267
 msgid "OpenCollective"
 msgstr "OpenCollective"
 
-#: donation.php:266
+#: donation.php:276
 msgid "SEPA Information"
 msgstr "SEPA-information"
 
-#: donation.php:272
+#: donation.php:282
 msgid "Please set up your SEPA bank transfer to"
 msgstr "Ställ in din SEPA-banköverföring till"
 
-#: donation.php:275
+#: donation.php:285
 msgid "Beneficiary"
 msgstr "Mottagare"
 
-#: donation.php:287
+#: donation.php:297
 msgid "Bank agency"
 msgstr "Bank"
 
-#: donation.php:291
+#: donation.php:301
 msgid "Address"
 msgstr "Adress"
 
-#: donation.php:298
+#: donation.php:308
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
 msgstr "Då Stripe inte stöder månatliga donationer, kan du ändå bli sponsor! Gör helt enkelt en engångsdonation motsvarande 12 månaders stöd, så får du tillgång till motsvarande sponsornivå. Det är ett enkelt och flexibelt sätt att bidra."
 
-#: donation.php:303
+#: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
 msgstr "Om du inte är säker på eller inte kan åta dig att göra regelbundna donationer, men ändå vill stödja projektet, kan du göra en engångsdonation på valfritt belopp."
 
-#: donation.php:304
+#: donation.php:317
 msgid "Choose freely the amount you wish to donate one time only."
 msgstr "Välj fritt det belopp du vill donera en gång."
 
-#: donation.php:307
+#: donation.php:320
 msgid "You can support FreeCAD by sponsoring it as an individual or organization through various platforms. Sponsorship provides a steady income for developers, allowing the FPA to plan ahead and enabling greater investment in FreeCAD. To encourage sponsorship, we offer different tiers, and unless you choose to remain anonymous, your name or company logo will be featured on our website accordingly."
 msgstr "Du kan stödja FreeCAD genom att sponsra det som privatperson eller organisation via olika plattformar. Sponsring ger utvecklare en stabil inkomst, vilket gör det möjligt för FPA att planera framåt och investera mer i FreeCAD. För att uppmuntra sponsring erbjuder vi olika nivåer, och om du inte väljer att vara anonym kommer ditt namn eller företagslogotyp att visas på vår webbplats."
 
-#: donation.php:311
+#: donation.php:324
 msgid "Normal sponsor"
 msgstr "Normal sponsor"
 
-#: donation.php:315
+#: donation.php:328
 msgid "from 1 USD / 1 EUR per month. You will not have your name displayed here, but you will have helped the project a lot anyway. Together, normal sponsors maintain the project on its feet as much as the bigger sponsors."
 msgstr "från 1 USD / 1 EUR per månad. Ditt namn kommer inte att visas här, men du kommer ändå att ha hjälpt projektet mycket. Tillsammans håller vanliga sponsorer projektet igång lika mycket som de större sponsorerna."
 
-#: donation.php:320
+#: donation.php:333
 msgid "Bronze sponsor"
 msgstr "Bronssponsor"
 
-#: donation.php:324
+#: donation.php:337
 msgid "from 25 USD / 25 EUR per month. Your name or company name is displayed on this page."
 msgstr "från 25 USD/25 EUR per månad. Ditt namn eller företagsnamn visas på denna sida."
 
-#: donation.php:329
+#: donation.php:342
 msgid "Silver sponsor"
 msgstr "Silversponsor"
 
-#: donation.php:333
+#: donation.php:346
 msgid "from 100 USD / 100 EUR per month. Your name or company name is displayed on this page, with a link to your website, and a one-line description text."
 msgstr "från 100 USD/100 EUR per månad. Ditt namn eller företagsnamn visas på denna sida, tillsammans med en länk till din webbplats och en kort beskrivning."
 
-#: donation.php:338
+#: donation.php:351
 msgid "Gold sponsor"
 msgstr "Guldsponsor"
 
-#: donation.php:342
+#: donation.php:355
 msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
 msgstr "från 200 USD/200 EUR per månad. Ditt namn eller företagsnamn och logotyp visas på denna sida, med en länk till din webbplats och en anpassad beskrivningstext. Företag som har hjälpt FreeCAD i ett tidigt skede visas också under Guldsponsorer."
 
-#: donation.php:346
+#: donation.php:360
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
 msgstr "Istället för att donera varje månad kanske du tycker att det är bekvämare att göra en engångsdonation som, när den delas med tolv, ger dig rätt att gå med i en sponsornivå. Tveka inte att göra det!"
 
-#: donation.php:347
+#: donation.php:361
 msgid "Choose freely the amount you wish to donate each month."
 msgstr "Välj fritt det belopp du vill donera varje månad."
 
@@ -744,171 +744,171 @@ msgid "Improve this\n"
 msgstr "Förbättra denna\n"
 " sida på GitHub"
 
-#: header.php:24 header.php:37
+#: header.php:25 header.php:38
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Din egna parametriska 3D-modellerare"
 
-#: header.php:76
+#: header.php:77
 msgid "Features"
 msgstr "Funktioner"
 
-#: header.php:80
+#: header.php:81
 msgid "Download"
 msgstr "Ladda ner"
 
-#: header.php:84
+#: header.php:85
 msgid "Blog"
 msgstr "Blogg"
 
-#: header.php:88
+#: header.php:89
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: header.php:91
+#: header.php:92
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:91
+#: header.php:92
 msgid "Documentation index"
 msgstr "Dokumentationsindex"
 
-#: header.php:92 thankyou.php:125
+#: header.php:93 thankyou.php:125
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:92
+#: header.php:93
 msgid "Getting started"
 msgstr "Kom igång"
 
-#: header.php:93
+#: header.php:94
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:93
+#: header.php:94
 msgid "Users documentation"
 msgstr "Användardokumentation"
 
-#: header.php:94 thankyou.php:137
+#: header.php:95 thankyou.php:137
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:94
+#: header.php:95
 msgid "The FreeCAD manual"
 msgstr "FreeCAD-manualen"
 
-#: header.php:95 thankyou.php:127
+#: header.php:96 thankyou.php:127
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:95 thankyou.php:127
+#: header.php:96 thankyou.php:127
 msgid "Workbenches documentation"
 msgstr "Dokumentation för arbetsbänkar"
 
-#: header.php:96
+#: header.php:97
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:96
+#: header.php:97
 msgid "Python coding documentation"
 msgstr "Dokumentation för Python-kodning"
 
-#: header.php:97
+#: header.php:98
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:97
+#: header.php:98
 msgid "C++ coding documentation"
 msgstr "Dokumentation för C++-kodning"
 
-#: header.php:98 thankyou.php:146
+#: header.php:99 thankyou.php:146
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:98 thankyou.php:146
+#: header.php:99 thankyou.php:146
 msgid "Tutorials"
 msgstr "Handledningar"
 
-#: header.php:99 thankyou.php:128
+#: header.php:100 thankyou.php:128
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:99 thankyou.php:128
+#: header.php:100 thankyou.php:128
 msgid "Frequently asked questions"
 msgstr "Frågor och svar"
 
-#: header.php:100
+#: header.php:101
 msgid "Privacy policy"
 msgstr "Integritetspolicy"
 
-#: header.php:101
+#: header.php:102
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/About_FreeCAD"
 
-#: header.php:101
+#: header.php:102
 msgid "About FreeCAD"
 msgstr "Om FreeCAD"
 
-#: header.php:106
+#: header.php:107
 msgid "Contribute"
 msgstr "Bidra"
 
-#: header.php:109
+#: header.php:110
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
-#: header.php:109
+#: header.php:110
 msgid "How to help"
 msgstr "Hur hjälper du till"
 
-#: header.php:110
+#: header.php:111
 msgid "Sponsor"
 msgstr "Sponsor"
 
-#: header.php:111
+#: header.php:112
 msgid "Report a bug"
 msgstr "Rapportera en bugg"
 
-#: header.php:112
+#: header.php:113
 msgid "Make a pull request"
 msgstr "Skapa en pull-begäran"
 
-#: header.php:113
+#: header.php:114
 msgid "Jobs and funding"
 msgstr "Jobb och finansiering"
 
-#: header.php:114
+#: header.php:115
 msgid "Contribution guidelines"
 msgstr "Riktlinjer för bidrag"
 
-#: header.php:115
+#: header.php:116
 msgid "Developers handbook"
 msgstr "Handbok för utvecklare"
 
-#: header.php:116
+#: header.php:117
 msgid "https://wiki.freecad.org/Localisation"
 msgstr "https://wiki.freecad.org/Localisation"
 
-#: header.php:116
+#: header.php:117
 msgid "Translations"
 msgstr "Översättningar"
 
-#: header.php:121
+#: header.php:122
 msgid "Community"
 msgstr "Gemenskap"
 
-#: header.php:124
+#: header.php:125
 msgid "Code of conduct"
 msgstr "Uppförandekod"
 
-#: header.php:125
+#: header.php:126
 msgid "Professional Network"
 msgstr "Professionellt nätverk"
 
-#: header.php:126
+#: header.php:127
 msgid "Forum"
 msgstr "Forum"
 
-#: header.php:137
+#: header.php:138
 msgid "Calendar"
 msgstr "Kalender"
 

@@ -25,7 +25,7 @@ msgstr "Αρχική"
 msgid "See what's new"
 msgstr "Δες τι νέα υπάρχουν"
 
-#: addons.php:140
+#: addons.php:140 header.php:139
 msgid "Addons"
 msgstr "Πρόσθετα"
 
@@ -46,7 +46,7 @@ msgid "Open repository"
 msgstr "Άνοιγμα αποθετηρίου"
 
 #: blog.php:57 downloads.php:230 events.php:99 features.php:281 index.php:211
-#: sponsor.php:302 telemetry.php:34
+#: sponsor.php:306 telemetry.php:34
 msgid "Learn more"
 msgstr "Μάθετε περισσότερα"
 
@@ -92,137 +92,137 @@ msgstr "Ευχαριστούμε!"
 msgid "The FreeCAD project association"
 msgstr "Ο σύνδεσμος έργου FreeCAD"
 
-#: donation.php:219 donation.php:259 header.php:142 sponsor.php:109
+#: donation.php:229 donation.php:269 header.php:144 sponsor.php:109
 #: thankyou.php:91
 msgid "Donate"
 msgstr "Δωρεά"
 
-#: donation.php:228
+#: donation.php:238
 msgid "One-Time"
 msgstr "Μία φορά"
 
-#: donation.php:230
+#: donation.php:240
 msgid "Monthly"
 msgstr "Μηνιαία"
 
-#: donation.php:252
+#: donation.php:262
 msgid "Please choose"
 msgstr "Παρακαλώ επιλέξτε"
 
-#: donation.php:253
+#: donation.php:263
 msgid "Direct SEPA bank transfer using your own bank apps"
 msgstr "Απευθείας τραπεζική μεταφορά SEPA χρησιμοποιώντας τις δικές σας τραπεζικές εφαρμογές"
 
-#: donation.php:253
+#: donation.php:263
 msgid "SEPA bank transfer"
 msgstr "Τραπεζικό έμβασμα SEPA"
 
-#: donation.php:254
+#: donation.php:264
 msgid "Credit card payment via Stripe"
 msgstr "Πληρωμή με πιστωτική κάρτα μέσω Stripe"
 
-#: donation.php:254
+#: donation.php:264
 msgid "Credit card (Stripe)"
 msgstr "Πιστωτική κάρτα (Stripe)"
 
-#: donation.php:255
+#: donation.php:265
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
 msgstr "PayPal επιτρέπει να δωρίσετε χρησιμοποιώντας το λογαριασμό σας Paypal, ή μια πιστωτική κάρτα"
 
-#: donation.php:255
+#: donation.php:265
 msgid "Paypal"
 msgstr "Paypal"
 
-#: donation.php:256
+#: donation.php:266
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
 msgstr "Το Github σας επιτρέπει να χορηγήσετε τα αγαπημένα σας έργα χρησιμοποιώντας τον λογαριασμό σας github και μια πιστωτική κάρτα"
 
-#: donation.php:256
+#: donation.php:266
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donation.php:257
+#: donation.php:267
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account."
 msgstr "Το OpenCollective λειτουργεί ως οικονομικός πάροχος για έργα ανοιχτού κώδικα. Μπορείτε να κάνετε δωρεά με πιστωτική κάρτα ή τραπεζικό λογαριασμό."
 
-#: donation.php:257
+#: donation.php:267
 msgid "OpenCollective"
 msgstr "(OpenCollective) Ανοιχτή Συλλογικότητα"
 
-#: donation.php:266
+#: donation.php:276
 msgid "SEPA Information"
 msgstr "Πληροφορίες SEPA"
 
-#: donation.php:272
+#: donation.php:282
 msgid "Please set up your SEPA bank transfer to"
 msgstr "Παρακαλώ ρυθμίστε το τραπεζικό έμβασμα SEPA σε"
 
-#: donation.php:275
+#: donation.php:285
 msgid "Beneficiary"
 msgstr "Δικαιούχος"
 
-#: donation.php:287
+#: donation.php:297
 msgid "Bank agency"
 msgstr "Τραπεζική υπηρεσία"
 
-#: donation.php:291
+#: donation.php:301
 msgid "Address"
 msgstr "Διεύθυνση"
 
-#: donation.php:298
+#: donation.php:308
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
 msgstr "Αν και το Stripe δεν υποστηρίζει μηνιαίες δωρεές, μπορείτε να γίνετε χορηγός! Απλώς κάντε μια εφάπαξ δωρεά που ισοδυναμεί με 12 μήνες υποστήριξης και θα αποκτήσετε πρόσβαση στο αντίστοιχο επίπεδο χορηγίας. Είναι ένας εύκολος και ευέλικτος τρόπος για να συνεισφέρετε."
 
-#: donation.php:303
+#: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
 msgstr "Αν δεν είστε σίγουροι ή δεν μπορείτε να δεσμευτείτε για μια τακτική δωρεά, αλλά εξακολουθείτε να θέλετε να βοηθήσετε το έργο, μπορείτε να κάνετε μια εφάπαξ δωρεά, οποιουδήποτε ποσού."
 
-#: donation.php:304
+#: donation.php:317
 msgid "Choose freely the amount you wish to donate one time only."
 msgstr "Επιλέξτε ελεύθερα το ποσό που θέλετε να δωρίσετε μόνο μία φορά."
 
-#: donation.php:307
+#: donation.php:320
 msgid "You can support FreeCAD by sponsoring it as an individual or organization through various platforms. Sponsorship provides a steady income for developers, allowing the FPA to plan ahead and enabling greater investment in FreeCAD. To encourage sponsorship, we offer different tiers, and unless you choose to remain anonymous, your name or company logo will be featured on our website accordingly."
 msgstr "Μπορείτε να υποστηρίξετε το FreeCAD με χορηγία του ως άτομο ή οργανισμό μέσω διαφόρων πλατφορμών. Η χορηγία παρέχει ένα σταθερό εισόδημα για τους προγραμματιστές, επιτρέποντας στην FPA να προγραμματίζει εκ των προτέρων και επιτρέποντας μεγαλύτερες επενδύσεις στο FreeCAD. Για να ενθαρρύνουμε τη χορηγία, προσφέρουμε διαφορετικά επίπεδα και, εκτός εάν επιλέξετε να παραμείνετε ανώνυμοι, το όνομα ή το λογότυπο της εταιρείας σας θα εμφανίζεται στον ιστότοπό μας αναλόγως."
 
-#: donation.php:311
+#: donation.php:324
 msgid "Normal sponsor"
 msgstr "Κανονικός χορηγός"
 
-#: donation.php:315
+#: donation.php:328
 msgid "from 1 USD / 1 EUR per month. You will not have your name displayed here, but you will have helped the project a lot anyway. Together, normal sponsors maintain the project on its feet as much as the bigger sponsors."
 msgstr "από 1 USD / 1 EUR ανά μήνα. Δεν θα εμφανίζεται το όνομά σας εδώ, αλλά ούτως ή άλλως θα έχετε βοηθήσει πολύ το έργο. \n"
 "Μαζί, κανονικοί και οι μεγαλύτεροι χορηγοι διατηρούν το έργο στα πόδια του."
 
-#: donation.php:320
+#: donation.php:333
 msgid "Bronze sponsor"
 msgstr "Χάλκινος χορηγός"
 
-#: donation.php:324
+#: donation.php:337
 msgid "from 25 USD / 25 EUR per month. Your name or company name is displayed on this page."
 msgstr "από 25 USD / 25 EUR ανά μήνα. Το όνομά σας ή η επωνυμία της εταιρείας σας εμφανίζεται σε αυτήν τη σελίδα."
 
-#: donation.php:329
+#: donation.php:342
 msgid "Silver sponsor"
 msgstr "Χορηγός αργύρου"
 
-#: donation.php:333
+#: donation.php:346
 msgid "from 100 USD / 100 EUR per month. Your name or company name is displayed on this page, with a link to your website, and a one-line description text."
 msgstr "από 100 USD / 100 EUR ανά μήνα. Το όνομα ή η επωνυμία της εταιρείας σας εμφανίζεται σε αυτήν τη σελίδα, με έναν σύνδεσμο προς τον ιστότοπό σας και ένα κείμενο περιγραφής μιας γραμμής."
 
-#: donation.php:338
+#: donation.php:351
 msgid "Gold sponsor"
 msgstr "Χρυσός χορηγός"
 
-#: donation.php:342
+#: donation.php:355
 msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
 msgstr "από 200 USD / 200 EUR ανά μήνα. Το όνομά σας ή το όνομα και το λογότυπο της εταιρείας σας εμφανίζονται σε αυτήν τη σελίδα, με έναν σύνδεσμο προς τον ιστότοπό σας και ένα προσαρμοσμένο κείμενο περιγραφής. Οι εταιρείες που έχουν βοηθήσει το FreeCAD από νωρίς εμφανίζονται στους Gold. (Χρυσοί) χορηγο'ι."
 
-#: donation.php:346
+#: donation.php:360
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
 msgstr "Αντί να κάνετε δωρεές κάθε μήνα, ίσως σας φανεί πιο άνετο να κάνετε μια εφάπαξ δωρεά η οποία, διαιρούμενη με το δώδεκα, θα σας έδινε το δικαίωμα να εισέλθετε σε μια βαθμίδα χορηγίας. Μην διστάσετε να το κάνετε!"
 
-#: donation.php:347
+#: donation.php:361
 msgid "Choose freely the amount you wish to donate each month."
 msgstr "Επιλέξτε ελεύθερα το ποσό που επιθυμείτε να δωρίζετε κάθε μήνα."
 
@@ -772,171 +772,171 @@ msgid "Improve this\n"
 msgstr "Βελτίωση αυτής της σελίδας\n"
 "      στο GitHub"
 
-#: header.php:24 header.php:37
+#: header.php:25 header.php:38
 msgid "FreeCAD: Your own 3D parametric modeler"
 msgstr "FreeCAD: Το δικό σας 3D παραμετρικό μοντέλο"
 
-#: header.php:76
+#: header.php:77
 msgid "Features"
 msgstr "Χαρακτηριστικά"
 
-#: header.php:80
+#: header.php:81
 msgid "Download"
 msgstr "Λήψη"
 
-#: header.php:84
+#: header.php:85
 msgid "Blog"
 msgstr "Ιστολόγιο"
 
-#: header.php:88
+#: header.php:89
 msgid "Documentation"
 msgstr "Οδηγίες"
 
-#: header.php:91
+#: header.php:92
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:91
+#: header.php:92
 msgid "Documentation index"
 msgstr "Ευρετήριο εγγράφων"
 
-#: header.php:92 thankyou.php:125
+#: header.php:93 thankyou.php:125
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:92
+#: header.php:93
 msgid "Getting started"
 msgstr "Ξεκινώντας"
 
-#: header.php:93
+#: header.php:94
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:93
+#: header.php:94
 msgid "Users documentation"
 msgstr "Έγγραφα βοήθειας για τους χρήστες"
 
-#: header.php:94 thankyou.php:137
+#: header.php:95 thankyou.php:137
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:94
+#: header.php:95
 msgid "The FreeCAD manual"
 msgstr "Το εγχειρίδιο του FreeCAD"
 
-#: header.php:95 thankyou.php:127
+#: header.php:96 thankyou.php:127
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:95 thankyou.php:127
+#: header.php:96 thankyou.php:127
 msgid "Workbenches documentation"
 msgstr "Οδηγίες χρήσης προγραμμάτων Εργαλειοθήκης"
 
-#: header.php:96
+#: header.php:97
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:96
+#: header.php:97
 msgid "Python coding documentation"
 msgstr "Εγχειρίδια, οδηγίες και προγράμματα κωδικοποίησης Python"
 
-#: header.php:97
+#: header.php:98
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:97
+#: header.php:98
 msgid "C++ coding documentation"
 msgstr "Τεκμηρίωση κωδικοποίησης C++"
 
-#: header.php:98 thankyou.php:146
+#: header.php:99 thankyou.php:146
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:98 thankyou.php:146
+#: header.php:99 thankyou.php:146
 msgid "Tutorials"
 msgstr "Επιδείξεις/Σεμηνάρια"
 
-#: header.php:99 thankyou.php:128
+#: header.php:100 thankyou.php:128
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:99 thankyou.php:128
+#: header.php:100 thankyou.php:128
 msgid "Frequently asked questions"
 msgstr "Συχνές ερωτήσεις"
 
-#: header.php:100
+#: header.php:101
 msgid "Privacy policy"
 msgstr "Πολιτική απορρήτου"
 
-#: header.php:101
+#: header.php:102
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/Σχετικά με το FreeCAD"
 
-#: header.php:101
+#: header.php:102
 msgid "About FreeCAD"
 msgstr "Σχετικά Με FreeCAD"
 
-#: header.php:106
+#: header.php:107
 msgid "Contribute"
 msgstr "Συνεισφέρετε"
 
-#: header.php:109
+#: header.php:110
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
-#: header.php:109
+#: header.php:110
 msgid "How to help"
 msgstr "Πώς να βοηθήσετε"
 
-#: header.php:110
+#: header.php:111
 msgid "Sponsor"
 msgstr "Υποστηρικτής"
 
-#: header.php:111
+#: header.php:112
 msgid "Report a bug"
 msgstr "Αναφορά Σφάλματος"
 
-#: header.php:112
+#: header.php:113
 msgid "Make a pull request"
 msgstr "Δημιουργήστε ένα αίτημα ελέγχου αλλαγών (pull request)"
 
-#: header.php:113
+#: header.php:114
 msgid "Jobs and funding"
 msgstr "Εργασίες και χρηματοδότηση"
 
-#: header.php:114
+#: header.php:115
 msgid "Contribution guidelines"
 msgstr "Οδηγίες συνεισφοράς"
 
-#: header.php:115
+#: header.php:116
 msgid "Developers handbook"
 msgstr "Εγχειρίδιο προγραμματιστών"
 
-#: header.php:116
+#: header.php:117
 msgid "https://wiki.freecad.org/Localisation"
 msgstr "https://wiki.freecad.org/Localisation"
 
-#: header.php:116
+#: header.php:117
 msgid "Translations"
 msgstr "Μεταφράσεις"
 
-#: header.php:121
+#: header.php:122
 msgid "Community"
 msgstr "Κοινότητα"
 
-#: header.php:124
+#: header.php:125
 msgid "Code of conduct"
 msgstr "Κώδικας Δεοντολογίας"
 
-#: header.php:125
+#: header.php:126
 msgid "Professional Network"
 msgstr "Επαγγελματικό Δίκτυο"
 
-#: header.php:126
+#: header.php:127
 msgid "Forum"
 msgstr "Φορουμ"
 
-#: header.php:137
+#: header.php:138
 msgid "Calendar"
 msgstr "Ημερολόγιο"
 
