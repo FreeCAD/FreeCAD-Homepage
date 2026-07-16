@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freecad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 14:35-0500\n"
-"PO-Revision-Date: 2025-12-25 18:21\n"
+"POT-Creation-Date: 2025-12-23 08:01-0600\n"
+"PO-Revision-Date: 2026-07-13 18:25\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -19,15 +19,15 @@ msgstr ""
 
 #: 404.php:23
 msgid "Home"
-msgstr "Kezdőoldal"
+msgstr "Alapértelmezett nézet"
 
 #: 404.php:24 index.php:83
 msgid "See what's new"
 msgstr "Újdonságok megtekintése"
 
-#: addons.php:140
+#: addons.php:140 header.php:139
 msgid "Addons"
-msgstr "Kiegészítők"
+msgstr "Bővítmények"
 
 #: addons.php:200
 msgid "Version:"
@@ -35,7 +35,7 @@ msgstr "Verzió:"
 
 #: addons.php:213
 msgid "Last update:"
-msgstr "Utoljára frissített:"
+msgstr "Utolsó frissítés:"
 
 #: addons.php:217
 msgid "License:"
@@ -43,10 +43,10 @@ msgstr "Licenc:"
 
 #: addons.php:224
 msgid "Open repository"
-msgstr "Adattár megnyitása"
+msgstr "Projekt archívum megnyitása"
 
 #: blog.php:57 downloads.php:230 events.php:99 features.php:281 index.php:211
-#: sponsor.php:302 telemetry.php:34
+#: sponsor.php:306 telemetry.php:34
 msgid "Learn more"
 msgstr "Bővebben"
 
@@ -56,18 +56,18 @@ msgstr "Összes blog"
 
 #: codeofconduct.php:19 contributing.php:19 privacy.php:19
 msgid "This page is retrieved from"
-msgstr "Ez az oldal a következő oldalról származik"
+msgstr "Oldal forrása"
 
 #: contributor.php:11
 msgid "Thank you for your contribution!"
-msgstr "Köszönjük a hozzájárulásod!"
+msgstr "Köszönjük a közreműködésed!"
 
 #: contributor.php:15
 msgid "Thank you for supporting FreeCAD!\n"
 "            Whether you donated a little or a lot, all efforts contribute to\n"
 "            make FreeCAD development go further and faster."
-msgstr "Köszönjük, hogy támogatta a FreeCAD-et!\n"
-"           Akár keveset, akár többet adományozott, minden erőfeszítés hozzájárul ahhoz, hogy \n"
+msgstr "Köszönjük, hogy támogattad a FreeCAD-et!\n"
+"           Akár keveset, akár többet adományoztál, minden erőfeszítés hozzájárul ahhoz, hogy \n"
 "       a FreeCAD fejlesztése tovább és gyorsabban haladjon."
 
 #: contributor.php:20
@@ -77,166 +77,174 @@ msgid "If you have made a recurring donation above 25 USD/EUR\n"
 "            your name, company name or logo displayed on the FreeCAD website,\n"
 "            depending on the tier you fit in. If you have not yet informed us of\n"
 "            the name you wish to see displayed, please reach to us at"
-msgstr "Ha havonta 25 USD/EUR felett rendszeresen \n"
-" adományoz (vagy 300 USD/EUR feletti egyszeri adományt), \n"
-"       jogosult bronz, ezüst vagy arany szponzornak lenni, és \n"
-"       nevét, cégnevét vagy logóját megjelenítheti a FreeCAD weboldalán, \n"
-"       attól függően, hogy melyik szinthez tartozik. Ha még nem tájékoztatott minket arról, hogy milyen \n"
-"       nevet szeretne megjeleníteni, kérjük, forduljon hozzánk a következő címen"
+msgstr "Ha havi 25 USD/EUR feletti ismétlődő támogatást adtál \n"
+" (vagy egyszeri adományt  300 USD/EUR felett), \n"
+"       jogosult vagy bronz, ezüst vagy arany szponzori címre, és \n"
+"       a nevedet, céged nevét vagy logóját megjelenítheted a FreeCAD weboldalán \n"
+"       attól függően, hogy melyik szinthez tartozol. Ha még nem tájékoztattál minket arról, hogy milyen \n"
+"       nevet szeretnél megjeleníteni, kérjük, keress meg minket a következő címen"
 
 #: contributor.php:29
 msgid "Thanks!"
-msgstr "Köszönet!"
+msgstr "Hálásak vagyunk!"
 
 #: contributor.php:32
 msgid "The FreeCAD project association"
 msgstr "A FreeCAD projekt társulás"
 
-#: donation.php:219 donation.php:259 header.php:142 sponsor.php:109
+#: donation.php:229 donation.php:269 header.php:144 sponsor.php:109
 #: thankyou.php:91
 msgid "Donate"
-msgstr "Támogatás"
+msgstr "Hozzájárulás"
 
-#: donation.php:228
+#: donation.php:238
 msgid "One-Time"
 msgstr "Egyszeri"
 
-#: donation.php:230
+#: donation.php:240
 msgid "Monthly"
-msgstr "Havonta"
+msgstr "Havi"
 
-#: donation.php:252
+#: donation.php:262
 msgid "Please choose"
-msgstr "Kérem válasszon"
+msgstr "Jelöld ki"
 
-#: donation.php:253
+#: donation.php:263
 msgid "Direct SEPA bank transfer using your own bank apps"
 msgstr "Közvetlen SEPA banki átutalás saját banki alkalmazásaival"
 
-#: donation.php:253
+#: donation.php:263
 msgid "SEPA bank transfer"
 msgstr "SEPA banki átutalás"
 
-#: donation.php:254
+#: donation.php:264
 msgid "Credit card payment via Stripe"
-msgstr "Hitelkártya Stripe fizetés"
+msgstr "Hitelkártyás Stripe fizetés"
 
-#: donation.php:254
+#: donation.php:264
 msgid "Credit card (Stripe)"
 msgstr "Bankkártya (Stripe)"
 
-#: donation.php:255
+#: donation.php:265
 msgid "Paypal allows to donate using your Paypal account, or a credit card"
-msgstr "PayPal lehetővé teszi, hogy adományozzon a PayPal fiókjával vagy hitelkártyájával"
+msgstr "PayPal lehetővé teszi, hogy adományozz a PayPal fiókoddal vagy bankkártyával"
 
-#: donation.php:255
+#: donation.php:265
 msgid "Paypal"
 msgstr "Paypal"
 
-#: donation.php:256
+#: donation.php:266
 msgid "GitHub allows you to sponsor your favorite projects using your GitHub account, and a credit card"
-msgstr "A GitHub lehetővé teszi, hogy szponzorálja kedvenc projektjeit a GitHub-fiókjával és egy hitelkártyával"
+msgstr "A GitHub lehetővé teszi, hogy szponzoráld kedvenc projektjeidet a GitHub-fiókoddal és egy bank kártyával"
 
-#: donation.php:256
+#: donation.php:266
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donation.php:257
+#: donation.php:267
 msgid "OpenCollective acts as a fiscal host for open-source projects. You can donate with a credit card or bank account."
-msgstr "Az OpenCollective a nyílt forráskódú projektek pénzügyi gazdagépeként működik. Adományozhat hitelkártyával vagy bankszámlával."
+msgstr "Az OpenCollective nyílt forráskódú projektek pénzügyi szolgáltatója. Adományozhatsz hitelkártyával vagy bankszámlával."
 
-#: donation.php:257
+#: donation.php:267
 msgid "OpenCollective"
 msgstr "OpenCollective"
 
-#: donation.php:266
+#: donation.php:276
 msgid "SEPA Information"
 msgstr "SEPA információ"
 
-#: donation.php:272
+#: donation.php:282
 msgid "Please set up your SEPA bank transfer to"
-msgstr "Kérjük, állítsa be a SEPA banki átutalást a következő címre:"
+msgstr "Kérjük, állítsd be a SEPA banki átutalást a következő címre:"
 
-#: donation.php:275
+#: donation.php:285
 msgid "Beneficiary"
 msgstr "Kedvezményezett"
 
-#: donation.php:287
+#: donation.php:297
 msgid "Bank agency"
-msgstr "Bankügynökség"
+msgstr "Pénzintézet"
 
-#: donation.php:291
+#: donation.php:301
 msgid "Address"
 msgstr "Cím"
 
-#: donation.php:298
+#: donation.php:308
 msgid "While Stripe doesn't support monthly donations, you can still become a sponsor! Simply make a one-time donation equivalent to 12 months of support, and you'll gain access to the corresponding sponsoring tier. It's an easy and flexible way to contribute."
-msgstr "Bár a Stripe nem támogatja a havi adományokat, mégis válhatsz támogatóvá! Csak egyszeri adományt kell tenned, ami 12 hónapnyi támogatásnak felel meg, és hozzáférhetsz a megfelelő támogató szinthez. Ez egy könnyű és rugalmas módja a hozzájárulásnak."
+msgstr "Bár a Stripe nem támogatja a havi adományokat, mégis lehetsz a támogatónk! Csak egyszeri adományt kell tenned, ami 12 hónapnyi támogatásnak felel meg, és hozzáférhetsz a megfelelő támogató szinthez. Ez egy könnyű és rugalmas módja a hozzájárulásnak."
 
-#: donation.php:303
+#: donation.php:311
+#, php-format
+msgid "Paypal charges up to 35% fee for transactions under $5. For small donations we recommend using other methods."
+msgstr "A Paypal akár 35%-os díjat is felszámít az 5 dollár alatti tranzakciók után. Kis adományok esetén más módszerek használatát javasoljuk."
+
+#: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
 msgstr "Ha nem vagy biztos benne, vagy nem tudsz elköteleződni egy rendszeres adomány mellett, de mégis szeretnéd segíteni a projektet, akkor egyszeri adományt tehetsz, bármilyen összegben."
 
-#: donation.php:304
+#: donation.php:317
 msgid "Choose freely the amount you wish to donate one time only."
-msgstr "Válassza ki szabadon azt az összeget, amelyet csak egyszer szeretne adományozni."
-
-#: donation.php:307
-msgid "You can support FreeCAD by sponsoring it as an individual or organization through various platforms. Sponsorship provides a steady income for developers, allowing the FPA to plan ahead and enabling greater investment in FreeCAD. To encourage sponsorship, we offer different tiers, and unless you choose to remain anonymous, your name or company logo will be featured on our website accordingly."
-msgstr "Támogathatja a FreeCAD-et úgy, hogy egyénként vagy szervezetként különböző platformokon keresztül szponzorálja. A szponzorálás stabil bevételt biztosít a fejlesztőknek, ami lehetővé teszi az FPA számára a tervezést és a FreeCAD-be történő nagyobb beruházást. A szponzorálás ösztönzése érdekében különböző szinteket kínálunk, és hacsak nem dönt úgy, hogy névtelen marad, a neve vagy a cégének logója ennek megfelelően megjelenik a weboldalunkon."
-
-#: donation.php:311
-msgid "Normal sponsor"
-msgstr "Alap fokozatú szponzor"
-
-#: donation.php:315
-msgid "from 1 USD / 1 EUR per month. You will not have your name displayed here, but you will have helped the project a lot anyway. Together, normal sponsors maintain the project on its feet as much as the bigger sponsors."
-msgstr "1 USD / 1 EUR havonta. Itt nem jelenik meg a neved, de amúgy is sokat segítettél a projektnek. A normál szponzorok együttesen ugyanúgy fenntartják a projektet a lábán, mint a nagyobb szponzorok."
+msgstr "Válaszd ki szabadon az egyszeri támogatás összegét."
 
 #: donation.php:320
-msgid "Bronze sponsor"
-msgstr "Bronz fokozatú szponzor"
+msgid "You can support FreeCAD by sponsoring it as an individual or organization through various platforms. Sponsorship provides a steady income for developers, allowing the FPA to plan ahead and enabling greater investment in FreeCAD. To encourage sponsorship, we offer different tiers, and unless you choose to remain anonymous, your name or company logo will be featured on our website accordingly."
+msgstr "A FreeCAD-et magánszemélyként vagy szervezetként különböző platformokon keresztül támogathatod. A támogatás állandó bevételt biztosít a fejlesztőknek, lehetővé téve az FPA számára az előre tervezést és a FreeCAD-be történő nagyobb beruházásokat. A támogatás ösztönzése érdekében különböző támogatási szinteket kínálunk, és amennyiben nem kíván névtelen maradni, nevét vagy cégének logóját ennek megfelelően feltüntetjük weboldalunkon."
 
 #: donation.php:324
-msgid "from 25 USD / 25 EUR per month. Your name or company name is displayed on this page."
-msgstr "25 USD / 25 EUR -tól havonta. Lehetővé teszi, hogy az Ön neve vagy cégneve megjelenjen ezen az oldalon."
+msgid "Normal sponsor"
+msgstr "Alap fokozatú támogató"
 
-#: donation.php:329
-msgid "Silver sponsor"
-msgstr "Ezüst fokozatú szponzor"
+#: donation.php:328
+msgid "from 1 USD / 1 EUR per month. You will not have your name displayed here, but you will have helped the project a lot anyway. Together, normal sponsors maintain the project on its feet as much as the bigger sponsors."
+msgstr "havi 1 USD / 1 EUR. Itt nem jelenik meg a neved, de amúgy is sokat segítettél a projektnek. Az alap fokozatú támogatók együttesen ugyanúgy életben tartják a projektet, mint a nagyobb támogatók."
 
 #: donation.php:333
-msgid "from 100 USD / 100 EUR per month. Your name or company name is displayed on this page, with a link to your website, and a one-line description text."
-msgstr "100 USD / 100 EUR -tól havonta. Lehetővé teszi, hogy ezen az oldalon megjelenjen a neve vagy a vállalat neve, a webhelyére mutató hivatkozással és egy egysoros leírásszöveggel."
+msgid "Bronze sponsor"
+msgstr "Bronz fokozatú támogató"
 
-#: donation.php:338
-msgid "Gold sponsor"
-msgstr "Arany fokozatú szponzor"
+#: donation.php:337
+msgid "from 25 USD / 25 EUR per month. Your name or company name is displayed on this page."
+msgstr "havi 25 USD / 25 EUR -tól. A neved vagy céged neve megjelenik ezen az oldalon."
 
 #: donation.php:342
-msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
-msgstr "200 USD / 200 EUR-tól havonta. Lehetővé teszi, hogy a neved vagy a céged neve és logója megjelenjen ezen az oldalon, a webhelyedre mutató hivatkozással és egy egyéni leírási szöveggel. Azok a vállalatok, amelyek korán segítettek a FreeCAD-nek, szintén megjelennek\n"
-" az Arany szponzorok alatt."
+msgid "Silver sponsor"
+msgstr "Ezüst fokozatú támogató"
 
 #: donation.php:346
+msgid "from 100 USD / 100 EUR per month. Your name or company name is displayed on this page, with a link to your website, and a one-line description text."
+msgstr "havi 100 USD / 100 EUR -tól. A neved vagy céged neve megjelenik ezen az oldalon, a webhelyére mutató hivatkozással és egy egysoros leírással."
+
+#: donation.php:351
+msgid "Gold sponsor"
+msgstr "Arany fokozatú támogató"
+
+#: donation.php:355
+msgid "from 200 USD / 200 EUR per month. Your name or company name and logo displayed on this page, with a link to your website and a custom description text. Companies that have helped FreeCAD early on also appear under Gold sponsors."
+msgstr "havi 200 USD / 200 EUR-tól. A neved vagy céged neve megjelenik ezen az oldalon, a webhelyére mutató hivatkozással és egy egyedi leírással. Azok a vállalatok, amelyek korán segítettek a FreeCAD-nek, szintén megjelennek az Arany támogatók alatt."
+
+#: donation.php:359
+msgid "The FPA's <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">donation rules</a> apply to all donations."
+msgstr "Az FPA <a href=\"https://fpa.freecad.org/handbook/process/accepting-donations.html\">adományozás szabályai</a> minden adományra vonatkozik."
+
+#: donation.php:360
 msgid "Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don't hesitate to do so!"
-msgstr "Ahelyett, hogy minden hónapban adományoznál, talán kényelmesebbnek találod, ha egyszeri adományt adsz, amely tizenkettővel elosztva feljogosít a támogatói szintre való belépésre. Ne tétovázzon!"
+msgstr "Ahelyett, hogy minden hónapban adományoznál, talán kényelmesebbnek találod, ha egyszeri adományt adsz, amely tizenkettővel elosztva feljogosít egy támogatói szintre. Nyugodtan tegyél így!"
 
-#: donation.php:347
+#: donation.php:361
 msgid "Choose freely the amount you wish to donate each month."
-msgstr "Válassza ki szabadon azt az összeget, amelyet csak havonta egyszer szeretne adományozni."
+msgstr "Válasszd ki szabadon a havi támogatás összegét."
 
-#: donation.php:348
-msgid "Please inform your forum name or twitter handle as a notein your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
-msgstr "Kérjük, adja meg a fórum nevét vagy X elérését megjegyzésként az átutalás során, vagy <a href=mailto:fpa@freecad.org>érjen el minket</a>,hogy megfelelő krediteket adhassunk!"
+#: donation.php:362
+msgid "Please inform your forum name or twitter handle as a note in your transfer, or <a href=mailto:fpa@freecad.org>reach to us</a>, so we can give you proper credits!"
+msgstr "Kérjük, az átutaláson tüntesd fel a fórumnevedet vagy a X elérésedet, vagy lépj kapcsolatba velünk a <a href=mailto:fpa@freecad.org>kapcsolat</a> oldalon, hogy megfelelően megjelölhessünk téged!"
 
 #: downloads.php:70
 msgid "Current stable version:"
-msgstr "Jelenlegi stabil verzió:"
+msgstr "Legfrissebb éles verzió:"
 
 #: downloads.php:71
 msgid "Select your desired platform (note that all downloads are for 64-bit systems):"
-msgstr "Válassza ki a kívánt platformot (vegye figyelembe, hogy minden letöltés 64 bites rendszerekre vonatkozik):"
+msgstr "Válaszd ki a kívánt rendszerfelületet (minden letöltés 64 bites rendszerre készült):"
 
 #: downloads.php:92
 msgid "Windows 8 is the minimum supported version. For more info on installation, please check out the "
@@ -268,7 +276,7 @@ msgstr "https://wiki.freecad.org/Install_on_Unix"
 
 #: downloads.php:148
 msgid "See what has changed since last version in the"
-msgstr "Nézze meg, mi változott a legutóbbi verzió óta a"
+msgstr "Nézd meg, mi változott a legutóbbi verzió óta a"
 
 #: downloads.php:149 index.php:83
 msgid "https://wiki.freecad.org/Release_notes_1.0"
@@ -284,19 +292,19 @@ msgstr "Fejlesztői verziók"
 
 #: downloads.php:166
 msgid "FreeCAD's development happens daily!"
-msgstr "A FreeCAD fejlesztése naponta történik!"
+msgstr "A FreeCAD fejlesztése nap mint nap folyik!"
 
 #: downloads.php:167
 msgid "The FreeCAD community generates weekly builds that are based on <i>bleeding edge</i> FreeCAD code in order for users to test bugfixes/regressions along with new features."
-msgstr "A FreeCAD közösség heti rendszerességgel készít <i>vezető élvonalbeli</i> FreeCAD kódra épülő kiadásokat, hogy a felhasználók az új jellemzők mellett a hibajavításokat/regressziókat is tesztelhessék."
+msgstr "A FreeCAD-közösség folyamatosan készít friss telepítőcsomagokat (heti kiadások), amelyek a <i>legfrissebb</i> FreeCAD-kódon alapulnak, hogy a felhasználók tesztelhessék a hibajavításokat, a változásokat és az új funkciókat."
 
 #: downloads.php:168
 msgid "We ask that advanced users occasionally run the development builds to assist with testing new code."
-msgstr "Kérjük, hogy a haladó felhasználók időnként futtassák a fejlesztői buildeket, hogy segítsenek az új kódok tesztelésében."
+msgstr "Kérjük a haladó felhasználókat, hogy időnként futtassák ezeket a fejlesztői verziókat, hogy segítsenek az új kód tesztelésében."
 
 #: downloads.php:169
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
-msgstr "Ezek a build-ek nem alkalmasak produktív használatra, és óvatosnak kell lenni a használatukkal (rendszeresen készítsen biztonsági mentést a fájljairól, stb.)."
+msgstr "Ezek a programcsomagok használata nem alkalmasak éles környezetre, ezért használatuk során körültekintően kell eljárni (rendszeres adatmentés stb.)."
 
 #: downloads.php:170
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
@@ -308,11 +316,11 @@ msgstr "Letöltés itt "
 
 #: downloads.php:172
 msgid "Weekly Build"
-msgstr "Heti kiadás"
+msgstr "Fejlesztői verzió (heti kiadás)"
 
 #: downloads.php:172
 msgid " for Windows, macOS or Linux. "
-msgstr " windows, macOS vagy Linux operációs rendszerekhez. "
+msgstr " windows, macOS vagy Linux operációs rendszerhez. "
 
 #: downloads.php:173
 msgid "On Linux"
@@ -341,8 +349,8 @@ msgstr "További modulok és makrók"
 #: downloads.php:187
 msgid "The FreeCAD community provides a wealth of additional modules and macros. They can\n"
 "          now easily be installed directly from within FreeCAD using the "
-msgstr "A FreeCAD Közösség rengeteg kiegészítő modult és makrót biztosít. Most könnyedén telepíthetőek közvetlenül a FreeCAD programból. \n"
-" A telepítéshez használja ezt "
+msgstr "A FreeCAD-közösség rengeteg kiegészítő modult és makrót kínál. Ezeket \n"
+"        mostantól egyszerűen közvetlenül a FreeCAD-ből telepíthető "
 
 #: downloads.php:189
 msgid "https://wiki.freecad.org/Std_AddonMgr"
@@ -350,7 +358,7 @@ msgstr "https://wiki.freecad.org/Std_AddonMgr"
 
 #: downloads.php:189
 msgid "Addon manager."
-msgstr "Kiegészítők kezelője."
+msgstr "Bővítmény kezelője."
 
 #: downloads.php:199
 msgid "Source code"
@@ -378,33 +386,33 @@ msgstr "Az alábbi naptárban a FreeCAD találkozók és más közösségi esem�
 
 #: events.php:79
 msgid "Subscribe to this calendar using this"
-msgstr "Iratkozzon fel erre a naptárra ezzel a"
+msgstr "Iratkozzon fel erre a naptárra ezen a linken keresztül"
 
 #: events.php:79
 msgid "ICS link"
-msgstr "ICS összekötés"
+msgstr "ICS hivatkozás"
 
 #: features.php:66
 msgid "Key FreeCAD Features"
-msgstr "FreeCAD fő jellemzői"
+msgstr "A FreeCAD legfőbb funkciói"
 
 #: features.php:77
 msgid "Made to build for the real world"
-msgstr "Készült a valós világ építéséhez"
+msgstr "A való világra tervezve"
 
 #: features.php:79
 msgid "FreeCAD is made primarily to design objects for the real world. Everything you do in FreeCAD uses real-world\n"
 "              units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and\n"
 "              edit solid, full-precision models, export them for 3D printing or CNC machining, create 2D drawings and views of your models,\n"
 "              perform analyses such as Finite Element Analyses, or export model data such as quantities or bills of materials."
-msgstr "A FreeCAD elsősorban a való világ ojektumainak tervezésére készült. Minden, amit a FreeCAD-ben csinálsz, valós\n"
-"    egységeket használ, legyen az mikron, kilométer, hüvelyk vagy láb, vagy akár az egységek bármilyen kombinációja. A FreeCAD <a href=https://wiki.freecad.org/Workbenches>eszközöket kínál</a> szilárd, teljes\n"
-"               pontosságú modellek előállításához, exportálásához és szerkesztéséhez, exportálásához 3D nyomtatáshoz vagy CNC megmunkáláshoz, modellek 2D rajzainak és nézeteinek létrehozásához,\n"
-"               elemzések, például végeselem-elemzések elvégzéséhez, vagy modelladatok, például mennyiségek vagy anyagjegyzékek exportálásához."
+msgstr "A FreeCAD elsősorban a való világ ojektumainak tervezésére készült. A FreeCAD-ben minden valós\n"
+"    mértékegységeket használ, legyen az mikron, kilométer, hüvelyk vagy láb, vagy akár az egységek bármilyen kombinációja. A FreeCAD <a href=https://wiki.freecad.org/Workbenches>eszközei</a> lehetővé teszik szilárd, teljes\n"
+"               pontosságú modellek készítését, exportálását és szerkesztését, 3D nyomtatáshoz vagy CNC megmunkáláshoz való exportálását, modellek 2D rajzainak és nézeteinek létrehozását,\n"
+"               elemzéseket, például végeselem-elemzés készítését, valamint modelladatok, például mennyiségek vagy anyagjegyzékek exportálását."
 
 #: features.php:97
 msgid "A powerful solid-based geometry kernel"
-msgstr "Erős szilárd alapú geometria keretrendszer"
+msgstr "Erőteljes, szilárdtesten alapuló geometria keretrendszer"
 
 #: features.php:99
 msgid "FreeCAD features an advanced geometry engine based on\n"
@@ -415,14 +423,14 @@ msgid "FreeCAD features an advanced geometry engine based on\n"
 "              <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Boolean</a> operations,\n"
 "              <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>fillets</a>, shape cleaning and\n"
 "              <a href=https://wiki.freecad.org/OpenCASCADE>much more</a>."
-msgstr "A FreeCAD fejlett geometriai motorral rendelkezik, amely a következőn alapul:\n"
-"          <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>. Támogatja a szilárd testeket,\n"
-"         <a href=https://en.wikipedia.org/wiki/Boundary_representation>Határ ábrázolás</a> (BRep) tárgyakat, és\n"
+msgstr "A FreeCAD a:\n"
+"          <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a> fejlett technológiára épülő geometriai motorral rendelkezik. Támogatja a szilárd testeket,\n"
+"         <a href=https://en.wikipedia.org/wiki/Boundary_representation>Határ ábrázolás</a> (BRep) objektumok, és\n"
 " <a href=https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline>Nem egységes racionális alap B-görbét</a> (NURBS)\n"
 "         görbék és felületek, és számos eszközök széles skáláját kínálja ezen objektumok létrehozásához és módosításához, beleértve a komplex\n"
 "          <a href=https://en.wikipedia.org/wiki/Boolean_operations_on_polygons>Logikai</a>  műveletek,\n"
 "         <a href=https://en.wikipedia.org/wiki/Fillet_(mechanics)>lekerekítések</a>, alaktisztítás és\n"
-"          <a href=https://wiki.freecad.org/OpenCASCADE>még sok más</a>."
+"          <a href=https://wiki.freecad.org/OpenCASCADE>még sok mást</a>."
 
 #: features.php:119
 msgid "A wi(l)dly parametric environment"
@@ -447,15 +455,15 @@ msgid "Assembly solutions for every need"
 msgstr "Összeszerelési megoldások minden igényre"
 
 #: features.php:147
-msgid "FreeCAD offers since long several great community-made add-on assembly\n"
+msgid "FreeCAD has long offered several great community-made add-on assembly\n"
 "                  workbenches that use different solvers and even solver-free workflows to assemble\n"
 "                  the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also\n"
 "                  included, based on the\n"
 "                  <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.\n"
 "                  This workbench allows to define 3D constraints between parts, assemble the\n"
 "                  different components of a model, and animate everything."
-msgstr "A FreeCAD már régóta kínál számos nagyszerű, közösség által készített kiegészítő összeszerelési\n"
-"       munkapadot, amelyek különböző megoldókkal, sőt megoldó\n"
+msgstr "A FreeCAD már régóta kínál több nagyszerű, a közösség által készített kiegészítő összeállítási\n"
+"       munkafelület, amelyek különböző megoldókkal, sőt megoldó\n"
 "       nélküli munkafolyamatokat is használnak az Ön által létrehozott alkatrészek összeszereléséhez. A FreeCAD 1.0 egy új, beépített összeszerelési munkafelületet\n"
 "      is tartalmaz, amely a\n"
 "       <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a> programon alapul.\n"
@@ -478,7 +486,7 @@ msgstr "Az 1.0-s verzióig a FreeCAD-nak volt egy beépített építészeti munk
 
 #: features.php:188
 msgid "Python everywhere"
-msgstr "Python bárhol"
+msgstr "Python mindenhol"
 
 #: features.php:190
 msgid "While the FreeCAD core functionality is coded in C++ for robustness and performance,\n"
@@ -488,13 +496,13 @@ msgid "While the FreeCAD core functionality is coded in C++ for robustness and p
 "                  do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line\n"
 "                  commands in the integrated Python console to recording macros, coding your own tools up to\n"
 "                  full custom workbenches."
-msgstr "Míg a FreeCAD magfunkciója C++ kóddal van kódolva a robusztusság és a teljesítmény érdekében, \n"
-"            a külső rétegek nagy része, a munkafelületek és szinte az összes kommunikáció \n"
-"           a mag és a felhasználói felület között a <a href=https://python.org>Python</a>, \n"
-"          egy rugalmas, felhasználóbarát, könnyen megtanulható programozási nyelv. A Python-kódból\n"
-"            csak <a href=https://wiki.freecad.org/Power_users_hub>bármi a FreeCAD </a> programban, az integrált Python konzol egyszerű egysoros \n"
-"            parancsaitól a makrók rögzítéséig, a saját eszközeinek kódolásától a \n"
-"            teljes egyéni munkafelületekig."
+msgstr "Míg a FreeCAD alapvető funkciói a megbízhatóság és a teljesítmény biztosítása érdekében C++ nyelven készültek, \n"
+"      a külső rétegek és a munkakörnyezetek nagy része, \n"
+"    valamint a mag és a felhasználói felület közötti kommunikáció szinte teljes egészében a <a href=https://python.org>Python</a> \n"
+"           környezetben készült, amely egy rugalmas, felhasználóbarát és könnyen megtanulható programozási nyelv. A Python kód használatával \n"
+"        egyszerűen <a href=https://wiki.freecad.org/Power_users_hub>mindent megtehetsz a FreeCAD programban</a>, az egyszerű, \n"
+"       egy soros parancsoktól az integrált Python konzolban, a makródefiníciók rögzítésén és a saját eszközök kódolásán át, egészen a teljes, \n"
+"        egyedi munkakörnyezetekig."
 
 #: features.php:209
 msgid "File formats frenzy"
@@ -520,8 +528,8 @@ msgid "FreeCAD allows you to import and export models and many other kinds of da
 "              and many more, in addition to FreeCAD&apos;s native\n"
 "              <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> file format. Add-on workbenches can also add more\n"
 "              file formats."
-msgstr "A FreeCAD lehetővé teszi a modellek és számos más típusú adat importálását és exportálását a modellekből, például\n"
-" elemzési eredmények vagy mennyiségi adatok tucatnyi különböző <a href=\"https://wiki.freecad.org/Category:File_Formats\">fájlformátumba</a>, például\n"
+msgstr "A FreeCAD lehetővé teszi modellek és a modellekből származó számos egyéb adat \n"
+"        – például elemzési eredmények vagy mennyiségi kimutatások – importálását és exportálását több tucat különböző <a href=\"https://wiki.freecad.org/Category:File_Formats\">fájlformátumba</a>, például\n"
 " <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/ISO_10303\">STEP</a>,\n"
 " <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/IGES\">IGES</a>,\n"
 " <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Wavefront_.obj_file\">OBJ</a>,\n"
@@ -538,7 +546,7 @@ msgstr "A FreeCAD lehetővé teszi a modellek és számos más típusú adat imp
 " <a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/OpenSCAD\">OpenSCAD CSG</a>\n"
 " és még sok más, a FreeCAD&apos;natív\n"
 " <a href=\"https://wiki.freecad.org/File_Format_FCStd\" title=\"File Format FCStd\">FCStd</a> fájlformátum mellett. A kiegészítő munkafelületek további\n"
-" fájlformátumokat is hozzáadhatnak."
+" fájlformátumokat is támogatnak."
 
 #: features.php:242
 msgid "A parametric constraints-based 2D sketcher"
@@ -550,11 +558,11 @@ msgid "FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sket
 "                  building block of FreeCAD, and the constrained 2D shapes built with it may then be used as a base to build other\n"
 "                  objects throughout FreeCAD, be it either with the\n"
 "                  dedicated <a href=https://wiki.freecad.org/PartDesign_Workbench>Part Design workbench</a> or any other workbench."
-msgstr "A FreeCAD jellemzői legkorszerűbb <a href=https://wiki.freecad.org/Sketcher_Workbench>Vázlatkészítő</a>\n"
-"            integrált kényszermegoldóval rendelkezik, amely lehetővé teszi a geometria által kényszerített 2D formák vázlatát. A vázlatok a FreeCAD fő\n"
-"           építőelemei, és a vele épített kényszerített 2D formák alapként használhatók más\n"
-"            objektumok építéséhez a FreeCAD egész területén, legyen szó\n"
-"            dedikált <a href=https://wiki.freecad.org/PartDesign_Workbench>Alkatrész szerkesztő munkafelületről</a> vagy bármely más munkafelületről."
+msgstr "A FreeCAD része egy modern <a href=https://wiki.freecad.org/Sketcher_Workbench>Vázlatkészítő</a>\n"
+"            munkafelület integrált megoldóval, amellyel geometrikus kényszerek segítségével meghatározott 2D vázlatokat készíthetsz. A vázlatok a FreeCAD fő\n"
+"           építőelemei, és az így létrehozott 2D-s alakzatok alapjául szolgálhatnak  más\n"
+"            objektumoknak a FreeCAD-ben bárhol, \n"
+"            akár az <a href=https://wiki.freecad.org/PartDesign_Workbench>Alkatrész tervezés</a> munkafelületen, vagy azon kívül."
 
 #: features.php:262
 msgid "A large (and growing) multi-specialty ecosystem"
@@ -598,7 +606,7 @@ msgstr "https://wiki.freecad.org/Feature_list/hu"
 
 #: features.php:294
 msgid "Developed by a community"
-msgstr "Közösség fejleszti"
+msgstr "A közösség erejével"
 
 #: features.php:296
 msgid "FreeCAD is made for everybody, by everybody. It is developed and maintained\n"
@@ -607,124 +615,124 @@ msgid "FreeCAD is made for everybody, by everybody. It is developed and maintain
 "              urge to make you upgrade your version of FreeCAD or to corner you into a specific workflow or\n"
 "              ecosystem. FreeCAD and the files and data you produce with FreeCAD are truly yours, forever."
 msgstr "A FreeCAD mindenki számára készül. Fejlesztők, felhasználók, moderátorok,\n"
-"           fordítók közössége fejleszti és tartja karban, mindezt azzal a kívánságukkal egyesítve, hogy a\n"
-"          FreeCAD szabad és hatékony eszköz legyen. Nincs kereskedelmi cél a döntések meghozatala mögött,\n"
-"           nincs sürgetés arra, hogy frissítse a FreeCAD verzióját, vagy sarokba szorítsa Önt egy adott  munkafolyamatban vagy\n"
-"            ökoszisztémába. A FreeCAD és a FreeCAD-el előállított fájlok és adatok valóban a Tiéd, örökre."
+"           fordítók közössége fejleszti és tartja karban, egy céllal, hogy\n"
+"          a FreeCAD szabad és hatékony eszköz lehessen. A döntéseket nem haszonszerzés hajtja,\n"
+"           nem erőltetünk rád új frissítéseket, előírt munkamenetet vagy ökoszisztémát.\n"
+"           A FreeCAD és a vele előállított minden fájlod és adatod valóban a tiéd, és az is marad."
 
 #: features.php:309
 msgid "Release notes"
-msgstr "Kiadási megjegyzések"
+msgstr "Verzióinformációk"
 
 #: features.php:319
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
-msgstr "Itt megtalálja a FreeCAD jelenlegi és régebbi verzióinak kiadási információit. \n"
-" A kiadási megjegyzések az egyes kiadások újdonságait írják le:"
+msgstr "Itt találhatod a FreeCAD jelenlegi és régebbi kiadásainak vezióinformációit. \n"
+" A verzióinformációk az egyes kiadások újdonságait összegzik."
 
 #: features.php:326
 msgid "https://wiki.freecad.org/Release_notes_1.0\" title=\"Release notes 1.0"
-msgstr "https://wiki.freecad.org/Release_notes_1.0\" title=\"Kiadási megjegyzések 1.0"
+msgstr "https://wiki.freecad.org/Release_notes_1.0\" title=\"Verzióinformációk 1.0"
 
 #: features.php:326
 msgid "Release 1.0 - November 2024"
-msgstr "Kiadás 1.0 - December 2024"
+msgstr "Verzió 1.0 - December 2024"
 
 #: features.php:326
 msgid "current stable release"
-msgstr "aktuális hosszútávú verzió"
+msgstr "legfrisebb hosszútávú verzió"
 
 #: features.php:327
 msgid "https://wiki.freecad.org/Release_notes_0.21\" title=\"Release notes 0.21"
-msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Kiadási megjegyzések 0.21"
+msgstr "https://wiki.freecad.org/Release_notes_0.21\" title=\"Verzióinformációk 0.21"
 
 #: features.php:327
 msgid "Release 0.21 - August 2023"
-msgstr "Kiadás 0.21 - Augusztus 2023"
+msgstr "Verzió 0.21 - Augusztus 2023"
 
 #: features.php:328
 msgid "https://wiki.freecad.org/Release_notes_0.20\" title=\"Release notes 0.20"
-msgstr "https://wiki.freecad.org/Release_notes_0.20\" title=\"Kiadási megjegyzések 0.20"
+msgstr "https://wiki.freecad.org/Release_notes_0.20\" title=\"Verzióinformációk 0.20"
 
 #: features.php:328
 msgid "Release 0.20 - June 2022"
-msgstr "Kiadás 0.20 - Június 2022"
+msgstr "Verzió 0.20 - Június 2022"
 
 #: features.php:329
 msgid "https://wiki.freecad.org/Release_notes_0.19\" title=\"Release notes 0.19"
-msgstr "https://wiki.freecad.org/Release_notes_0.19\" title=\"Kiadási megjegyzések 0.19"
+msgstr "https://wiki.freecad.org/Release_notes_0.19\" title=\"Verzióinformációk 0.19"
 
 #: features.php:329
 msgid "Release 0.19 - March 2021"
-msgstr "Kiadás 0.19 - Március 2021"
+msgstr "Verzió 0.19 - Március 2021"
 
 #: features.php:330
 msgid "https://wiki.freecad.org/Release_notes_0.18\" title=\"Release notes 0.18"
-msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"Kiadási megjegyzések 0.18"
+msgstr "https://wiki.freecad.org/Release_notes_0.18\" title=\"Verzióinformációk 0.18"
 
 #: features.php:330
 msgid "Release 0.18 - March 2019"
-msgstr "Kiadás 0.18 - Március 2019"
+msgstr "Verzió 0.18 - Március 2019"
 
 #: features.php:331
 msgid "https://wiki.freecad.org/Release_notes_0.17\" title=\"Release notes 0.17"
-msgstr "https://wiki.freecad.org/Release_notes_0.17\" title=\"Kiadási megjegyzések 0.17"
+msgstr "https://wiki.freecad.org/Release_notes_0.17\" title=\"Verzióinformációk 0.17"
 
 #: features.php:331
 msgid "Release 0.17 - April 2018"
-msgstr "Kiadás 0.17 - Április 2018"
+msgstr "Verzió 0.17 - Április 2018"
 
 #: features.php:332
 msgid "https://wiki.freecad.org/Release_notes_0.16\" title=\"Release notes 0.16"
-msgstr "https://wiki.freecad.org/Release_notes_0.16\" title=\"Kiadási megjegyzések 0.16"
+msgstr "https://wiki.freecad.org/Release_notes_0.16\" title=\"Verzióinformációk 0.16"
 
 #: features.php:332
 msgid "Release 0.16 - April 2016"
-msgstr "Kiadás 0.16 - Április 2016"
+msgstr "Verzió 0.16 - Április 2016"
 
 #: features.php:333
 msgid "https://wiki.freecad.org/Release_notes_0.15\" title=\"Release notes 0.15"
-msgstr "https://wiki.freecad.org/Release_notes_0.15\" title=\"Kiadási megjegyzések 0.15"
+msgstr "https://wiki.freecad.org/Release_notes_0.15\" title=\"Verzióinformációk 0.15"
 
 #: features.php:333
 msgid "Release 0.15 - March 2015"
-msgstr "Kiadás 0.15 - Március 2015"
+msgstr "Verzió 0.15 - Március 2015"
 
 #: features.php:334
 msgid "https://wiki.freecad.org/Release_notes_0.14\" title=\"Release notes 0.14"
-msgstr "https://wiki.freecad.org/Release_notes_0.14\" title=\"Kiadási megjegyzések 0.14"
+msgstr "https://wiki.freecad.org/Release_notes_0.14\" title=\"Verzióinformációk 0.14"
 
 #: features.php:334
 msgid "Release 0.14 - March 2014"
-msgstr "Kiadás 0.14 - Március 2014"
+msgstr "Verzió 0.14 - Március 2014"
 
 #: features.php:335
 msgid "https://wiki.freecad.org/Release_notes_013\" title=\"Release notes 013"
-msgstr "https://wiki.freecad.org/Release_notes_013\" title=\"Kiadási megjegyzések 0.13"
+msgstr "https://wiki.freecad.org/Release_notes_013\" title=\"Verzióinformációk 0.13"
 
 #: features.php:335
 msgid "Release 0.13 - January 2013"
-msgstr "Kiadás 0.13 - Január 2013"
+msgstr "Verzió 0.13 - Január 2013"
 
 #: features.php:336
 msgid "https://wiki.freecad.org/Release_notes_012\" title=\"Release notes 012"
-msgstr "https://wiki.freecad.org/Release_notes_012\" title=\"Kiadási megjegyzések 0.12"
+msgstr "https://wiki.freecad.org/Release_notes_012\" title=\"Verzióinformációk 0.12"
 
 #: features.php:336
 msgid "Release 0.12 - December 2011"
-msgstr "Kiadás 0.12 - December 2011"
+msgstr "Verzió 0.12 - December 2011"
 
 #: features.php:337
 msgid "https://wiki.freecad.org/Release_notes_011\" title=\"Release notes 011"
-msgstr "https://wiki.freecad.org/Release_notes_011\" title=\"Kiadási megjegyzések 0.11"
+msgstr "https://wiki.freecad.org/Release_notes_011\" title=\"Verzióinformációk 0.11"
 
 #: features.php:337
 msgid "Release 0.11 - March 2011"
-msgstr "Kiadás 0.11 - Március 2011"
+msgstr "Verzió 0.11 - Március 2011"
 
 #: features.php:348
 msgid "Follow the official FreeCAD channels for fresh news:"
-msgstr "Kövesse a hivatalos FreeCAD csatornákat a friss hírekért:"
+msgstr "A legfrissebb hírekről a FreeCAD hivatalos csatornáin keresztül tájékozódhatsz:"
 
 #: features.php:354
 msgid "Official blog"
@@ -736,7 +744,7 @@ msgstr "Twitter/X fiók"
 
 #: footer.php:9
 msgid "Get in touch!"
-msgstr "Vegye fel a kapcsolatot!"
+msgstr "Maradjunk kapcsolatban!"
 
 #: footer.php:24
 msgid "© The FreeCAD Team."
@@ -744,201 +752,201 @@ msgstr "© A FreeCAD csapata."
 
 #: footer.php:27
 msgid "This project is supported by:"
-msgstr "A projektet a következők támogatják:"
+msgstr "A projekt támogatói:"
 
 #: footer.php:36
 msgid "other sponsors"
-msgstr "egyéb támogatók"
+msgstr "további támogatók"
 
 #: footer.php:40
 msgid "Improve this\n"
 "      page on GitHub"
-msgstr "Javítsa ezt\n"
-"     az oldalt a GitHubon"
+msgstr "Fejleszd ezt\n"
+"     a weboldalt GitHubon!"
 
-#: header.php:24 header.php:37
+#: header.php:25 header.php:38
 msgid "FreeCAD: Your own 3D parametric modeler"
-msgstr "FreeCAD: Az Ön saját 3D-s parametrikus modellezője"
+msgstr "FreeCAD: A saját 3D-s parametrikus modelleződ"
 
-#: header.php:76
+#: header.php:77
 msgid "Features"
-msgstr "Jellemzők"
+msgstr "Funkciók"
 
-#: header.php:80
+#: header.php:81
 msgid "Download"
 msgstr "Letöltés"
 
-#: header.php:84
+#: header.php:85
 msgid "Blog"
 msgstr "Blog"
 
-#: header.php:88
+#: header.php:89
 msgid "Documentation"
 msgstr "Dokumentáció"
 
-#: header.php:91
+#: header.php:92
 msgid "https://wiki.freecad.org/Main_Page"
 msgstr "https://wiki.freecad.org/Main_Page"
 
-#: header.php:91
+#: header.php:92
 msgid "Documentation index"
 msgstr "Dokumentáció tárgymutatója"
 
-#: header.php:92 thankyou.php:125
+#: header.php:93 thankyou.php:125
 msgid "https://wiki.freecad.org/Getting_started"
 msgstr "https://wiki.freecad.org/Getting_started"
 
-#: header.php:92
+#: header.php:93
 msgid "Getting started"
 msgstr "Első lépések"
 
-#: header.php:93
+#: header.php:94
 msgid "https://wiki.freecad.org/User_hub"
 msgstr "https://wiki.freecad.org/User_hub"
 
-#: header.php:93
+#: header.php:94
 msgid "Users documentation"
 msgstr "Felhasználói dokumentációk"
 
-#: header.php:94 thankyou.php:137
+#: header.php:95 thankyou.php:137
 msgid "https://wiki.freecad.org/Manual"
 msgstr "https://wiki.freecad.org/Manual"
 
-#: header.php:94
+#: header.php:95
 msgid "The FreeCAD manual"
 msgstr "A FreeCAD kézikönyv"
 
-#: header.php:95 thankyou.php:127
+#: header.php:96 thankyou.php:127
 msgid "https://wiki.freecad.org/Workbenches"
 msgstr "https://wiki.freecad.org/Workbenches"
 
-#: header.php:95 thankyou.php:127
+#: header.php:96 thankyou.php:127
 msgid "Workbenches documentation"
 msgstr "Munkafelületek dokumentációja"
 
-#: header.php:96
+#: header.php:97
 msgid "https://wiki.freecad.org/Power_users_hub"
 msgstr "https://wiki.freecad.org/Power_users_hub"
 
-#: header.php:96
-msgid "Python coding documentation"
-msgstr "Python ködolási dokumentáció"
-
 #: header.php:97
+msgid "Python coding documentation"
+msgstr "Python kódolási dokumentáció"
+
+#: header.php:98
 msgid "https://wiki.freecad.org/Developer_hub"
 msgstr "https://wiki.freecad.org/Developer_hub"
 
-#: header.php:97
+#: header.php:98
 msgid "C++ coding documentation"
-msgstr "C++ kódolási dokumentáció"
+msgstr "C++ programozási dokumentáció"
 
-#: header.php:98 thankyou.php:146
+#: header.php:99 thankyou.php:146
 msgid "https://wiki.freecad.org/Tutorials"
 msgstr "https://wiki.freecad.org/Tutorials"
 
-#: header.php:98 thankyou.php:146
+#: header.php:99 thankyou.php:146
 msgid "Tutorials"
 msgstr "Oktatóanyagok"
 
-#: header.php:99 thankyou.php:128
+#: header.php:100 thankyou.php:128
 msgid "https://wiki.freecad.org/Frequently_asked_questions"
 msgstr "https://wiki.freecad.org/Frequently_asked_questions"
 
-#: header.php:99 thankyou.php:128
+#: header.php:100 thankyou.php:128
 msgid "Frequently asked questions"
 msgstr "Gyakran ismételt kérdések"
 
-#: header.php:100
+#: header.php:101
 msgid "Privacy policy"
 msgstr "Adatvédelmi nyilatkozat"
 
-#: header.php:101
+#: header.php:102
 msgid "https://wiki.freecad.org/About_FreeCAD"
 msgstr "https://wiki.freecad.org/About_FreeCAD"
 
-#: header.php:101
+#: header.php:102
 msgid "About FreeCAD"
 msgstr "FreeCAD ismertető"
 
-#: header.php:106
+#: header.php:107
 msgid "Contribute"
 msgstr "Közreműködés"
 
-#: header.php:109
+#: header.php:110
 msgid "https://wiki.freecad.org/Help_FreeCAD"
 msgstr "https://wiki.freecad.org/Help_FreeCAD"
 
-#: header.php:109
-msgid "How to help"
-msgstr "Hogyan segíts"
-
 #: header.php:110
+msgid "How to help"
+msgstr "Hogyan segíthetsz"
+
+#: header.php:111
 msgid "Sponsor"
 msgstr "Támogató"
 
-#: header.php:111
+#: header.php:112
 msgid "Report a bug"
 msgstr "Hiba bejelentése"
 
-#: header.php:112
+#: header.php:113
 msgid "Make a pull request"
 msgstr "Pull húzási kérelem készítése"
 
-#: header.php:113
-msgid "Jobs and funding"
-msgstr "Munkahelyek és finanszírozás"
-
 #: header.php:114
-msgid "Contribution guidelines"
-msgstr "Hozzájárulási irányelveket"
+msgid "Jobs and funding"
+msgstr "Módosítási kérelem benyújtása (PR)"
 
 #: header.php:115
+msgid "Contribution guidelines"
+msgstr "Közreműködési irányelvek"
+
+#: header.php:116
 msgid "Developers handbook"
 msgstr "Fejlesztői kézikönyv"
 
-#: header.php:116
+#: header.php:117
 msgid "https://wiki.freecad.org/Localisation"
 msgstr "https://wiki.freecad.org/Localisation"
 
-#: header.php:116
+#: header.php:117
 msgid "Translations"
 msgstr "Fordítások"
 
-#: header.php:121
+#: header.php:122
 msgid "Community"
 msgstr "Közösség"
 
-#: header.php:124
-msgid "Code of conduct"
-msgstr "Illemszabályok (angolul)"
-
 #: header.php:125
+msgid "Code of conduct"
+msgstr "Magatartási kódex"
+
+#: header.php:126
 msgid "Professional Network"
 msgstr "Szakmai hálózat"
 
-#: header.php:126
+#: header.php:127
 msgid "Forum"
 msgstr "Fórum"
 
-#: header.php:137
+#: header.php:138
 msgid "Calendar"
 msgstr "Naptár"
 
 #: index.php:80
 msgid "Your own 3D parametric modeler"
-msgstr "Az Ön saját 3D-s parametrikus modellezője"
+msgstr "Saját 3D parametrikus modelleződ"
 
 #: index.php:82
 msgid "Download now"
-msgstr "Letöltés most"
+msgstr "Töltse le most"
 
 #: index.php:93 index.php:126
 msgid "Modelled by ppemawm"
-msgstr "Modellezte: ppemawm"
+msgstr "Készítette: ppemawm"
 
 #: index.php:98
 msgid "Freedom to build what you want"
-msgstr "Alkotásod szabadsága"
+msgstr "Szabadon építhetsz, amit csak akarsz"
 
 #: index.php:100
 msgid "FreeCAD is an open-source parametric 3D modeler made primarily to\n"
@@ -952,21 +960,21 @@ msgstr "A FreeCAD egy nyílt forrású parametrikus, 3D modellező,  kifejezette
 
 #: index.php:109
 msgid "Modelled by r-frank"
-msgstr "Modellezte: r-frank"
+msgstr "Készítette: r-frank"
 
 #: index.php:114
 msgid "Create 3D from 2D & back"
-msgstr "Hozzon létre 3D alakzatot 2D-ből & visszafelé"
+msgstr "A 2D-től a 3D-ig oda-vissza"
 
 #: index.php:116
 msgid "FreeCAD allows you to sketch geometry constrained 2D shapes and use\n"
 "          them as a base to build other objects. It contains many components\n"
 "          to adjust dimensions or extract design details from 3D models to\n"
 "          create high quality production ready drawings."
-msgstr "A FreeCAD lehetővé teszi, hogy csomópont kényszerek 2D formájú \n"
-" vázlatot hozzon létre és azokat használja másik objektumok alapjául. Számos komponenst tartalmaz, \n"
-"       amelyekkel méreteket illeszthet vagy kivonhat szerkezeti részleteket 3D modellekből\n"
-"         a magas minőségű, sorozatgyártásra kész rajzok létrehozásához."
+msgstr "A FreeCAD lehetővé teszi geometriai kényszerrel rendelkező 2D-alakzatok \n"
+"        vázlatának elkészítését, amelyek alapjául szolgálhatnak más objektumok létrehozásának. Számos eszközt tartalmaz a méretek módosításához, \n"
+"        illetve a 3D-modellekből származó tervezési részletek kivonásához, \n"
+"         így kiváló minőségű, gyártásra kész rajzok készíthetők."
 
 #: index.php:135
 msgid "For professional design needs..."
@@ -974,7 +982,7 @@ msgstr "Szakmai tervezési igényekhez..."
 
 #: index.php:137
 msgid "FreeCAD is a powerful and evolving open-source parametric 3D modeler, well-suited for many professional and technical tasks. With the release of version 1.0, it marks a new milestone in stability and usability. FreeCAD puts you in control - no licensing fees, no vendor lock-in. It's not just cost-effective - it’s yours to adapt and build upon."
-msgstr "A FreeCAD egy nyílt forráskódú, paraméteres 3D modellező, amely erős és folyamatosan fejlődik, ideális számos szakmai és technikai feladathoz. Az 1.0-s verzió kiadásával új mérföldkövet jelent a stabilitás és a használhatóság terén. A FreeCAD irányítást ad a kezedbe: nincs licencdíj, nincs szolgáltatóhoz kötés. Nemcsak költséghatékony, hanem testreszabható és fejleszthető is."
+msgstr "A FreeCAD egy nyílt forráskódú, folyamatosan fejlődő 3D modellező, ideális számos szakmai és technikai feladathoz. Az 1.0-s verzió kiadása új mérföldkövet jelent a megbízhatóság és használhatóság terén. A FreeCAD a te kezedbe adja az irányítást — nincs licencdíj, nem vagy egy szolgáltatóhoz kötve. Nem csak költséghatékony — teljesen a tiéd, testreszabhatod és kiegészítheted."
 
 #: index.php:144
 msgid "Baked by Kris Wilk"
@@ -982,7 +990,7 @@ msgstr "Kris Wilk által kisütve"
 
 #: index.php:155
 msgid "...And for everything else"
-msgstr "...és minden máshoz"
+msgstr "…és mindenki másnak"
 
 #: index.php:157
 msgid "Whether you're prototyping, 3D printing, designing furniture, or learning CAD, FreeCAD offers the tools to support your creativity. With a strong community, extensive documentation, and a growing ecosystem of add-ons, it’s a great place to start - and to grow. No sign-up, no paywall, no restrictions. Just open-source freedom at your fingertips."
@@ -990,7 +998,7 @@ msgstr "Akár prototípusokat készítesz, 3D-ben nyomtatsz, bútorokat tervezel
 
 #: index.php:163
 msgid "Modelled by epileftric"
-msgstr "Modellezte: epileftric"
+msgstr "Készítette: epileftric"
 
 #: index.php:168
 msgid "Accessible, flexible & integrated"
@@ -1002,15 +1010,15 @@ msgid "FreeCAD is a multiplatform (Windows, Mac and Linux), highly\n"
 "          open file formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE\n"
 "          and many others, making it possible to seamlessly integrate it into\n"
 "          your workflow."
-msgstr "A FreeCAD egy multiplatformos (Windows, Mac és Linux), nagyban\n"
-"      személyre szabható és bővíthető szoftver. Sok nyílt fájlformátumot,\n"
-"      mint például a STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE és még sorolhatnám, olvas és ír,\n"
-"       amely lehetővé teszik Ön számára, hogy Ön a szoftvert \n"
-"        a saját munkafolyamatába zökkenőmentesen integrálja."
+msgstr "A FreeCAD egy többplatformos szoftver (Mac, Linux és Windows), jól \n"
+"        testreszabható és bővíthető. Sok nyílt fájlformátumot képes olvasni és írni, \n"
+"        például STEP, IGES, STL, SVG, DXF, OBJ, IFC, DAE \n"
+"        és továbbiakat, így könnyen beilleszthető\n"
+"         a munkafolyamatodba."
 
 #: index.php:180
 msgid "Modelled by regis"
-msgstr "Modellezte: regis"
+msgstr "Készítette: regis"
 
 #: index.php:185
 msgid "Designed for your needs"
@@ -1021,10 +1029,10 @@ msgid "FreeCAD is designed to fit a wide range of uses including product\n"
 "          design, mechanical engineering and architecture. Whether you are a\n"
 "          hobbyist, a programmer, an experienced CAD user, a student or a\n"
 "          teacher, you will feel right at home with FreeCAD."
-msgstr "A FreeCAD -et úgy tervezték, hogy illeszkedjen a többcélú felhasználáshoz beleértve\n"
-"          a terméktervezést, gépészeti tervezést és építészetet. Legyen Ön\n"
-"   hobbi felhasználó, programozó, tapasztalt CAD felhasználó, diák vagy\n"
-" egy tanár, a FreeCAD használatakor otthonosan érezheti magát."
+msgstr "A FreeCAD-et úgy tervezték, hogy illeszkedjen a többcélú felhasználáshoz, beleértve\n"
+"          a terméktervezést, gépészeti tervezést és építészetet. Akár hobbirajongó, \n"
+"        fejlesztő, tapasztalt CAD-felhasználó, diák vagy \n"
+"        tanár vagy, a FreeCAD-del otthonosan fogod érezni magad."
 
 #: index.php:196
 msgid "Modelled by rider_mortagnais"
@@ -1041,54 +1049,54 @@ msgid "FreeCAD equips you with all the right tools for your needs. You get\n"
 "          allows you to study robot movements and many more features. FreeCAD\n"
 "          really is a Swiss Army knife of general-purpose engineering\n"
 "          toolkits."
-msgstr "A FreeCAD felvértezi, a megfelelő eszközökkel, az Ön igényeihez. Ön kap\n"
-"       egy modern véges elem analízis (VEM Analízis) eszközt, kísérleti CFD, hozzárendelt BIM,\n"
-"           Geoadatok vagy CAM/CNC munkafelületet,, egy robot szimulációs modult,\n"
-"          amely lehetővé teszi, hogy tanulmányozza a robot mozgását és számos további jellemzőt. A FreeCAD tényleg egy,\n"
-" az általános célú műszaki segédanyagokkal felvértezett,\n"
-"         igazi Svájci bicska."
+msgstr "A FreeCAD mindent megad neked, amire szükséged lehet. Modern\n"
+"         véges elemes analízis (FEA) eszközöket, kísérleti CFD-t, dedikált BIM-et,\n"
+"        geoadat- vagy CAM/CNC munkafelületet, egy robot szimulációs modult,\n"
+"       amivel tanulmányozhatod a robotmozgásokat, és még sok más funkciót. A FreeCAD\n"
+"         tényleg egy sokoldalú mérnöki eszközkészlettel felvértezett,\n"
+"         svájci bicska."
 
 #: index.php:217
 msgid "Modelled by bejant"
-msgstr "Modellezte: bejant"
+msgstr "Készítette: bejant"
 
 #: index.php:222
 msgid "Want to contribute to FreeCAD?"
-msgstr "Szeretne hozzájárulni a FreeCAD-hoz?"
+msgstr "Szeretnél hozzájárulni a FreeCAD programhoz?"
 
 #: index.php:224
 msgid "FreeCAD is a truly open source project and if you would like to help\n"
 "          fix bugs, implement new cool features or work on the documentation,\n"
 "          we invite you to join us and create a software that benefits the\n"
 "          whole community."
-msgstr "A FreeCAD egy igazi nyílt forráskódú projekt, és ha szeretne segíteni\n"
-"             hibákat javítani, új jellemzőket megvalósítani vagy a dokumentációs munkában részt venni,\n"
-"              kérjük, hogy csatlakozzon hozzánk, és hozzon létre egy szoftvert,\n"
-", amely az egész közösség hasznára válik."
+msgstr "A FreeCAD valóban egy nyílt forráskódú projekt, és ha szeretnél segíteni\n"
+"          a hibák javításában, új menő funkciók bevezetésében vagy a dokumentáció készítésében, \n"
+"        meghívunk, hogy csatlakozz hozzánk, és alkossunk együtt egy olyan szoftvert, ami az\n"
+"         egész közösségnek hasznos."
 
 #: index.php:230
 msgid "Get involved"
-msgstr "Vegyél részt benne"
+msgstr "Csatlakozz"
 
 #: professional-network.php:14
 msgid "Join the community shaping the future of FreeCAD."
-msgstr "Csatlakozzon a közösséghez, amely a FreeCAD jövőjét formálja."
+msgstr "Csatlakozz a FreeCAD jövőjét formáló közösséghez!"
 
 #: professional-network.php:23
 msgid "The FreeCAD Professional Network (FPN) is a voluntary association of professionals committed to strengthening the FreeCAD ecosystem for long-term growth and success."
-msgstr "A FreeCAD Professional Network (FPN) egy önkéntes szakmai szervezet, amely elkötelezett a FreeCAD ökoszisztéma fejlesztése iránt a hosszú távú növekedés és siker érdekében."
+msgstr "A FreeCAD Szakmai Hálózat (FreeCAD Professional Network, FPN) egy önkéntes szakmai szervezet, amely elkötelezett a FreeCAD ökoszisztéma fejlesztése iránt a hosszú távú növekedés és siker érdekében."
 
 #: professional-network.php:26
 msgid "If FreeCAD is part of your livelihood—whether you design, teach, manufacture, research, or create content—the FPN is your place to connect, collaborate, and make an impact."
-msgstr "Ha a FreeCAD része a szakmai életednek — akár tervezel, tanítasz, gyártasz, kutatsz vagy tartalmat készítesz —, a FPN a helyed a kapcsolatok építésére, az együttműködésre és a hatás elérésére."
+msgstr "Ha a FreeCAD része a szakmai életednek — akár tervezel, tanítasz, gyártasz, kutatsz vagy tartalmat készítesz — az FPN-en keresztül kapcsolatokat építhetsz, együttműködhetsz és tényleges változást érhetsz el."
 
 #: professional-network.php:34
 msgid "Who is a FreeCAD Professional?"
-msgstr "Ki a FreeCAD szakember?"
+msgstr "Ki lehet FreeCAD szakember?"
 
 #: professional-network.php:35
 msgid "Anyone with a commercial interest in FreeCAD:"
-msgstr "Bármely személy, akinek üzleti érdekeltsége van a FreeCAD-ben:"
+msgstr "Bárki, akinek üzleti érdekeltsége van a FreeCAD-ben"
 
 #: professional-network.php:37
 msgid "Engineers, designers, and makers who use FreeCAD at work"
@@ -1100,11 +1108,11 @@ msgstr "Tartalomkészítők, YouTuberek, írók és Patreon kiadók"
 
 #: professional-network.php:39
 msgid "Educators and trainers in classrooms or workshops"
-msgstr "Tanárok és oktatók az osztálytermekben vagy műhelyekben"
+msgstr "Tanárok és oktatók az osztályteremben és azon kívül"
 
 #: professional-network.php:40
 msgid "Researchers exploring open CAD in academia"
-msgstr "Kutatók az egyetemi környezetben az open source CAD-et kutatják"
+msgstr "Kutatók, akik a FreeCAD-et egyetemi környezetben használják"
 
 #: professional-network.php:41
 msgid "Hardware manufacturers supporting CAD users"
@@ -1120,39 +1128,39 @@ msgstr "Vállalatok, amelyek termékeket és szolgáltatásokat építenek a Fre
 
 #: professional-network.php:51
 msgid "What We Do"
-msgstr "Amit teszünk"
+msgstr "Min dolgozunk?"
 
 #: professional-network.php:52
 msgid "The FPN brings professionals together to:"
-msgstr "Az FPN szakembereket gyűjt össze:"
+msgstr "Az FPN szakembereket tömörít azzal a céllal, hogy"
 
 #: professional-network.php:54
 msgid "Advocate for features and improvements that matter most"
-msgstr "Népszerűsíteni a legfontosabb funkciókat és fejlesztéseket"
+msgstr "Népszerűsítsék a legfontosabb funkciókat és fejlesztéseket"
 
 #: professional-network.php:55
 msgid "Help set priorities for FreeCAD development"
-msgstr "Segítség a FreeCAD fejlesztési prioritásainak meghatározásában"
+msgstr "Segítsenek a FreeCAD fejlesztési prioritásainak meghatározásában"
 
 #: professional-network.php:56
 msgid "Provide domain expertise directly to maintainers and contributors"
-msgstr "Szakértelem nyújtása közvetlenül a karbantartásért felelős személyeknek és a közreműködőknek"
+msgstr "Szakmai hátteret nyújtsanak közvetlenül a fejlesztőknek és a közreműködőknek"
 
 #: professional-network.php:57
 msgid "Organize real-world meetups and events"
-msgstr "Találkozók és események szervezése a valóságban"
+msgstr "Összejöveteleket és eseményeket szervezzenek"
 
 #: professional-network.php:58
 msgid "Share knowledge, best practices, and support"
-msgstr "Tudás, bevált gyakorlatok és támogatás megosztása"
+msgstr "Megosszák tudásukat, tapasztalataikat és a bevált gyakorlatokat"
 
 #: professional-network.php:59
 msgid "Co-develop tools and solutions for the community"
-msgstr "Eszközök és megoldások közös fejlesztése a közösség számára"
+msgstr "Velük közösen ezközöket és megoldásokat fejlesszünk az egész közösség számára"
 
 #: professional-network.php:62
 msgid "This is where professionals make their voice heard and pool their strengths to move FreeCAD forward."
-msgstr "Itt a szakemberek hallatják a hangjukat, és összefogják erejüket, hogy előrébb vigyék a FreeCAD-et."
+msgstr "Itt hallatják hangjukat a profik, és egyesítik erejüket, hogy előre mozdítsák a FreeCAD-et."
 
 #: professional-network.php:70
 msgid "Membership Tiers"
@@ -1168,11 +1176,11 @@ msgstr "Hozzáférés a szakmai hálózathoz"
 
 #: professional-network.php:81
 msgid "Access to FPN private discord channel"
-msgstr "Hozzáférés a FPN Discord privát csatornájához"
+msgstr "Hozzáférés az FPN privát Discord csatornájához"
 
 #: professional-network.php:82
 msgid "Voting rights on FPN initiatives"
-msgstr "Szavazati jogok az FPN kezdeményezéseiben"
+msgstr "Szavazati jog az FPN kezdeményezéseiben"
 
 #: professional-network.php:83
 msgid "Quarterly newsletter"
@@ -1188,19 +1196,19 @@ msgstr "Szervezet"
 
 #: professional-network.php:99
 msgid "All individual membership benefits"
-msgstr "Minden előnnyel a magántagoknak"
+msgstr "Az egyéni tagság minden előnye"
 
 #: professional-network.php:100
 msgid "Unlimited employee memberships included"
-msgstr "Tartalmazza a korlátlan előfizetési díjakat az alkalmazottak számára"
+msgstr "Korlátlan számú egyéni tagság alkalmazottak részére"
 
 #: professional-network.php:101
 msgid "Logo recognition as FPN supporter"
-msgstr "Logó felismerés mint FPN támogató"
+msgstr "Logó elismerés FPN támogatóként"
 
 #: professional-network.php:104
 msgid "Join Organization"
-msgstr "Csatlakozás szervezethez"
+msgstr "Csatlakozás szervezetként"
 
 #: professional-network.php:112
 msgid "Membership isn't just a fee—it's an investment in FreeCAD's future and in your own professional ecosystem."
@@ -1208,27 +1216,27 @@ msgstr "A tagság nem csupán egy hozzájárulás, hanem befektetés a FreeCAD j
 
 #: professional-network.php:120
 msgid "Why Join?"
-msgstr "Miért szükséges csatlakozni?"
+msgstr "Miért érdemes csatlakozni?"
 
 #: professional-network.php:121
 msgid "Because FreeCAD is already part of your professional life. Together, we can:"
-msgstr "Mert a FreeCAD már része a szakmai életednek. Együtt tudunk:"
+msgstr "Azért, mert a FreeCAD már része a szakmai életednek. Együtt lehetséges"
 
 #: professional-network.php:123
 msgid "Influence its direction"
-msgstr "Befolyásolja a fejlesztés irányát"
+msgstr "A fejlesztés irányának befolyásolása"
 
 #: professional-network.php:124
 msgid "Create an ecosystem that is friendly to commercial interest"
-msgstr "Hozzon létre egy olyan ökoszisztémát, amely barátságos a kereskedelmi érdekekkel szemben"
+msgstr "Kereskedelmi érdekeknek is kedvező ökoszisztéma kialakítása"
 
 #: professional-network.php:125
 msgid "Build stronger connections across industries"
-msgstr "Építsen erősebb kapcsolatokat az iparágak között"
+msgstr "Iparágak közötti erősebb kapcsolatok kiépítése"
 
 #: professional-network.php:126
 msgid "Ensure FreeCAD continues to thrive as a tool you can rely on"
-msgstr "Biztosítsd, hogy a FreeCAD továbbra is egy megbízható eszköz maradjon"
+msgstr "Gondoskodj róla, hogy a FreeCAD továbbra is megbízható eszköz legyen számodra"
 
 #: sponsor.php:57
 msgid "Donating and sponsoring"
@@ -1236,13 +1244,13 @@ msgstr "Adományozás és szponzorálás"
 
 #: sponsor.php:64
 msgid "Donating to FreeCAD"
-msgstr "Adományozás FreeCAD részére"
+msgstr "Hozzájárulás a FreeCAD projektnek"
 
 #: sponsor.php:69
 msgid "Thanks for your interest in helping the FreeCAD\n"
 "              project with donations."
-msgstr "Köszönjük, hogy érdeklődéssel segíti a FreeCAD\n"
-" projektet adományokkal."
+msgstr "Köszönjük, hogy megfontolod a FreeCAD\n"
+" projekt anyagi támogatását."
 
 #: sponsor.php:73
 msgid "FreeCAD is a fast-growing project, developed by a\n"
@@ -1252,11 +1260,11 @@ msgid "FreeCAD is a fast-growing project, developed by a\n"
 "              because of the energy of all these people, without the need for\n"
 "              money."
 msgstr "A FreeCAD egy gyorsan növekvő projekt, amelyet fejlesztők\n"
-"         és felhasználók közössége fejlesztett ki, többnyire önkéntes\n"
-"         alapon, elsősorban egy nagyszerű, ingyenes 3D\n"
-" paraméteres modellező megépítésére irányuló szándékuk motiválta.\n"
-" A FreeCAD fejlesztése többnyire ezeknek az embereknek az energiája hajtja, anélkül, hogy pénzre\n"
-" lenne szükség."
+"         és felhasználók közössége fejleszt, többnyire önkéntes\n"
+"         alapon, egy nagyszerű, ingyenes 3D\n"
+" paraméteres modellező megalkotásának reményében.\n"
+" A FreeCAD fejlesztését elsősorban az ő energiájuk hajtja, anélkül, hogy ezért\n"
+" pénzt kérnének."
 
 #: sponsor.php:81
 msgid "However, money can help the project to achieve many\n"
@@ -1267,14 +1275,14 @@ msgid "However, money can help the project to achieve many\n"
 "              showcase FreeCAD and interest professional users. It can also help\n"
 "              to organize events ourselves so community members can meet, pay for\n"
 "              server space and web services, and many other things."
-msgstr "A pénz azonban segítheti a projektet sok más\n"
-"         cél elérésében. Segíthet néhány fejlesztőjének abban, hogy\n"
-"         gyakrabban vagy rendszeresebben dolgozzanak a projekten, azáltal, hogy\n"
-"         fizetnek az idejükért, hogy abból többet szentelhessenek a FreeCAD-nek, vagy segíthet\n"
-"         a közösségnek abban, hogy embereket küldjön a CAD-hez kapcsolódó eseményekre, így\n"
-"         bemutathatjuk a FreeCAD-ot és érdekelhetté tehetjük a professzionális felhasználókat. Segíthet abban\n"
-"        is, hogy mi magunk szervezzünk eseményeket, hogy a közösség tagjai találkozhassanak, fizethessenek\n"
-"         a szerverterületért és a webszolgáltatásokért, és még sok minden mást."
+msgstr "Azonban a pénz segítheti a projektet sok más\n"
+"         célja elérésében. Segítheti néhány fejlesztőjét abban, hogy gyakrabban vagy rendszeresebben dolgozzanak\n"
+"          a projekten, azáltal, hogy fizetünk az idejükért, így\n"
+"         többet tudnak a FreeCAD-re fordítani, vagy segítheti\n"
+"        a közösséget abban, hogy képviseltesse magát CAD-hez kapcsolódó eseményeken, ahol\n"
+"         bemutathatjuk a FreeCAD-et és érdeklődést kelthetünk a profi felhasználók körében. \n"
+"        Emellett hozzájárulhat saját események szervezésében, ahol a közösség tagjai találkozhatnak, \n"
+"        szerverhely és webszolgáltatások kifizetésében, és még sok másban."
 
 #: sponsor.php:91
 msgid "There are several ways you can donate money and help\n"
@@ -1286,15 +1294,15 @@ msgid "There are several ways you can donate money and help\n"
 "              and core developers. The FPA will redistribute the money it gathers\n"
 "              to FreeCAD developers and sponsor itself several projects, efforts\n"
 "              and ideas to fuel the development of FreeCAD."
-msgstr "Számos módon adományozhat pénzt és nyújthat segítséget\n"
-"         a FreeCAD projektnek, legyen az magánszemély, vállalat vagy\n"
-"         intézmény, preferenciáitól függően. A FreeCAD projektnek adományozott  pénzt a  \n"
-"      <a href=https://fpa.freecad.org>FreeCAD Project Associationn</a>\n"
-"         (FPA), az adminisztrátorok és fő fejlesztők által létrehozott \n"
-"  nonprofit szervezet fogadja kezeli. \n"
-"  Az FPA az összegyűjtött pénzt újra elosztja a FreeCAD fejlesztői\n"
-"         között, és számos projektet, erőfeszítést és ötletet szponzorál magának\n"
-"         a FreeCAD fejlesztésének elősegítésére."
+msgstr "Számos módon hozzájárulhatsz pénzzel \n"
+"        a FreeCAD projekthez, akár magánszemélyként, cégeként vagy\n"
+"         intézményként, az előnybe részesítésedtől függően. A FreeCAD projektnek adott pénzt\n"
+"         a <a href=https://fpa.freecad.org>FreeCAD Projekt Szövetség</a> (FPA)\n"
+"         fogadja és kezeli, amely egy nonprofit egyesület,\n"
+"         amit a FreeCAD adminisztrátorai és magfejlesztői hoztak létre.\n"
+"         Az FPA az összegyűjtött pénzt továbbadja a\n"
+"         FreeCAD fejlesztőinek, és több projektet, kezdeményezést\n"
+"         és ötletet is finanszíroz, hogy elősegítse a FreeCAD fejlesztését."
 
 #: sponsor.php:102
 msgid "Remember, however: FreeCAD is free, and will always\n"
@@ -1302,11 +1310,11 @@ msgid "Remember, however: FreeCAD is free, and will always\n"
 "              in order to use FreeCAD, neither to modify or distribute it. Your\n"
 "              donation will be welcome, and can help a lot, but you will never\n"
 "              be required to pay anything to access any of the FreeCAD features."
-msgstr "Ne feledje azonban: a FreeCAD ingyenes, és mindig is\n"
+msgstr "Ne feledd azonban: a FreeCAD ingyenes, és mindig is\n"
 "         ingyenes lesz. A FreeCAD használatához, módosításához és terjesztéséhez nem kell\n"
-"         és soha nem is lesz szükség arra, hogy bármit is adományozzon.\n"
-"         Az adományodat szívesen fogadjuk, és sokat segíthet, de soha nem kell\n"
-"         semmit sem fizetned a FreeCAD jellemzők eléréséért."
+"         és soha nem is lesz szükség arra, hogy bármivel is hozzájárulj.\n"
+"         A hozzájárulást szívesen fogadjuk, és sokat segíthet, de soha nem kell\n"
+"         semmit sem fizetned a FreeCAD funkciók eléréséért."
 
 #: sponsor.php:117
 msgid "Gold sponsors"
@@ -1314,7 +1322,7 @@ msgstr "Arany fokozatú szponzorok"
 
 #: sponsor.php:160
 msgid "Early sponsors"
-msgstr "Korai támogatók"
+msgstr "Korai szponzorok"
 
 #: sponsor.php:202
 msgid "Silver sponsors"
@@ -1326,7 +1334,7 @@ msgstr "Bronz fokozatú szponzorok"
 
 #: telemetry.php:18
 msgid "Telemetry Data"
-msgstr "Használati adatok"
+msgstr "Telemetria adatok"
 
 #: telemetry.php:29
 msgid "Improve FreeCAD — Anonymously"
@@ -1334,7 +1342,7 @@ msgstr "Fejlessze a FreeCAD-et — anonim módon"
 
 #: telemetry.php:31
 msgid "Telemetry helps us understand how FreeCAD is used by collecting anonymous data about its environment and usage patterns. We've developed this GDPR-compliant add-on to improve FreeCAD based on real-world insights — completely anonymously and with full respect for your privacy. By enabling it, you’re helping make FreeCAD better for everyone."
-msgstr "A használati adatok segítenek megérteni, hogyan használják a FreeCAD-et, anonim adatokat gyűjtve a környezetéről és a használati módokról. Kifejlesztettük ezt a GDPR-kompatibilis kiegészítőt annak érdekében, hogy a FreeCAD-et konkrét információk alapján, teljesen anonim módon és a magánélet teljes tiszteletben tartásával fejlesszük. Az aktiválásával hozzájárul a FreeCAD mindenki számára történő javításához."
+msgstr "A telemetria segít megérteni, hogyan használják a FreeCAD-et, azáltal, hogy anonim adatokat gyűjt a környezetéről és a használati mintákról. Fejlesztettünk egy GDPR-kompatibilis kiegészítőt, hogy a FreeCAD-et a valós tapasztalatok alapján javíthassuk — teljesen anonim módon és az adatvédelmi szabályok maximális tiszteletben tartásával. Ha engedélyezed, hozzájárulsz ahhoz, hogy a FreeCAD mindenki számára jobbá váljon."
 
 #: telemetry.php:33
 msgid "https://github.com/FreeCAD/FreeCAD-Telemetry"
@@ -1386,15 +1394,15 @@ msgstr "Navigáció stílus"
 
 #: telemetry.php:85
 msgid "Navigation Orbit Style"
-msgstr "Navigáció gömb stílus"
+msgstr "Navigációs gömb stílus"
 
 #: telemetry.php:89
 msgid "Workbench Enabled"
-msgstr "Munkafelület engedélyezett"
+msgstr "Engedélyezett munkafelület"
 
 #: telemetry.php:93
 msgid "Workbench Disabled"
-msgstr "Munkafelület kikapcsolt"
+msgstr "Letiltott munkafelület"
 
 #: telemetry.php:131
 msgid "Loading..."
@@ -1411,12 +1419,12 @@ msgstr "Köszönjük!"
 #: thankyou.php:63
 msgid "Your download should start automatically.\n"
 "            If not, click"
-msgstr "A letöltésnek automatikusan el kell indulnia.\n"
-" Ha nem, kattintson a"
+msgstr "A letöltés automatikusan elindul.\n"
+" Ha ez nem történt meg, kattints"
 
 #: thankyou.php:64
 msgid "here"
-msgstr "ide"
+msgstr "kattintson ide"
 
 #: thankyou.php:65
 msgid "to download the file."
@@ -1424,23 +1432,23 @@ msgstr "a fájl letöltéséhez."
 
 #: thankyou.php:74
 msgid "Support FreeCAD!"
-msgstr "Támogassa a FreeCAD-t!"
+msgstr "Támogassa a FreeCAD-et!"
 
 #: thankyou.php:80
 msgid "If you are happy with FreeCAD, and would like to support the project, why not make a donation to the project? Being open-source, FreeCAD will ALWAYS be free for anyone to use, and FreeCAD could survive without any donations, however with donations we can go further and faster together."
-msgstr "Ha elégedettek vagytok a FreeCAD-del, és szeretnétek támogatni a projektet, miért ne tennétek egy adományt? Mivel nyílt forráskódú, a FreeCAD MINDIG ingyenes marad mindenki számára, és a FreeCAD adomány nélkül is fennmaradhatna, de az adományokkal együtt messzebbre és gyorsabban juthatunk."
+msgstr "Ha elégedett vagy a FreeCAD-del, és szeretnéd támogatni a projektet, miért ne adnál adományt a projektnek? Mivel nyílt forráskódú, a FreeCAD MINDIG ingyenes lesz bárki számára, és a FreeCAD adományok nélkül is fenn tudna maradni, de adományokkal együtt messzebbre és gyorsabban haladhatunk."
 
 #: thankyou.php:84
 msgid "If you would like to support, choose the amount and payment method of your choice below. If you are interested in supporting with a recurring donation, check the <a data-bs-toggle=\"modal\" data-bs-target=\"#donateModal\">donate page</a> to see more options."
-msgstr "Ha támogatni szeretnél, alább válaszd ki az összeget és a fizetési módot. Ha rendszeres adományozással szeretnél támogatni, látogasd meg az <a data-bs-toggle=\"modal\" data-bs-target=\"#donateModal\">adományozási oldalt</a> további lehetőségekért."
+msgstr "Ha támogatni szeretnél, válaszd ki alább a kívánt összeget és fizetési módot. Ha rendszeres adományozással szeretnél támogatni, látogasd meg az <a data-bs-toggle=\"modal\" data-bs-target=\"#donateModal\">Adományozási oldalt</a> további lehetőségekért."
 
 #: thankyou.php:88
 msgid "There are also many other ways to help FreeCAD. For example, you can write code, help with writing documentation, help translate the FreeCAD interface and documentation, help new users, etc. Everything you need to know to get involved is available over on this <a href=https://wiki.freecad.org/Help_FreeCAD>Help FreeCAD</a> page."
-msgstr "Számos más módja is van annak, hogy segíts a FreeCAD-nek. Például írhatunk kódot, segíthetünk a dokumentáció írásában, a FreeCAD felületének és dokumentációjának fordításában, az új felhasználóknak a segítségnyújtásban stb. Minden, amit tudnod kell a részvételhez, elérhető ezen az oldalon: <a href=https://wiki.freecad.org/Help_FreeCAD>Segíts a FreeCAD-nek</a>."
+msgstr "A FreeCAD fejlesztésének számos más módja is van. Például írhatod a kódot, segíthetsz a dokumentáció írásában, fordíthatod a FreeCAD felületét és dokumentációját, segíthetsz az új felhasználóknak, stb. Minden, amit tudnod kell a részvételhez, megtalálható ezen a <a href=https://wiki.freecad.org/Help_FreeCAD>Segíts a FreeCAD-nek</a> oldalon."
 
 #: thankyou.php:100
 msgid "Need help?"
-msgstr "Szüksége van segítségre?"
+msgstr "Segítségre van szükséged?"
 
 #: thankyou.php:106
 msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
@@ -1450,19 +1458,19 @@ msgid "If you are new to FreeCAD, or to 3D CAD modelling, we\n"
 "            It covers everything from installing and launching FreeCAD, using it\n"
 "            and its different workbenches, up to creating Python scripts to\n"
 "            automate it and developing your own tools and extensions."
-msgstr "Ha még nem ismeri a FreeCAD-et vagy a 3D CAD modellezést, mi\n"
-"         gondoskodunk róla! A FreeCAD tartalmaz egy\n"
-"        <a href=https://wiki.freecad.org>kiterjedt dokumentációt</a>, amely\n"
-"         online, de közvetlenül a FreeCAD alkalmazáson belül is elérhető.\n"
-"         A FreeCAD telepítésétől és elindításától kezdve a \n"
-"        a használatáról és a különböző munkafelületeken át a Python szkriptek\n"
-"         létrehozásáig, hogy automatizálja, és saját eszközöket és bővítményeket fejlesszen ki."
+msgstr "Ha új vagy a FreeCAD-ben, vagy a 3D CAD modellezésben, mi\n"
+"         gondoskodunk rólad! A FreeCAD rendelkezik egy\n"
+"         <a href=https://wiki.freecad.org>részletes dokumentációval</a>, amely\n"
+"         online is elérhető, de közvetlenül a FreeCAD alkalmazáson belül is hozzáférhető.\n"
+"         Mindenről szól, a FreeCAD telepítésétől és elindításától kezdve, a használatán\n"
+"         és a különböző munkafelületeken át, egészen a Python szkriptek\n"
+"         létrehozásáig, az automatizálásához, valamint a saját eszközeid és kiterjesztéseid fejlesztéséig."
 
 #: thankyou.php:116
 msgid "Below are some pages of this documentation that could\n"
 "            be useful to you:"
-msgstr "Az alábbiakban a dokumentáció néhány olyan oldalát olvashatja, amelyek hasznosak\n"
-"         lehetnek az Ön számára:"
+msgstr "Alább összegyűjtöttünk néhány oldalt a dokumentációból, amit \n"
+"hasznosnak találhatsz"
 
 #: thankyou.php:121
 msgid "https://wiki.freecad.org/Installing_on_Windows"
@@ -1470,7 +1478,7 @@ msgstr "https://wiki.freecad.org/Installing_on_Windows"
 
 #: thankyou.php:121
 msgid "Installing FreeCAD on Windows"
-msgstr "A FreeCAD telepítése Windows rendszeren"
+msgstr "A FreeCAD telepítése Windows rendszerre"
 
 #: thankyou.php:122
 msgid "https://wiki.freecad.org/Installing_on_Linux"
@@ -1478,7 +1486,7 @@ msgstr "https://wiki.freecad.org/Installing_on_Linux"
 
 #: thankyou.php:122
 msgid "Installing FreeCAD on Linux"
-msgstr "FreeCAD telepítése Linux rendszerre"
+msgstr "A FreeCAD telepítése Linux rendszerre"
 
 #: thankyou.php:123
 msgid "https://wiki.freecad.org/Installing_on_Mac"
@@ -1486,7 +1494,7 @@ msgstr "https://wiki.freecad.org/Installing_on_Mac"
 
 #: thankyou.php:123
 msgid "Installing FreeCAD on MacOS"
-msgstr "FreeCAD telepítése MacOS rendszeren"
+msgstr "A FreeCAD telepítése MacOS rendszerre"
 
 #: thankyou.php:124
 msgid "https://wiki.freecad.org/Installing_additional_components"
@@ -1506,13 +1514,13 @@ msgstr "https://wiki.freecad.org/User_hub#Migrating_from_other_software.3F"
 
 #: thankyou.php:126
 msgid "Migrating from other software?"
-msgstr "Áttelepítés más szoftverről?"
+msgstr "Áttelepítés más CAD szoftverről?"
 
 #: thankyou.php:132
 msgid "FreeCAD also offers a complete user manual, that can\n"
 "            be downloaded as a pdf or epub file or printed:"
 msgstr "A FreeCAD egy teljes felhasználói kézikönyvet is kínál,\n"
-"         amely pdf vagy epub fájlként letölthető vagy kinyomtatható:"
+"         amelyet pdf vagy epub fájlként letölthetsz vagy kinyomtathatsz:"
 
 #: thankyou.php:137
 msgid "The FreeCAD user manual"
@@ -1529,10 +1537,10 @@ msgid "On behalf of all of the worldwide community of users,\n"
 "            developers, translators, editors, writers, testers who work hard to\n"
 "            make FreeCAD the best CAD modeller out there, we thank you for\n"
 "            downloading our baby! We hope you will like it as much as we do."
-msgstr "A felhasználók világméretű közösségének nevében fejlesztők,\n"
-"        fordítók, szerkesztők, írók, tesztelők, akik keményen dolgoznak\n"
-"         azon, hogy a FreeCAD-ot a legjobb CAD-modellezővé tegyék, köszönjük,\n"
-"         hogy letöltötte a kincsünket! Reméljük, hogy neked is annyira tetszeni fog, mint nekünk."
+msgstr "Minden kontinensen átívelő felhasználói közösség, \n"
+"        fejlesztők, fordítók, szerkesztők, írók és tesztelők nevében, akik keményen\n"
+"         dolgoznak azon, hogy a FreeCAD legyen a legjobb CAD modellező, köszönjük, hogy\n"
+"         letöltötted a kisbabánkat! Reméljük, annyira fog tetszeni neked, mint nekünk."
 
 #: thankyou.php:157
 msgid "If you encounter issues with FreeCAD, or would like to\n"
@@ -1542,15 +1550,15 @@ msgid "If you encounter issues with FreeCAD, or would like to\n"
 "            skill levels. There you can seek advice of more advanced users, find\n"
 "            ways to solve a particular problem, or discuss ideas about and around\n"
 "            the FreeCAD world."
-msgstr "Ha problémákba ütközik a FreeCAD-del kapcsolatban,\n"
-"         vagy szeretne találkozni és megvitatni a témákat más felhasználókkal,\n"
-"         látogasson el a <a href=https://forum.freecad.org>FreeCAD fórumra.</a> A fórum a\n"
-"         FreeCAD felhasználók fő találkozási pontja a világ minden részéről\n"
-"         és az összes készségszinten. Itt tanácsot kérhet a haladóbb felhasználóktól,\n"
-"         megtalálhatja a módját egy adott probléma megoldásának, vagy megvitathatja a FreeCAD világával\n"
-"         kapcsolatos és környékbeli ötleteket."
+msgstr "Ha problémákba ütközöl a FreeCAD-del, vagy szeretnél\n"
+"          más felhasználókkal találkozni és témákról beszélgetni, látogass el a\n"
+"         <a href=https://forum.freecad.org>FreeCAD fórum</a>-ra. A fórum a\n"
+"         fő találkozóhelye a különböző tudásszinttel rendelkező\n"
+"         FreeCAD felhasználóknak a világ minden tájáról. Itt tanácsot\n"
+"        kérhetsz tapasztaltabb felhasználóktól, megoldásokat találhatsz bizonyos\n"
+"         problémákra, vagy ötleteket beszélhetsz meg a FreeCAD világáról."
 
 #: translation.php:25
 msgid "English"
-msgstr "Angol"
+msgstr "English"
 
