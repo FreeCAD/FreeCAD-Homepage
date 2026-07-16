@@ -126,7 +126,7 @@
             <a class="dropdown-item text-dark font-weight-bold" href="https://forum.freecad.org/"><?php echo _('Forum'); ?></a>
             <a class="dropdown-item text-dark" href="https://fpa.freecad.org">The FPA</a>
             <a class="dropdown-item text-dark" href="https://github.com/FreeCAD/FreeCAD">GitHub</a>
-            <a class="dropdown-item text-dark" href="https://fosstodon.org/@FreeCAD">Mastodon</a>
+            <a class="dropdown-item text-dark" href="https://social.freecad.org/@FreeCAD">Mastodon</a>
             <a class="dropdown-item text-dark" href="https://matrix.to/#/#FreeCAD_FreeCAD:gitter.im">Matrix</a>
             <a class="dropdown-item text-dark" href="https://web.libera.chat/#freecad">IRC via Webchat</a>
             <a class="dropdown-item text-dark" href="https://discord.gg/w2cTKGzccC">Discord</a>
