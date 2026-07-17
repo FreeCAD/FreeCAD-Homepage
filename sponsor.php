@@ -42,7 +42,7 @@ function updateLatestCategoryFromFeed(xmlUrl, titleId, bodyId, buttonId, imageId
 }
 
 updateLatestCategoryFromFeed(
-  'proxy-xml.php?url=https://blog.freecad.org/category/grants/feed/',
+  'proxy-xml.php?category=grants',
   'grants-title',
   'grants-description',
   'grants-link',
@@ -54,14 +54,14 @@ updateLatestCategoryFromFeed(
     <main id="main" class="container-fluid">
 
         <div class="download-notes text-center">
-            <h2 class="downloads-notes-title"><?php echo _('Donating and sponsoring'); ?></h2>
+            <h1 class="downloads-notes-title"><?php echo _('Donating and sponsoring'); ?></h1>
         </div>
 
 
         <section class="row section d-flex justify-content-around">
 
           <div data-bs-toggle="modal" data-bs-target="#donateModal" class="col-lg-4">
-            <h3><?php echo _('Donating to FreeCAD'); ?></h3>
+            <h2><?php echo _('Donating to FreeCAD'); ?></h2>
           </div>
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround p-3">
@@ -114,7 +114,7 @@ updateLatestCategoryFromFeed(
 
         <section class="row section d-flex justify-content-around whitelinks">
           <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="200.00" class="col-lg-4">
-            <h3><?php echo _('Gold sponsors'); ?></h3>
+            <h2><?php echo _('Gold sponsors'); ?></h2>
           </div>
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
@@ -170,7 +170,7 @@ updateLatestCategoryFromFeed(
 
         <section class="row section d-flex justify-content-around whitelinks">
           <div class="col-lg-4">
-            <h3><?php echo _('Early sponsors'); ?></h3>
+            <h2><?php echo _('Early sponsors'); ?></h2>
           </div>
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
@@ -212,9 +212,14 @@ updateLatestCategoryFromFeed(
 
         <section class="row section d-flex justify-content-around whitelinks">
           <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="100.00" class="col-lg-4">
-            <h3><?php echo _('Silver sponsors'); ?></h3>
+            <h2><?php echo _('Silver sponsors'); ?></h2>
           </div>
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
+
+                <div class="silver sponsor">
+                    <a href="https://itworks.ag">itWorks AG</a>
+                     is a management and IT consulting firm focused on aligning technology with business strategy
+                </div>
 
                 <div class="silver sponsor">
                     <a href="https://route4me.com">Route4Me Route Planner</a>
@@ -258,11 +263,28 @@ updateLatestCategoryFromFeed(
 
         <section class="row section d-flex justify-content-around whitelinks">
           <div data-bs-toggle="modal" data-bs-target="#donateModal" data-bs-type="sponsor" data-bs-amount="25.00" class="col-lg-4">
-            <h3><?php echo _('Bronze sponsors'); ?></h3>
+            <h2><?php echo _('Bronze sponsors'); ?></h2>
           </div>
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
+              <div class="bronze sponsor">Ēriks Klaužs</div>
+              <div class="bronze sponsor">Brandon K</div>
+              <div class="bronze sponsor">Björn Jürgens</div>
+              <div class="bronze sponsor">Daniel Davison</div>
+              <div class="bronze sponsor">Custom Cut GmbH</div>
+              <div class="bronze sponsor">Sintesi Labs Design</div>
+              <div class="bronze sponsor">Andrzej Skarżyński</div>
+              <div class="bronze sponsor">William Walker</div>
+              <div class="bronze sponsor">Matt Valentine</div>
+              <div class="bronze sponsor">3xxx</div>
+              <div class="bronze sponsor">schreinermueller</div>
+              <div class="bronze sponsor">P-i-U UG & Co. KG</div>
+              <div class="bronze sponsor">P. Smith</div>
+              <div class="bronze sponsor">James Waples</div>
+              <div class="bronze sponsor">nerd-sniped</div>
+              <div class="bronze sponsor">NateXVI</div>
+              <div class="bronze sponsor">Marcos Hernandez</div>
               <div class="bronze sponsor">Artem Vasiatkin</div>
               <div class="bronze sponsor">Bystroushaak</div>
               <div class="bronze sponsor">Hydroexigiantiki SA</div>
@@ -307,9 +329,9 @@ updateLatestCategoryFromFeed(
               </div>
           </div>
           <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-              <h3 id="grants-title" class="section-title mt-3 placeholder-glow">
+              <h2 id="grants-title" class="section-title mt-3 placeholder-glow">
                   <span class="placeholder col-6 bg-secondary"></span>
-              </h3>
+              </h2>
               <p id="grants-description" class="section-body placeholder-glow">
                   <span class="placeholder col-12 bg-secondary"></span>
                   <span class="placeholder col-8 bg-secondary"></span>

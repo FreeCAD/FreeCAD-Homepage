@@ -43,7 +43,7 @@ function updateLatestCategoryFromFeed(xmlUrl, titleId, bodyId, buttonId, imageId
 }
 
 updateLatestCategoryFromFeed(
-  'proxy-xml.php?url=https://blog.freecad.org/category/events/feed/',
+  'proxy-xml.php?category=events',
   'events-title',
   'events-description',
   'events-link',
@@ -56,7 +56,7 @@ updateLatestCategoryFromFeed(
     <main id="main" class="container-fluid">
 
         <div class="download-notes text-center">
-          <h2 class="downloads-notes-title"><?php echo _('FreeCAD events'); ?></h2>
+          <h1 class="downloads-notes-title"><?php echo _('FreeCAD events'); ?></h1>
           <p>
             <?php echo _('The calendar belows shows upcoming dates of FreeCAD meetings and other community events.'); ?>
           </p>
@@ -81,9 +81,9 @@ updateLatestCategoryFromFeed(
                     </div>
                 </div>
                 <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-                    <h3 id="events-title" class="section-title mt-3 placeholder-glow">
+                    <h2 id="events-title" class="section-title mt-3 placeholder-glow">
                         <span class="placeholder col-6 bg-secondary"></span>
-                    </h3>
+                    </h2>
                     <p id="events-description" class="section-body placeholder-glow">
                         <span class="placeholder col-12 bg-secondary"></span>
                         <span class="placeholder col-8 bg-secondary"></span>

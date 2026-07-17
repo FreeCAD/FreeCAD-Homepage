@@ -63,7 +63,7 @@
     <main id="main" class="container-fluid">
 
         <div class="download-notes text-center">
-            <h2 class="features-title"><?php echo _('Key FreeCAD Features'); ?></h2>
+            <h1 class="features-title"><?php echo _('Key FreeCAD Features'); ?></h1>
         </div>
 
 
@@ -74,7 +74,7 @@
           </div>
 
           <div class="col-lg-5 text-light text-center text-lg-start px-md-4 rounded text-backround">
-            <h3 class="section-title mt-3"><?php echo _('Made to build for the real world'); ?></h3>
+            <h2 class="section-title mt-3"><?php echo _('Made to build for the real world'); ?></h2>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD is made primarily to design objects for the real world. Everything you do in FreeCAD uses real-world
               units, be it microns, kilometers, inches or feet, or even any combination of units. FreeCAD offers <a href=https://wiki.freecad.org/Workbenches>tools</a> to produce, export and
@@ -94,7 +94,7 @@
           </div>
 
           <div class="col-lg-5 text-light text-center text-lg-start px-md-4 rounded text-backround">
-            <h3 class="section-title mt-3"><?php echo _('A powerful solid-based geometry kernel'); ?></h3>
+            <h2 class="section-title mt-3"><?php echo _('A powerful solid-based geometry kernel'); ?></h2>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD features an advanced geometry engine based on
               <a href=https://en.wikipedia.org/wiki/Open_CASCADE>Open CASCADE Technology</a>. It supports solids,
@@ -116,7 +116,7 @@
           </div>
 
           <div class="col-lg-5 text-light text-center text-lg-start px-md-4 rounded text-backround">
-            <h3 class="section-title mt-3"><?php echo _('A wi(l)dly parametric environment'); ?></h3>
+            <h2 class="section-title mt-3"><?php echo _('A wi(l)dly parametric environment'); ?></h2>
             <p class="section-body whitelinks">
               <?php echo _('All FreeCAD objects are natively parametric, meaning their shape can be based on
                 <a href="https://wiki.freecad.org/Property" title="Property">properties</a> such as numeric values, texts, on/off buttons,
@@ -142,7 +142,7 @@
           </div>
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
-            <h3 class="section-title mt-3"><?php echo _('Assembly solutions for every need'); ?></h3>
+            <h2 class="section-title mt-3"><?php echo _('Assembly solutions for every need'); ?></h2>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD has long offered several great community-made add-on assembly
                   workbenches that use different solvers and even solver-free workflows to assemble
@@ -167,7 +167,7 @@
           </div>
 
           <div class="col-lg-6 text-light text-center text-lg-start px-md-4 rounded text-backround">
-            <h3 class="section-title mt-3"><?php echo _('Also for architects'); ?></h3>
+            <h2 class="section-title mt-3"><?php echo _('Also for architects'); ?></h2>
             <p class="section-body whitelinks">
               <?php echo _('Until version 1.0, FreeCAD had a built-in Arch workbench and
               an external BIM workbench added on top of that. With version 1.0, both of them have
@@ -185,7 +185,7 @@
           </div>
 
           <div class="col-lg-6 text-light text-center text-lg-start px-md-4 rounded text-backround">
-            <h3 class="section-title mt-3"><?php echo _('Python everywhere'); ?></h3>
+            <h2 class="section-title mt-3"><?php echo _('Python everywhere'); ?></h2>
             <p class="section-body whitelinks">
               <?php echo _('While the FreeCAD core functionality is coded in C++ for robustness and performance,
                   large parts of the external layers,  workbenches and almost all the communication between
@@ -206,7 +206,7 @@
           </div>
 
           <div class="col-lg-6 text-light text-center text-lg-start px-md-4 rounded text-backround">
-            <h3 class="section-title mt-3"><?php echo _('File formats frenzy'); ?></h3>
+            <h2 class="section-title mt-3"><?php echo _('File formats frenzy'); ?></h2>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD allows you to import and export models and many other kinds of data from your models such as
               analyses results or quantities data to dozens of different <a href="https://wiki.freecad.org/Category:File_Formats">file formats</a> such as
@@ -239,7 +239,7 @@
           </div>
 
           <div class="col-lg-6 text-light text-center text-lg-start px-md-4 rounded text-backround">
-            <h3 class="section-title mt-3"><?php echo _('A parametric constraints-based 2D sketcher'); ?></h3>
+            <h2 class="section-title mt-3"><?php echo _('A parametric constraints-based 2D sketcher'); ?></h2>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD features a state-of-the-art <a href=https://wiki.freecad.org/Sketcher_Workbench>Sketcher</a>
                   with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. Sketches are the main
@@ -259,7 +259,7 @@
           </div>
 
           <div class="col-lg-5 text-light text-center text-lg-start px-md-4 rounded text-backround pb-3">
-            <h3 class="section-title mt-3"><?php echo _('A large (and growing) multi-specialty ecosystem'); ?></h3>
+            <h2 class="section-title mt-3"><?php echo _('A large (and growing) multi-specialty ecosystem'); ?></h2>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD offers dedicated <a href="https://wiki.freecad.org/Workbenches">workbenches</a> for a variety of purposes
               such as
@@ -291,7 +291,7 @@
           </div>
 
           <div class="col-lg-5 text-light text-center text-lg-start px-md-4 rounded text-backround">
-            <h3 class="section-title mt-3"><?php echo _('Developed by a community'); ?></h3>
+            <h2 class="section-title mt-3"><?php echo _('Developed by a community'); ?></h2>
             <p class="section-body whitelinks">
               <?php echo _('FreeCAD is made for everybody, by everybody. It is developed and maintained
               by a community of developers, users, moderators, translators, all united by their wish to make

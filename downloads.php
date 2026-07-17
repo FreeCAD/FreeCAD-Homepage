@@ -52,7 +52,7 @@ function updateLatestCategoryFromFeed(xmlUrl, titleId, bodyId, buttonId, imageId
 }
 
 updateLatestCategoryFromFeed(
-  'proxy-xml.php?url=https://blog.freecad.org/category/releases/feed/',
+  'proxy-xml.php?category=releases',
   'releases-title',
   'releases-description',
   'releases-link',
@@ -67,7 +67,7 @@ updateLatestCategoryFromFeed(
         <!-- Major+Minor Version of FC Stable -->
         <!-- -------------------------------- -->
 
-        <h2 class="downloads-notes-title"><?php echo _('Current stable version:'); ?> 1.1.1</h2>
+        <h1 class="downloads-notes-title"><?php echo _('Current stable version:'); ?> 1.1.1</h1>
         <p><?php echo _('Select your desired platform (note that all downloads are for 64-bit systems):'); ?></p>
 
       </div>
@@ -81,7 +81,7 @@ updateLatestCategoryFromFeed(
           <div class="card text-dark">
             <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
               <img class="w-100 p-4" src="svg/icon-windows.svg" alt="Windows">
-              <h3 class="card-title download-platform-name m-0 pb-3">Windows</h3>
+              <h2 class="card-title download-platform-name m-0 pb-3">Windows</h2>
               <div class="flex-column flex-lg-row">
                 <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-Windows-x86_64-py311-installer.exe">x86_64 installer</a>
                 <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-Windows-x86_64-py311.7z">x86_64 portable (.7z)</a>
@@ -104,7 +104,7 @@ updateLatestCategoryFromFeed(
           <div class="card text-dark">
             <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
               <img class="w-100 p-4" src="svg/icon-apple.svg" alt="Mac">
-              <h3 class="card-title download-platform-name m-0 pb-3">Mac</h3>
+              <h2 class="card-title download-platform-name m-0 pb-3">Mac</h2>
               <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-macOS-arm64-py311.dmg">Apple Silicon</a>
               <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-macOS-x86_64-py311.dmg">Intel</a>
             </div>
@@ -125,7 +125,7 @@ updateLatestCategoryFromFeed(
           <div class="card text-dark">
             <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
               <img class="w-100 p-4" src="svg/icon-linux.svg" alt="Linux">
-              <h3 class="card-title download-platform-name m-0 pb-3">Linux</h3>
+              <h2 class="card-title download-platform-name m-0 pb-3">Linux</h2>
               <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-Linux-x86_64-py311.AppImage">x86_64 AppImage</a>
               <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-Linux-aarch64-py311.AppImage">aarch64 AppImage</a>
             </div>
@@ -218,9 +218,9 @@ updateLatestCategoryFromFeed(
               </div>
           </div>
           <div class="col-lg-6 text-light text-center text-lg-start rounded text-backround pb-3">
-              <h3 id="releases-title" class="section-title mt-3 placeholder-glow">
+              <h2 id="releases-title" class="section-title mt-3 placeholder-glow">
                   <span class="placeholder col-6 bg-secondary"></span>
-              </h3>
+              </h2>
               <p id="releases-description" class="section-body placeholder-glow">
                   <span class="placeholder col-12 bg-secondary"></span>
                   <span class="placeholder col-8 bg-secondary"></span>

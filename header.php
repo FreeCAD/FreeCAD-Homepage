@@ -48,20 +48,21 @@
 <?php } ?>
   <nav class="navbar fixed-top navbar-expand-xl navbar-dark py-1 navbar-custom">
     <a class="navbar-brand" href="<?php echo $homeurl; ?>">
-      <img class="img-fluid" src="svg/logo-freecad.svg" alt="FreeCAD Logo"/>
+      <img class="img-fluid" src="svg/logo-freecad.svg" alt="FreeCAD"/>
     </a>
 
-    <ul class="nav nav-pills ms-auto order-xl-last">
-      <li class="nav-item dropdown">
-        <a class="nav-link text-light rounded-pill dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-          <img src="lang/<?php echo $flagcode; ?>/flag.jpg" alt="" />
-        </a>
+    <div class="nav nav-pills ms-auto order-xl-last">
+      <div class="nav-item dropdown">
+        <button class="nav-link text-light rounded-pill dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+          aria-label="<?php echo htmlspecialchars(sprintf(_('Choose language. The current selection is %s'), $localeName.' ('.$lang.')')); ?>">
+          <img src="lang/<?php echo $flagcode; ?>/flag.jpg" alt="<?php echo htmlentities($localeName); ?>">
+        </button>
 
-        <div class="dropdown-menu-mobile-left dropdown-lang dropdown-menu dropdown-menu-right">
+        <div class="dropdown-menu-mobile-left dropdown-lang dropdown-menu dropdown-menu-end">
           <?php echo getFlags($currentpage); ?>
         </div>
-      </li>
-    </ul>
+      </div>
+    </div>
 
 
     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

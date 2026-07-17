@@ -72,7 +72,7 @@
   <main id="main" class="container-fluid">
     <section class="row section-cover d-flex align-items-center">
       <div class="col-lg-8">
-        <img class="img-fluid" src="images/cover-photo.avif" alt="Cover Photo"/>
+        <img class="img-fluid" src="images/cover-photo.avif" alt="">
       </div>
 
       <div class="col-lg-4 text-center text-lg-start align-content-center order-lg-first">

@@ -15,44 +15,16 @@
 
     $isStripeDonation = isset($_GET['session_id']) || (isset($_GET['stripe']) && $_GET['stripe'] === 'success');
     $url = "#";
-    if (!$isStripeDonation && isset($_GET['url']) ) {
-        $url = urldecode($_GET['url']);
-        // Only allow downloads from trusted source
-        if ( !str_starts_with($url, "https://github.com/FreeCAD/FreeCAD/releases") ) {
-            $url = "#";
-        }
-        if ( strpos( $url, ".." ) !== false ) {
-            $url = "#";
-        }
-        if ( strpos( $url, "\"" ) !== false ) {
-            $url = "#";
-        }
-        if ( strpos( $url, "(" ) !== false ) {
-            $url = "#";
-        }
-        if ( strpos( $url, ";" ) !== false ) {
-            $url = "#";
-        }
-        if ( strpos( $url, "%" ) !== false ) {
-            $url = "#";
-        }
-        // for some reason this does not work on our version of php
-        //if ( !str_ends_with($url, ".7z") ) {
-        //    if ( !str_ends_with($url, ".exe") ) {
-        //        if ( !str_ends_with($url, ".dmg") ) {
-        //            if ( !str_ends_with($url, ".AppImage") ) {
-        //                $url = "#";
-        //            }
-        //        }
-        //    }
-        //}
+    if (!$isStripeDonation && isset($_GET['url']) &&
+        preg_match('@^https://github.com/FreeCAD/FreeCAD/releases/[/a-zA-Z0-9\._-]+$@', $_GET['url'])) {
+        $url = $_GET['url'];
     }
 ?>
 
     <script>
         function startDownload() {
             <?php if (!$isStripeDonation && $url !== "#") { ?>
-            window.location = "<?php echo $url; ?>";
+            window.location = <?php echo json_encode($url, JSON_UNESCAPED_SLASHES); ?>;
             <?php } ?>
         }
     </script>
@@ -60,7 +32,7 @@
     <main id="main" class="container-fluid">
 
         <div class="download-notes text-center">
-            <h2 class="downloads-notes-title"><?php echo _('Thank you!'); ?></h2>
+            <h1 class="downloads-notes-title"><?php echo _('Thank you!'); ?></h1>
 
             <?php if ($isStripeDonation) { ?>
             <p>
@@ -69,7 +41,7 @@
             <?php } else { ?>
             <p>
             <?php echo _('Your download should start automatically.
-            If not, click') ?> <a href="<?php echo $url; ?>"><?php echo _('here'); ?></a>
+            If not, click') ?> <a href="<?php echo htmlentities($url); ?>"><?php echo _('here'); ?></a>
             <?php echo _('to download the file.'); ?>
             </p>
             <?php } ?>
@@ -80,7 +52,7 @@
 
 
           <div class="col-lg-4">
-            <h3><?php echo _('Support FreeCAD!'); ?></h3>
+            <h2><?php echo _('Support FreeCAD!'); ?></h2>
           </div>
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround p-3">
@@ -106,7 +78,7 @@
 
         <section class="row section d-flex justify-content-around">
           <div class="col-lg-4">
-            <h3><?php echo _('Need help?'); ?></h3>
+            <h2><?php echo _('Need help?'); ?></h2>
           </div>
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround p-3">

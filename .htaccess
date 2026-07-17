@@ -11,6 +11,7 @@ FileETag None
 
 RewriteEngine On
 RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !localhost
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
