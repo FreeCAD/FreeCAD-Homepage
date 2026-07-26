@@ -1,0 +1,49 @@
+name: Deploy production website
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: production-website-deployment
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy to production
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      - name: Configure SSH
+        shell: bash
+        env:
+          DEPLOY_KEY: ${{ secrets.PRODUCTION_DEPLOY_KEY }}
+          KNOWN_HOSTS: ${{ secrets.PRODUCTION_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          install -d -m 700 "${HOME}/.ssh"
+          printf '%s\n' "${DEPLOY_KEY}" > "${HOME}/.ssh/production-deploy"
+          chmod 600 "${HOME}/.ssh/production-deploy"
+          printf '%s\n' "${KNOWN_HOSTS}" > "${HOME}/.ssh/known_hosts"
+          chmod 600 "${HOME}/.ssh/known_hosts"
+
+      - name: Deploy website
+        shell: bash
+        env:
+          DEPLOY_HOST: ${{ vars.PRODUCTION_DEPLOY_HOST }}
+        run: |
+          set -euo pipefail
+
+          # No password, and no command to execute: this user can ONLY run a single server-side deployment
+          # script, /usr/local/sbin/deploy-production.sh -- if something about the deployment needs to change,
+          # a system administrator with access to that path on the webserver must log in to edit it.
+          ssh \
+            -i "${HOME}/.ssh/production-deploy" \
+            -o BatchMode=yes \
+            -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile="${HOME}/.ssh/known_hosts" \
+            production-deploy@"${DEPLOY_HOST}"
