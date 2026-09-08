@@ -119,6 +119,10 @@ updateLatestCategoryFromFeed(
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
                 <div class="gold sponsor">
+                    <a class="title">John Smart</a>
+                </div>
+
+                <div class="gold sponsor">
                     <img class="logo" src="images/sponsors/kanardia.png">
                     <a class="title" href="https://www.kanardia.eu/">Kanardia</a>
                     Kanardia develops and manufactures high-performance avionics
@@ -217,6 +221,10 @@ updateLatestCategoryFromFeed(
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
                 <div class="silver sponsor">
+                    Asa Gilmore
+                </div>
+
+                <div class="silver sponsor">
                     <a href="https://itworks.ag">itWorks AG</a>
                      is a management and IT consulting firm focused on aligning technology with business strategy
                 </div>
@@ -268,6 +276,7 @@ updateLatestCategoryFromFeed(
 
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
+              <div class="bronze sponsor">Arnold Nefkens</div>
               <div class="bronze sponsor">Ēriks Klaužs</div>
               <div class="bronze sponsor">Brandon K</div>
               <div class="bronze sponsor">Björn Jürgens</div>
