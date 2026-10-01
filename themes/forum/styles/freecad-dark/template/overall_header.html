@@ -19,7 +19,18 @@
 <!-- ENDIF -->
 
 <!-- IF U_CANONICAL -->
-    <link rel="canonical" href="{U_CANONICAL}" />
+    {% set canonical_parts = U_CANONICAL|replace({'&amp;': '&'})|split('?') %}
+    {% set canonical_url = canonical_parts[0] %}
+    {% set canonical_separator = '?' %}
+    {% if canonical_parts[1] is defined %}
+        {% for parameter in canonical_parts[1]|split('&') %}
+            {% if parameter and parameter|split('=')|first != 'style' %}
+                {% set canonical_url = canonical_url ~ canonical_separator ~ parameter %}
+                {% set canonical_separator = '&' %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+    <link rel="canonical" href="{{ canonical_url|e('html') }}" />
 <!-- ENDIF -->
 
 <link href="{T_THEME_PATH}/print.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet" type="text/css" media="print" title="printonly" />
