@@ -80,8 +80,8 @@ msgid "If you have made a recurring donation above 25 USD/EUR\n"
 msgstr "Si ha hecho una donación recurrente por encima de 25 USD/EUR \n"
 "            al mes (o una donación única por encima de 300 USD/C), es \n"
 "            elegible para convertirse en un patrocinador de bronce, plata u oro, y se puede mostrar \n"
-"            su nombre, el nombre de su empresa o el logotipo en el sitio web de FreeCAD, \n"
-"            dependiendo del nivel en el que su encuentre. Si aún no nos ha informado del \n"
+"            su nombre, el nombre o logotipo de su empresa en el sitio web de FreeCAD, \n"
+"            dependiendo del nivel en el que se encuentre. Si aún no nos ha informado del \n"
 "            nombre que desea ver mostrado, por favor contáctanos en"
 
 #: contributor.php:29
@@ -180,7 +180,7 @@ msgstr "PayPal cobra hasta 35% de comisión por transacciones menores de $5. Par
 
 #: donation.php:316
 msgid "If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount."
-msgstr "Si no está seguro o no puedes comprometerte a una donación regular, pero todavía quiere ayudar al proyecto, puede hacer una donación única de cualquier cantidad."
+msgstr "Si no está seguro o no puede comprometerse a una donación regular, pero todavía quiere ayudar al proyecto, puede hacer una donación única de cualquier cantidad."
 
 #: donation.php:317
 msgid "Choose freely the amount you wish to donate one time only."
@@ -212,7 +212,7 @@ msgstr "Patrocinador de plata"
 
 #: donation.php:346
 msgid "from 100 USD / 100 EUR per month. Your name or company name is displayed on this page, with a link to your website, and a one-line description text."
-msgstr "desde 100 USD/100 EUR por mes. Su nombre o nombre de empresa se muestra en esta página, con un enlace a su sitio web y un texto de descripción en línea."
+msgstr "desde 100 USD/100 EUR por mes. Su nombre o el de su empresa se muestra en esta página, con un enlace a su sitio web y un texto de descripción en línea."
 
 #: donation.php:351
 msgid "Gold sponsor"
@@ -248,7 +248,7 @@ msgstr "Seleccione la plataforma deseada (tenga en cuenta que todas las descarga
 
 #: downloads.php:92
 msgid "Windows 8 is the minimum supported version. For more info on installation, please check out the "
-msgstr "Windows 8 es la mínima versión soportada. Para más información sobre la instalación, por favor revisa "
+msgstr "Windows 8 es la mínima versión soportada. Para más información sobre la instalación, por favor revise "
 
 #: downloads.php:93
 msgid "https://wiki.freecad.org/Install_on_Windows"
@@ -260,7 +260,7 @@ msgstr "wiki"
 
 #: downloads.php:113
 msgid "macOS 10.13 High Sierra is the minimum supported version. For more info on installation, please check out the "
-msgstr "macOS 10.13 High Sierra es la mínima versión soportada. Para más información sobre la instalación, por favor revisa "
+msgstr "macOS 10.13 High Sierra es la mínima versión soportada. Para más información sobre la instalación, por favor revise "
 
 #: downloads.php:114
 msgid "https://wiki.freecad.org/Install_on_Mac"
@@ -268,7 +268,7 @@ msgstr "https://wiki.freecad.org/Install_on_Mac"
 
 #: downloads.php:134
 msgid "For distro-specific install instructions such as Ubuntu PPA and other ways to install on Linux please check out the "
-msgstr "Para ver las instrucciones de instalación de distro específicas, como Ubuntu PPA, y otros modos de instalar en Linux, por favor revisa "
+msgstr "Para ver las instrucciones de instalación de distro específicas, como Ubuntu PPA, y otros modos de instalar en Linux, por favor revise "
 
 #: downloads.php:135
 msgid "https://wiki.freecad.org/Install_on_Unix"
@@ -304,7 +304,7 @@ msgstr "Pedimos que los usuarios avanzados ejecuten ocasionalmente las compilaci
 
 #: downloads.php:169
 msgid "These builds are not suitable for production use, and care should be taken when using them (back up your files regularly, etc.)."
-msgstr "Estas construcciones no son aptas para el uso de la producción, y se debe tener cuidado al usarlas (hacer una copia de seguridad de tus archivos regularmente, etc.)."
+msgstr "Estas construcciones no son aptas para el uso en producción, y se debe tener cuidado al usarlas (hacer una copia de seguridad de sus archivos regularmente, etc.)."
 
 #: downloads.php:170
 msgid "Development builds should be expected to be slower, consume more memory, and be less stable than the official release versions."
@@ -370,7 +370,7 @@ msgstr "El código fuente de FreeCAD está alojado principalmente en "
 
 #: downloads.php:203
 msgid "and mirrored on "
-msgstr "y espejado el "
+msgstr "y reflejado en "
 
 #: downloads.php:206
 msgid "and "
@@ -382,11 +382,11 @@ msgstr "Eventos de FreeCAD"
 
 #: events.php:61
 msgid "The calendar belows shows upcoming dates of FreeCAD meetings and other community events."
-msgstr "El calendario siguiente muestra las fechas venideras de las reuniones de FreeCAD y otros eventos de la comunidad."
+msgstr "El siguiente calendario muestra las fechas próximas de las reuniones de FreeCAD y otros eventos de la comunidad."
 
 #: events.php:79
 msgid "Subscribe to this calendar using this"
-msgstr "Suscríbete a este calendario usando esto"
+msgstr "Suscríbase a este calendario usando esto"
 
 #: events.php:79
 msgid "ICS link"
@@ -445,7 +445,7 @@ msgid "All FreeCAD objects are natively parametric, meaning their shape can be b
 "                <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>."
 msgstr "Todos los objetos de FreeCAD son nativamente paramétricos, significa que su forma puede estar basada en\n"
 "                <a href=\"https://wiki.freecad.org/Property\" title=\"Property\">propiedades</a> como valores numéricos, textos, botones on/off,\n"
-"                o incluso otros objetos. Todos los cambios de forma se recalculan bajo demanda, registrados por una pila de deshacer/rehacer, y permitir mantener\n"
+"                o incluso otros objetos. Todos los cambios de forma se recalculan bajo demanda, registrados por una pila de deshacer/rehacer, y permite mantener\n"
 "                un historial de modelado preciso. Las propiedades de un objeto pueden manejar el valor de las propiedades de otros objetos, permitiendo\n"
 "                complejas, cadenas paramétricas personalizadas que sólo podrían existir en sus sueños más salvajes. Los nuevos objetos paramétricos son\n"
 "                <a href=https://wiki.freecad.org/Scripted_objects>fáciles de programar</a>."
@@ -499,9 +499,9 @@ msgid "While the FreeCAD core functionality is coded in C++ for robustness and p
 msgstr "Mientras que la funcionalidad principal de FreeCAD está escrita en C++ para dar robustez y rendimiento,\n"
 "                  las partes grandes de las capas externas, los entornos de trabajo y casi toda la comunicación entre\n"
 "                  el núcleo y la interfaz de usuario está programada en <a href=https://python.org>Python</a>,\n"
-"                  un lenguaje de programación flexible, fácil de usar y fácil de aprender. Desde código Python, puedes\n"
+"                  un lenguaje de programación flexible, fácil de usar y aprender. Desde código Python, puede\n"
 "                  hacer solo <a href=https://wiki.freecad.org/Power_users_hub>cualquier cosa en FreeCAD</a>, desde simples comandos de línea\n"
-"                  en la consola integrada de Python hasta grabar macros, programando tus propias herramientas hasta\n"
+"                  en la consola integrada de Python hasta grabar macros, programando sus propias herramientas hasta\n"
 "                  bancos de trabajo personalizados."
 
 #: features.php:209
@@ -618,7 +618,7 @@ msgstr "FreeCAD está hecho para todos, por todos. Es desarrollado y mantenido\n
 "              por una comunidad de desarrolladores, usuarios, moderadores, traductores, todos unidos por su deseo hacen de\n"
 "              FreeCAD una herramienta libre y potente. No hay un objetivo comercial detrás de las decisiones que se toman, no\n"
 "              insta a que actualice su versión de FreeCAD o a que lo haga en un flujo de trabajo específico o\n"
-"              ecosistema. FreeCAD y los archivos y datos que produce con FreeCAD son realmente tuyos, para siempre."
+"              ecosistema. FreeCAD y los archivos y datos que produce con él son realmente suyos, para siempre."
 
 #: features.php:309
 msgid "Release notes"
@@ -628,7 +628,7 @@ msgstr "Notas de lanzamiento"
 msgid "Find here the release notes for current and previous FreeCAD versions.\n"
 "                  Release notes describe what&apos;s new in each release:"
 msgstr "Encuentre aquí las notas de publicación para las versiones actuales y anteriores de FreeCAD.\n"
-"                  Las notas de publicación describen qué&apos; hay de nuevo en cada versión:"
+"                  Las notas de publicación describen qué hay de nuevo en cada versión:"
 
 #: features.php:326
 msgid "https://wiki.freecad.org/Release_notes_1.0\" title=\"Release notes 1.0"
@@ -761,7 +761,7 @@ msgstr "otros patrocinadores"
 #: footer.php:40
 msgid "Improve this\n"
 "      page on GitHub"
-msgstr "Mejora esta\n"
+msgstr "Mejore esta\n"
 "      página en GitHub"
 
 #: header.php:25 header.php:38
