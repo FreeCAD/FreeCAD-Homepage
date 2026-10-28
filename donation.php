@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     function updateCurrencyDisplay(currency) {
-        var symbol = currencySymbols[currency] || currencySymbols[defaultCurrency];
+        var symbol = currencySymbols[currency] || currencySymbols.eur;
 
         Object.keys(presetValues).forEach(function(key) {
             var label = document.querySelector("label[for='" + key + "']");
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     currencySelect.addEventListener('change', function() {
-        currency = currencySelect.value || defaultCurrency;
+        currency = currencySelect.value;
         updateCurrencyDisplay(currency);
     });
 
@@ -324,6 +324,9 @@ document.addEventListener('DOMContentLoaded', function() {
               <div id="donationInfo">
                 <p> <?php echo _('If you are not sure or not able to commit to a regular donation, but still want to help the project, you can do a one-time donation, of any amount.'); ?> </p>
                 <p> <?php echo _('Choose freely the amount you wish to donate one time only.'); ?> </p>
+                <div class="mt-4" id="recentDonations">
+                  <ul class="list-group list-group-flush" id="recentDonationsList"></ul>
+                </div>
               </div>
               <div id="sponsorInfo" class="hidden">
                 <p> <?php echo _('You can support FreeCAD by sponsoring it as an individual or organization through various platforms. Sponsorship provides a steady income for developers, allowing the FPA to plan ahead and enabling greater investment in FreeCAD. To encourage sponsorship, we offer different tiers, and unless you choose to remain anonymous, your name or company logo will be featured on our website accordingly.'); ?> </p>
@@ -377,3 +380,100 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var recentDonationsLimit = 5;
+
+    function formatDonationAmount(amount, currency) {
+        var symbol = currency === "usd" ? "$" : "€";
+        var value = Number(amount || 0);
+
+        return symbol + "\u00a0" + (Number.isInteger(value) ? value.toString() : value.toFixed(2));
+    }
+
+    function formatDonationDate(timestamp) {
+        var date = new Date(Number(timestamp || 0) * 1000);
+        var pad = function(value) {
+            return String(value).padStart(2, "0");
+        };
+
+        return date.getFullYear() + "-" +
+            pad(date.getMonth() + 1) + "-" +
+            pad(date.getDate()) + ", " +
+            pad(date.getHours()) + ":" +
+            pad(date.getMinutes()) + ":" +
+            pad(date.getSeconds());
+    }
+
+    function compactTimeAgo(timestamp) {
+        var seconds = Math.max(0, Math.floor(Date.now() / 1000 - Number(timestamp || 0)));
+
+        if (seconds < 60) {
+            return "now";
+        }
+
+        var minutes = Math.floor(seconds / 60);
+
+        if (minutes < 60) {
+            return minutes + "m";
+        }
+
+        var hours = Math.floor(minutes / 60);
+
+        if (hours < 24) {
+            return hours + "h";
+        }
+
+        return Math.floor(hours / 24) + "d";
+    }
+
+    function renderRecentDonations(data) {
+        var list = document.getElementById("recentDonationsList");
+        var donations = data && Array.isArray(data.donations) ? data.donations.slice(0, recentDonationsLimit) : [];
+
+        if (!list) {
+            return;
+        }
+
+        list.innerHTML = "";
+
+        donations.forEach(function(donation) {
+            var item = document.createElement("li");
+            var time = document.createElement("span");
+
+            item.className = "list-group-item bg-dark text-light border-secondary px-0";
+            item.appendChild(document.createTextNode("<?php echo _('Someone donated '); ?>" + formatDonationAmount(donation.amount, donation.currency)));
+
+            time.className = "text-secondary";
+            time.title = formatDonationDate(donation.created);
+            time.textContent = " " + compactTimeAgo(donation.created);
+
+            item.appendChild(time);
+            list.appendChild(item);
+        });
+    }
+
+    function loadRecentDonations() {
+        fetch("stripe-donations.json?_=" + Date.now(), { cache: "no-store" })
+            .then(function(response) {
+                if (!response.ok) {
+                    throw new Error();
+                }
+
+                return response.json();
+            })
+            .then(renderRecentDonations)
+            .catch(function() {});
+    }
+
+    function refreshRecentDonations() {
+        fetch("stripe-donations-refresh.php?_=" + Date.now(), { cache: "no-store" })
+            .then(loadRecentDonations)
+            .catch(loadRecentDonations);
+    }
+
+    refreshRecentDonations();
+    setInterval(refreshRecentDonations, 60000);
+});
+</script>
