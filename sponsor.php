@@ -225,7 +225,8 @@ updateLatestCategoryFromFeed(
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
                 <div class="silver sponsor">
-                    Comfac Cornersteel
+                    <a href="https://www.comfaccorp.com">Comfac Cornersteel</a>
+                    Creative Workplaces Now and Beyond. Integrated End-to-End Workplace Solutions.
                 </div>
 
                 <div class="silver sponsor">
