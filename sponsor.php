@@ -119,6 +119,10 @@ updateLatestCategoryFromFeed(
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
 
                 <div class="gold sponsor">
+                    <a class="title">Serchinastico</a>
+                </div>
+
+                <div class="gold sponsor">
                     <a class="title">John Smart</a>
                 </div>
 
@@ -219,6 +223,10 @@ updateLatestCategoryFromFeed(
             <h2><?php echo _('Silver sponsors'); ?></h2>
           </div>
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4">
+
+                <div class="silver sponsor">
+                    Comfac Cornersteel
+                </div>
 
                 <div class="silver sponsor">
                     Asa Gilmore
