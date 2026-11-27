@@ -67,7 +67,7 @@ updateLatestCategoryFromFeed(
         <!-- Major+Minor Version of FC Stable -->
         <!-- -------------------------------- -->
 
-        <h1 class="downloads-notes-title"><?php echo _('Current stable version:'); ?> 1.1.4</h1>
+        <h1 class="downloads-notes-title"><?php echo _('Current stable version:'); ?> 26.3.0</h1>
         <p><?php echo _('Select your desired platform (note that all downloads are for 64-bit systems):'); ?></p>
 
       </div>
@@ -83,8 +83,9 @@ updateLatestCategoryFromFeed(
               <img class="w-100 p-4" src="svg/icon-windows.svg" alt="Windows">
               <h2 class="card-title download-platform-name m-0 pb-3">Windows</h2>
               <div class="flex-column flex-lg-row">
-                <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.4/FreeCAD_1.1.4-Windows-x86_64-py311-installer.exe">x86_64 installer</a>
-                <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.4/FreeCAD_1.1.4-Windows-x86_64-py311.7z">x86_64 portable (.7z)</a>
+                <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/26.3.0/FreeCAD_26.3.0-Windows-x86_64-installer.exe">x86_64 installer</a>
+                <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/26.3.0/FreeCAD_26.3.0-Windows-x86_64.7z">x86_64 portable (.7z)</a>
+                <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/26.3.0/FreeCAD_26.3.0-Windows-arm64-experimental.7z">Windows on ARM (experimental)</a>
               </div>
             </div>
             <div class="card-footer px-xl-5 py-xl-4">
@@ -105,8 +106,8 @@ updateLatestCategoryFromFeed(
             <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
               <img class="w-100 p-4" src="svg/icon-apple.svg" alt="Mac">
               <h2 class="card-title download-platform-name m-0 pb-3">Mac</h2>
-              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.4/FreeCAD_1.1.4-macOS-arm64-py311.dmg">Apple Silicon</a>
-              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.4/FreeCAD_1.1.4-macOS-x86_64-py311.dmg">Intel</a>
+              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/26.3.0/FreeCAD_26.3.0-macOS15-arm64.dmg">Apple Silicon</a>
+              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/26.3.0/FreeCAD_26.3.0-macOS10-x86_64.dmg">Intel</a>
             </div>
             <div class="card-footer px-xl-5 py-xl-4">
               <small class="text-muted">
@@ -126,8 +127,8 @@ updateLatestCategoryFromFeed(
             <div class="card-body d-block align-items-center text-center px-xl-5 py-xl-4">
               <img class="w-100 p-4" src="svg/icon-linux.svg" alt="Linux">
               <h2 class="card-title download-platform-name m-0 pb-3">Linux</h2>
-              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.4/FreeCAD_1.1.4-Linux-x86_64-py311.AppImage">x86_64 AppImage</a>
-              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.4/FreeCAD_1.1.4-Linux-aarch64-py311.AppImage">aarch64 AppImage</a>
+              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/26.3.0/FreeCAD_26.3.0-Linux-x86_64.AppImage">x86_64 AppImage</a>
+              <a class="btn btn-primary rounded-pill my-1" onclick="thankyou(event)" role="button" href="https://github.com/FreeCAD/FreeCAD/releases/download/26.3.0/FreeCAD_26.3.0-Linux-aarch64.AppImage">aarch64 AppImage</a>
             </div>
             <div class="card-footer px-xl-5 py-xl-4">
               <small class="text-muted">
@@ -146,7 +147,7 @@ updateLatestCategoryFromFeed(
       <div class="download-notes text-center">
         <p>
           <?php echo _("See what has changed since last version in the"); ?>
-          <a class="badge text-bg-light text-decoration-none" href="<?php echo _('https://wiki.freecad.org/Release_notes_1.1'); ?>"><?php echo _('FreeCAD 1.1 release notes'); ?></a>
+          <a class="badge text-bg-light text-decoration-none" href="<?php echo _('https://wiki.freecad.org/Release_notes_26.3'); ?>"><?php echo _('FreeCAD 26.3 release notes'); ?></a>
         </p>
       </div>
 
